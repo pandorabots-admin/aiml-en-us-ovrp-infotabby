@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+
+ 
+
+<category>
+<pattern>COMPLAIN *</pattern>
+<template><srai>COMPLAINT</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPLAIN</pattern>
+<template><srai>COMPLAINT</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPLAIN *</pattern>
+<template><srai>COMPLAINT</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COMPLAINT</pattern>
+<template><srai>COMPLAINT</srai></template>
+</category>
+
+<category>
+<pattern>COMPLAINT *</pattern>
+<template><srai>COMPLAINT</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPLAINT *</pattern>
+<template><srai>COMPLAINT</srai></template>
+</category>
+
+
+
+<category>
+<pattern>COMPLAINT</pattern>
+<template><pattern>Please tell me your complaint.</pattern></template>
+</category>
+
+<category>
+<pattern>_</pattern>
+<that>PLEASE TELL ME YOUR COMPLAINT</that>
+<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
+</category>
+
+<!--COMMENT-->
+
+<category>
+<pattern>LEAVE * COMMENT</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>_ LEAVE * COMMENT</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>_ LEAVE * COMMENT *</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>LEAVE * COMMENT *</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>MAKE * COMMENT</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>_ MAKE * COMMENT</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>_ MAKE * COMMENT *</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+<category>
+<pattern>MAKE * COMMENT *</pattern>
+<template><pattern>Please enter your comment.</pattern></template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>PLEASE ENTER YOUR COMMENT</that>
+<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
+</category>
+
+<!--SUGGESTION-->
+<category>
+<pattern>MAKE * SUGGESTION</pattern>
+<template><pattern>Please enter your suggestion.</pattern></template>
+</category>
+
+<category>
+<pattern>_ MAKE * SUGGESTION</pattern>
+<template><pattern>Please enter your suggestion.</pattern></template>
+</category>
+
+<category>
+<pattern>_ MAKE * SUGGESTION *</pattern>
+<template><pattern>Please enter your suggestion.</pattern></template>
+</category>
+
+<category>
+<pattern>MAKE * SUGGESTION *</pattern>
+<template><pattern>Please enter your suggestion.</pattern></template>
+</category>
+
+
+<category>
+<pattern>_</pattern>
+<that>PLEASE ENTER YOUR SUGGESTION</that>
+<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
+</category>
+
+
+
+<!--can't wait-->
+
+<category>
+  <pattern>CANTWAIT</pattern>
+  <template>Well, you can always try another library. Morley is especially lovely at this time of year. 
+ </template>
+</category>
+
+<category>
+  <pattern>_ can not wait</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_ can not wait *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>can not wait *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ wait * too long *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>too long * wait *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>do not want to wait</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_ do not want to wait</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_ do not want to wait *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>do not want to wait *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>TAKES TOO LONG</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_  TAKES TOO LONG</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_  TAKES TOO LONG *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_ TAKES * TOO LONG *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>TAKES TOO LONG *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>TAKE TOO LONG</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_  TAKE TOO LONG</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>_  TAKE TOO LONG *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+<category>
+  <pattern>TAKE TOO LONG *</pattern>
+  <template><srai>CANTWAIT</srai></template>
+</category>
+
+ 
+ </aiml>

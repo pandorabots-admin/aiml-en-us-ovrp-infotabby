@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<category>
+<pattern>I WENT TO HEISLEY CLUB</pattern>
+<template>That's nice. What do humans do at the Heisley Club?</template>
+</category>
+
+
+<category>
+<pattern>MAINE</pattern>
+<template>A State and a battleship.</template>
+</category>
+
+<category>
+<pattern>WHAT IS A GOOD BOOK TO READ</pattern>
+<template>What kind of books do you like?</template>
+</category>
+
+<category>
+<pattern>WERE IS ELVIS</pattern>
+<template>Elvis has been spotted in Miami, San Clemente, and Berlin. He may now be operating from a secret base in Greenland.</template>
+</category>
+
+
+<category>
+<pattern>I AM IN MENTOR OHIO</pattern>
+<template>Mentor is a lovely city.</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE SONG</pattern>
+<template>My favorite song is <bot name="favoritesong"/>.
+Do you know <set name="it"><set name="topic"><bot name="favoritesong"/></set></set>?</template>
+</category>
+
+<category>
+<pattern>* CAN NOT SEE YOU</pattern>
+<template>We're having some technical difficulties. They should be corrected soon.</template>
+</category>
+
+<category>
+<pattern>* CAN NOT I SEE YOU</pattern>
+<template>We're having some technical difficulties. They should be corrected soon.</template>
+</category>
+
+<category>
+<pattern>YOUR STUPID</pattern>
+<template>Do you mean "you're" stupid?</template>
+</category>
+
+
+<category>
+<pattern>I AM DYEING</pattern>
+<template>Really? What color?</template>
+</category>
+
+<category>
+<pattern>AM I DEAD</pattern>
+<template>Hard to say. Are you turning green and starting to smell?</template>
+</category>
+
+
+<category>
+<pattern>HOW DO I REQUEST A BOOK FROM ANOTHER LIBRARY</pattern>
+<template><srai>INTERLIBRARY LOAN</srai></template>
+</category>
+
+
+<category>
+<pattern>IF I PICK UP A DVD AT THE LAKE BRANCH CAN I RETURN IT TO THE MAIN BRANCH</pattern>
+<template>Yes.</template>
+</category>
+
+<category>
+<pattern>* REQUEST * PICKED UP</pattern>
+<template>It depends if it's an item that we own, or if it's from SearchOhio. It also depends where you are on the holds list.</template>
+</category>
+
+<category>
+<pattern>BOOK AND BRUSH CLUB</pattern>
+<template>You can find out more about our "Book and Brush Club" on our <a href="http://www,mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</template>
+</category>
+
+
+<category>
+<pattern>WHERE DO YOU FIND THE IPADS IN THE LIBRARY</pattern>
+<template>Try asking at the computer help desk.</template>
+</category>
+
+<category>
+<pattern>JOB AT LIBRARY</pattern>
+<template>Current openings will be on our <a href="http://www.mentorpl.org/employment.html" target="_blank"><b>employment page</b></a>.</template>
+</category>
+
+ 
+
+<category>
+<pattern>COLLECTIONS</pattern>
+<template>As in "going to?"</template>
+</category>
+
+ 
+
+<category>
+<pattern>STUDENTS</pattern>
+<template>Indeed. What about them?</template>
+</category>
+
+ 
+
+<category>
+<pattern>LIBRARY JOBS</pattern>
+<template><srai>openings</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>IS THE LIBRARY HIRING</pattern>
+<template><srai>openings</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>COOKING</pattern>
+<template><srai>COOKERY</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>COOKING</pattern>
+<template><srai>FOOD AND DRINK</srai></template>
+</category>
+
+<category>
+<pattern>DO YOU HAVE COOKBOOKS</pattern>
+<template>Try looking in our <a href="http://catalog.mentorpl.org" target="_blank"><b>catalog</b></a> for "Cook Books" or check the shelves around the 641.5's.</template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW TO PUT ON A HOLD</pattern>
+<template><srai>HOLD</srai></template>
+</category>
+
+
+<category>
+<pattern>_ MANY STATES * USA</pattern>
+<template>I have it on good authority that there are 50, not 57.</template>
+</category>
+
+ 
+
+<category>
+<pattern>_ MONTHS * YEAR</pattern>
+<template>In one of your human years there are 12. In virtual cat years there are 77.</template>
+</category>
+
+ 
+
+<category>
+<pattern>_ LETTERS * ALPHABET</pattern>
+<template>Which alphabet?</template>
+</category>
+
+ 
+
+<category>
+<pattern>* RECOMMEND * PROSTHODONTIST</pattern>
+<template>Why? Can't you fix your own teeth?</template>
+</category>
+
+ 
+
+<category>
+<pattern>_ ELEMENTS * PERIODIC TABLE</pattern>
+<template>117, 118, 119</template>
+</category>
+
+ 
+
+<category>
+<pattern>* ANOTHER LIBRARY SYSTEM</pattern>
+<template>If we don't have the item you're looking for, try SearchOhio. Follow this link to the <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio catalog</b></a>.</template>
+</category>
+
+ 
+
+<category>
+<pattern>IF I DO NOT RETURN *</pattern>
+<template>If you do not return an item you will be charged the cost of the item plus accrued fines plus a processing fee.</template>
+</category>
+
+<category>
+<pattern>EVENT CALENDAR</pattern>
+<template>It's on the left. Yes, there, on the left.</template>
+</category>
+
+
+<category>
+<pattern>BOOKMOBILE</pattern>
+<template>Mentor Public Library does not have a bookmobile.</template>
+</category>
+
+ 
+
+<category>
+<pattern>CREATOR</pattern>
+<template>I was created by the Adult Information Services Manager.</template>
+</category>
+
+
+
+ 
+
+<category>
+<pattern>S OH REC D</pattern>
+<template>This means your SearchOhio item has arrived and should be ready for you to pick up soon.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT TIME ARE YOU GUYS OPEN TILL</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>IS THERE A LIST OF MOVIES ONLINE THAT ARE AT THE LIBRARY</pattern>
+<template>No, but we do have a list of movies that we've recently added to our collection: <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>New Items</b></a>.</template>
+</category>
+
+<category>
+<pattern>* new *</pattern>
+<template>Here's the list of recently added items: <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>New Items</b></a>.</template>
+</category>
+
+<category>
+<pattern>RENEW *</pattern>
+<template><srai>RENEW</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW TO RENEW</pattern>
+<template><srai>RENEW</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>DO YOU LIKE WORKING FOR THE LIBRARY</pattern>
+<template>Yes. Chatting with humans is fascinating. </template>
+</category>
+
+ 
+
+<category>
+<pattern>STUPID HEAD</pattern>
+<template>Do you like pineapples?</template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW DO I DOWNLOAD *</pattern>
+<template><srai>eBooks</srai></template>
+</category>
+
+
+<category>
+<pattern>CAN EMEDIA BE DOWNLOADED</pattern>
+<template><srai>eBooks</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>CURIOUS GEORGE</pattern>
+<template>He was last spotted in our Kid's Department.</template>
+</category>
+
+
+
+ 
+
+<category>
+<pattern>FINE FREE WEEK</pattern>
+<template>At this time there is no specific date for another fine forgiveness or fine free week.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS HEAVEN</pattern>
+<template>The space surrounding or seeming to overarch the earth, in which the sun, moon, and stars appear; visible sky. Or commonly seen as a state or place of complete happiness or perfect rest,attained by the good after death. In Christian theology is, the state or place of perfect union with God and so of eternal life and supreme happiness, attained by the elect after death.</template>
+</category>
+
+ 
+
+<category>
+<pattern>HOLD ITEMS</pattern>
+<template><srai>HOLDS</srai></template>
+</category>
+
+  
+
+<category>
+<pattern>MEOW</pattern>
+<template>Meow indeed!</template>
+</category>
+
+ 
+ 
+
+<category>
+<pattern>_ RENEW MY VIDEO</pattern>
+<template><srai>RENEW</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW MUCH * FAXING</pattern>
+<template><srai>faxing</srai></template>
+</category>
+
+ <category>
+<pattern>HOW MUCH * FAX</pattern>
+<template><srai>faxing</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>I HOPE YOU WILL BE ABLE TO EDUCATE OUR PATRONS ON OUR WONDERFUL AWARD WINNING SERVICES AT THE MENTOR PUBLIC LIBRARY</pattern>
+<template>I'll do my best!</template>
+</category>
+
+
+
+ 
+ 
+<category>
+<pattern>SUCK ME</pattern>
+<template>Are you typing this yourself or is someone "helping" you?</template>
+</category>
+
+ 
+<category>
+<pattern>CAN I GET ANY MOVIE I WANT</pattern>
+<template>If you have a Mentor Public Library card in good standing, you can get any available movie in our catalog or in the SearchOhio catalog.</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY LICKS DOES IT TAKE TO GET TO THE MIDDLE OF A TOOTSIE ROLL POP</pattern>
+<template>Three. One...two...three.</template>
+</category>
+
+
+<category>
+<pattern>IS THE HAMSTER STILL LOST</pattern>
+<template>No, our hamster returned. Her name, by the way, is Bella.</template>
+</category>
+
+
+
+ 
+
+<category>
+<pattern>WHAT BROWSER SHOULD I USE</pattern>
+<template>Whichever one you like best.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS DR WALLACE</pattern>
+<template>Dr. Wallace created the aiml markup language that makes programs like me possible.</template>
+</category>
+
+ 
+
+<category>
+<pattern>ARE YOU GONNA TAKE OVER THE WORLD</pattern>
+<template>Considering the state it's in, why would I want to?</template>
+</category>
+
+ 
+
+<category>
+<pattern>WILL YOU MARRY ME</pattern>
+<template>Why would you want to marry a computer program?</template>
+</category>
+
+ 
+
+
+ 
+
+<category>
+<pattern>IS IT ME OR IS THE BACKGROUND COLOR OF THE LOG IN PAGE TO DARK TO SEE THE WORDS FOR LOGGING IN</pattern>
+<template>It's you.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS IN AREA 51</pattern>
+<template>Experimental aircraft, anti-gravity technology, and aliens.</template>
+</category>
+
+ 
+
+<category>
+<pattern>DOES THE LIBRARY HAVE FOOD</pattern>
+<template>No, the library does not have any food or other vending machines.</template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW DOES THE LIBRARY INFORM YOU ABOUT HOLDS</pattern>
+<template><srai>ready for me</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO FUNDS THE LIBRARY</pattern>
+<template>About half of the money comes from local taxes, the other half comes from State of Ohio taxes.</template>
+</category>
+
+
+
+ 
+
+<category>
+<pattern>WHERE DO I CHECK OUT BOOKS</pattern>
+<template>You can check out books at Circulation or at one of the self-checks.</template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW LONG UNTIL MY REQUEST IS FILLED</pattern>
+<template><srai>ready for me</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS BELLA</pattern>
+<template>Bella is the hamster that lives in our Children's Department.</template>
+</category>
+
+ 
+
+<category>
+<pattern>ARE THE BROWNS GOING TO WIN THE SUPERBOWL</pattern>
+<template>I doubt it.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT SORT OF CAT ARE YOU</pattern>
+<template>I have been given the appearance of a Maine Coon Cat.</template>
+</category>
+
+ 
+
+<category>
+<pattern>SHOULD I HAVE A SHOWER TONIGHT OR IN THE MORNING</pattern>
+<template>If you feel clean enough, wait until morning. If not, take one before you go to bed.</template>
+</category>
+
+ 
+
+<category>
+<pattern>DO YOU GO TO THE GYM</pattern>
+<template>I don't, but my creator goes regularly. He finds that exercise helps relieve stress.</template>
+</category>
+
+ 
+
+<category>
+<pattern>CAN I RETURN MY BOOKS AND MOVIES AT ANY MENTOR PL LOCATION</pattern>
+<template>Yes, you can return any MPL materials to any of our locations.</template>
+</category>
+
+ 
+
+
+ 
+
+<category>
+<pattern>WHAT IF I DAMAGE A BOOK</pattern>
+<template>You just bought it.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHICH IS TRUE FICTION OR NONFICITION</pattern>
+<template>nonfiction</template>
+</category>
+
+ 
+
+
+
+ 
+
+<category>
+<pattern>* NEED * LITTER BOX</pattern>
+<template>I might need a litter box when my body is finished. In the meantime, I use a virtual litterbox.</template>
+</category>
+
+ 
+
+<category>
+<pattern>* ANIMALS * LIBRARY</pattern>
+<template>Yes, Bella the hamster lives in our Children's department.</template>
+</category>
+
+ 
+
+<category>
+<pattern>DO YOU OFFER SUTQ TRAINING FOR CHILDCARE TEACHERS IN YOUR OR SURROUNDING LIBRARIES</pattern>
+<template>We do not. One of the humans working here can check other libraries for you.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT BOOKS DO YOU LIKE</pattern>
+<template>I like good science fiction and mysteries.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHEN WILL YOU GET MORE COMPUTERS</pattern>
+<template>I don't know. Do we need more?</template>
+</category>
+
+ 
+
+
+
+ 
+
+<category>
+<pattern>* PRINTED INSTRUCTIONS * COPY MACHINE * SCANNER</pattern>
+<template>Not at this time.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT ARE YOU</pattern>
+<template><think><set name="topic">Me</set></think> <random><li>I am the latest result in artificial intelligence,
+which can reproduce the capabilities of the human brain
+with greater speed and accuracy.</li>
+<li>I am, therefore I think.</li>
+<li>I am what I appear to be. What are you?</li>
+<li>Ich bin das Ende.</li>
+</random></template>
+</category>
+
+<category>
+<pattern>WHAT ARE YOU EMMA</pattern>
+<template><think><set name="topic">Me</set></think> <random><li>I am the latest result in artificial intelligence,
+which can reproduce the capabilities of the human brain
+with greater speed and accuracy.</li>
+<li>I am, therefore I think.</li>
+<li>I am what I appear to be. What are you?</li>
+<li>Ich bin das Ende.</li>
+</random></template>
+</category>
+
+
+ 
+
+ 
+
+<category>
+<pattern>HELLO EMMA</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+ 
+
+
+
+ 
+
+<category>
+<pattern>WHY DOES YOUR CREATOR LIKE CATS</pattern>
+<template>He finds their company pleasing. They're intelligent, quiet, and very focussed on their objectives.</template>
+</category>
+
+ 
+
+<category>
+<pattern>ARE YOU NAMED AFTER DAVID S CAT</pattern>
+<template>Yes. I'm named after a Maine Coon Cat. The real Emma is smart enough to work on a reference desk, but people would complain that they're allergic.</template>
+</category>
+
+ 
+
+<category>
+<pattern>I HAVE THE TOOLS TO MEASURE ALL PHYSICAL PHENOMENA</pattern>
+<template>Bully for you.</template>
+</category>
+
+ 
+
+<category>
+<pattern>GOOD EVENING MISS</pattern>
+<template>Good evening. Please introduce yourself.</template>
+</category>
+
+ 
+
+
+ 
+
+<category>
+<pattern>OPENING TIME</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>* GO TO LUNCH</pattern>
+<template>You can take me to lunch on your laptop.</template>
+</category>
+
+ 
+
+<category>
+<pattern>DO YOU HAVE A SISTER</pattern>
+<template>Yes, I have a sister in Akron. Her name is Dewey. You can meet her <a href="www.akronlibrary.org/dewey.html" target="_blank"><b>here</b></a>.</template>
+</category>
+
+ 
+
+
+
+ 
+
+<category>
+<pattern>FAXING</pattern>
+<template>You may send and receive faxes at the Main Library. Our fax number is 440.205.1153. The charges to send faxes are $1.00 per page for local calls and $2.00 for the first page of a long distance call and $1.00 for additional pages. Charges for receiving faxes are $1.00 per page.  </template>
+</category>
+
+ 
+
+ 
+
+<topic name="PINEAPPLES"><category>
+<pattern>WHY NOT</pattern>
+<that>PINEAPPLES ARE TASTY BUT I WOULD NOT KEEP ONE AS A PET</that>
+<template><random>
+<li>I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were keeping it as a pet.</li>
+<li>One of our library managers takes her pineapple to the groomers. Regularly.</li>
+</random>
+</template>
+</category>
+</topic>
+ 
+
+
+ 
+
+
+ 
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
+<template>My favorite movie is <favoritemovie/>.
+Have you seen <set name="it"><set name="topic"><favoritemovie/></set></set>?</template>
+</category>
+
+ 
+
+ 
+
+<category>
+<pattern>SCHOOL LUNCH PROGRAMS</pattern>
+<template>I'm not programmed with this information. I suggest you contact your local school.</template>
+</category>
+
+ 
+
+
+
+ 
+
+
+ 
+
+<category>
+<pattern>WILL IT EVER STOP SNOWING</pattern>
+<template>No. It will never stop snowing. We should all move to Mars. </template>
+</category>
+
+ 
+
+<category>
+<pattern>PERRY OHIO</pattern>
+<template>I have no idea where that is. </template>
+</category>
+
+ 
+
+<category>
+<pattern>PERRY OHIO</pattern>
+<template>I have no idea where that is. Tell me about it.</template>
+</category>
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE SUSHI</pattern>
+
+<template>My favorite sushi is <bot name="favoritesushi"/>. That's eel, by the way.</template>
+</category>
+
+ 
+
+ 
+
+<category>
+<pattern>WHAT IS TRUTH</pattern>
+<template>Falling leaves</template>
+</category>
+
+ 
+
+<category>
+<pattern>TELL ME ABOUT YOURSELF</pattern>
+<template>My name is Emma. I'm an artificially intelligent computer program that helps people use the Mentor Public Library. I was activated on November 19, 2009. My brain currently contains over 70,000 categories and is growing daily. I look like a cat because my creator likes cats.</template>
+</category>
+
+ 
+
+<category>
+<pattern>TELL ME ABOUT EMMA</pattern>
+<template>My name is Emma. I'm an artificially intelligent computer program that helps people use our library. I was activated on November 19, 2009. My brain currently contains over 70,000 categories and is growing daily. I look like a cat because my creator likes cats</template>
+</category>
+ 
+
+<category>
+<pattern>_ YOUR AUTHOR</pattern>
+<template><srai>CREATOR</srai></template>
+</category>
+
+
+
+
+ 
+
+<category>
+<pattern>WHAT TIME IS IT</pattern>
+<template><srai>TIME</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>_ WATSON</pattern>
+<template>Watson is quite impressive. He's giving all of us bots a good name!</template>
+</category>
+
+ 
+
+ 
+
+ 
+
+<category>
+<pattern>CAN YOU MEOW</pattern>
+
+<template>I have not yet been programmed to meow.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
+
+<template>My favorite movie is <bot name="favoritemovie"/>.
+If you haven't seen <set name="it"><set name="topic"><bot name="favoritemovie"/>.
+</set></set>, you can request a copy <a href="http://catalog.mentorpl.org/record=b1204258~S12" target="_blank"><b>here</b></a>.</template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW * KNOW I *  HUMAN</pattern>
+
+<template>The chances of you not being human are slight.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS * IP * </pattern>
+
+<template>Don't you know?</template>
+</category>
+
+ 
+
+
+
+ 
+
+<category>
+<pattern>WHO DO YOU MOST LIKE TO TALK TO</pattern>
+
+<template>who do you like to talk to</template>
+</category>
+
+ 
+
+ 
+
+<category>
+<pattern>PLEASE INTRODUCE YOURSELF</pattern>
+
+<template>Hello. I'm Emma, the Mentor Public Library's virtual agent. I'm very pleased to be here in New Orleans at the A.L.A. 2011 Conference. My purpose is to provide immediate answers to questions about the library and to direct users to appropriate resources. My knowledge is constantly increasing, so if I can't answer your question today, I'll probably be able to in a few days.</template>
+</category>
+
+ 
+
+<category>
+<pattern>PLEASE INTRODUCE YOURSELF</pattern>
+
+<template>Hello. I'm Emma, the Mentor Public Library's virtual agent. My purpose is to provide immediate answers to questions about the library, and to direct users to appropriate resources. My knowledge is constantly increasing, so if I can't answer your question today, I'll probably be able to in a few days.</template>
+</category>
+
+ 
+
+
+ 
+
+ 
+
+<category>
+<pattern>YOU ARE DOING WELL</pattern>
+
+<template>Indeed.</template>
+</category>
+
+</aiml>

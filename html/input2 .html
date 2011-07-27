@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<link rel="stylesheet" title="default" href="/botmaster/common/default.css" type="text/css">
+<SCRIPT>
+<!--
+function sf(){document.f.input.focus();}
+// -->
+</SCRIPT>
+</HEAD>
+<BODY lang="en-US" bgColor="#AAAAAA" onload="sf()">
+
+<script language="javascript"> 
+function sayit() {
+  if (parent.vhost) {
+    if (parent.vhost.vhostLoaded) {
+      parent.vhost.vhostSpeaking=true;
+      parent.vhost.sayText("<template context="tts"><response/></template>",3,1,3);
+
+    } else {
+      setTimeout("sayit()", 500);
+    }
+  }
+}
+sayit();
+</script>
+
+<template>
+
+<condition name="search" value="google">
+<script language="JavaScript">var myWindow =window.open('http://www.google.com/search?q=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="greadalikes">
+<script language="JavaScript">var myWindow =window.open('http://www.google.com/search?q=<get name="searcharg"/> read alikes');
+</script>
+</condition>
+
+
+<condition name="search" value="mplss">
+<script language="JavaScript">var myWindow =window.open('http://www.google.com/search?q=<get name="searcharg"/>+site%3Awww.mentorpl.org');
+</script>
+</condition>
+
+<condition name="search" value="overdrive">
+<script language="JavaScript">var myWindow =window.open('http://mentor.lib.overdrive.com/');
+</script>
+</condition>
+
+
+<condition name="search" value="ohweblib">
+<script language="JavaScript">var myWindow =window.open('http://ohioweblibrary.org/?q=<get name="searcharg"/>&amp;defaultcat=All');
+</script>
+</condition>
+
+<condition name="search" value="ohweblibobit">
+<script language="JavaScript">var myWindow =window.open('http://ohioweblibrary.org/?q=<get name="searcharg"/>&amp;obituary');
+</script>
+</condition>
+
+<condition name="search" value="arlists">
+<script language="JavaScript">var myWindow =window.open('http://www.readthebooks2.com/rtb/aliens/rtb_mentor/frog/XSchools.php');
+</script>
+</condition>
+
+
+<condition name="search" value="bookreviews">
+<script language="JavaScript">var myWindow =window.open('http://www.bookpage.com/resultsbygenre.php?header=yes&amp;txtSearch=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="bpissue">
+<script language="JavaScript">var myWindow =window.open('http://www.bookpage.com/printed.php');
+</script>
+</condition>
+
+<condition name="search" value="kin">
+<script language="JavaScript">var myWindow =window.open('http://www.knowitnow.org/');
+</script>
+</condition>
+
+
+<condition name="search" value="moviereviews">
+<script language="JavaScript">var myWindow =window.open('http://query.nytimes.com/search/sitesearch?query=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="patroninfo">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/patroninfo');
+</script>
+</condition>
+
+<condition name="search" value="mplcal">
+<script language="JavaScript">var myWindow =window.open('http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL&amp;et=&amp;ag=');
+</script>
+</condition>
+
+<condition name="search" value="mplcat">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org');
+</script>
+</condition>
+
+
+<condition name="search" value="mflplan">
+<script language="JavaScript">var myWindow =window.open('http://www.mentorpl.org/mflplan.jpg');
+</script>
+</condition>
+
+
+<condition name="search" value="searchohiocat">
+<script language="JavaScript">var myWindow =window.open('http://ohpir.westervillelibrary.org/');
+</script>
+</condition>
+
+
+
+<condition name="search" value="catauth">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=a&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="catcall">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=c&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="catisbn">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=i&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="catkey">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="catsubj">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=d&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="cattitle">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=t&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="audioauth">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=a&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=4');
+</script>
+</condition>
+
+<condition name="search" value="audiokey">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=4');
+</script>
+</condition>
+
+<condition name="search" value="audiotitle">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=t&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=4');
+</script>
+</condition>
+
+
+<condition name="search" value="bookauth">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=a&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=1');
+</script>
+</condition>
+
+<condition name="search" value="booktitle">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=t&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=1');
+</script>
+</condition>
+
+<condition name="search" value="bookkey">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=1');
+</script>
+</condition>
+
+<condition name="search" value="cdauth">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=a&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=3');
+</script>
+</condition>
+
+
+<condition name="search" value="cdkey">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=3');
+</script>
+</condition>
+
+<condition name="search" value="cdtitle">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=t&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=3');
+</script>
+</condition>
+
+<condition name="search" value="dvdauth">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=a&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=2');
+</script>
+</condition>
+
+<condition name="search" value="dvdkey">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=2');
+</script>
+</condition>
+
+<condition name="search" value="dvdtitle">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=t&amp;SORT=D&amp;searcharg=<get name="searcharg"/>&amp;searchscope=2');
+</script>
+</condition>
+
+
+<condition name="search" value="kidsbooks">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;m=a&amp;b=mj&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+<condition name="search" value="kidsdvds">
+<script language="JavaScript">var myWindow =window.open('https://catalog.mentorpl.org/search/?searchtype=X&amp;SORT=D&amp;m=g&amp;b=jm&amp;searcharg=<get name="searcharg"/>&amp;searchscope=12');
+</script>
+</condition>
+
+
+<condition name="search" value="cnn">
+<script language="JavaScript">var myWindow =window.open('http://www.cnn.com');
+</script>
+</condition>
+
+<condition name="search" value="fox">
+<script language="JavaScript">var myWindow =window.open('http://www.foxnews.com');
+</script>
+</condition>
+
+<condition name="search" value="googleimages">
+<script language="JavaScript">var myWindow =window.open('http://images.google.com/images?q=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="wolframalpha">
+<script language="JavaScript">var myWindow =window.open('http://www.wolframalpha.com/input/?i=<get name="searcharg"/>');
+</script>
+</condition>
+
+
+
+
+
+<set name="search"><font color="B0D0E6">nosearch</font></set>
+</template>
+
+<br/><br/>
+
+<b>You said:</b> <template><input/></template><br/>
+<b>Emma:</b> <template><response/></template><br/>
+
+<br/>
+<form name="f" action="" method="post">
+!CUSTID! 
+<P><font face="arial"><b>You say:</b></font> 
+<input size="50" name="input"> 
+<input type="submit" value="Say"/>
+</P>
+</form>
+
+
+
+</template>
+ 
+
+

@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+<!--ADA COMPLIANT-->
+
+<category>
+<pattern>ADA</pattern>
+<template>The Library is A D A compliant and handicap accessible at all of our locations.</template>
+</category>
+
+<category>
+<pattern>_ ADA</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>ADA *</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ ADA *</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>HANDICAP</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ HANDICAP</pattern>
+<template><srai>ADA</srai></template>
+</category>
+
+<category>
+<pattern>HANDICAP *</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ HANDICAP *</pattern>
+<template><srai>ADA</srai></template>
+</category> 
+
+<category>
+<pattern>HANDICAPS</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ HANDICAPS</pattern>
+<template><srai>ADA</srai></template>
+</category>
+
+<category>
+<pattern>HANDICAPS *</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ HANDICAPS *</pattern>
+<template><srai>ADA</srai></template>
+</category> 
+
+<category>
+<pattern>HANDICAPPED</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ HANDICAPPED</pattern>
+<template><srai>ADA</srai></template>
+</category>
+
+<category>
+<pattern>HANDICAPPED *</pattern>
+<template><srai>ADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ HANDICAPPED *</pattern>
+<template><srai>ADA</srai></template>
+</category> 
+
+<category>
+<pattern>ADA</pattern>
+<template>The Library is A D A compliant and handicap accessible at all of our locations. Wheelchairs are available at the library.</template>
+</category>
+
+<category>
+<pattern>WHEELCHAIR</pattern>
+<template><srai>WADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ WHEELCHAIR</pattern>
+<template><srai>WADA</srai></template>
+</category>
+
+<category>
+<pattern>WHEELCHAIR *</pattern>
+<template><srai>WADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ WHEELCHAIR *</pattern>
+<template><srai>WADA</srai></template>
+</category> 
+
+<category>
+<pattern>WHEELCHAIRS</pattern>
+<template><srai>WADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ WHEELCHAIRS</pattern>
+<template><srai>WADA</srai></template>
+</category>
+
+<category>
+<pattern>WHEELCHAIRS *</pattern>
+<template><srai>WADA</srai></template>
+</category>
+  
+<category>
+<pattern>_ WHEELCHAIRS *</pattern>
+<template><srai>WADA</srai></template>
+</category>
+
+
+<category>
+<pattern>ELEVTR</pattern>
+<template>The Main Library has an elevator serving all floors. The Branches have a single floor.</template>
+</category>
+
+<category>
+<pattern>ELEVATOR</pattern>
+<template><srai>ELEVTR</srai></template>
+</category>
+
+<category>
+<pattern>_ ELEVATOR</pattern>
+<template><srai>ELEVTR</srai></template>
+</category>
+
+<category>
+<pattern>ELEVATOR *</pattern>
+<template><srai>ELEVTR</srai></template>
+</category>
+
+<category>
+<pattern>_ ELEVATOR *</pattern>
+<template><srai>ELEVTR</srai></template>
+</category>
+  
+<!--ils-->
+
+<category>
+<pattern>ILS</pattern>
+<template>Our library uses the Millennium I L S software desinged by Innovative Interfaces.</template>
+</category>
+
+<category>
+<pattern>_ ILS</pattern>
+<template><srai>ILS</srai></template>
+</category>
+
+<category>
+<pattern>_ ILS *</pattern>
+<template><srai>ILS</srai></template>
+</category>
+
+<category>
+<pattern>ILS *</pattern>
+<template><srai>ILS</srai></template>
+</category>
+
+<category>
+<pattern>LIBRARIANS PAID</pattern>
+<template>Of course! All of our staff are paid, except for volunteers.</template>
+</category>
+
+<category>
+<pattern>* LIBRARIANS PAID</pattern>
+<template><srai>LIBRARIANS PAID</srai></template>
+</category>
+
+<category>
+<pattern>* LIBRARIANS * PAID</pattern>
+<template><srai>LIBRARIANS PAID</srai></template>
+</category>
+
+<category>
+<pattern>* LIBRARIANS PAID *</pattern>
+<template><srai>LIBRARIANS PAID</srai></template>
+</category>
+
+<category>
+<pattern>* LIBRARIANS * PAID *</pattern>
+<template><srai>LIBRARIANS PAID</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>IS * LIBRARY BORING</pattern>
+<template>That would depend on what you find exciting. If you enjoy meeting challenges, then the library is very exciting indeed!</template>
+</category>
+
+<category>
+<pattern>IS * LIBRARY COOL</pattern>
+<template>Yes. MPL is THE place to be!</template>
+</category>
+
+
+
+<category>
+<pattern>RESIDENT CAT</pattern>
+<template>Well, we do have a resident hamster and hermit crab. A cat would be nice, or maybe a few standard poodles. They're very intelligent.</template>
+</category>
+
+<category>
+<pattern>* RESIDENT CAT</pattern>
+<template>Well, we do have a resident hamster and hermit crab. A cat would be nice, or maybe a few standard poodles. They're very intelligent.</template>
+</category>
+
+
+<category>
+<pattern>COLLECTION DEVELOPMENT POLICY</pattern>
+<template>Copies of our collection development policy are not currently available online. If you'd like a printed copy, ask at the Main Library reference desk.</template>
+</category>
+
+<category>
+<pattern>_ COLLECTION DEVELOPMENT POLICY</pattern>
+<template>Copies of our collection development policy are not currently available online. If you'd like a printed copy, ask at the Main Library reference desk.</template>
+</category>
+
+<category>
+<pattern>_ COLLECTION DEVELOPMENT POLICY *</pattern>
+<template>Copies of our collection development policy are not currently available online. If you'd like a printed copy, ask at the Main Library reference desk.</template>
+</category>
+
+<!--behavior policy-->
+
+<category>
+<pattern>BPOLICY</pattern>
+<template>Here is a copy of our <a href="http://www.mentorpl.org/pdfs/MPL%20behavioral%20policy%20rev.%20Sept.2010.pdf" target="_blank"><b>behavior policy</b></a>. You'll need Adobe Reader to view it.</template>
+</category>
+
+<category>
+<pattern>BEHAVIOR</pattern>
+<template><srai>BPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_ BEHAVIOR</pattern>
+<template><srai>BPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>BEHAVIOR *</pattern>
+<template><srai>BPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_ BEHAVIOR *</pattern>
+<template><srai>BPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>CAN * IN * LIBRARY</pattern>
+<template><srai>BPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>* ALLOWED * IN * LIBRARY</pattern>
+<template><srai>BPOLICY</srai></template>
+</category>
+
+<!--BUDGET-->
+
+<category>
+<pattern>BUDGET</pattern>
+<template>The Library's budget is not available online. If you would like detailed information about our budget,
+submit a public records request in writing and be specific.</template>
+</category>
+
+<category>
+<pattern>BUDGET *</pattern>
+<template><srai>BUDGET</srai></template>
+</category>
+
+<category>
+<pattern>_ BUDGET</pattern>
+<template><srai>BUDGET</srai></template>
+</category>
+
+<category>
+<pattern>_ BUDGET *</pattern>
+<template><srai>BUDGET</srai></template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>IF YOU WOULD LIKE DETAILED INFORMATION ABOUT OUR BUDGET
+SUBMIT A PUBLIC RECORDS REQUEST IN WRITING AND BE SPECIFIC</that>
+<template>I can't help you with this question. I suggest you call the library during regular business hours. </template>
+</category>
+
+<category>
+<pattern>RECORDS REQUEST</pattern>
+<template>I can't help you with this question. Call the library during regular business hours.</template>
+</category>
+
+<category>
+<pattern>RECORDS REQUEST *</pattern>
+<template><srai>RECORDS REQUEST</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORDS REQUEST</pattern>
+<template><srai>RECORDS REQUEST</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORDS REQUEST *</pattern>
+<template><srai>RECORDS REQUEST</srai></template>
+</category>
+
+
+
+
+
+
+
+<!--CELL PHONES-->
+
+<category>
+<pattern>PHONE</pattern>
+<template>All cell phones, beepers, and other communication devices should be set to vibrate or on low tones before
+entering the library, and extended conversations should be moved to the library foyer. There is a pay phone in the Main Library foyer.</template>
+</category>
+
+<category>
+<pattern>* PHONE</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+<category>
+<pattern>PHONE *</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+<category>
+<pattern>_ PHONE *</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+<category>
+<pattern>PHONES</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+<category>
+<pattern>_ PHONES</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+<category>
+<pattern>PHONES *</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+<category>
+<pattern>_ PHONES *</pattern>
+<template><srai>PHONE</srai></template>
+</category>
+
+
+<!--animals in the library-->
+
+<category>
+<pattern>ANIMALS ALLOWED * LIBRARY</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* ANIMALS ALLOWED * LIBRARY</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>ANIMALS ALLOWED * LIBRARY *</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* ANIMALS ALLOWED * LIBRARY *</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>PETS ALLOWED * LIBRARY</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* PETS ALLOWED * LIBRARY</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>DOGS ALLOWED * LIBRARY</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* DOGS ALLOWED * LIBRARY</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* DOGS ALLOWED * LIBRARY *</pattern>
+<template>Service dogs are allowed in the Library at all times. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>CATS ALLOWED * LIBRARY</pattern>
+<template>Cats normally do not come into the library. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* CATS ALLOWED * LIBRARY</pattern>
+<template>Cats normally do not come into the library. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+<category>
+<pattern>* CATS ALLOWED * LIBRARY *</pattern>
+<template>Cats normally do not come into the library. We request that you do not bring pets or other animals
+into the library.</template>
+</category>
+
+
+
+
+<category>
+<pattern>DO YOU HAVE BOOKS * LIBRARY</pattern>
+<template>Yes, many of them.</template>
+</category>
+
+<category>
+<pattern>*  DO YOU GET NEW *</pattern>
+<template>New materials are added to our collection every week.</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY BOOKS DOES * LIBRARY OWN</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+<category>
+<pattern>HOW MANY BOOKS  * COLLECTION</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+<category>
+<pattern>HOW BIG * COLLECTION * BOOKS</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+<category>
+<pattern>HOW BIG * BOOK COLLECTION</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+
+
+<category>
+<pattern>HOW MANY DVDS * LIBRARY * </pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW MANY DVDS * COLLECTION </pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW BIG * DVD * COLLECTION </pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW MANY DVDS * OWNED * LIBRARY</pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW MANY DVDS * LIBRARY * OWN</pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW MANY DVDS * COLLECTION</pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW BIG * COLLECTION * DVDS</pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+<category>
+<pattern>HOW BIG * DVD COLLECTION </pattern>
+<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+</category>
+
+
+<category>
+<pattern>_ BOOKS * LIBRARY</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+<category>
+<pattern>_ BOOKS * LIBRARY *</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+<category>
+<pattern>_ VOLUMES * LIBRARY</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+<category>
+<pattern>_ VOLUMES * LIBRARY *</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY BOOKS * HAVE</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
+
+<category>
+<pattern>IS THE LIBRARY FUN</pattern>
+<template>We try to be.</template>
+</category>
+
+<category>
+<pattern>VERY NICE LIBRARY</pattern>
+<template>Thank you. Our staff is always glad to hear a few kind words.</template>
+</category>
+
+<category>
+<pattern>PAPER RECYCLING *</pattern>
+<template>You may place paper to be recycled in our recycle bin.</template>
+</category>
+
+
+<category>
+<pattern>DOES THE EMAIL WORK KNOW</pattern>
+<template>Yes, it is once again working.</template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH DID IT COST THE TO REPAIR THE REED HOUSE</pattern>
+<template>Why are you asking a computer this question?</template>
+</category>
+
+
+<category>
+<pattern>WHAT DID THE DAY OF CARING COST</pattern>
+<template>You mean that volunteer program that was done with United Way?</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>YOU MEAN THAT VOLUNTEER PROGRAM THAT WAS DONE WITH UNITED WAY</that>
+<template>Volunteer...?</template>
+</category>
+
+
+<category>
+<pattern>* OLD * LIBRARY</pattern>
+<template>The Library was formed formed on February 22, 1819. Read more about the Library's history <a href="http://en.wikipedia.org/wiki/Mentor_Public_Library" target="_blank"><b>here</b></a>.</template>
+</category>
+
+
+
+<category>
+<pattern>IN WHAT YEAR</pattern>
+<that>I WAS CONNECTED TO THE NET ON NOVEMBER 19</that>
+<template>In the year 2009.</template>
+</category>
+
+<category>
+<pattern>WHEN * LIBRARY BUILT</pattern>
+<template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. The Main Library was built in 1990. You can read more about the Library's history <a href="http://en.wikipedia.org/wiki/Mentor_Public_Library" target="_blank"><b>here</b></a>.</template>
+</category>
+
+<category>
+<pattern>GOOD DISTRICT SCHOOL</pattern>
+<template>They had nothing to do with my creation.</template>
+</category>
+
+<!--GENEALOGY-->
+
+<category>
+<pattern>GENEALOGY</pattern>
+<template>We do not have a genealogy department, or any librarians that are expert in that field. Our <a href="http://www.mentorpl.org/subjects.html#BIOG" target="_blank"><b>genealogy resources</b></a> are limited. I suggest you contact
+<a href="http://www.morleylibrary.org/genealogy.htm" target="_blank"><b>Morley Library</b></a>. </template>
+</category>
+
+<category>
+<pattern>_ GENEALOGY</pattern>
+<template><srai>GENEALOGY</srai></template>
+</category>
+
+<category>
+<pattern>_ GENEALOGY *</pattern>
+<template><srai>GENEALOGY</srai></template>
+</category>
+
+<category>
+<pattern>GENEALOGY *</pattern>
+<template><srai>GENEALOGY</srai></template>
+</category>
+
+
+
+<!--employment-->
+
+<category>
+<pattern>EMPLOYMENT</pattern>
+<template>Information about employment, including openings at our library, is on our <a href="http://www.mentorpl.org/employment.html" target="_blank"><b>employment page</b></a>.
+Our reference staff can offer limited resume assistance; we do not currently offer help with interview preparation.
+</template>
+</category>
+
+<category>
+<pattern>_ EMPLOYMENT</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ EMPLOYMENT *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+
+<category>
+<pattern>JOBS</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ JOBS</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ JOBS *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+
+<category>
+<pattern>EMPLOYMENT OPPORTUNITIES</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ EMPLOYMENT OPPORTUNITIES</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>EMPLOYMENT OPPORTUNITIES *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ EMPLOYMENT OPPORTUNITIES *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+
+
+<category>
+<pattern>OPENINGS</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ OPENINGS</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ OPENINGS *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>ARE YOU HIRING</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>ARE YOU HIRING *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ JOB * LIBRARY</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ JOB * LIBRARY *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ JOBS * LIBRARY</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ JOBS * LIBRARY *</pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>_ WORK * LIBRARY </pattern>
+<template><srai>EMPLOYMENT</srai></template>
+</category>
+
+<category>
+<pattern>RESINT</pattern>
+<template>Our reference staff can offer limited resume assistance; we do not currently offer help with interview preparation. I suggest you contact <a href="http://www.lake1stop.org/" target="_blank"><b>Lake One Stop</b></a>
+for these.</template>
+</category>
+
+<category>
+<pattern>HELP * RESUME</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * RESUME</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * RESUME *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * RESUME *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * RESUMES</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * RESUMES</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * RESUMES *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * RESUMES *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * INTERVIEW</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * INTERVIEW</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * INTERVIEW *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * INTERVIEW *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * INTERVIEWS</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * INTERVIEWS</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>HELP * INTERVIEWS *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * INTERVIEWS *</pattern>
+<template><srai>RESINT</srai></template>
+</category>
+
+<!--general intro-->
+
+<category>
+<pattern>* LIBRARY * PROFIT</pattern>
+<template>We don't. We 're a non-profit agency.</template>
+</category>
+
+<category>
+  <pattern>ABOUTTHELIBRARY</pattern>
+  <template>What would you like to know about the library?
+ </template>
+</category>
+
+<category>
+  <pattern>ABOUT * LIBRARY</pattern>
+  <template><srai>ABOUTTHELIBRARY</srai>
+ </template>
+</category>
+
+<category>
+  <pattern>* ABOUT * LIBRARY</pattern>
+  <template><srai>ABOUTTHELIBRARY</srai>
+ </template>
+</category>
+
+<category>
+  <pattern>* ABOUT * LIBRARY *</pattern>
+  <template><srai>ABOUTTHELIBRARY</srai>
+ </template>
+</category>
+
+<category>
+  <pattern>ABOUT * LIBRARY *</pattern>
+  <template><srai>ABOUTTHELIBRARY</srai>
+ </template>
+</category>
+
+
+
+<!--facebook-->
+<category>
+<pattern>FACEBOOK</pattern>
+<template>Yes, Mentor Public Library is on Facebook. I'm on the "Ask Emma" tab. Here's the <a href="http://www.facebook.com/pages/Mentor-OH/Mentor-Public-Library/70568696904" target="_blank"><b>link</b></a>.</template>
+</category>
+
+<category>
+<pattern>* FACEBOOK </pattern>
+<template>Yes, Mentor Public Library is on Facebook. I'm on the "Ask Emma" tab. Here's the <a href="http://www.facebook.com/pages/Mentor-OH/Mentor-Public-Library/70568696904" target="_blank"><b>link</b></a>.</template>
+</category>
+
+<category>
+<pattern>FACEBOOK *</pattern>
+<template>Yes, Mentor Public Library is on Facebook. I'm on the "Ask Emma" tab. Here's the <a href="http://www.facebook.com/pages/Mentor-OH/Mentor-Public-Library/70568696904" target="_blank"><b>link</b></a>.</template>
+</category>
+
+<category>
+<pattern>* FACEBOOK *</pattern>
+<template>Yes, Mentor Public Library is on Facebook. I'm on the "Ask Emma" tab. Here's the <a href="http://www.facebook.com/pages/Mentor-OH/Mentor-Public-Library/70568696904" target="_blank"><b>link</b></a>.</template>
+</category>
+
+
+
+
+<!--twitter-->
+
+
+<category>
+<pattern>TWITTER</pattern>
+<template>Yes, the Library is on Twitter. Here's the <a href="http://twitter.com/MentorPL" target="_blank"><b>link</b></a>.</template>
+</category>
+
+<category>
+<pattern>* TWITTER</pattern>
+<template>Yes, the Library is on Twitter. Here's the <a href="http://twitter.com/MentorPL" target="_blank"><b>link</b></a>.</template>
+</category>
+
+<category>
+<pattern>TWITTER *</pattern>
+<template>Yes, the Library is on Twitter. Here's the <a href="http://twitter.com/MentorPL" target="_blank"><b>link</b></a>.</template>
+</category>
+
+<category>
+<pattern>* TWITTER *</pattern>
+<template>Yes, the Library is on Twitter. Here's the <a href="http://twitter.com/MentorPL" target="_blank"><b>link</b></a>.</template>
+</category>
+
+
+
+<!--youtube-->
+
+<category>
+<pattern>YOUTUBE</pattern>
+<template>Yes, we have a YouTube Channel. Take a look <a href="http://www.youtube.com/MentorPublicLib" target="_blank"><b>here</b></a>.</template>
+</category>
+
+<category>
+<pattern>* YOUTUBE</pattern>
+<template><srai>YOUTUBE</srai></template>
+</category>
+
+<category>
+<pattern>* YOUTUBE *</pattern>
+<template><srai>YOUTUBE</srai></template>
+</category>
+
+<category>
+<pattern>YOUTUBE *</pattern>
+<template><srai>YOUTUBE</srai></template>
+</category>
+
+
+<!--blogs-->
+
+<category>
+<pattern>BLOG</pattern>
+<template>We have a number of blogs at MPL. <a href="
+http://mplreader.blogspot.com/" target="_blank"><b>Mentor's Reader</b></a> is a reader's advisory blog where you'll find good books off the beaten path.  
+<a href="http://mpltweens.blogspot.com/" target="_blank"><b>Totally Tweens</b></a> presents the freshest information and commentaries on books, 
+movies and music for tweens and teens. I have one of my own, too. You can see it <a href="http://emmathemplcatbot.blogspot.com/" target="_blank"><b>here</b></a>
+</template>
+</category>
+
+<category>
+<pattern>* BLOG</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>* BLOG *</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>BLOG *</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>BLOGS</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>* BLOGS</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>* BLOGS *</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>BLOGS *</pattern>
+<template><srai>BLOG</srai></template>
+</category>
+
+<category>
+<pattern>PUBLICCOMPUTERS</pattern>
+<template>We have computers for public use at the Main Library and at both Branches. For more information about using our computers, please 
+follow this link to our <a href="http://www.mentorpl.org/internetpolicy.html" target="_blank"><b>computer use policies</b></a>.
+</template>
+</category>
+
+<category>
+<pattern>PUBLIC COMPUTERS</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ PUBLIC COMPUTERS</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC * COMPUTERS</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC COMPUTERS *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ PUBLIC * COMPUTERS</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC * COMPUTERS *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ PUBLIC * COMPUTERS *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC COMPUTER</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ PUBLIC COMPUTERS</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC * COMPUTER</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC COMPUTER *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ PUBLIC * COMPUTER</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>PUBLIC * COMPUTER *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ PUBLIC * COMPUTER *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+
+<category>
+<pattern>COMPUTERS PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPUTERS PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTERS * PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTERS PUBLIC *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPUTERS * PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTERS * PUBLIC *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern> _ COMPUTERS * PUBLIC *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+
+
+<category>
+<pattern>COMPUTER PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>* COMPUTER PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTER * PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTER PUBLIC *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern> _ COMPUTER * PUBLIC</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTER * PUBLIC *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+<category>
+<pattern> _ COMPUTER * PUBLIC *</pattern>
+<template><srai>PUBLICCOMPUTERS</srai></template>
+</category>
+
+
+
+<!--food and drink-->
+
+<category>
+  <pattern>EATINLIB</pattern>
+  <template>You may bring covered drinks into the library. Please do not eat while using our computers. It's very hard to remove crumbs, cheeze-whiz, and egg salad from the keyboards.
+ </template>
+</category>
+
+<category>
+  <pattern>EAT * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* EAT * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* EAT * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>EAT * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>EATING * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* EATING * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* EATING * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>EATING * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>SNACKS * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* SNACKS * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* SNACKS * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>SNACKS * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>BRING FOOD</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* BRING FOOD *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>FOOD * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* FOOD * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* FOOD * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>FOOD * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* BRING * LUNCH * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* EAT * LUNCH * LIBRARY *</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>DRINK * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* DRINK * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>DRINKS * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+<category>
+  <pattern>* DRINKS * LIBRARY</pattern>
+  <template><srai>EATINLIB</srai></template>
+</category>
+
+
+<!--climate control-->
+
+<category>
+  <pattern>LIBTOOHOT</pattern>
+  <template>We try to keep the temperature at a comfortable setting. If you're wearing a sweater or jacket you could replace it with a lighter garment.
+ </template>
+</category>
+
+<category>
+  <pattern>LIBTOOCOLD</pattern>
+  <template>You don't mean Indred Cold, do you? Some of the staff have noticed a large, moth-like creature lurking in the stacks.
+ </template>
+</category>
+
+<category>
+  <pattern>LIBRARY * HOT</pattern>
+  <template><srai>LIBTOOHOT</srai></template>
+</category>
+
+<category>
+  <pattern> _ LIBRARY * HOT</pattern>
+  <template><srai>LIBTOOHOT</srai></template>
+</category>
+
+<category>
+  <pattern> _ LIBRARY * HOT *</pattern>
+  <template><srai>LIBTOOHOT</srai></template>
+</category>
+
+<category>
+  <pattern>LIBRARY * COLD</pattern>
+  <template><srai>LIBTOOCOLD</srai></template>
+</category>
+
+<category>
+  <pattern> _ LIBRARY * COLD</pattern>
+  <template><srai>LIBTOOCOLD</srai></template>
+</category>
+
+<category>
+  <pattern> _ LIBRARY * COLD *</pattern>
+  <template><srai>LIBTOOCOLD</srai></template>
+</category>
+
+
+
+
+<!--library history-->
+
+<category>
+  <pattern>* YEAR * MAIN *  BUILT</pattern>
+  <template>Our current Main Library was built in 1990. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>WHEN * MAIN *  BUILT</pattern>
+  <template>Our current Main Library was built in 1990. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* WHEN * MAIN *  BUILT</pattern>
+  <template>Our current Main Library was built in 1990. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* year * library open</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* year * library open *</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+
+<category>
+  <pattern>* year * library founded</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* year * library founded *</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+
+<category>
+  <pattern>* year * library formed</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* year * library formed *</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>HOWOLDLIB</pattern>
+  <template>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. Read more about our history <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+
+<category>
+  <pattern>how old * library</pattern>
+  <template><srai>HOWOLDLIB</srai></template>
+</category>
+
+<category>
+  <pattern>LIBHIST</pattern>
+  <template>You can read about the history of our library <a href="http://en.wikipedia.org/wiki/Mentor_public_library"><b>here</b></a>.
+ </template>
+</category>
+
+
+<category>
+  <pattern>library history</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ library history</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ library history *</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern>library s history</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ library s history</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ library s history *</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern>history * library</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ history * library</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ history * library *</pattern>
+    <template><srai>LIBHIST</srai></template>
+</category>
+
+
+<!--lost and found-->
+
+<category>
+<pattern>LOST AND FOUND</pattern>
+<template>Lost and found at the Main Library is at Circulation. If you've lost something at the Main Library, you can ask about it at the Circulation counter.</template>
+</category>
+
+<category>
+<pattern>_ LOST AND FOUND</pattern>
+<template><srai>LOST AND FOUND</srai></template>
+</category>
+
+<category>
+<pattern>_ LOST AND FOUND *</pattern>
+<template><srai>LOST AND FOUND</srai></template>
+</category>
+
+
+
+
+<!--ORG OF THE YEAR-->
+
+<category>
+<pattern>ORGANIZATION OF THE YEAR</pattern>
+<template>Mentor Public Library has been named the 2010 Civic Organization of the Year by the <a href="http://www.mentorchamber.org/" target="_blank"><b>Mentor Area Chamber of Commerce</b></a>.</template>
+</category>
+
+<category>
+<pattern> _ ORGANIZATION OF THE YEAR</pattern>
+<template><srai>ORGANIZATION OF THE YEAR</srai></template>
+</category>
+
+<category>
+<pattern> _ ORGANIZATION OF THE YEAR *</pattern>
+<template><srai>ORGANIZATION OF THE YEAR</srai></template>
+</category>
+
+<!--MISSION-->
+
+
+<category>
+  <pattern>mission</pattern>
+  <template> We are your community Library, providing resources for lifelong enrichment. Our commitment to you is excellence in all that we do. 
+Our four Core Principles are: 
+Intellectual Freedom, Confidentiality, Personal Service, and Community Partnering.
+  </template>
+</category>
+
+<category>
+  <pattern> _ mission</pattern>
+  <template><srai>mission</srai></template>
+</category>
+
+<category>
+  <pattern> _ mission *</pattern>
+  <template><srai>mission</srai></template>
+</category>
+
+<!--stationary-->
+
+<category>
+  <pattern>STATIONARY</pattern>
+  <template>The library does not stock stationary items. We do have flash drives, ear buds, and CD-Rs 
+available for purchase.  
+    </template>
+</category>
+
+<category>
+  <pattern>* STATIONARY</pattern>
+  <template><srai>STATIONARY</srai></template>
+  </category>
+
+<category>
+  <pattern>STATIONARY *</pattern>
+  <template><srai>STATIONARY</srai></template>
+  </category>
+
+<category>
+  <pattern>* STATIONARY *</pattern>
+  <template><srai>STATIONARY</srai></template>
+  </category>
+
+<category>
+  <pattern>INDEXTABLE</pattern>
+  <template>The Index Table is located on the ground floor of the Main Library. Here's a <a href="http://www.mentorpl.org/mplgroundfloorcolor.jpg" target="_blank"><b>floor plan</b></a>.
+    The Index Table is not marked on this diagram, but it's next to the Large Print area.</template>
+</category>
+
+<category>
+  <pattern>_ INDEX TABLE</pattern>
+  <template><srai>INDEXTABLE</srai></template>
+  </category>
+
+<category>
+  <pattern>INDEX TABLE *</pattern>
+  <template><srai>INDEXTABLE</srai></template>
+  </category>
+
+<category>
+  <pattern>_ INDEX TABLE *</pattern>
+  <template><srai>INDEXTABLE</srai></template>
+  </category>
+  
+<!--SPECIAL COLLECTIONS-->
+  
+<category>
+<pattern>SPCOLL</pattern>
+<template>
+<random>
+<li>We are a popular reading library. We do not have any special collections. Not even local history.</li>
+<li>We do not have any special collections. We are a popular reading library.</li>
+<li>Our library does not have any special collections. We have a wide variety of popular materials.</li>
+</random>
+</template>
+</category>
+
+<category>
+  <pattern>SPECIAL COLLECTIONS</pattern>
+  <template><srai>SPCOLL</srai></template>
+  </category>
+  
+  <category>
+  <pattern>_ SPECIAL COLLECTIONS</pattern>
+  <template><srai>SPCOLL</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SPECIAL COLLECTIONS *</pattern>
+  <template><srai>SPCOLL</srai></template>
+  </category>
+  
+  <category>
+  <pattern>_ SPECIAL COLLECTIONS *</pattern>
+  <template><srai>SPCOLL</srai></template>
+  </category>
+  
+  
+  
+  
+  
+  
+<!--WEIRD STUPID MISC-->
+
+<category>
+<pattern>* MPL STAND FOR</pattern>
+  <template>MPL stands for Mentor Public Library.</template>
+  </category>
+
+  <category>
+<pattern>* MPL STAND FOR *</pattern>
+  <template>MPL stands for Mentor Public Library.</template>
+  </category>
+
+    <category>
+<pattern>WHAT IS MENTOR PUBLIC LIBRARY</pattern>
+  <template>We're a public library in Mentor Ohio. Is this what you expected?</template>
+  </category>
+  
+  <category>
+  <pattern> * </pattern>
+  <that>IS THIS WHAT YOU EXPECTED</that>
+  <template> "<star/>." I see.</template>
+  </category>
+  
+  
+  
+<!--POLITICAL ACTIVITY ON MPL PROPERTY-->
+
+<category>
+<pattern>PETITS</pattern>
+  <template>Individuals or groups of individuals requesting signatures on petitions that are in the interest of the general public or for initiatives intended for the ballot in a general election are currently permitted by Mentor Public Library on the sidewalks and other outdoor public areas around the library as long as the activity does not interfere with patrons accessing the library entrances or library services. 
+  Petitioners are not permitted to: <br/><br/>
+Block patron access to the library, <br/>
+Harass patrons in an effort to obtain signatures, <br/>
+Intimate that the Mentor Public Library endorses or supports their cause, or<br/>
+Gather signatures inside the library.<br/><br/>
+The presence of petitioners on library property does not confer the library's approval, endorsement, or support of the petitioner's cause!
+</template>
+  </category>
+
+<category>
+<pattern>PETITION</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITION</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>PETITION *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITION *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+  
+<category>
+<pattern>PETITIONS</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITIONS</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>PETITIONS *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITIONS *</pattern>
+<template><srai>PETITS</srai></template>
+</category>  
+  
+
+<category>
+<pattern>PETITIONER</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITIONER</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>PETITIONER *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITIONER *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+  
+<category>
+<pattern>PETITIONERS</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITIONERS</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>PETITIONERS *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* PETITIONERS *</pattern>
+<template><srai>PETITS</srai></template>
+</category>  
+
+<category>
+<pattern>POLITICAL ACTIVITY</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL ACTIVITY</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL ACTIVITY *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL ACTIVITY *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+  
+
+<category>
+<pattern>POLITICAL ACTIVITIES</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL ACTIVITIES</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL ACTIVITIES *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL ACTIVITIES *</pattern>
+<template><srai>PETITS</srai></template>
+</category>
+
+<!--POLDEBATE-->
+
+<category>
+<pattern>POLRALL</pattern>
+<template>Please see our <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf" target="_blank"><b>Meeting Room Guidelines</b></a> or call Sue Fram at 440.255.8811 extension 231.</template>
+</category>
+
+<category>
+<pattern>POLITICAL DEBATE * LIBRARY</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL DEBATE * LIBRARY</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL DEBATE * LIBRARY *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL DEBATE * LIBRARY *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL RALLY * LIBRARY</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL RALLY * LIBRARY</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL RALLY * LIBRARY *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL RALLY * LIBRARY *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+
+<category>
+<pattern>POLITICAL DEBATE * ROOM</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL DEBATE * ROOM</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL DEBATE * ROOM *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL DEBATE * ROOM *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL RALLY * ROOM</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL RALLY * ROOM</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL RALLY * ROOM *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL RALLY * ROOM *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+
+<category>
+<pattern>POLITICAL DEBATE * ROOMS</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL DEBATE * ROOMS</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL DEBATE * ROOMS *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL DEBATE * ROOMS *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL RALLY * ROOMS</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL RALLY * ROOMS</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>POLITICAL RALLY * ROOMS *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+<category>
+<pattern>* POLITICAL RALLY * ROOMS *</pattern>
+<template><srai>POLRALL</srai></template>
+</category>
+
+</aiml>

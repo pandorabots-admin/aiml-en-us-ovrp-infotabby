@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+
+<!--return where-->
+
+<category>
+<pattern>* RETURN * FROM ONE * LIBRARY * ANOTHER LIBRARY</pattern>
+<template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN *  SAME LIBRARY I BORROWED IT FROM</pattern>
+<template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN *  BRANCH</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURN *  BRANCHES</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURN * TO * SAME *</pattern>
+<template>You can return your items to any of our branches.</template>
+</category>
+
+<category>
+<pattern>* RETURN * TO WHERE * GOT IT</pattern>
+<template>You can return your items to any of our branches.</template>
+</category>
+
+<category>
+<pattern>* RETURN * TO * DIFFERENT *</pattern>
+<template>You can return your items to any of our branches.</template>
+</category>
+
+<category>
+<pattern>* RETURNED *  SAME LIBRARY I BORROWED IT FROM</pattern>
+<template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED *  BRANCH</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURNED *  BRANCHES</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURNED * TO * SAME *</pattern>
+<template>You can return your items to any of our branches.</template>
+</category>
+
+<category>
+<pattern>* RETURNED * TO WHERE * GOT IT</pattern>
+<template>You can return your items to any of our branches.</template>
+</category>
+
+<category>
+<pattern>* RETURNED * TO * DIFFERENT *</pattern>
+<template>You can return your items to any of our branches.</template>
+</category>
+
+<category>
+<pattern>* RETURNS *  SAME LIBRARY I BORROWED IT FROM</pattern>
+<template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNS *  BRANCH</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURNS *  BRANCHES</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURNS * TO * SAME *</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURNS * TO WHERE * GOT IT</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURNS * TO * DIFFERENT *</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURN * ANY * LIBRARY</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<category>
+<pattern>* RETURN * ANY * LIBRARY *</pattern>
+<template>You can return any of our items to any of our branches. If it's a SearchOhio item and you borrowed it through us, you can also return it to any of our branches.
+</template>
+</category>
+
+<!--non mpl items-->
+<category>
+  <pattern>NONMPLRET</pattern>
+  <template>If you accidentally return another library's items to Mentor Public Library, we will do our best to return those items to the owning library.
+  </template>
+</category>
+
+<category>
+  <pattern>* belonging * another library</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* belonging * another library *</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* another library</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* another library's *</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* another library *</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<!--rental dvds games-->
+
+<category>
+  <pattern>Blockbuster</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* Blockbuster</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* Blockbuster *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>Blockbuster *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>hollywood video</pattern>
+   <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* hollywood video</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* hollywood video *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>hollywood video *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>video store</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* video store</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* video store *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>video store *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>rental dvd</pattern>
+  <template>If you return rental DVDs and games (from Hollywood Video, Blockbuster, etc.) to Mentor Public Library, we will keep them behind the circulation desk for two weeks for you to pick up. We cannot keep these items beyond two weeks due to lack of space. The library is not able to return rental DVDs and games for you.
+ </template>
+</category>
+
+<category>
+  <pattern>* rental dvd</pattern>
+  <template><srai>rental dvd</srai></template>
+</category>
+
+<category>
+  <pattern>* rental dvd *</pattern>
+  <template><srai>rental dvd</srai></template>
+</category>
+
+<category>
+  <pattern>rental dvd *</pattern>
+  <template><srai>rental dvd</srai></template>
+</category>
+
+<category>
+  <pattern>rented dvd</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* rented dvd</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* rented dvd *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>rented dvd *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>dvd i rented</pattern>
+   <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* dvd i rented</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* dvd i rented *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>dvd i rented *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+<category>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* rented game</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* rented game *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>rented game *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>game i rented</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* game i rented</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* game i rented *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>game i rented *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>videogame i rented</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* videogame i rented</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>* videogame i rented *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+<category>
+  <pattern>videogame i rented *</pattern>
+  <template><srai>RENTAL DVD</srai></template>
+</category>
+
+
+<!--where do I return items-->
+
+<category>
+  <pattern>WHERERETURN</pattern>
+  <template> Materials may be returned to the branch closest to you. If the library is closed, please use the book drops unless you are returning a Nook or an i Pad.
+Nooks and i Pads must be returned to the Main Library Circulation Desk.
+ </template>
+</category>
+
+<category>
+  <pattern>where * return</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * return</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * return *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>where * return *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * return *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>where * returned</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * returned</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * returned *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>where * returned *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * returned *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>where * returns</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * returns</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * returns *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>where * returns *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* where * returns *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+
+<!--how return-->
+
+<category>
+  <pattern>HOW * return</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* HOW * return</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* HOW * return *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>HOW * return *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<category>
+  <pattern>* HOW * return *</pattern>
+  <template><srai>WHERERETURN</srai></template>
+</category>
+
+<!--claims returned-->
+
+<category>
+<pattern>CLAIMS RETURNED</pattern>
+<template>"Claims returned" is a one time courtesy given to patrons. For more information, please call our Circulation Department at 440.255.8811.</template>
+</category>
+
+<category>
+<pattern>* CLAIMS RETURNED</pattern>
+<template><srai>CLAIMS RETURNED</srai></template>
+</category>
+
+<category>
+<pattern>* CLAIMS RETURNED *</pattern>
+<template><srai>CLAIMS RETURNED</srai></template>
+</category>
+
+<category>
+<pattern>CLAIMS RETURNED *</pattern>
+<template><srai>CLAIMS RETURNED</srai></template>
+</category>
+
+<!--returned still on my record-->
+
+<category>
+<pattern>RETURNED IS STILL ON</pattern>
+<template>If an item you returned is still on your record, please call our Circulation Department at 440.255.8811.</template>
+</category>
+
+<category>
+<pattern>* RETURNED IS STILL ON *</pattern>
+<template><srai>RETURNED IS STILL ON</srai></template>
+</category>
+
+<!--DROP NOT DROP-->
+
+<category>
+  <pattern>DRPYN</pattern>
+  <template> You may return any item using the outside book drops unless the item you are returning is a Nook or an i Pad.
+Nooks and i Pads must be returned to the Main Library Circulation Desk.
+ </template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOX</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOX *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOXES</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOXES *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROP</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROP *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROPS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROPS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOXES * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOX</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOX *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOXES</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOXES *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROP</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROP *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROPS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROPS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOXES * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+
+</aiml>

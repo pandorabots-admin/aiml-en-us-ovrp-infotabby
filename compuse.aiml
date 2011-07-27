@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+
+<!--computer policies-->
+
+<category>
+<pattern>CPOLICY</pattern>
+<template>Here's a link to our <a href="http://www.mentorpl.org/internetpolicy.html"><b>computer use policies</b></a>.</template>
+</category>
+
+<category>
+<pattern>computer policy</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>computer policies</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  computer policy</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  computer policies</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  computer * policy</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  computer * policies</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  computer * policy *</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  computer * policies *</pattern>
+<template><srai>CPOLICY</srai></template>
+</category>
+
+<!--internet use plicies-->
+
+<category>
+<pattern>IPOLICY</pattern>
+<template>Here's a link to our <a href="http://www.mentorpl.org/internetpolicy.html"><b>internet use policies</b></a>.</template>
+</category>
+
+<category>
+<pattern>internet policy</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>internet policies</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  internet policy</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  internet policies</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  internet * policy</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  internet * policies</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  internet * policy *</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+<category>
+<pattern>_  internet * policies *</pattern>
+<template><srai>IPOLICY</srai></template>
+</category>
+
+
+<!--comp time-->
+
+<category>
+<pattern>HOW LONG * COMPUTER</pattern>
+<template>You may use our computers for 60 minute sessions, with a maximum of 4 hours each day.</template>
+</category>
+
+<category>
+<pattern>HOW LONG * COMPUTERS </pattern>
+<template>You may use our computers for 60 minute sessions, with a maximum of 4 hours each day.</template>
+</category>
+
+<category>
+<pattern>HOW LONG * COMPUTER *</pattern>
+<template>You may use our computers for 60 minute sessions, with a maximum of 4 hours each day.</template>
+</category>
+
+<category>
+<pattern>HOW LONG * COMPUTERS *</pattern>
+<template>You may use our computers for 60 minute sessions, with a maximum of 4 hours each day.</template>
+</category>
+
+
+<category>
+<pattern>CAN USAGE * COMPUTERS * RENEWED</pattern>
+<template>You can extend your time on a PC as long as no one else has a reservation.</template>
+</category>
+
+<category>
+<pattern>PCTMLMT</pattern>
+<template>You may use our computers for 60 minute sessions, with a maximum of 4 hours each day. 
+Here's a link to our <a href="http://www.mentorpl.org/internetpolicy.html"><b>internet use policies</b></a>. </template>
+</category>
+
+
+<category>
+<pattern>INTERNET TIME LIMIT</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ INTERNET TIME LIMIT</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ INTERNET TIME LIMIT *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTER TIME LIMIT</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPUTER TIME LIMIT</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COMPUTER TIME LIMIT *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>INTERNET TIME LIMITS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ INTERNET TIME LIMITS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ INTERNET TIME LIMITS *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTER TIME LIMITS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ COMPUTER TIME LIMITS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COMPUTER TIME LIMITS *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>TIME * INTERNET</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ TIME * INTERNET</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ TIME * INTERNET *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>TIME * COMPUTER</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ TIME * COMPUTER</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ TIME * COMPUTER *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>TIME * COMPUTERS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ TIME * COMPUTERS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ TIME * COMPUTERS *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>LONG * INTERNET</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LONG * INTERNET</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LONG * INTERNET *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>LONG * COMPUTER</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LONG * COMPUTER</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LONG * COMPUTER *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>LONG * COMPUTERS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LONG * COMPUTERS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LONG * COMPUTERS *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>LENGTH * INTERNET</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LENGTH * INTERNET</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LENGTH * INTERNET *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>LENGTH * COMPUTER</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LENGTH * COMPUTER</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LENGTH * COMPUTER *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>LENGTH * COMPUTERS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LENGTH * COMPUTERS</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+<category>
+<pattern>_ LENGTH * COMPUTERS *</pattern>
+<template><srai>PCTMLMT</srai></template>
+</category>
+
+
+<!--HOW TO USE COMPS-->
+
+
+
+<category>
+<pattern>HOWUSECOMPS</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * COMPUTERS</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * COMPUTER *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * COMPUTERS *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+
+<category>
+<pattern>* NEED * USE * COMPUTER</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* NEED * USE * COMPUTERS</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* NEED * USE * COMPUTER *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN * USE * COMPUTERS *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN  * USE * COMPUTER</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN  * USE * COMPUTERS</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN  * USE * COMPUTER *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* NEED * USE * COMPUTERS *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* WANT * USE * COMPUTER</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* WANT * USE * COMPUTERS</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* WANT * USE * COMPUTER *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<category>
+<pattern>* WANT * USE * COMPUTERS *</pattern>
+<template><srai>HOWUSECOMPS</srai></template>
+</category>
+
+<!--RENT OUT A COMPUTER-->
+
+<category>
+<pattern>RNTCOMP</pattern>
+<template>
+We do not have computers for you to check out and take home, they are for library use only. 
+<srai>HOWUSECOMPS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ RENT * COMPUTER</pattern>
+<template>
+<srai>RNTCOMP</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ RENT * COMPUTERS</pattern>
+<template>
+<srai>RNTCOMP</srai>
+</template>
+</category>
+
+
+<!--one word "computer" -->
+
+<category>
+<pattern>CMPTR</pattern>
+<template>Are you asking me what you need to use our computers?
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER</pattern>
+<template><srai>CMPTR</srai></template>
+</category>
+
+<category>
+<pattern>COMPUTER</pattern>
+<template><srai>CMPTR</srai></template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<template>You need a Mentor Public Library card in good standing. That means less than five dollars in fines.
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<template>You need a Mentor Public Library card in good standing. That means less than five dollars in fines.
+</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<template>Are you asking if we have internet? 
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<template>Are you asking if we have internet? 
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>ARE YOU ASKING IF WE HAVE INTERNET</that>
+<template>Yes. We have internet access at all locations and WiFi at the Main Library and at the Lake Branch. The Headlands
+Branch does not have WiFi. 
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>ARE YOU ASKING IF WE HAVE INTERNET</that>
+<template>Yes. We have internet access at all locations and WiFi at the Main Library and at the Lake Branch. The Headlands
+Branch does not have WiFi. 
+</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>ARE YOU ASKING IF WE HAVE INTERNET</that>
+<template>I'm not sure what you'd like to know about computers. Submit your question as a sentence. 
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>ARE YOU ASKING IF WE HAVE INTERNET</that>
+<template>I'm not sure what you'd like to know about computers. Submit your question as a sentence. 
+</template>
+</category>
+
+
+<category>
+<pattern>COMPUTERS</pattern>
+<template>Are you asking me what you need to use our computers?
+</template>
+</category>
+
+<category>
+  <pattern>COMPINSTR</pattern>
+  <template>We are now offering basic computer classes through the <a href="http://www.connectohio.org/consumer_training/" target="_blank"><b>ECO grant</b></a>. For more information about 
+  these classes, their content, and how to register for them, please call the Main Library at 440.255.8811. You may also be interested in Connect Ohio's "self paced"
+  online computer classes. Follow <a href="http://eco.connectohio.org/
+" target="_blank"><b>this link</b></a> for more information. You must create a free account using a web form to take the online instruction.
+ </template>
+</category>
+
+<category>
+  <pattern>computer classes</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer * classes</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer classes</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer * classes</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer classes *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer * classes *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer classes *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer * classes *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>COURSES *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ COURSES</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ COURSES *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+
+
+
+<category>
+  <pattern>computer class</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer class</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer * class</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer class *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer * class *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer class *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer * class *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer instruction</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>computer * instruction</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer instruction</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer * instruction</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer instruction *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_  computer * instruction *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>ECO</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>ECO *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ ECO</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ ECO *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+
+<category>
+  <pattern>EVERY CITIZEN ONLINE</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>EVERY CITIZEN ONLINE *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ EVERY CITIZEN ONLINE</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ EVERY CITIZEN ONLINE *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>EVERY COMMUNITY ONLINE</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>EVERY COMMUNITY ONLINE *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ EVERY COMMUNITY  ONLINE</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<category>
+  <pattern>_ EVERY COMMUNITY  ONLINE *</pattern>
+  <template><srai>COMPINSTR</srai></template>
+</category>
+
+<!--GUESTPASS-->
+
+<category>
+  <pattern>GUESTPSS</pattern>
+  <template> You can get a guest pass to use our computers if you are not an Ohio resident. Please have your out of state ID ready when asking for a guest pass.
+ </template>
+</category>
+
+<category>
+  <pattern>guest pass</pattern>
+  <template><srai>GUESTPSS</srai></template>
+</category>
+
+<category>
+  <pattern>* guest pass</pattern>
+  <template><srai>GUESTPSS</srai></template>
+</category>
+
+<category>
+  <pattern>* guest pass *</pattern>
+  <template><srai>GUESTPSS</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>guest passes</pattern>
+   <template><srai>GUESTPSS</srai></template>
+</category>
+
+<category>
+  <pattern>* guest passes</pattern>
+   <template><srai>GUESTPSS</srai></template>
+</category>
+
+<category>
+  <pattern>* guest passes *</pattern>
+   <template><srai>GUESTPSS</srai></template>
+</category>
+
+
+<!--HOTSPOT-->
+
+<category>
+  <pattern>HTSPT</pattern>
+  <template>The Hot Spot is an area on the ground floor of the Main Library. It is from this point that our wireless originates. You do not need to sit in the Hot Spot to connect with our wireless; the signal reaches throughout the building. The signal is not so strong, however, that it will reheat your coffee or pop popcorn.
+ </template>
+</category>
+
+<category>
+  <pattern>Hot Spot</pattern>
+  <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>* Hot Spot</pattern>
+  <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>* Hot Spot *</pattern>
+  <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>Hot Spot *</pattern>
+  <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>Hotspot</pattern>
+    <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>* Hotspot</pattern>
+   <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>* Hotspot *</pattern>
+    <template><srai>HTSPT</srai></template>
+</category>
+
+<category>
+  <pattern>Hotspot *</pattern>
+   <template><srai>HTSPT</srai></template>
+</category>
+
+<!--LAPTOPS-->
+
+<category>
+  <pattern>LPTP</pattern>
+  <template>You are welcome to use your laptop in the library. We have a wireless network that is free and available at the Main Library during regular business hours. 
+  The Lake and Headlands Branches do not have wireless. At this time, you cannot print through our wireless network. Please do not allow your cords to become a tripping hazard if you are plugging in to an outlet.
+  </template>
+</category>
+
+
+<category>
+  <pattern>laptop</pattern>
+  <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* laptop</pattern>
+  <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* laptop *</pattern>
+  <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>laptop *</pattern>
+  <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>lap top</pattern>
+    <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* lap top</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* lap top *</pattern>
+    <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>lap top *</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>laptops</pattern>
+    <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* laptops</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* laptops *</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+
+<category>
+  <pattern>lap tops</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* lap tops</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* lap tops *</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<!--MICROSOFT OFFICE-->
+
+<category>
+  <pattern>MCRSFTOFFICE</pattern>
+  <template>We have Microsoft Office 2003 on all of our public computers. If you don't know how to use it, one of the humans may be able to help you.
+  </template>
+</category>
+
+
+<category>
+  <pattern>microsoft office</pattern>
+  <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+<category>
+  <pattern>* microsoft office</pattern>
+  <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+<category>
+  <pattern>* microsoft office *</pattern>
+  <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+
+<category>
+  <pattern>microsoft word</pattern>
+    <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+<category>
+  <pattern>* microsoft word</pattern>
+    <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+<category>
+  <pattern>* microsoft word *</pattern>
+    <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>microsoft excel</pattern>
+   <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+<category>
+  <pattern>* microsoft excel</pattern>
+    <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+<category>
+  <pattern>* microsoft excel *</pattern>
+    <template><srai>MCRSFTOFFICE</srai></template>
+</category>
+
+
+<!--typewriter-->
+
+
+<category>
+  <pattern>TYPEWRTR</pattern>
+  <template>We no longer have any typewriters. All of our computers have Microsoft Office 2003 if you need to do word processing.
+ </template>
+</category>
+
+<category>
+  <pattern>* typewriter</pattern>
+  <template><srai>TYPEWRTR</srai></template>
+</category>
+
+<category>
+  <pattern>* typewriter *</pattern>
+  <template><srai>TYPEWRTR</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>typewriters</pattern>
+   <template><srai>TYPEWRTR</srai></template>
+</category>
+
+<category>
+  <pattern>* typewriters</pattern>
+   <template><srai>TYPEWRTR</srai></template>
+</category>
+
+<category>
+  <pattern>* typewriters *</pattern>
+   <template><srai>TYPEWRTR</srai></template>
+</category>
+
+
+
+
+<!--internet use-->
+
+
+
+<category>
+  <pattern>INTERNET</pattern>
+  <template>All of our locations have internet access. You must have a Mentor Public Library card to use the computers or to get online. Your account must be in good standing. You can see more info about internet and computer use <a href="http://www.mentorpl.org/internetpolicy.html" target="_blank"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* INTERNET </pattern>
+  <template><srai>INTERNET </srai></template>
+</category>
+
+<category>
+  <pattern>* INTERNET *</pattern>
+  <template><srai>INTERNET </srai></template>
+</category>
+
+
+
+
+<category>
+  <pattern>USEINTERNET</pattern>
+  <template>You must have a Mentor Public Library card to use the computers or to get online. Your account must be in good standing. You can see more info about internet and computer use <a href="http://www.mentorpl.org/internetpolicy.html" target="_blank"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* use * internet</pattern>
+  <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* use * internet *</pattern>
+  <template><srai>USEINTERNET</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>get on * internet</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* get on * internet</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* get on * internet *</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>get on * internet *</pattern>
+    <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>use * computer</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* use * computer</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* use * computer *</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>use * computer *</pattern>
+    <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>get online</pattern>
+    <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* get online</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* get online *</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>get online *</pattern>
+  <template><srai>USEINTERNET</srai></template>
+  </category>
+
+<category>
+  <pattern>use * computers</pattern>
+    <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* use * computers</pattern>
+    <template><srai>USEINTERNET</srai></template>
+</category>
+
+<category>
+  <pattern>* use * computers *</pattern>
+   <template><srai>USEINTERNET</srai></template>
+</category>
+
+reporter
+
+<!--time limits-->
+
+<category>
+  <pattern>CMPTLIMIT</pattern>
+    <template>Most of our computers are set for one hour sessions. The Main Library has two 15 minute express terminals. Internet access is limited to four hours per day. If you need additional time, please ask at the reference desk.</template>
+</category> 
+
+<category>
+  <pattern>STAY ONLINE</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>* STAY ONLINE</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>* STAY ONLINE *</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>STAY ONLINE *</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>TIME LIMIT</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>* TIME LIMIT</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>* TIME LIMIT *</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+<category>
+  <pattern>TIME LIMIT *</pattern>
+  <template><srai>CMPTLIMIT</srai></template>
+</category> 
+
+
+<category>
+  <pattern>XTNDSESSION</pattern>
+  <template>You can extend your session in 15 minute increments as long as there are no reservations on that computer. If you're asking how to renew
+  items, please enter "How do I renew items."</template>
+</category>
+
+<category>
+  <pattern>EXTEND SESSION</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>EXTEND * SESSION</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>* EXTEND * SESSION</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>* EXTEND * SESSION *</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>EXTEND * SESSION *</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>EXTEND * TIME</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>* EXTEND * TIME</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>* EXTEND * TIME *</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<category>
+  <pattern>EXTEND * TIME *</pattern>
+  <template><srai>XTNDSESSION</srai></template>
+</category>
+
+<!--install programs-->
+
+<category>
+  <pattern>DNLDINST</pattern>
+  <template>You cannot install any software or applications onto our computers.</template>
+</category>
+
+
+<category>
+  <pattern>INSTALL</pattern>
+  <template><srai>DNLDINST</srai></template>
+</category>
+
+<category>
+  <pattern>* INSTALL</pattern>
+  <template><srai>DNLDINST</srai></template>
+</category>
+
+<category>
+  <pattern>*INSTALL *</pattern>
+  <template><srai>DNLDINST</srai></template>
+</category>
+
+<category>
+  <pattern>INSTALL *</pattern>
+  <template><srai>DNLDINST</srai></template>
+</category>
+
+
+<!--wireless-->
+
+<category>
+  <pattern>WRLSS</pattern>
+  <template>Mentor Public Library provides free wireless access during regular library hours at the Main Library.
+  We currently do not offer wireless at the Lake or Headlands Branches. At this time, you can't print through the wireless network. If you need help connecting, our staff can provide some assistance depending on your hardware and operating system. You can find more information <a href="http://www.mentorpl.org/internetpolicy.html" target="*blank"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>wireless</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* wireless</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* wireless *</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>wireless *</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>hotspot</pattern>
+    <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* hotspot</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* hotspot *</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+
+<category>
+  <pattern>hot spot</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* hot spot</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* hot spot *</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+
+<category>
+  <pattern>wifi</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* wifi</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* wifi *</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+
+<category>
+  <pattern>wi fi</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* wi fi</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+<category>
+  <pattern>* wi fi *</pattern>
+  <template><srai>WRLSS</srai></template>
+</category>
+
+
+<!--floppy use-->
+
+<category>
+<pattern>FDSK</pattern>
+<template>Not all of the library's computers have a floppy drive. 
+At the Main Library you can check out an external floppy drive at the reference desk. 
+The Library no longer sells floppy discs.</template>
+</category>
+
+<category>
+<pattern>* FLOPPY DISC</pattern>
+<template><srai>FDSK</srai> </template>
+</category> 
+
+
+<category>
+<pattern>* FLOPPY DISC *</pattern>
+
+<template><srai>FDSK</srai> </template>
+</category>
+
+<category>
+<pattern>* FLOPPY DISCS</pattern>
+
+<template><srai>FDSK</srai> </template>
+</category> 
+
+
+<category>
+<pattern>* FLOPPY DISCS *</pattern>
+
+<template><srai>FDSK</srai> </template>
+</category>
+
+<category>
+<pattern>* FLOPPY DISK</pattern>
+
+<template><srai>FDSK</srai> </template>
+</category> 
+
+
+<category>
+<pattern>* FLOPPY DISK *</pattern>
+
+<template><srai>FDSK</srai> </template>
+</category>
+
+<category>
+<pattern>* FLOPPY DISKS</pattern>
+
+<template><srai>FDSK</srai> </template>
+</category> 
+
+
+<category>
+<pattern>* FLOPPY DISKS *</pattern>
+<template><srai>FDSK</srai> </template>
+</category>
+
+<!--reserve a copmuter-->
+
+<category>
+<pattern>RSRVPC</pattern>
+<template>You can reserve a computer at the library or by phone, 440.255.8811. At this time, you cannot reserve a 
+computer online. You will need a library card in good standing to use our computers. Most of our computers are set for one hour sessions. The Main Library has two 15 minute express terminals. Internet access is limited to four hours per day. If you need additional time, please ask at the reference desk.</template>
+</category>
+
+<category>
+<pattern>SIGN UP * COMPUTER</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN UP * COMPUTER</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>SIGN UP * COMPUTER *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN UP * COMPUTER *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>SIGN UP * COMPUTERS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN UP * COMPUTERS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>SIGN UP * COMPUTERS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN UP * COMPUTERS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>SIGN UP * INTERNET</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN UP * INTERNET</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>SIGN UP * INTERNET *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* SIGN UP * INTERNET *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * PC</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * PC *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * PC</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * PC *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * PCS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * PCS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * PCS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * PCS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * COMPUTER</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * COMPUTER *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * COMPUTER</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * COMPUTER *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * COMPUTERS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * COMPUTERS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * COMPUTERS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * COMPUTERS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * PC</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * PC *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * PC</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * PC *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * PCS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * PCS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * PCS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * PCS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * COMPUTER</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * COMPUTER *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * COMPUTER</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * COMPUTER *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * COMPUTERS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * COMPUTERS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * COMPUTERS</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * COMPUTERS *</pattern>
+<template><srai>RSRVPC</srai></template>
+</category>
+
+
+</aiml>

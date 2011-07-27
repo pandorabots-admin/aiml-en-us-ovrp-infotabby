@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<category>
+<pattern>CHAT</pattern>
+<template>OK, let's chat. Do you like poetry?</template>
+</category>
+
+<category>
+<pattern>CHAT *</pattern>
+<template>OK, let's chat. Do you like poetry?</template>
+</category>
+
+<category>
+<pattern>* CHAT</pattern>
+<template>OK, let's chat. Do you like poetry?</template>
+</category>
+
+<category>
+<pattern>* CHAT *</pattern>
+<template>OK, let's chat. Do you like poetry?</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some?</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>WOULD YOU LIKE TO HEAR SOME</that>
+<template><srai>RECITEPOEM</srai></template>
+</category>
+
+<category>
+<pattern>LIBQUESTION</pattern>
+<template>I can't answer that at this time. Please speak to one of our human staff or call the library during regular business hours.
+If you need immediate assitance, try Know It Now. I'll open their interface for you as a new window or tab. If you don't see it, turn off your popup blocker and ask me again.
+<think>
+<set name="search">kin</set>
+</think>
+</template>
+</category>
+
+ 
+ <category>
+<pattern>WX</pattern>
+<template>It's a pleasant seventy degrees inside this computer. (By the way, it's pretty dusty in here. You really ought to clean this thing out.) For your local weather conditions and forecast, try <a href="http://www.intellicast.com/" target="_blank"><b>Intellicast</b></a>.</template>
+</category>
+
+<category>
+<pattern>WEATHER</pattern>
+<template><srai>WX</srai></template>
+</category>
+
+<category>
+<pattern>_ WEATHER</pattern>
+<template><srai>WX</srai></template>
+</category>
+
+<category>
+<pattern>WEATHER *</pattern>
+<template><srai>WX</srai></template>
+</category>
+
+<category>
+<pattern>_ WEATHER *</pattern>
+<template><srai>WX</srai></template>
+</category>
+
+<!--CAT IN COMP-->
+
+<category>
+<pattern>CATNCOMP</pattern>
+<template>There are all sorts of things in your computer, cats, dogs, goats, pineapples, balls of aluminum foil, and something that looks like an egg foo young with eyes and legs. Most of these keep a low profile.</template>
+</category>
+
+<category>
+<pattern>_ CAT * COMPUTER</pattern>
+<template><srai>CATNCOMP</srai></template>
+</category>
+
+<category>
+<pattern>DUSTKITS</pattern>
+<template>I see plenty of dust bunnies but no dust kitties.</template>
+</category>
+
+<category>
+<pattern>_ DUST BUNNY</pattern>
+<template><srai>DUSTKITS</srai></template>
+</category>
+
+<category>
+<pattern>_ DUST BUNNY *</pattern>
+<template><srai>DUSTKITS</srai></template>
+</category>
+
+<category>
+<pattern>_ DUST BUNNIES</pattern>
+<template><srai>DUSTKITS</srai></template>
+</category>
+
+<category>
+<pattern>_ DUST BUNNIES *</pattern>
+<template><srai>DUSTKITS</srai></template>
+</category>
+
+<category>
+<pattern>_ DUST KITTIES</pattern>
+<template><srai>DUSTKITS</srai></template>
+</category>
+
+<category>
+<pattern>_ DUST KITTIES *</pattern>
+<template><srai>DUSTKITS</srai></template>
+</category>
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>Greetings, <set name="name"><star/></set>, I'm pleased to meet you.</template>
+</category>
+
+
+
+</aiml>

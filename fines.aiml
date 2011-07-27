@@ -1,0 +1,2162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+  <!--FINES-->
+
+
+<category>
+<pattern>FNS</pattern>
+<template>This is a question I'm often asked. Would you like a summary of our overdue fines, yes or no?
+</template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template><srai>FNSMRY</srai></template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template><srai>FNSMRY</srai></template>
+</category>
+
+<category>
+<pattern>* YES</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template><srai>FNSMRY</srai></template>
+</category>
+
+
+<category>
+<pattern>* YES *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template><srai>FNSMRY</srai></template>
+</category>
+
+
+<category>
+<pattern>NO</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template>OK. What would you like to know about our fees or charges?
+<think><set name="topic">FEES</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template>OK. What would you like to know about our fees or charges?
+<think><set name="topic">FEES</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NO</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template>OK. What would you like to know about our fees or charges?
+<think><set name="topic">FEES</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NO *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template>OK. What would you like to know about our fees or charges?
+<think><set name="topic">FEES</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<template>OK. What would you like to know about our fees or charges?
+<think><set name="topic">FEES</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>FNSMRY</pattern>
+<template>Fines are fifty cents per day for DVDs, DVD sets, and SearchOhio items. Overdue Nooks and i Pads are five dollars per day. The fine for everything else is ten cents per day. If you
+have a fine of $5.00 or more, you cannot place holds, check out items, or access the internet using our computers. Fine policies apply to everyone equally, regardless of age. You can pay your fines at any of our locations or online. You can pay with cash, check, or credit card. Here's a <a href="http://www.mentorpl.org/demos/onlinepayment.wmv" target="_blank">
+  <b>demo</b>
+</a> showing you
+how to pay online. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+We are not currently offering fine forgiveness. If you have questions about fines, please call the library during regular business hours at 440.255.8811.</template>
+</category>
+
+<category>
+<pattern>FINES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>* FINES </pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINES * LATE </pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINES * LATE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINES * OVERDUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINES * OVERDUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>FINE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINE * LATE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINE * LATE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINE * OVERDUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINE * OVERDUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FINE </pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>FEE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEE * LATE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEE * LATE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEE * OVERDUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEE * OVERDUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>FEE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+
+<category>
+<pattern>FEES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEES * LATE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEES * LATE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEES * OVERDUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  FEES * OVERDUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>FEES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+
+<category>
+<pattern>CHARGE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE * LATE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE * LATE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE * OVERDUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE * OVERDUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+
+<category>
+<pattern>*  CHARGES * LATE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGES * LATE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGES * OVERDUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGES * OVERDUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+
+<category>
+<pattern>*  OVERDUES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+  
+<!--BANKRUPTCY-->
+
+
+<category>
+<pattern>BNKRPTCY</pattern>
+<template>It would be best for you to contact our circulation department and discuss this with them. Their phone number is 440.255.8811 extension 205. </template>
+</category>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>BANKRUPT</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* BANKRUPT</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>BANKRUPT * </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>* BANKRUPT *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>BANKRUPTCY</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* BANKRUPTCY</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>BANKRUPTCY * </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* BANKRUPTCY  *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+
+
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>CH 7</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* CH 7 </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>CH 7 * </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* CH 7  *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+
+
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>CHAPTER 7</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* CHAPTER 7</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>CHAPTER 7 *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* CHAPTER 7  *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+ 
+<!--senior fines-->
+
+<category>
+<pattern>SNRFINES</pattern>
+<template>Our circulation and fine policies apply to everyone equally, regardless of age.</template>
+</category>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIOR CITIZEN</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIOR CITIZEN </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIOR CITIZEN * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIOR CITIZEN *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIOR CITIZENS</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIOR CITIZENS </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIOR CITIZENS * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIOR CITIZENS *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIOR</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIOR </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIOR * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIOR *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIORS</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIORS </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>SENIORS * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* SENIORS *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>FORGIVE</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>FORGIVE *</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* FORGIVE</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* FORGIVE *</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>FORGIVENESS</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>FORGIVENESS *</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* FORGIVENESS</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* FORGIVENESS *</pattern>
+<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category></topic>
+
+
+<!--GRACE PERIODS-->
+
+<category>
+<pattern>GRCEPER</pattern>
+<template>There are no grace periods.</template>
+</category>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>GRACE PERIOD</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>GRACE PERIODS</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>*  GRACE PERIOD</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>*  GRACE PERIODS</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>*  GRACE PERIOD *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>*  GRACE PERIODS *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>GRACE PERIOD *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>GRACE PERIODS *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<!--HOW MUCH LATE ITEMS-->
+
+<category>
+<pattern>ODAB</pattern>
+<template>Overdue books are .10 per day unless they are from SearchOhio. Overdue SearchOhio books are .50 per day.
+You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIOBOOK</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIOBOOKS</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIO BOOK</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIO BOOKS</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>ODBK</pattern>
+<template>Overdue books are .10 per day unless they are from SearchOhio. Overdue SearchOhio books are .50 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>ODCD</pattern>
+<template>Overdue CDs are .10 per day unless they are from SearchOhio. Overdue SearchOhio CDs are .50 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>ODDVD</pattern>
+<template>Overdue DVDs are .50 per day. That includes SearchOhio DVDs. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH * LATE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>ODNK</pattern>
+<template>Overdue Nooks are $5.00 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE DVDS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>ODIPD</pattern>
+<template>Overdue i Pads are $5.00 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+
+<!--how much are overdue *-->
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIOBOOK</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIOBOOKS</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIO BOOK</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIO BOOKS</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH * OVERDUE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH * OVERDUE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<!--do i have fines-->
+
+<category>
+<pattern>CHKFINES</pattern>
+<template>To check on your fines, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Any fines will be be indicated there.</template>
+</category>
+
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* HAVE * FINES</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* HAVE * FINES *</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT * FINES</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT * FINE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * FINES</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * FINE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT * OWE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT * OWE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * OWE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * OWE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT * OWE *</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT * OWE *</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * OWE *</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * OWE *</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW * SEE * OWE * LATE FEE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW * SEE * OWE * LATE FEES</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+</topic>
+
+ 
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>DO * HAVE * OVERDUES</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>DO * HAVE * OVERDUE</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>HOW MUCH * OWE * OVERDUE FEES</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+</topic>
+
+
+<category>
+<pattern>OVRDUECHK</pattern>
+<template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank">
+  <b>your account</b>
+</a>. If you have any items that are overdue, they will be indicated there.</template>
+</category>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* I * OVERDUES</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>* I * OVERDUE *</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+</topic>
+
+<topic name="FEES"><category>
+ <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<pattern>WHAT HAPPENS IF YOU LOOSE A BOOK</pattern>
+<template>You bought it. We take cash, credit, or debit cards.</template>
+</category>
+</topic>
+
+<!--individual item fines-->
+
+<category>
+<pattern>*  FINES ON * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>*  FINES FOR * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>*  LATE FEES FOR * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+
+
+<category>
+<pattern>*  LATE FEES ON * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGES * LATE * </pattern>
+<template><srai>FINES <star index="3"/></srai></template>
+</category>
+
+<category>
+<pattern>*  CHARGE * LATE * </pattern>
+<template><srai>FINES <star index="3"/></srai></template>
+</category>
+
+
+<category>
+<pattern>FINES A BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>ODMG</pattern>
+<template>Fines for overdue magazines are ten cents per day.</template>
+</category>
+
+<category>
+<pattern>FINES LATE MAGAZINES</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE MAGAZINE</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE MAGAZINES</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE MAGAZINE</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES OVERDUE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES AN OVERDUE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES LATE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES A LATE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE DVD SETS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE DVD SET</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE DVD SETS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE DVD SET</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>ODVG</pattern>
+<template>Fines for overdue video games are fifty cents per day.</template>
+</category>
+
+<category>
+<pattern>FINES LATE VIDEO GAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE VIDEO GAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE VIDEO GAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE VIDEO GAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE VIDEOGAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE VIDEOGAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE VIDEOGAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE VIDEOGAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<!--so item fines-->
+
+<category>
+<pattern>ODSO</pattern>
+<template>Fines for all overdue SearchOhio items are fifty cents per day.</template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO ITEMS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO MATERIALS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO DVDS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO BOOKS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO CDS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES A SEARCHOHIO DVD</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES A SEARCHOHIO BOOK</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES A SEARCHOHIO CD</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO ITEMS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO MATERIALS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO DVDS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO BOOKS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO CDS</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES A SEARCH OHIO DVD</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES A SEARCH OHIO BOOK</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES A SEARCH OHIO CD</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+
+
+<!--PAYING FINES-->
+
+<category>
+<pattern>PYFINES</pattern>
+<template>You can pay your fines at any of our locations using cash, check, or credit card. You can pay your fines online using a credit or debit card. Here's a 
+<a href="http://www.mentorpl.org/demos/onlinepayment.wmv" target="_blank"><b>demo</b></a> showing you
+how to pay online.
+</template>
+</category>
+
+<topic name="FEES">
+<category>
+<pattern>PAY FINE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY FINE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FINE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+<pattern>PAY FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FINES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY FEE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY FEE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FEE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FEE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FEE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY FEES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY FEES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FEES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FEES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FEES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FINES</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINES</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FINES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+ 
+<topic name="FEES">
+<category>
+<pattern>PAY * FINE</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINE</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * FINE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FINE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+ 
+<topic name="FEES">
+<category>
+<pattern>PAY * LATE FEES</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * LATE FEES</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * LATE FEES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * LATE FEES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+ 
+<topic name="FEES">
+<category>
+<pattern>PAY * LATE FEE</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * LATE FEE</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * LATE FEE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * LATE FEE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+
+
+<!--ONLINE PAYMENT-->
+
+<category>
+<pattern>ONLNPAY</pattern>
+<template>You can pay your fines online using a credit or debit card. Here's a 
+<a href="http://www.mentorpl.org/demos/onlinepayment.wmv" target="_blank"><b>demo</b></a> showing you
+how to pay online.
+</template>
+</category>
+
+<topic name="FEES">
+<category>
+<pattern>ONLINE PAYMENT</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE PAYMENT</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE * PAYMENT</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE PAYMENT *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE * PAYMENT *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>ONLINE PAYMENTS</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE PAYMENTS</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE * PAYMENTS</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE PAYMENTS *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  ONLINE * PAYMENTS *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAYMENT ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENT ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENT * ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENT ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENT * ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAYMENTS ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENTS ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENTS * ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENTS ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAYMENTS * ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category></topic>
+
+<!--PAY SOMEONE ELSES FINES-->
+
+<category>
+  <pattern>PAYLNKDFINES</pattern>
+  <template>You can pay another person's fines online. You can pay their fines in person with their card, or in person without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY MY * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY MY * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY MY * FINES *</pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY OUR * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY OUR * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY OUR * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * CARD *</pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>* PAY * ON OUR * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON OUR * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * FOR MY * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FOR MY * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * FOR OUR * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FOR OUR * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<!--CARDS-->
+
+
+<!--REDIRECT FROM FINES.AIML-->
+
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CARD COST</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARD COST</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARD COST *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CHARGE CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARD *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>COST CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARD *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>FEE CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARD</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARD *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CARDS COST</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARDS COST</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARDS COST *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CHARGE CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARDS *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>COST CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARDS *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>FEE CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARDS</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARDS *</pattern>
+  <template><srai>LCCST</srai></template>
+</category></topic>
+
+
+
+</aiml>

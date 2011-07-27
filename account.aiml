@@ -1,0 +1,3464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+  
+  
+  
+<category>
+<pattern>ACCOUNT</pattern>
+<template>Follow this link to log into <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. 
+</template>
+</category>  
+
+<category>
+<pattern>BAG</pattern>
+<template>After logging into your account, your bag should be in the upper row of icons on our catalog. If you don't see it, select "new search." That should bring it up.
+</template>
+</category>
+
+<category>
+<pattern>* BAG</pattern>
+<template><srai>BAG</srai></template>
+</category>
+
+<category>
+<pattern>BAG *</pattern>
+<template><srai>BAG</srai></template>
+</category>
+
+<category>
+<pattern>* BAG *</pattern>
+<template><srai>BAG</srai></template>
+</category>
+
+<category>
+<pattern>ADDBAG</pattern>
+<template>You can select a number of items in our catalog then press the "Add marked to bag" to add all of them to your bag. You can then 
+go to "view bag" and save or request the items it contains. It's a bit hard to explain. If you have further questions, please call
+the library at 440.255.8811 during regular business hours.</template>
+</category>
+
+<category>
+<pattern>ADD * BAG</pattern>
+<template><srai>ADDBAG</srai></template>
+</category>
+  
+<category>
+<pattern>ADD * BAG *</pattern>
+<template><srai>ADDBAG</srai></template>
+</category>  
+
+<category>
+<pattern>_ ADD * BAG</pattern>
+<template><srai>ADDBAG</srai></template>
+</category>
+  
+  
+<category>
+<pattern>_ ADD * BAG *</pattern>
+<template><srai>ADDBAG</srai></template>
+</category>
+
+<!--NO ACCT-->  
+  
+<category>
+<pattern>* DO NOT HAVE * ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT HAVE * ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT HAVE * CARD</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT HAVE * CARD *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern>OPEN ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ OPEN * ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ OPEN * ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+
+<category>
+<pattern>OPENING ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ OPENING * ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ OPENING  * ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ OPENING ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern>START ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ START * ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ START  * ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ START ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern>STARTING ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ STARTING * ACCOUNT</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ STARTING  * ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+<pattern> _ STARTING ACCOUNT *</pattern>
+<template><srai>GTCRD</srai></template>
+</category>
+
+<!--LOGIN-->
+
+<category>
+<pattern>LOG IN</pattern>
+<template><srai>LOGIN</srai></template>
+</category>
+
+<category>
+<pattern> * LOG IN</pattern>
+<template><srai>LOGIN</srai></template>
+</category>
+
+<category>
+<pattern> * LOGIN</pattern>
+<template><srai>LOGIN</srai></template>
+</category>
+
+<category>
+<pattern> * LOG IN *</pattern>
+<template><srai>LOGIN</srai></template>
+</category>
+
+<category>
+<pattern> * LOGIN *</pattern>
+<template><srai>LOGIN</srai></template>
+</category>
+
+<category>
+<pattern>LOGIN</pattern>
+<template>Here's where you log in. If you don't see it, turn off your pop up blocker and ask again. Enter your name in the upper field and your library card number in the lower field. You can enter just your last name if you'd like.
+<think>
+<set name="search">patroninfo</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>ITEMS CHECKED OUT</pattern>
+<template>Are you asking how to see a list of the items you've checked out? If your answer is "yes," log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. You'll find a list there.</template>
+</category>
+
+
+<category>
+<pattern>CHANGE EMAIL</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<!--linking accounts-->
+
+<category>
+  <pattern>LNKACCTS</pattern>
+  <template>Accounts may be linked for the purposes of renewing, paying fines, or checking out holds on another account. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+<pattern>LINK ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK ACCOUNTS</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK * ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK * ACCOUNTS</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK * ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK * ACCOUNTS *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LINK ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK * ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK * ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LINKED ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED ACCOUNTS</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED * ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED * ACCOUNTS</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED * ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED * ACCOUNTS *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LINKED ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED * ACCOUNT</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED * ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINKED ACCOUNT *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACCOUNT LINK</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT LINK</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS LINK</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * LINK</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * LINK</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * LINK *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * LINK *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT LINK *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACCOUNT LINKED</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT LINKED</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * LINKED</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * LINKED *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT LINKED *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACCOUNTS LINKED</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS LINKED</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * LINKED</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * LINKED *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS LINKED *</pattern>
+<template><srai>LNKACCTS</srai>
+</template>
+</category>
+
+<!--SHARE ACCOUNTS-->
+
+<category>
+  <pattern>SHRACCTS</pattern>
+  <template>It's best not to share library cards or accounts, but it may be desirable for you to link accounts. Accounts may be linked for the purposes of renewing, paying fines, or checking out holds on another account. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+<pattern>SHARE ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE ACCOUNTS</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE * ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE * ACCOUNTS</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE * ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE * ACCOUNTS *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>SHARE ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE * ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE * ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARE ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>SHARED ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED ACCOUNTS</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED * ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED * ACCOUNTS</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED * ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED * ACCOUNTS *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>SHARED ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED * ACCOUNT</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED * ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHARED ACCOUNT *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACCOUNT SHARE</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT SHARE</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS SHARE</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * SHARE</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * SHARE</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * SHARE *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * SHARE *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT SHARE *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACCOUNT SHARED</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT SHARED</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * SHARED</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT * SHARED *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNT SHARED *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACCOUNTS SHARED</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS SHARED</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * SHARED</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS * SHARED *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACCOUNTS SHARED *</pattern>
+<template><srai>SHRACCTS</srai>
+</template>
+</category>
+
+
+<!--renew for-->
+
+<category>
+  <pattern>RENEW * ON MY * CARD</pattern>
+  <template>You can renew <star index="1"/> for your <star index="2"/> if you have their card, or if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern> _ RENEW * ON MY * CARD</pattern>
+  <template>You can renew <star index="2"/> for your <star index="3"/> if you have their card, or if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>RENEW * FOR _</pattern>
+  <template>You can renew <star/> for another person if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<!--save acct number locally-->
+
+<category>
+<pattern>* save * number * computer</pattern>
+<template>I think you would do that using your local browser settings. You should talk with Marlene Pelyhes about this. Her email address
+is marlene.pelyhes@mentorpl.org.</template>
+</category>
+
+<category>
+<pattern>* save * number * computer *</pattern>
+<template>I think you would do that using your local browser settings. You should talk with Marlene Pelyhes about this. Her email address
+is marlene.pelyhes@mentorpl.org.</template>
+</category>
+
+<!--pay fines for see fines.aiml-->
+
+<!-- cannot log in-->
+
+<category>
+  <pattern>ACCTFAIL</pattern>
+  <template>If you're having trouble logging on to your account, here are some tips. Enter all 14 digits of you card number without spaces.
+  If you're using IE, please try Firefox. If you still can't log into your account, call us at 440.255.8811. If you haven't used your card in some time, you may need to get a new one.
+ </template>
+</category>
+
+<category>
+  <pattern>ACCOUNT WILL NOT WORK</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>ACCOUNT * NOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>_ ACCOUNT * NOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>ACCOUNT CANNOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>_ ACCOUNT CANNOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT * ACCOUNT</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT * ACCOUNT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT * ACCOUNT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CANNOT * ACCOUNT</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CANNOT * ACCOUNT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* CANNOT * ACCOUNT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CARD WILL NOT WORK</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CARD * NOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>_ CARD * NOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CARD CANNOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>_ CARD CANNOT *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT * CARD</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT * CARD *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT * CARD *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CANNOT * CARD</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>CANNOT * CARD *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* CANNOT * CARD *</pattern>
+  <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* TRYING TO LOG * BUT *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* TRY TO LOG * BUT *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<!--RECORD IN USE-->
+
+<category>
+<pattern>RECINUSE</pattern>
+<template>If you see the message "record in use," please call the library at 440.255.8811 for assistance. If you're already in the library, ask one of the staff for assistance.
+If you receive this message after regular business hours, please call us when we reopen. </template>
+</category>
+
+
+<category>
+<pattern>RECORD IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORD IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORD IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORD IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORD * IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORD * IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORD * IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORD * IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORDS IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORDS IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORDS IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORDS IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORDS * IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>RECORDS * IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORDS * IN USE</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECORDS * IN USE *</pattern>
+<template><srai>RECINUSE</srai></template>
+</category>
+
+<!--ACCESS WO BARCODE WAHHHH-->
+
+<category>
+<pattern>ACCESSNOBC</pattern>
+<template>No, you cannot access your account without your card number. I cannot look up your number for you. Please stop in the library for assistance or call us at 440.255.8811.</template>
+</category>
+
+
+<category>
+  <pattern>_ ACCOUNT WITHOUT * NUMBER</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ ACCOUNT * DO NOT HAVE * NUMBER</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ ACCOUNT WITHOUT * BARCODE</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ ACCOUNT * DO NOT HAVE * BARCODE</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ DO NOT HAVE * NUMBER * ACCOUNT</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ DO NOT HAVE * BARCODE * ACCOUNT</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ FORGET * NUMBER * ACCOUNT</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ FORGET * BARCODE * ACCOUNT</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ FORGOT * NUMBER * ACCOUNT</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ FORGOT * BARCODE * ACCOUNT</pattern>
+   <template><srai>ACCESSNOBC</srai></template>
+</category>
+
+
+<!--INVALID BARCODE-->
+
+<category>
+  <pattern>INVALIDBC</pattern>
+   <template>If you've gotten a message that your card number is invalid, please check the following. First, make sure you are using a Mentor
+   Public Library card. You cannot log in using Greater Access, Cuyahoga County, CLEVNET, or other library cards. Second, please omit any spaces when
+your enter your 14 digit card number. If you still can't log in, call the library at 440.255.8811. If you haven't used your card in some time, you may need
+to get a new one. You cannot get a new card online. </template>
+</category>
+
+
+
+
+<category>
+  <pattern>INVALID BARCODE</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ INVALID BARCODE</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>INVALID BARCODE *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ INVALID BARCODE *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>BARCODE INVALID</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ BARCODE INVALID</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ BARCODE * INVALID</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ BARCODE * INVALID *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ BARCODE INVALID *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>CARD INVALID</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ CARD INVALID</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ CARD * INVALID</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ CARD * INVALID *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>* CARD INVALID *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>INVALID CARD</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ INVALID CARD</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ INVALID * CARD</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>_ INVALID * CARD *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+<category>
+  <pattern>* INVALID CARD *</pattern>
+   <template><srai>INVALIDBC</srai></template>
+</category>
+
+
+<category>
+  <pattern>trouble logging on</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* trouble logging on</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* trouble logging on *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>trouble logging in</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* trouble logging in</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* trouble logging in *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+
+<category>
+<pattern>CANNOT LOG IN</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT LOG IN</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT LOG IN</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT LOG IN</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>CANNOT LOG  *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT LOG  *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT LOG  *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT LOG *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT * ACCESS * ACCOUNT</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT * ACCESS * ACCOUNT</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT * ACCESS * ACCOUNT *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT * ACCESS * ACCOUNT *</pattern>
+   <template><srai>ACCTFAIL</srai></template>
+</category>
+
+
+
+<category>
+<pattern>* WRONG * ACCOUNT</pattern>
+<template>Describe the problem.</template>
+</category>
+
+<!--good standing-->
+
+<category>
+  <pattern>GSTNDING</pattern>
+  <template>Accounts are in good standing when they have fines under <say-as type="Currency"> $5.00 </say-as>.
+  </template>
+</category>
+
+<category>
+  <pattern>good standing</pattern>
+  <template><srai>GSTNDING</srai></template>
+</category>
+
+<category>
+  <pattern>good standing</pattern>
+  <template><srai>GSTNDING</srai></template>
+</category>
+
+<category>
+  <pattern>_ good standing</pattern>
+  <template><srai>GSTNDING</srai></template>
+</category>
+
+<category>
+  <pattern>_ good standing *</pattern>
+  <template><srai>GSTNDING</srai></template>
+</category>
+
+<!--IF I HAVE FINES-->
+
+<category>
+  <pattern>REQIFFINES</pattern>
+  <template>If you have fines of <say-as type="Currency"> $5.00 </say-as> or more, you cannot check out items, place holds, or use our internet computers.
+  </template>
+</category>
+
+
+<category>
+  <pattern>CHECK OUT * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>CHECK OUT * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK OUT * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK OUT * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK OUT * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK OUT * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK * OUT * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK * OUT * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK * OUT * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ CHECK * OUT * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * CHECK OUT</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * CHECK OUT</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * CHECK OUT *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * CHECK OUT *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * CHECK * OUT</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * CHECK * OUT</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<!--HOLDS IF FINES-->
+
+<category>
+  <pattern>HOLD * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>HOLD * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>HOLDS * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>HOLDS * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLD * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ HOLDS * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * HOLD</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * HOLD</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * HOLDS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * HOLDS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * HOLD *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * HOLD *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * HOLDS *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * HOLDS *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * HOLD</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * HOLD</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * HOLDS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * HOLDS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<!--REQUEST IF FINES-->
+
+<category>
+  <pattern>REQUEST * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>REQUEST * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>REQUESTS * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>REQUESTS * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUEST * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ REQUESTS * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * REQUEST</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * REQUEST</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * REQUESTS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * REQUESTS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * REQUEST *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * REQUEST *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * REQUESTS *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * REQUESTS *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * REQUEST</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * REQUEST</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * REQUESTS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * REQUESTS</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<!--RESERVE IF FINES-->
+
+<category>
+  <pattern>RESERVE * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>RESERVE * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>RESERVES * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>RESERVES * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVE * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ RESERVES * FINES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * RESERVE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * RESERVE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * RESERVES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * RESERVES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * RESERVE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * RESERVE *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * RESERVES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * RESERVES *</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ FINE * RESERVE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * RESERVE</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINE * RESERVES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+<category>
+  <pattern>_ FINES * RESERVES</pattern>
+  <template><srai>REQIFFINES</srai></template>
+</category>
+
+
+<!--In use by system response-->
+
+<category>
+  <pattern>INUSEBYSYS</pattern>
+  <template>If you see the message "Account in use by system," please call the Main Library at 440.255.8811 as soon as possible. You may not be able to place 
+  holds until this issue is corrected></template>
+</category>
+
+<category>
+  <pattern>IN USE BY SYSTEM</pattern>
+  <template><srai>INUSEBYSYS</srai></template>
+</category>
+
+<category>
+  <pattern>* IN USE BY SYSTEM</pattern>
+  <template><srai>INUSEBYSYS</srai></template>
+</category>
+
+<category>
+  <pattern>* IN USE BY SYSTEM *</pattern>
+  <template><srai>INUSEBYSYS</srai></template>
+</category>
+
+
+<!--where do i log on give card number-->
+<category>
+  <pattern>MYACCT</pattern>
+  <template>Here's where you log in. If you don't see it, turn off your pop up blocker and ask again. Enter your name in the upper field and your library card number in the lower field. You can enter just your last name if you'd like.
+I can't give you your account number. Call the library if you need help with that.<br/>
+If you're having trouble logging on to your account, here are some tips. Enter all 14 digits of you card number without spaces.
+  If you're using IE, please try Firefox. If you still can't log into your account, call us at 440.255.8811. If you haven't used your card in some time, you may need to get a new one.
+<think>
+<set name="search">patroninfo</set>
+</think>
+</template>
+</category>
+  
+
+
+<category>
+  <pattern>MY ACCOUNT</pattern>
+  <template><srai>MYACCT</srai></template>
+</category>
+
+<category>
+  <pattern>* MY ACCOUNT</pattern>
+  <template><srai>MYACCT</srai></template>
+</category>
+
+<category>
+  <pattern>* MY ACCOUNT *</pattern>
+  <template><srai>MYACCT</srai></template>
+</category>
+
+
+<category>
+  <pattern>MYCRDNUM</pattern>
+  <template> I cannot give you your library card number. Please call the library for assistance.
+ </template>
+</category>
+
+<category>
+  <pattern>card number</pattern>
+  <template><srai>MYCRDNUM</srai></template>
+</category>
+
+
+<category>
+  <pattern>my number</pattern>
+  <template><srai>MYCRDNUM</srai></template>
+</category>
+
+
+<category>
+  <pattern>my * number</pattern>
+  <template><srai>MYCRDNUM</srai></template>
+</category>
+
+<category>
+  <pattern>* my * number</pattern>
+  <template><srai>MYCRDNUM</srai></template>
+</category>
+
+<category>
+  <pattern>* my * number *</pattern>
+  <template><srai>MYCRDNUM</srai></template>
+</category>
+
+<!--not receiving notices whitelist spam filter-->
+
+<category>
+  <pattern>NOTICEFAIL</pattern>
+  <template>If you're not receiving email notices from us, it may be that our emails are getting caught in your spam filter. You need to "white list" our email address: mcirc@mentorpl.org. You can find help with "white listing" <a href="http://www.quiltbus.com/whitelist.htm"><b>here</b></a>.
+  If that doesn't help, please call the library at 440.255.8811 or email marlene.pelyhes@mentorpl.org.</template>
+</category>
+
+
+<category>
+  <pattern>not receiving notices</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>* not RECEIVING notices</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not RECEIVING notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not RECEIVING * notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT RECEIVING EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVING EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVING EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT RECEIVING EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVING EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVING EMAILS *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+
+
+
+
+
+
+<category>
+  <pattern>* not RECEIVE notices</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not RECEIVE notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not RECEIVE * notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT RECEIVE EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVE EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVE * EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVE EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVE * EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT RECEIVE EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVE EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT RECEIVE EMAILS *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<!--GET NOT RECEIVE-->
+
+<category>
+  <pattern>* not GET notices</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not GET notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not GET * notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT GET EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GET EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GET * EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GET EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GET * EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT GET EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GET EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GET EMAILS *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<!--GETTING NOT GET-->
+
+<category>
+  <pattern>* not GETTING notices</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not GETTING notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* not GETTING * notices *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT GETTING EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GETTING EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GETTING * EMAIL</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GETTING EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GETTING * EMAIL *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>NOT GETTING EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GETTING EMAILS</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<category>
+  <pattern>* NOT GETTING EMAILS *</pattern>
+  <template><srai>NOTICEFAIL</srai></template>
+</category>
+
+<!--confidentiality-->
+<category>
+  <pattern>CONFIDENTIALITY</pattern>
+  <template>All adult records are protected under Ohio statute. If an adult or child wishes to pick up an item that was reserved with an adult library card, they must present the library card that was used to place the hold, or a "linked" card before the item can be released. The same policy applies to renewal of items checked out on an adult library card. The adult library card used to check-out the items, or a "linked" card must be presented for renewals, whether by phone or in person. The library cannot make any exceptions to these rules. This policy was implemented on September 1, 2007 but does not pertain to juvenile records. If you have any further questions please visit the Circulation Desk or call the library at 440.255.8811.
+ </template>
+</category>
+
+<category>
+  <pattern>_ record confidential</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>_ record confidential *</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>_ records confidential</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>_ records confidential *</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>account secure</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>* account secure</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>* account secure *</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+
+<category>
+  <pattern>accounts secure</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>* accounts secure</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>* accounts secure *</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>* secure * account</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>* secure * accounts</pattern>
+  <template><srai>CONFIDENTIALITY</srai></template>
+</category>
+
+<category>
+  <pattern>SPAMFILTER</pattern>
+  <template>If you're not receiving email notices from us, it may be that our emails are getting caught in your spam filter. You need to "white list" our email address: mcirc@mentorpl.org. You can find help with "white listing" <a href="http://www.quiltbus.com/whitelist.htm"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>spam filter</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<category>
+  <pattern>_ spam filter</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<category>
+  <pattern>_ spam filter *</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+
+<category>
+  <pattern>white list</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<category>
+  <pattern>_ white list</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<category>
+  <pattern>_ white list *</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+
+<category>
+  <pattern>whitelist</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<category>
+  <pattern>_ whitelist</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<category>
+  <pattern>_ whitelist *</pattern>
+  <template><srai>SPAMFILTER</srai></template>
+</category>
+
+<!--email/text notifications/alerts-->
+
+<category>
+  <pattern>TXTNOTS</pattern>
+  <template>Sign up for Text Message Alerts by sending an email to <a href="mailto:askalibrarian@mentorpl.org" target="_blank"><b>askalibrarian@mentorpl.org</b></a> with the following info: 
+your email address (the one you'd like to use for library messages), your library card number (all 14 digits),
+your cell phone number, and your cell phone carrier. 
+After you sign up you'll start receiving short messages about items that are ready for pickup or due to be returned. (You cannot reply to these texts). 
+Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this is a free service offered by the Library, you may incur per-message charges depending on your cell phone plan. Please contact your wireless provider for more details. Library notices will still be sent by email, and the email notification will provide more detailed information about your items. 
+  </template>
+</category>  
+
+<category>
+ <pattern>TEXT NOTIFICATION</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+
+<category>
+ <pattern>_ TEXT NOTIFICATION</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern>_ TEXT NOTIFICATION *</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>  
+  
+
+<category>
+ <pattern>TEXT NOTIFICATIONS</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern>_ TEXT NOTIFICATIONS</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern>_ TEXT NOTIFICATIONS *</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>  
+  
+
+
+<category>
+ <pattern>TEXT NOTICES</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+
+<category>
+ <pattern>_ TEXT NOTICES</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern>_ TEXT NOTICES *</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>  
+  
+
+<category>
+ <pattern>TEXT ALERTS</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+
+<category>
+ <pattern>_ TEXT ALERTS</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern>_ TEXT ALERTS *</pattern>
+ <template><srai>TXTNOTS</srai></template>
+</category>  
+  
+
+  
+<category>
+  <pattern>EMAILNOTS</pattern>
+  <template>You can receive holds pickup, renewal, and other courtesy notices by email. Just send the
+  email address you'd like to use for library messages and your library card number to <a href="mailto:askalibrarian@mentorpl.org" target="_blank"><b>askalibrarian@mentorpl.org</b></a>
+  and we'll set up email norification for you.
+</template>
+</category> 
+
+<category>
+ <pattern>EMAIL NOTIFICATION</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ EMAIL NOTIFICATION</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ EMAIL NOTIFICATION *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+  
+
+<category>
+ <pattern>EMAIL NOTIFICATIONS</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ EMAIL NOTIFICATIONS</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ EMAIL NOTIFICATIONS *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+  
+<category>
+ <pattern>EMAIL NOTICES</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ EMAIL NOTICES</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ EMAIL NOTICES *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+  
+<category>
+ <pattern>EMAIL ALERTS</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ EMAIL ALERTS</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ EMAIL ALERTS *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+  
+<category>
+ <pattern>ALERTS * EMAIL </pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ ALERTS * EMAIL</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern>NOTICES * EMAIL </pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ NOTICES * EMAIL</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ NOTICES * EMAIL *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+
+<category>
+ <pattern>NOTIFICATION * EMAIL </pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ NOTIFICATION * EMAIL</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ NOTIFICATION * EMAIL *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+
+<category>
+ <pattern>NOTIFICATIONS * EMAIL </pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+
+<category>
+ <pattern> _ NOTIFICATIONS * EMAIL</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>
+  
+<category>
+ <pattern> _ NOTIFICATIONS * EMAIL *</pattern>
+ <template><srai>EMAILNOTS</srai></template>
+</category>  
+  
+
+
+<!--print list of items out-->
+
+<category>
+  <pattern>PRINTALIST</pattern>
+  <template>If you'd like to print a list of your holds or of the items you have checked out, use the print button near the top of the screen.
+ </template>
+</category>
+
+<category>
+  <pattern> _ PRINT * LIST</pattern>
+  <template><srai>PRINTALIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ print * list *</pattern>
+  <template><srai>PRINTALIST</srai></template>
+</category>
+
+
+<category>
+  <pattern>print lists</pattern>
+  <template><srai>PRINTALIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ print lists</pattern>
+  <template><srai>PRINTALIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ print lists *</pattern>
+  <template><srai>PRINTALIST</srai></template>
+</category>
+
+<category>
+  <pattern> _ print * lists *</pattern>
+  <template><srai>PRINTALIST</srai></template>
+</category>
+
+
+<!--change account info-->
+
+<category>
+<pattern>CHNGACCTINF</pattern>
+<template>You can change your street address, city, state, zip code, and email address by logging into your account. Here's a <a href="http://www.mentorpl.org/modifyinginfo.wmv" target="_blank">
+<b>demo</b></a>. All other information, such as phone number, can only be changed by a library staff member. Please call 440.255.8811 for assistance.</template>
+</category>
+
+<category>
+<pattern>change * account info</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>change * account info *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * account info</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * account info *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>change * account information</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>change * account information *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * account information</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * account information *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * phone number</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * phone number *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern> _ change * address</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern> _ change * address *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern> _ change * email *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern> _ change * email *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>CHANGE TELEPHONE * CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ CHANGE TELEPHONE * CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ CHANGE * TELEPHONE * CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<!--EDIT-->
+
+<category>
+<pattern>EDIT MY INFORMATION </pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>EDIT MY * INFORMATION </pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>EDIT * INFORMATION * CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>UPDATE ACCOUNT</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE ACCOUNT</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE * ACCOUNT</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE * ACCOUNT *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>UPDATE PHONE NUMBER</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>_ UPDATE PHONE NUMBER</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>_ UPDATE * PHONE NUMBER</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>_ UPDATE * PHONE NUMBER *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>UPDATE ADDRESS</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE ADDRESS</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE * ADDRESS</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE * ADDRESS *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>UPDATE EMAIL</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE EMAIL</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE * EMAIL</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+<category>
+<pattern>_ UPDATE * EMAIL *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category>
+
+
+<!--reading history-->
+
+<category>
+<pattern>RHISTORY</pattern>
+<template>You can keep a record of all the items you check out by activating your "Reading History."
+To do this, log into your account. To the right of your name is a series of buttons. Click the middle button
+marked "My Reading History" and opt in. You may opt out at any time. Once your reading history has been activated,
+your account will keep a record of all the items you check out. 
+</template>
+</category>
+
+<category>
+<pattern>READING HISTORY</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>_ READING HISTORY</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>_ READING HISTORY *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+
+
+<category>
+<pattern>MY HISTORY</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>_MY HISTORY</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>_MY * HISTORY</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>_MY HISTORY *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>_MY * HISTORY *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>REMEMBER * READ</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * READ</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * READ *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>REMEMBER * REQUESTED</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * REQUESTED</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * REQUESTED *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>RECALL * READ</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* RECALL * READ</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* RECALL * READ *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>RECALL * REQUESTED</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* RECALL * REQUESTED</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* RECALL * REQUESTED *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>LOOK UP * READ</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK UP * READ</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK UP * READ *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>LOOK UP * REQUESTED</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK UP * REQUESTED</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern>HISTORY * CHECKED OUT</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ HISTORY * CHECKED OUT</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ HISTORY * CHECKED OUT *</pattern>
+<template><srai>RHISTORY</srai></template>
+</category>
+
+
+<category>
+<pattern> _ RECORD * CHECKED OUT</pattern>
+<template>The library does not keep a record of the items you check out. <br/><br/>
+<srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ RECORD * CHECKED OUT *</pattern>
+<template>The library does not keep a record of the items you check out. <br/><br/>
+<srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ RECORD * READ</pattern>
+<template>The library does not keep a record of the items you check out.  <br/><br/>
+<srai>RHISTORY</srai></template>
+</category>
+
+<category>
+<pattern> _ RECORD * READ</pattern>
+<template>The library does not keep a record of the items you check out.  <br/><br/>
+<srai>RHISTORY</srai></template>
+</category>
+
+<!--create lists-->
+
+<category>
+<pattern>CREATELIST</pattern>
+<template>You can create and save a list of titles for future request. We'll have a demo soon!
+</template>
+</category>
+
+<category>
+<pattern>CREATE LIST</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CREATE LIST</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern>CREATE * LIST</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CREATE * LIST</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern>CREATE * LIST *</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CREATE * LIST *</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+
+<category>
+<pattern>CREATE LISTS</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CREATE LISTS</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern>CREATE * LISTS</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CREATE * LISTS</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern>CREATE * LISTS *</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CREATE * LISTS *</pattern>
+<template><srai>CREATELIST</srai></template>
+</category>
+
+
+<!--preferred searches-->
+
+<category>
+<pattern>PREFERREDSEARCH</pattern>
+<template>You can set you account to remember your preferred searches. We'll have a demo soon!
+</template>
+</category>
+
+<category>
+<pattern>PREFERRED SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>PREFERRED SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>_PREFERRED SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>_ PREFERRED SEARCHES *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+
+
+<category>
+<pattern>PREFERRED SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>_PREFERRED SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>_ PREFERRED SEARCH *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+
+<category>
+<pattern>RECALL * SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ RECALL * SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ RECALL * SEARCH *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>RECALL SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>RECALL * SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ RECALL * SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ RECALL * SEARCHES *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+
+<!--remember-->
+
+<category>
+<pattern>REMEMBER SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>REMEMBER * SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * SEARCH</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * SEARCH *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>REMEMBER SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>REMEMBER * SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * SEARCHES</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern> _ REMEMBER * SEARCHES *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+
+<category>
+<pattern>REMEMBER * LOOKING FOR</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* REMEMBER * LOOKING FOR</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* REMEMBER * LOOKING FOR *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* REMEMBER * LOOKED FOR *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>REMEMBER * FOUND</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* REMEMBER * FOUND</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* REMEMBER * FOUND *</pattern>
+<template><srai>PREFERREDSEARCH</srai></template>
+</category>
+
+<!--rating-->
+
+<category>
+<pattern>RATING</pattern>
+<template>You rate titles in our collection. We'll have a demo soon!
+</template>
+</category>
+
+<category>
+<pattern> _ RATING</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+<category>
+<pattern> _ RATING *</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+<category>
+<pattern>RATING *</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+
+<category>
+<pattern>RATE</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+<category>
+<pattern> _ RATE</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+<category>
+<pattern> _ RATE *</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+<category>
+<pattern>RATE *</pattern>
+<template><srai>RATING</srai></template>
+</category>
+
+
+
+<!--log out-->
+
+<category>
+<pattern>LOGOUT</pattern>
+<template>Don't forget to log out of your account when you are finished. This
+is especially important when you're using a computer in a public place. To log out of your account, click
+"log out" in the upper right corner of the screen.
+</template>
+</category>
+
+<category>
+<pattern>LOG OUT</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOG OUT</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOG OUT *</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+
+<category>
+<pattern>LOG OFF</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOG OFF</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOG OFF *</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+
+<category>
+<pattern>LOGGING OUT</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOGGING OUT</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOGGING OUT *</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+
+<category>
+<pattern>LOGGING OFF</pattern>
+<template><srai>LOG OUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOGGING OFF</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>_ LOGGING OFF *</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<category>
+<pattern>LOGGING OFF _</pattern>
+<template><srai>LOGOUT</srai></template>
+</category>
+
+<!--my list-->
+
+<category>
+<pattern>MYLIST</pattern>
+<template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>Your Account</b></a>. After you've logged in, click on the
+"My Lists" button.</template>
+</category>
+
+<category>
+<pattern>MY LIST</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern>MY LISTS</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern> _ MY LIST</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern> _ MY LIST *</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+
+<category>
+<pattern>* MY * LIST</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern>* MY * LIST *</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern>* MY LISTS</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern>* MY LISTS *</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+
+<category>
+<pattern>* MY * LISTS</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<category>
+<pattern>* MY * LISTS *</pattern>
+<template><srai>MYLIST</srai></template>
+</category>
+
+<!--my items on hold-->
+
+<category>
+<pattern>HLDLIST</pattern>
+<template>A list of the items you have on hold is in <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Log into <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> and you should see it on the first page.</template>
+</category>
+
+<category>
+<pattern>HOLD LIST</pattern>
+<template><srai>HLDLIST</srai></template>
+</category>
+
+<category>
+<pattern> * I * ON HOLD</pattern>
+<template><srai>HLDLIST</srai></template>
+</category>
+
+<category>
+<pattern> * MY * ON HOLD</pattern>
+<template><srai>HLDLIST</srai></template>
+</category>
+
+<category>
+<pattern> _ CHECKED OUT * ACCOUNT</pattern>
+<template><srai>HLDLIST</srai></template>
+</category>
+
+<category>
+<pattern> * HAVE CHECKED OUT</pattern>
+<template><srai>HLDLIST</srai></template>
+</category>
+
+<category>
+<pattern> * HAVE CHECKED OUT *</pattern>
+<template><srai>HLDLIST</srai></template>
+</category>
+
+<!--CAN I TAKE OUT-->
+
+<category>
+<pattern>CNTKOUT</pattern>
+<template>If you have a Mentor Public Library card in good standing, you can take out whatever you wish.</template>
+</category>
+
+<category>
+<pattern>CAN * TAKE OUT *</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern>CAN * TAKE * OUT</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern> * CAN * TAKE OUT *</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern> * CAN * TAKE * OUT *</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern>CAN * CHECK OUT *</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern>CAN * CHECK * OUT</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern> * CAN * CHECK OUT *</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+<category>
+<pattern> * CAN * CHECK * OUT *</pattern>
+<template><srai>CNTKOUT</srai></template>
+</category>
+
+
+</aiml>

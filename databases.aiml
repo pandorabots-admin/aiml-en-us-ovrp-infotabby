@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+
+
+<!--bookflix-->
+
+<category>
+  <pattern>book flix</pattern>
+  <template>Yes, we have BookFlix. You'll need your library card to use it. You can get to BookFlix by following this <a href="http://auth.grolier.com/cgi-libscript/entrypoint.pl?118224andlink=bkflix.grolier.com" target="_blank"><b>link</b></a>.
+ </template>
+</category>
+
+<category>
+<pattern>_  book flix</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<category>
+<pattern>_  book flix *</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<category>
+  <pattern>book flix *</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<category>
+  <pattern>bookflix</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<category>
+<pattern>_  bookflix</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<category>
+<pattern>_  bookflix *</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<category>
+  <pattern>bookflix *</pattern>
+  <template><srai>book flix</srai></template>
+</category>
+
+<!--CONSUMER REPORTS-->
+
+<category>
+<pattern>CNSMRRPTS</pattern>
+<template>I haven't been programmed to search Consumer Reports for you yet, but here's a link to their <a href="http://oplin.org/databases/proxy/proxy.php?qurl=http://search.ebscohost.com/
+login.aspx?authtype=ip,uid%26site=crcro%26return=y
+" target="_blank"><b>website</b></a>.
+</template>
+</category>
+
+<category>
+<pattern>CONSUMER REPORT</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>_ CONSUMER REPORT</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>CONSUMER REPORT *</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>_ CONSUMER REPORT *</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>CONSUMER REPORTS</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>_ CONSUMER REPORTS</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>CONSUMER REPORTS *</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<category>
+<pattern>_ CONSUMER REPORTS *</pattern>
+<template><srai>CNSMRRPTS</srai></template>
+</category>
+
+<!--databases-->
+
+<category>
+  <pattern>database</pattern>
+  <template>You can find a list of our databases <a href="http://www.mentorpl.org/find.html" target="_blank"><b>here</b></a>. If you do not see the database you're looking for on this list,
+   our reference staff may be able to help you find the information you're looking for. Call them at 440.255.8811 extension 215 during regular business hours. Or for immediate
+   assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.
+ </template>
+</category>
+
+<category>
+<pattern>_  database</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<category>
+<pattern>_  database *</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<category>
+  <pattern>database *</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<category>
+  <pattern>databases</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<category>
+<pattern>_  databases</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<category>
+<pattern>_  databases *</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<category>
+  <pattern>databases *</pattern>
+  <template><srai>database</srai></template>
+</category>
+
+<!--know it now-->
+
+<category>
+  <pattern>KNOWITNOW</pattern>
+  <template>
+  <random>
+  <li>If you really want to converse with a human librarian, I'll open the interface for Know it Now. If you don't see it, turn off your popup blocker and ask me again.
+</li>
+  <li>Looking for Know it Now? Here it is! If you don't see it, turn off your popup blocker and ask me again.
+</li>
+  <li>I'll open Know it Now for you. If you don't see it, turn off your popup blocker and ask me again.
+</li>
+  </random>
+<think>
+<set name="search">kin</set>
+</think>
+</template>
+</category>
+
+<category>
+  <pattern>KNOWITNOW *</pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<category>
+<pattern>_  KNOWITNOW *</pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<category>
+<pattern>_  KNOWITNOW </pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<category>
+  <pattern>KNOW IT NOW</pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<category>
+  <pattern>KNOW IT NOW *</pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<category>
+<pattern>_  KNOW IT NOW *</pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<category>
+<pattern>_  KNOW IT NOW </pattern>
+  <template><srai>KNOWITNOW</srai></template>
+</category>
+
+<!--learning express-->
+
+<category>
+<pattern>LEARNINGEXPRESS</pattern>
+<template>Follow this link to the <a href="http://www.learnatest.com/LEL/index.cfm/" target="_blank"><b>Learning Express Library</b></a>.</template>
+</category>
+
+<category>
+<pattern>* LEARNINGEXPRESS</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>* LEARNINGEXPRESS *</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>LEARNINGEXPRESS *</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>LEARNINGEXPRESSLIBRARY.COM</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>* LEARNINGEXPRESSLIBRARY.COM</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>* LEARNINGEXPRESSLIBRARY.COM *</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>LEARNINGEXPRESSLIBRARY.COM *</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+
+
+<category>
+<pattern>LEARNING EXPRESS</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>* LEARNING EXPRESS </pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>* LEARNING EXPRESS  *</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+<category>
+<pattern>LEARNING EXPRESS *</pattern>
+<template><srai>LEARNINGEXPRESS</srai></template>
+</category>
+
+
+
+
+<!--NEWSBANK-->
+
+<category>
+<pattern>NEWSBANK</pattern>
+<template>Follow this link to the <a href="http://www.mentorpl.org/subjects.html#NEWS" target="_blank"><b>Newsbank Database</b></a>.</template>
+</category>
+
+<category>
+<pattern>* NEWSBANK</pattern>
+<template><srai>NEWSBANK</srai></template>
+</category>
+
+<category>
+<pattern>* NEWSBANK *</pattern>
+<template><srai>NEWSBANK</srai></template>
+</category>
+
+<category>
+<pattern>NEWSBANK *</pattern>
+<template><srai>NEWSBANK</srai></template>
+</category>
+
+<!--REF USA-->
+
+<category>
+<pattern>REFUSA</pattern>
+<template>We no longer have the Reference USA database. Our reference staff may be able to help you find the information you're looking for. 
+Call them at 440.255.8811 extension 215 during regular business hours. For immediate
+   assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.
+</template>
+</category>
+
+<category>
+<pattern>REFERENCE USA</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>_ REFERENCE USA</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>REFERENCE USA *</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>_ REFERENCE USA *</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<!--research guides-->
+
+<category>
+<pattern>RGUIDES</pattern>
+<template>Our library does not have any online research guides at this time, but Lakeland Community College has some that may be helpful. 
+Follow this <a href="http://library.lakelandcc.edu/findsources.html#SUBJ" target="_blank"><b>link</b></a> and pick your subject.</template>
+</category>
+
+<category>
+<pattern>RESEARCH GUIDE</pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH GUIDE </pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>RESEARCH GUIDE *</pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH GUIDE *</pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>RESEARCH GUIDES</pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH GUIDES </pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>RESEARCH GUIDES *</pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH GUIDES *</pattern>
+<template><srai>RGUIDES</srai></template>
+</category>
+
+
+<category>
+  <pattern>RMATERIAL</pattern>
+  <template>We are a popular reading library and have limited research materials. You can find a list of our databases <a href="http://www.mentorpl.org/find.html" target="_blank"><b>here</b></a>. If you do not see the database you're looking for on this list,
+   our reference staff may be able to help you find the information you're looking for. Call them at 440.255.8811 extension 215 during regular business hours. Or for immediate
+   assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.
+ </template>
+</category>
+
+<category>
+<pattern>RESEARCH MATERIAL</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH MATERIAL</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>RESEARCH MATERIAL *</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH MATERIAL *</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>RESEARCH MATERIALS</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH MATERIALS</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>RESEARCH MATERIALS *</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+<category>
+<pattern>_ RESEARCH MATERIALS *</pattern>
+<template><srai>RMATERIAL</srai></template>
+</category>
+
+
+
+
+</aiml>

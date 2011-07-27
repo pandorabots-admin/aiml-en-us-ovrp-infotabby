@@ -1,0 +1,4268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<category>
+<pattern>TESTXTEST</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+Would you like me to search for this?
+</template>
+</category>
+
+
+<category>
+<pattern>DEFINE *</pattern>
+<template>
+I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't see it, turn off your pop-up blocker.
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">merrweb</set>
+</think>
+</template>
+</category>
+
+<!--CAN YOU ANSWER QUESTIONS-->
+
+<category>
+<pattern>*</pattern>
+<that>WHAT ARE YOU LOOKING FOR</that>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>INITSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>BOOKS</pattern>
+<that>WHAT ARE YOU LOOKING FOR</that>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>INITSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>BOOKS</pattern>
+<that>WHAT ARE YOU LOOKING FOR</that>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>INITSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>ANSWRQ</pattern>
+<template>I can answer many questions about the library and our services. I can help you find items in our catalog. I can also help you find information on our website and in selected databases. What are you looking for?</template>
+</category>
+
+<category>
+<pattern>ANSWER QUESTION</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER QUESTION</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWER * QUESTION</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWER QUESTION *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER * QUESTION</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER QUESTION *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER * QUESTION *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWER QUESTIONS</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER QUESTIONS</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWER * QUESTIONS</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWER QUESTIONS *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER * QUESTIONS</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER QUESTIONS *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWER * QUESTIONS *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWERS</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWERS</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>ANSWERS *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<category>
+<pattern>_ ANSWERS *</pattern>
+<template><srai>ANSWRQ</srai></template>
+</category>
+
+<!--HELP FIND STAR-->
+
+<category> 
+<pattern>HELP</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category>  
+
+<category> 
+<pattern>_ HELP</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category>  
+
+<category> 
+<pattern>HELP *</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category>  
+
+<category> 
+<pattern>_ HELP *</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category> 
+
+<!--REAL START-->
+
+<category>
+<pattern>*</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<random>
+<li>Would you like me to look for this?</li>
+<li>Would you like me to search for this?</li>
+<li>Would you like to begin a search for this?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ YES</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ YES *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>SURE</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SURE</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>SURE *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SURE *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>OK</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OK</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>OK *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OK *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>O K</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ O K</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>O K *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ O K *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>INITIATE</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INITIATE</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>INITIATE *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INITIATE *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>SEARCH</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SEARCH</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>SEARCH *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SEARCH *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template><srai>INITSEARCH</srai>
+</template>
+</category>
+
+<!--IGNORE PROMPT-->
+
+<category>
+<pattern> * </pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOK</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ BOOK</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOK *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ BOOK *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ BOOKS</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ BOOKS *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--END IGNORE PROMPT-->
+
+<category>
+<pattern>NO</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<srai>XINITSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>_ NO</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<srai>XINITSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<srai>XINITSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>_ NO *</pattern>
+<that>WOULD YOU LIKE *  FOR THIS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<srai>XINITSEARCH</srai></template>
+</category>
+
+
+<category>
+<pattern>INITSEARCH</pattern>
+<template>
+Please turn off your pop up blocker now so you can see the results of this search.
+<br/><br/> OK, let's begin.
+<br/><br/>
+You entered <b><get name="searcharg"><star/></get></b>. 
+<random>
+<li>Are you looking for this in our catalog or would you like information about it?</li>
+<li>Should I look for this in our catalog or do you want information about it?</li>
+<li>Are you searching for this in our catalog or do you want information about it?</li>
+</random>
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+
+<!--INITS2-->
+
+<category>
+<pattern>ANOTHER QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ANOTHER QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>ANOTHER * QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>ANOTHER QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ANOTHER * QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>ANOTHER * QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ANOTHER QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ANOTHER * QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEW QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEW QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEW * QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEW QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEW * QUESTION</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEW * QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEW QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEW * QUESTION *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEWQST</pattern>
+<template>
+<random>
+<li>Very Good! What is your question?</li>
+<li>You're more than welcome to ask another question. What would you like to know?</li>
+</random>
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+
+<topic name="INITS2">
+<category>
+<pattern>*</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+O.K. I can look for this, too.
+<br/><br/>
+You entered <b><get name="searcharg"><star/></get></b>. 
+<random>
+<li>Are you looking for this in our catalog or would you like information about it?</li>
+<li>Should I look for this in our catalog or do you want information about it?</li>
+<li>Are you searching for this in our catalog or do you want information about it?</li>
+</random>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>STOP</pattern>
+<template>
+<srai>XINITSEARCH</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* STOP</pattern>
+<template>
+<srai>XINITSEARCH</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>STOP *</pattern>
+<template>
+<srai>XINITSEARCH</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* STOP *</pattern>
+<template>
+<srai>XINITSEARCH</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern> * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+</topic>
+
+
+<topic name="INITS2">
+<category>
+<pattern>YES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ YES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>YES * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ YES *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>NO</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* NO</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>NO * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ NO *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>I * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ DO </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ DO *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ NOT * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>WHAT IS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>WHICH * SUGGEST</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<!--END INITS2-->
+
+<category>
+<pattern>XINITSEARCH</pattern>
+<template>
+O.K. If you need further assistance, call the library at 440.255.8811 during regular business hours or follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to reach a live human librarian anytime, day or night.
+<br/><br/>
+<random>
+<li>This has been a most interesting conversation. Thanks!</li>
+<li>Thanks for chatting. Every interaction helps me become smarter.</li>
+<li>Interacting with humans is fascinating. I'm learning more about you everyday.</li>
+</random>
+Goodbye.
+</template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<random>
+<li>Ask away!</li>
+<li>What is your question</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>_ YES</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<random>
+<li>Ask away!</li>
+<li>What is your question</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<random>
+<li>Ask away!</li>
+<li>What is your question</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<random>
+<li>Have a nice day.</li>
+<li>Thanks for chatting. Your interaction will increase my knowledge.</li>
+</random>
+Goodbye.
+</template>
+</category>
+
+<category>
+<pattern>_ NO</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<random>
+<li>Have a nice day.</li>
+<li>Thanks for chatting. Your interaction will increase my knowledge.</li>
+</random>
+Goodbye.
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template>
+<think>
+<set name="topic">INITS2</set>
+</think>
+<random>
+<li>Have a nice day.</li>
+<li>Thanks for chatting. Your interaction will increase my knowledge.</li>
+</random>
+Goodbye.
+</template>
+</category>
+
+
+<!--SORTING-->
+
+<topic name="SORT2">
+<category>
+<pattern> * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>YES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>_ YES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>YES * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>_ YES *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>NO</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>* NO</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>NO * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>_ NO *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>I * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>_ DO </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>_ DO *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>_ NOT * </pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>WHAT IS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="SORT2">
+<category>
+<pattern>WHICH * SUGGEST</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+</topic>
+
+<category>
+<pattern>ITEM</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* ITEM</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>ITEM *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* ITEM *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>LOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* LOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>LOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* LOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+
+<category>
+<pattern>LOOKING</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* LOOKING</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>LOOKING *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* LOOKING *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>SEARCH</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* SEARCH</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>SEARCH *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* SEARCH *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+
+<category>
+<pattern>SEARCHING</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* SEARCHING</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>SEARCHING *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* SEARCHING *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--ITEM SORT CHECK OUT-->
+
+<category>
+<pattern>CHECK OUT</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CHECK OUT</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CHECK OUT *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CHECK OUT *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--BUT WAIT MORE FOR THOSE WHO CANNOT FOLLOW SIMPLE PROMPTS-->
+
+<category>
+<pattern> * </pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--DO NOT SEE RESULTS-->
+
+<category>
+<pattern>DSR</pattern>
+<template>
+You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
+<think>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>DO NOT * ANSWER</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * ANSWER *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * ANSWER</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * ANSWER *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * ANSWERS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * ANSWERS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * ANSWERS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * ANSWERS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * RESULT</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * RESULT *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * RESULT</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * RESULT *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * RESULTS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * RESULTS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * RESULTS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * RESULTS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * SEARCH</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * SEARCH *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * SEARCH</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ DO NOT * SEARCH *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * ANSWER</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * ANSWER *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * ANSWER</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * ANSWER *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * ANSWERS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * ANSWERS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * ANSWERS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * ANSWERS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * RESULT</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * RESULT *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * RESULT</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * RESULT *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * RESULTS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * RESULTS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * RESULTS</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * RESULTS *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SEARCH</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SEARCH *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * SEARCH</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<category>
+<pattern>_ WHERE * SEARCH *</pattern>
+<template><srai>DSR</srai></template>
+</category>
+
+<!--AUDIOBOOK-->
+
+<category>
+<pattern>AUDIOBOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+ 
+<category>
+<pattern>* AUDIOBOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIOBOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIOBOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIOBOOK</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+ 
+<category>
+<pattern>* AUDIOBOOK</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIOBOOK *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIOBOOK *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--AUDIOBOOKS-->
+
+<category>
+<pattern>AUDIOBOOKS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIOBOOKS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIOBOOKS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIOBOOKS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+
+<category>
+<pattern>AUDIOBOOKS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIOBOOKS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIOBOOKS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIOBOOKS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--AUDIO BOOK-->
+
+<category>
+<pattern>AUDIO BOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIO BOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIO BOOK</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOK</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIO BOOK *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOK *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--AUDIO BOOKS-->
+ 
+<category>
+<pattern>* AUDIO BOOKS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIO BOOKS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOKS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOKS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>AUDIO BOOKS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* AUDIO BOOKS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--BOOK-->
+
+<category>
+<pattern>BOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOK</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOK *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--BOOKS-->
+
+<category>
+<pattern>BOOKS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>BOOKS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
+<think>
+<set name="search">bookkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--BOOK ON CD-->
+
+<category>
+<pattern>BOOK ON CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* BOOK ON CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>BOOK ON CD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* BOOK ON CD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>BOOK ON CD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* BOOK ON CD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>BOOK ON CD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* BOOK ON CD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--BOOKS ON CD-->
+ 
+<category>
+<pattern>* BOOKS ON CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>BOOKS ON CD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* BOOKS ON CD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>BOOKS ON CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS ON CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS ON CD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>BOOKS ON CD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* BOOKS ON CD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
+<think>
+<set name="search">audiokey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--CD-->
+
+<category>
+<pattern>CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* CD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>CD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* CD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>CD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* CD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>CD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* CD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--CDS-->
+
+<category>
+<pattern>CDS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* CDS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> CDS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* CDS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>CDS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* CDS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> CDS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* CDS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
+<think>
+<set name="search">cdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--DVD-->
+
+<category>
+<pattern>DVD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVD</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>DVD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVD *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>DVD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVD</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>DVD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVD *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--DVDS-->
+
+<category>
+<pattern>DVDS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVDS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>DVDS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVDS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+
+<category>
+<pattern>DVDS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVDS</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>DVDS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* DVDS *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--ETC.-->
+
+<category>
+<pattern>ETC</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* ETC</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>ETC *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* ETC *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>ETC</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* ETC</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>ETC *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* ETC *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+<think><set name="topic">ETC</set></think>
+Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
+<think>
+<set name="search">catkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--MOVIE-->
+
+<category>
+<pattern>MOVIE</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* MOVIE</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>MOVIE *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* MOVIE *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>MOVIE</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* MOVIE</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>MOVIE *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* MOVIE *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<!--MOVIES-->
+
+<category>
+<pattern>MOVIES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* MOVIES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>MOVIES *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+ 
+<category>
+<pattern>* MOVIES *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+  
+<category>
+<pattern>MOVIES</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIES</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> MOVIES *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIES *</pattern>
+<that>IS THIS A BOOK DVD CD ETC</that>
+<template>
+I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
+<think>
+<set name="search">dvdkey</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--CATALOG-->
+
+<category>
+<pattern>CATALOG</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOG</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CATALOG *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOG *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CATALOGUE</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOGUE</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CATALOGUE *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOGUE *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--CATALOG 2INIT-->
+
+<category>
+<pattern>CATALOG</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOG</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CATALOG *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOG *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CATALOGUE</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOGUE</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>CATALOGUE *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* CATALOGUE *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--COPY-->
+
+<category>
+<pattern>COPY</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* COPY</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>COPY *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* COPY *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--COPIES-->
+
+<category>
+<pattern>COPIES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* COPIES</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>COPIES *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* COPIES *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--SOMETHING-->
+
+<category>
+<pattern>SOMETHING</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* SOMETHING</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>SOMETHING *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<category>
+<pattern>* SOMETHING *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
+</template>
+</category>
+
+<!--Call number search-->
+
+<category>
+<pattern>CALL NUMBER</pattern>
+<template>I can search by call number. Please enter the call number.</template>
+</category>
+
+<category>
+<pattern>* CALL NUMBER</pattern>
+<template>I can search by call number. Please enter the call number.</template>
+</category>
+
+<category>
+<pattern>CALL NUMBER *</pattern>
+<template>I can search by call number. Please enter the call number.</template>
+</category>
+
+<category>
+<pattern>* CALL NUMBER *</pattern>
+<template>I can search by call number. Please enter the call number.</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>PLEASE ENTER THE CALL NUMBER</that>
+<template>
+Let's take a look in our catalog. Here are the best matches based on your input. 
+The results will open as a new window or as a new tab.
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catcall</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--ISBN search-->
+
+<category>
+<pattern>ISBN</pattern>
+<template>I can search by ISBN. Please enter the ISBN without spaces.</template>
+</category>
+
+<category>
+<pattern>* ISBN</pattern>
+<template>I can search by ISBN. Please enter the ISBN without spaces.</template>
+</category>
+
+<category>
+<pattern>ISBN *</pattern>
+<template>I can search by ISBN. Please enter the ISBN without spaces.</template>
+</category>
+
+<category>
+<pattern>* ISBN *</pattern>
+<template>I can search by ISBN. Please enter the ISBN without spaces.</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>PLEASE ENTER THE ISBN WITHOUT SPACES</that>
+<template>
+Let's take a look in our catalog. Here are the best matches based on your input. 
+The results will open as a new window or as a new tab.
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catisbn</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--Unguided misc-->
+
+<category>
+<pattern>MISCSEARCH</pattern>
+<template>
+<random>
+<li> If you know the title, type "Title is" and enter the title. 
+If you know the author, type "Author is" and enter the author, last name then first name. If you'd like to search by topic, type
+"Topic is" and enter your topic.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>MISCSEARCHN</pattern>
+<template>
+<random>
+<li>We have print copies of The News Herald, The Plain Dealer, and some other local papers. We keep print copies of newspapers for apporximately 12 months; we do not maintain a newspaper archive
+on microform. You can find older content from The Plain Dealer on the <a href="http://www.oplin.org/newsbank" target="_blank"><b>Newsbank</b></a> database. </li>
+If you are looking for older copies of local papers, I suggest you call the Morley Library at 440.352.3383. They have an extensive newspaper archive.</random>
+</template>
+</category>
+
+<!--unguided search first sort-->
+
+<category>
+<pattern>graphic *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* graphic</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* graphic *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazine</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazine *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* magazine</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template> If you know the title, type "Title is" and enter the title. If you know the author, type "Author is" and enter the author, last name then first name.
+</template>
+</category>
+
+<category>
+<pattern>* magazine *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazines</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazines *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* magazines</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* magazines *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<!--newspapers-->
+
+<category>
+<pattern>* newspaper</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspaper *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspapers</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspapers *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<!--unguided search second sort-->
+
+<category>
+<pattern>graphic *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* graphic</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* graphic *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazine</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazine *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* magazine</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template> If you know the title, type "Title is" and enter the title. If you know the author, type "Author is" and enter the author, last name then first name.
+</template>
+</category>
+
+<category>
+<pattern>* magazine *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazines</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>magazines *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* magazines</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<category>
+<pattern>* magazines *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCH</srai></template>
+</category>
+
+<!--newspapers-->
+
+<category>
+<pattern>newspaper</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>newspaper *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspaper</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspaper *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>newspapers</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>newspapers *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspapers</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* newspapers *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<!--papers-->
+
+<category>
+<pattern>paper</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>paper *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* paper</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* paper *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>papers *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>papers</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* papers</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+<category>
+<pattern>* papers *</pattern>
+<that>ENTER THE KIND OF ITEM YOU ARE LOOKING FOR SUCH AS A BOOK DVD CD ETC</that>
+<template><srai>MISCSEARCHN</srai></template>
+</category>
+
+
+<!--REDIRECT TO SEARCH-->
+<topic name="INITS2">
+<category>
+<pattern>INFORMATION</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFORMATION</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFORMATION *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFORMATION *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFO</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFO</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFO *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFO *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<!--INFO INITS2-->
+
+<topic name="INITS2">
+<category>
+<pattern>INFORMATION</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFORMATION</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFORMATION *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFORMATION *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFO</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFO</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFO *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* INFO *</pattern>
+<that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<!--QUESTION-->
+
+<topic name="INITS2">
+<category>
+<pattern>QUESTION</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* QUESTION</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>QUESTION *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* QUESTION *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>QUESTIONS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* QUESTIONS</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>QUESTIONS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* QUESTIONS *</pattern>
+<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<!--INSERT SORT OHWEBLIB or SITESEARCH-->
+
+<category>
+<pattern>WOLFRAM</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's see what Wolfram Alpha has to say.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">wolframalpha</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* WOLFRAM</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's see what Wolfram Alpha has to say.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">wolframalpha</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>WOLFRAM *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's see what Wolfram Alpha has to say.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">wolframalpha</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* WOLFRAM *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's see what Wolfram Alpha has to say.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">wolframalpha</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>OHIO</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look in the Ohio Web Library. It has all sorts of useful information.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">ohweblib</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* OHIO</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look in the Ohio Web Library. It has all sorts of useful information.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">ohweblib</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>OHIO *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look in the Ohio Web Library. It has all sorts of useful information.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">ohweblib</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* OHIO *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look in the Ohio Web Library. It has all sorts of useful information.
+The results will open as a new window or as a new tab. If you don't find the information you wanted here, please call the library
+during regular business hours at 440.255.8811.
+<think>
+<set name="search">ohweblib</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>LIBRARY</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LIBRARY</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LIBRARY *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LIBRARY *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>MPL</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MPL</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MPL *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MPL *</pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--DO NOT KNOW-->
+
+<category>
+<pattern>_ DO NOT * </pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+O.K. Let's look in Google. I know we'll find <em>something</em> there. The results will open as a new window or as a new tab. It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ DO NOT * </pattern>
+<that>PLEASE ENTER WOLFRAM OR OHIO NOW</that>
+<template>
+O.K. Let's look in Google. I know we'll find <em>something</em> there. The results will open as a new window or as a new tab. It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* YES</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* YES *</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look for this information on our website. I've initiated a site search. A list a pages with this information should open as a new window or tab.
+<think>
+<set name="search">mplss</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look in Google. I know we'll find something there. The results will open as a new window or as a new tab. It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NO</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look in Google. I know we'll find something there. The results will open as a new window or as a new tab. It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look in Google. I know we'll find something there. The results will open as a new window or as a new tab. It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NO *</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+Let's look in Google. I know we'll find something there. The results will open as a new window or as a new tab. It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>YES OR NO IS YOUR QUESTION ABOUT OUR LIBRARY</that>
+<template>
+It might be best for you to call the library
+during regular business hours at 440.255.8811, or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to contact a human librarian any time.
+<think>
+<set name="search">google</set>
+<set name="topic">INITS2</set>
+</think>
+</template>
+</category>
+
+<!--REOPEN S R-->
+
+<category>
+<pattern>RPNWNDW</pattern>
+<template>I haven't been programmed to reopen search results for you yet. It's on my list of improvements.
+If you don't see the results of a search, please turn off your pop up blocker and ask me to search again. </template>
+</category>
+
+<category>
+<pattern>_ REOPEN</pattern>
+<template><srai>RPNWNDW</srai></template>
+</category>
+
+<category>
+<pattern>_ REOPEN *</pattern>
+<template><srai>RPNWNDW</srai></template>
+</category>
+
+<!--DID YOU FIND IT-->
+
+<category>
+<pattern>NORSLTS</pattern>
+<template>If you don't see the results of a search, please turn off your pop up blocker and ask me to search again. </template>
+</category>
+
+<category>
+<pattern>DID YOU FIND *</pattern>
+<template><srai>NORSLTS</srai></template>
+</category>
+
+<category>
+<pattern>WERE YOU * FIND *</pattern>
+<template><srai>NORSLTS</srai></template>
+</category>
+
+
+
+
+</aiml>

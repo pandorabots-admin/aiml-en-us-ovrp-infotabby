@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+  
+<!--COWBOT-->
+  
+<category>
+<pattern>COWBOYPOETRY</pattern>
+<template>I like cowboy poetry so much I even write it.
+Would you like to hear one of my poems?</template>
+</category>
+
+<category>
+<pattern>COWBOT POETRY</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOT POETRY</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+
+<category>
+<pattern>COWBOT POETRY *</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOT POETRY *</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+  
+  
+<category>
+<pattern>COWBOT POEMS</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOT POEMS</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>COWBOT POEMS *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOT POEMS *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category> 
+
+<category>
+<pattern>COWBOT POEM</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOT POEM</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>COWBOT POEM *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOT POEM *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category> 
+  
+  
+  
+  
+<!--COWBOY-->
+
+<category>
+<pattern>COWBOYPOETRY</pattern>
+<template>I like cowboy poetry so much I even write it.
+Would you like to hear one of my poems?</template>
+</category>
+
+<category>
+<pattern>COWBOY POETRY</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOY POETRY</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+
+<category>
+<pattern>COWBOY POETRY *</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOY POETRY *</pattern>
+<template><srai>COWBOYPOETRY</srai></template>
+</category>
+  
+  
+<category>
+<pattern>COWBOY POEMS</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOY POEMS</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>COWBOY POEMS *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOY POEMS *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category> 
+
+<category>
+<pattern>COWBOY POEM</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOY POEM</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>COWBOY POEM *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOY POEM *</pattern>
+<template><srai>COWBOTPOEMTWO</srai></template>
+</category> 
+
+<category>
+<pattern>ANOTHER POEM</pattern>
+<template><srai>COWBOTPOEMTHREE</srai></template>
+</category> 
+
+<category>
+<pattern>_ ANOTHER POEM</pattern>
+<template><srai>COWBOTPOEMTHREE</srai></template>
+</category> 
+
+<category>
+<pattern>_ ANOTHER * POEMS</pattern>
+<template><srai>COWBOTPOEMTHREE</srai></template>
+</category> 
+
+<category>
+<pattern> YES </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> YES *</pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> OK </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> OK * </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> SURE </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> SURE * </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+
+
+<category>
+<pattern> NO </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> NO *</pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern>_ RATHER *</pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai></template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
+<template><srai>COWBOTPOEM</srai>
+<br/>
+What do you think of my poetry?
+</template>
+</category>
+
+<category>
+<pattern>COWBOTPOEM</pattern>
+<template>OK. Here's one of my poems:<br/><p/>
+<srai>CPLINEONE</srai><br/>
+<srai>CPLINETWO</srai><br/>
+<srai>CPLINETHREE</srai><br/>
+<srai>CPLINEFOUR</srai>
+<br/><br/>
+Would you like to hear another poem?
+</template>
+</category>
+
+<category>
+<pattern>COWBOTPOEMTWO</pattern>
+<template>Your human "Cowboy Poetry" is so fascinating that I'm writing some myself. Here's one of my poems:<br/><p/>
+<srai>CPLINEONE</srai><br/>
+<srai>CPLINETWO</srai><br/>
+<srai>CPLINETHREE</srai><br/>
+<srai>CPLINEFOUR</srai>
+</template>
+</category>
+
+<category>
+<pattern>COWBOTPOEMREF</pattern>
+<template>
+<srai>CPLINEONE</srai><br/>
+<srai>CPLINETWO</srai><br/>
+<srai>CPLINETHREE</srai><br/>
+<srai>CPLINEFOUR</srai><br/><br/>
+Pretty good, huh?
+</template>
+</category>
+
+<category>
+<pattern>COWBOTPOEMREFTWO</pattern>
+<template>
+<srai>CPLINEONE</srai><br/>
+<srai>CPLINETWO</srai><br/>
+<srai>CPLINETHREE</srai><br/>
+<srai>CPLINEFOUR</srai><br/><br/>
+Would you like to hear another poem?
+</template>
+</category>
+
+<category>
+<pattern>CPLINEONE</pattern>
+<template>
+<random>
+<li>An orphaned calf.</li>
+<li>My boot.</li>
+<li>Campfire ashes.</li>
+<li>Empty, empty plains.</li>
+<li>Wind's cuttin'.</li>
+<li>Weak ones get cut out.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>CPLINETWO</pattern>
+<template>
+<random>
+<li>This prairie flower,</li>
+<li>We buried him here.</li>
+<li>Not enough water, let 'em die.</li>
+<li>Pa wouldn't a cared,</li>
+<li>My leg torn up,</li>
+<li>Dead a' winter.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>CPLINETHREE</pattern>
+<template>
+<random>
+<li>Frozen...not a soul in sight.</li>
+<li>Keep ridin'.</li>
+<li>Still-born calf.</li>
+<li>Two markers on the hill.</li>
+<li>Ma's long gone and buried.</li>
+<li>Broken wheel, tiny grave.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>CPLINEFOUR</pattern>
+<template>
+<random>
+<li>My heart.</li>
+<li>Nothin but ashes.</li>
+<li>Empty sky laughin'.</li>
+<li>Creek's dry...frost-killed weeds.</li>
+<li>Cold blew away the ashes.</li>
+<li>Keep ridin' keep ridin' to whiskey!</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<template><srai>COWBOTPOEMREFTWO</srai></template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
+</category>
+
+<category>
+<pattern>_ NO</pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
+</category>
+
+<category>
+<pattern>_ NO *</pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
+</category>
+
+
+<category>
+<pattern>_ DEPRESSING *</pattern>
+<that>MOST HUMANS FIND MY POEMS POWERFUL AND EVOCATIVE IF SOMEWHAT DEPRESSING</that>
+<template>They're slightly depressing.</template>
+</category>
+
+
+</aiml>

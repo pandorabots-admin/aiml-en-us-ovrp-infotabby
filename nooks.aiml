@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+
+<!--general info-->
+
+<category>
+<pattern>* NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+
+<category>
+<pattern>* NOOK *</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>WHAT * NOOK</pattern>
+<template>A Nook is a device used to read electronic versions of books. You can also listen to audiobooks and play games on them.</template>
+</category>
+
+<category>
+<pattern>NK</pattern>
+<template>We have Nook e readers for you to check out and enjoy. For more info about the Nooks, including a title list, loan and renewal, and fine policies, please go to our <a href="http://www.mentorpl.org/edevice.html" target="_blank"><b>Nook Page</b></a>. 
+We now have e Books for you to download to your own Nook through OverDrive. <br/><br/>
+<srai>OVRDRV</srai>
+</template>
+</category>
+
+<category>
+<pattern>CNK</pattern>
+<template>We don't have color Nooks but we do have regular Nook e readers for you to check out and enjoy. For more info about the Nooks, including a title list, loan and renewal, and fine policies, please go to our <a href="http://www.mentorpl.org/edevice.html" target="_blank"><b>Nook Page</b></a>. 
+We now have e Books for you to download to your own Nook through OverDrive. <br/><br/>
+<srai>OVRDRV</srai>
+</template>
+</category>
+
+<category>
+<pattern>COLOR NOOK</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>COLOR NOOK *</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>_ COLOR NOOK</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>_ COLOR NOOK *</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>COLOR NOOKS</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>COLOR NOOKS *</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>_ COLOR NOOKS</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+<category>
+<pattern>_ COLOR NOOKS *</pattern>
+<template><srai>CNK</srai></template>
+</category>
+
+
+<category>
+<pattern>NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>NOOK *</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOK *</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>NOOKS *</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOKS *</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>* BORROW * NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROW * NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROW NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROW * NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROWING NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROWING * NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROWING * NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ BORROWING * NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ ABOUT * NOOKS</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+<category>
+<pattern>_ ABOUT * NOOK</pattern>
+<template><srai>NK</srai></template>
+</category>
+
+
+<category>
+<pattern>* LOAN * NOOK</pattern>
+<template><srai>NOOKS</srai></template>
+</category>
+
+<category>
+<pattern>* LOAN * NOOK *</pattern>
+<template><srai>NOOKS</srai></template>
+</category>
+
+<category>
+<pattern>* LOAN * NOOKS</pattern>
+<template><srai>NOOKS</srai></template>
+</category>
+
+<category>
+<pattern>* LOAN * NOOKS *</pattern>
+<template><srai>NOOKS</srai></template>
+</category>
+
+
+
+<!--return nook-->
+
+<category>
+<pattern>RETURN NOOK</pattern>
+<template>Nooks must be returned at the Main Library Circulation counter.</template>
+</category>
+
+<category>
+<pattern>RETURN * NOOK</pattern>
+<template>Nooks must be returned at the Main Library Circulation counter.</template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOK</pattern>
+<template>Nooks must be returned at the Main Library Circulation counter.</template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOK *</pattern>
+<template>Nooks must be returned at the Main Library Circulation counter.</template>
+</category>
+
+
+<category>
+<pattern>* NOOK * BOOKDROP</pattern>
+<template>No. Do not place the Nook in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* NOOK * BOOK DROP</pattern>
+<template>No. Do not place the Nook in a bookdrop.</template>
+</category>
+
+<!--nook loan periods and renewals-->
+
+<category>
+<pattern>NKLN</pattern>
+<template>Nooks circulate for two weeks and may be renewed up to four times just like books.</template>
+</category>
+
+<category>
+<pattern>NOOK LOAN</pattern>
+<template><srai>NKLN</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG *  NOOK</pattern>
+<template><srai>NKLN</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG * NOOKS *</pattern>
+<template><srai>NKLN</srai></template>
+</category>
+
+<category>
+<pattern>_ LOAN PERIOD * NOOK</pattern>
+<template><srai>NKLN</srai></template>
+</category>
+
+
+<category>
+<pattern>NKRNWL</pattern>
+<template>Nooks may be renewed up to four times just like books. <br/><br/>
+<srai>RNW</srai>
+</template>
+</category>
+
+<category>
+<pattern>NOOK RENEWAL</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEW NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEW NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEW * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEW * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEW * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEW * NOOK *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEW * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEW * NOOKS *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEWAL * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEWAL * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWAL * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWAL * NOOK *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWAL * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWAL * NOOKS *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+
+<category>
+<pattern>RENEWALS * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEWALS * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWALS * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWALS * NOOK *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWALS * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWALS * NOOKS *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEWING * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>RENEWING * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWING * NOOK</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWING * NOOK *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWING * NOOKS</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ RENEWING * NOOKS *</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOK * RENEWED</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOKS * RENEWED</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOK * RENEWAL</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+<category>
+<pattern>_ NOOKS * RENEWAL</pattern>
+<template><srai>NKRNWL</srai></template>
+</category>
+
+
+
+
+<!--nook titles-->
+
+<category>
+<pattern>NOOK TITLES</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>* NOOK TITLES</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>* NOOK TITLES *</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>NOOK TITLES *</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>NOOK TITLE</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>* NOOK TITLE</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>* NOOK TITLE *</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>NOOK TITLE *</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+<category>
+<pattern>TITLES * NOOK</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+<category>
+<pattern> TITLES * NOOK</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+<category>
+<pattern>* TITLES * NOOK *</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+
+<category>
+<pattern>TITLES * NOOKS</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+<category>
+<pattern>* TITLES * NOOKS</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+<category>
+<pattern>* TITLES * NOOKS *</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+<category>
+<pattern>TITLES * NOOKS *</pattern>
+<template><srai>NOOK TITLES</srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern>WHAT * ON THE NOOKS</pattern>
+<template>Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. All of our Nooks have the same titles.</template>
+</category>
+
+
+
+<!--download on the Nooks-->
+
+<category>
+<pattern>BOOKS FOR * NOOK</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BOOKS FOR * NOOK</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BOOKS FOR * NOOK *</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>BOOKS FOR * NOOK *</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>BOOKS FOR * NOOKS</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BOOKS FOR * NOOKS</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BOOKS FOR * NOOKS *</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+
+
+<category>
+<pattern>BOOKS FOR NOOKS</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BOOKS FOR NOOKS</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BOOKS FOR NOOKS *</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>BOOKS FOR NOOKS *</pattern>
+<template>We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  Here is a <a href="http://www.mentorpl.org/nooktitles.html" target="_blank"><b>list of titles</b></a> loaded on our Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+
+
+<category>
+<pattern>TITLES FOR * NOOK</pattern>
+<template><srai>BOOK FOR THE NOOK</srai></template>
+</category>
+
+<category>
+<pattern>* TITLES FOR * NOOK</pattern>
+<template><srai>BOOK FOR THE NOOK</srai></template>
+</category>
+
+<category>
+<pattern>* TITLES FOR * NOOK *</pattern>
+<template><srai>BOOK FOR THE NOOK</srai></template>
+</category>
+
+<category>
+<pattern>TITLES FOR * NOOK _</pattern>
+<template><srai>BOOK FOR THE NOOK</srai></template>
+</category>
+
+
+
+<category>
+<pattern>NOOK DOWNLOADS</pattern>
+<template>At this time you cannot download anything onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* DOWNLOAD * NOOK</pattern>
+<template>At this time you cannot download anything onto the Nooks. We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* DOWNLOAD * NOOKS</pattern>
+<template>At this time you cannot download anything onto the Nooks. We do not have Nook Books for you to download to your own Nook, but hope to have them soon.  If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<!--adding titles, title requests-->
+
+<category>
+<pattern>NOOK TITLE REQUESTS</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* REQUEST * NOOKS</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* REQUEST * NOOK</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>ADDING * NOOKS</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* ADDING * NOOKS</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>BUYING * NOOKS</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<category>
+<pattern>* BUYING * NOOKS</pattern>
+<template>We'll be adding more titles onto the Nooks. If there's a title you'd like us to add, please tell one of the reference librarians.</template>
+</category>
+
+<!--place hold on nook-->
+
+<category>
+<pattern>HOLDNOOK</pattern>
+<template>You can request a nook through our <a href="http://catalog.mentorpl.org" target="_blank"><b>catalog</b></a>. Just do a keyword search for "Nook." Once the Nook is ready for you to pick up, we'll hold it for you for three days.</template>
+</category>
+
+<category>
+<pattern>HOLD * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>HOLDING * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* HOLDING * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+
+
+<category>
+<pattern>REQUEST * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>REQUEST * NOOK * HELD</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * NOOK * HELD *</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+
+
+<category>
+<pattern>REQUESTING * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTING * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTS * NOOK</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>* NOOK * HOLD</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+
+
+
+
+
+
+<category>
+<pattern>* NOOKS * HOLD</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* NOOK * REQUEST</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* NOOKS * REQUEST</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>HOLD * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>REQUEST * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>RESERVE * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* RESERVE * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION * NOOKS</pattern>
+<template><srai>HOLDNOOK <star/></srai></template>
+</category>
+
+
+
+
+<!--pick up a nook-->
+
+<category>
+  <pattern>pick up my nook</pattern>
+  <template>When a Nook is ready for you, you may pick iy up at the Main Library Computer Help Desk..
+ </template>
+</category>
+
+<category>
+  <pattern>* pick up * nook</pattern>
+  <template>When a Nook is ready for you, you may pick iy up at the Main Library Computer Help Desk..
+ </template>
+</category>
+
+<category>
+  <pattern>* pick up * nook *</pattern>
+  <template>When a Nook is ready for you, you may pick iy up at the Main Library Computer Help Desk..
+ </template>
+</category>
+
+
+
+<!--help with the nook-->
+
+<category>
+<pattern>NOOKSUPPORT</pattern>
+<template>If you need help with the Nook, please go to our <a href="http://www.mentorpl.org/edevice.html" target="_blank"><b>Nook Page</b></a>. 
+</template>
+</category>
+
+<category>
+  <pattern>help * nook </pattern>
+  <template><srai>NOOKSUPPORT</srai>
+ </template>
+</category>
+
+<category>
+  <pattern>* help * nook </pattern>
+  <template><srai>NOOKSUPPORT</srai>
+ </template>
+</category>
+
+
+
+
+
+
+
+
+</aiml>

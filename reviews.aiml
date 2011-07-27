@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+
+
+<!--Book Reviews-->
+
+<category>
+<pattern>REVIEW</pattern>
+<template>
+I can search for book reviews. Enter the title of the book or the author and I'll look for reviews in Book Page.   
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>Enter the title of the book and I will look for reviews</that>
+<template>Let's check Book Page. If you don't see the results, please turn off your pop-up blocker. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">bookreviews</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>_ REVIEW</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<category>
+<pattern>_ REVIEW *</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<category>
+<pattern>REVIEW *</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<category>
+<pattern>REVIEWS</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<category>
+<pattern>_ REVIEWS</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<category>
+<pattern>_ REVIEWS *</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<category>
+<pattern>REVIEWS *</pattern>
+<template><srai>REVIEW</srai></template>
+</category>
+
+<!--BOOKPAGE-->
+
+<category>
+<pattern>BOOKPAGE</pattern>
+<template>You can read the latest issue of Book Page online. Here's their website. If you don't see it, turn off your popup blocker and ask me again.<think>
+<set name="search">bpissue</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ BOOKPAGE</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOKPAGE *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOKPAGE *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOKPAGES</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOKPAGES</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOKPAGES *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOKPAGES *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOK PAGE</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOK PAGE</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOK PAGE *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOK PAGE *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOK PAGES</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOK PAGES</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>BOOK PAGES *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+<category>
+<pattern>_ BOOK PAGES *</pattern>
+<template><srai>BOOKPAGE</srai></template>
+</category>
+
+</aiml>
+
+
+
