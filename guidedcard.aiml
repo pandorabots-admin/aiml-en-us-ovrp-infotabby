@@ -1815,6 +1815,13 @@ with your photo ID and proof of address.</template>
 </category>
 </topic> 
 
+<topic name="CRDQ">
+<category>
+<pattern>* NOT LIVE * OHIO</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>NONLCRES</srai></template>
+</category>
+</topic> 
+
 
 
 <!--NON OHIO RESIDENT-->

@@ -2428,7 +2428,7 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
   <pattern>EMAILNOTS</pattern>
   <template>You can receive holds pickup, renewal, and other courtesy notices by email. Just send the
   email address you'd like to use for library messages and your library card number to <a href="mailto:askalibrarian@mentorpl.org" target="_blank"><b>askalibrarian@mentorpl.org</b></a>
-  and we'll set up email norification for you.
+  and we'll set up email notification for you.
 </template>
 </category> 
 

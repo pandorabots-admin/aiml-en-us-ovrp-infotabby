@@ -381,38 +381,38 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 <!--closed today-->
 <category>
 <pattern>HOW LATE ARE YOU OPEN TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>CLOSE TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSE TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSE TODAY *</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 
 <category>
 <pattern>CLOSED TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSED TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSED TODAY *</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 
@@ -420,358 +420,20 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 
 <category>
 <pattern>OPEN TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN TODAY</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN TODAY *</pattern>
-<template>I've lost track of time, what day is it?</template>
+<template><srai>HOURS</srai></template>
 </category>
 
 
-
-<!--open close responses-->
-
-<category>
-<pattern>MONDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* MONDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* MONDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>MONDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>MON</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* MON</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* MON *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern> MON *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>TUESDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* TUESDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* TUESDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>TUESDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>TUES</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* TUES</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* TUES *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>TUES *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>WEDNESDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* WEDNESDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* WEDNESDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>WEDNESDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>WED</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* WED</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>* WED *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>WED *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>THURSDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* THURSDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* THURSDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>THURSDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>THURS</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* THURS</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* THURS *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>THURS *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>FRIDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* FRIDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* FRIDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>FRIDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>FRI</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* FRI</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* FRI *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>FRI *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>SATURDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* SATURDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* SATURDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>SATURDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>SAT</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* SAT</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>* SAT *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>SAT *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>SUNDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are closed.</template>
-</category>
-
-<category>
-<pattern>* SUNDAY</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are closed.</template>
-</category>
-
-<category>
-<pattern>* SUNDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are closed.</template>
-</category>
-
-<category>
-<pattern>SUNDAY *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are closed.</template>
-</category>
-
-<category>
-<pattern>SUN</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template>The Main Library is open until 5 pm, both Branches are closed.</template>
-</category>
-
-
-
-
-
-<!--today is-->
-
-<category>
-<pattern>TODAY IS *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template><srai>CLOSE TIME <star/></srai></template>
-</category>
-
-<category>
-<pattern>IT IS *</pattern>
-<that>I've lost track of time, what day is it?</that>
-<template><srai>CLOSE TIME <star/></srai></template>
-</category>
 
 <!--CLOSE TIME DAY-->
 

@@ -712,7 +712,7 @@ You entered <b><get name="searcharg"><star/></get></b>.
 <topic name="INITS2">
 <category>
 <pattern> * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
 <think>
@@ -726,7 +726,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="INITS2">
 <category>
 <pattern>YES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 </template>
 </category>
@@ -735,7 +735,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="INITS2">
 <category>
 <pattern>_ YES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 </template>
 </category>
@@ -744,7 +744,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="INITS2">
 <category>
 <pattern>YES * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 </template>
 </category>
@@ -753,7 +753,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="INITS2">
 <category>
 <pattern>_ YES *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 </template>
 </category>
@@ -762,7 +762,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="INITS2">
 <category>
 <pattern>NO</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
 </template>
@@ -772,7 +772,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>* NO</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -782,7 +782,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>NO * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -792,7 +792,75 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>_ NO *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<!--IGNORES PROMPT-->
+
+<topic name="INITS2">
+<category>
+<pattern>YES</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ YES</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>YES * </pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ YES *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>NO</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* NO</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>NO * </pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -801,8 +869,26 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 
 <topic name="INITS2">
 <category>
+<pattern>_ NO *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>Perhaps you should speak with one of the human librarians.
+You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+</template>
+</category>
+</topic>
+
+
+
+
+
+
+
+<!--RESUME-->
+
+<topic name="INITS2">
+<category>
 <pattern>I * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -812,7 +898,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>_ DO </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -822,7 +908,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>_ DO *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -832,7 +918,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>_ NOT * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -842,7 +928,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>WHAT IS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -852,7 +938,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="INITS2">
 <category>
 <pattern>WHICH * SUGGEST</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 </template>
@@ -969,7 +1055,7 @@ Goodbye.
 <topic name="SORT2">
 <category>
 <pattern> * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 Let's see what's in the catalog. You should see the results as a new window or as a new tab. If you don't, turn off your pop up blocker and ask me again.
 <think>
@@ -982,7 +1068,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="SORT2">
 <category>
 <pattern>YES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 <think>
 <set name="topic">INITS2</set>
@@ -994,7 +1080,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="SORT2">
 <category>
 <pattern>_ YES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 <think>
 <set name="topic">INITS2</set>
@@ -1006,7 +1092,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="SORT2">
 <category>
 <pattern>YES * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 <think>
 <set name="topic">INITS2</set>
@@ -1018,7 +1104,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="SORT2">
 <category>
 <pattern>_ YES *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>I'm sorry, I didn't mean that as a yes or no question. Tell me if you want me to look in our catalog or if you want information.
 <think>
 <set name="topic">INITS2</set>
@@ -1030,7 +1116,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <topic name="SORT2">
 <category>
 <pattern>NO</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
 <think>
@@ -1043,7 +1129,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>* NO</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1056,7 +1142,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>NO * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1069,7 +1155,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>_ NO *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1082,7 +1168,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>I * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1095,7 +1181,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>_ DO </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1108,7 +1194,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>_ DO *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1121,7 +1207,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>_ NOT * </pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1134,7 +1220,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>WHAT IS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1147,7 +1233,7 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <topic name="SORT2">
 <category>
 <pattern>WHICH * SUGGEST</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>Perhaps you should speak with one of the human librarians.
 You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
 <think>
@@ -1159,56 +1245,56 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 
 <category>
 <pattern>ITEM</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* ITEM</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>ITEM *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* ITEM *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>LOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* LOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>LOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* LOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -1216,56 +1302,56 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 
 <category>
 <pattern>LOOKING</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* LOOKING</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>LOOKING *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* LOOKING *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>SEARCH</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* SEARCH</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>SEARCH *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* SEARCH *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -1273,28 +1359,28 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 
 <category>
 <pattern>SEARCHING</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* SEARCHING</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>SEARCHING *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* SEARCHING *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -1303,28 +1389,28 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 
 <category>
 <pattern>CHECK OUT</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* CHECK OUT</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>CHECK OUT *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* CHECK OUT *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -1559,7 +1645,7 @@ You should see the results as a new window or as a new tab. If you don't, turn o
 
 <category>
 <pattern>AUDIOBOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1572,7 +1658,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIOBOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1584,7 +1670,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>AUDIOBOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1596,7 +1682,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIOBOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1659,7 +1745,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
 
 <category>
 <pattern>AUDIOBOOKS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1671,7 +1757,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIOBOOKS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1683,7 +1769,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>AUDIOBOOKS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1695,7 +1781,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIOBOOKS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1758,7 +1844,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
 
 <category>
 <pattern>AUDIO BOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1770,7 +1856,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIO BOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1782,7 +1868,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>AUDIO BOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1794,7 +1880,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIO BOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1856,7 +1942,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIO BOOKS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1868,7 +1954,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>AUDIO BOOKS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1880,7 +1966,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* AUDIO BOOKS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -1930,7 +2016,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
 
 <category>
 <pattern>BOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -1942,7 +2028,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>* BOOK</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -1954,7 +2040,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>BOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -1966,7 +2052,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>* BOOK *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -2028,7 +2114,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>BOOKS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -2040,7 +2126,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>* BOOKS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -2052,7 +2138,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>BOOKS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -2064,7 +2150,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>* BOOKS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a book. Let's see what's in the catalog. 
 <think>
@@ -2127,7 +2213,7 @@ I appreciate someone who is concise. O.K. You're looking for a book. Let's see w
 
 <category>
 <pattern>BOOK ON CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2139,7 +2225,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* BOOK ON CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2151,7 +2237,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>BOOK ON CD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2163,7 +2249,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* BOOK ON CD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2225,7 +2311,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* BOOKS ON CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2237,7 +2323,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>BOOKS ON CD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2249,7 +2335,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>* BOOKS ON CD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2261,7 +2347,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
  
 <category>
 <pattern>BOOKS ON CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2273,7 +2359,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
 
 <category>
 <pattern>* BOOKS ON CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's see what's in the catalog. 
 <think>
@@ -2323,7 +2409,7 @@ I appreciate someone who is concise. O.K. You're looking for an audiobook. Let's
 
 <category>
 <pattern>CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2335,7 +2421,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
  
 <category>
 <pattern>* CD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2347,7 +2433,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
  
 <category>
 <pattern>CD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2359,7 +2445,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
  
 <category>
 <pattern>* CD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2421,7 +2507,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
 
 <category>
 <pattern>CDS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2433,7 +2519,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
 
 <category>
 <pattern>* CDS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2445,7 +2531,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
 
 <category>
 <pattern> CDS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2457,7 +2543,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
 
 <category>
 <pattern>* CDS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a CD. Let's see what's in the catalog. 
 <think>
@@ -2519,7 +2605,7 @@ I appreciate someone who is concise. O.K. You're looking for a CD. Let's see wha
 
 <category>
 <pattern>DVD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2531,7 +2617,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
  
 <category>
 <pattern>* DVD</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2543,7 +2629,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
  
 <category>
 <pattern>DVD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2555,7 +2641,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
  
 <category>
 <pattern>* DVD *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2617,7 +2703,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
 
 <category>
 <pattern>DVDS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2629,7 +2715,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
  
 <category>
 <pattern>* DVDS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2641,7 +2727,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
  
 <category>
 <pattern>DVDS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2653,7 +2739,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
  
 <category>
 <pattern>* DVDS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see what's in the catalog. 
 <think>
@@ -2716,7 +2802,7 @@ I appreciate someone who is concise. O.K. You're looking for a DVD. Let's see wh
 
 <category>
 <pattern>ETC</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 <think><set name="topic">ETC</set></think>
 Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
@@ -2729,7 +2815,7 @@ Congratulations! You're one of the few humans who answer this way. Let's see wha
  
 <category>
 <pattern>* ETC</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 <think><set name="topic">ETC</set></think>
 Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
@@ -2742,7 +2828,7 @@ Congratulations! You're one of the few humans who answer this way. Let's see wha
  
 <category>
 <pattern>ETC *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 <think><set name="topic">ETC</set></think>
 Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
@@ -2755,7 +2841,7 @@ Congratulations! You're one of the few humans who answer this way. Let's see wha
  
 <category>
 <pattern>* ETC *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 <think><set name="topic">ETC</set></think>
 Congratulations! You're one of the few humans who answer this way. Let's see what we have in our catalog.
@@ -2822,7 +2908,7 @@ Congratulations! You're one of the few humans who answer this way. Let's see wha
 
 <category>
 <pattern>MOVIE</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2834,7 +2920,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
  
 <category>
 <pattern>* MOVIE</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2846,7 +2932,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
  
 <category>
 <pattern>MOVIE *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2858,7 +2944,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
  
 <category>
 <pattern>* MOVIE *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2920,7 +3006,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
 
 <category>
 <pattern>MOVIES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2932,7 +3018,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
  
 <category>
 <pattern>* MOVIES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2944,7 +3030,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
  
 <category>
 <pattern>MOVIES *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -2956,7 +3042,7 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
  
 <category>
 <pattern>* MOVIES *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
 I appreciate someone who is concise. O.K. You're looking for a movie. Let's see what's in the catalog. 
 <think>
@@ -3018,56 +3104,56 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
 
 <category>
 <pattern>CATALOG</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* CATALOG</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>CATALOG *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* CATALOG *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>CATALOGUE</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* CATALOGUE</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>CATALOGUE *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* CATALOGUE *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> Let's take a look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -3134,28 +3220,28 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
 
 <category>
 <pattern>COPY</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* COPY</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>COPY *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* COPY *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -3164,28 +3250,28 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
 
 <category>
 <pattern>COPIES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* COPIES</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>COPIES *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* COPIES *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -3194,28 +3280,28 @@ I appreciate someone who is concise. O.K. You're looking for a movie. Let's see 
 
 <category>
 <pattern>SOMETHING</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* SOMETHING</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>SOMETHING *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
 
 <category>
 <pattern>* SOMETHING *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template> O.K. I'll look in our catalog. Is this a book, dvd, cd, etc.?
 </template>
 </category>
@@ -3584,9 +3670,9 @@ If you are looking for older copies of local papers, I suggest you call the Morl
 <topic name="INITS2">
 <category>
 <pattern>INFORMATION</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3596,9 +3682,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* INFORMATION</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3608,9 +3694,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>INFORMATION *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3620,9 +3706,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* INFORMATION *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3632,9 +3718,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>INFO</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3644,9 +3730,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* INFO</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3656,9 +3742,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>INFO *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3668,9 +3754,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* INFO *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3684,7 +3770,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>INFORMATION</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3696,7 +3782,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>* INFORMATION</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3708,7 +3794,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>INFORMATION *</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3720,7 +3806,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>* INFORMATION *</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3732,7 +3818,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>INFO</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3744,7 +3830,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>* INFO</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3756,7 +3842,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>INFO *</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3768,7 +3854,7 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>* INFO *</pattern>
 <that>TELL ME IF YOU WANT ME TO LOOK IN OUR CATALOG OR IF YOU WANT INFORMATION</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3780,9 +3866,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>QUESTION</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3792,9 +3878,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* QUESTION</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3804,9 +3890,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>QUESTION *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3816,9 +3902,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* QUESTION *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3828,9 +3914,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>QUESTIONS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3840,9 +3926,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* QUESTIONS</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3852,9 +3938,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>QUESTIONS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>
@@ -3864,9 +3950,9 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <topic name="INITS2">
 <category>
 <pattern>* QUESTIONS *</pattern>
-<that>* THIS IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
+<that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
 <template>
-O.K. Now you need to help me a little. If your question is about our library or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
 For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
 </template>

@@ -25,6 +25,7 @@ freegal.aiml
 friends.aiml
 guidedaccount.aiml
 guidedcard.aiml
+guidedholds.aiml
 guidedsearch.aiml
 helpmefind.aiml
 holds.aiml

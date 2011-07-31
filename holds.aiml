@@ -18,87 +18,22 @@
 
 
 
-<!--misc whining-->
 
-
-<category>
-<pattern>REQBUTTON</pattern>
-<template>Look for the red check mark near the top left of your screen. If you need more help, ask one of
-our human librarians.</template>
-</category>
-
-<category>
-<pattern>REQUEST BUTTON</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
-
-<category>
-<pattern>* REQUEST BUTTON</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
-
-<category>
-<pattern>REQUEST BUTTON *</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
-
-<category>
-<pattern>* REQUEST BUTTON *</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
 
 
 <category>
-<pattern>BUTTON * REQUEST</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
+<pattern>HOW LONG * CALL</pattern>
 
-<category>
-<pattern>* BUTTON * REQUEST</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
-
-<category>
-<pattern>BUTTON * REQUEST *</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
-
-<category>
-<pattern>* BUTTON * REQUEST *</pattern>
-<template><srai>REQBUTTON</srai></template>
-</category>
-
-
-<category>
-<pattern>HWLNGHLDS</pattern>
-<template>Most holds are ready for pickup within five business days.</template>
-</category>
-
-
-<category>
-<pattern>* WAIT * HOLD</pattern>
 <template><srai>HWLNGHLDS</srai></template>
-</category>
+</category>  
 
-<category>
-<pattern>* WAIT * HOLD *</pattern>
-<template><srai>HWLNGHLDS</srai></template>
-</category>
 
-<category>
-<pattern>* TAKE * HOLD</pattern>
-<template><srai>HWLNGHLDS</srai></template>
-</category>
-
-<category>
-<pattern>* TAKE * HOLD *</pattern>
-<template><srai>HWLNGHLDS</srai></template>
-</category>
 
 <category>
 <pattern>HOW LONG * LIBRARY CALLS *</pattern>
+
 <template><srai>HWLNGHLDS</srai></template>
-</category>
+</category>  
 
 
 <!--WAHHH TOO LONG-->
@@ -110,35 +45,46 @@ our human librarians.</template>
 <template>There are many reasons why a hold may take longer than usual to be filled. It would be best to speak with one of the library staff about this, either in person or by phone.</template>
 </category>
 
-<category>
-<pattern>WHY * LONG * FILL *</pattern>
-<template><srai>TAKETOOLONG</srai></template>
-</category>
+
 
 <category>
-<pattern>WHY * LONG * FILLED</pattern>
-<template><srai>TAKETOOLONG</srai></template>
-</category>
+<pattern>* LONG * FILL *</pattern>
+
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+
+
+<category>
+<pattern>* LONG * FILLED</pattern>
+
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+
 
 <category>
 <pattern>WHY * TAKING * LONG *</pattern>
-<template><srai>TAKETOOLONG</srai></template>
-</category>
+
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+
 
 <category>
-<pattern> * ON HOLD * LONG *</pattern>
-<template><srai>TAKETOOLONG</srai></template>
-</category>
+<pattern>* ON HOLD * LONG *</pattern>
+
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+
 
 <category>
 <pattern> * ON RESERVE * LONG *</pattern>
-<template><srai>TAKETOOLONG</srai></template>
-</category>
 
-<category>
-<pattern> * ON REQUEST * LONG *</pattern>
-<template><srai>TAKETOOLONG</srai></template>
-</category>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
 
 
 <category>
@@ -148,35 +94,38 @@ not in our catalog, we cannot place you on a waiting list for that item. For exa
 a waiting list for a movie not yet released on DVD.</template>
 </category>
 
-<category>
-<pattern>* WAITING LIST * MOVIE</pattern>
-<template><srai>WAITLST</srai></template>
-</category>
 
 <category>
-<pattern>* WAITING LIST * DVD</pattern>
+<pattern>WAITING LIST</pattern>
+
 <template><srai>WAITLST</srai></template>
-</category>
+</category>  
+
+
 
 <category>
-<pattern>* WAITING LIST * BOOK</pattern>
+<pattern>* WAITING LIST</pattern>
+
 <template><srai>WAITLST</srai></template>
-</category>
+</category>  
+
+
 
 <category>
-<pattern>* WAITING LISTS * MOVIE</pattern>
+<pattern>WAITING LIST *</pattern>
+
 <template><srai>WAITLST</srai></template>
-</category>
+</category>  
+
+
 
 <category>
-<pattern>* WAITING LISTS * DVD</pattern>
-<template><srai>WAITLST</srai></template>
-</category>
+<pattern>* WAITING LIST *</pattern>
 
-<category>
-<pattern>* WAITING LISTS * BOOK</pattern>
 <template><srai>WAITLST</srai></template>
-</category>
+</category>  
+
+
 
 <!--CANCEL HOLD IN TRANSIT-->
 
@@ -188,35 +137,39 @@ wait until the item is ready for you to pick up, then call us and we'll cancel y
 </category>
 
 
-<category>
-<pattern>CANCEL * HOLD * TRANSIT</pattern>
-<template><srai>CNCLNTRNST</srai></template>
-</category>
 
 <category>
-<pattern>* CANCEL * HOLD * TRANSIT</pattern>
+<pattern>CANCEL * TRANSIT</pattern>
+
 <template><srai>CNCLNTRNST</srai></template>
-</category>
+</category>  
+
+
 
 <category>
-<pattern>CANCEL * TRANSIT HOLD</pattern>
+<pattern>* CANCEL * TRANSIT</pattern>
+
 <template><srai>CNCLNTRNST</srai></template>
-</category>
+</category>  
+
+
 
 <category>
-<pattern>* CANCEL * TRANSIT HOLD</pattern>
+<pattern>CANCEL * TRANSIT *</pattern>
+
 <template><srai>CNCLNTRNST</srai></template>
-</category>
+</category>  
+
+
 
 <category>
-<pattern>CANCEL * TRANSIT HOLDS</pattern>
-<template><srai>CNCLNTRNST</srai></template>
-</category>
+<pattern>* CANCEL * TRANSIT *</pattern>
 
-<category>
-<pattern>* CANCEL * TRANSIT HOLDS</pattern>
 <template><srai>CNCLNTRNST</srai></template>
-</category>
+</category>  
+
+
+
 
 <category>
 <pattern>CIFNOTFILLEDBY</pattern>
@@ -358,108 +311,9 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <template><srai>REQFRMBRNCH</srai></template>
 </category>
 
-<!--place a hold-->
-
-<category>
-<pattern>* PLACE * HOLD</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PLACE * HOLD *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PLACE HOLD *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PLACE * HOLDS *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PLACE HOLDS *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>PUTTING * ON HOLD</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PUTTING * ON HOLD</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>PUTTING * ON HOLD *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PUTTING * ON HOLD *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
 
 
-<category>
-<pattern>HOW * HOLD</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
 
-<category>
-<pattern>HOW * HOLD *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-
-<category>
-<pattern>* RESERVE ITEM</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* RESERVE ITEMS</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<!--reserve star online-->
-
-<category>
-<pattern>reserve *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* reserve * online</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<!--request-->
-
-<category>
-<pattern>REQUEST *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* REQUEST </pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* REQUEST *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* RESERVE *</pattern>
-<template><srai>PLACEHOLD</srai></template>
-</category>
 
 <!--how do I put * on hold-->
 
@@ -588,131 +442,6 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <template><srai>HLD2H2H</srai></template>
 </category>
 
-<category>
-<pattern>PUT A BOOK HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT BOOKS HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A CD HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT CDS HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A MUSIC CD HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT MUSIC CDS HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT MUSIC HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A DVD HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT DVDS HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A MOVIE HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT MOVIES HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A MAGAZINE HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT MAGAZINES HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A GAME HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT GAMES HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A VIDEOGAME HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT VIDEOGAMES HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A VIDEO GAME HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT VIDEO GAMES HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT A NOOK HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>PUT NOOKS HOLD</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
 
 <!--hold iPads whu would you want to-->
 
@@ -991,201 +720,7 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <template><srai>TEXT NOTIFICATION</srai></template>
 </category>
 
-<!--one word "hold" -->
 
-<category>
-<pattern>HOLD</pattern>
-<template>
-<random>
-<li>Are you asking how to place a hold?</li>
-<li>Would you like me to explain how to place a hold?</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>ARE YOU ASKING HOW TO PLACE A HOLD</that>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>ARE YOU ASKING HOW TO PLACE A HOLD</that>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>ARE YOU ASKING HOW TO PLACE A HOLD</that>
-<template>Are you asking if your holds are ready to pick up? 
-</template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>ARE YOU ASKING HOW TO PLACE A HOLD</that>
-<template>Are you asking if your holds are ready to pick up? 
-</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>WOULD YOU LIKE ME TO EXPLAIN HOW TO PLACE A HOLD</that>
-<template>Placing holds is easy. First, find the item you want in our catalog or in Search Ohio. Click the "request" button. Now log in to your account and select 
-where you'd like to pick up the item. Click "submit." The catalog will indicate if your hold was successful. We'll notify you when the item is ready for you to pick up.
-</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>WOULD YOU LIKE ME TO TO EXPLAIN HOW TO PLACE A HOLD</that>
-<template>Placing holds is easy. First, find the item you want in our catalog or in Search Ohio. Click the "request" button. Now log in to your account and select 
-where you'd like to pick up the item. Click "submit." The catalog will indicate if your hold was successful. We'll notify you when the item is ready for you to pick up.
-</template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>WOULD YOU LIKE ME TO EXPLAIN HOW TO PLACE A HOLD</that>
-<template>OK, what would you like to know about holds?</template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>WOULD YOU LIKE ME TO EXPLAIN HOW TO PLACE A HOLD</that>
-<template>OK, what would you like to know about holds?</template>
-</category>
-
-
-<category>
-<pattern>HOLDS</pattern>
-<template><random>
-<li>Are you asking how to place a hold?</li>
-<li>Would you like me to explain how to place a hold?</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>ARE YOU ASKING IF YOUR HOLDS ARE READY TO PICK UP</that>
-<template>Here's a <a href="http://www.mentorpl.org/HDLSTAT.wmv" target="_blank"><b>demo</b></a> showing you how to check if your holds are ready to pick up.
-</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>ARE YOU ASKING IF YOUR HOLDS ARE READY TO PICK UP</that>
-<template>Here's a <a href="http://www.mentorpl.org/HDLSTAT.wmv" target="_blank"><b>demo</b></a> showing you how to check if your holds are ready to pick up.
-</template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>ARE YOU ASKING IF YOUR HOLDS ARE READY TO PICK UP</that>
-<template>
-<random>
-<li>
-I'm not sure what you're trying to ask me. Try rephrasing your question.</li>
-<li>I don't quite understand what you're asking. Try rephrasing your question.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>ARE YOU ASKING IF YOUR HOLDS ARE READY TO PICK UP</that>
-<template><random>
-<li>
-I'm not sure what you're trying to ask me. Try rephrasing your question.</li>
-<li>I don't quite understand what you're asking. Try rephrasing your question.</li>
-</random>
-</template>
-</category>
-
-
-<!--one word "request" -->
-
-<category>
-<pattern>REQUEST</pattern>
-<template>Are you asking me how to request something?
-</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>ARE YOU ASKING ME HOW TO REQUEST SOMETHING</that>
-<template>Requesting items is easy. Here's a <a href="http://www.mentorpl.org/MPLrequests.wmv" target="_blank"><b>demo</b></a>.
-</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>ARE YOU ASKING ME HOW TO REQUEST SOMETHING</that>
-<template>Requesting items is easy. Here's a <a href="http://www.mentorpl.org/MPLrequests.wmv" target="_blank"><b>demo</b></a>.
-</template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>ARE YOU ASKING ME HOW TO REQUEST SOMETHING</that>
-<template>Are you asking if your requests are ready to pick up? 
-</template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>ARE YOU ASKING ME HOW TO REQUEST SOMETHING</that>
-<template>Are you asking if your requests are ready to pick up? 
-</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>ARE YOU ASKING IF YOUR REQUESTS ARE READY TO PICK UP</that>
-<template>Here's a <a href="http://www.mentorpl.org/HDLSTAT.wmv" target="_blank"><b>demo</b></a> showing you how to check if your requests are ready to pick up.
-</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>ARE YOU ASKING IF YOUR REQUESTS ARE READY TO PICK UP</that>
-<template>Here's a <a href="http://www.mentorpl.org/HDLSTAT.wmv" target="_blank"><b>demo</b></a> showing you how to check if your requests are ready to pick up.
-</template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>ARE YOU ASKING IF YOUR REQUESTS ARE READY TO PICK UP</that>
-<template>
-<random>
-<li>
-I'm not sure what you're trying to ask me. Try rephrasing your question.</li>
-<li>I don't quite understand what you're asking. Try rephrasing your question.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>ARE YOU ASKING IF YOUR REQUESTS ARE READY TO PICK UP</that>
-<template>I
-<random>
-<li>
-I'm not sure what you're trying to ask me. Try rephrasing your question.</li>
-<li>I don't quite understand what you're asking. Try rephrasing your question.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>REQUESTS</pattern>
-<template><srai>REQUEST</srai>
-</template>
-</category>
 
 <!--cancel holds-->
 
@@ -2263,512 +1798,7 @@ Look at the next screen to see if your request was accepted.
 </category>
 
 
-<!--placing a hold-->
 
-<category>
-  <pattern>PLACEHOLD</pattern>
-  <template>Once you have found the item you wish to request in our catalog, click "request" in the upper part of the screen. Now log in to your account. Choose your pick up location and click "submit." You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
- </template>
-</category>
-
-<category>
-  <pattern>place * hold</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>place * hold *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>_ place * hold</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>_ place * hold</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>placing holds</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* placing holds</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* placing holds *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-
-<category>
-  <pattern>placing * hold</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* placing * hold</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* placing * hold *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>placing * hold *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>place holds</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* place holds</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* place holds *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<!--put a hold on-->
-
-<category>
-  <pattern>PUT * HOLD *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>PUT * HOLDS *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* PUT * HOLD *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* PUT * HOLDS *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<!--reserve-->
-
-<category>
-  <pattern>* RESERVE A BOOK</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* RESERVE BOOKS</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* RESERVE * CD</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* RESERVE CDS</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* RESERVE * DVD</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* RESERVE DVDS</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<!--request-->
-<category>
-  <pattern>* request * book</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request books</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * magazine</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request magazines</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * CD</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request CDs</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * DVD</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request DVDs</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * audiobook</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * audio book</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * book on tape</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request audiobooks</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request audio books</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request books on tape</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * videogame</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * video game</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request * game</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request videogames</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request video games</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-  <pattern>* request games</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>PUT * HOLD</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-<category>
-<pattern>* PUT * HOLD</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
- 
- 
- <category>
-<pattern>* PUT * HOLD ON *</pattern>
-  <template><srai>PLACEHOLD</srai></template>
-</category>
-
-
-
-<!--revision in progress-->
-
-<category>
-<pattern>HOW * PUT * RESERVE</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-
-
-<category>
-<pattern>place a *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>place an *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* place a *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>* place an *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>how * place a *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>how * place an *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>how * place a *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>how * place an *  hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>how * place a hold</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-<category>
-<pattern>how * place holds</pattern>
-<template><srai>PLACEHOLD</srai>
-</template>
-</category>
-
-
-<!--
-<category>
-<pattern>HOLD BOOK</pattern>
-<template>Once you have found the book you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD BOOKS</pattern>
-<template>Once you have found the books you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD MAGAZINE</pattern>
-<template>Once you have found the magazine you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD MAGAZINES</pattern>
-<template>Once you have found the magazines you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD CD</pattern>
-<template>Once you have found the CD you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD CDS</pattern>
-<template>Once you have found the CDs you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD DVD</pattern>
-<template>Once you have found the DVD you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD DVDS</pattern>
-<template>Once you have found the DVDs you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD AUDIOBOOK</pattern>
-<template>Once you have found the audiobook you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD AUDIO BOOK</pattern>
-<template>Once you have found the audiobook you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD BOOK ON TAPE BOOK</pattern>
-<template>Once you have found the audiobook you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD AUDIOBOOKS</pattern>
-<template>Once you have found the audiobooks you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD AUDIO BOOKS</pattern>
-<template>Once you have found the audiobooks you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD BOOKS ON TAPE</pattern>
-<template>Once you have found the audiobooks you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD VIDEOGAME</pattern>
-<template>Once you have found the videogame you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD VIDEO GAME</pattern>
-<template>Once you have found the videogame you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD GAME</pattern>
-<template>Once you have found the videogame you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD VIDEOGAMES</pattern>
-<template>Once you have found the videogames you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD VIDEO GAMES</pattern>
-<template>Once you have found the videogames you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
-
-<category>
-<pattern>HOLD GAMES</pattern>
-<template>Once you have found the videogames you wish to request in our catalog, 
-click the "request" button in the upper part of the screen. 
-Now log in to your account. Choose your pick up location and click "submit." 
-You do not need to set the "Cancel if not filled by" date unless you are going away and will not be able to pick up the item when it is ready.
-</template>
-</category>
--->
 
 <!--how request that-->
 
@@ -3779,6 +2809,223 @@ be signed by all those being linked. These slips are available at the Main Libra
  <template>If you are not receiving notices, please call the library at 440.255.881 or send an email to marlene.pelyhes@mentorpl.org.</template>
  </category>
  
+<!--FUTURE RELEASE-->
+
+<category>
+<pattern>HLDFUTREL</pattern>
+<template>If an item is not in the catalog, you cannot place a hold on it. You cannot place holds on future releases or pre-orders,
+unless the item is in the catalog.</template>
+</category>
  
+<category>
+<pattern>HOLD FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
  
+<category>
+<pattern>* HOLD FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD * FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD * FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD * FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD FUTURE * RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * FUTURE * RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD * FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD * FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD * FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD FUTURE * RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * FUTURE * RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD * YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD YET RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD * YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD YET RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * YET RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD * YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD YET * RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * YET * RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * YET * RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+ 
+  
 </aiml>

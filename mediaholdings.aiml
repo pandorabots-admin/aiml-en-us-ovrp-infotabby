@@ -2099,28 +2099,88 @@ catalog</b></a>.</template>
 <!--list of all dvds-->
 
 <category>
-  <pattern>DVD LIST</pattern>
-    <template>We do not have a complete list of the thousands of DVDs in our collection. You will find a list of <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>recently added DVDs here</b></a>.</template>
+<pattern>LSTDVDS</pattern>
+<template>Here you go. We have about 16,000. If you don't see them, turn off your pop up blocker and ask me again.
+<think>
+<set name="searcharg"> * </set>
+<set name="search">dvdkey</set>
+</think>
+</template>
 </category>
 
 <category>
-<pattern>* DVD LIST</pattern>
-<template><srai>DVD LIST</srai></template>
+<pattern>DVDS LIST</pattern>
+<template><srai>LSTDVDS</srai></template>
 </category>
 
 <category>
-<pattern>* DVD LIST *</pattern>
-<template><srai>DVD LIST</srai></template>
+<pattern>* DVDS LIST</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>DVDS * LIST</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>DVDS LIST *</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>* DVDS * LIST</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>DVDS * LIST *</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>* DVDS * LIST *</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>LIST DVDS</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>* LIST DVDS</pattern>
+<template><srai>LSTDVDS</srai></template>
 </category>
 
 <category>
 <pattern>LIST * DVDS</pattern>
-<template><srai>DVD LIST</srai></template>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>LIST DVDS *</pattern>
+<template><srai>LSTDVDS</srai></template>
 </category>
 
 <category>
 <pattern>* LIST * DVDS</pattern>
-<template><srai>DVD LIST</srai></template>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>LIST * DVDS *</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>* LIST DVDS *</pattern>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * DVDS *</pattern>
+<template><srai>LSTDVDS</srai></template>
 </category>
 
 <!--unlock-->

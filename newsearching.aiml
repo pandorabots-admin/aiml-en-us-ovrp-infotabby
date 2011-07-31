@@ -1448,7 +1448,74 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 </template>
 </category>
 
+<!--I NEED TO FIND A BOOK-->
 
+<category>
+<pattern>* FIND * BOOK </pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
 
+<category>
+<pattern>* FIND * BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FNDBK</pattern>
+<template>
+I can help you find books. Enter the author, or the title, or the topic in just a few words. 
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC IN JUST A FEW WORDS</that>
+<template>
+Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">bookkey</set>
+</think>
+</template>
+</category>
+
+<!--DVDs-->
+
+<category>
+<pattern>* HAVE * DVD </pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FNDDVD</pattern>
+<template>
+I can help you find DVDs. Enter the the title or the topic in just a few words. 
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>ENTER THE TITLE OR THE TOPIC IN JUST A FEW WORDS</that>
+<template>
+Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">dvdkey</set>
+</think>
+</template>
+</category>
 
 </aiml>

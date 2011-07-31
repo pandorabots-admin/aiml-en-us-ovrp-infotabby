@@ -2327,6 +2327,105 @@
 </category>
 
 
+<!--IPODS-->
+
+<category>
+<pattern>IPOD</pattern>
+<template>We do not have circulating iPods at this time.
+</template>
+</category>
+
+<category>
+<pattern>* IPOD</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>IPOD *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* IPOD *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>IPODS</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* IPODS</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>IPODS *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* IPODS *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>I POD</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* I POD</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>I POD *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* I POD *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>I PODS</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* I PODS</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>I PODS *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* I PODS *</pattern>
+<template><srai>IPOD</srai>
+</template>
+</category>
+
+
 
 
 </aiml>

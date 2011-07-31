@@ -21,168 +21,212 @@
 <!--bathrooms-->
 
 <category>
-  <pattern>bathroom</pattern>
+  <pattern>BTHROM</pattern>
   <template>At the Main Library there are restrooms in the lobby and children's restrooms on the second floor.
+  If you're at one of the branches, just ask one of the staff.
  </template>
 </category>
 
 <category>
+  <pattern>bathroom</pattern>
+  <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
   <pattern>_ bathroom</pattern>
-  <template><srai>bathroom</srai></template>
+  <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ bathroom *</pattern>
-  <template><srai>bathroom</srai></template>
+  <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>bathroom *</pattern>
-  <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>restroom</pattern>
-   <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>* restroom</pattern>
-    <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>* restroom *</pattern>
-    <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>restroom *</pattern>
-    <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>restrooms</pattern>
-    <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>_ restrooms</pattern>
-   <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>_ restrooms *</pattern>
-   <template><srai>bathroom</srai></template>
-</category>
-
-<category>
-  <pattern>restrooms *</pattern>
- <template><srai>bathroom</srai></template>
+  <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>bathrooms</pattern>
-    <template><srai>bathroom</srai></template>
+    <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ bathrooms</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ bathrooms *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>bathrooms *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>restroom</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>* restroom</pattern>
+    <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>* restroom *</pattern>
+    <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>restroom *</pattern>
+    <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>restrooms</pattern>
+    <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ restrooms</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ restrooms *</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>restrooms *</pattern>
+ <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>toilet</pattern>
-    <template><srai>bathroom</srai></template>
+    <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ toilet</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ toilet *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>toilet *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
-
 
 <category>
   <pattern>toilets</pattern>
-    <template><srai>bathroom</srai></template>
+    <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ toilets</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ toilets *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>toilets *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
-
-
 
 <category>
   <pattern>lavatory</pattern>
-    <template><srai>bathroom</srai></template>
+    <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ lavatory</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ lavatory *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>lavatory *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>lavatories</pattern>
-    <template><srai>bathroom</srai></template>
+    <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ lavatories</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>_ lavatories *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
 
 <category>
   <pattern>lavatories *</pattern>
-   <template><srai>bathroom</srai></template>
+   <template><srai>BTHRM</srai></template>
 </category>
+
+<category>
+  <pattern>WASHROOM</pattern>
+    <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ WASHROOM</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ WASHROOM *</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>WASHROOM *</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>WASHROOMS</pattern>
+    <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ WASHROOMS</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ WASHROOMS *</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
+<category>
+  <pattern>WASHROOMS *</pattern>
+   <template><srai>BTHRM</srai></template>
+</category>
+
 <!--bulletin boards-->
 
 <category>
@@ -325,7 +369,7 @@
 <category>
 <pattern>PRINT</pattern>
 <template>You can make black and white or color prints at the Main Library. Black and white prints are ten cents per page, color prints
-are fifty cents per page.
+are fifty cents per page. If you need help using our printers or copiers, ask one of the library staff for assistance.
 </template>
 </category>
 
