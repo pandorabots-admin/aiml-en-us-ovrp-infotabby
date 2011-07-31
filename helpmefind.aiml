@@ -246,93 +246,105 @@ The results will open as a new window or as a new tab.
 <!--BOOK/S-->
 
 <category>
-<pattern>HELP * FIND * BOOK</pattern>
+<pattern>HLPMEFND</pattern>
 <template><think><set name="topic">FNDBK</set></think>
 I can help you find books. Enter the author or the title or the topic. </template>
+</category>
+
+
+<category>
+<pattern>HELP * FIND * BOOK</pattern>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>HELP * FIND BOOKS</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>HELP * FIND * BOOKS</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FIND * BOOK</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FIND BOOKS</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FIND * BOOKS</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FIND * BOOK *</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FIND * BOOKS *</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>HELP * FINDING * BOOK</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>HELP * FINDING * BOOKS</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FINDING * BOOK</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FINDING * BOOKS</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FINDING * BOOK *</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FINDING BOOKS *</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <category>
 <pattern>_ HELP * FINDING * BOOKS *</pattern>
-<template><think><set name="topic">FNDBK</set></think>
-I can help you find books. Enter the author or the title or the topic. </template>
+<template><srai>HLPMEFND</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FIND * BOOK</pattern>
+<template><srai>HLPMEFND</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FIND * BOOK *</pattern>
+<template><srai>HLPMEFND</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FIND * BOOKS</pattern>
+<template><srai>HLPMEFND</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FIND * BOOKS *</pattern>
+<template><srai>HLPMEFND</srai></template>
 </category>
 
 <topic name="FNDBK"> 
@@ -1504,6 +1516,55 @@ Here are the closest matches based on this input.
 </think>
 </template>
 </category>
+
+
+<!--DESCRIPTION OF ITEMS-->
+
+<category>
+<pattern>ITMDESC</pattern>
+<template>
+</template>
+</category>
+
+<category>
+<pattern>* DESCRIPTION * BOOK</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+<category>
+<pattern>* DESCRIPTION * BOOKS</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+
+<category>
+<pattern>* DESCRIPTION * BOOK *</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+<category>
+<pattern>* DESCRIPTION * BOOKS *</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

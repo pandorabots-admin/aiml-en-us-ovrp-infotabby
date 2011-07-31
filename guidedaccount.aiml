@@ -2716,31 +2716,6 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 </topic>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--change account info-->
 
 <category>
@@ -3062,333 +3037,349 @@ your account will keep a record of all the items you check out.
 </topic>
 
 
-
-
-
-
+<topic name="ACCTQ">
 <category>
 <pattern>LOOK UP * READ</pattern>
-<template><srai>RHISTORY</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>* LOOK UP * READ</pattern>
-<template><srai>RHISTORY</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>* LOOK UP * READ *</pattern>
-<template><srai>RHISTORY</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
+<category>
+<pattern>* LOOK UP * READ *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
 <category>
 <pattern>LOOK UP * REQUESTED</pattern>
-<template><srai>RHISTORY</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
-
-
+<topic name="ACCTQ">
 <category>
-<pattern> _ RECORD * CHECKED OUT</pattern>
-<template>The library does not keep a record of the items you check out. <br/><br/>
-<srai>RHISTORY</srai></template>
+<pattern>* RECORD * CHECK OUT</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ RECORD * CHECKED OUT *</pattern>
-<template>The library does not keep a record of the items you check out. <br/><br/>
-<srai>RHISTORY</srai></template>
+<pattern>* RECORD * CHECK OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ RECORD * READ</pattern>
-<template>The library does not keep a record of the items you check out.  <br/><br/>
-<srai>RHISTORY</srai></template>
+<pattern>* RECORD * CHECKED OUT</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ RECORD * READ</pattern>
-<template>The library does not keep a record of the items you check out.  <br/><br/>
-<srai>RHISTORY</srai></template>
+<pattern>* RECORD * CHECKED OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
 </category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* RECORD * READ</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* RECORD * READ *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RHSTRY</srai>
+</template>
+</category>
+</topic>
 
 <!--create lists-->
 
-
-
 <category>
-<pattern>CREATELIST</pattern>
+<pattern>CRTLST</pattern>
 <template>You can create and save a list of titles for future request. 
 </template>
 </category>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CREATE LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ CREATE LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<pattern>* CREATE LIST</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CREATE * LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ CREATE * LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<pattern>CREATE LIST *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATE * LIST</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATE LIST *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
 <category>
 <pattern>CREATE * LIST *</pattern>
-<template><srai>CREATELIST</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ CREATE * LIST *</pattern>
-<template><srai>CREATELIST</srai></template>
+<pattern>* CREATE * LIST *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
-
+<topic name="ACCTQ">
 <category>
 <pattern>CREATE LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ CREATE LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<pattern>* CREATE LISTS</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CREATE * LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ CREATE * LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<pattern>CREATE LISTS *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATE * LISTS</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATE LISTS *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
 <category>
 <pattern>CREATE * LISTS *</pattern>
-<template><srai>CREATELIST</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ CREATE * LISTS *</pattern>
-<template><srai>CREATELIST</srai></template>
+<pattern>* CREATE * LISTS *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CRTLST</srai>
+</template>
 </category>
+</topic>
 
 
 <!--preferred searches-->
 
 <category>
-<pattern>PREFERREDSEARCH</pattern>
-<template>You can set you account to remember your preferred searches. We'll have a demo soon!
+<pattern>PRFDSRCH</pattern>
+<template>You can set you account to remember your searches. We'll have a demo soon! In the meantime, ask one of the reference librarians
+to explain how to do this.
 </template>
 </category>
 
+<topic name="ACCTQ">
 <category>
-<pattern>PREFERRED SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<pattern>PREFERRED</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>PRFDSRCH</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>PREFERRED SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<pattern>* PREFERRED</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>PRFDSRCH</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_PREFERRED SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<pattern>PREFERRED *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>PRFDSRCH</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ PREFERRED SEARCHES *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<pattern>* PREFERRED *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>PRFDSRCH</srai>
+</template>
 </category>
+</topic>
 
-
-
-<category>
-<pattern>PREFERRED SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>_PREFERRED SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>_ PREFERRED SEARCH *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-
-<category>
-<pattern>RECALL * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ RECALL * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ RECALL * SEARCH *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>RECALL SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>RECALL * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ RECALL * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ RECALL * SEARCHES *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-
-<!--remember-->
-
-<category>
-<pattern>REMEMBER SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>REMEMBER * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ REMEMBER * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ REMEMBER * SEARCH *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>REMEMBER SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>REMEMBER * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ REMEMBER * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern> _ REMEMBER * SEARCHES *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-
-<category>
-<pattern>REMEMBER * LOOKING FOR</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>* REMEMBER * LOOKING FOR</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>* REMEMBER * LOOKING FOR *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>* REMEMBER * LOOKED FOR *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>REMEMBER * FOUND</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>* REMEMBER * FOUND</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
-
-<category>
-<pattern>* REMEMBER * FOUND *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
-</category>
 
 <!--rating-->
 
 <category>
-<pattern>RATING</pattern>
-<template>You rate titles in our collection. We'll have a demo soon!
+<pattern>RTNG</pattern>
+<template>You can rate titles in our collection. We'll have a demo soon! In the meantime, ask one of the reference librarians
+to explain how to do this.
 </template>
 </category>
 
-<category>
-<pattern> _ RATING</pattern>
-<template><srai>RATING</srai></template>
-</category>
 
-<category>
-<pattern> _ RATING *</pattern>
-<template><srai>RATING</srai></template>
-</category>
-
-<category>
-<pattern>RATING *</pattern>
-<template><srai>RATING</srai></template>
-</category>
-
-
+<topic name="ACCTQ">
 <category>
 <pattern>RATE</pattern>
-<template><srai>RATING</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RTNG</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> _ RATE</pattern>
-<template><srai>RATING</srai></template>
+<pattern>* RATE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RTNG</srai>
+</template>
 </category>
+</topic>
 
-<category>
-<pattern> _ RATE *</pattern>
-<template><srai>RATING</srai></template>
-</category>
-
+<topic name="ACCTQ">
 <category>
 <pattern>RATE *</pattern>
-<template><srai>RATING</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RTNG</srai>
+</template>
 </category>
+</topic>
 
-
+<topic name="ACCTQ">
+<category>
+<pattern>* RATE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>RTNG</srai>
+</template>
+</category>
+</topic>
 
 <!--log out-->
 
@@ -3400,170 +3391,260 @@ is especially important when you're using a computer in a public place. To log o
 </template>
 </category>
 
+<topic name="ACCTQ">
+<category>
+<pattern>* LOGOUT</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>LOGOUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* LOGOUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
 <category>
 <pattern>LOG OUT</pattern>
-<template><srai>LOGOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ LOG OUT</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>* LOG OUT</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ LOG OUT *</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>LOG OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
-
+<topic name="ACCTQ">
 <category>
-<pattern>LOG OFF</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>* LOG OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
-<category>
-<pattern>_ LOG OFF</pattern>
-<template><srai>LOGOUT</srai></template>
-</category>
-
-<category>
-<pattern>_ LOG OFF *</pattern>
-<template><srai>LOGOUT</srai></template>
-</category>
-
-
+<topic name="ACCTQ">
 <category>
 <pattern>LOGGING OUT</pattern>
-<template><srai>LOGOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ LOGGING OUT</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>* LOGGING OUT</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ LOGGING OUT *</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>LOGGING OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
+<category>
+<pattern>* LOGGING OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
 
+<topic name="ACCTQ">
+<category>
+<pattern>LOGOFF</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* LOGOFF</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>LOGOFF *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* LOGOFF *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>LOG OFF</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* LOG OFF</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>LOG OFF *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* LOG OFF *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
 <category>
 <pattern>LOGGING OFF</pattern>
-<template><srai>LOG OUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ LOGGING OFF</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>* LOGGING OFF</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>_ LOGGING OFF *</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>LOGGING OFF *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern>LOGGING OFF _</pattern>
-<template><srai>LOGOUT</srai></template>
+<pattern>* LOGGING OFF *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>LOGOUT</srai>
+</template>
 </category>
+</topic>
 
 <!--my list-->
 
 <category>
-<pattern>MYLIST</pattern>
-<template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>Your Account</b></a>. After you've logged in, click on the
-"My Lists" button.</template>
+<pattern>MYCRP</pattern>
+<template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>Your Account</b></a>. After you've logged in, 
+you will be able to see your holds, fines, lists, and other information.</template>
 </category>
 
+<topic name="ACCTQ">
 <category>
-<pattern>MY LIST</pattern>
-<template><srai>MYLIST</srai></template>
+<pattern>MY</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>MYCRP</srai>
+</template>
 </category>
+</topic>
 
+
+<topic name="ACCTQ">
 <category>
-<pattern>MY LISTS</pattern>
-<template><srai>MYLIST</srai></template>
+<pattern>* MY</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>MYCRP</srai>
+</template>
 </category>
+</topic>
 
+
+<topic name="ACCTQ">
 <category>
-<pattern> _ MY LIST</pattern>
-<template><srai>MYLIST</srai></template>
+<pattern>MY *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>MYCRP</srai>
+</template>
 </category>
+</topic>
 
+
+<topic name="ACCTQ">
 <category>
-<pattern> _ MY LIST *</pattern>
-<template><srai>MYLIST</srai></template>
+<pattern>* MY *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>MYCRP</srai>
+</template>
 </category>
+</topic>
 
-
-<category>
-<pattern>* MY * LIST</pattern>
-<template><srai>MYLIST</srai></template>
-</category>
-
-<category>
-<pattern>* MY * LIST *</pattern>
-<template><srai>MYLIST</srai></template>
-</category>
-
-<category>
-<pattern>* MY LISTS</pattern>
-<template><srai>MYLIST</srai></template>
-</category>
-
-<category>
-<pattern>* MY LISTS *</pattern>
-<template><srai>MYLIST</srai></template>
-</category>
-
-
-<category>
-<pattern>* MY * LISTS</pattern>
-<template><srai>MYLIST</srai></template>
-</category>
-
-<category>
-<pattern>* MY * LISTS *</pattern>
-<template><srai>MYLIST</srai></template>
-</category>
-
-<!--my items on hold-->
-
-<category>
-<pattern>HLDLIST</pattern>
-<template>A list of the items you have on hold is in <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Log into <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> and you should see it on the first page.</template>
-</category>
-
-<category>
-<pattern>HOLD LIST</pattern>
-<template><srai>HLDLIST</srai></template>
-</category>
-
-<category>
-<pattern> * I * ON HOLD</pattern>
-<template><srai>HLDLIST</srai></template>
-</category>
-
-<category>
-<pattern> * MY * ON HOLD</pattern>
-<template><srai>HLDLIST</srai></template>
-</category>
-
-<category>
-<pattern> _ CHECKED OUT * ACCOUNT</pattern>
-<template><srai>HLDLIST</srai></template>
-</category>
-
-<category>
-<pattern> * HAVE CHECKED OUT</pattern>
-<template><srai>HLDLIST</srai></template>
-</category>
-
-<category>
-<pattern> * HAVE CHECKED OUT *</pattern>
-<template><srai>HLDLIST</srai></template>
-</category>
 
 <!--CAN I TAKE OUT-->
 
@@ -3572,45 +3653,76 @@ is especially important when you're using a computer in a public place. To log o
 <template>If you have a Mentor Public Library card in good standing, you can take out whatever you wish.</template>
 </category>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CAN * TAKE OUT *</pattern>
-<template><srai>CNTKOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CAN * TAKE * OUT</pattern>
-<template><srai>CNTKOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern> * CAN * TAKE OUT *</pattern>
-<template><srai>CNTKOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern> * CAN * TAKE * OUT *</pattern>
-<template><srai>CNTKOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CAN * CHECK OUT *</pattern>
-<template><srai>CNTKOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
 <pattern>CAN * CHECK * OUT</pattern>
-<template><srai>CNTKOUT</srai></template>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> * CAN * CHECK OUT *</pattern>
-<template><srai>CNTKOUT</srai></template>
+<pattern>* CAN * CHECK OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
+</topic>
 
+<topic name="ACCTQ">
 <category>
-<pattern> * CAN * CHECK * OUT *</pattern>
-<template><srai>CNTKOUT</srai></template>
+<pattern>* CAN * CHECK * OUT *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CNTKOUT</srai>
+</template>
 </category>
-
+</topic>
 
 </aiml>
