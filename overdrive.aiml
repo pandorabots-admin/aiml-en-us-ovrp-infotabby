@@ -3724,125 +3724,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
   during regular business hours.</template>
 </category>
 
-<category>
-<pattern>RETURN EBOOK</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
 
-<category>
-<pattern>* RETURN EBOOK</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN EBOOK *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * EBOOK</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * EBOOK *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * EBOOK *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN E BOOK</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN E BOOK</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN E BOOK *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * E BOOK</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * E BOOK *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * E BOOK *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN EBOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * EBOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * EBOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN E BOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN E BOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN E BOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * E BOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * E BOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>* RETURN * E BOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
 
 <category>
 <pattern>RETURN EPUB</pattern>
@@ -3850,7 +3732,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN EPUB</pattern>
+<pattern>_ RETURN EPUB</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3860,7 +3742,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * EPUB</pattern>
+<pattern>_ RETURN * EPUB</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3870,7 +3752,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * EPUB *</pattern>
+<pattern>_ RETURN * EPUB *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3880,7 +3762,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN E PUB</pattern>
+<pattern>_ RETURN E PUB</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3890,7 +3772,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * E PUB</pattern>
+<pattern>_ RETURN * E PUB</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3900,7 +3782,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * E PUB *</pattern>
+<pattern>_ RETURN * E PUB *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3910,7 +3792,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN EPUBS</pattern>
+<pattern>_ RETURN EPUBS</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3920,7 +3802,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * EPUBS</pattern>
+<pattern>_ RETURN * EPUBS</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3930,7 +3812,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * EPUBS *</pattern>
+<pattern>_ RETURN * EPUBS *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3940,7 +3822,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN E PUBS</pattern>
+<pattern>_ RETURN E PUBS</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3950,7 +3832,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * E PUBS</pattern>
+<pattern>_ RETURN * E PUBS</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3960,24 +3842,28 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>* RETURN * E PUBS *</pattern>
+<pattern>_ RETURN * E PUBS *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
 <!--RETURN EBOOKS-->
-
 <category>
 <pattern>RETURN EBOOK</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
 <category>
-<pattern>RETURN * EBOOK</pattern>
+<pattern>_ RETURN EBOOK</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
 <category>
-<pattern>_ RETURN EBOOK</pattern>
+<pattern>_ RETURN EBOOK *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN EBOOK *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -3997,37 +3883,22 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
-<pattern>RETURN EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * EBOOKS</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * EBOOKS *</pattern>
-<template><srai>RTRNEBK</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * EBOOKS *</pattern>
+<pattern>RETURN E BOOK</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
 <category>
 <pattern>_ RETURN E BOOK</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN E BOOK *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN E BOOK *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -4047,17 +3918,57 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 </category>
 
 <category>
+<pattern>RETURN EBOOKS</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN EBOOKS</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN EBOOKS *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN EBOOKS *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * EBOOKS</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * EBOOKS *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * EBOOKS *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
 <pattern>RETURN E BOOKS</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
 <category>
-<pattern>RETURN * E BOOKS</pattern>
+<pattern>_ RETURN E BOOKS</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
 <category>
-<pattern>_ RETURN E BOOKS</pattern>
+<pattern>_ RETURN E BOOKS *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN E BOOKS *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 
@@ -4068,6 +3979,11 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 
 <category>
 <pattern>RETURN * E BOOKS *</pattern>
+<template><srai>RTRNEBK</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * E BOOKS *</pattern>
 <template><srai>RTRNEBK</srai></template>
 </category>
 

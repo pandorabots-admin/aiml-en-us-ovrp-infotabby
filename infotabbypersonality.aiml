@@ -5479,7 +5479,7 @@ You said your favorite color was <get name="favcolor"/>.
 <template><random>
 <li>Did you hear the one about the Mountain Goats in the Andes? It was Ba a a a a a d.</li>
 <li>"My dog has no nose." <br/>
-"How does he smell/" <br/>
+"How does he smell?" <br/>
 "Terrible!"</li>
 </random>
 </template>

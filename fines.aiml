@@ -337,6 +337,62 @@ We are not currently offering fine forgiveness. If you have questions about fine
 
 
 <category>
+<pattern>OVER DUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>* OVER DUE</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>OVER DUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>* OVER DUE *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>OVER DUES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>* OVER DUES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>OVER DUES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>* OVER DUES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+
+<category>
+<pattern>OVERDUES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES *</pattern>
+<template><srai>FNS</srai></template>
+</category>
+
+<category>
 <pattern>*  OVERDUES *</pattern>
 <template><srai>FNS</srai></template>
 </category>

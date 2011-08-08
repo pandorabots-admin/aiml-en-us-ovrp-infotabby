@@ -901,6 +901,13 @@ Branch does not have WiFi.
    <template><srai>LPTP</srai></template>
 </category>
 
+
+<category>
+<pattern>* laptop * home *</pattern>
+<template>Library laptops are for use in the Main Library only. You are not allowed to take them home.</template>
+</category>
+
+
 <!--MICROSOFT OFFICE-->
 
 <category>

@@ -15,114 +15,122 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
-
+<topic name="CHT">
 <category>
-<pattern>PINEAPPLES</pattern>
+<pattern> YES </pattern>
+<that>* LIKE PINEAPPLES</that>
 <template>
-	<think>
-		<set name="topic">PINEAPPLES</set>
-	</think>
 <random>
 <li>Pineapples should be approached with caution.</li>
 <li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
-<li>This is a very sensitive topic. Perhaps we shouldn't discuss it.</li>
 <li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
 </random> 
 </template>
 </category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern>YES * </pattern>
+<that>* LIKE PINEAPPLES</that>
+<template>
+<random>
+<li>Pineapples should be approached with caution.</li>
+<li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern>* YES </pattern>
+<that>* LIKE PINEAPPLES</that>
+<template>
+<random>
+<li>Pineapples should be approached with caution.</li>
+<li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+<think>
+<set name="topic">PNAPPL</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that>* LIKE PINEAPPLES</that>
+<template>
+<random>
+<li>Pineapples should be approached with caution.</li>
+<li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+<think>
+<set name="topic">PNAPPL</set>
+</think>
+</template>
+</category>
+</topic>
+
+<category>
+<pattern>PINEAPPLES</pattern>
+<template><srai>PINEAPPLE</srai></template>
+</category>
 
 <category>
 <pattern>_ PINEAPPLES</pattern>
-<template><srai>PINEAPPLES</srai></template>
+<template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
 <pattern>_ PINEAPPLES *</pattern>
-<template><srai>PINEAPPLES</srai></template>
+<template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
 <pattern>PINEAPPLES *</pattern>
-<template><srai>PINEAPPLES</srai></template>
+<template><srai>PINEAPPLE</srai></template>
 </category>
 
-<category>
-<pattern>PINEAPPLE</pattern>
-<template><srai>PINEAPPLES</srai></template>
-</category>
 
 
 <category>
 <pattern>_ PINEAPPLE</pattern>
-<template><srai>PINEAPPLES</srai></template>
+<template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
 <pattern>_ PINEAPPLE *</pattern>
-<template><srai>PINEAPPLES</srai></template>
+<template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
 <pattern>PINEAPPLE *</pattern>
-<template><srai>PINEAPPLES</srai></template>
+<template><srai>PINEAPPLE</srai></template>
 </category>
 
-<topic name="PINEAPPLES"> 
-<category>
-<pattern> WHY </pattern>
-<that>Pineapples should be approached with caution</that>
-<template>
-<random>
-<li>Pineapples first appeared on the earth 1.8 million years ago. Though the Pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the Pineapple is territorial and largely solitary, although there is some overlap in home ranges. </li>
-<li>The Pineapple hunts animals of different sizes, and will adjust its hunting techniques accordingly. With small animals, such as rodents, squirrels, birds, fish and insects, it will hunt in areas known to be abundant in prey, and will lie, crouch, or stand and wait for victims to wander close.</li>
-</random>
-</template>
-</category>
-</topic>
-
-<topic name="PINEAPPLES"> 
-<category>
-<pattern> WHY * </pattern>
-<that>Pineapples should be approached with caution</that>
-<template>
-<random>
-<li>Pineapples first appeared on the earth 1.8 million years ago. Though the Pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the Pineapple is territorial and largely solitary, although there is some overlap in home ranges. </li>
-<li>The Pineapple hunts animals of different sizes, and will adjust its hunting techniques accordingly. With small animals, such as rodents, squirrels, birds, fish and insects, it will hunt in areas known to be abundant in prey, and will lie, crouch, or stand and wait for victims to wander close.</li>
-</random>
-</template>
-</category>
-</topic>
-
-<topic name="PINEAPPLES"> 
-<category>
-<pattern> HOW COME </pattern>
-<that>Pineapples should be approached with caution</that>
-<template>
-<random>
-<li>Pineapples first appeared on the earth 1.8 million years ago. Though the Pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the Pineapple is territorial and largely solitary, although there is some overlap in home ranges. </li>
-<li>The Pineapple hunts animals of different sizes, and will adjust its hunting techniques accordingly. With small animals, such as rodents, squirrels, birds, fish and insects, it will hunt in areas known to be abundant in prey, and will lie, crouch, or stand and wait for victims to wander close.</li>
-</random>
-</template>
-</category>
-</topic>
-
-<topic name="PINEAPPLES"> 
+<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that>Pineapples should be approached with caution</that>
 <template>
 <random>
-<li>Pineapples first appeared on the earth 1.8 million years ago. Though the Pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the Pineapple is territorial and largely solitary, although there is some overlap in home ranges. </li>
-<li>The Pineapple hunts animals of different sizes, and will adjust its hunting techniques accordingly. With small animals, such as rodents, squirrels, birds, fish and insects, it will hunt in areas known to be abundant in prey, and will lie, crouch, or stand and wait for victims to wander close.</li>
+<li>Pineapples first appeared on the earth 1.8 million years ago. Though the pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the pineapple is territorial and largely solitary, although there is some overlap in home ranges. Sorry, I was thinking 
+about bobcats.</li>
+<li>The Pineapple hunts animals of different sizes, and will adjust its hunting techniques accordingly. With small animals, such as rodents, squirrels, birds, fish and insects, it will hunt in areas known to be abundant in prey, and will lie, crouch, or stand and wait for victims to wander close.
+Sorry, I was thinking about bobcats.</li>
 </random>
 </template>
 </category>
 </topic>
 
 
-
-<topic name="PINEAPPLES"> 
+<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that>Pineapples are tasty but I would not keep one as a pet</that>
@@ -135,102 +143,152 @@
 </category>
 </topic>
 
-<topic name="PINEAPPLES"> 
+<topic name="CHT">
 <category>
-<pattern> WHY </pattern>
-<that>Pineapples are tasty but I would not keep one as a pet</that>
-<template>
-<random>
-<li>I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were keeping it as a pet.</li>
-<li>One of our library managers takes her pineapple to the groomers. Regularly.</li>
-</random>
-</template>
+<pattern> * </pattern>
+<that> * ABOUT BOBCATS</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
 
-<topic name="PINEAPPLES"> 
+<topic name="CHT">
 <category>
-<pattern> WHY * </pattern>
-<that>Pineapples are tasty but I would not keep one as a pet</that>
-<template>
-<random>
-<li>I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were keeping it as a pet.</li>
-<li>One of our library managers takes her pineapple to the groomers. Regularly.</li>
-</random>
-</template>
+<pattern> * </pattern>
+<that> * AS A PET</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
 
-<topic name="PINEAPPLES"> 
+<topic name="CHT">
 <category>
-<pattern> HOW COME </pattern>
-<that>Pineapples are tasty but I would not keep one as a pet</that>
-<template>
-<random>
-<li>I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were keeping it as a pet.</li>
-<li>One of our library managers takes her pineapple to the groomers. Regularly.</li>
-</random>
-</template>
+<pattern> * </pattern>
+<that>REGULARLY</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
-
 <!--fishsticks-->
 
+<topic name="CHT">
 <category>
-<pattern>FISHSTICKS</pattern>
+<pattern> NO </pattern>
+<that>* LIKE FISHSTICKS</that>
 <template>
-	<think>
-		<set name="topic">FISHSTICKS</set>
-	</think>
 <random>
 <li>Fishsticks and bananas make a dandy casserole.</li>
 <li>Fishsticks are tasty, but I wouldn't keep one as a pet.</li>
-<li>This is a very sensitive topic. Perhaps we shouldn't discuss it.</li>
 <li>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
 </random> 
 </template>
 </category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> NO *</pattern>
+<that>* LIKE FISHSTICKS</that>
+<template>
+<random>
+<li>Fishsticks and bananas make a dandy casserole.</li>
+<li>Fishsticks are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that>* LIKE FISHSTICKS</that>
+<template>
+<random>
+<li>Fishsticks and bananas make a dandy casserole.</li>
+<li>Fishsticks are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+</template>
+</category>
+</topic>
+
+<category>
+<pattern>FISHSTICKS</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
 
 <category>
 <pattern>_ FISHSTICKS</pattern>
-<template><srai>FISHSTICKS</srai></template>
+<template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
 <pattern>_ FISHSTICKS *</pattern>
-<template><srai>FISHSTICKS</srai></template>
+<template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
 <pattern>FISHSTICKS *</pattern>
-<template><srai>FISHSTICKS</srai></template>
+<template><srai>FISHSTICK</srai></template>
 </category>
-
-<category>
-<pattern>FISHSTICK</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
 
 <category>
 <pattern>_ FISHSTICK</pattern>
-<template><srai>FISHSTICKS</srai></template>
+<template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
 <pattern>_ FISHSTICK *</pattern>
-<template><srai>FISHSTICKS</srai></template>
+<template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
 <pattern>FISHSTICK *</pattern>
-<template><srai>FISHSTICKS</srai></template>
+<template><srai>FISHSTICK</srai></template>
 </category>
 
-<topic name="FISHSTICKS"> 
+<category>
+<pattern>FISH STICKS</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>_ FISH STICKS</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>_ FISH STICKS *</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>FISH STICKS *</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>FISH STICK</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>_ FISH STICK</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>_ FISH STICK *</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<category>
+<pattern>FISH STICK *</pattern>
+<template><srai>FISHSTICK</srai></template>
+</category>
+
+<topic name="CHT">
 <category>
 <pattern> * </pattern>
-<that>Fishsticks and bananas make a dandy casserole</that>
+<that>Fishsticks * casserole</that>
 <template>
 Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
@@ -238,7 +296,7 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 </category>
 </topic>
 
-<topic name="FISHSTICKS"> 
+<topic name="CHT">
 <category>
 <pattern> FISHSTICK AND BANANA *</pattern>
 <template>
@@ -248,7 +306,7 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 </category>
 </topic>
 
-<topic name="FISHSTICKS"> 
+<topic name="CHT">
 <category>
 <pattern> * FISHSTICK AND BANANA *</pattern>
 <template>
@@ -258,16 +316,18 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 </category>
 </topic>
 
-
-
-
-
-
-
-<topic name="FISHSTICKS"> 
+<topic name="CHT">
 <category>
 <pattern> * </pattern>
-<that>Fishsticks are tasty but I would not keep one as a pet</that>
+<that> * FAMILY GET TOGETHERS</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that>Fishsticks * pet</that>
 <template>
 <random>
 <li>I just saw someone on Lauren J walking a fishstick on a leash. I'd say they were keeping it as a pet.</li>
@@ -277,114 +337,21 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 </category>
 </topic>
 
-
-
-<!--fishs ticks-->
-
-<category>
-<pattern>FISH STICKS</pattern>
-<template>
-	<think>
-		<set name="topic">FISHSTICKS</set>
-	</think>
-<random>
-<li>Fishsticks and bananas make a dandy casserole.</li>
-<li>Fishsticks are tasty, but I wouldn't keep one as a pet.</li>
-<li>This is a very sensitive topic. Perhaps we shouldn't discuss it.</li>
-<li>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
-</random> 
-</template>
-</category>
-
-<category>
-<pattern>_ FISH STICKS</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-<category>
-<pattern>_ FISH STICKS *</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-<category>
-<pattern>FISH STICKS *</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-<category>
-<pattern>FISH STICK</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-
-<category>
-<pattern>_ FISH STICK</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-<category>
-<pattern>_ FISH STICK *</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-<category>
-<pattern>FISH STICK *</pattern>
-<template><srai>FISHSTICKS</srai></template>
-</category>
-
-<topic name="FISHSTICKS"> 
+<topic name="CHT">
 <category>
 <pattern> * </pattern>
-<that>Fishsticks and bananas make a dandy casserole</that>
-<template>
-Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
-Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
-</template>
+<that> * AS A PET</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
 
-<topic name="FISHSTICKS"> 
-<category>
-<pattern> FISH STICK AND BANANA *</pattern>
-<template>
-Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
-Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
-</template>
-</category>
-</topic>
-
-<topic name="FISHSTICKS"> 
-<category>
-<pattern> * FISH STICK AND BANANA *</pattern>
-<template>
-Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
-Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
-</template>
-</category>
-</topic>
-
-
-
-
-
-
-
-<topic name="FISHSTICKS"> 
+<topic name="CHT">
 <category>
 <pattern> * </pattern>
-<that>Fishsticks are tasty but I would not keep one as a pet</that>
-<template>
-<random>
-<li>I just saw someone on Lauren J walking a fishstick on a leash. I'd say they were keeping it as a pet.</li>
-<li>One of our library managers has a fishstick farm instead of an ant farm. Really. I saw it.</li>
-</random>
-</template>
+<that> * I SAW IT</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
-
-
-
-
 
 
 </aiml>

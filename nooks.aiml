@@ -63,12 +63,12 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ COLOR NOOK</pattern>
+<pattern>* COLOR NOOK</pattern>
 <template><srai>CNK</srai></template>
 </category>
 
 <category>
-<pattern>_ COLOR NOOK *</pattern>
+<pattern>* COLOR NOOK *</pattern>
 <template><srai>CNK</srai></template>
 </category>
 
@@ -83,12 +83,12 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ COLOR NOOKS</pattern>
+<pattern>* COLOR NOOKS</pattern>
 <template><srai>CNK</srai></template>
 </category>
 
 <category>
-<pattern>_ COLOR NOOKS *</pattern>
+<pattern>* COLOR NOOKS *</pattern>
 <template><srai>CNK</srai></template>
 </category>
 
@@ -99,7 +99,7 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ NOOK</pattern>
+<pattern>* NOOK</pattern>
 <template><srai>NK</srai></template>
 </category>
 
@@ -109,7 +109,7 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ NOOK *</pattern>
+<pattern>* NOOK *</pattern>
 <template><srai>NK</srai></template>
 </category>
 
@@ -119,7 +119,7 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ NOOKS</pattern>
+<pattern>* NOOKS</pattern>
 <template><srai>NK</srai></template>
 </category>
 
@@ -129,7 +129,7 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ NOOKS *</pattern>
+<pattern>* NOOKS *</pattern>
 <template><srai>NK</srai></template>
 </category>
 
@@ -139,47 +139,47 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ BORROW * NOOK</pattern>
+<pattern>* BORROW * NOOK</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ BORROW NOOKS</pattern>
+<pattern>* BORROW NOOKS</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ BORROW * NOOKS</pattern>
+<pattern>* BORROW * NOOKS</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ BORROWING NOOKS</pattern>
+<pattern>* BORROWING NOOKS</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ BORROWING * NOOKS</pattern>
+<pattern>* BORROWING * NOOKS</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ BORROWING * NOOK</pattern>
+<pattern>* BORROWING * NOOK</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ BORROWING * NOOK</pattern>
+<pattern>* BORROWING * NOOK</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ ABOUT * NOOKS</pattern>
+<pattern>* ABOUT * NOOKS</pattern>
 <template><srai>NK</srai></template>
 </category>
 
 <category>
-<pattern>_ ABOUT * NOOK</pattern>
+<pattern>* ABOUT * NOOK</pattern>
 <template><srai>NK</srai></template>
 </category>
 
@@ -206,38 +206,6 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 
 
 
-<!--return nook-->
-
-<category>
-<pattern>RETURN NOOK</pattern>
-<template>Nooks must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>RETURN * NOOK</pattern>
-<template>Nooks must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* RETURN * NOOK</pattern>
-<template>Nooks must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* RETURN * NOOK *</pattern>
-<template>Nooks must be returned at the Main Library Circulation counter.</template>
-</category>
-
-
-<category>
-<pattern>* NOOK * BOOKDROP</pattern>
-<template>No. Do not place the Nook in a bookdrop.</template>
-</category>
-
-<category>
-<pattern>* NOOK * BOOK DROP</pattern>
-<template>No. Do not place the Nook in a bookdrop.</template>
-</category>
 
 <!--nook loan periods and renewals-->
 
@@ -262,7 +230,7 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ LOAN PERIOD * NOOK</pattern>
+<pattern>* LOAN PERIOD * NOOK</pattern>
 <template><srai>NKLN</srai></template>
 </category>
 
@@ -300,22 +268,22 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ RENEW * NOOK</pattern>
+<pattern>* RENEW * NOOK</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEW * NOOK *</pattern>
+<pattern>* RENEW * NOOK *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEW * NOOKS</pattern>
+<pattern>* RENEW * NOOKS</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEW * NOOKS *</pattern>
+<pattern>* RENEW * NOOKS *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
@@ -330,22 +298,22 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ RENEWAL * NOOK</pattern>
+<pattern>* RENEWAL * NOOK</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWAL * NOOK *</pattern>
+<pattern>* RENEWAL * NOOK *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWAL * NOOKS</pattern>
+<pattern>* RENEWAL * NOOKS</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWAL * NOOKS *</pattern>
+<pattern>* RENEWAL * NOOKS *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
@@ -361,22 +329,22 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ RENEWALS * NOOK</pattern>
+<pattern>* RENEWALS * NOOK</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWALS * NOOK *</pattern>
+<pattern>* RENEWALS * NOOK *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWALS * NOOKS</pattern>
+<pattern>* RENEWALS * NOOKS</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWALS * NOOKS *</pattern>
+<pattern>* RENEWALS * NOOKS *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
@@ -391,42 +359,42 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 <category>
-<pattern>_ RENEWING * NOOK</pattern>
+<pattern>* RENEWING * NOOK</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWING * NOOK *</pattern>
+<pattern>* RENEWING * NOOK *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWING * NOOKS</pattern>
+<pattern>* RENEWING * NOOKS</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ RENEWING * NOOKS *</pattern>
+<pattern>* RENEWING * NOOKS *</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ NOOK * RENEWED</pattern>
+<pattern>* NOOK * RENEWED</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ NOOKS * RENEWED</pattern>
+<pattern>* NOOKS * RENEWED</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ NOOK * RENEWAL</pattern>
+<pattern>* NOOK * RENEWAL</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 
 <category>
-<pattern>_ NOOKS * RENEWAL</pattern>
+<pattern>* NOOKS * RENEWAL</pattern>
 <template><srai>NKRNWL</srai></template>
 </category>
 

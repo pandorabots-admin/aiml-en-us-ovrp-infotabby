@@ -133,7 +133,8 @@
 
 <category>
 <pattern>RTNLOC</pattern>
-<template>You can return any of our items to any of our locations.  Materials may be returned to the branch closest to you. If the library is closed, please use the book drop. If it's a SearchOhio item and you borrowed it through us, you can also return it at any of our locations.
+<template>You can return any of our items to any of our locations.  Materials may be returned to the branch closest to you. If the library is closed, please use the book drop. 
+Nooks and i Pads are the only exception and must be returned to the Main Library Computer Help Desk. If it's a SearchOhio item and you borrowed it through us, you can also return it at any of our locations.
 </template>
 </category>
 
@@ -305,6 +306,40 @@
 <template><srai>RTNLOC</srai></template>
 </category>  
 </topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>WHERE</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* WHERE</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>WHERE *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* WHERE *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+</topic>
+
+
 
 <!--non mpl items-->
 
@@ -701,7 +736,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* IPAD</pattern>
+<pattern>_ IPAD</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -717,7 +752,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* IPAD *</pattern>
+<pattern>_ IPAD *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -733,7 +768,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* I PAD</pattern>
+<pattern>_ I PAD</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -749,7 +784,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* I PAD *</pattern>
+<pattern>_ I PAD *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -765,7 +800,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* IPADS</pattern>
+<pattern>_ IPADS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -781,7 +816,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* IPADS *</pattern>
+<pattern>_ IPADS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -797,7 +832,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* I PADS</pattern>
+<pattern>_ I PADS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -813,7 +848,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* I PADS *</pattern>
+<pattern>_ I PADS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -829,7 +864,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* NOOK</pattern>
+<pattern>_ NOOK</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -845,7 +880,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* NOOK *</pattern>
+<pattern>_ NOOK *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -861,7 +896,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* NOOKS</pattern>
+<pattern>_ NOOKS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -877,7 +912,7 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 
 <topic name="RTNSQ">
 <category>
-<pattern>* NOOKS *</pattern>
+<pattern>_ NOOKS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
@@ -1043,5 +1078,676 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
   <template><srai>DRPYN</srai></template>
 </category>
 
+<topic name="RTNSQ">
+<category>
+<pattern>EBOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* EBOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>EBOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* EBOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>EBOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* EBOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>EBOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* EBOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>E BOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* E BOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>E BOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* E BOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>E BOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* E BOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>E BOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* E BOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<!--RETURN WHERE-->
+<!--
+<category>
+<pattern>RTRNLOC</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>_ RETURN * BRANCH *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * BRANCHES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ return * any * location</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ returned * location</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>_ return * any * locations</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>_ RETURNED * BRANCH *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURNED * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURNED * BRANCHES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+-->
+
+
+<!--return IPAD-->
+
+<category>
+<pattern>RTRNIPD</pattern>
+<template>i Pads must be returned at the Main Library Computer Help Desk. Do not return them in the book drops!</template>
+</category>
+
+<category>
+<pattern>RETURN IPAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN IPADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* IPAD * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* IPAD * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* IPADS * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* IPADS * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<!--I-->
+
+<category>
+<pattern>RETURN I PAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN I PADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* I PAD * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* I PAD * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* I PADS * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* I PADS * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<!--return nook-->
+
+<category>
+<pattern>RTRNNK</pattern>
+<template>Nooks must be returned at the Main Library Computer Help Desk. Do not return them in the book drops!</template>
+</category>
+
+<category>
+<pattern>RETURN NOOK</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * NOOK</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOK</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOK *</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* NOOK * BOOKDROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* NOOK * BOOK DROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN NOOKS</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * NOOKS</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOKS</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOKS *</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+
+<category>
+<pattern>* NOOKS * BOOKDROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* NOOKS * BOOK DROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
 
 </aiml>

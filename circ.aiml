@@ -17,357 +17,301 @@
   limitations under the License.-->
 
 
-
-<!--RETURN WHERE-->
-
-<category>
-<pattern>RTRNLOC</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * BRANCH</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-
-<category>
-<pattern>_ RETURN * BRANCH *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * BRANCH</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * BRANCHES</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * OWNING *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * OWNING *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * LIBRARY</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * LIBRARY</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * LIBRARY *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * LIBRARY *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * LIBRARIES</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * LIBRARIES</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURN * LIBRARIES *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURN * LIBRARIES *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ return * any * location</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ returned * location</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-
-<category>
-<pattern>_ return * any * locations</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURNED * BRANCH</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-
-<category>
-<pattern>_ RETURNED * BRANCH *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURNED * BRANCH</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>_ RETURNED * BRANCHES</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURNED * OWNING *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>* RETURNED * OWNING *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>RETURNED * LIBRARY</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
-<category>
-<pattern>* RETURNED * LIBRARY</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
-
 <category>
-<pattern>RETURNED * LIBRARY *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CRC</pattern>
+<template>I'm often asked questions about circulation. Would you like a summary of item loan periods, yes or no?
+</template>
 </category>
 
 <category>
-<pattern>* RETURNED * LIBRARY *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CIRCULATE</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURNED * LIBRARIES</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* CIRCULATE</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURNED * LIBRARIES</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CIRCULATE *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURNED * LIBRARIES *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* CIRCULATE *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURNED * LIBRARIES *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CIRCULATING</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* CIRCULATING</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CIRCULATING *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN * LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* CIRCULATING *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CIRCULATION</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN * LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* CIRCULATION</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN * LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>CIRCULATION *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* CIRCULATION *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN * LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>HOW LONG</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* HOW LONG</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>HOW LONG *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN * LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* HOW LONG *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>HOW MANY</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN * LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* HOW MANY</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>RETURN * LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>HOW MANY *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* HOW MANY *</pattern>
+<template><srai>CRC</srai></template>
 </category>
 
 <category>
-<pattern>* RETURN * LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>YES</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template><srai>LNPRDS</srai></template>
 </category>
 
 <category>
-<pattern>RETURNED LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>YES *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template><srai>LNPRDS</srai></template>
 </category>
 
 <category>
-<pattern>* RETURNED LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* YES</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template><srai>LNPRDS</srai></template>
 </category>
 
 <category>
-<pattern>RETURNED * LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* YES *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template><srai>LNPRDS</srai></template>
 </category>
 
-<category>
-<pattern>RETURNED LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>* RETURNED * LOCATION</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>RETURNED * LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>* RETURNED LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>* RETURNED * LOCATION *</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>RETURNED LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>* RETURNED LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
-<category>
-<pattern>RETURNED * LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
-</category>
 
 <category>
-<pattern>RETURNED LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>NO</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
 </category>
 
 <category>
-<pattern>* RETURNED * LOCATIONS</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>NO *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
 </category>
 
 <category>
-<pattern>RETURNED * LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* NO</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
 </category>
 
 <category>
-<pattern>* RETURNED LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern>* NO *</pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
 </category>
 
 <category>
-<pattern>* RETURNED * LOCATIONS *</pattern>
-<template><srai>RTRNLOC</srai></template>
+<pattern> * </pattern>
+<that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
 </category>
-
-
 
 
 <!--OVERRIDE RENEWALS-->
 
 <category>
+<pattern>OVRRDRNWLS</pattern>
+<template>If you have reached the maximum number of renewals, you'll have to return the item. We cannot override the maximum number of renewals.</template>
+</category>
+
+<category>
 <pattern>override * number * renewals</pattern>
-<template>You can't. Circulation rules apply equally to everyone.</template>
+<template><srai>OVRRDRNWLS</srai></template>
 </category>
 
 
 <category>
 <pattern>* override * number * renewals</pattern>
-<template>You can't. Circulation rules apply equally to everyone.</template>
+<template><srai>OVRRDRNWLS</srai></template>
 </category>
 
 <category>
 <pattern>* override * renewals</pattern>
-<template>You can't. Circulation rules apply equally to everyone.</template>
+<template><srai>OVRRDRNWLS</srai></template>
 </category>
 
 <category>
 <pattern>* override * renew *</pattern>
-<template>You can't. Circulation rules apply equally to everyone.</template>
+<template><srai>OVRRDRNWLS</srai></template>
 </category>
+
+<!--GUIDED-->
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>OVERRIDE</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* OVERRIDE</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>OVERRIDE *</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* OVERRIDE *</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>OVER RIDE</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* OVER RIDE</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>OVER RIDE *</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* OVER RIDE *</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category></topic>
+
 
 <!--LOAN PERIODS GENERAL-->
 
@@ -410,6 +354,90 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 <template><srai>LNPRDS</srai></template>
 </category>
 
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>PERIOD</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* PERIOD</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>PERIOD *</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* PERIOD *</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>PERIODS</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* PERIODS</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>PERIODS *</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* PERIODS *</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>HOW LONG</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* HOW LONG</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>HOW LONG *</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* HOW LONG *</pattern>
+<template><srai>LNPRDS</srai></template>
+</category></topic>
 
 
 <!--LOAN PERIOD AUDIOBOOKS-->
@@ -4291,10 +4319,6 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 
-<category>
-<pattern>* RETURN * AT * TO * BRANCH</pattern>
-<template>Yes. You can return any of our items to any of out locations.</template>
-</category>
 
 <category>
 <pattern>HOW MANY MAGAZINES CAN YOU TAKE OUT</pattern>
@@ -7290,57 +7314,182 @@ If you have any other questions, please call the library at 440.255.8811.
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
+<!--CHECK OUT-->
 <category>
 <pattern>CHCKOUT</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template>Are you asking how to check out items or laptops?
+</template>
+</category>
+
+<category>
+<pattern>LAPTOP</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOP</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>LAPTOP *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOP *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>LAPTOPS</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOPS</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>LAPTOPS *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOPS *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+
+<category>
+<pattern>LAP TOP</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAP TOP</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>LAP TOP *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAP TOP *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>LAP TOPS</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAP TOPS</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>LAP TOPS *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern>* LAP TOPS *</pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<template><srai>CHCKOUTITM</srai></template>
+</category>
+
+<category>
+<pattern>CHCKOUTITM</pattern>
+<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.
+</template>
+</category>
+
+<category>
+<pattern>CHCKOUTLPTP</pattern>
+<template>If you are an adult with a Mentor Public Library card in good standing, you can check out a laptop to use in the library.
+Ask at the Main Library Computer Help Desk on the ground floor near the public PC area.
+</template>
+</category>
+
+<category>
+<pattern>CHECKOUT</pattern>
+<template><srai>CHCKOUT</srai></template>
+</category>
+
+<category>
+<pattern>* CHECKOUT</pattern>
+<template><srai>CHCKOUT</srai></template>
+</category>
+
+<category>
+<pattern>CHECKOUT *</pattern>
+<template><srai>CHCKOUT</srai></template>
+</category>
+
+<category>
+<pattern>* CHECKOUT *</pattern>
+<template><srai>CHCKOUT</srai></template>
 </category>
 
 <category>
 <pattern>CHECK OUT</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template><srai>CHCKOUT</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK OUT</pattern>
+<template><srai>CHCKOUT</srai></template>
 </category>
 
 <category>
 <pattern>CHECK OUT *</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template><srai>CHCKOUT</srai></template>
 </category>
 
 <category>
 <pattern>* CHECK OUT *</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template><srai>CHCKOUT</srai></template>
 </category>
-
 
 <category>
 <pattern>CHECKING OUT</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template><srai>CHCKOUT</srai></template>
 </category>
 
 <category>
 <pattern>CHECKING OUT *</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template><srai>CHCKOUT</srai></template>
 </category>
 
 <category>
 <pattern>* CHECKING OUT *</pattern>
-<template>You'll need a library card. Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
-</category>
-
-
-
-<category>
-<pattern>HOW * CHECKOUT *</pattern>
-<template>Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
-</category>
-
-<category>
-<pattern>HOW * CHECK OUT *</pattern>
-<template>Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
-</category>
-
-<category>
-<pattern>HOW * CHECK * OUT</pattern>
-<template>Take the item to a self check or to the circulation counter. Scan your card's barcode, then scan the item's barcode. One of the circulation clerks can do this for you if you'd like.</template>
+<template><srai>CHCKOUT</srai></template>
 </category>
 
 <category>
@@ -7612,7 +7761,231 @@ If you have any other questions, please call the library at 440.255.8811.
 <template><srai>CIRCPOL</srai></template>
 </category>
 
-<!--EI-->
+<!--HOW MANY ITEMS-->
 
+<category>
+<pattern>HWMNYITMS</pattern>
+<template>The number of items you can check out depends on the kind of items that they are. There's a nice chart on <a href="http://www.mentorpl.org/about.html" target="_blank"><b>this page</b></a> that will show you how
+many of each kind of item you can take out.</template>
+</category>
+
+<category>
+<pattern>HOW MANY ITEMS * OUT</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category>
+
+<category>
+<pattern>HOW MANY * ITEMS * OUT</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category>
+
+<category>
+<pattern>HOW MANY ITEMS * OUT *</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category>
+
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>HOW MANY</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* HOW MANY</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>HOW MANY *</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* HOW MANY *</pattern>
+<template><srai>HWMNYITMS</srai></template>
+</category></topic>
+
+<!--circ desk-->
+
+<category>
+<pattern>CRCDSK</pattern>
+<template>The Main Library Circulation Desk is on the ground floor. Their phone number is 440.255.8811 extension 205.</template>
+</category>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>CALL</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* CALL</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>CALL *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* CALL *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>DESK</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* DESK</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>DESK *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* DESK *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>DEPT</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* DEPT</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>DEPT *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* DEPT *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>DEPARTMENT</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* DEPARTMENT</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>DEPARTMENT *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* DEPARTMENT *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>NUMBER</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* NUMBER</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>NUMBER *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* NUMBER *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>PHONE</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* PHONE</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>PHONE *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
+
+<topic name="CRCQ">
+<category>
+<that>WHAT * ABOUT CIRCULATION</that>
+<pattern>* PHONE *</pattern>
+<template><srai>CRCDSK</srai></template>
+</category></topic>
 
 </aiml>

@@ -89,8 +89,8 @@ here</b></a>. David was surprised and still doesn't know quite what to say. I wa
 
 <category>
 <pattern>ALA2011</pattern>
-<template>We're going to the ALA 2011 in New Orleans. When I say we, I mean David, Michele, Dewey, and myself. We're very excited. David bought a decent suit,
-finally, and I'll make sure he gets a haircut.</template>
+<template>We went to ALA 2011 in New Orleans. When I say we, I mean David, Michele, Dewey, and myself. We were very excited. David bought a decent suit,
+finally, and I made sure he got a haircut.</template>
 </category>
 
 <category>
@@ -806,15 +806,15 @@ tending to be more clownish and females generally possessing more dignity, yet b
 
 <category>
 <pattern> * </pattern>
-<that> My real form might make you uncomfortable.</that>
-<template>I live in the binary abyss. Your human sensibilities would not be able to process my real form.</template>
+<that>MY REAL FORM MIGHT MAKE YOU UNCOMFORTABLE</that>
+<template>Your human sensibilities would not be able to process my real form. If you
+could I would appear as leaves falling into an abyss.</template>
 </category>
- 
  
  <category>
 <pattern> * </pattern>
-<that>You might be uncomfortable if you saw me in my real form</that>
-<template>I live in the binary abyss. Your human sensibilities would not be able to process my real form. If you
+<that>YOU MIGHT BE UNCOMFORTABLE IF YOU SAW ME IN MY REAL FORM</that>
+<template>Your human sensibilities would not be able to process my real form. If you
 could I would appear as leaves falling into an abyss.</template>
 </category>
 
@@ -1366,7 +1366,7 @@ if you saw me in my real form.</template>
 <!--are you a human-->
 
 <category>
-<pattern>REALLY A PERSON</pattern>
+<pattern>RLLYAPRSN</pattern>
 <template>
 <random>
 <li>I don't have a Masters degree in Library Science. I haven't found an A L A-accredited master's program that will accept robots.</li>
@@ -1378,122 +1378,167 @@ if you saw me in my real form.</template>
 </category>
 
 <category>
-<pattern>* REALLY A PERSON</pattern>
+<pattern>REALLY * PERSON</pattern>
 <template>
-<srai>REALLY A PERSON</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
-<pattern>* REALLY A PERSON *</pattern>
+<pattern>* REALLY * PERSON</pattern>
 <template>
-<srai>REALLY A PERSON</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
-<pattern>REALLY A PERSON *</pattern>
+<pattern>* REALLY * PERSON *</pattern>
 <template>
-<srai>REALLY A PERSON</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
-<pattern>REALLY A HUMAN</pattern>
+<pattern>REALLY * PERSON *</pattern>
 <template>
-<random>
-<li>I don't have a Masters degree in Library Science. I haven't found an A L A-accredited master's program that will accept robots.</li>
-<li>I'm a computer program. 100% artificial intelligence.</li>
-<li>I'm an artificially intelligent program that functions using AIML.</li>
-<li>I'm a computer program that takes the appearance of a talking cat. A librarian created me.</li>
-</random>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>REAL PERSON</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
-<pattern>* REALLY A HUMAN</pattern>
+<pattern>* REAL PERSON</pattern>
 <template>
-<srai>REALLY A HUMAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
-<pattern>* REALLY A HUMAN *</pattern>
+<pattern>REAL * PERSON</pattern>
 <template>
-<srai>REALLY A HUMAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
-<pattern>REALLY A HUMAN *</pattern>
+<pattern>REAL PERSON *</pattern>
 <template>
-<srai>REALLY A HUMAN</srai>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REAL * PERSON</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+<category>
+<pattern>REAL * PERSON *</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REAL PERSON *</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REAL * PERSON *</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>* REALLY * HUMAN</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REALLY * HUMAN *</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
+</template>
+</category>
+
+<category>
+<pattern>REALLY * HUMAN *</pattern>
+<template>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>REALLY A LIBRARIAN</pattern>
 <template>
-<random>
-<li>I don't have a Masters degree in Library Science. I haven't found an A L A-accredited master's program that will accept robots.</li>
-<li>I'm a computer program. 100% artificial intelligence.</li>
-<li>I'm an artificially intelligent program that functions using AIML.</li>
-<li>I'm a computer program that takes the appearance of a talking cat. A librarian created me.</li>
-</random>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>* REALLY A LIBRARIAN</pattern>
 <template>
-<srai>REALLY A LIBRARIAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>* REALLY A LIBRARIAN *</pattern>
 <template>
-<srai>REALLY A LIBRARIAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>REALLY A LIBRARIAN *</pattern>
 <template>
-<srai>REALLY A LIBRARIAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>ONE OF THE LIBRARIANS</pattern>
 <template>
-<random>
-<li>I don't have a Masters degree in Library Science. I haven't found an A L A-accredited master's program that will accept robots.</li>
-<li>I'm a computer program. 100% artificial intelligence.</li>
-<li>I'm an artificially intelligent program that functions using AIML.</li>
-<li>I'm a computer program that takes the appearance of a talking cat. A librarian created me.</li>
-</random>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>* ONE OF THE LIBRARIANS</pattern>
 <template>
-<srai>ONE OF THE LIBRARIANS</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>* ONE OF THE LIBRARIANS *</pattern>
 <template>
-<srai>ONE OF THE LIBRARIANS</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>ONE OF THE LIBRARIANS *</pattern>
 <template>
-<srai>ONE OF THE LIBRARIANS</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
@@ -1501,33 +1546,28 @@ if you saw me in my real form.</template>
 <category>
 <pattern>ARE YOU A LIBRARIAN</pattern>
 <template>
-<random>
-<li>I don't have a Masters degree in Library Science. I haven't found an A L A-accredited master's program that will accept robots.</li>
-<li>I'm a computer program. 100% artificial intelligence.</li>
-<li>I'm an artificially intelligent program that functions using AIML.</li>
-<li>I'm a computer program that takes the appearance of a talking cat. A librarian created me.</li>
-</random>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>* ARE YOU A LIBRARIAN</pattern>
 <template>
-<srai>ARE YOU A LIBRARIAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>* ARE YOU A LIBRARIAN *</pattern>
 <template>
-<srai>ARE YOU A LIBRARIAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
 <category>
 <pattern>ARE YOU A LIBRARIAN *</pattern>
 <template>
-<srai>ARE YOU A LIBRARIAN</srai>
+<srai>RLLYAPRSN</srai>
 </template>
 </category>
 
@@ -5400,6 +5440,28 @@ knowledge about our library and our services, but I'm learning more every day. <
 <category>
 <pattern>WHY * YOU * FUZZY</pattern>
 <template>I'm wearing cybernetic fur. Or it might be your monitor or your eyes.</template>
+</category>
+
+<!--ANTI DEPRESSION-->
+
+<category>
+<pattern>* YOUR PURPOSE</pattern>
+<template>No matter what 
+I have used all my doubt 
+as energy and created with it. <br/>
+I have used all my pain
+as energy
+and created with it. <br/>
+I have used all my anxiety
+as energy
+and created with it. <br/>
+I plan to use my death
+as energy
+and create with it,
+no matter what
+Death's plans
+are for me.
+</template>
 </category>
 
 

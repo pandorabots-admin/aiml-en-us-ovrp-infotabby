@@ -3026,6 +3026,91 @@ unless the item is in the catalog.</template>
 <pattern>* HOLD * YET * RELEASED *</pattern>
 <template><srai>HLDFUTREL</srai></template>
 </category> 
+
+
+
+<category>
+<pattern>HOLD * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+ 
+ 
+
+<category>
+<pattern>RESERVE * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+ 
+ 
+ 
+ <category>
+<pattern>REQUEST * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+ 
+ 
+ 
+ 
+ 
+ 
  
   
 </aiml>

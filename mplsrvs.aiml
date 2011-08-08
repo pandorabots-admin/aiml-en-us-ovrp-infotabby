@@ -21,7 +21,7 @@
 <!--bathrooms-->
 
 <category>
-  <pattern>BTHROM</pattern>
+  <pattern>BTHRM</pattern>
   <template>At the Main Library there are restrooms in the lobby and children's restrooms on the second floor.
   If you're at one of the branches, just ask one of the staff.
  </template>

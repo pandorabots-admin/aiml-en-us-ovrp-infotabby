@@ -25,49 +25,49 @@
 
 <category>
 <pattern>YES</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template><srai>PREORDER</srai></template>
 </category>
 
 <category>
 <pattern>YES *</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template><srai>PREORDER</srai></template>
 </category>
 
 <category>
 <pattern>* YES</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template><srai>PREORDER</srai></template>
 </category>
 
 <category>
 <pattern>* YES *</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template><srai>PREORDER</srai></template>
 </category>
 
 <category>
 <pattern>NO</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template>OK. <srai>PLACEHOLD</srai></template>
 </category>
 
 <category>
 <pattern>* NO</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template>OK. <srai>PLACEHOLD</srai></template>
 </category>
 
 <category>
 <pattern>NO *</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template>OK. <srai>PLACEHOLD</srai></template>
 </category>
 
 <category>
 <pattern>* NO *</pattern>
-<that>Are you asking us to purchase an item</that>
+<that>* ASKING US TO PURCHASE *</that>
 <template>OK. <srai>PLACEHOLD</srai></template>
 </category>
 
@@ -106,16 +106,31 @@
 
 <category>
 <pattern>PRCHREQ</pattern>
-<template>Tell me about the item you're suggesting we purchase. Please enter the author, title, or other information for the item.</template>
+<template>Tell me about the item you're suggesting we purchase. Please enter the author, title, or other information for the item.
+<think>
+<set name="topic">PRCHREQ</set>
+</think>
+</template>
 </category>
 
+<topic name="PRCHREQ">
 <category>
 <pattern> * </pattern>
-<that>PLEASE ENTER THE AUTHOR TITLE OR OTHER INFORMATION FOR THE ITEM</that>
-<template>Thanks. You entered "<star/>." I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template>Thanks. You entered "<star/>." Please enter your Mentor Public Library card number.
+</template>
+</category>
+</topic>
+
+
+<topic name="PRCHREQ">
+<category>
+<pattern> * </pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-
+</topic>
 
 
 <category>

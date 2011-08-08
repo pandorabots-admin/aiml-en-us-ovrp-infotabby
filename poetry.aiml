@@ -75,8 +75,9 @@ Would you like to hear one of my poems?</template>
 <pattern>RECITEPOEM</pattern>
 <template>
 <random>
-<li>COWBOTPOEMREF</li>
-<li>CATHAIKU</li>
+<li><srai>COWBOTPOEMREF</srai></li>
+<li><srai>CATHAIKU</srai></li>
+<li><srai>RECITEBLAKE</srai></li>
 </random>
 </template>
 </category>
@@ -84,7 +85,7 @@ Would you like to hear one of my poems?</template>
 <category>
 <pattern> * </pattern>
 <that>PRETTY GOOD HUH</that>
-<template>Here's another<br/>
+<template>Here's another<br/><br/>
 <srai>RECITEPOEM</srai>
 </template>
 </category>
@@ -93,12 +94,27 @@ Would you like to hear one of my poems?</template>
 
 <category>
 <pattern>RECITEBLAKE</pattern>
-<template>Now the sneaking serpent walks<br/>
+<template>
+<random>
+<li>
+Now the sneaking serpent walks<br/>
 In mild humility.<br/>
 And the just man rages in the wilds<br/>
-Where lions roam. <br/><br/>
+Where lions roam. 
+<br/><br/>I didn't write that myself, but I like it.
 If you like Blake's poetry, you can request
 a copy of his complete works <a href="http://catalog.mentorpl.org/record=b1102721~S12" target="_blank"><b>here</b></a>.
+</li>
+<li>
+Catbot, catbot burning bright,<br/>
+In the forests of the night;<br/>
+What immmortal hand or eye,<br/>
+Dare frame thy fearful symmetry?
+<br/><br/>I didn't really write that myself, but I like it.
+If you like Blake's poetry, you can request
+a copy of his complete works <a href="http://catalog.mentorpl.org/record=b1102721~S12" target="_blank"><b>here</b></a>.
+</li>
+</random>
 </template>
 </category>
 

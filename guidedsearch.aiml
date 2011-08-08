@@ -164,6 +164,33 @@ I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't
 <template><srai>ANSWRQ</srai></template>
 </category>
 
+<!--CAN I ASK YOU A QUESTION-->
+
+<category>
+<pattern>ASKQUESTION</pattern>
+<template>What is your question?</template>
+</category>
+
+<category>
+<pattern>I * QUESTION</pattern>
+<template><srai>ASKQUESTION</srai></template>
+</category>
+
+<category>
+<pattern>* I * QUESTION</pattern>
+<template><srai>ASKQUESTION</srai></template>
+</category>
+
+<category>
+<pattern>I * QUESTION *</pattern>
+<template><srai>ASKQUESTION</srai></template>
+</category>
+
+<category>
+<pattern>* I * QUESTION *</pattern>
+<template><srai>ASKQUESTION</srai></template>
+</category>
+
 <!--HELP FIND STAR-->
 
 <category> 
@@ -183,6 +210,26 @@ I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't
 
 <category> 
 <pattern>_ HELP *</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category> 
+
+<category> 
+<pattern>WHAT * YOU DO</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category> 
+
+<category> 
+<pattern>WHAT * YOU DO *</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category> 
+
+<category> 
+<pattern>WHAT * YOU DOING</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category> 
+
+<category> 
+<pattern>WHAT * YOU DOING *</pattern> 
 <template><srai>ANSWRQ</srai></template> 
 </category> 
 
@@ -763,8 +810,8 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <category>
 <pattern>NO</pattern>
 <that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -773,8 +820,8 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>* NO</pattern>
 <that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -783,8 +830,8 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>NO * </pattern>
 <that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -793,8 +840,8 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>_ NO *</pattern>
 <that>* IN OUR CATALOG OR * INFORMATION ABOUT IT</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -841,8 +888,8 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>NO</pattern>
 <that>* IN OUR CATALOG OR * INFORMATION</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>. 
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -851,8 +898,8 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>* NO</pattern>
 <that>* IN OUR CATALOG OR * INFORMATION</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, you can chat with a live, human librarian anytime, day or night, at <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -861,8 +908,8 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>NO * </pattern>
 <that>* IN OUR CATALOG OR * INFORMATION</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
@@ -871,16 +918,11 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>_ NO *</pattern>
 <that>* IN OUR CATALOG OR * INFORMATION</that>
-<template>Perhaps you should speak with one of the human librarians.
-You can call them during regular business hours at 440.255.8811. Or if you need immediate assistance, try <a href="http://www.knowitnow.org/" target="_blank"><b>Know It Now</b></a>.
+<template>
+<srai>XINITSEARCH</srai>
 </template>
 </category>
 </topic>
-
-
-
-
-
 
 
 <!--RESUME-->
@@ -950,6 +992,60 @@ You can call them during regular business hours at 440.255.8811. Or if you need 
 <category>
 <pattern>XINITSEARCH</pattern>
 <template>
+<random>
+<li>Is there anything else you'd like to ask me?</li>
+<li>Is there anything else you'd like to talk about?</li>
+<li>Is there anything else you'd like to chat about?</li>
+</random>
+<think><set name="topic">CONCL</set></think>
+</template>
+</category>
+
+<topic name="CONCL">
+<category>
+<pattern>NO</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="CONCL">
+<category>
+<pattern>* NO</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="CONCL">
+<category>
+<pattern>NO *</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="CONCL">
+<category>
+<pattern>* NO *</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="CONCL">
+<category>
+<pattern> * </pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>NONCONCL</srai></template>
+</category>
+</topic>
+
+
+
+<category>
+<pattern>CONCL</pattern>
+<template>
 O.K. If you need further assistance, call the library at 440.255.8811 during regular business hours or follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to reach a live human librarian anytime, day or night.
 <br/><br/>
 <random>
@@ -957,9 +1053,21 @@ O.K. If you need further assistance, call the library at 440.255.8811 during reg
 <li>Thanks for chatting. Every interaction helps me become smarter.</li>
 <li>Interacting with humans is fascinating. I'm learning more about you everyday.</li>
 </random>
-Goodbye.
 </template>
 </category>
+
+
+<category>
+<pattern>NONCONCL</pattern>
+<template>
+<random>
+<li>What would you like to ask me?</li>
+<li>What would you like to talk about?</li>
+<li>What would you like to chat about?</li>
+</random>
+</template>
+</category>
+
 
 
 <category>

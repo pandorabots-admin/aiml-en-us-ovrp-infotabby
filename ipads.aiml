@@ -641,67 +641,6 @@
 <template>The fine for overdue i Pads is $5.00 per hour.</template>
 </category>
 
-<!--return IPAD-->
-
-<category>
-<pattern>RETURN IPAD</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>RETURN * IPAD</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>RETURN * IPAD *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* RETURN * IPAD</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* RETURN * IPAD *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>RETURN IPADS</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>RETURN * IPADS</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>RETURN * IPADS *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* RETURN * IPADS</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* RETURN * IPADS *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
-</category>
-
-<category>
-<pattern>* IPAD * BOOKDROP</pattern>
-<template>No. Do not place the IPAD in a bookdrop.</template>
-</category>
-
-<category>
-<pattern>* IPAD * BOOK DROP</pattern>
-<template>No. Do not place the IPAD in a bookdrop.</template>
-</category>
 
 <!--IPAD loan periods and renewals-->
 
@@ -1644,54 +1583,69 @@
 <!--return I PAD-->
 
 <category>
+<pattern>RTRNIPAD</pattern>
+<template>i Pads must be returned at the Main Library Computer Help Desk.</template>
+</category>
+
+
+<category>
 <pattern>RETURN I PAD</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
 
 <category>
 <pattern>RETURN * I PAD</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>RETURN * I PAD *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>* RETURN * I PAD</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>* RETURN * I PAD *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>RETURN I PADS</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>RETURN * I PADS</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>RETURN * I PADS *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>* RETURN * I PADS</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>* RETURN * I PADS *</pattern>
-<template>i Pads must be returned at the Main Library Circulation counter.</template>
+<template><srai>RTRNIPAD</srai></template>
 </category>
+
 
 <category>
 <pattern>* I PAD * BOOKDROP</pattern>

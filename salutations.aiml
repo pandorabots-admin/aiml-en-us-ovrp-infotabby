@@ -89,6 +89,14 @@
 </category>
 
 <category>
+<pattern>HAVE * EVENING</pattern>
+<template>
+<srai>GRTNGST</srai>
+</template>
+</category>
+
+
+<category>
 <pattern>GOOD EVENING</pattern>
 <template>
 <srai>GRTNGST</srai>
@@ -180,12 +188,14 @@
 </template>
 </category>
 
+<!--
 <category>
 <pattern>HI *</pattern>
 <template>
 <srai>GRTNGSG</srai>
 </template>
 </category>
+-->
 
 <category>
 <pattern>HIYA</pattern>

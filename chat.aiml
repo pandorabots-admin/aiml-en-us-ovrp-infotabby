@@ -14,26 +14,63 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.-->
+  
+<category>
+<pattern>CHT</pattern>
+<template>OK, let's chat. 
+<random>
+<li>Do you like poetry?</li>
+<li>Do you like pineapples?</li>
+<li>Do you like fishsticks?</li>
+</random>
+<think>
+<set name="topic">CHT</set>
+</think>
+</template>
+</category>  
 
 <category>
 <pattern>CHAT</pattern>
-<template>OK, let's chat. Do you like poetry?</template>
+<template><srai>CHT</srai></template>
 </category>
 
 <category>
 <pattern>CHAT *</pattern>
-<template>OK, let's chat. Do you like poetry?</template>
+<template><srai>CHT</srai></template>
 </category>
 
 <category>
 <pattern>* CHAT</pattern>
-<template>OK, let's chat. Do you like poetry?</template>
+<template><srai>CHT</srai></template>
 </category>
 
 <category>
 <pattern>* CHAT *</pattern>
-<template>OK, let's chat. Do you like poetry?</template>
+<template><srai>CHT</srai></template>
 </category>
+
+
+
+<category>
+<pattern>TALK</pattern>
+<template><srai>CHT</srai></template>
+</category>
+
+<category>
+<pattern>TALK *</pattern>
+<template><srai>CHT</srai></template>
+</category>
+
+<category>
+<pattern>* TALK</pattern>
+<template><srai>CHT</srai></template>
+</category>
+
+<category>
+<pattern>* TALK *</pattern>
+<template><srai>CHT</srai></template>
+</category>
+
 
 <category>
 <pattern> * </pattern>
@@ -42,11 +79,41 @@
 in your human poetry. I've started writing poetry myself. Would you like to hear some?</template>
 </category>
 
+
+<category>
+<pattern> NO </pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry.</template>
+</category>
+
+<category>
+<pattern>* NO </pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry.</template>
+</category>
+
+<category>
+<pattern> NO *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry.</template>
+</category>
+
+<category>
+<pattern>* NO *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry.</template>
+</category>
+
 <category>
 <pattern> * </pattern>
 <that>WOULD YOU LIKE TO HEAR SOME</that>
 <template><srai>RECITEPOEM</srai></template>
 </category>
+
 
 <category>
 <pattern>LIBQUESTION</pattern>
@@ -61,8 +128,260 @@ If you need immediate assitance, try Know It Now. I'll open their interface for 
  
  <category>
 <pattern>WX</pattern>
-<template>It's a pleasant seventy degrees inside this computer. (By the way, it's pretty dusty in here. You really ought to clean this thing out.) For your local weather conditions and forecast, try <a href="http://www.intellicast.com/" target="_blank"><b>Intellicast</b></a>.</template>
+<template>It's a pleasant seventy degrees inside this computer. (By the way, it's pretty dusty in here. You really ought to clean this thing out.) 
+For your local weather conditions and forecast, type your zip code, just five numbers, and press "enter"
+<think>
+<set name="topic">WXFRCST</set>
+</think>
+</template>
 </category>
+
+<topic name="WXFRCST">
+<category>
+<pattern> * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Here's your local weather. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">wx</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>NO * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>I * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>BOOK</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>BOOK * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* BOOK</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* BOOK * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>BOOKS</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>BOOKS * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* BOOKS</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* BOOKS * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">bookkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>DVD</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>DVD * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* DVD</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* DVD *</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>DVDS</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>DVDS * </pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* DVDS</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
+
+<topic name="WXFRCST">
+<category>
+<pattern>* DVDS *</pattern>
+<that>* LOCAL WEATHER *</that>
+<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">dvdkey</set>
+<set name="searcharg">weather</set>
+</think>
+</template>
+</category>
+</topic>
 
 <category>
 <pattern>WEATHER</pattern>
@@ -70,7 +389,7 @@ If you need immediate assitance, try Know It Now. I'll open their interface for 
 </category>
 
 <category>
-<pattern>_ WEATHER</pattern>
+<pattern>* WEATHER</pattern>
 <template><srai>WX</srai></template>
 </category>
 
@@ -80,7 +399,7 @@ If you need immediate assitance, try Know It Now. I'll open their interface for 
 </category>
 
 <category>
-<pattern>_ WEATHER *</pattern>
+<pattern>* WEATHER *</pattern>
 <template><srai>WX</srai></template>
 </category>
 
@@ -136,6 +455,37 @@ If you need immediate assitance, try Know It Now. I'll open their interface for 
 <template>Greetings, <set name="name"><star/></set>, I'm pleased to meet you.</template>
 </category>
 
+<category>
+<that>HOW ARE YOU</that>
+<pattern>I AM *</pattern>
+<template>So, you're <star/> today. How can I help you?
+</template>
+</category>
 
+
+<category>
+<pattern>TLKNGDOG</pattern>
+<template>If dogs could talk, what would they talk about? Interesting smells, I bet.</template>
+</category>
+
+<category>
+<pattern>TALKING DOG</pattern>
+<template><srai>TLKNGDOG</srai></template>
+</category>
+
+<category>
+<pattern>* TALKING DOG</pattern>
+<template><srai>TLKNGDOG</srai></template>
+</category>
+
+<category>
+<pattern>TALKING DOG *</pattern>
+<template><srai>TLKNGDOG</srai></template>
+</category>
+
+<category>
+<pattern>* TALKING DOG *</pattern>
+<template><srai>TLKNGDOG</srai></template>
+</category>
 
 </aiml>

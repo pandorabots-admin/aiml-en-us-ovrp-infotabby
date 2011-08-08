@@ -689,7 +689,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 
 
 <!--X BY Y-->
-
+<!--
 <category>
 <pattern>_ BY *</pattern>
 <template>
@@ -700,6 +700,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 </think>
 </template>
 </category>
+-->
 
 <!--HAVE IN STOCK-->
 
@@ -1451,7 +1452,91 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 <!--I NEED TO FIND A BOOK-->
 
 <category>
-<pattern>* FIND * BOOK </pattern>
+<pattern>BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND BOOK *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * BOOK *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * BOOK *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND BOOKS *</pattern>
 <template>
 <srai>FNDBK</srai>
 </template>
@@ -1465,15 +1550,127 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 </category>
 
 <category>
+<pattern>FIND * BOOKS *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * BOOKS *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE BOOK *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * BOOK</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * BOOK *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * BOOK *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE BOOKS *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * BOOKS</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * BOOKS *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * BOOKS *</pattern>
+<template>
+<srai>FNDBK</srai>
+</template>
+</category>
+
+<category>
 <pattern>FNDBK</pattern>
 <template>
-I can help you find books. Enter the author, or the title, or the topic in just a few words. 
+I can help you find books. Enter the author, or the title, or the topic. 
 </template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC IN JUST A FEW WORDS</that>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
 <template>
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
@@ -1483,10 +1680,478 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 </template>
 </category>
 
+
+<!--CDs-->
+
+<category>
+<pattern>CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * CD</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * CD *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>HAVE CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * CDS</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * CDS *</pattern>
+<template>
+<srai>FNDCD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FNDCD</pattern>
+<template>
+I can help you find CDs. Enter the the title or the artist. 
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>ENTER THE TITLE OR THE ARTIST</that>
+<template>
+Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">cdkey</set>
+</think>
+</template>
+</category>
+
+
 <!--DVDs-->
 
 <category>
-<pattern>* HAVE * DVD </pattern>
+<pattern>DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>FIND DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND DVDS *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>FIND * DVDS *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND DVDS *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * DVDS *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<!--I-->
+
+<category>
+<pattern>HAVE DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * DVD</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * DVD *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE DVDS *</pattern>
 <template>
 <srai>FNDDVD</srai>
 </template>
@@ -1494,6 +2159,27 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 
 <category>
 <pattern>* HAVE * DVDS</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HAVE * DVDS *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE DVDS *</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HAVE * DVDS *</pattern>
 <template>
 <srai>FNDDVD</srai>
 </template>
@@ -1516,6 +2202,115 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 <set name="search">dvdkey</set>
 </think>
 </template>
+</category>
+
+<!--HOW DO I SEARCH THE CATALOG-->
+
+<category>
+<pattern>SRCHMPLCAT</pattern>
+<template>I suggest starting with a keyword search. Enter what you're looking for in a few words and press "submit."
+Follow this link if you'd like help <a href="http://catalog.mentorpl.org/help" target="_blank"><b>using our catalog</b></a>.
+<br/>
+I'll open the catalog for you. If you don't see it, please turn off your pop-up blocker and ask me again.  
+Our catalog will open as a new window, or possibly as a new tab, depending on your browser settings.
+<think>
+<set name="search">mplcat</set>
+</think></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * FIND * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * FIND * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * FIND * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
 </category>
 
 </aiml>

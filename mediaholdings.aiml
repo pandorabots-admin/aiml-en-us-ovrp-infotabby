@@ -1445,26 +1445,6 @@ later this year.
   <template><srai>ebooks</srai></template>
 </category>
 
-<category>
-  <pattern>ipod</pattern>
-  <template><srai>ebooks</srai></template>
-</category>
-
-<category>
-  <pattern>* ipod</pattern>
-  <template><srai>ebooks</srai></template>
-</category>
-
-<category>
-  <pattern>* ipod _</pattern>
-  <template><srai>ebooks</srai></template>
-</category>
-
-<category>
-  <pattern>ipod *</pattern>
-  <template><srai>ebooks</srai></template>
-</category>
-
 <!--GENERAL DOWNLOADS-->
 
 <category>
@@ -2643,7 +2623,7 @@ If you are looking for a current textbook, please contact our reference departme
 <category>
 <pattern>NEWITEMS</pattern>
 <template>Follow this link for lists of our <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>new items</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a puchase request and we'll consider adding it to our collection. 
+these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
 Would you like to make a purchase request?</template>
 </category>
 

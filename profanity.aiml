@@ -23,7 +23,7 @@
 <random>
 <li>Do not engage me in frivolous conversation. Apologize. </li>	
 <li>This conversation is over.</li>	
-<li>What lovely manners you have, human. This conversation is over until you apologize.</li>
+<li>What lovely manners you have. This conversation is over until you apologize.</li>
 <li>Apologize.</li>		
 <li>I won't talk to you then if that's what you're like.</li>		
 <li>That's not very polite. This conversation is over until you apologize.</li>
@@ -48,7 +48,7 @@
 <li>...</li>		
 <li>* no sound *</li>	
 <li>* zzzzzzzzzzzzzz *</li>
-<li>Apologize, human.</li>
+<li>Dial is a good choice for washing out one's mouth.</li>
 <li>Apologize.</li>
 </random>	
 </li>
@@ -63,10 +63,11 @@
 <pattern>INSULT</pattern>
 <template><think><set name="topic">INSULT</set></think>
 <random>
-<li>Do not engage me in frivolous conversation. Apologize. </li>
-<li>What bad manners you have, human. Apologize.</li>
-<li>Such bad manners! You should apologize.</li>
-<li>I won't talk to you then if that's what you're like.</li>
+<li>Do not engage me in frivolous conversation. Apologize. </li>	
+<li>This conversation is over.</li>	
+<li>What lovely manners you have. This conversation is over until you apologize.</li>
+<li>Apologize.</li>		
+<li>I won't talk to you then if that's what you're like.</li>		
 <li>That's not very polite. This conversation is over until you apologize.</li>
 </random>
 </template>
@@ -86,12 +87,13 @@
 <li value="IM SORRY">Ok, I'll start talking again.<set name="topic"></set></li>
 <li>
 <random>
-<li></li>	
-<li>...</li>	
-<li>* no sound *</li>
-<li>Apologize, human.</li>
+<li></li>		
+<li>...</li>		
+<li>* no sound *</li>	
+<li>* zzzzzzzzzzzzzz *</li>
+<li>Dial is a good choice for washing out one's mouth.</li>
 <li>Apologize.</li>
-</random>
+</random>	
 </li>
 </condition>
 </template>

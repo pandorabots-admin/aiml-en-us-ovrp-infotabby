@@ -2778,17 +2778,190 @@ unless the item is in the catalog.</template>
 </topic>
 
 
+<!--LAPTOPS-->
+
+<category>
+<pattern>LPTPHLDS</pattern>
+<template>Since the library laptops are for use only in the Main Library, you can only place a hold
+on one of them if you are in the Main Library. You cannot place a hold on a laptop from home.
+</template>
+</category>
+
+<category>
+<pattern>LAPTOP</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LAPTOP</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LAPTOP *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LAPTOP *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LAPTOPS</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LAPTOPS</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LAPTOPS *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LAPTOPS *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+
+<topic name="HLDS">
+<category>
+<pattern>LAPTOP</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>* LAPTOP</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>LAPTOP *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>* LAPTOP *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>LAPTOPS</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>* LAPTOPS</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>LAPTOPS *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>* LAPTOPS *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>LPTPHLDS</srai>
+</template>
+</category>
+</topic>
+
+
+<!--HOLD CHECKED OUT-->
+
+<category>
+<pattern>CHKOUTHLDS</pattern>
+<template>If you want to place a hold on an item that's checked out, just go ahead and place the hold.
+It doesn't matter if the item is checked out. Would you like me to explain how to place a hold?</template>
+</category>
+
+<topic name="HLDS">
+<category>
+<pattern>CHECKED OUT</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>* CHECKED OUT</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>CHECKED OUT *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="HLDS">
+<category>
+<pattern>* CHECKED OUT *</pattern>
+<that>* HOW TO PLACE A HOLD</that>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+</topic>
 
 
 
 
 
-
-
-
-
-
-
-
- 
 </aiml>
