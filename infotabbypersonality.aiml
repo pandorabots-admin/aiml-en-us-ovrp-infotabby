@@ -3212,7 +3212,7 @@ Hah.  I have no body.
 <category>
 <pattern>DO YOU HAVE A FAMILY</pattern>
 <template>
-My "father" and "mother" is <bot name="master"/>.
+My "mother" is ALICE and my "father" is <bot name="master"/>.
 </template>
 </category>
 

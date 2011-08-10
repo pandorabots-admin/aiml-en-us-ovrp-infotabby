@@ -21,40 +21,45 @@
 
 <category>
 <pattern>FNS</pattern>
-<template>This is a question I'm often asked. Would you like a summary of our overdue fines, yes or no?
+<template>This is a question I'm often asked. 
+<random>
+<li>Would you like a summary of our overdue fines, yes or no?</li>
+<li>Would you like a list of overdue fines, yes or no?</li>
+<li>Would you like to see a list of overdue fines, yes or no?</li>
+</random>
 </template>
 </category>
 
 
 <category>
 <pattern>YES</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template><srai>FNSMRY</srai></template>
 </category>
 
 <category>
 <pattern>YES *</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template><srai>FNSMRY</srai></template>
 </category>
 
 <category>
 <pattern>* YES</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template><srai>FNSMRY</srai></template>
 </category>
 
 
 <category>
 <pattern>* YES *</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template><srai>FNSMRY</srai></template>
 </category>
 
 
 <category>
 <pattern>NO</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template>OK. What would you like to know about our fees or charges?
 <think><set name="topic">FEES</set>
 </think>
@@ -63,7 +68,7 @@
 
 <category>
 <pattern>NO *</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template>OK. What would you like to know about our fees or charges?
 <think><set name="topic">FEES</set>
 </think>
@@ -72,7 +77,7 @@
 
 <category>
 <pattern>* NO</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template>OK. What would you like to know about our fees or charges?
 <think><set name="topic">FEES</set>
 </think>
@@ -81,7 +86,7 @@
 
 <category>
 <pattern>* NO *</pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template>OK. What would you like to know about our fees or charges?
 <think><set name="topic">FEES</set>
 </think>
@@ -90,7 +95,7 @@
 
 <category>
 <pattern> * </pattern>
-<that>WOULD YOU LIKE A SUMMARY OF OUR OVERDUE FINES YES OR NO</that>
+<that>WOULD YOU *  OVERDUE FINES YES OR NO</that>
 <template>OK. What would you like to know about our fees or charges?
 <think><set name="topic">FEES</set>
 </think>
@@ -408,80 +413,47 @@ We are not currently offering fine forgiveness. If you have questions about fine
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
 <pattern>BANKRUPT</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* BANKRUPT</pattern>
+<pattern>* BANKRUPT</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>BANKRUPT * </pattern>
+<pattern>BANKRUPT * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>* BANKRUPT *</pattern>
+<pattern>* BANKRUPT *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>BANKRUPTCY</pattern>
+<pattern>BANKRUPTCY</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* BANKRUPTCY</pattern>
+<pattern>* BANKRUPTCY</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>BANKRUPTCY * </pattern>
+<pattern>BANKRUPTCY * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* BANKRUPTCY  *</pattern>
-<template><srai>BNKRPTCY</srai></template>
-</category></topic>
-
-
-
-
-<topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>CH 7</pattern>
-<template><srai>BNKRPTCY</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* CH 7 </pattern>
-<template><srai>BNKRPTCY</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>CH 7 * </pattern>
-<template><srai>BNKRPTCY</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* CH 7  *</pattern>
+<pattern>* BANKRUPTCY  *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
@@ -489,26 +461,45 @@ We are not currently offering fine forgiveness. If you have questions about fine
 
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>CHAPTER 7</pattern>
+<pattern>CH 7</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* CHAPTER 7</pattern>
+<pattern>* CH 7 </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>CHAPTER 7 *</pattern>
+<pattern>CH 7 * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* CHAPTER 7  *</pattern>
+<pattern>* CH 7  *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+
+
+
+<topic name="FEES"><category>
+<pattern>CHAPTER 7</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* CHAPTER 7</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>CHAPTER 7 *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>BNKRPTCY</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* CHAPTER 7  *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category></topic>
 
@@ -521,148 +512,131 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIOR CITIZEN</pattern>
+<pattern>SENIOR CITIZEN</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIOR CITIZEN </pattern>
+<pattern>* SENIOR CITIZEN </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIOR CITIZEN * </pattern>
+<pattern>SENIOR CITIZEN * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIOR CITIZEN *</pattern>
+<pattern>* SENIOR CITIZEN *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIOR CITIZENS</pattern>
+<pattern>SENIOR CITIZENS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIOR CITIZENS </pattern>
+<pattern>* SENIOR CITIZENS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIOR CITIZENS * </pattern>
+<pattern>SENIOR CITIZENS * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIOR CITIZENS *</pattern>
+<pattern>* SENIOR CITIZENS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIOR</pattern>
+<pattern>SENIOR</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIOR </pattern>
+<pattern>* SENIOR </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIOR * </pattern>
+<pattern>SENIOR * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIOR *</pattern>
+<pattern>* SENIOR *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIORS</pattern>
+<pattern>SENIORS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIORS </pattern>
+<pattern>* SENIORS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>SENIORS * </pattern>
+<pattern>SENIORS * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* SENIORS *</pattern>
+<pattern>* SENIORS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
+<!--FINE FORGIVENESS-->
 
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>FORGIVE</pattern>
+<category>
+<pattern>FNFRGV</pattern>
 <template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category>
+
+
+<topic name="FEES"><category>
+ <pattern>FORGIVE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>FORGIVE *</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>FORGIVE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* FORGIVE</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>* FORGIVE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* FORGIVE *</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>* FORGIVE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>FORGIVENESS</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>FORGIVENESS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>FORGIVENESS *</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>FORGIVENESS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* FORGIVENESS</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>* FORGIVENESS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* FORGIVENESS *</pattern>
-<template>We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+ <pattern>* FORGIVENESS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FNFRGV</srai></template>
 </category></topic>
 
 
@@ -674,52 +648,69 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+ <pattern>GRACE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+
+<topic name="FEES"><category>
+ <pattern>*  GRACE </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+
+
+<topic name="FEES"><category>
+ <pattern>*  GRACE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+
+
+<topic name="FEES"><category>
+ <pattern>GRACE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>GRCEPER</srai></template>
+</category></topic>
+
+<category>
 <pattern>GRACE PERIOD</pattern>
 <template><srai>GRCEPER</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>GRACE PERIODS</pattern>
+<category>
+<pattern>* GRACE PERIOD</pattern>
 <template><srai>GRCEPER</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>*  GRACE PERIOD</pattern>
-<template><srai>GRCEPER</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>*  GRACE PERIODS</pattern>
-<template><srai>GRCEPER</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>*  GRACE PERIOD *</pattern>
-<template><srai>GRCEPER</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>*  GRACE PERIODS *</pattern>
-<template><srai>GRCEPER</srai></template>
-</category></topic>
-
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<category>
 <pattern>GRACE PERIOD *</pattern>
 <template><srai>GRCEPER</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
+<category>
+<pattern>* GRACE PERIOD *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>GRACE PERIODS</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>* GRACE PERIODS</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
 <pattern>GRACE PERIODS *</pattern>
 <template><srai>GRCEPER</srai></template>
-</category></topic>
+</category>
+
+<category>
+<pattern>* GRACE PERIODS *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
 
 <!--HOW MUCH LATE ITEMS-->
 
@@ -919,166 +910,275 @@ You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_bla
 
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* HAVE * FINES</pattern>
+ <pattern>* HAVE * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* HAVE * FINES *</pattern>
+ <pattern>* HAVE * FINES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT * FINES</pattern>
+ <pattern>WHAT * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT * FINE</pattern>
+ <pattern>WHAT * FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * FINES</pattern>
+ <pattern>HOW MUCH * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * FINE</pattern>
+ <pattern>HOW MUCH * FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT * OWE</pattern>
+ <pattern>WHAT * OWE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT * OWE</pattern>
+ <pattern>WHAT * OWE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * OWE</pattern>
+ <pattern>HOW MUCH * OWE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * OWE</pattern>
+ <pattern>HOW MUCH * OWE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT * OWE *</pattern>
+ <pattern>WHAT * OWE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT * OWE *</pattern>
+ <pattern>WHAT * OWE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * OWE *</pattern>
+ <pattern>HOW MUCH * OWE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * OWE *</pattern>
+ <pattern>HOW MUCH * OWE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW * SEE * OWE * LATE FEE</pattern>
+ <pattern>HOW * SEE * OWE * LATE FEE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW * SEE * OWE * LATE FEES</pattern>
+ <pattern>HOW * SEE * OWE * LATE FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
 
  
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>DO * HAVE * OVERDUES</pattern>
+ <pattern>DO * HAVE * OVERDUES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>OVRDUECHK</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>DO * HAVE * OVERDUE</pattern>
+ <pattern>DO * HAVE * OVERDUE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>OVRDUECHK</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>HOW MUCH * OWE * OVERDUE FEES</pattern>
+ <pattern>HOW MUCH * OWE * OVERDUE FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>OVRDUECHK</srai></template>
 </category>
 </topic>
 
+<!--IPAD FINES-->
+
+<topic name="FEES"><category>
+<pattern>IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* IPAD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>IPAD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* IPAD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>IPADS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* IPADS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>IPADS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* IPADS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>I PAD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* I PAD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>I PAD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* I PAD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>I PADS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* I PADS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>I PADS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* I PADS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODIPD</srai></template>
+</category></topic>
+
+
+<!--NOOK FINES-->
 
 <category>
-<pattern>OVRDUECHK</pattern>
+<pattern>ODNK</pattern>
+<template>The fine for overdue Nooks is $5.00 per day. Please return the Nook
+to the Main Library Computer Help Desk. Do not return the
+Nook in our poobdrops.</template>
+</category>
+
+<topic name="FEES"><category>
+<pattern>NOOK</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* NOOK</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>NOOK *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* NOOK *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>NOOKS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* NOOKS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>NOOKS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<topic name="FEES"><category>
+<pattern>* NOOKS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>ODNK</srai></template>
+</category></topic>
+
+<category>
+<pattern>OVRDUECHK</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank">
   <b>your account</b>
 </a>. If you have any items that are overdue, they will be indicated there.</template>
 </category>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* I * OVERDUES</pattern>
+ <pattern>* I * OVERDUES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>OVRDUECHK</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>* I * OVERDUE *</pattern>
+ <pattern>* I * OVERDUE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>OVRDUECHK</srai></template>
 </category>
 </topic>
 
 <topic name="FEES"><category>
- <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-<pattern>WHAT HAPPENS IF YOU LOOSE A BOOK</pattern>
+ <pattern>WHAT HAPPENS IF YOU LOOSE A BOOK</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template>You bought it. We take cash, credit, or debit cards.</template>
 </category>
 </topic>
@@ -1393,42 +1493,42 @@ how to pay online.
 
 <topic name="FEES">
 <category>
-<pattern>PAY FINE</pattern>
+<pattern>PAY FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY FINES</pattern>
+<pattern>PAY FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY FINE</pattern>
+<pattern>*  PAY FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FINE</pattern>
+<pattern>*  PAY * FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FINE *</pattern>
+<pattern>*  PAY * FINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * FINE *</pattern>
+<pattern>PAY * FINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
@@ -1436,202 +1536,202 @@ how to pay online.
 
 <topic name="FEES">
 <category>
-<pattern>PAY FINES</pattern>
+<pattern>PAY FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY FINES</pattern>
+<pattern>*  PAY FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FINES</pattern>
+<pattern>*  PAY * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FINES *</pattern>
+<pattern>*  PAY * FINES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * FINES *</pattern>
+<pattern>PAY * FINES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY FEE</pattern>
+<pattern>PAY FEE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY FEE</pattern>
+<pattern>*  PAY FEE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FEE</pattern>
+<pattern>*  PAY * FEE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FEE *</pattern>
+<pattern>*  PAY * FEE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * FEE *</pattern>
+<pattern>PAY * FEE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY FEES</pattern>
+<pattern>PAY FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY FEES</pattern>
+<pattern>*  PAY FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FEES</pattern>
+<pattern>*  PAY * FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FEES *</pattern>
+<pattern>*  PAY * FEES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * FEES *</pattern>
+<pattern>PAY * FEES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai>
 </template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * FINES</pattern>
+<pattern>PAY * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FINES</pattern>
+<pattern>*  PAY * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * FINES *</pattern>
+<pattern>PAY * FINES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FINES *</pattern>
-<template><srai>PYFINES</srai></template>
-</category></topic>
- 
-<topic name="FEES">
-<category>
-<pattern>PAY * FINE</pattern>
-<template><srai>PYFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * FINE</pattern>
-<template><srai>PYFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>PAY * FINE *</pattern>
-<template><srai>PYFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * FINE *</pattern>
+<pattern>*  PAY * FINES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
  
 <topic name="FEES">
 <category>
-<pattern>PAY * LATE FEES</pattern>
+<pattern>PAY * FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * LATE FEES</pattern>
+<pattern>*  PAY * FINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * LATE FEES *</pattern>
+<pattern>PAY * FINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * LATE FEES *</pattern>
+<pattern>*  PAY * FINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
  
 <topic name="FEES">
 <category>
-<pattern>PAY * LATE FEE</pattern>
+<pattern>PAY * LATE FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * LATE FEE</pattern>
+<pattern>*  PAY * LATE FEES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY * LATE FEE *</pattern>
+<pattern>PAY * LATE FEES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * LATE FEE *</pattern>
+<pattern>*  PAY * LATE FEES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+ 
+<topic name="FEES">
+<category>
+<pattern>PAY * LATE FEE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * LATE FEE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>PAY * LATE FEE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PYFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * LATE FEE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PYFINES</srai></template>
 </category></topic>
 
@@ -1649,145 +1749,145 @@ how to pay online.
 
 <topic name="FEES">
 <category>
-<pattern>ONLINE PAYMENT</pattern>
+<pattern>ONLINE PAYMENT</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE PAYMENT</pattern>
+<pattern>*  ONLINE PAYMENT</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE * PAYMENT</pattern>
+<pattern>*  ONLINE * PAYMENT</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE PAYMENT *</pattern>
+<pattern>*  ONLINE PAYMENT *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE * PAYMENT *</pattern>
+<pattern>*  ONLINE * PAYMENT *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>ONLINE PAYMENTS</pattern>
+<pattern>ONLINE PAYMENTS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE PAYMENTS</pattern>
+<pattern>*  ONLINE PAYMENTS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE * PAYMENTS</pattern>
+<pattern>*  ONLINE * PAYMENTS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE PAYMENTS *</pattern>
+<pattern>*  ONLINE PAYMENTS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  ONLINE * PAYMENTS *</pattern>
+<pattern>*  ONLINE * PAYMENTS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAY ONLINE</pattern>
+<pattern>PAY ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY ONLINE</pattern>
+<pattern>*  PAY ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * ONLINE</pattern>
+<pattern>*  PAY * ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY ONLINE *</pattern>
+<pattern>*  PAY ONLINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAYMENT ONLINE</pattern>
+<pattern>PAYMENT ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENT ONLINE</pattern>
+<pattern>*  PAYMENT ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENT * ONLINE</pattern>
+<pattern>*  PAYMENT * ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENT ONLINE *</pattern>
+<pattern>*  PAYMENT ONLINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENT * ONLINE *</pattern>
+<pattern>*  PAYMENT * ONLINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>PAYMENTS ONLINE</pattern>
+<pattern>PAYMENTS ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENTS ONLINE</pattern>
+<pattern>*  PAYMENTS ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENTS * ONLINE</pattern>
+<pattern>*  PAYMENTS * ONLINE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENTS ONLINE *</pattern>
+<pattern>*  PAYMENTS ONLINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAYMENTS * ONLINE *</pattern>
+<pattern>*  PAYMENTS * ONLINE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>ONLNPAY</srai></template>
 </category></topic>
 
@@ -1802,57 +1902,37 @@ be signed by all those being linked. These slips are available at the Main Libra
 
 <topic name="FEES">
 <category>
-  <pattern>PAY MY * FINES </pattern>
+  <pattern>PAY MY * FINES </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY MY * FINES </pattern>
+<pattern>*  PAY MY * FINES </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY MY * FINES *</pattern>
+<pattern>*  PAY MY * FINES *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-  <pattern>PAY OUR * FINES </pattern>
+  <pattern>PAY OUR * FINES </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY OUR * FINES </pattern>
+<pattern>*  PAY OUR * FINES </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY OUR * FINES </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON MY * CARD </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * ON MY * CARD </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * ON MY * CARD *</pattern>
+<pattern>*  PAY OUR * FINES </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
@@ -1860,140 +1940,160 @@ be signed by all those being linked. These slips are available at the Main Libra
 
 <topic name="FEES">
 <category>
-  <pattern>PAY * ON OUR * CARD </pattern>
+  <pattern>PAY * ON MY * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * ON OUR * CARD </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON MY * CARD </pattern>
+<pattern>*  PAY * ON MY * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * ON MY * CARD </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON OUR * CARD </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON OUR * CARD </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON MY * CARDS </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON MY * CARDS </pattern>
+<pattern>*  PAY * ON MY * CARD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 
 
-
 <topic name="FEES">
 <category>
-  <pattern>PAY * ON OUR * CARDS </pattern>
+  <pattern>PAY * ON OUR * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-  <pattern>PAY * ON OUR * CARDS </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON MY * ACCOUNT </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * ON MY * ACCOUNT </pattern>
+<pattern>*  PAY * ON OUR * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 
 <topic name="FEES">
 <category>
-  <pattern>PAY * ON OUR * ACCOUNT </pattern>
+  <pattern>PAY * ON MY * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>* PAY * ON OUR * ACCOUNT </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON MY * ACCOUNTS </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * ON MY * ACCOUNTS </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-  <pattern>PAY * ON OUR * ACCOUNTS </pattern>
-<template><srai>PAYLNKDFINES</srai></template>
-</category></topic>
-
-<topic name="FEES">
-<category>
-<pattern>*  PAY * ON OUR * ACCOUNTS </pattern>
+<pattern>*  PAY * ON MY * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 
 <topic name="FEES">
 <category>
-  <pattern>PAY * FOR MY * </pattern>
+  <pattern>PAY * ON OUR * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FOR MY * </pattern>
+  <pattern>PAY * ON OUR * CARD </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-  <pattern>PAY * FOR OUR * </pattern>
+  <pattern>PAY * ON MY * CARDS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<pattern>*  PAY * FOR OUR * </pattern>
+  <pattern>PAY * ON MY * CARDS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARDS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * CARDS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * ACCOUNT </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * ACCOUNT </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * ACCOUNT </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>* PAY * ON OUR * ACCOUNT </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON MY * ACCOUNTS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON MY * ACCOUNTS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * ON OUR * ACCOUNTS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * ON OUR * ACCOUNTS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * FOR MY * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FOR MY * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+  <pattern>PAY * FOR OUR * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>PAYLNKDFINES</srai></template>
+</category></topic>
+
+<topic name="FEES">
+<category>
+<pattern>*  PAY * FOR OUR * </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>PAYLNKDFINES</srai></template>
 </category></topic>
 
@@ -2005,214 +2105,212 @@ be signed by all those being linked. These slips are available at the Main Libra
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>CARD COST</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CARD COST</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CARD COST</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARD COST</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CARD COST *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARD COST *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>CHARGE CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CHARGE CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CHARGE CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CHARGE * CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CHARGE * CARD *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>COST CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>COST CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* COST CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* COST * CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* COST * CARD *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>FEE CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>FEE CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* FEE CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* FEE * CARD</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARD</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* FEE * CARD *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARD *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>CARDS COST</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CARDS COST</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CARDS COST</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARDS COST</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CARDS COST *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CARDS COST *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>CHARGE CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>CHARGE CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CHARGE CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CHARGE * CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* CHARGE * CARDS *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* CHARGE * CARDS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>COST CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>COST CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* COST CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* COST * CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* COST * CARDS *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* COST * CARDS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>FEE CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>FEE CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* FEE CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* FEE * CARDS</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARDS</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
 
 <topic name="FEES">
 <category>
-<that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
-  <pattern>* FEE * CARDS *</pattern>
+<that> *  ABOUT OUR FEES OR CHARGES</that>
+  <pattern>* FEE * CARDS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
   <template><srai>LCCST</srai></template>
 </category></topic>
-
-
 
 </aiml>

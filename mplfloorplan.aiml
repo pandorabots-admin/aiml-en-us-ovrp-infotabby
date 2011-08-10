@@ -40,11 +40,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION CHILDRENS BOOKS</pattern>
+<pattern>* LOCATION CHILDRENS BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * CHILDRENS BOOKS</pattern>
+<pattern>* LOCATION * CHILDRENS BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
@@ -60,11 +60,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION PICTURE BOOKS</pattern>
+<pattern>* LOCATION PICTURE BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * PICTURE BOOKS</pattern>
+<pattern>* LOCATION * PICTURE BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
@@ -80,11 +80,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION PICTUREBOOKS</pattern>
+<pattern>* LOCATION PICTUREBOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * PICTUREBOOKS</pattern>
+<pattern>* LOCATION * PICTUREBOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
@@ -100,11 +100,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION KIDS BOOKS</pattern>
+<pattern>* LOCATION KIDS BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * KIDS BOOKS</pattern>
+<pattern>* LOCATION * KIDS BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
@@ -120,11 +120,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION KID S BOOKS</pattern>
+<pattern>* LOCATION KID S BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * KID S BOOKS</pattern>
+<pattern>* LOCATION * KID S BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <!--i-->
@@ -142,11 +142,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION CHILDRENS DVDS</pattern>
+<pattern>* LOCATION CHILDRENS DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * CHILDRENS DVDS</pattern>
+<pattern>* LOCATION * CHILDRENS DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
@@ -162,11 +162,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION FAMILY DVDS</pattern>
+<pattern>* LOCATION FAMILY DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * FAMILY DVDS</pattern>
+<pattern>* LOCATION * FAMILY DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 
@@ -183,11 +183,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION KIDS DVDS</pattern>
+<pattern>* LOCATION KIDS DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * KIDS DVDS</pattern>
+<pattern>* LOCATION * KIDS DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
@@ -203,11 +203,11 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION KID S DVDS</pattern>
+<pattern>* LOCATION KID S DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 <category>
-<pattern>_ LOCATION * KID S DVDS</pattern>
+<pattern>* LOCATION * KID S DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
 
@@ -232,7 +232,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 
 
 <category>
-<pattern>_ FICTION BOOK</pattern>
+<pattern>* FICTION BOOK</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
 Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -243,7 +243,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ FICTION BOOKS</pattern>
+<pattern>* FICTION BOOKS</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
 Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -254,7 +254,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ FICTION LOCATED</pattern>
+<pattern>* FICTION LOCATED</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
 Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -265,7 +265,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ FICTION LOCATION</pattern>
+<pattern>* FICTION LOCATION</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. 
 The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -276,7 +276,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ FICTION SECTION</pattern>
+<pattern>* FICTION SECTION</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
 Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -287,7 +287,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ NONFICTION BOOK</pattern>
+<pattern>* NONFICTION BOOK</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
 The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -298,7 +298,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ NONFICTION BOOKS</pattern>
+<pattern>* NONFICTION BOOKS</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
 The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -309,7 +309,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ NONFICTION LOCATED</pattern>
+<pattern>* NONFICTION LOCATED</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
 The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -320,7 +320,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ NONFICTION LOCATION</pattern>
+<pattern>* NONFICTION LOCATION</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
 The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -331,7 +331,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ NONFICTION SECTION</pattern>
+<pattern>* NONFICTION SECTION</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
 The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -344,7 +344,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 <!--SF LOCATION-->
 
 <category>
-<pattern>_ MAIN SCIENCE FICTION</pattern>
+<pattern>* MAIN SCIENCE FICTION</pattern>
 <template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that
 work there.
@@ -355,7 +355,7 @@ work there.
 </category>
 
 <category>
-<pattern>_ SCIENCE FICTION BOOKS</pattern>
+<pattern>* SCIENCE FICTION BOOKS</pattern>
 <template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that
 work there.
@@ -367,7 +367,7 @@ work there.
 
 
 <category>
-<pattern>_ SCIENCE FICTION LOCATED</pattern>
+<pattern>* SCIENCE FICTION LOCATED</pattern>
 <template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that
 work there.
@@ -378,7 +378,7 @@ work there.
 </category>
 
 <category>
-<pattern>_ SCIENCE FICTION LOCATION</pattern>
+<pattern>* SCIENCE FICTION LOCATION</pattern>
 <template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that
 work there.
@@ -389,7 +389,7 @@ work there.
 </category>
 
 <category>
-<pattern>_ SCIENCE FICTION SECTION</pattern>
+<pattern>* SCIENCE FICTION SECTION</pattern>
 <template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that
 work there.
@@ -402,7 +402,7 @@ work there.
 <!--END INSERT-->
 
 <category>
-<pattern>_ MAIN BIOGRAPHY</pattern>
+<pattern>* MAIN BIOGRAPHY</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -413,7 +413,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ BIOGRAPHY LOCATED</pattern>
+<pattern>* BIOGRAPHY LOCATED</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -425,7 +425,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 
 
 <category>
-<pattern>_ BIOGRAPHY SECTION</pattern>
+<pattern>* BIOGRAPHY SECTION</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -436,7 +436,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ MAIN BIOGRAPHIES</pattern>
+<pattern>* MAIN BIOGRAPHIES</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -447,7 +447,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ BIOGRAPHIES LOCATED</pattern>
+<pattern>* BIOGRAPHIES LOCATED</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -458,7 +458,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ MYSTERIES</pattern>
+<pattern>* MYSTERIES</pattern>
 <template>If you're at our Main Library, you'll find mysteries on the first floor. 
 The shelves with the mysteries are marked. Children's mysteries are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -481,7 +481,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 
 
 <category>
-<pattern>_ BIOGRAPHIES LOCATION</pattern>
+<pattern>* BIOGRAPHIES LOCATION</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the biographies are marked. Children's biographies are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -558,7 +558,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LOCATION * FICTION</pattern>
+<pattern>* LOCATION * FICTION</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. 
 The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -569,7 +569,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LOCATION * NONFICTION</pattern>
+<pattern>* LOCATION * NONFICTION</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
 <think>
@@ -579,7 +579,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LOCATION * BIOGRAPHIES</pattern>
+<pattern>* LOCATION * BIOGRAPHIES</pattern>
 <template>If you're at our Main Library, you'll find biographies on the first floor. 
 The shelves with the nonfiction are marked. Children's biographies are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -590,7 +590,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LOCATION * FICTION *</pattern>
+<pattern>* LOCATION * FICTION *</pattern>
 <template>If you're at our Main Library, you'll find adult fiction on the first floor. 
 The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -601,7 +601,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LOCATION * NONFICTION *</pattern>
+<pattern>* LOCATION * NONFICTION *</pattern>
 <template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
 The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -612,7 +612,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LOCATION * BIOGRAPHIES *</pattern>
+<pattern>* LOCATION * BIOGRAPHIES *</pattern>
 <template>If you're at our Main Library, you'll find Biographies and Autobiographies on the first floor. 
 Biographies and Autobiographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
 If you need help finding something at one of our Branches, just ask one of the humans that work there.
@@ -789,22 +789,22 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LARGE PRINT</pattern>
+<pattern>* LARGE PRINT</pattern>
 <template><srai>MLTLOC</srai></template>
 </category>
 
 <category>
-<pattern>_ LARGE PRINT *</pattern>
+<pattern>* LARGE PRINT *</pattern>
 <template><srai>MLTLOC</srai></template>
 </category>
 
 <category>
-<pattern>_ LARGE TYPE</pattern>
+<pattern>* LARGE TYPE</pattern>
 <template><srai>MLTLOC</srai></template>
 </category>
 
 <category>
-<pattern>_ LARGE TYPE *</pattern>
+<pattern>* LARGE TYPE *</pattern>
 <template><srai>MLTLOC</srai></template>
 </category>
 
@@ -974,12 +974,12 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ floor plan * </pattern>
+<pattern>* floor plan * </pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>_ floor plans * </pattern>
+<pattern>* floor plans * </pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
@@ -1001,7 +1001,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLD SHELF</pattern>
+<pattern>* HOLD SHELF</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1011,7 +1011,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLD SHELF *</pattern>
+<pattern>* HOLD SHELF *</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1021,7 +1021,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLDS SHELF</pattern>
+<pattern>* HOLDS SHELF</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1031,7 +1031,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLDS SHELF *</pattern>
+<pattern>* HOLDS SHELF *</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1041,7 +1041,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLD SHELVES</pattern>
+<pattern>* HOLD SHELVES</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1051,7 +1051,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLD SHELVES *</pattern>
+<pattern>* HOLD SHELVES *</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1061,7 +1061,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLDS SHELVES</pattern>
+<pattern>* HOLDS SHELVES</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1071,7 +1071,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HOLDS SHELVES *</pattern>
+<pattern>* HOLDS SHELVES *</pattern>
 <template><srai>HLDSHLF</srai></template>
 </category>
 
@@ -1086,7 +1086,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HEADLANDS YA</pattern>
+<pattern>* HEADLANDS YA</pattern>
 <template><srai>HDLSYA</srai></template>
 </category>
 
@@ -1096,7 +1096,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ HEADLANDS YA *</pattern>
+<pattern>* HEADLANDS YA *</pattern>
 <template><srai>HDLSYA</srai></template>
 </category>
 
@@ -1113,7 +1113,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LAKE YA</pattern>
+<pattern>* LAKE YA</pattern>
 <template><srai>LKYA</srai></template>
 </category>
 
@@ -1123,7 +1123,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>_ LAKE YA *</pattern>
+<pattern>* LAKE YA *</pattern>
 <template><srai>LKYA</srai></template>
 </category>
 

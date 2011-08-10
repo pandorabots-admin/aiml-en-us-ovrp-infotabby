@@ -317,7 +317,7 @@
 
 <category>
 <pattern>LNPRDS</pattern>
-<template>Most Mentor Public Library items have a loan period of two weeks with four renewals, unless a hold has been placed on them. 
+<template>Most Mentor Public Library items have a loan period of two weeks with four renewals, unless a hold has been placed on them. We do not have grace periods.
 Fiction DVDs circulate for one week and i Pads have a three day loan. Most Search Ohio items have a three week loan periods with three possible renewals.
 Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http://www.mentorpl.org/about.html" target="_blank"><b>nice chart</b></a>
  showing our loan periods and the number of renewals allowed for different types of items. You may renew online through the catalog or phone the library and ask for Circulation Services. 
@@ -7787,29 +7787,29 @@ many of each kind of item you can take out.</template>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>HOW MANY</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>HWMNYITMS</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* HOW MANY</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>HWMNYITMS</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>HOW MANY *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>HWMNYITMS</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* HOW MANY *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>HWMNYITMS</srai></template>
 </category></topic>
 
@@ -7822,170 +7822,203 @@ many of each kind of item you can take out.</template>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>CALL</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* CALL</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>CALL *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* CALL *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>DESK</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* DESK</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>DESK *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* DESK *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>DEPT</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* DEPT</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>DEPT *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* DEPT *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>DEPARTMENT</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* DEPARTMENT</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>DEPARTMENT *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* DEPARTMENT *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>NUMBER</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* NUMBER</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>NUMBER *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* NUMBER *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>PHONE</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* PHONE</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>PHONE *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
 
 <topic name="CRCQ">
 <category>
-<that>WHAT * ABOUT CIRCULATION</that>
 <pattern>* PHONE *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
 <template><srai>CRCDSK</srai></template>
 </category></topic>
+
+
+<!--GRACE PERIODS-->
+
+<category>
+<pattern>GRCPRDS</pattern>
+<template>We do not have have periods.</template>
+</category>
+
+<topic name="CRCQ">
+<category>
+<pattern>GRACE</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>CRCDSK</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>GRACE *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>CRCDSK</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>* GRACE *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>CRCDSK</srai></template>
+</category>
+</topic>
+
 
 </aiml>

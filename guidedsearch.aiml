@@ -29,7 +29,7 @@ Would you like me to search for this?
 <category>
 <pattern>DEFINE *</pattern>
 <template>
-I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't see it, turn off your pop-up blocker.
+I'm a talking cartoon cat Jim, not a dictionary. Here's Merriam-Webster. If you don't see it, turn off your pop-up blocker.
 <think>
 <set name="searcharg"><star/></set>
 <set name="search">merrweb</set>
@@ -199,7 +199,7 @@ I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't
 </category>  
 
 <category> 
-<pattern>_ HELP</pattern> 
+<pattern>* HELP</pattern> 
 <template><srai>ANSWRQ</srai></template> 
 </category>  
 
@@ -209,7 +209,7 @@ I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't
 </category>  
 
 <category> 
-<pattern>_ HELP *</pattern> 
+<pattern>* HELP *</pattern> 
 <template><srai>ANSWRQ</srai></template> 
 </category> 
 
@@ -232,6 +232,81 @@ I'm a cybernetic cat Jim, not a dictionary. Here's Merriam-Webster. If you don't
 <pattern>WHAT * YOU DOING *</pattern> 
 <template><srai>ANSWRQ</srai></template> 
 </category> 
+
+<!--LOOK UP-->
+
+<category>
+<pattern>LKUP</pattern>
+<template>I can look things up for you in our catalog. Enter either the author or the title or the topic using the fewest possible words.
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>ENTER THE AUTHOR * FEWEST POSSIBLE WORDS</that>
+<template>Let's see what's in our catalog. If you don't see the results, you'll need to turn off your pop up
+blocker and ask me again.
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOOKUP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKUP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKUP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKUP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK * UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK * UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK * UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
 
 <!--REAL START-->
 
@@ -703,11 +778,99 @@ You entered <b><get name="searcharg"><star/></get></b>.
 
 <topic name="INITS2">
 <category>
-<pattern>*</pattern>
+<pattern> * </pattern>
 <template>
+<random>
+<li>I'm not sure. Do you have another question?</li>
+<li>Hmm. Do you have another question?</li>
+<li>I can't say right now. Would you like to ask another question?</li>
+<li>Right now, I can't say. Would you like to ask me another question?</li>
+<li>I can't say. Would you like to ask another question?</li>
+</random>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>NO</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* NO</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>NO *</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* NO *</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>CONCL</srai></template>
+</category>
+</topic>
+
+
+
+<topic name="INITS2">
+<category>
+<pattern>YES</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>INITS3</srai></template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* YES</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>INITS3</srai></template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>YES *</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>INITS3</srai></template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>* YES *</pattern>
+<that>* ANOTHER QUESTION</that>
+<template><srai>INITS3</srai></template>
+</category>
+</topic>
+
+
+<category>
+<pattern>INITS3</pattern>
+<template>Ask away!
 <think>
-<set name="searcharg"><star/></set>
+<set name="topic">INITS3</set>
 </think>
+</template>
+</category>
+
+<topic name="INITS3">
+<category>
+<pattern> * </pattern>
+<template>
 O.K. I can look for this, too.
 <br/><br/>
 You entered <b><get name="searcharg"><star/></get></b>. 

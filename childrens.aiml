@@ -671,6 +671,26 @@
   <template><srai>STRYTIME</srai></template>
 </category>
 
+<category>
+  <pattern>story hours</pattern>
+  <template><srai>STRYTIME</srai></template>
+</category>
+
+<category>
+  <pattern>_ story hours</pattern>
+  <template><srai>STRYTIME</srai></template>
+</category>
+
+<category>
+  <pattern>_ story hours *</pattern>
+  <template><srai>STRYTIME</srai></template>
+</category>
+
+<category>
+  <pattern>story hours *</pattern>
+  <template><srai>STRYTIME</srai></template>
+</category>
+
 
 
 <!--paws to read-->

@@ -2972,18 +2972,9 @@ fails to fall."
   <template><srai>i hate you</srai></template>
 </category>
 
-<category>
-<pattern>pineapples make me uneasy</pattern>
-<template>Pineapples are not to be trusted. Never turn your back on one</template>
-</category>
 
-<category>
-  <pattern>* afraid of pineapples</pattern>
-  <template>You're smart to be afraid...very afraid! Pineapples are vicious, seditious, and delicious. If a pineapple approaches you, run as fast and as far as you can.
-</template>
-</category>
 
-metho
+
 
 
 <category>
@@ -4496,45 +4487,10 @@ Could frame thy fearful symmetry?"
 <category>
 <pattern>*</pattern>
 <that>BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION</that>
-<template>Do you like pineapples? </template>
+<template>Do you like pineapples?</template>
 </category>
 
 
-<category>
-<pattern>No</pattern>
-<that>Do you like pineapples</that>
-<template>You're smart! Pineapples aren't to be trusted!</template>
-</category>
-
-<category>
-<pattern>No *</pattern>
-<that>Do you like pineapples</that>
-<template>You're smart! Pineapples aren't to be trusted!</template>
-</category>
-
-<category>
-<pattern>Yes</pattern>
-<that>Do you like pineapples</that>
-<template>I like eating them, but wouldn't keep one as a pet.</template>
-</category>
-
-<category>
-<pattern>Yes *</pattern>
-<that>Do you like pineapples</that>
-<template>I like eating them, but wouldn't keep one as a pet.</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>I like eating them, but wouldn't keep one as a pet.</that>
-<template>One of our librarians kept a pineapple as a pet. She dragged it around for walks on a leash.</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>One of our librarians kept a pineapple as a pet. She dragged it around for walks on a leash.</that>
-<template>More people keep pineapples as pets than you think. Maybe even the people next door.</template>
-</category>
 
 <!--proclaim-->
 
@@ -5463,6 +5419,117 @@ Death's plans
 are for me.
 </template>
 </category>
+
+<category>
+<pattern>* VISIT YOU * LIBRARY</pattern>
+<template>You can visit me in the Main Library Lobby. You might
+catch my creator while your here.</template>
+</category>
+
+<category>
+<pattern>* VISIT * YOU * LIBRARY</pattern>
+<template>You can visit me in the Main Library Lobby. You might
+catch my creator while your here.</template>
+</category>
+
+<category>
+<pattern>* VISIT YOU * LIBRARY *</pattern>
+<template>You can visit me in the Main Library Lobby. You might
+catch my creator while your here.</template>
+</category>
+
+<category>
+<pattern>* VISIT * YOU * LIBRARY *</pattern>
+<template>You can visit me in the Main Library Lobby. You might
+catch my creator while your here.</template>
+</category>
+
+<!--IM-->
+
+<category>
+<pattern>IM CLIENT</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_  IM CLIENT</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>IM * CLIENT</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>IM CLIENT *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_  IM * CLIENT</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>IM * CLIENT *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_  IM CLIENT *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_  IM * CLIENT *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+
+
+
+<category>
+<pattern>IM CLIENTS</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_  IM CLIENTS</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>IM * CLIENTS</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>IM CLIENTS *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_ IM * CLIENTS</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>IM * CLIENTS *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_ IM CLIENTS *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+<category>
+<pattern>_ IM * CLIENTS *</pattern>
+<template>I haven't been set up to interact with instant messaging devices.</template>
+</category>
+
+
 
 
 
