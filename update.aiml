@@ -3,6 +3,19 @@
 <aiml version="1.0">
 
 <category>
+<pattern>THE HELP</pattern>
+<template>Here you go.
+<think>
+<set name="searcharg">THE HELP</set>
+<set name="search">booktitle</set>
+</think>
+</template>
+</category>
+
+
+
+
+<category>
 <pattern>I WENT TO HEISLEY CLUB</pattern>
 <template>That's nice. What do humans do at the Heisley Club?</template>
 </category>
