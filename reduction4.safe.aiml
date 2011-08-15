@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!--   Summarizer v. 1.01 (c) Dr. Richard S. Wallace   -->
-<!--     -->
-<!--   Complies with the AIML 1.0.1 Standard   -->
-<!--   as adopted by the ALICE A.I. Foundation.   -->
-<!--   Last modified 3/30/2009      -->
-<!--   aiml/reduction4: 868 categories   -->
+<!--  -->
+<!-- Copyright &copy; 2011 ALICE A.I. Foundation, Inc. -->
+<!--  -->
+<!-- This program is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation -->
+<!--  -->
+
 <category>
 <pattern>0</pattern>
 <template>

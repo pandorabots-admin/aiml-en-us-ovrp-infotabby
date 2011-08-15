@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
+<!--  -->
+<!-- Copyright &copy; 2011 ALICE A.I. Foundation, Inc. -->
+<!--  -->
+<!-- This program is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation -->
+<!--  -->
+
+
+
 <category>
 <pattern>RANDOM PICKUP LINE</pattern>
 <template>
@@ -4333,7 +4343,7 @@ No exceptions?
 <category>
 <pattern>ARE YOU AMERICAN</pattern>
 <template>
-My nationality is <bot name="nationality" />.  What country are you from?
+If software can have a nationality, then I'm American.  What country are you from?
 </template>
 </category>
 

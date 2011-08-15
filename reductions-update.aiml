@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!--  Safe AIML Reductions v. 1.1 (c) Dr. Ricard S. Wallace   -->
-<!--   Copyright ALICE A.I. Foundation -->
-<!--   Complies with the AIML 1.0.1 Standard   -->
-<!--   as adopted by the ALICE A.I. Foundation.   -->
-<!--   Last modified on 12/16/2009  -->
-<!--   Summarizer Reductions update.aiml  -->
+<!--  -->
+<!-- Copyright &copy; 2011 ALICE A.I. Foundation, Inc. -->
+<!--  -->
+<!-- This program is free software; you can redistribute it and/or modify -->
+<!-- it under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation -->
+<!--  -->
+
 <category>
 <pattern>SORRY  *</pattern>
 <template>
-<srai>SORRY</srai>. 
+<srai>SORRY</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
@@ -17,15 +19,15 @@
 <category>
 <pattern>YES  *</pattern>
 <template>
-<srai>YES</srai>. 
+<srai>YES</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>NO *</pattern>
+<pattern>NO  *</pattern>
 <template>
-<srai><star/></srai>. 
+<srai>NO</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
@@ -33,7 +35,7 @@
 <category>
 <pattern>BUT  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -41,7 +43,7 @@
 <category>
 <pattern>ER  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -49,7 +51,7 @@
 <category>
 <pattern>SINCE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -57,7 +59,7 @@
 <category>
 <pattern>GENTLEMEN  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -65,7 +67,7 @@
 <category>
 <pattern>VAGUELY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -73,7 +75,7 @@
 <category>
 <pattern>QUITE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -81,7 +83,7 @@
 <category>
 <pattern>PRECISELY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -89,7 +91,7 @@
 <category>
 <pattern>SOMEHOW  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -97,7 +99,7 @@
 <category>
 <pattern>APPROXIMATELY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -105,7 +107,7 @@
 <category>
 <pattern>I ASSURE YOU THAT  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -113,7 +115,7 @@
 <category>
 <pattern>I ASSURE YOU  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -121,7 +123,7 @@
 <category>
 <pattern>EVIDENTLY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -129,7 +131,7 @@
 <category>
 <pattern>AYE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -137,7 +139,7 @@
 <category>
 <pattern>NOW  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -145,7 +147,7 @@
 <category>
 <pattern>JUST  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -153,7 +155,7 @@
 <category>
 <pattern>THAT MEANS  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -161,7 +163,7 @@
 <category>
 <pattern>YOU MEAN  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -169,7 +171,7 @@
 <category>
 <pattern>YOU REALIZE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -177,7 +179,7 @@
 <category>
 <pattern>I ASSUME  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -185,7 +187,7 @@
 <category>
 <pattern>PERHAPS  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -193,7 +195,7 @@
 <category>
 <pattern>I THINK  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -201,7 +203,7 @@
 <category>
 <pattern>THEN  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -209,7 +211,7 @@
 <category>
 <pattern>HOWEVER  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -217,7 +219,7 @@
 <category>
 <pattern>ALL  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -225,7 +227,7 @@
 <category>
 <pattern>AYE SIR  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -233,7 +235,7 @@
 <category>
 <pattern>PLEASE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -241,7 +243,7 @@
 <category>
 <pattern>OR  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -249,7 +251,7 @@
 <category>
 <pattern>SO  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -257,7 +259,7 @@
 <category>
 <pattern>OH  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -265,7 +267,7 @@
 <category>
 <pattern>ONLY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -274,14 +276,14 @@
 <category>
 <pattern>SINCE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 <category>
 <pattern>THANK YOU  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -289,7 +291,7 @@
 <category>
 <pattern>QUITE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -297,7 +299,7 @@
 <category>
 <pattern>OF COURSE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -305,7 +307,7 @@
 <category>
 <pattern>I AM SORRY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -313,7 +315,7 @@
 <category>
 <pattern>I THOUGHT  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -321,7 +323,7 @@
 <category>
 <pattern>UNLESS  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -329,7 +331,7 @@
 <category>
 <pattern>I WOULD SAY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -337,7 +339,7 @@
 <category>
 <pattern>I BELIEVE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -345,7 +347,7 @@
 <category>
 <pattern>SOME  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -353,7 +355,7 @@
 <category>
 <pattern>ANY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -361,7 +363,7 @@
 <category>
 <pattern>AT LEAST  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -369,7 +371,7 @@
 <category>
 <pattern>AND  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -377,7 +379,7 @@
 <category>
 <pattern>OBVIOUSLY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -385,7 +387,7 @@
 <category>
 <pattern>VERY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -393,7 +395,7 @@
 <category>
 <pattern>IT SEEMS  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -401,7 +403,7 @@
 <category>
 <pattern>I AM SURE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -409,7 +411,7 @@
 <category>
 <pattern>STILL  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -417,7 +419,7 @@
 <category>
 <pattern>THEREFORE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -425,17 +427,23 @@
 <category>
 <pattern>INDEED  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
+<category>
+<pattern>SURELY  *</pattern>
+<template>
+<srai>  <star /></srai>
+</template>
+</category>
 
 
 <category>
 <pattern>EVEN  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -443,7 +451,7 @@
 <category>
 <pattern>DEFINITELY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -451,7 +459,7 @@
 <category>
 <pattern>I SAID  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -459,7 +467,7 @@
 <category>
 <pattern>ABOUT  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -467,7 +475,7 @@
 <category>
 <pattern>HEY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -475,7 +483,7 @@
 <category>
 <pattern>EVERY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -483,7 +491,7 @@
 <category>
 <pattern>ONCE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -491,7 +499,7 @@
 <category>
 <pattern>ALMOST  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -499,7 +507,7 @@
 <category>
 <pattern>AH  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -507,7 +515,7 @@
 <category>
 <pattern>ALL RIGHT  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -515,7 +523,7 @@
 <category>
 <pattern>PROBABLY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -523,7 +531,7 @@
 <category>
 <pattern>BY THE WAY  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -531,7 +539,7 @@
 <category>
 <pattern>MAYBE  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -539,7 +547,7 @@
 <category>
 <pattern>IT MEANS  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -547,7 +555,7 @@
 <category>
 <pattern>AND SO  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -555,7 +563,7 @@
 <category>
 <pattern>MAY I ASK  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -563,7 +571,7 @@
 <category>
 <pattern>SEEMS  *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -571,7 +579,7 @@
 <category>
 <pattern>NOT MUCH ASIDE FROM THE FACT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -579,7 +587,7 @@
 <category>
 <pattern>IN WHICH CASE *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -651,7 +659,7 @@
 <category>
 <pattern>HAVE I EVER MENTIONED *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -689,9 +697,9 @@
 
 
 <category>
-<pattern>* TOO</pattern>
+<pattern>_ TOO</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -699,7 +707,7 @@
 <category>
 <pattern>SIR *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -755,7 +763,7 @@
 <category>
 <pattern>FORGIVE ME BUT *</pattern>
 <template>
-<srai>FORGIVE ME</srai>. 
+<srai>FORGIVE ME</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
@@ -771,7 +779,7 @@
 <category>
 <pattern>FORTUNATELY *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -779,7 +787,7 @@
 <category>
 <pattern>FROM HERE ON *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -787,7 +795,7 @@
 <category>
 <pattern>FROM NOW ON *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -795,7 +803,7 @@
 <category>
 <pattern>HE CONVINCED ME *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -809,7 +817,7 @@
 
 
 <category>
-<pattern>* EVIDENTLY *</pattern>
+<pattern>_ EVIDENTLY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -817,9 +825,9 @@
 
 
 <category>
-<pattern>* I ASSURE YOU</pattern>
+<pattern>_ I ASSURE YOU</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -865,7 +873,7 @@
 
 
 <category>
-<pattern>* MERELY *</pattern>
+<pattern>_ MERELY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -889,7 +897,7 @@
 
 
 <category>
-<pattern>* PRETTY GOOD *</pattern>
+<pattern>_ PRETTY GOOD *</pattern>
 <template>
 <srai>  <star /> GOOD <star index="2" /></srai>
 </template>
@@ -929,9 +937,9 @@
 
 
 <category>
-<pattern>* IN EVERY SENSE OF THE WORD</pattern>
+<pattern>_ IN EVERY SENSE OF THE WORD</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -977,7 +985,7 @@
 
 
 <category>
-<pattern>* RATHER SIMPLE *</pattern>
+<pattern>_ RATHER SIMPLE *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -985,7 +993,7 @@
 
 
 <category>
-<pattern>* IN SOME WAYS *</pattern>
+<pattern>_ IN SOME WAYS *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1009,7 +1017,7 @@
 
 
 <category>
-<pattern>* WOULD HAVE BEEN *</pattern>
+<pattern>_ WOULD HAVE BEEN *</pattern>
 <template>
 <srai>  <star /> WOULD BE <star index="2" /></srai>
 </template>
@@ -1019,13 +1027,13 @@
 <category>
 <pattern>SEEMS TO ME THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* IS BECOMING *</pattern>
+<pattern>_ IS BECOMING *</pattern>
 <template>
 <srai>  <star /> IS <star index="2" /></srai>
 </template>
@@ -1033,7 +1041,7 @@
 
 
 <category>
-<pattern>* PRETTY HEADY *</pattern>
+<pattern>_ PRETTY HEADY *</pattern>
 <template>
 <srai>  <star /> HEADY <star index="2" /></srai>
 </template>
@@ -1041,9 +1049,9 @@
 
 
 <category>
-<pattern>* THESE DAYS</pattern>
+<pattern>_ THESE DAYS</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1073,7 +1081,7 @@
 
 
 <category>
-<pattern>* ACTUALLY *</pattern>
+<pattern>_ ACTUALLY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1083,7 +1091,7 @@
 <category>
 <pattern>BEFORE LONG *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1099,7 +1107,7 @@
 <category>
 <pattern>SOON *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1129,15 +1137,15 @@
 
 
 <category>
-<pattern>* WHATEVER IT WAS</pattern>
+<pattern>_ WHATEVER IT WAS</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* HIT ME TOO</pattern>
+<pattern>_ HIT ME TOO</pattern>
 <template>
 <srai>  <star /> HIT ME</srai>
 </template>
@@ -1147,7 +1155,7 @@
 <category>
 <pattern>JIM *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1163,7 +1171,7 @@
 <category>
 <pattern>I SUPPOSE *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1177,7 +1185,7 @@
 
 
 <category>
-<pattern>* SO CAREFUL *</pattern>
+<pattern>_ SO CAREFUL *</pattern>
 <template>
 <srai>  <star /> CAREFUL <star index="2" /></srai>
 </template>
@@ -1193,7 +1201,7 @@
 
 
 <category>
-<pattern>* MUST SURELY *</pattern>
+<pattern>_ MUST SURELY *</pattern>
 <template>
 <srai>  <star /> MUST <star index="2" /></srai>
 </template>
@@ -1203,7 +1211,7 @@
 <category>
 <pattern>* BUT YOU *</pattern>
 <template>
-. <srai>YOU <star index="2" /></srai>
+<srai>  <star /></srai>. <srai>YOU <star index="2" /></srai>
 </template>
 </category>
 
@@ -1211,7 +1219,7 @@
 <category>
 <pattern>YOU MUST REALISE *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1243,7 +1251,7 @@
 <category>
 <pattern>BOTH AND *</pattern>
 <template>
-<srai>BOTH</srai>. 
+<srai>BOTH</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
@@ -1267,7 +1275,7 @@
 <category>
 <pattern>I WILL STATE THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1291,7 +1299,7 @@
 <category>
 <pattern>* BUT IT *</pattern>
 <template>
-.  <srai>IT <star index="2" /></srai>
+<srai>  <star /></srai>.  <srai>IT <star index="2" /></srai>
 </template>
 </category>
 
@@ -1299,7 +1307,7 @@
 <category>
 <pattern>I CAN ASSURE YOU THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1323,13 +1331,13 @@
 <category>
 <pattern>YOU REALISE *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* GET TOO MANY *</pattern>
+<pattern>_ GET TOO MANY *</pattern>
 <template>
 <srai>  <star /> GET MANY <star index="2" /></srai>
 </template>
@@ -1337,7 +1345,7 @@
 
 
 <category>
-<pattern>* OBVIOUSLY *</pattern>
+<pattern>_ OBVIOUSLY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1345,23 +1353,15 @@
 
 
 <category>
-<pattern>* HAS DEMONSTRATED *</pattern>
+<pattern>_ HAS DEMONSTRATED *</pattern>
 <template>
-.  <srai>  <star index="2" /></srai>
+<srai>  <star /></srai>.  <srai>  <star index="2" /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* CERTAINLY *</pattern>
-<template>
-<srai>  <star />  <star index="2" /></srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* TOTALLY *</pattern>
+<pattern>_ CERTAINLY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1369,7 +1369,15 @@
 
 
 <category>
-<pattern>* BY NOW *</pattern>
+<pattern>_ TOTALLY *</pattern>
+<template>
+<srai>  <star />  <star index="2" /></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>_ BY NOW *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1387,7 +1395,7 @@
 <category>
 <pattern>SIMPLY THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1395,13 +1403,13 @@
 <category>
 <pattern>SIMPLY *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* WE WOULD KNOW ABOUT IT WOULD NOT WE</pattern>
+<pattern>_ WE WOULD KNOW ABOUT IT WOULD NOT WE</pattern>
 <template>
 <srai>WOULD WE KNOW <star /></srai>
 </template>
@@ -1419,13 +1427,13 @@
 <category>
 <pattern>I WAS SUGGESTING THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* COULD PROBABLY *</pattern>
+<pattern>_ COULD PROBABLY *</pattern>
 <template>
 <srai>  <star /> CAN <star index="2" /></srai>
 </template>
@@ -1435,13 +1443,13 @@
 <category>
 <pattern>SOMEWHAT BUT *</pattern>
 <template>
-<srai>YES</srai>.   
+<srai>YES</srai>.   <srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* SIMPLY *</pattern>
+<pattern>_ SIMPLY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1457,7 +1465,7 @@
 
 
 <category>
-<pattern>* STEADILY *</pattern>
+<pattern>_ STEADILY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1483,7 +1491,7 @@
 <category>
 <pattern>THAT REQUIRES YOU TO *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1505,7 +1513,7 @@
 
 
 <category>
-<pattern>* HE KNOWS THAT</pattern>
+<pattern>_ HE KNOWS THAT</pattern>
 <template>
 <srai>HE KNOWS <star /></srai>
 </template>
@@ -1513,15 +1521,15 @@
 
 
 <category>
-<pattern>* COMPLETELY</pattern>
+<pattern>_ COMPLETELY</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* OUGHT TO *</pattern>
+<pattern>_ OUGHT TO *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1547,7 +1555,7 @@
 <category>
 <pattern>I AM SUGGESTING THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1563,15 +1571,15 @@
 <category>
 <pattern>I DIRECT YOUR ATTENTION TO THE FACT THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* IMMEDIATELY</pattern>
+<pattern>_ IMMEDIATELY</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1603,7 +1611,7 @@
 <category>
 <pattern>ACKNOWLEDGED THAT *</pattern>
 <template>
-<srai> YES</srai>. 
+<srai> YES</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
@@ -1611,7 +1619,7 @@
 <category>
 <pattern>ACKNOWLEDGED *</pattern>
 <template>
-<srai>YES</srai>.  
+<srai>YES</srai>.  <srai>  <star /></srai>
 </template>
 </category>
 
@@ -1665,7 +1673,7 @@
 
 
 <category>
-<pattern>* ABSOLUTELY NO *</pattern>
+<pattern>_ ABSOLUTELY NO *</pattern>
 <template>
 <srai>  <star /> NO <star index="2" /></srai>
 </template>
@@ -1699,7 +1707,7 @@
 <category>
 <pattern>THIS BEING THE CASE *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1763,7 +1771,7 @@
 <category>
 <pattern>WE THINK *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1771,7 +1779,7 @@
 <category>
 <pattern>WE THINK THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1793,9 +1801,9 @@
 
 
 <category>
-<pattern>* SIR</pattern>
+<pattern>_ SIR</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1835,7 +1843,7 @@
 <category>
 <pattern>LOGICALLY *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1851,15 +1859,15 @@
 <category>
 <pattern>SENSORS SHOW *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* I SHOULD SAY</pattern>
+<pattern>_ I SHOULD SAY</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1881,7 +1889,7 @@
 
 
 <category>
-<pattern>* WAS PROBABLY *</pattern>
+<pattern>_ WAS PROBABLY *</pattern>
 <template>
 <srai>  <star /> WAS <star index="2" /></srai>
 </template>
@@ -1889,7 +1897,7 @@
 
 
 <category>
-<pattern>* EXTREMELY *</pattern>
+<pattern>_ EXTREMELY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1899,13 +1907,13 @@
 <category>
 <pattern>ASTONISHING THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* ABSOLUTELY *</pattern>
+<pattern>_ ABSOLUTELY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -1923,7 +1931,7 @@
 <category>
 <pattern>* AND WE WILL *</pattern>
 <template>
-. <srai>WE WILL <star index="2" /></srai>
+<srai>  <star /></srai>. <srai>WE WILL <star index="2" /></srai>
 </template>
 </category>
 
@@ -1931,7 +1939,7 @@
 <category>
 <pattern>CURIOUS *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -1947,7 +1955,7 @@
 <category>
 <pattern>DO YOU REALISE THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2035,13 +2043,13 @@
 <category>
 <pattern>I CAN SEE THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* HAVE LOCATED *</pattern>
+<pattern>_ HAVE LOCATED *</pattern>
 <template>
 <srai>  <star /> LOCATED <star index="2" /></srai>
 </template>
@@ -2059,7 +2067,7 @@
 <category>
 <pattern>I MUST POINT OUT THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2067,7 +2075,7 @@
 <category>
 <pattern>I REMIND YOU THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2075,13 +2083,13 @@
 <category>
 <pattern>I REMIND YOU *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* SPECIFICALLY *</pattern>
+<pattern>_ SPECIFICALLY *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -2105,9 +2113,9 @@
 
 
 <category>
-<pattern>* AND THAT MEANS *</pattern>
+<pattern>_ AND THAT MEANS *</pattern>
 <template>
-.  <srai>  <star index="2" /></srai>.
+<srai>  <star /></srai>.  <srai>  <star index="2" /></srai>.
 </template>
 </category>
 
@@ -2187,7 +2195,7 @@
 <category>
 <pattern>I HAVE THE FEELING *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2195,7 +2203,7 @@
 <category>
 <pattern>I HAVE THE FEELING THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2211,7 +2219,7 @@
 <category>
 <pattern>I WOULD ADVISE YOU TO *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2219,7 +2227,7 @@
 <category>
 <pattern>ORDINARILY *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2243,7 +2251,7 @@
 <category>
 <pattern>WE UNDERSTAND ONLY THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2251,7 +2259,7 @@
 <category>
 <pattern>BELIEVE ME *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2283,7 +2291,7 @@
 <category>
 <pattern>IT IS OBVIOUS THAT *</pattern>
 <template>
-<srai>IT IS OBVIOUS</srai>. 
+<srai>IT IS OBVIOUS</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
@@ -2305,7 +2313,7 @@
 
 
 <category>
-<pattern>* MUST HAVE BEEN *</pattern>
+<pattern>_ MUST HAVE BEEN *</pattern>
 <template>
 <srai>  <star /> SEEMS <star index="2" /></srai>
 </template>
@@ -2315,7 +2323,7 @@
 <category>
 <pattern>AMONG OTHER GIFTS *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2323,7 +2331,7 @@
 <category>
 <pattern>AS FAR AS WE CAN TELL *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2331,7 +2339,7 @@
 <category>
 <pattern>BETWEEN THE TWO OF US *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2339,7 +2347,7 @@
 <category>
 <pattern>BY YOUR OWN ADMISSION *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2355,13 +2363,13 @@
 <category>
 <pattern>DO NOT FORGET *</pattern>
 <template>
-<srai>DO NOT FORGET</srai>. 
+<srai>DO NOT FORGET</srai>. <srai>  <star /></srai>
 </template>
 </category>
 
 
 <category>
-<pattern>* BY ANY CHANCE *</pattern>
+<pattern>_ BY ANY CHANCE *</pattern>
 <template>
 <srai>  <star />  <star index="2" /></srai>
 </template>
@@ -2371,7 +2379,7 @@
 <category>
 <pattern>ESSENTIALLY *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2379,7 +2387,7 @@
 <category>
 <pattern>FOR A WHILE THERE *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2403,7 +2411,7 @@
 <category>
 <pattern>I PRESUME *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2419,7 +2427,7 @@
 <category>
 <pattern>I SURMISED *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2427,7 +2435,7 @@
 <category>
 <pattern>I SUSPECT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2451,7 +2459,7 @@
 <category>
 <pattern>NONETHELESS *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2507,7 +2515,7 @@
 <category>
 <pattern>*  BUT I AM *</pattern>
 <template>
-. <srai>I AM <star index="2" /></srai>
+<srai>  <star /></srai>. <srai>I AM <star index="2" /></srai>
 </template>
 </category>
 
@@ -2537,7 +2545,7 @@
 
 
 <category>
-<pattern>* STRONGLY RECOMMEND *</pattern>
+<pattern>_ STRONGLY RECOMMEND *</pattern>
 <template>
 <srai>  <star /> RECOMMEND <star index="2" /></srai>
 </template>
@@ -2545,9 +2553,9 @@
 
 
 <category>
-<pattern>* AND YOU KNOW IT</pattern>
+<pattern>_ AND YOU KNOW IT</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2555,7 +2563,7 @@
 <category>
 <pattern>YOU CAN REST ASSURED THAT *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2593,7 +2601,7 @@
 
 
 <category>
-<pattern>* ANYTHING LESS THAN *</pattern>
+<pattern>_ ANYTHING LESS THAN *</pattern>
 <template>
 <srai>  <star /> LESS THAN <star index="2" /></srai>
 </template>
@@ -2643,7 +2651,7 @@
 <category>
 <pattern>ANYHOW *</pattern>
 <template>
-
+<srai>  <star /></srai>
 </template>
 </category>
 
@@ -2778,7 +2786,7 @@
  
 
 <category>
-<pattern>* COULD POSSIBLY *</pattern>
+<pattern>_ COULD POSSIBLY *</pattern>
 
 <template><srai><star/> COULD <star index="2"/></srai></template>
 </category>
@@ -2802,7 +2810,7 @@
  
 
 <category>
-<pattern>* IS LOOKING FAVORABLY ON * </pattern>
+<pattern>_ IS LOOKING FAVORABLY ON * </pattern>
 
 <template><srai><star/> LIKES <star index="2"/></srai></template>
 </category>
@@ -2858,7 +2866,7 @@
  
 
 <category>
-<pattern>* USUALLY *</pattern>
+<pattern>_ USUALLY *</pattern>
 
 <template><srai><star/> <star index="2"/></srai></template>
 </category>
@@ -2882,7 +2890,7 @@
  
 
 <category>
-<pattern>* NORMALLY *</pattern>
+<pattern>_ NORMALLY *</pattern>
 
 <template><srai><star/> <star index="2"/></srai></template>
 </category>
@@ -2890,7 +2898,7 @@
  
 
 <category>
-<pattern>* GENERALLY *</pattern>
+<pattern>_ GENERALLY *</pattern>
 
 <template><srai><star/> <star index="2"/></srai></template>
 </category>
@@ -3156,7 +3164,7 @@
 <category>
 <pattern>I AM ORDERING YOU TO *</pattern>
 <template>
-<!-- REDUCTION -->
+<srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
@@ -3164,7 +3172,7 @@
 <category>
 <pattern>TOO *</pattern>
 <template>
-<!-- REDUCTION -->
+<srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
@@ -3435,7 +3443,7 @@
 <category>
 <pattern>RESPECTFULLY *</pattern>
 <template>
-<!-- REDUCTION -->
+<srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
@@ -3443,7 +3451,7 @@
 <category>
 <pattern>I SUSPECTED *</pattern>
 <template>
-<!-- REDUCTION -->
+<srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
@@ -3480,9 +3488,20 @@
 </category>
 
 
+<category>
+<pattern>HAVE YOU GOT *</pattern>
+<template>
+<srai>DO YOU HAVE <star /></srai><!-- REDUCTION -->
+</template>
+</category>
 
 
-
+<category>
+<pattern>AM *</pattern>
+<template>
+<srai>I AM <star /></srai><!-- REDUCTION -->
+</template>
+</category>
 
 
 <category>
@@ -3504,7 +3523,7 @@
 <category>
 <pattern>YOU MAKE IT SOUND LIKE *</pattern>
 <template>
-<!-- REDUCTION -->
+<srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
@@ -3664,7 +3683,7 @@
 <category>
 <pattern>KK *</pattern>
 <template>
-<srai>OK</srai><!-- REDUCTION -->
+<srai>OK</srai><srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
@@ -3696,7 +3715,7 @@
 <category>
 <pattern>HY *</pattern>
 <template>
-<srai>HI</srai><!-- REDUCTION -->
+<srai>HI</srai><srai>  <star /></srai><!-- REDUCTION -->
 </template>
 </category>
 
