@@ -7317,110 +7317,123 @@ If you have any other questions, please call the library at 440.255.8811.
 <!--CHECK OUT-->
 <category>
 <pattern>CHCKOUT</pattern>
-<template>Are you asking how to check out items or laptops?
+<template>Would you like me to tell you how to check out books and other items or
+would you like me to tell you how to check out our laptops?
 </template>
 </category>
 
 <category>
 <pattern>LAPTOP</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAPTOP</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAPTOP</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
 <pattern>LAPTOP *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAPTOP *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAPTOP *</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
 <pattern>LAPTOPS</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAPTOPS</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAPTOPS</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
 <pattern>LAPTOPS *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAPTOPS *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAPTOPS *</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 
 <category>
 <pattern>LAP TOP</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAP TOP</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAP TOP</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
 <pattern>LAP TOP *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAP TOP *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAP TOP *</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
 <pattern>LAP TOPS</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAP TOPS</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAP TOPS</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
 <pattern>LAP TOPS *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
 </category>
 
 <category>
-<pattern>* LAP TOPS *</pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<pattern>_ LAP TOPS *</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
 <template><srai>CHCKOUTLPTP</srai></template>
+</category>
+
+<category>
+<pattern> YES </pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
+<template>I didn't mean that as a yes or no question. Please enter "items" or "laptops" and I'll tell you how to check them out.</template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>ARE YOU ASKING HOW TO CHECK OUT ITEMS OR LAPTOPS</that>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
+<template><srai>CHCKOUTITM</srai></template>
+</category>
+
+<category>
+<pattern>ITEM</pattern>
+<that>PLEASE ENTER ITEMS * HOW TO CHECK THEM OUT</that>
 <template><srai>CHCKOUTITM</srai></template>
 </category>
 

@@ -191,6 +191,11 @@ I'm a talking cartoon cat Jim, not a dictionary. Here's Merriam-Webster. If you 
 <template><srai>ASKQUESTION</srai></template>
 </category>
 
+<category> 
+<pattern>I NEED *</pattern> 
+<template><srai>ANSWRQ</srai></template> 
+</category>  
+
 <!--HELP FIND STAR-->
 
 <category> 
@@ -313,13 +318,12 @@ blocker and ask me again.
 <category>
 <pattern>*</pattern>
 <template>
-<think>
-<set name="searcharg"><star/></set>
-</think>
 <random>
 <li>Would you like me to look for this?</li>
 <li>Would you like me to search for this?</li>
 <li>Would you like to begin a search for this?</li>
+<li>Would you like me to start searching for this?</li>
+<li>Would you like me to start looking for this?</li>
 </random>
 </template>
 </category>
@@ -492,7 +496,7 @@ blocker and ask me again.
 </template>
 </category>
 
-<!--IGNORE PROMPT-->
+<!--
 
 <category>
 <pattern> * </pattern>
@@ -602,7 +606,7 @@ Let's see what's in the catalog. You should see the results as a new window or a
 </template>
 </category>
 
-<!--END IGNORE PROMPT-->
+-->
 
 <category>
 <pattern>NO</pattern>
@@ -649,17 +653,25 @@ Let's see what's in the catalog. You should see the results as a new window or a
 <pattern>INITSEARCH</pattern>
 <template>
 Please turn off your pop up blocker now so you can see the results of this search.
-<br/><br/> OK, let's begin.
-<br/><br/>
-You entered <b><get name="searcharg"><star/></get></b>. 
+<br/><br/> OK, let's begin. 
+<br/><br/> Type in either a title or an author or your topic.
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>TYPE IN EITHER A TITLE OR AN AUTHOR OR YOUR TOPIC</that>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+<set name="topic">INITS2</set>
+</think>
+You entered <b><star/></b>. 
 <random>
 <li>Are you looking for this in our catalog or would you like information about it?</li>
 <li>Should I look for this in our catalog or do you want information about it?</li>
 <li>Are you searching for this in our catalog or do you want information about it?</li>
 </random>
-<think>
-<set name="topic">INITS2</set>
-</think>
 </template>
 </category>
 

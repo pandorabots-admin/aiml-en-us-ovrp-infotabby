@@ -103,7 +103,6 @@
 
 <!--acquisition reqs-->
 
-
 <category>
 <pattern>PRCHREQ</pattern>
 <template>Tell me about the item you're suggesting we purchase. Please enter the author, title, or other information for the item.
@@ -112,8 +111,6 @@
 </think>
 </template>
 </category>
-
-
 
 <topic name="PRCHREQ">
 <category>
@@ -133,7 +130,6 @@ a month. Please check the status of this request then.</template>
 </category>
 </topic>
 
-
 <topic name="PRCHREQ">
 <category>
 <pattern>* MYSTERY </pattern>
@@ -142,7 +138,6 @@ a month. Please check the status of this request then.</template>
 a month. Please check the status of this request then.</template>
 </category>
 </topic>
-
 
 <topic name="PRCHREQ">
 <category>
@@ -153,7 +148,6 @@ a month. Please check the status of this request then.</template>
 </category>
 </topic>
 
-
 <topic name="PRCHREQ">
 <category>
 <pattern>* MYSTERY *</pattern>
@@ -162,14 +156,6 @@ a month. Please check the status of this request then.</template>
 a month. Please check the status of this request then.</template>
 </category>
 </topic>
-
-
-
-
-
-
-
-
 
 <topic name="PRCHREQ">
 <category>
@@ -200,7 +186,6 @@ a month. Please check the status of this request then.</template>
 </category>
 </topic>
 
-
 <topic name="PRCHREQ">
 <category>
 <pattern>* MYSTERIES *</pattern>
@@ -209,25 +194,6 @@ a month. Please check the status of this request then.</template>
 a month. Please check the status of this request then.</template>
 </category>
 </topic>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <category>
 <pattern>REQUEST * BUY</pattern>
@@ -468,6 +434,104 @@ a month. Please check the status of this request then.</template>
 <category>
 <pattern>WHO ORDERS * </pattern>
 <template>Members of the library staff order materials under the supervision of Barbara Hauer, our Collection Manager.</template>
+</category>
+
+<!--from newitems.aiml-->
+
+<category>
+<pattern>YES</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* YES</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* YES *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>OK</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>OK *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* OK</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* OK *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>O K</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>O K *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* O K</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* O K *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SURE</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SURE *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SURE</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SURE *</pattern>
+<that>WOULD YOU LIKE TO MAKE A PURCHASE REQUEST</that>
+<template><srai>PRCHREQ</srai></template>
 </category>
 
 

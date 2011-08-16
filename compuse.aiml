@@ -824,8 +824,9 @@ Branch does not have WiFi.
 
 <category>
   <pattern>LPTP</pattern>
-  <template>You are welcome to use your laptop in the library. We have a wireless network that is free and available at the Main Library during regular business hours. 
-  The Lake and Headlands Branches do not have wireless. At this time, you cannot print through our wireless network. Please do not allow your cords to become a tripping hazard if you are plugging in to an outlet.
+  <template>You are welcome to use your laptop in the library. You can also check out a laptop for use in the Main Library. 
+Ask at the Main Library Computer Help Desk on the ground floor near the public PC area or follow this link for more information about the <a href="http://www.mentorpl.org/edevice.html" target="_blank"><b>library laptops</b></a>.
+You can print from the library laptops, but not from your personal laptop. The Lake and Headlands Branches do not have wireless. Please do not allow your cords to become a tripping hazard if you are plugging in to an outlet.
   </template>
 </category>
 

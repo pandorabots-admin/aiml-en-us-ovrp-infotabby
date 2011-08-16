@@ -270,52 +270,6 @@
   <template><srai>bulletin boards</srai></template>
 </category>
 
-<!--color copier-->
-
-<category>
-  <pattern>COLORCOPIER</pattern>
-  <template>The library has a color printer and a color copier. Both color prints and color copies are fifty cents per page. 
- </template>
-</category>
-
-<category>
-  <pattern>* color copier</pattern>
-  <template><srai>COLORCOPIER</srai></template>
-</category>
-
-<category>
-  <pattern>* color copier *</pattern>
-  <template><srai>COLORCOPIER</srai></template>
-</category>
-
-<category>
-  <pattern>color copier *</pattern>
-  <template><srai>COLORCOPIER</srai></template>
-</category>
-
-<category>
-  <pattern>color printing</pattern>
- <template><srai>COLORCOPIER</srai></template>
-</category>
-
-<category>
-  <pattern>* color printing</pattern>
- <template><srai>COLORCOPIER</srai></template>
-</category>
-
-<category>
-  <pattern>* color printing *</pattern>
-  <template><srai>COLORCOPIER</srai></template>
-</category>
-
-<category>
-  <pattern>color printing *</pattern>
- <template><srai>COLORCOPIER</srai></template>
-</category>
-
-
-
-
 <!--display cases-->
 
 <category>
@@ -367,195 +321,202 @@
 <!--one word "printing" -->
 
 <category>
-<pattern>PRINT</pattern>
-<template>You can make black and white or color prints at the Main Library. Black and white prints are ten cents per page, color prints
-are fifty cents per page. If you need help using our printers or copiers, ask one of the library staff for assistance.
+<pattern>PRNT</pattern>
+<template>You can make both black and white and color prints at the Main Library. The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white printing only. The cost is $.10 per page. If you need help using our printers or copiers, ask one of the library staff for assistance.
 </template>
 </category>
 
 <category>
-<pattern>_ PRINT</pattern>
-<template><srai>PRINT</srai></template>
+<pattern>PRINT</pattern>
+<template><srai>PRNT</srai></template>
+</category>
+
+<category>
+<pattern>* PRINT</pattern>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>PRINT *</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
-<pattern>_ PRINT *</pattern>
-<template><srai>PRINT</srai></template>
+<pattern>* PRINT *</pattern>
+<template><srai>PRNT</srai></template>
 </category>
 
 
 <category>
 <pattern>PRINTS</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>_ PRINTS</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>PRINTS *</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>_ PRINTS *</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 
 <category>
 <pattern>PRINTING</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>_ PRINTING</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>PRINTING *</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 <category>
 <pattern>_ PRINTING *</pattern>
-<template><srai>PRINT</srai></template>
+<template><srai>PRNT</srai></template>
 </category>
 
 
+<category>
+<pattern>PRINTING</pattern>
+<template><srai>PRNT</srai></template>
+</category>
+
+<category>
+<pattern>_ PRINTING</pattern>
+<template><srai>PRNT</srai></template>
+</category>
+
+<category>
+<pattern>PRINTING *</pattern>
+<template><srai>PRNT</srai></template>
+</category>
+
+<category>
+<pattern>_ PRINTING *</pattern>
+<template><srai>PRNT</srai></template>
+</category>
 
 <!--one word copy -->
 
 <category>
-<pattern>COPY</pattern>
-<template>You can make black and white or color copies at the Main Library. Black and white copies are ten cents per page, color copies
-are fifty cents per page.
+<pattern>CPY</pattern>
+<template>You can make both black and white and color copies at the Main Library. The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white copying only. The cost is $.10 per page. 
 </template>
+</category>
+
+<category>
+<pattern>COPY</pattern>
+<template><srai>CPY</srai></template>
 </category>
 
 <!--
 <category>
 <pattern>* COPY</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>COPY *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>* COPY *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 -->
 
 <category>
 <pattern>COPIES</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ COPIES</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>COPIES *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ COPIES *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>COPIER</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ COPIER</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>COPIER *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ COPIER *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>COPIERS</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ COPIERS</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>COPIERS *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ COPIERS *</pattern>
-<template><srai>COPY</srai></template>
-</category>
-
-<category>
-<pattern>PRINTING</pattern>
-<template><srai>COPY</srai></template>
-</category>
-
-<category>
-<pattern>_ PRINTING</pattern>
-<template><srai>COPY</srai></template>
-</category>
-
-<category>
-<pattern>PRINTING *</pattern>
-<template><srai>COPY</srai></template>
-</category>
-
-<category>
-<pattern>_ PRINTING *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>XEROX</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ XEROX</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>XEROX *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 <category>
 <pattern>_ XEROX *</pattern>
-<template><srai>COPY</srai></template>
+<template><srai>CPY</srai></template>
 </category>
 
 
@@ -1645,68 +1606,336 @@ our Reference Department. The Library does not have a designated quiet room, but
 <!--voter registration-->
 
 <category>
-<pattern>VOTER REGISTRATION</pattern>
+<pattern>VTRREG</pattern>
 <template>You may pick up a voter registration form at the Main Library, at either Branch, or <a href="http://www.sos.state.oh.us/sos/upload/publications/election/VRform.pdf" target="*blank"><b>online</b></a>. We also have absentee ballot forms, as well. For more information about voter registration in Ohio, follow this <a href="http://www.sos.state.oh.us/elections/voterInformation/regToVote.aspx" target="_blank"><b>link</b></a>. </template>
 </category>
 
 <category>
+<pattern>VOTER REGISTRATION</pattern>
+<template><srai>VTRREG</srai></template>
+</category>
+
+<category>
 <pattern>* VOTER REGISTRATION</pattern>
-<template><srai>VOTER REGISTRATION</srai> </template>
+<template><srai>VTRREG</srai> </template>
 </category>
 
 <category>
 <pattern>* VOTER REGISTRATION *</pattern>
-<template><srai>VOTER REGISTRATION</srai> </template>
+<template><srai>VTRREG</srai> </template>
 </category>
 
 <category>
 <pattern>VOTER REGISTRATION *</pattern>
-<template><srai>VOTER REGISTRATION</srai> </template>
+<template><srai>VTRREG</srai> </template>
 </category>
 
 <category>
 <pattern>REGISTER * VOTE</pattern>
-<template><srai>VOTER REGISTRATION</srai> </template>
+<template><srai>VTRREG</srai> </template>
 </category>
 
 <category>
 <pattern>* REGISTER * VOTE</pattern>
-<template><srai>VOTER REGISTRATION</srai> </template>
+<template><srai>VTRREG</srai> </template>
 </category>
 
 <category>
 <pattern>* REGISTER * VOTE *</pattern>
-<template><srai>VOTER REGISTRATION</srai> </template>
+<template><srai>VTRREG</srai> </template>
 </category>
+
+
+<category>
+<pattern>ABSBLLT</pattern>
+<template>You may pick up an absentee ballot form at the Main Library or at either Branch, or <a href="http://www.sos.state.oh.us/sos/upload/elections/forms/11-A.pdf" target="_blank"><b>online</b></a>. For more information about absentee voting in Ohio, follow this <a href="http://www.sos.state.oh.us/elections/voterInformation/absentee.aspx" target="_blank"><b>link</b></a>. </template>
+</category>
+
 
 <category>
 <pattern>ABSENTEE BALLOT</pattern>
-<template>You may pick up an absentee ballot form at the Main Library or at either Branch, or <a href="http://www.sos.state.oh.us/sos/upload/elections/forms/11-A.pdf" target="_blank"><b>online</b></a>. For more information about absentee voting in Ohio, follow this <a href="http://www.sos.state.oh.us/elections/voterInformation/absentee.aspx" target="_blank"><b>link</b></a>. </template>
+<template><srai>ABSBLLT</srai></template>
 </category>
 
 <category>
 <pattern>* ABSENTEE BALLOT</pattern>
-<template><srai>ABSENTEE BALLOT</srai> </template>
+<template><srai>ABSBLLT</srai> </template>
 </category>
 
 <category>
 <pattern>* ABSENTEE BALLOT *</pattern>
-<template><srai>ABSENTEE BALLOT</srai> </template>
+<template><srai>ABSBLLT</srai> </template>
 </category>
 
 <category>
 <pattern>ABSENTEE BALLOTS</pattern>
-<template><srai>ABSENTEE BALLOT</srai> </template>
+<template><srai>ABSBLLT</srai> </template>
 </category>
 
 <category>
 <pattern>* ABSENTEE BALLOTS</pattern>
-<template><srai>ABSENTEE BALLOT</srai> </template>
+<template><srai>ABSBLLT</srai> </template>
 </category>
 
 <category>
 <pattern>* ABSENTEE BALLOTS *</pattern>
-<template><srai>ABSENTEE BALLOT</srai> </template>
+<template><srai>ABSBLLT</srai> </template>
 </category>
+
+
+<!--USB-->
+
+<category>
+<pattern>USB</pattern>
+<template>You are welcome to use USB drives on our computers. If you don't have one,
+you can purchase a USB drive for $6.50.</template>
+</category>
+
+<category>
+<pattern>_ USB</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>USB *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ USB *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>USBS</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ USBS</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>USBS *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ USBS *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>THUMB DRIVE</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ THUMB DRIVE</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>THUMB DRIVE *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ THUMB DRIVE *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>THUMB DRIVES</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ THUMB DRIVES</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>THUMB DRIVES *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ THUMB DRIVES *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>FLASH DRIVE</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ FLASH DRIVE</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>FLASH DRIVE *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ FLASH DRIVE *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>FLASH DRIVES</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ FLASH DRIVES</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>FLASH DRIVES *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<category>
+<pattern>_ FLASH DRIVES *</pattern>
+<template><srai>USB</srai></template>
+</category>
+
+<!--HEADPHONES-->
+
+<category>
+<pattern>HDPHN</pattern>
+<template>You are welcome to use your own headphones at the library. If you don't have your own, we have headphones for children to use in our Main Library Children's Department. We do not have headphones for adults to use, but we do have earbuds
+that you may purchase for $1.00. </template>
+</category>
+
+<category>
+<pattern>HEADPHONE</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEADPHONE</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEADPHONE *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEADPHONE *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEAD PHONE</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEAD PHONE</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEAD PHONE *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEAD PHONE *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEADPHONES</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEADPHONES</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEADPHONES *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEADPHONES *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEAD PHONES</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEAD PHONES</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>HEAD PHONES *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ HEAD PHONES *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>EARBUDS</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ EARBUDS</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>EARBUDS *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ EARBUDS *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+
+<category>
+<pattern>EAR BUDS</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ EAR BUDS</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>EAR BUDS *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+<category>
+<pattern>_ EAR BUDS *</pattern>
+<template><srai>HDPHN</srai></template>
+</category>
+
+
+
 
 </aiml>

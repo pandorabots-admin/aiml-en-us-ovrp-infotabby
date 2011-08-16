@@ -3650,7 +3650,8 @@ you will be able to see your holds, fines, lists, and other information.</templa
 
 <category>
 <pattern>CNTKOUT</pattern>
-<template>If you have a Mentor Public Library card in good standing, you can take out whatever you wish.</template>
+<template>If you have a Mentor Public Library card in good standing, you can take out whatever you wish with the exception of reference materials, new magazines,
+and our laptop computers which are for library use only.</template>
 </category>
 
 <topic name="ACCTQ">

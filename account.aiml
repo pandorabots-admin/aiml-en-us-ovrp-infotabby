@@ -3415,10 +3415,7 @@ is especially important when you're using a computer in a public place. To log o
 
 <!--CAN I TAKE OUT-->
 
-<category>
-<pattern>CNTKOUT</pattern>
-<template>If you have a Mentor Public Library card in good standing, you can take out whatever you wish.</template>
-</category>
+<!--CNTKOUT IS IN GUIDEDACCOUNT.AIML-->
 
 <category>
 <pattern>CAN * TAKE OUT *</pattern>
