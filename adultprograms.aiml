@@ -27,16 +27,15 @@
   go to our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.
   You can find dates and times of meetings on our Events Calendar, 
   and you do not need to sign up in advance for most discussions. 
-  For a copy of a discussion book, ask at the Main Library reference desk. 
+  For a copy of a discussion book, ask at the Main Library reference desk. We also have <a href="http://www.supportlibrary.com/su/su.cfm?q=6474252" target="_blank"><b>online book clubs</b></a>. Follow the link for
+  more information.
   The library also has sets of books that you can check out for your own group. You can find a list of book discussion kits <a href="http://catalog.mentorpl.org/search/X?SEARCH=book+discussion+kits&amp;SORT=D&amp;searchscope=12" target="_blank"><b>here</b></a>.</template>
 </category>
-
 
 <category>
   <pattern>booktalk</pattern>
   <template><srai>BTALKS</srai></template>
 </category>
-
 
 <category>
   <pattern>_ booktalk</pattern>
@@ -183,15 +182,343 @@
   <template><srai>BTALKS</srai></template>
 </category>
 
-
 <category>
   <pattern>book clubs</pattern>
   <template><srai>BTALKS</srai></template>
 </category>
 
+<!--ONLINE BOOK CLUB-->
+
+<category>
+  <pattern>OBCLB</pattern>
+  <template>Mentor Public Library now offers an online book discussion groups. Follow the link to sign up for our <a href="http://www.supportlibrary.com/su/su.cfm?q=6474252" target="_blank"><b>online book clubs</b></a>. 
+  For information about our other book groups, 
+  go to our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.
+  You can find dates and times of meetings on our Events Calendar, 
+  and you do not need to sign up in advance for most discussions. 
+  For a copy of a discussion book, ask at the Main Library reference desk. </template>
+</category>
+
+<category>
+  <pattern>ONLINE * CLUB</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * CLUB</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * CLUB *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * CLUB *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * CLUB</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * CLUB</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * CLUB *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * CLUB *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
 
 
+<category>
+  <pattern>ONLINE * CLUBS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
 
+<category>
+  <pattern>* ONLINE * CLUBS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * CLUBS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * CLUBS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * CLUBS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * CLUBS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * CLUBS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * CLUBS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * DISCUSSION</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * DISCUSSION</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * DISCUSSION *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * DISCUSSION *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * DISCUSSION</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * DISCUSSION</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * DISCUSSION *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * DISCUSSION *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * DISCUSSIONS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * DISCUSSIONS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * DISCUSSIONS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * DISCUSSIONS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * DISCUSSIONS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * DISCUSSIONS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * DISCUSSIONS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * DISCUSSIONS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * GROUP</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * GROUP</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * GROUP *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * GROUP *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * GROUP</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * GROUP</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * GROUP *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * GROUP *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * GROUPS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * GROUPS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * GROUPS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * GROUPS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * GROUPS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * GROUPS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * GROUPS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * GROUPS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * TALK</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * TALK</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * TALK *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * TALK *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * TALK</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * TALK</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * TALK *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * TALK *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * TALKS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * TALKS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ONLINE * TALKS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ONLINE * TALKS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * TALKS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * TALKS</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>ON LINE * TALKS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
+
+<category>
+  <pattern>* ON LINE * TALKS *</pattern>
+  <template><srai>OBCLB</srai></template>
+</category>
 
 <!--INDIV BOOKTALKS-->
 

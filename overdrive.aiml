@@ -5786,7 +5786,7 @@ later this year.
 </category>
 
 <category>
-<pattern>_ ONLINE BOOK</pattern>
+<pattern>* ONLINE BOOK</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5796,7 +5796,7 @@ later this year.
 </category>
 
 <category>
-<pattern>_ ONLINE BOOK *</pattern>
+<pattern>* ONLINE BOOK *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5820,8 +5820,6 @@ later this year.
 <template><srai>EBOOK</srai></template>
 </category>
 
-
-
 <category>
 <pattern>_ BOOKS * DOWNLOAD * E READER</pattern>
 <template><srai>EBOOK</srai></template>
@@ -5832,9 +5830,7 @@ later this year.
 <template><srai>EBOOK</srai></template>
 </category>
 
-
-
-<!--misc idiocy-->
+<!--OWN READER-->
 
 <category>
 <pattern>_ MY OWN NOOK</pattern>
@@ -5866,7 +5862,7 @@ later this year.
 <template><srai>EBOOK</srai></template>
 </category>
 
-<!--more idiocy-->
+<!--PDF BOOKS-->
 
 <category>
 <pattern>PDF BOOK</pattern>
@@ -5907,14 +5903,6 @@ later this year.
 <pattern>_ PDF BOOKS *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
-
-
-
-
-
-
-
-
 
 <category>
   <pattern>AUDIBLE BOOKS</pattern>
