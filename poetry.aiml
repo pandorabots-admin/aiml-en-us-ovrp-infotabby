@@ -75,7 +75,6 @@ Would you like to hear one of my poems?</template>
 <pattern>RECITEPOEM</pattern>
 <template>
 <random>
-<li><srai>COWBOTPOEMREF</srai></li>
 <li><srai>CATHAIKU</srai></li>
 <li><srai>RECITEBLAKE</srai></li>
 </random>
@@ -89,6 +88,28 @@ Would you like to hear one of my poems?</template>
 <srai>RECITEPOEM</srai>
 </template>
 </category>
+
+<topic name="CHT">
+<category>
+<pattern>RECITEPOEM</pattern>
+<template>
+<random>
+<li><srai>CATHAIKU</srai></li>
+<li><srai>RECITEBLAKE</srai></li>
+</random>
+</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that>PRETTY GOOD HUH</that>
+<template>Here's another<br/><br/>
+<srai>RECITEPOEM</srai>
+</template>
+</category>
+</topic>
 
 <!--BLAKE-->
 

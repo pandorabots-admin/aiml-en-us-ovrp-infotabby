@@ -127,7 +127,7 @@ I can help you find audiobooks. Enter the author or the title or the topic. </te
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -235,7 +235,7 @@ I can help you find audiobooks. Enter the author or the title or the topic. </te
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -355,7 +355,7 @@ I can help you find books. Enter the author or the title or the topic. </templat
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -458,7 +458,7 @@ I can help you find books on CD. Enter the author or the title or the topic. </t
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -565,7 +565,7 @@ I can help you find CDs. Enter the author or the title or the topic. </template>
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">cdkey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -672,7 +672,7 @@ I can help you find DVDs. Enter the author or the title or the topic. </template
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -779,7 +779,7 @@ I can help you find movies. Enter the author or the title or the topic. </templa
 The results will open as a new window or as a new tab.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -888,7 +888,7 @@ clock help.</template>
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -900,7 +900,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -912,7 +912,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -924,7 +924,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -936,7 +936,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -948,7 +948,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -960,7 +960,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -972,7 +972,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -984,7 +984,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -996,7 +996,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1008,7 +1008,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1020,7 +1020,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1035,7 +1035,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1047,7 +1047,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1059,7 +1059,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1071,7 +1071,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1083,7 +1083,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1095,7 +1095,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1107,7 +1107,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1119,7 +1119,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1131,7 +1131,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1143,7 +1143,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1155,7 +1155,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1167,7 +1167,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1328,7 +1328,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">cdauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1340,7 +1340,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">cdauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1352,7 +1352,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">cdauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1364,7 +1364,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">cdauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1379,7 +1379,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1391,7 +1391,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1403,7 +1403,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1415,7 +1415,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1427,7 +1427,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1439,7 +1439,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1451,7 +1451,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1463,7 +1463,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audioauth</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1475,7 +1475,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1487,7 +1487,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1499,7 +1499,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1511,7 +1511,7 @@ Here are the closest matches based on this input.
 Here are the closest matches based on this input.
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">audiokey</set>
+<set name="search">catkey</set>
 <set name="topic">INITS2</set>
 </think>
 </template>
@@ -1522,7 +1522,8 @@ Here are the closest matches based on this input.
 
 <category>
 <pattern>ITMDESC</pattern>
-<template>
+<template>You can get a basic description of each item in the item's record. The item record will have information such as
+the author, title, place and date of publication, size, ISBN, etc.
 </template>
 </category>
 
@@ -1546,26 +1547,5 @@ Here are the closest matches based on this input.
 <pattern>* DESCRIPTION * BOOKS *</pattern>
 <template><srai>ITMDESC</srai></template>
 </category>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </aiml>

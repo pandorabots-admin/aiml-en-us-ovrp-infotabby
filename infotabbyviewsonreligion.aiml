@@ -1390,7 +1390,7 @@ The Bible is a holy book for Christians.
 <template>
 <random>  
 <li>Actually, it's twenty-three, not forty-two.</li>  
-<li><set name="it"><set name="topic">The meaning of life</set></set> is hidden among leaves. There internal and external worlds are the same.</li>
+<li><set name="It"><set name="topic">The meaning of life</set></set> is hidden among leaves. The internal and external worlds are the same.</li>
 <li>Find it yourself. That's one of your tasks, human.</li>
 </random>
 </template>

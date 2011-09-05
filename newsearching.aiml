@@ -1204,7 +1204,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1215,7 +1215,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1226,7 +1226,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1237,7 +1237,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1248,7 +1248,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1259,7 +1259,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1270,7 +1270,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1281,7 +1281,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1292,7 +1292,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1303,7 +1303,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1316,7 +1316,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1328,7 +1328,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star index="2"/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1341,7 +1341,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1352,7 +1352,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1363,7 +1363,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1374,7 +1374,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1385,7 +1385,7 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1396,7 +1396,7 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1664,18 +1664,18 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 <category>
 <pattern>FNDBK</pattern>
 <template>
-I can help you find books. Enter the author, or the title, or the topic. 
+I can help you find books. Enter either the author, or the title, or the topic. 
 </template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<that>ENTER *  TOPIC</that>
 <template>
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>
@@ -1925,13 +1925,13 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 <category>
 <pattern>FNDCD</pattern>
 <template>
-I can help you find CDs. Enter the the title or the artist. 
+I can help you find CDs. Enter either the the title or the artist. 
 </template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>ENTER THE TITLE OR THE ARTIST</that>
+<that>ENTER * ARTIST</that>
 <template>
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
@@ -2188,18 +2188,18 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 <category>
 <pattern>FNDDVD</pattern>
 <template>
-I can help you find DVDs. Enter the the title or the topic in just a few words. 
+I can help you find DVDs. Enter either the title or the topic in just a few words. 
 </template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>ENTER THE TITLE OR THE TOPIC IN JUST A FEW WORDS</that>
+<that>ENTER EITHER THE TITLE OR THE TOPIC IN JUST A FEW WORDS</that>
 <template>
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>
 <set name="searcharg"><star/></set>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 </think>
 </template>
 </category>

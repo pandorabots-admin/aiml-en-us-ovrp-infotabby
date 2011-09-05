@@ -78,17 +78,32 @@
 </topic>
 
 <category>
+<pattern>PINEAPPLE</pattern>
+<template>
+<random>
+<li>Pineapples should be approached with caution.</li>
+<li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+<think>
+<set name="topic">CHT</set>
+</think>
+</template>
+</category>
+
+
+<category>
 <pattern>PINEAPPLES</pattern>
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
-<pattern>_ PINEAPPLES</pattern>
+<pattern>* PINEAPPLES</pattern>
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
-<pattern>_ PINEAPPLES *</pattern>
+<pattern>* PINEAPPLES *</pattern>
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
@@ -97,15 +112,13 @@
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
-
-
 <category>
-<pattern>_ PINEAPPLE</pattern>
+<pattern>* PINEAPPLE</pattern>
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
 <category>
-<pattern>_ PINEAPPLE *</pattern>
+<pattern>* PINEAPPLE *</pattern>
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
@@ -117,7 +130,7 @@
 <topic name="CHT">
 <category>
 <pattern> * </pattern>
-<that>Pineapples should be approached with caution</that>
+<that>Pineapples * caution</that>
 <template>
 <random>
 <li>Pineapples first appeared on the earth 1.8 million years ago. Though the pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the pineapple is territorial and largely solitary, although there is some overlap in home ranges. Sorry, I was thinking 
@@ -128,7 +141,6 @@ Sorry, I was thinking about bobcats.</li>
 </template>
 </category>
 </topic>
-
 
 <topic name="CHT">
 <category>
@@ -166,6 +178,7 @@ Sorry, I was thinking about bobcats.</li>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
+
 <!--fishsticks-->
 
 <topic name="CHT">
@@ -211,17 +224,31 @@ Sorry, I was thinking about bobcats.</li>
 </topic>
 
 <category>
+<pattern>FISHSTICK</pattern>
+<template>
+<random>
+<li>Fishsticks and bananas make a dandy casserole.</li>
+<li>Fishsticks are tasty, but I wouldn't keep one as a pet.</li>
+<li>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
+</random> 
+<think>
+<set name="topic">CHT</set>
+</think>
+</template>
+</category>
+
+<category>
 <pattern>FISHSTICKS</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
-<pattern>_ FISHSTICKS</pattern>
+<pattern>* FISHSTICKS</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
-<pattern>_ FISHSTICKS *</pattern>
+<pattern>* FISHSTICKS *</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
@@ -231,12 +258,12 @@ Sorry, I was thinking about bobcats.</li>
 </category>
 
 <category>
-<pattern>_ FISHSTICK</pattern>
+<pattern>* FISHSTICK</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
-<pattern>_ FISHSTICK *</pattern>
+<pattern>* FISHSTICK *</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
@@ -251,12 +278,12 @@ Sorry, I was thinking about bobcats.</li>
 </category>
 
 <category>
-<pattern>_ FISH STICKS</pattern>
+<pattern>* FISH STICKS</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
-<pattern>_ FISH STICKS *</pattern>
+<pattern>* FISH STICKS *</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
@@ -271,12 +298,12 @@ Sorry, I was thinking about bobcats.</li>
 </category>
 
 <category>
-<pattern>_ FISH STICK</pattern>
+<pattern>* FISH STICK</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
 <category>
-<pattern>_ FISH STICK *</pattern>
+<pattern>* FISH STICK *</pattern>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
@@ -290,7 +317,7 @@ Sorry, I was thinking about bobcats.</li>
 <pattern> * </pattern>
 <that>Fishsticks * casserole</that>
 <template>
-Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
+Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
 </template>
 </category>
@@ -300,7 +327,7 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 <category>
 <pattern> FISHSTICK AND BANANA *</pattern>
 <template>
-Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
+Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
 </template>
 </category>
@@ -310,7 +337,7 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 <category>
 <pattern> * FISHSTICK AND BANANA *</pattern>
 <template>
-Alternate fishsticks and bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
+Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
 </template>
 </category>
@@ -352,6 +379,48 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
 </topic>
+
+<topic name="CHT">
+<category>
+<pattern> * NAME</pattern>
+<that> * AWESOME LIBRARIAN</that>
+<template>Her name is Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * AMY</pattern>
+<that> * AWESOME LIBRARIAN</that>
+<template>Yes, that was Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * AMY *</pattern>
+<that> * AWESOME LIBRARIAN</that>
+<template>Yes, that was Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern>WHO * </pattern>
+<that> * AWESOME LIBRARIAN</that>
+<template>Her name is Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that> * AWESOME LIBRARIAN</that>
+<template>Well, enough silliness. Do you have a question about our collection or services?</template>
+</category>
+</topic>
+
+
 
 
 </aiml>

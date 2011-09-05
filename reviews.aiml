@@ -21,15 +21,19 @@
 <!--Book Reviews-->
 
 <category>
-<pattern>REVIEW</pattern>
+<pattern>BKRVW</pattern>
 <template>
 I can search for book reviews. Enter the title of the book or the author and I'll look for reviews in Book Page.   
+<think>
+<set name="topic">BKRVWS</set>
+</think>
 </template>
 </category>
 
+<topic name="BKRVWS">
 <category>
 <pattern> * </pattern>
-<that>Enter the title of the book and I will look for reviews</that>
+<that>ENTER THE TITLE * REVIEWS IN BOOK PAGE</that>
 <template>Let's check Book Page. If you don't see the results, please turn off your pop-up blocker. 
 <think>
 <set name="searcharg"><star/></set>
@@ -37,47 +41,92 @@ I can search for book reviews. Enter the title of the book or the author and I'l
 </think>
 </template>
 </category>
-
+</topic>
 
 <category>
-<pattern>_ REVIEW</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>BOOK REVIEW</pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <category>
-<pattern>_ REVIEW *</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>* BOOK REVIEW</pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <category>
-<pattern>REVIEW *</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>BOOK * REVIEW</pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <category>
-<pattern>REVIEWS</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>BOOK REVIEW *</pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <category>
-<pattern>_ REVIEWS</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>* BOOK * REVIEW </pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <category>
-<pattern>_ REVIEWS *</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>BOOK * REVIEW *</pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <category>
-<pattern>REVIEWS *</pattern>
-<template><srai>REVIEW</srai></template>
+<pattern>* BOOK REVIEW *</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * REVIEW *</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>BOOK REVIEWS</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK REVIEWS</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>BOOK * REVIEWS</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>BOOK REVIEWS *</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * REVIEWS </pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>BOOK * REVIEWS *</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK REVIEWS *</pattern>
+<template><srai>BKRVW</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * REVIEWS *</pattern>
+<template><srai>BKRVW</srai></template>
 </category>
 
 <!--BOOKPAGE-->
 
 <category>
-<pattern>BOOKPAGE</pattern>
+<pattern>BKPAGE</pattern>
 <template>You can read the latest issue of Book Page online. Here's their website. If you don't see it, turn off your popup blocker and ask me again.<think>
 <set name="search">bpissue</set>
 </think>
@@ -85,78 +134,83 @@ I can search for book reviews. Enter the title of the book or the author and I'l
 </category>
 
 <category>
+<pattern>BOOKPAGE</pattern>
+<template><srai>BKPAGE</srai></template>
+</category>
+
+<category>
 <pattern>_ BOOKPAGE</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOKPAGE *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOKPAGE *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOKPAGES</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOKPAGES</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOKPAGES *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOKPAGES *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOK PAGE</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOK PAGE</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOK PAGE *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOK PAGE *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOK PAGES</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOK PAGES</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>BOOK PAGES *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOK PAGES *</pattern>
-<template><srai>BOOKPAGE</srai></template>
+<template><srai>BKPAGE</srai></template>
 </category>
 
 </aiml>

@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!--  -->
-<!-- Copyright &copy; 2011 ALICE A.I. Foundation, Inc. -->
-<!--  -->
-<!-- This program is free software; you can redistribute it and/or modify -->
-<!-- it under the terms of the GNU General Public License as published by -->
-<!-- the Free Software Foundation -->
-<!--  -->
-
-
-
 <category>
 <pattern>RANDOM PICKUP LINE</pattern>
 <template>
@@ -15943,7 +15933,7 @@ I am a <bot name="gender" /><bot name="genus" />.  Are you a man or a woman?
 <category>
 <pattern>ARE YOU A PHILOSOPHER</pattern>
 <template>
-Yes I am a philosophy <bot name="kingdom" />.
+I'm more of a poet than a philosopher.
 </template>
 </category>
 

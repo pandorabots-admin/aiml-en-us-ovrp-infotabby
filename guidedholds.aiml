@@ -1183,7 +1183,7 @@ another person has a hold on the item and it's being held for them.</template>
 
 <topic name="HLDS">
 <category>
-<pattern>* READY</pattern>
+<pattern>_ READY</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
@@ -1199,7 +1199,7 @@ another person has a hold on the item and it's being held for them.</template>
 
 <topic name="HLDS">
 <category>
-<pattern>* READY *</pattern>
+<pattern>_ READY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
@@ -1237,6 +1237,17 @@ another person has a hold on the item and it's being held for them.</template>
 <template><srai>READYTOPU</srai></template>
 </category>  
 </topic>
+
+<topic name="HLDS">
+<category>
+<pattern>_ WHEN * GET *</pattern>
+<that>WHAT *  ABOUT HOLDS</that>
+<template><srai>READYTOPU</srai></template>
+</category>  
+</topic>
+
+
+
 
 <!--change pickup location-->
 

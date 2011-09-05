@@ -457,7 +457,7 @@ We do not have computers for you to check out and take home, they are for librar
 
 <category>
 <pattern>CMPTR</pattern>
-<template>Are you asking me what you need to use our computers?
+<template>We have desktop PCs at all of our locations and laptops at the Main Library. Would you like to know what what you need to use our computers?
 </template>
 </category>
 
@@ -474,28 +474,28 @@ We do not have computers for you to check out and take home, they are for librar
 
 <category>
 <pattern>YES</pattern>
-<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<that>WOULD YOU LIKE TO KNOW * USE OUR COMPUTERS</that>
 <template>You need a Mentor Public Library card in good standing. That means less than five dollars in fines.
 </template>
 </category>
 
 <category>
 <pattern>YES *</pattern>
-<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<that>WOULD YOU LIKE TO KNOW * USE OUR COMPUTERS</that>
 <template>You need a Mentor Public Library card in good standing. That means less than five dollars in fines.
 </template>
 </category>
 
 <category>
 <pattern>NO</pattern>
-<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<that>WOULD YOU LIKE TO KNOW * USE OUR COMPUTERS</that>
 <template>Are you asking if we have internet? 
 </template>
 </category>
 
 <category>
 <pattern>NO *</pattern>
-<that>ARE YOU ASKING ME WHAT YOU NEED TO USE OUR COMPUTERS</that>
+<that>WOULD YOU LIKE TO KNOW * USE OUR COMPUTERS</that>
 <template>Are you asking if we have internet? 
 </template>
 </category>

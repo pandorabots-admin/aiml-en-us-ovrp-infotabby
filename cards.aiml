@@ -990,7 +990,7 @@ If you haven't used your card in a year or so, there's a good chance that it's e
   <pattern>GTCRD</pattern>
   <template>
   You may apply for a library card at the Main Library Circulation Desk or at either Branch. There is no charge to get a card.
-  You must present identification showing your current address. Any Ohio resident can get a card, you do not need to live in Mentor. If your photo ID does not have your current address, a personal check, utility bill, envelope or post card with a recent postmark showing your current address is required. 
+  You must present identification showing your current address. Any Ohio resident can get a card and use our library, you do not need to live in Mentor. If your photo ID does not have your current address, a personal check, utility bill, envelope or post card with a recent postmark showing your current address is required. 
   You must be 18 years of age to get an Adult card; Children cards require a guardian's signature. Once you have your card, you can use it at any of our locations.
  At this time it is not possible for you to get a library card online. We hope to offer this service in the future. Please call us immediately if your card
 is lost or stolen. If you're getting a message that your card is going to expire, please call the library at 440.255.8811. 
@@ -1609,20 +1609,16 @@ is lost or stolen. If you're getting a message that your card is going to expire
 </category>
 
 
-
-
-
-
-
-
-
 <!--lost cards-->
 
-
 <category>
-  <pattern>LSTCRD</pattern>
-  <template>Card holders are responsible for all items borrowed unless the card is reported to the library as lost or stolen. If you lose your card, call the library immediately. You may get a replacement card for <say-as type="Currency">$1.00  </say-as>.
- Replacement cards are not available online.</template>
+<pattern>LSTCRD</pattern>
+<template>Card holders are responsible for all items borrowed unless the card is reported to the library as lost or stolen. If you lose your card, call the library immediately. You may get a replacement card for <say-as type="Currency">$1.00  </say-as>.
+Replacement cards are not available online.
+<think>
+<set name="topic">CRDQ</set>
+</think>
+</template>
 </category>
 
 
@@ -1660,8 +1656,6 @@ is lost or stolen. If you're getting a message that your card is going to expire
   <pattern>* LOST * LIBRARY CARD *</pattern>
   <template><srai>LSTCRD</srai></template>
 </category>
-
-<!--i-->
 
 <category>
   <pattern>LOSE CARD</pattern>
@@ -1730,12 +1724,6 @@ is lost or stolen. If you're getting a message that your card is going to expire
   <template><srai>LSTCRD</srai></template>
 </category>
 
-
-
-
-
-
-
 <category>
   <pattern>CARD * STOLEN</pattern>
   <template><srai>LSTCRD</srai></template>
@@ -1765,7 +1753,6 @@ is lost or stolen. If you're getting a message that your card is going to expire
   <pattern>* STOLE * CARD *</pattern>
   <template><srai>LSTCRD</srai></template>
 </category>
-
 
 <category>
   <pattern>STOLEN * CARD</pattern>
@@ -2679,6 +2666,19 @@ is lost or stolen. If you're getting a message that your card is going to expire
   <template><srai>SHRCRD</srai></template>
 </category>
 
+<!--OUTSIDE MENTOR-->
+
+<category>
+<pattern>OUTSDMNTR</pattern>
+<template>Any Ohio resident can get a card and use our library, you do not need to live in Mentor.
+<srai>CRD2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* library * live in *</pattern>
+<template><srai>OUTSDMNTR</srai></template>
+</category>
 
 
 </aiml>

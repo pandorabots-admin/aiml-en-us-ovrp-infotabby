@@ -19,9 +19,16 @@
 <pattern>CHT</pattern>
 <template>OK, let's chat. 
 <random>
+<li>What would you like to talk about?</li>
+<li>What would you like to talk about?</li>
 <li>Do you like poetry?</li>
+<li>What would you like to talk about?</li>
+<li>What would you like to talk about?</li>
 <li>Do you like pineapples?</li>
+<li>What would you like to talk about?</li>
 <li>Do you like fishsticks?</li>
+<li>What would you like to talk about?</li>
+
 </random>
 <think>
 <set name="topic">CHT</set>
@@ -487,5 +494,101 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <pattern>* TALKING DOG *</pattern>
 <template><srai>TLKNGDOG</srai></template>
 </category>
+
+<!--GENERAL CHAT-->
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that>WHAT * TALK ABOUT</that>
+<template>
+<random>
+<li><star/>. What do you find interesting about that?</li>
+<li><star/>. What do you have to say about that?</li>
+<li>What do you find interesting about that?</li>
+<li>I see. What do you have to say about that?</li>
+</random> 
+</template>
+</category>
+</topic>
+
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that>WHAT * ABOUT THAT</that>
+<template>
+<random>
+<li>A few people have said the same.</li>
+<li>Some other people I've talked to think the same.</li>
+<li>Does eveyone feel the same.</li>
+<li>Do your friends think the same.</li>
+</random> 
+</template>
+</category>
+</topic>
+
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that> * THE SAME</that>
+<template>
+<random>
+<li>That's interesting.</li>
+<li>That's quite interesting.</li>
+<li>How interesting.</li>
+<li>How very interesting.</li>
+</random> 
+</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> ILL </pattern>
+<that> * THE SAME</that>
+<template>
+<random>
+<li>That's interesting.</li>
+<li>That's quite interesting.</li>
+<li>How interesting.</li>
+<li>How very interesting.</li>
+</random> 
+</template>
+</category>
+</topic>
+
+<topic name="CHT">
+<category>
+<pattern> * </pattern>
+<that> * INTERESTING</that>
+<template>
+<random>
+<li>Well, I should get back to work. Do you have a question about the library?</li>
+<li>Well, back to work. Do you have a question about the library?</li>
+<li>Well, I need to get back to work. Do you have a question about the library?</li>
+</random> 
+</template>
+</category>
+</topic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </aiml>

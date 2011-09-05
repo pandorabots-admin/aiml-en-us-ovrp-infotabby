@@ -241,8 +241,6 @@ a month. Please check the status of this request then.</template>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
-
-
 <category>
 <pattern>SUGGEST * PURCHASE</pattern>
 <template><srai>PRCHREQ</srai></template>
@@ -259,10 +257,29 @@ a month. Please check the status of this request then.</template>
 </category>
 
 <category>
+<pattern>RECOMMEND * PURCHASE</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>RECOMMEND * PURCHASE *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>_ RECOMMEND * PURCHASE</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>_ RECOMMEND * PURCHASE *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
 <pattern>SUGGEST TITLE</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>>
-
 
 <category>
 <pattern>CAN *  ORDER *</pattern>

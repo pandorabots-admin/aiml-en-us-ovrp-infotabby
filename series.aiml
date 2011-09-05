@@ -24,12 +24,12 @@
 </category>
 
 <category>
-<pattern>* SERIES</pattern>
+<pattern>_ SERIES</pattern>
 <template><srai>SERIES</srai></template>
 </category>
 
 <category>
-<pattern>* SERIES *</pattern>
+<pattern>_ SERIES *</pattern>
 <template><srai>SERIES</srai></template>
 </category>
 

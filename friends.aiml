@@ -186,7 +186,8 @@
 
 <category>
   <pattern>donate</pattern>
-  <template>You are always welcome to donate your unwanted books to our library. If you would like to make a monetary donation, please use this <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flowandSESSION=_zt2a2azxa9XVdxc9u2QB9PO6kSsI9kWZMszHdRh3MvdyGXnE5HN5sCwKHianddispatch=5885d80a13c0db1ffc45dc241d84e953c6c47237de2bc4f5b43fafc6513a8a86"><b>link</b></a>.
+  <template>You are always welcome to donate your unwanted books to our library. The items you donate may be added to our collection or 
+  may be sold by the Friends. If you would like to make a monetary donation, please use this <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flowandSESSION=_zt2a2azxa9XVdxc9u2QB9PO6kSsI9kWZMszHdRh3MvdyGXnE5HN5sCwKHianddispatch=5885d80a13c0db1ffc45dc241d84e953c6c47237de2bc4f5b43fafc6513a8a86"><b>link</b></a>.
  All donations are tax deductible. </template>
 </category>
 

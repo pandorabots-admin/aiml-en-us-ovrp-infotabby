@@ -830,10 +830,52 @@ We now have e Books for you to download to your own Nook through OverDrive. <br/
 </category>
 
 
+<!--WHERE ARE THE NOOKS-->
 
+<category>
+<pattern>WHRNKS</pattern>
+<template>The Nooks are at the Main Library Computer Help desk. That's on the ground floor, near the public computers. That's
+where you may pick them up and return them.</template>
+</category>
 
+<category>
+<pattern>WHERE * NOOK</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
 
+<category>
+<pattern>WHERE * NOOK *</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
 
+<category>
+<pattern>* WHERE * NOOK</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
 
+<category>
+<pattern>* WHERE * NOOK</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NOOKs</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NOOKs *</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * NOOKs</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * NOOKs</pattern>
+<template><srai>WHRNKS</srai></template>
+</category>
 
 </aiml>

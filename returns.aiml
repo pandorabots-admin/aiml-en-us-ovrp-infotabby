@@ -1750,4 +1750,208 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 <template><srai>RTRNNK</srai></template>
 </category>
 
+<!--BOOK DROPS-->
+
+<category>
+<pattern>BKDRPS</pattern>
+<template>There are book drops at all of our locations. Some of our
+book drops are for books and some are for DVDs and CDs. Please use the appropriate
+drop for your items. </template>
+</category>
+
+<category>
+<pattern>BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+
+<category>
+<pattern>DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<topic name="RTNSQ">
+<category>
+<pattern>BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+<topic name="RTNSQ">
+<category>
+<pattern>* DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+
+
 </aiml>

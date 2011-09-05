@@ -15,29 +15,26 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
+
+
 <category>
-<pattern>TEENBCLB</pattern>
+<pattern>TEEN BOOK CLUB</pattern>
 <template>We don't have a teen book club at the moment, but that's a good idea. I'll make sure the correct person gets your suggestion.</template>
 </category>
 
 <category>
-<pattern>TEEN BOOK CLUB</pattern>
-<template><srai>TEENCLB</srai></template>
-</category>
-
-<category>
 <pattern>TEEN BOOK CLUBS</pattern>
-<template><srai>TEENCLB</srai></template>
+<template>We don't have a teen book club at the moment, but that's a good idea. I'll make sure the correct person gets your suggestion.</template>
 </category>
 
 <category>
 <pattern>_ TEEN * CLUB</pattern>
-<template><srai>TEENCLB</srai></template>
+<template>We don't have a teen book club at the moment, but that's a good idea. I'll make sure the correct person gets your suggestion.</template>
 </category>
 
 <category>
 <pattern>_ TEEN * CLUBS</pattern>
-<template><srai>TEENCLB</srai></template>
+<template>We don't have a teen book club at the moment, but that's a good idea. I'll make sure the correct person gets your suggestion.</template>
 </category>
 
 <category>

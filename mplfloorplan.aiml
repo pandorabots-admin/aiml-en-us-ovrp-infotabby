@@ -789,6 +789,16 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
+<pattern>LARGE PRINT</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>LARGE PRINT *</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
 <pattern>* LARGE PRINT</pattern>
 <template><srai>MLTLOC</srai></template>
 </category>

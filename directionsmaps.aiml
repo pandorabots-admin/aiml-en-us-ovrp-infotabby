@@ -524,6 +524,265 @@
 </template>
 </category>
 
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROP OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROP OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROP OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROP OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROP * OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROP * OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROP * OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROP * OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROPPED OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROPPED OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROPPED OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROPPED OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROPPED * OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROPPED * OFF</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>DROPPED * OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ DROPPED * OFF *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURN</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURN</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURN *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURN *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURNS</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURNS</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURNS *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURNS *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURNED</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURNED</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURNED *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURNED *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURNING</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURNING</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>RETURNING *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
+<topic name="BRNCHINFO">
+<category>
+<pattern>_ RETURNING *</pattern>
+<that> * KNOW ABOUT OUR BRANCHES</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+</topic>
+
 <!--LIB ADDRESSES-->
 
 <category>
@@ -531,8 +790,6 @@
   <template>Headlands Branch is located at 4669 Corduroy Road, 
 Mentor Headlands. Their phone number is 440.257.2000. You can find information about their hours and a map to their location <a href="http://www.mentorpl.org/hours"><b>here</b></a>.</template>
 </category>
-
-
 
 <category>
 <pattern>Where * Headlands</pattern>
@@ -1709,8 +1966,6 @@ here</b></a>.</template>
 <template>The phone number for the Lake Branch Library is 440.257.2512</template>
 </category>
 
-
-
 <category>
   <pattern>Where * Library</pattern>
   <template>Main Library is at 8215 Mentor Ave., Mentor, Ohio 44060. You can find maps to the Main Library and both branches <a href="http://www.mentorpl.org/hours"><b>
@@ -1729,7 +1984,6 @@ here</b></a>.</template>
 here</b></a>.</template>
 </category>
 
-
 <category>
 <pattern>WHERE IS MPL</pattern>
 <template><srai>LIBRARY LOC</srai></template>
@@ -1745,7 +1999,15 @@ here</b></a>.</template>
 <template><srai>LIBRARY LOC</srai></template>
 </category>
 
+<category>
+<pattern>* GET TO * LIBRARY</pattern>
+<template><srai>LIBRARY LOC</srai></template>
+</category>
 
+<category>
+<pattern>* GET TO * LIBRARY *</pattern>
+<template><srai>LIBRARY LOC</srai></template>
+</category>
 
 
 </aiml>

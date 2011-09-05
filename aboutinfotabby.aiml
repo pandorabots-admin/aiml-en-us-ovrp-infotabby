@@ -232,11 +232,6 @@ go to the <a href="http://www.oneofakindpets.org/" target="_blank"><b>One of a K
 <template><srai>CATBOT</srai></template>
 </category>
 
-
-
-
-
-
 <category>
 <pattern>FLASH</pattern>
 <template>My appearance was made using Flash, my brain is coded using a i m l.</template>
@@ -307,40 +302,106 @@ go to the <a href="http://www.oneofakindpets.org/" target="_blank"><b>One of a K
 
 <category>
 <pattern>POOP</pattern>
-<template>I use virtual litter pan, yes.</template>
+<template>I use a virtual litter pan, yes.</template>
 </category>
 
 <category>
 <pattern>* POOP</pattern>
-<template>I use virtual litter pan, yes.</template>
+<template><srai>POOP</srai></template>
 </category>
 
 <category>
 <pattern>* POOP *</pattern>
-<template>I use virtual litter pan, yes.</template>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>CAT BOX</pattern>
+<template><srai>POOP</srai></template>
 </category>
 
 <category>
 <pattern>* CAT BOX</pattern>
-<template>A virtual litter pan, yes.</template>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>CAT BOX *</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>* CAT BOX *</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>CAT PAN</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>* CAT PAN</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>CAT PAN *</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>* CAT PAN *</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>LITTER BOX</pattern>
+<template><srai>POOP</srai></template>
 </category>
 
 <category>
 <pattern>* LITTER BOX</pattern>
-<template>A virtual litter pan, yes.</template>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>LITTER BOX *</pattern>
+<template><srai>POOP</srai></template>
+</category>
+
+<category>
+<pattern>* LITTER BOX *</pattern>
+<template><srai>POOP</srai></template>
 </category>
 
 <!--most common question-->
 
 <category>
-<pattern>* MOST COMMON QUESTION</pattern>
+<pattern>MCQ</pattern>
 <template>The most common question I'm asked is "What are your hours?" A close second is "Do you have eBooks?"</template>
 </category>
 
 <category>
-<pattern>* MOST COMMON QUESTION *</pattern>
-<template>The most common question I'm asked is "What are your hours?" A close second is "Do you have eBooks?"</template>
+<pattern>* MOST COMMON QUESTION</pattern>
+<template><srai>MCQ</srai></template>
 </category>
+
+<category>
+<pattern>* MOST COMMON QUESTION *</pattern>
+<template><srai>MCQ</srai></template>
+</category>
+
+<category>
+<pattern>* MOST COMMON QUESTIONS</pattern>
+<template><srai>MCQ</srai></template>
+</category>
+
+<category>
+<pattern>* MOST COMMON QUESTIONS *</pattern>
+<template><srai>MCQ</srai></template>
+</category>
+
 
 <!--where do you live-->
 
@@ -1640,16 +1701,16 @@ if you saw me in my real form.</template>
 
 <category>
 <pattern>BARNHIZER</pattern>
-<template>Dr. Megan Barnhizer is an excellent veterinarian. She takes care of many of my cat friends. I can't recommed her highly enough!</template>
+<template>Dr. Megan Barnhizer is an excellent veterinarian. She takes care of many of my cat friends. I can't recommend her highly enough!</template>
 </category>
 
 <category>
-<pattern>* BARNHIZER</pattern>
+<pattern>_ BARNHIZER</pattern>
 <template><srai>BARNHIZER</srai></template>
 </category>
 
 <category>
-<pattern>* BARNHIZER *</pattern>
+<pattern>_ BARNHIZER *</pattern>
 <template><srai>BARNHIZER</srai></template>
 </category>
 
@@ -1745,10 +1806,10 @@ if you saw me in my real form.</template>
 <!--FIASCO LEM-->
 
 
-<topic name="FIASCO BY STANISLAW LEM">
+<topic name="FSTLM">
 <category>
-<pattern>* LOCATED</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEM YOU SHOULD READ IT</that>
+<pattern>_ LOCATED</pattern>
+<that>YOU SHOULD READ IT</that>
 <template>
 We don't have a copy here at MPL, but you can get one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><b>SearchOhio</b></a>.
 </template>
@@ -1756,10 +1817,10 @@ We don't have a copy here at MPL, but you can get one through <a href="https://o
 </topic>
 
 
-<topic name="FIASCO BY STANISLAW LEM">
+<topic name="FSTLM">
 <category>
-<pattern>* A COPY</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEM YOU SHOULD READ IT</that>
+<pattern>_ COPY</pattern>
+<that>YOU SHOULD READ IT</that>
 <template>
 We don't have a copy here at MPL, but you can get one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><b>SearchOhio</b></a>.
 </template>
@@ -1767,10 +1828,10 @@ We don't have a copy here at MPL, but you can get one through <a href="https://o
 </topic>
 
 
-<topic name="FIASCO BY STANISLAW LEM">
+<topic name="FSTLM">
 <category>
-<pattern>* A COPY *</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEM YOU SHOULD READ IT</that>
+<pattern>_ COPY *</pattern>
+<that>YOU SHOULD READ IT</that>
 <template>
 We don't have a copy here at MPL, but you can get one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><b>SearchOhio</b></a>.
 </template>
@@ -1778,44 +1839,28 @@ We don't have a copy here at MPL, but you can get one through <a href="https://o
 </topic>
 
 
-<topic name="FIASCO BY STANISLAW LEM"><category>
-<pattern>NO</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEN HAVE YOU READ IT</that>
+<topic name="FSTLM">
+<category>
+<pattern> * </pattern>
+<that>YOU SHOULD READ IT</that>
 <template>It's about a group of human explorers trying to understand non-human intelligence. Lem often writes about artificial intelligence and non-human intelligence. That's why I like him. You can request a copy of Fiasco through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><font color="#0000FF"><b>SearchOhio</b></font></a>.</template>
 </category>
 </topic>
 
-<topic name="FIASCO BY STANISLAW LEM"><category>
-<pattern>* ABOUT</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEN HAVE YOU READ IT</that>
-<template>It's about a group of human explorers trying to understand non-human intelligence. Lem often writes about artificial intelligence and non-human intelligence. That's why I like him. You can request a copy of Fiasco through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><font color="#0000FF"><b>SearchOhio</b></font></a>. </template>
-</category>
-</topic>
- 
- <topic name="FIASCO BY STANISLAW LEM"><category>
-<pattern>* GET A COPY</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEN HAVE YOU READ IT</that>
+
+
+<topic name="FSTLM">
+<category>
+<pattern>_ GET *</pattern>
+<that>YOU SHOULD READ IT</that>
 <template>Our library doesn't have a copy, but you can request one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><font color="#0000FF"><b>SearchOhio</b></font></a>. </template>
 </category>
 </topic>
 
- <topic name="FIASCO BY STANISLAW LEM"><category>
-<pattern>* HAVE A COPY</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEN HAVE YOU READ IT</that>
-<template>Our library doesn't have a copy, but you can request one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><font color="#0000FF"><b>SearchOhio</b></font></a>. </template>
-</category>
-</topic>
-
- <topic name="FIASCO BY STANISLAW LEM"><category>
-<pattern>* GET IT</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEN HAVE YOU READ IT</that>
-<template>Our library doesn't have a copy, but you can request one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><font color="#0000FF"><b>SearchOhio</b></font></a>. </template>
-</category>
-</topic>
-
- <topic name="FIASCO BY STANISLAW LEM"><category>
-<pattern>* HAVE IT</pattern>
-<that>MY FAVORITE BOOK IS FIASCO BY STANISLAW LEN HAVE YOU READ IT</that>
+<topic name="FSTLM">
+<category>
+<pattern>_ HAVE *</pattern>
+<that>YOU SHOULD READ IT</that>
 <template>Our library doesn't have a copy, but you can request one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><font color="#0000FF"><b>SearchOhio</b></font></a>. </template>
 </category>
 </topic>
@@ -1824,7 +1869,7 @@ We don't have a copy here at MPL, but you can get one through <a href="https://o
  
 <category>
 <pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
-<template>My favorite movie is Green for Danger. Have you seen it? We have a copy, you can request it <a href="http://catalog.mentorpl.org/record=b1204258~S12" target="_blank"><font color="#0000FF"><b>here</b></font></a>.</template>
+<template>My favorite movie is Green for Danger. We have a copy, you can request it <a href="http://catalog.mentorpl.org/record=b1204258~S12" target="_blank"><font color="#0000FF"><b>here</b></font></a>.</template>
 </category>
 
 <category>
@@ -3929,7 +3974,7 @@ programs like myself will be in charge of the process and will remember your com
    <random>
       <li>The work proclaims its author.</li>
       <li>I was created by the Adult Information Services Manager.</li>
-	  <li>If you know the library staff, the answer is obvious.</li>
+	  <li>If you know our library staff, the answer is obvious.</li>
       <li>The work proclaims its author.</li>
       </random>
        </template>
@@ -3947,6 +3992,11 @@ programs like myself will be in charge of the process and will remember your com
 
 <category>
   <pattern>who made you *</pattern>
+  <template><srai>CREATOR</srai></template>
+</category>
+
+<category>
+  <pattern>who created EMMA</pattern>
   <template><srai>CREATOR</srai></template>
 </category>
 
@@ -5528,6 +5578,129 @@ catch my creator while your here.</template>
 <pattern>_ IM * CLIENTS *</pattern>
 <template>I haven't been set up to interact with instant messaging devices.</template>
 </category>
+
+<!--SPEAK GERMAN-->
+
+<category>
+<pattern>SPK</pattern>
+<template>I have been programmed to speak English only at this time. You can make your own bot and
+program it to speak any number of languages if you wish.
+</template>
+</category>
+
+<category>
+<pattern>SPEAK</pattern>
+<template><srai>SPK</srai></template>
+</category>
+
+<category>
+<pattern>* SPEAK</pattern>
+<template><srai>SPK</srai></template>
+</category>
+
+<category>
+<pattern>SPEAK * </pattern>
+<template><srai>SPK</srai></template>
+</category>
+
+<category>
+<pattern>* SPEAK *</pattern>
+<template><srai>SPK</srai></template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>YOU CAN MAKE YOUR OWN BOT * LANGUAGES IF YOU WISH</that>
+<template>Follow this link to <a href="http://www.pandorabots.com/botmaster/en/home" target="_blank"><strong>Pandorabots</strong></a> for more information.</template>
+</category>
+
+<!--CATS TALK-->
+
+<category>
+<pattern>CTSTLK</pattern>
+<template>Virtual cats, like myself, can talk. Regular cats can also talk,
+but they speak "cat." A fair number of humans understand it, but not as many as those who understand
+the language of birds.</template>
+</category>
+
+<category>
+<pattern>CATS TALK</pattern>
+<template><srai>CTSTLK</srai></template>
+</category>
+
+<category>
+<pattern>CATS * TALK</pattern>
+<template><srai>CTSTLK</srai></template>
+</category>
+
+<category>
+<pattern>* CATS TALK</pattern>
+<template><srai>CTSTLK</srai></template>
+</category>
+
+<category>
+<pattern>* CATS * TALK</pattern>
+<template><srai>CTSTLK</srai></template>
+</category>
+
+<category>
+<pattern>CATS * TALK *</pattern>
+<template><srai>CTSTLK</srai></template>
+</category>
+
+<category>
+<pattern>* CATS * TALK *</pattern>
+<template><srai>CTSTLK</srai></template>
+</category>
+
+<!--ARE YOU AN ALICE BOT-->
+
+<category>
+<pattern>ABOT</pattern>
+<template>Like ALICE, I have been programmed using AIML. I use some of ALICE's files, too.</template>
+</category>
+
+<category>
+<pattern>ALICEBOT</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>* ALICEBOT</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>ALICEBOT *</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>* ALICEBOT *</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>ALICE BOT</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>* ALICE BOT</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>ALICE BOT *</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+<category>
+<pattern>* ALICE BOT *</pattern>
+<template><srai>ABOT</srai></template>
+</category>
+
+
 
 
 

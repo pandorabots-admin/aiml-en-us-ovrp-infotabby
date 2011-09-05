@@ -344,12 +344,6 @@ SUBMIT A PUBLIC RECORDS REQUEST IN WRITING AND BE SPECIFIC</that>
 <template><srai>RECORDS REQUEST</srai></template>
 </category>
 
-
-
-
-
-
-
 <!--CELL PHONES-->
 
 <category>
@@ -481,94 +475,223 @@ into the library.</template>
 <template>New materials are added to our collection every week.</template>
 </category>
 
+<category>
+<pattern>BKCOLL</pattern>
+<template>We have approximately 262,000 books in our library.</template>
+</category>
+
 
 <category>
 <pattern>HOW MANY BOOKS DOES * LIBRARY OWN</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW MANY BOOKS  * COLLECTION</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW BIG * COLLECTION * BOOKS</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW BIG * BOOK COLLECTION</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
-
-
 
 <category>
 <pattern>HOW MANY DVDS * LIBRARY * </pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template>I haven't counted for a while. I estimate over 16,000 DVDs.</template>
+</category>
+
+<category>
+<pattern>DVDCOLL</pattern>
+<template>I haven't counted for a while, but we have over 16,000 DVDs. Would you like to see a list of our DVDs?</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ YES</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ YES *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>OK</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ OK</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>OK *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ OK *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>O K</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ O K</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>O K *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ O K *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>SURE</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ SURE</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>SURE *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+<category>
+<pattern>_ SURE *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template><srai>LSTDVDS</srai></template>
+</category>
+
+
+<category>
+<pattern>NO</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template>O.K. It's an awfully long list. Most people never get past the first few pages.</template>
+</category>
+
+<category>
+<pattern>_ NO</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template>O.K. It's an awfully long list. Most people never get past the first few pages.</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template>O.K. It's an awfully long list. Most people never get past the first few pages.</template>
+</category>
+
+<category>
+<pattern>_ NO *</pattern>
+<that>* SEE A LIST OF OUR DVDS</that>
+<template>O.K. It's an awfully long list. Most people never get past the first few pages.</template>
 </category>
 
 <category>
 <pattern>HOW MANY DVDS * COLLECTION </pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW BIG * DVD * COLLECTION </pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW MANY DVDS * OWNED * LIBRARY</pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW MANY DVDS * LIBRARY * OWN</pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW MANY DVDS * COLLECTION</pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW BIG * COLLECTION * DVDS</pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 <category>
 <pattern>HOW BIG * DVD COLLECTION </pattern>
-<template>I haven't counted for a while. I estimate own between 8000 and 10000 DVDs.</template>
+<template><srai>DVDCOLL</srai></template>
 </category>
 
 
 <category>
 <pattern>_ BOOKS * LIBRARY</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 <category>
 <pattern>_ BOOKS * LIBRARY *</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 <category>
 <pattern>_ VOLUMES * LIBRARY</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 <category>
 <pattern>_ VOLUMES * LIBRARY *</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 
 <category>
 <pattern>HOW MANY BOOKS * HAVE</pattern>
-<template>We have approximately 262,000 books in our library.</template>
+<template><srai>BKCOLL</srai></template>
 </category>
 
 

@@ -2592,11 +2592,11 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 
 <!--change account info-->
 
+
 <category>
-<pattern>CHNGACCTINF</pattern>
-<template>You can change your street address, city, state, zip code, and email address by logging into your account. Here's a <a href="http://www.mentorpl.org/modifyinginfo.wmv" target="_blank">
-<b>demo</b></a>. All other information, such as phone number, can only be changed by a library staff member. Please call 440.255.8811 for assistance.</template>
-</category>
+<pattern>change account info</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
 
 <category>
 <pattern>change * account info</pattern>

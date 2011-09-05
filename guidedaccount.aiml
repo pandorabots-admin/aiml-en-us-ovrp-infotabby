@@ -157,7 +157,74 @@ the library at 440.255.8811 during regular business hours.</template>
 </topic>
 
 <!--NO ACCT-->  
-  
+
+
+
+<topic name="ACCTQ">
+<category>
+<pattern>CREATE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>CREATE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>CREATING</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATING</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>CREATING *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* CREATING *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
 <topic name="ACCTQ">  
 <category>
 <pattern>DO NOT HAVE</pattern>
@@ -250,12 +317,143 @@ the library at 440.255.8811 during regular business hours.</template>
 
 <topic name="ACCTQ">
 <category>
-<pattern>START</pattern>
+<pattern>SIGN UP</pattern>
 <that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
 <template><srai>GTCRD</srai></template>
 </category>
 </topic>
 
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SIGN UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SIGN UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SIGN UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SIGNING UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SIGNING UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SIGNING UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SIGNING UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SET UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SET UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SET UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SET UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SETTING UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SETTING UP</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>SETTING UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>* SETTING UP *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>START</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>GTCRD</srai></template>
+</category>
+</topic>
 
 <topic name="ACCTQ">
 <category>
@@ -698,9 +896,6 @@ be signed by all those being linked. These slips are available at the Main Libra
 </template>
 </category>
 </topic>
-
-
-
 
 
 
@@ -2720,8 +2915,8 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 
 <category>
 <pattern>CHNGACCTINF</pattern>
-<template>You can change your street address, city, state, zip code, and email address by logging into your account. Here's a <a href="http://www.mentorpl.org/modifyinginfo.wmv" target="_blank">
-<b>demo</b></a>. All other information, such as phone number, can only be changed by a library staff member. Please call 440.255.8811 for assistance.</template>
+<template>You can change your email address by logging into <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Here's a <a href="http://www.mentorpl.org/modifyinginfo.wmv" target="_blank">
+<b>demo</b></a>. All other information, such as street address, city, state, zip code, and phone number, can only be changed by a library staff member. Please call 440.255.8811 for assistance.</template>
 </category>
 
 
@@ -2833,10 +3028,6 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 </category>
 </topic>
 
-
-
-
-
 <topic name="ACCTQ">
 <category>
 <pattern>UPDATE</pattern>
@@ -2873,9 +3064,6 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 </category>
 </topic>
 
-
-
-
 <topic name="ACCTQ">
 <category>
 <pattern>UPDATED</pattern>
@@ -2911,11 +3099,6 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 </template>
 </category>
 </topic>
-
-
-
-
-
 
 <!--reading history-->
 

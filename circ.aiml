@@ -5992,7 +5992,7 @@ Here's a <a href="http://www.mentorpl.org/demos/renewingitems.wmv" target="_blan
 
 <category>
   <pattern>RNW</pattern>
-  <template>You can renew items <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>online</b></a>, or by calling the library. Please have your library card ready.
+  <template>You can renew items online, or by calling the library. Please have your library card ready.
 You can renew an item any time after you check it out. Items may not be renewed if they have a hold. Different items may be renewed a different number of times. Please refer to this  
 <a href="http://www.mentorpl.org/aboutus.html" target="_blank"><b>chart</b></a>. The renewal date is calculated from the date you renew the item. Please check the due dates for your items after renewing them.
 <br/><br/>
@@ -6205,16 +6205,18 @@ Would like like step by step instructions for renewing your items online?
 
 <category>
   <pattern>RNWHELP</pattern>
-  <template>Log in to your account then follow these directions: 
-
-1. Enter your Name and Barcode
-barcode is on back of your library card (enter entire number with no spaces) 
-2. Choose "Items Out"
-3. Select checkbox next to the item you want to renew. 
-4. Click the "Renew" button 
+  <template>Log in to your account then follow these directions. I'll open a new window or tab with the place where you log in: 
+<br/><br/>
+1. Enter your Name and Barcode. Your barcode is on the back of your library card. Please enter the entire number with no spaces. <br/>
+2. Choose "Items Out" <br/>
+3. Select checkbox next to the item you want to renew. <br/>
+4. Click the "Renew" button <br/>
 5. Check the Due Date column for the new due date.<br/><br/>
 All of our items may be renewed up to four times as long as no one else has a hold on them. Search Ohio items may be renewed up to three times as long as no one else
 has a hold on them.
+<think>
+<set name="search">patroninfo</set>
+</think>
 </template>
 </category>
 
@@ -6405,14 +6407,6 @@ has a hold on them.</template>
 <template><srai>RNW</srai></template>
 </category>
 
-<category>
-<pattern>RENEW *</pattern>
-<template>Log in to
-    <a href="https://catalog.mentorpl.org/patroninfo" target="_blank">
-      <b>your account</b>
-    </a> then follow these directions: 1. In your account, enter your name and barcode. Your barcode is on back of your library card. Please enter entire number with no spaces. 2. Choose "Items Out." 3. Select checkbox next to the item you want to renew. 4. Click the "Renew" button 5. Check the Due Date column for the new due date.
-  </template>
-</category>
 
 <category>
 <pattern>* TIMES * RENEW A *</pattern>

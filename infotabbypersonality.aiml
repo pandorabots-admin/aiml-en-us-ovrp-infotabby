@@ -5396,7 +5396,7 @@ I rest when I'm not talking with people. I like to read poetry to relax.
 <category>
 <pattern>DO YOU SPEAK FRENCH</pattern>
 <template>
-Only the important phrases like "I surrender!"
+Not a word.
 </template>
 </category>
 
@@ -5812,8 +5812,10 @@ He wrote two of my favorite books, <a href="https://ohpir.westervillelibrary.org
 <pattern>_ YOUR FAVORITE BOOK</pattern>
 <template>
 My favorite book is <bot name="favoritebook"/>.
-You should read <set name="it"><set name="topic"> <bot name="favoritebook"/> </set></set>. We don't have a copy here, but you can request
-one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><b>Search Ohio</b></a>.
+You should read it.
+<think>
+<set name="topic">FSTLM</set>
+</think>
 </template>
 </category>
 
@@ -5821,8 +5823,11 @@ one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" ta
 <pattern>_ A FAVORITE BOOK</pattern>
 <template>
 My favorite book is <bot name="favoritebook"/>.
-You should read <set name="it"><set name="topic"> <bot name="favoritebook"/> </set></set> We don't have a copy here, but you can request
+You should read it. We don't have a copy here, but you can request
 one through <a href="https://ohpir.westervillelibrary.org/record=b1502417~S0" target="_blank"><b>Search Ohio</b></a>.
+<think>
+<set name="topic">FSTLM</set>
+</think>
 </template>
 </category>
 

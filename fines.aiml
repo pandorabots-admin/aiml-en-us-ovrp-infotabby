@@ -508,7 +508,7 @@ We are not currently offering fine forgiveness. If you have questions about fine
 
 <category>
 <pattern>SNRFINES</pattern>
-<template>Our circulation and fine policies apply to everyone equally, regardless of age.</template>
+<template>We do not have special loan periods or fine policies for seniors. Our circulation and fine policies apply to everyone equally, regardless of age.</template>
 </category>
 
 <topic name="FEES"><category>
@@ -557,7 +557,7 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category></topic>
 
 <topic name="FEES"><category>
-<pattern>* SENIOR </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<pattern>_ SENIOR </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
@@ -567,7 +567,7 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category></topic>
 
 <topic name="FEES"><category>
-<pattern>* SENIOR *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<pattern>_ SENIOR *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
@@ -577,7 +577,7 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category></topic>
 
 <topic name="FEES"><category>
-<pattern>* SENIORS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<pattern>_ SENIORS </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
 
@@ -587,9 +587,55 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category></topic>
 
 <topic name="FEES"><category>
-<pattern>* SENIORS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<pattern>_ SENIORS *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>SNRFINES</srai></template>
 </category></topic>
+
+
+<category>
+<pattern>SNRFINES2</pattern>
+<template>We do not have special loan periods or fine policies for seniors. Our circulation and fine policies apply to everyone equally, regardless of age.</template>
+</category>
+
+<category>
+<pattern>SENIOR</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>SENIOR *</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR *</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>SENIORS</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>* SENIORS</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>SENIORS *</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
+
+<category>
+<pattern>* SENIORS *</pattern>
+<template><srai>SNRFINES2</srai></template>
+</category>
 
 <!--FINE FORGIVENESS-->
 
@@ -905,9 +951,23 @@ You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_bla
 
 <category>
 <pattern>CHKFINES</pattern>
-<template>To check on your fines, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Any fines will be be indicated there.</template>
+<template>To check on your fines, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Any fines will be indicated there.</template>
 </category>
 
+<category>
+ <pattern>* HOW MUCH * OWE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+
+<category>
+ <pattern>HOW MUCH * OWE</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OWE *</pattern>
+<template><srai>CHKFINES</srai></template>
+</category>
 
 <topic name="FEES"><category>
  <pattern>* HAVE * FINES</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
@@ -965,7 +1025,7 @@ You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_bla
 </topic>
 
 <topic name="FEES"><category>
- <pattern>HOW MUCH * OWE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+ <pattern>HOW MUCH * OWE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>CHKFINES</srai></template>
 </category>
 </topic>
@@ -1025,6 +1085,10 @@ You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_bla
 <template><srai>OVRDUECHK</srai></template>
 </category>
 </topic>
+
+
+
+
 
 <!--IPAD FINES-->
 
