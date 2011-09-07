@@ -510,6 +510,7 @@ shutup.aiml
 Notices for file(s):
 
 atomic-categories0.aiml
+client_profile.aiml
 reduction0.safe.aiml
 reduction1.safe.aiml
 reduction2.safe.aiml

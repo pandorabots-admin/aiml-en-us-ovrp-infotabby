@@ -856,6 +856,103 @@ If you need help finding media at one of our branches, please ask one of the sta
 </category>
 
 
+<!--PLAYAWAY VIEW-->
+
+<category>
+<pattern>PLWYVW</pattern>
+<template>Playaway View is a simple idea for young children to watch educational and entertaining videos on the go. Each Playaway View comes with the video content already pre-loaded on it. Earphones are not required. You can check out Playaway Views for two weeks; you can renew and request them, too.  
+Check our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Kid's Page</b></a> for more information
+or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searchtype=X&amp;searcharg=playaway+view" target="_blank"><b>list of titles</b></a>.
+</template>
+</category>
+
+<category>
+<pattern>PLAYAWAY VIEW</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAY VIEW</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>PLAYAWAY VIEW *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAY VIEW *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>PLAYAWAY VIEWS</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAY VIEWS</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>PLAYAWAY VIEWS *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAY VIEWS *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+
+<category>
+<pattern>PLAYAWAY</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAY</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>PLAYAWAY *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAY *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+
+<category>
+<pattern>PLAYAWAYS</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAYS</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>PLAYAWAYS *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+<category>
+<pattern>* PLAYAWAYS *</pattern>
+<template><srai>PLWYVW</srai></template>
+</category>
+
+
+
+<!--PHONEBOOKS-->
+
+
 <category>
   <pattern>phone book</pattern>
   <template>We have phone books for many counties in Northeast Ohio. We have Haines directories, criss-cross directories, for Lake and Geauga Counties and for Cleveland. You might like to try this <a href="http://www.theultimates.com/"><b>online phonebook</b></a>.

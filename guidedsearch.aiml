@@ -1223,32 +1223,6 @@ Let's see what's in the catalog. You should see the results as a new window or a
 </category>
 </topic>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <topic name="INITS2">
 <category>
 <pattern>YES</pattern>
@@ -1403,6 +1377,173 @@ Let's see what's in the catalog. You should see the results as a new window or a
 </category>
 </topic>
 
+<topic name="INITS2">
+<category>
+<pattern>CATALOG</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ CATALOG</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>CATALOG *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ CATALOG *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFO</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ INFO</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFO *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ INFO *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFORMATION</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ INFORMATION</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>INFORMATION *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ INFORMATION *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template>
+O.K. Now you need to help me a little. If your question is about our library, a library program, or library services, please enter "Library" now. Otherwise, I can send your question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
+depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.
+For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" target="_blank"><b>Ohio Web Library</b></a>. Please enter "Wolfram" or "Ohio" now.
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>LOOK</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ LOOK</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>LOOK *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
+
+<topic name="INITS2">
+<category>
+<pattern>_ LOOK *</pattern>
+<that>* IN OUR CATALOG OR * INFORMATION</that>
+<template><srai>NEWPASS</srai>
+</template>
+</category>
+</topic>
 
 <!--RESUME-->
 

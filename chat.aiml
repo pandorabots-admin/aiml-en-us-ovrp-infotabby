@@ -573,22 +573,19 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </category>
 </topic>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<category>
+<pattern> * </pattern>
+<that>WHERE ARE YOU</that>
+<template>
+<random>
+<li><star/>? Tell me about it.</li>
+<li><star/>? What is it like?</li>
+<li><star/>? Do you like it?</li>
+</random>
+<think>
+<set name="topic">CHT</set>
+</think>
+</template>
+</category>
 
 </aiml>
