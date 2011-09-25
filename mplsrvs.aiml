@@ -322,7 +322,7 @@
 
 <category>
 <pattern>PRNT</pattern>
-<template>You can make both black and white and color prints at the Main Library. The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white printing only. The cost is $.10 per page. If you need help using our printers or copiers, ask one of the library staff for assistance.
+<template>You can make both black and white and color prints at the Main Library. The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white printing only. The cost is $.10 per page. You may make as many prints as you wish to pay for. If you need help using our printers or copiers, ask one of the library staff for assistance.
 </template>
 </category>
 
@@ -521,48 +521,54 @@
 
 
 <!--proctoring-->
+
 <category>
   <pattern>PROCTOR</pattern>
  <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
 </category>
 
 <category>
-  <pattern>PROCTOR EXAMS</pattern>
+  <pattern>* PROCTOR</pattern>
+ <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+</category>
+
+<category>
+  <pattern>PROCTOR *</pattern>
  <template><srai>PROCTOR</srai></template>
 </category>
 
 <category>
-  <pattern>* PROCTOR EXAMS</pattern>
+  <pattern>* PROCTOR *</pattern>
  <template><srai>PROCTOR</srai></template>
 </category>
 
 <category>
-  <pattern>PROCTOR AN EXAM</pattern>
+  <pattern>PROCTORED</pattern>
+ <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+</category>
+
+<category>
+  <pattern>* PROCTORED</pattern>
+ <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+</category>
+
+<category>
+  <pattern>PROCTORED *</pattern>
  <template><srai>PROCTOR</srai></template>
 </category>
 
 <category>
-  <pattern>* PROCTOR AN EXAM</pattern>
- <template><srai>PROCTOR</srai></template>
-</category>
-
-<category>
-  <pattern>PROCTORED EXAMS</pattern>
- <template><srai>PROCTOR</srai></template>
-</category>
-
-<category>
-  <pattern>PROCTORED EXAM</pattern>
- <template><srai>PROCTOR</srai></template>
-</category>
-
-<category>
-  <pattern>* PROCTORED EXAM *</pattern>
+  <pattern>* PROCTORED *</pattern>
  <template><srai>PROCTOR</srai></template>
 </category>
 
 <category>
   <pattern>PROCTORING</pattern>
+ <template><srai>PROCTOR</srai></template>
+</category>
+
+<category>
+  <pattern>PROCTORING *</pattern>
  <template><srai>PROCTOR</srai></template>
 </category>
 

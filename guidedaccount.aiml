@@ -3909,4 +3909,48 @@ and our laptop computers which are for library use only.</template>
 </category>
 </topic>
 
+<!--CHECK ITEMS & DUE DATES-->
+
+<category>
+<pattern>ACHKDD</pattern>
+<template>To see a list of the items you have checked out and when they're due, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. The items you have checked out and their due dates will be listed there.</template>
+</category>
+
+<topic name="ACCTQ">
+<category>
+<pattern>DUE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>ACHKDD</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>_ DUE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>ACHKDD</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>DUE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>ACHKDD</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ACCTQ">
+<category>
+<pattern>_ DUE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>ACHKDD</srai>
+</template>
+</category>
+</topic>
+
+
 </aiml>

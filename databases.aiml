@@ -16,7 +16,33 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
+<!--ANCESTRY LIBRARY EDITION-->
 
+<category>
+  <pattern>ANCSTRYLE</pattern>
+  <template>We have <a href="http://www.ancestrylibrary.com/default.aspx" target="blank"><b>Ancestry Library Edition</b></a>, but it's only for use in the library, at the Main Library or either branch. You can't use it from home. 
+ </template>
+</category>
+
+<category>
+<pattern>ANCESTRY</pattern>
+  <template><srai>ANCSTRYLE</srai></template>
+</category>
+
+<category>
+<pattern>* ANCESTRY</pattern>
+  <template><srai>ANCSTRYLE</srai></template>
+</category>
+
+<category>
+<pattern>ANCESTRY *</pattern>
+  <template><srai>ANCSTRYLE</srai></template>
+</category>
+
+<category>
+<pattern>* ANCESTRY *</pattern>
+  <template><srai>ANCSTRYLE</srai></template>
+</category>
 
 
 <!--bookflix-->

@@ -397,8 +397,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 
 <category>
   <pattern>KNDL</pattern>
-  <template>We don't have Kindles to loan, or e books for you to download to your own Kindle at this time, but we do have Nooks for you to check out. We hope to have downloadable
-  eBooks for Kindles soon.</template>
+  <template>We don't have Kindles to loan, but you can download eBooks to your own Kindle using Overdrive. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.</template>
 </category>
 
 <category>
@@ -443,8 +442,8 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 
 <category>
   <pattern>KNDLOD</pattern>
-  <template>Kindles are not currently compatible with Overdrive. Overdrive is planning to have downloadable books for Kindles later this year. Here is a link of <a href="http://www.overdrive.com/resources/drc/Default.aspx?type=ebook" target="_blank"><b>compatible devices</b></a> you can use
-  with Overdrive.</template>
+  <template>Overdrive eBooks are now compatible with Kindles. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.
+  </template>
 </category>
 
 <category>
@@ -5510,8 +5509,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 Follow this link for <a href="http://mentor.lib.overdrive.com/D5DE83A9-D933-4EC1-830F-9FEA2A82C69E/10/806/en/Help-Policies-Borrowing.htm" target="_blank"><b>more information on downloading, reading, and returning eBooks</b></a> using OverDrive. 
 You can get even more downloadable books free from <a href="http://openlibrary.org/" target="_blank"><b>Open Library</b>
 </a> or from <a href="http://books.google.com/" target="_blank"><b>Google Books</b>
-</a>. We don't have downloadable audio books or movies at this time, and Overdrive eBooks are not currently compatible with Kindles. Downloadable eBooks for Kindles should be available
-later this year.
+</a>. We don't have downloadable audio books or movies at this time, but Overdrive eBooks are now compatible with Kindles. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.
 <think>
 <set name="search">overdrive</set>
 </think>
@@ -6122,8 +6120,7 @@ later this year.
 <template>We have downloadable eBooks through <a href="http://mentor.lib.overdrive.com/" target="_blank"><b>Overdrive</b></a>. We also have free music downloads through <a href="http://www.freegalmusic.com/users/indlogin" target="_blank"><b>Freegal</b></a>. 
 All you need is your Mentor Public Library card to use both! You can get even more downloadable books free from <a href="http://openlibrary.org/" target="_blank"><b>Open Library</b>
 </a> or from <a href="http://books.google.com/" target="_blank"><b>Google Books</b>
-</a>. We don't have downloadable audio books or movies at this time, and Overdrive eBooks are not currently compatible with Kindles. Downloadable eBooks for Kindles should be available
-later this year.</template>
+</a>. We don't have downloadable audio books or movies at this time, but Overdrive eBooks are now compatible with Kindles. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.</template>
 </category>
 
 

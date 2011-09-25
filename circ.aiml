@@ -5997,7 +5997,9 @@ You can renew an item any time after you check it out. Items may not be renewed 
 <a href="http://www.mentorpl.org/aboutus.html" target="_blank"><b>chart</b></a>. The renewal date is calculated from the date you renew the item. Please check the due dates for your items after renewing them.
 <br/><br/>
 All of our items may be renewed up to four times as long as no one else has a hold on them. Search Ohio items may be renewed up to three times as long as no one else
-has a hold on them.<br/><br/>
+has a hold on them. If you are unable to renew an item, the most common reasons are: another person has a hold on the item, your fines are $5.00 or more, the item is overdue
+ot you have reached the maximun number of renewals. 
+<br/><br/>
 Would like like step by step instructions for renewing your items online?
 </template>
 </category>
@@ -6372,8 +6374,8 @@ has a hold on them.</template>
 
 <category>
   <pattern>CNTRENEW</pattern>
-    <template>The most common reasons why an item will not renew are: If another person has a hold on the item, if your fines are $5.00 or more, or if the item is overdue. 
-</template>
+    <template>If you are unable to renew an item, the most common reasons are: another person has a hold on the item, your fines are $5.00 or more, the item is overdue
+ot you have reached the maximun number of renewals. Please call the library at 440.255.8811 during regular business hours for assistance.</template>
 </category>
 
 <category>
@@ -8000,7 +8002,7 @@ many of each kind of item you can take out.</template>
 
 <category>
 <pattern>GRCPRDS</pattern>
-<template>We do not have have periods.</template>
+<template>We do not have have grace periods.</template>
 </category>
 
 <topic name="CRCQ">
@@ -8026,6 +8028,107 @@ many of each kind of item you can take out.</template>
 <template><srai>CRCDSK</srai></template>
 </category>
 </topic>
+
+<!--CHECK DUE DATES-->
+
+<category>
+<pattern>CHKDD</pattern>
+<template>To check the date that your items are due, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. The items you have checked out and their due dates will be listed there.</template>
+</category>
+
+<category>
+<pattern>CHECK DATE</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * DATE</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK DATE</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK DATE *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK *DATE</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK DATE *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * DATE *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK DATE *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * DATE *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK DATES</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * DATES</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK DATES</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK DATES *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK *DATES</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK DATES *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * DATES *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK DATES *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * DATES *</pattern>
+<template><srai>CHKDD</srai></template>
+</category>
+
+
+
+
 
 
 </aiml>

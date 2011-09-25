@@ -2071,8 +2071,6 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 </template>
 </category>
 
-<!--I-->
-
 <category>
 <pattern>HAVE DVD</pattern>
 <template>
@@ -2186,15 +2184,29 @@ Let me check our catalog for <star/>.  If you don't see the results, please turn
 </category>
 
 <category>
+<pattern>MOVIE</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIES</pattern>
+<template>
+<srai>FNDDVD</srai>
+</template>
+</category>
+
+<category>
 <pattern>FNDDVD</pattern>
 <template>
-I can help you find DVDs. Enter either the title or the topic in just a few words. 
+I can help you find DVDs and movies. Please use the fewest possible words. Tell me the title or what the movie is about. 
 </template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>ENTER EITHER THE TITLE OR THE TOPIC IN JUST A FEW WORDS</that>
+<that>TELL ME * MOVIE IS ABOUT</that>
 <template>
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
 <think>

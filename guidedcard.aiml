@@ -206,7 +206,110 @@ is lost or stolen. If you're getting a message that your card is going to expire
 <template><srai>OUTSDMNTR</srai></template>
 </category>
 
+<!--LINKING CARDS-->
 
+<category>
+<pattern>LNKCRDS</pattern>
+<template>You must fill out a permission form to link cards; cards cannot be linked online. Linking cards allows
+you to renew, pay fines, or check out items for another person. The people being linked do not have to be 
+related by blood or marriage. </template>
+</category>
+
+<topic name="CRDQ">
+<category>
+<pattern>LINK</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>_ LINK</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>LINK *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>_ LINK *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>LINKED</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>_ LINKED</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>LINKED *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>_ LINKED *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>LINKING</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>_ LINKING</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>LINKING *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<topic name="CRDQ">
+<category>
+<pattern>_ LINKING *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
 
 <!--NEW OR REPLACEMENT CARD-->
   

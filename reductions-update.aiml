@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-<!--  Safe AIML Reductions v. 1.1 (c) Dr. Ricard S. Wallace   -->
-<!--   Copyright ALICE A.I. Foundation -->
-<!--   Complies with the AIML 1.0.1 Standard   -->
-<!--   as adopted by the ALICE A.I. Foundation.   -->
-<!--   Last modified on 12/16/2009  -->
-<!--   Summarizer Reductions update.aiml  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!--  -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!--  --> 
 <category>
 <pattern>SORRY  *</pattern>
 <template>

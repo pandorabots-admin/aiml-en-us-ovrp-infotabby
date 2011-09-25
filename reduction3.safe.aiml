@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-<!--   Summarizer v. 1.01 (c) Dr. Richard S. Wallace   -->
-<!--   Complies with the AIML 1.0.1 Standard   -->
-<!--   as adopted by the ALICE A.I. Foundation.   -->
-<!--   Last modified  7/5/09   -->
-<!--   reduction3.safe.aiml: 4087 categories   -->
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!--  -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!--  --> 
 <category>
 <pattern>WRONG IT *</pattern>
 <template>
@@ -644,14 +647,14 @@
 </template>
 </category>
 
-
+<!--
 <category>
 <pattern>WHY WILL *</pattern>
 <template>
 <srai>will <star /></srai>
 </template>
 </category>
-
+-->
 
 <category>
 <pattern>WILL NOT *</pattern>
