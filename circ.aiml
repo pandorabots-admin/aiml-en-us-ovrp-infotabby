@@ -147,14 +147,6 @@
 <template><srai>LNPRDS</srai></template>
 </category>
 
-
-
-
-
-
-
-
-
 <category>
 <pattern>NO</pattern>
 <that>WOULD YOU LIKE A SUMMARY OF ITEM LOAN PERIODS YES OR NO</that>
@@ -234,23 +226,27 @@
 </category>
 
 <category>
-<pattern>override * number * renewals</pattern>
-<template><srai>OVRRDRNWLS</srai></template>
-</category>
-
-
-<category>
-<pattern>* override * number * renewals</pattern>
+<pattern>OVERRIDE * NUMBER * RENEWALS</pattern>
 <template><srai>OVRRDRNWLS</srai></template>
 </category>
 
 <category>
-<pattern>* override * renewals</pattern>
+<pattern>OVERRIDE * NUMBER * RENEWALS *</pattern>
 <template><srai>OVRRDRNWLS</srai></template>
 </category>
 
 <category>
-<pattern>* override * renew *</pattern>
+<pattern>* OVERRIDE * NUMBER * RENEWALS</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category>
+
+<category>
+<pattern>* OVERRIDE * RENEWALS</pattern>
+<template><srai>OVRRDRNWLS</srai></template>
+</category>
+
+<category>
+<pattern>* OVERRIDE * RENEW *</pattern>
 <template><srai>OVRRDRNWLS</srai></template>
 </category>
 
@@ -2946,7 +2942,7 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 <category>
 <pattern>LPIPDS</pattern>
-<template>i Pads circulate for three days. i Pads may not be renewed.</template>
+<template>iPads circulate for three days. iPads may not be renewed.</template>
 </category>
 
 <category>
@@ -4036,7 +4032,7 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 <category>
 <pattern>LPNOOKS</pattern>
-<template>Nooks circulate for two weeks and may not be renewed.</template>
+<template>Nooks circulate for two weeks and may be renewed up to four times if there are no holds on them.</template>
 </category>
 
 <category>
@@ -4332,18 +4328,26 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 <category>
+<pattern>WHRCO</pattern>
+<template>If you're checking out media, you must check it out in the Media Room. Nooks, i Pads, Laptops, and other electronic devices must be checked out
+and returned to the Computer Help Desk on the ground floor of the Main Library. Everything else may be checked out at circulation or at any of our self checks.</template>
+</category>
+
+
+
+<category>
 <pattern>WHERE * CHECK OUT</pattern>
-<template>At circulation. If you're checking out media, you must check out in the Media Room. </template>
+<template><srai>WHRCO</srai></template>
 </category>
 
 <category>
 <pattern>WHERE * CHECK OUT *</pattern>
-<template>At circulation. If you're checking out media, you must check out in the Media Room. </template>
+<template><srai>WHRCO</srai></template>
 </category>
 
 <category>
 <pattern>WHERE * CHECK * OUT</pattern>
-<template>At circulation. If you're checking out media, you must check out in the Media Room. </template>
+<template><srai>WHRCO</srai></template>
 </category>
 
 <!--MAG CIRC-->
@@ -4413,136 +4417,214 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 <template><srai>COMAG</srai></template>
 </category>
 
-
-
-
-
 <category>
-  <pattern>magazines circulate</pattern>
+  <pattern>MAGAZINES CIRCULATE</pattern>
 <template><srai>COMAG</srai></template>
 </category>
 
 <category>
-  <pattern>* magazines circulate</pattern>
+  <pattern>* MAGAZINES CIRCULATE</pattern>
 <template><srai>COMAG</srai></template>
 </category>
 
 <category>
-  <pattern>* magazines circulate *</pattern>
+  <pattern>* MAGAZINES CIRCULATE *</pattern>
 <template><srai>COMAG</srai></template>
 </category>
 
 <category>
-  <pattern>magazines circulate *</pattern>
+  <pattern>MAGAZINES CIRCULATE *</pattern>
 <template><srai>COMAG</srai></template>
 </category>
-
-
-
 
 <!--checkout without card-->
 
 <category>
-  <pattern>* check out * without * card</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
+  <pattern>* CHECK OUT * WITHOUT * CARD</pattern>
+  <template><srai>COWOCRD</srai>
  </template>
 </category>
 
 <category>
-  <pattern>* checkout * without * card</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
+  <pattern>* CHECKOUT * WITHOUT * CARD</pattern>
+  <template><srai>COWOCRD</srai>
  </template>
 </category>
 
 <category>
-  <pattern>* need * card * check out</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
+  <pattern>* NEED * CARD * CHECK OUT</pattern>
+  <template><srai>COWOCRD</srai>
  </template>
 </category>
 
 <category>
-  <pattern>* need * card * checkout</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
+  <pattern>* NEED * CARD * CHECKOUT</pattern>
+  <template><srai>COWOCRD</srai>
  </template>
 </category>
 
+<topic name="CRCQ">
+<category>
+<pattern>DO NOT * CARD</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
 
+<topic name="CRCQ">
+<category>
+<pattern>_ DO NOT * CARD</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
 
+<topic name="CRCQ">
+<category>
+<pattern>DO NOT * CARD *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>_ DO NOT * CARD *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>FORGOT * CARD</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>_ FORGOT * CARD</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>FORGOT * CARD *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>_ FORGOT * CARD *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>WITHOUT * CARD</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>_ WITHOUT * CARD</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>WITHOUT * CARD *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ">
+<category>
+<pattern>_ WITHOUT * CARD *</pattern>
+<that>WHAT * ABOUT CIRCULATION</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+</topic>
 
 <!--look up my card-->
 
 <category>
-  <pattern>LOOK UP * CARD</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
+  <pattern>LKUPCRD</pattern>
+  <template>We cannot look up your number for you. If you need a new card, you can get one for $1.00.
  </template>
+</category>
+
+<category>
+  <pattern>LOOK UP * CARD</pattern>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK UP * CARD</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK UP * CARD *</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
-
-
 
 <category>
   <pattern>LOOK * CARD UP</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK * CARD UP</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK * CARD UP *</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>LOOK UP * NUMBER</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK UP * NUMBER</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK UP * NUMBER *</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>LOOK * NUMBER UP</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK * NUMBER UP</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 <category>
   <pattern>* LOOK * NUMBER UP *</pattern>
-  <template>A library card is needed to check out materials. You cannot check out items using a driver's license or other ID
- </template>
+  <template><srai>LKUPCRD</srai></template>
 </category>
 
 
@@ -4555,98 +4637,94 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 <category>
-  <pattern>* books * display</pattern>
+  <pattern>* BOOKS * DISPLAY</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* books * display *</pattern>
+  <pattern>* BOOKS * DISPLAY *</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>books * display *</pattern>
+  <pattern>BOOKS * DISPLAY *</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>things * display</pattern>
+  <pattern>THINGS * DISPLAY</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* things * display</pattern>
+  <pattern>* THINGS * DISPLAY</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* things * display *</pattern>
+  <pattern>* THINGS * DISPLAY *</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>things * display *</pattern>
+  <pattern>THINGS * DISPLAY *</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>book * display</pattern>
+  <pattern>BOOK * DISPLAY</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* book * display</pattern>
+  <pattern>* BOOK * DISPLAY</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* book * display *</pattern>
+  <pattern>* BOOK * DISPLAY *</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>book * display *</pattern>
+  <pattern>BOOK * DISPLAY *</pattern>
   <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>display book</pattern>
+  <pattern>DISPLAY BOOK</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* display book</pattern>
+  <pattern>* DISPLAY BOOK</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* display book *</pattern>
+  <pattern>* DISPLAY BOOK *</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>display book *</pattern>
+  <pattern>DISPLAY BOOK *</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>display books</pattern>
+  <pattern>DISPLAY BOOKS</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* display books</pattern>
+  <pattern>* DISPLAY BOOKS</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* display books *</pattern>
+  <pattern>* DISPLAY BOOKS *</pattern>
    <template><srai>DISPBKS</srai></template>
 </category>
-
-
-
-
 
 <!--newspaper circ-->
 
@@ -4658,71 +4736,69 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 
 <category>
-  <pattern>check out * newspaper</pattern>
+  <pattern>CHECK OUT * NEWSPAPER</pattern>
   <template><srai>CONEWSP</srai> 
  </template>
 </category>
 
 <category>
-  <pattern>* check out * newspaper</pattern>
+  <pattern>* CHECK OUT * NEWSPAPER</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* check out * newspaper *</pattern>
+  <pattern>* CHECK OUT * NEWSPAPER *</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>check out newspaper</pattern>
+  <pattern>CHECK OUT NEWSPAPER</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>check out newspapers</pattern>
+  <pattern>CHECK OUT NEWSPAPERS</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* check out newspapers</pattern>
+  <pattern>* CHECK OUT NEWSPAPERS</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* check out newspapers *</pattern>
+  <pattern>* CHECK OUT NEWSPAPERS *</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* check out * newspapers </pattern>
+  <pattern>* CHECK OUT * NEWSPAPERS </pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* check out * newspapers *</pattern>
+  <pattern>* CHECK OUT * NEWSPAPERS *</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 
-
-
 <category>
-  <pattern>newspapers circulate</pattern>
+  <pattern>NEWSPAPERS CIRCULATE</pattern>
     <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* newspapers circulate</pattern>
+  <pattern>* NEWSPAPERS CIRCULATE</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>* newspapers circulate *</pattern>
+  <pattern>* NEWSPAPERS CIRCULATE *</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
 <category>
-  <pattern>newspapers circulate *</pattern>
+  <pattern>NEWSPAPERS CIRCULATE *</pattern>
   <template><srai>CONEWSP</srai></template>
 </category>
 
@@ -4730,30 +4806,22 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 <category>
   <pattern>CIRCPOLNO</pattern>
-  <template>This is a message you might see when requesting items through Search Ohio. If the lending library has at least one hold on the title that has not been picked yet and checked in, Search Ohio will not allow you to request it. 
+  <template>This is a message you might see when requesting items through OhioLINK or Search Ohio. If the lending library has at least one hold on the title that has not been picked yet and checked in, Search Ohio will not allow you to request it. 
   This option insures that the patrons of the library that owns the item get priority to popular titles. Please try again either later in the day or the next day.
 </template>
 </category>
 
 <category>
-  <pattern>circulation policy does not allow your request</pattern>
+  <pattern>CIRCULATION POLICY DOES NOT ALLOW *</pattern>
   <template><srai>CIRCPOLNO</srai></template>
 </category>
 
 <category>
-  <pattern>* circulation policy does not allow your request</pattern>
+  <pattern>* CIRCULATION POLICY DOES NOT ALLOW *</pattern>
   <template><srai>CIRCPOLNO</srai></template>
 </category>
 
-<category>
-  <pattern>* circulation policy does not allow your request *</pattern>
-  <template><srai>CIRCPOLNO</srai></template>
-</category>
 
-<category>
-  <pattern>circulation policy does not allow your request *</pattern>
-  <template><srai>CIRCPOLNO</srai></template>
-</category>
 
 <!--off a cart-->
 
@@ -4764,67 +4832,67 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 <category>
-  <pattern>off * cart</pattern>
+  <pattern>OFF * CART</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 
 <category>
-  <pattern>* off * cart</pattern>
+  <pattern>* OFF * CART</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 <category>
-  <pattern>* off * cart *</pattern>
+  <pattern>* OFF * CART *</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 <category>
-  <pattern>on * cart</pattern>
-  <template><srai>OFFCART</srai></template>
-</category>
-
-
-<category>
-  <pattern>* on * cart</pattern>
-  <template><srai>OFFCART</srai></template>
-</category>
-
-<category>
-  <pattern>* on * cart *</pattern>
+  <pattern>ON * CART</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 
 <category>
-  <pattern>off * carts</pattern>
+  <pattern>* ON * CART</pattern>
+  <template><srai>OFFCART</srai></template>
+</category>
+
+<category>
+  <pattern>* ON * CART *</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 
 <category>
-  <pattern>* off * carts</pattern>
-  <template><srai>OFFCART</srai></template>
-</category>
-
-<category>
-  <pattern>* off * carts *</pattern>
-  <template><srai>OFFCART</srai></template>
-</category>
-
-<category>
-  <pattern>on * carts</pattern>
+  <pattern>OFF * CARTS</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 
 <category>
-  <pattern>* on * carts</pattern>
+  <pattern>* OFF * CARTS</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
 <category>
-  <pattern>* on * carts *</pattern>
+  <pattern>* OFF * CARTS *</pattern>
+  <template><srai>OFFCART</srai></template>
+</category>
+
+<category>
+  <pattern>ON * CARTS</pattern>
+  <template><srai>OFFCART</srai></template>
+</category>
+
+
+<category>
+  <pattern>* ON * CARTS</pattern>
+  <template><srai>OFFCART</srai></template>
+</category>
+
+<category>
+  <pattern>* ON * CARTS *</pattern>
   <template><srai>OFFCART</srai></template>
 </category>
 
@@ -4839,22 +4907,22 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 
 <category>
-  <pattern>how many AUDIOBOOKS</pattern>
+  <pattern>HOW MANY AUDIOBOOKS</pattern>
   <template><srai>LMTABKS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many AUDIOBOOKS</pattern>
+  <pattern>* HOW MANY AUDIOBOOKS</pattern>
   <template><srai>LMTABKS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many AUDIOBOOKS *</pattern>
+  <pattern>* HOW MANY AUDIOBOOKS *</pattern>
   <template><srai>LMTABKS</srai></template>
 </category>
 
 <category>
-  <pattern>how many AUDIOBOOKS *</pattern>
+  <pattern>HOW MANY AUDIOBOOKS *</pattern>
   <template><srai>LMTABKS</srai></template>
 </category>
 
@@ -5007,13 +5075,13 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 <category>
-  <pattern>how many books * borrow</pattern>
+  <pattern>HOW MANY BOOKS * BORROW</pattern>
   <template><srai>LMTBKS</srai></template>
 </category>
 
 
 <category>
-  <pattern>* how many books * out</pattern>
+  <pattern>* HOW MANY BOOKS * OUT</pattern>
   <template><srai>LMTBKS</srai></template>
 </category>
 
@@ -5173,47 +5241,47 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 
 <category>
-  <pattern>how many cds</pattern>
+  <pattern>HOW MANY CDS</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many cds</pattern>
+  <pattern>* HOW MANY CDS</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many cds *</pattern>
+  <pattern>* HOW MANY CDS *</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>how many cds *</pattern>
+  <pattern>HOW MANY CDS *</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>how many cd s</pattern>
+  <pattern>HOW MANY CD S</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many cd s</pattern>
+  <pattern>* HOW MANY CD S</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many cd s *</pattern>
+  <pattern>* HOW MANY CD S *</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>how many cd s *</pattern>
+  <pattern>HOW MANY CD S *</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * cds</pattern>
+  <pattern>* NUMBER * CDS</pattern>
   <template><srai>LMTCDS</srai></template>
 </category>
 
@@ -5282,158 +5350,156 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 
 
 <category>
-  <pattern>how many dvds</pattern>
+  <pattern>HOW MANY DVDS</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many dvds</pattern>
+  <pattern>* HOW MANY DVDS</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <!--BORROWING LIMITS DVDS-->
 
 <category>
-  <pattern>* how many dvds * out</pattern>
+  <pattern>* HOW MANY DVDS * OUT</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>how many dvds * out</pattern>
+  <pattern>HOW MANY DVDS * OUT</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many dvds * out *</pattern>
+  <pattern>* HOW MANY DVDS * OUT *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>how many dvds * out *</pattern>
+  <pattern>HOW MANY DVDS * OUT *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * dvds * out</pattern>
+  <pattern>* NUMBER * DVDS * OUT</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * dvds * out *</pattern>
+  <pattern>* NUMBER * DVDS * OUT *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMIT * dvds * OUT</pattern>
+  <pattern>LIMIT * DVDS * OUT</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMIT * dvds * OUT</pattern>
+  <pattern>* LIMIT * DVDS * OUT</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMIT * dvds * OUT *</pattern>
+  <pattern>* LIMIT * DVDS * OUT *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMIT * dvds * OUT *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-
-<category>
-  <pattern>LIMITS * dvds * OUT</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* LIMITS * dvds * OUT </pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* LIMITS * dvds * OUT *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>LIMITS * dvds * OUT *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<!--i-->
-
-<category>
-  <pattern>* how many dvds * BORROW</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>how many dvds * BORROW</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* how many dvds * BORROW *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>how many dvds * BORROW *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* NUMBER * dvds * BORROW</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* NUMBER * dvds * BORROW *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>LIMIT * dvds * BORROW</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* LIMIT * dvds * BORROW</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* LIMIT * dvds * BORROW *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>LIMIT * dvds * BORROW *</pattern>
+  <pattern>LIMIT * DVDS * OUT *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 
 <category>
-  <pattern>LIMITS * dvds * BORROW</pattern>
+  <pattern>LIMITS * DVDS * OUT</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * dvds * BORROW </pattern>
+  <pattern>* LIMITS * DVDS * OUT </pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * dvds * BORROW *</pattern>
+  <pattern>* LIMITS * DVDS * OUT *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMITS * dvds * BORROW *</pattern>
+  <pattern>LIMITS * DVDS * OUT *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* HOW MANY DVDS * BORROW</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY DVDS * BORROW</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* HOW MANY DVDS * BORROW *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY DVDS * BORROW *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* NUMBER * DVDS * BORROW</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* NUMBER * DVDS * BORROW *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>LIMIT * DVDS * BORROW</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LIMIT * DVDS * BORROW</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LIMIT * DVDS * BORROW *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>LIMIT * DVDS * BORROW *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+
+<category>
+  <pattern>LIMITS * DVDS * BORROW</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LIMITS * DVDS * BORROW </pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LIMITS * DVDS * BORROW *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>LIMITS * DVDS * BORROW *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
@@ -5443,87 +5509,83 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 <!--nummovies-->
 
 <category>
-  <pattern>how many movies</pattern>
+  <pattern>HOW MANY MOVIES</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many movies</pattern>
+  <pattern>* HOW MANY MOVIES</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many movies *</pattern>
+  <pattern>* HOW MANY MOVIES *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>how many movies *</pattern>
+  <pattern>HOW MANY MOVIES *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * movies</pattern>
+  <pattern>* NUMBER * MOVIES</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * movies *</pattern>
+  <pattern>* NUMBER * MOVIES *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>NUMBER * movies *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-
-<category>
-  <pattern>LIMIT * movies</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* LIMIT * movies</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>* LIMIT * movies *</pattern>
-  <template><srai>LMTDVDS</srai></template>
-</category>
-
-<category>
-  <pattern>LIMIT * movies *</pattern>
+  <pattern>NUMBER * MOVIES *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 
 <category>
-  <pattern>LIMITS * movies</pattern>
+  <pattern>LIMIT * MOVIES</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * movies</pattern>
+  <pattern>* LIMIT * MOVIES</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * movies *</pattern>
+  <pattern>* LIMIT * MOVIES *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMITS * movies *</pattern>
+  <pattern>LIMIT * MOVIES *</pattern>
   <template><srai>LMTDVDS</srai></template>
 </category>
 
 
+<category>
+  <pattern>LIMITS * MOVIES</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
 
+<category>
+  <pattern>* LIMITS * MOVIES</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LIMITS * MOVIES *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>LIMITS * MOVIES *</pattern>
+  <template><srai>LMTDVDS</srai></template>
+</category>
 
 <!--ITEM LIMITS DVD SETS-->
-
 
 <category>
   <pattern>LMTDVDSETS</pattern>
@@ -5532,88 +5594,88 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 <category>
-  <pattern>how many dvd sets</pattern>
+  <pattern>HOW MANY DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>how many dvd sets</pattern>
+  <pattern>HOW MANY DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many dvd sets</pattern>
+  <pattern>* HOW MANY DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>how many dvd sets *</pattern>
+  <pattern>HOW MANY DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* how many dvd sets *</pattern>
+  <pattern>* HOW MANY DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 
 <category>
-  <pattern>NUMBER * dvd sets</pattern>
+  <pattern>NUMBER * DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * dvd sets</pattern>
+  <pattern>* NUMBER * DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>NUMBER * dvd sets *</pattern>
+  <pattern>NUMBER * DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * dvd sets *</pattern>
+  <pattern>* NUMBER * DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMIT * dvd sets</pattern>
+  <pattern>LIMIT * DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMIT * dvd sets</pattern>
+  <pattern>* LIMIT * DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMIT * dvd sets *</pattern>
+  <pattern>LIMIT * DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMIT * dvd sets *</pattern>
+  <pattern>* LIMIT * DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMITS * dvd sets</pattern>
+  <pattern>LIMITS * DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * dvd sets</pattern>
+  <pattern>* LIMITS * DVD SETS</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>LIMITS * dvd sets *</pattern>
+  <pattern>LIMITS * DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * dvd sets *</pattern>
+  <pattern>* LIMITS * DVD SETS *</pattern>
   <template><srai>LMTDVDSETS</srai></template>
 </category>
 
@@ -5629,88 +5691,88 @@ Search Ohio movies and DVDs have a one week loan period. Here's a <a href="http:
 </category>
 
 <category>
-  <pattern>how many video games</pattern>
+  <pattern>HOW MANY VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>how many video games</pattern>
+  <pattern>HOW MANY VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* how many video games</pattern>
+  <pattern>* HOW MANY VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>how many video games *</pattern>
+  <pattern>HOW MANY VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* how many video games *</pattern>
+  <pattern>* HOW MANY VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 
 <category>
-  <pattern>NUMBER * video games</pattern>
+  <pattern>NUMBER * VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * video games</pattern>
+  <pattern>* NUMBER * VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>NUMBER * video games *</pattern>
+  <pattern>NUMBER * VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* NUMBER * video games *</pattern>
+  <pattern>* NUMBER * VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>LIMIT * video games</pattern>
+  <pattern>LIMIT * VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMIT * video games</pattern>
+  <pattern>* LIMIT * VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>LIMIT * video games *</pattern>
+  <pattern>LIMIT * VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMIT * video games *</pattern>
+  <pattern>* LIMIT * VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>LIMITS * video games</pattern>
+  <pattern>LIMITS * VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * video games</pattern>
+  <pattern>* LIMITS * VIDEO GAMES</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>LIMITS * video games *</pattern>
+  <pattern>LIMITS * VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
 <category>
-  <pattern>* LIMITS * video games *</pattern>
+  <pattern>* LIMITS * VIDEO GAMES *</pattern>
   <template><srai>LMTGAMES</srai></template>
 </category>
 
@@ -5909,82 +5971,87 @@ Here's a <a href="http://www.mentorpl.org/demos/renewingitems.wmv" target="_blan
 </category>
 
 <category>
-  <pattern>* renew * on line</pattern>
-<template><srai>RNWONLINE</srai></template>
-</category>
-
-
-<category>
-  <pattern>renew * on line</pattern>
+  <pattern>RENEW ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>* renewing * on line</pattern>
+  <pattern>* RENEW * ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>renewing * on line</pattern>
+  <pattern>RENEW * ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>renewing on line</pattern>
+  <pattern>* RENEWING * ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>renewal on line</pattern>
-<template><srai>RNWONLINE</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>renew * online</pattern>
+  <pattern>RENEWING * ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>* renew * online</pattern>
+  <pattern>RENEWING ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>* renew * online *</pattern>
-<template><srai>RNWONLINE</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>renewing * online</pattern>
+  <pattern>RENEWAL ON LINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>renewing online</pattern>
+  <pattern>RENEW ONLINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>* renewing * online</pattern>
+  <pattern>RENEW * ONLINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>renewal online</pattern>
+  <pattern>* RENEW * ONLINE</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>HOW * renew *</pattern>
+  <pattern>* RENEW * ONLINE *</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
 <category>
-  <pattern>CAN * renew *</pattern>
+  <pattern>RENEWING * ONLINE</pattern>
+<template><srai>RNWONLINE</srai></template>
+</category>
+
+<category>
+  <pattern>RENEWING ONLINE</pattern>
+<template><srai>RNWONLINE</srai></template>
+</category>
+
+<category>
+  <pattern>* RENEWING * ONLINE</pattern>
+<template><srai>RNWONLINE</srai></template>
+</category>
+
+<category>
+  <pattern>RENEWAL ONLINE</pattern>
+<template><srai>RNWONLINE</srai></template>
+</category>
+
+<category>
+  <pattern>HOW * RENEW *</pattern>
+<template><srai>RNWONLINE</srai></template>
+</category>
+
+<category>
+  <pattern>CAN * RENEW *</pattern>
 <template><srai>RNWONLINE</srai></template>
 </category>
 
@@ -6000,14 +6067,14 @@ All of our items may be renewed up to four times as long as no one else has a ho
 has a hold on them. If you are unable to renew an item, the most common reasons are: another person has a hold on the item, your fines are $5.00 or more, the item is overdue
 ot you have reached the maximun number of renewals. 
 <br/><br/>
-Would like like step by step instructions for renewing your items online?
+Would you like step by step instructions for renewing your items online?
 </template>
 </category>
 
 
 <category>
 <pattern>YES</pattern>
-<that>WOULD LIKE LIKE STEP BY STEP INSTRUCTIONS FOR RENEWING YOUR ITEMS ONLINE</that>
+<that>WOULD YOU LIKE STEP BY STEP INSTRUCTIONS FOR RENEWING YOUR ITEMS ONLINE</that>
 <template><srai>RNWHELP</srai></template>
 </category>
 
@@ -6103,23 +6170,19 @@ Would like like step by step instructions for renewing your items online?
 </category>
 
 
+
 <category>
-  <pattern>renew online</pattern>
+  <pattern>_ RENEWAL</pattern>
 <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>_ renewal</pattern>
+  <pattern>* ONLINE RENEWAL</pattern>
 <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>* online renewal</pattern>
-<template><srai>RNW</srai></template>
-</category>
-
-<category>
-  <pattern>online * renewal</pattern>
+  <pattern>ONLINE * RENEWAL</pattern>
 <template><srai>RNW</srai></template>
 </category>
 
@@ -6130,17 +6193,17 @@ Would like like step by step instructions for renewing your items online?
 </category>
 
 <category>
-  <pattern>_ renew</pattern>
+  <pattern>_ RENEW</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>_ renew *</pattern>
+  <pattern>_ RENEW *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>renew *</pattern>
+  <pattern>RENEW *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
@@ -6150,17 +6213,17 @@ Would like like step by step instructions for renewing your items online?
 </category>
 
 <category>
-  <pattern> * renews</pattern>
+  <pattern> * RENEWS</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>* renews *</pattern>
+  <pattern>* RENEWS *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>renews *</pattern>
+  <pattern>RENEWS *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
@@ -6170,17 +6233,17 @@ Would like like step by step instructions for renewing your items online?
 </category>
 
 <category>
-  <pattern> * renewal</pattern>
+  <pattern> * RENEWAL</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>* renewal *</pattern>
+  <pattern>* RENEWAL *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>renewal *</pattern>
+  <pattern>RENEWAL *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
@@ -6190,17 +6253,17 @@ Would like like step by step instructions for renewing your items online?
 </category>
 
 <category>
-  <pattern> * renewals</pattern>
+  <pattern> * RENEWALS</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>* renewals *</pattern>
+  <pattern>* RENEWALS *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
 <category>
-  <pattern>renewals *</pattern>
+  <pattern>RENEWALS *</pattern>
   <template><srai>RNW</srai></template>
 </category>
 
@@ -6223,42 +6286,42 @@ has a hold on them.
 </category>
 
 <category>
-  <pattern>* help renewing</pattern>
+  <pattern>* HELP RENEWING</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>* help renewing</pattern>
+  <pattern>* HELP RENEWING</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>* help renewing *</pattern>
+  <pattern>* HELP RENEWING *</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>help renewing *</pattern>
+  <pattern>HELP RENEWING *</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>help * renew</pattern>
+  <pattern>HELP * RENEW</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>* help * renew</pattern>
+  <pattern>* HELP * RENEW</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>* help * renew *</pattern>
+  <pattern>* HELP * RENEW *</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
 <category>
-  <pattern>help * renew *</pattern>
+  <pattern>HELP * RENEW *</pattern>
   <template><srai>RNWHELP</srai></template>
 </category>
 
@@ -6276,17 +6339,22 @@ has a hold on them.
 </category>
 
 <category>
-  <pattern>renew overdue</pattern>
+  <pattern>RENEW OVERDUE</pattern>
   <template><srai>RNWOVDUE</srai></template>
 </category>
 
 <category>
-  <pattern>* renew overdue</pattern>
+  <pattern>RENEW OVERDUE *</pattern>
   <template><srai>RNWOVDUE</srai></template>
 </category>
 
 <category>
-  <pattern>* renew overdue *</pattern>
+  <pattern>* RENEW OVERDUE</pattern>
+  <template><srai>RNWOVDUE</srai></template>
+</category>
+
+<category>
+  <pattern>* RENEW OVERDUE *</pattern>
   <template><srai>RNWOVDUE</srai></template>
 </category>
 
@@ -6314,12 +6382,12 @@ has a hold on them.</template>
 </category>
 
 <category>
-  <pattern>HOW MANY * renew *</pattern>
+  <pattern>HOW MANY * RENEW *</pattern>
 <template><srai>XRNW</srai></template>
 </category>
 
 <category>
-  <pattern>HOW MANY * renewed</pattern>
+  <pattern>HOW MANY * RENEWED</pattern>
 <template><srai>XRNW</srai></template>
 </category>
 
@@ -6347,27 +6415,27 @@ has a hold on them.</template>
 </category>
 
 <category>
-  <pattern>when * renew</pattern>
+  <pattern>WHEN * RENEW</pattern>
   <template><srai>RNWWHEN</srai></template>
 </category>
 
 <category>
-  <pattern>when * renew *</pattern>
+  <pattern>WHEN * RENEW *</pattern>
   <template><srai>RNWWHEN</srai></template>
 </category>
 
 <category>
-  <pattern>* when * renew *</pattern>
+  <pattern>* WHEN * RENEW *</pattern>
   <template><srai>RNWWHEN</srai></template>
 </category>
 
 <category>
-  <pattern>* when * renew</pattern>
+  <pattern>* WHEN * RENEW</pattern>
   <template><srai>RNWWHEN</srai></template>
 </category>
 
 <category>
-  <pattern>* when * renew *</pattern>
+  <pattern>* WHEN * RENEW *</pattern>
   <template><srai>RNWWHEN</srai></template>
 </category>
 
@@ -6379,27 +6447,27 @@ ot you have reached the maximun number of renewals. Please call the library at 4
 </category>
 
 <category>
-  <pattern>cannot renew</pattern>
+  <pattern>CANNOT RENEW</pattern>
     <template><srai>CNTRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* cannot renew</pattern>
+  <pattern>* CANNOT RENEW</pattern>
     <template><srai>CNTRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* cannot * renew</pattern>
+  <pattern>* CANNOT * RENEW</pattern>
     <template><srai>CNTRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* cannot * renew *</pattern>
+  <pattern>* CANNOT * RENEW *</pattern>
     <template><srai>CNTRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>cannot * renew *</pattern>
+  <pattern>CANNOT * RENEW *</pattern>
     <template><srai>CNTRENEW</srai></template>
 </category>
 
@@ -6430,7 +6498,6 @@ ot you have reached the maximun number of renewals. Please call the library at 4
 <pattern>HOW MANY TIMES CAN * BE RENEWED</pattern>
 <template><srai>RENEWAL <star/></srai></template>
 </category>
-
 
 <category>
 <pattern>RENEWAL BOOK</pattern>
@@ -6505,272 +6572,270 @@ ot you have reached the maximun number of renewals. Please call the library at 4
 </category>
 
 <category>
-  <pattern>vacation loan</pattern>
+  <pattern>VACATION LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* vacation loan</pattern>
+  <pattern>* VACATION LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* vacation loan *</pattern>
+  <pattern>* VACATION LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>vacation loans</pattern>
+  <pattern>VACATION LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* vacation loans</pattern>
+  <pattern>* VACATION LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* vacation loans *</pattern>
+  <pattern>* VACATION LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extend loan</pattern>
+  <pattern>EXTEND LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extend loan</pattern>
+  <pattern>* EXTEND LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extend loan *</pattern>
+  <pattern>* EXTEND LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extend * loan *</pattern>
+  <pattern>* EXTEND * LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extend * loan *</pattern>
+  <pattern>EXTEND * LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extend loans</pattern>
+  <pattern>EXTEND LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extend loans</pattern>
+  <pattern>* EXTEND LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extend loans *</pattern>
+  <pattern>* EXTEND LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extend * loans *</pattern>
+  <pattern>* EXTEND * LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extend * loans *</pattern>
+  <pattern>EXTEND * LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extended loan</pattern>
+  <pattern>EXTENDED LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extended loan</pattern>
+  <pattern>* EXTENDED LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extended loan *</pattern>
+  <pattern>* EXTENDED LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extended * loan *</pattern>
+  <pattern>* EXTENDED * LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extended * loan *</pattern>
+  <pattern>EXTENDED * LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extended loans</pattern>
+  <pattern>EXTENDED LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extended loans</pattern>
+  <pattern>* EXTENDED LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extended loans *</pattern>
+  <pattern>* EXTENDED LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extended * loans *</pattern>
+  <pattern>* EXTENDED * LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extended * loans *</pattern>
-  <template><srai>VACLOAN</srai></template>
-</category>
-
-<!--INSERT-->
-
-<category>
-  <pattern>extension loan</pattern>
+  <pattern>EXTENDED * LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extension loan</pattern>
+  <pattern>EXTENSION LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extension loan *</pattern>
+  <pattern>* EXTENSION LOAN</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extension * loan *</pattern>
+  <pattern>* EXTENSION LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extension * loan *</pattern>
+  <pattern>* EXTENSION * LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extension loans</pattern>
+  <pattern>EXTENSION * LOAN *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extension loans</pattern>
+  <pattern>EXTENSION LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extension loans *</pattern>
+  <pattern>* EXTENSION LOANS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* extension * loans *</pattern>
+  <pattern>* EXTENSION LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>extension * loans *</pattern>
+  <pattern>* EXTENSION * LOANS *</pattern>
+  <template><srai>VACLOAN</srai></template>
+</category>
+
+<category>
+  <pattern>EXTENSION * LOANS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <!--END INSERT-->
 
 <category>
-  <pattern>loan extension</pattern>
+  <pattern>LOAN EXTENSION</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* loan extension</pattern>
+  <pattern>* LOAN EXTENSION</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* loan extension *</pattern>
+  <pattern>* LOAN EXTENSION *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* loan * extension *</pattern>
+  <pattern>* LOAN * EXTENSION *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>loan * extension *</pattern>
+  <pattern>LOAN * EXTENSION *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>loan extensions</pattern>
+  <pattern>LOAN EXTENSIONS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* loan extensions</pattern>
+  <pattern>* LOAN EXTENSIONS</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* loan extensions *</pattern>
+  <pattern>* LOAN EXTENSIONS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* loan * extensions *</pattern>
+  <pattern>* LOAN * EXTENSIONS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>loan * extensions *</pattern>
+  <pattern>LOAN * EXTENSIONS *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 
 <category>
-  <pattern>on * trip</pattern>
+  <pattern>ON * TRIP</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* on * trip</pattern>
+  <pattern>* ON * TRIP</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* on * trip *</pattern>
+  <pattern>* ON * TRIP *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* on vacation</pattern>
+  <pattern>* ON VACATION</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>on * vacation</pattern>
+  <pattern>ON * VACATION</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* on * vacation</pattern>
+  <pattern>* ON * VACATION</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
 <category>
-  <pattern>* on * vacation *</pattern>
+  <pattern>* ON * VACATION *</pattern>
   <template><srai>VACLOAN</srai></template>
 </category>
 
@@ -7199,57 +7264,57 @@ If you have any other questions, please call the library at 440.255.8811.
 
 
 <category>
-  <pattern>teachers * renew</pattern>
+  <pattern>TEACHERS * RENEW</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teachers * renew</pattern>
+  <pattern>* TEACHERS * RENEW</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teachers renew *</pattern>
+  <pattern>* TEACHERS RENEW *</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teachers * renew *</pattern>
+  <pattern>* TEACHERS * RENEW *</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>teachers * renew *</pattern>
+  <pattern>TEACHERS * RENEW *</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>teacher * renew</pattern>
+  <pattern>TEACHER * RENEW</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teacher renew</pattern>
+  <pattern>* TEACHER RENEW</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teacher * renew</pattern>
+  <pattern>* TEACHER * RENEW</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teacher renew *</pattern>
+  <pattern>* TEACHER * RENEW *</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>* teacher * renew *</pattern>
+  <pattern>* TEACHER * RENEW *</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
 <category>
-  <pattern>teacher * renew *</pattern>
+  <pattern>TEACHER * RENEW *</pattern>
   <template><srai>TCHRRENEW</srai></template>
 </category>
 
@@ -7313,8 +7378,7 @@ If you have any other questions, please call the library at 440.255.8811.
 <!--CHECK OUT-->
 <category>
 <pattern>CHCKOUT</pattern>
-<template>Would you like me to tell you how to check out books and other items or
-would you like me to tell you how to check out our laptops?
+<template>I'm often asked for information about checking out and circulation. Would you like to know how to check out books and other items, or would you like to know how to check out our laptops?
 </template>
 </category>
 
@@ -7428,7 +7492,63 @@ would you like me to tell you how to check out our laptops?
 </category>
 
 <category>
-<pattern>ITEM</pattern>
+<pattern>NO</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ NO</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ NO *</pattern>
+<that>WOULD YOU LIKE * CHECK OUT BOOKS * CHECK OUT OUR LAPTOPS</that>
+<template>
+<random>
+<li>OK. What would you like to know about circulation?</li>
+<li>What can I tell you on the topic of circulation?</li>
+<li>What is your question about circulation?</li>
+</random>
+<think><set name="topic">CRCQ</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>ITEMS</pattern>
 <that>PLEASE ENTER ITEMS * HOW TO CHECK THEM OUT</that>
 <template><srai>CHCKOUTITM</srai></template>
 </category>

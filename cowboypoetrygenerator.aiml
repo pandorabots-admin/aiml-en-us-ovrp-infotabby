@@ -19,276 +19,264 @@
 <!--COWBOT-->
   
 <category>
-<pattern>COWBOYPOETRY</pattern>
+<pattern>CWBYPTRY</pattern>
 <template>I like cowboy poetry so much I even write it.
 Would you like to hear one of my poems?</template>
 </category>
 
 <category>
-<pattern>COWBOT POETRY</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<pattern>COWBOT</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 
 <category>
-<pattern>_ COWBOT POETRY</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<pattern>_ COWBOT</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 <category>
-<pattern>COWBOT POETRY *</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<pattern>COWBOT *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 <category>
-<pattern>_ COWBOT POETRY *</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
-</category>
-  
-  
-<category>
-<pattern>COWBOT POEMS</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
-</category>
-
-
-<category>
-<pattern>_ COWBOT POEMS</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<pattern>_ COWBOT *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 <category>
-<pattern>COWBOT POEMS *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
-</category>
-
-<category>
-<pattern>_ COWBOT POEMS *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
-</category> 
-
-<category>
-<pattern>COWBOT POEM</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<pattern>COW BOT</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 
 <category>
-<pattern>_ COWBOT POEM</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<pattern>_ COW BOT</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 <category>
-<pattern>COWBOT POEM *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<pattern>COW BOT *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
 </category>
 
 <category>
-<pattern>_ COWBOT POEM *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
-</category> 
-  
-  
-  
-  
-<!--COWBOY-->
+<pattern>_ COW BOT *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
 
 <category>
-<pattern>COWBOYPOETRY</pattern>
+<pattern>COWBOTS</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COWBOTS</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+<category>
+<pattern>COWBOTS *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+<category>
+<pattern>_ COWBOTS *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+<category>
+<pattern>COW BOTS</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+
+<category>
+<pattern>_ COW BOTS</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+<category>
+<pattern>COW BOTS *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+<category>
+<pattern>_ COW BOTS *</pattern>
+<template><srai>CWBYPTRY2</srai></template>
+</category>
+
+<category>
+<pattern>CWBYPTRY</pattern>
 <template>I like cowboy poetry so much I even write it.
+Would you like to hear one of my poems?</template>
+</category>
+
+<category>
+<pattern>CWBYPTRY2</pattern>
+<template>The historic American cowbot of the late 19th century Golden West became a figure of special significance and legend. Cowbots tended virtual cattle,
+brought outlaws to justice, were models of prudence and temperance, and also wrote poetry. I find their poems so compelling  that I'm writing some of my own.
+<br/><br/>
 Would you like to hear one of my poems?</template>
 </category>
 
 <category>
 <pattern>COWBOY POETRY</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 
 <category>
 <pattern>_ COWBOY POETRY</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 <category>
 <pattern>COWBOY POETRY *</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 <category>
 <pattern>_ COWBOY POETRY *</pattern>
-<template><srai>COWBOYPOETRY</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
   
   
 <category>
 <pattern>COWBOY POEMS</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
-
 
 <category>
 <pattern>_ COWBOY POEMS</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 <category>
 <pattern>COWBOY POEMS *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 <category>
 <pattern>_ COWBOY POEMS *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
-</category> 
+<template><srai>CWBYPTRY</srai></template>
+</category>
 
 <category>
 <pattern>COWBOY POEM</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 
 <category>
 <pattern>_ COWBOY POEM</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 <category>
 <pattern>COWBOY POEM *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
+<template><srai>CWBYPTRY</srai></template>
 </category>
 
 <category>
 <pattern>_ COWBOY POEM *</pattern>
-<template><srai>COWBOTPOEMTWO</srai></template>
-</category> 
+<template><srai>CWBYPTRY</srai></template>
+</category>
 
-<category>
-<pattern>ANOTHER POEM</pattern>
-<template><srai>COWBOTPOEMTHREE</srai></template>
-</category> 
-
-<category>
-<pattern>_ ANOTHER POEM</pattern>
-<template><srai>COWBOTPOEMTHREE</srai></template>
-</category> 
-
-<category>
-<pattern>_ ANOTHER * POEMS</pattern>
-<template><srai>COWBOTPOEMTHREE</srai></template>
-</category> 
 
 <category>
 <pattern> YES </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> YES *</pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> OK </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> OK * </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> SURE </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> SURE * </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
-
 
 
 <category>
 <pattern> NO </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> NO *</pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern>_ RATHER *</pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai></template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
 <pattern> * </pattern>
 <that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>COWBOTPOEM</srai>
-<br/>
-What do you think of my poetry?
-</template>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
-<pattern>COWBOTPOEM</pattern>
+<pattern>CWBYPOEM</pattern>
 <template>OK. Here's one of my poems:<br/><p/>
-<srai>CPLINEONE</srai><br/>
-<srai>CPLINETWO</srai><br/>
-<srai>CPLINETHREE</srai><br/>
-<srai>CPLINEFOUR</srai>
+<srai>CPLN1</srai><br/>
+<srai>CPLN2</srai><br/>
+<srai>CPLN3</srai><br/>
+<srai>CPLN4</srai>
 <br/><br/>
-Would you like to hear another poem?
+Would you like to hear another one?
+<think>
+<set name="topic">CWBYPTY</set>
+</think>
 </template>
 </category>
 
-<category>
-<pattern>COWBOTPOEMTWO</pattern>
-<template>Your human "Cowboy Poetry" is so fascinating that I'm writing some myself. Here's one of my poems:<br/><p/>
-<srai>CPLINEONE</srai><br/>
-<srai>CPLINETWO</srai><br/>
-<srai>CPLINETHREE</srai><br/>
-<srai>CPLINEFOUR</srai>
-</template>
-</category>
 
 <category>
 <pattern>COWBOTPOEMREF</pattern>
 <template>
-<srai>CPLINEONE</srai><br/>
-<srai>CPLINETWO</srai><br/>
-<srai>CPLINETHREE</srai><br/>
-<srai>CPLINEFOUR</srai><br/><br/>
+<srai>CPLN1</srai><br/>
+<srai>CPLN2</srai><br/>
+<srai>CPLN3</srai><br/>
+<srai>CPLN4</srai><br/><br/>
 Pretty good, huh?
 </template>
 </category>
 
-<category>
-<pattern>COWBOTPOEMREFTWO</pattern>
-<template>
-<srai>CPLINEONE</srai><br/>
-<srai>CPLINETWO</srai><br/>
-<srai>CPLINETHREE</srai><br/>
-<srai>CPLINEFOUR</srai><br/><br/>
-Would you like to hear another poem?
-</template>
-</category>
 
 <category>
-<pattern>CPLINEONE</pattern>
+<pattern>CPLN1</pattern>
 <template>
 <random>
 <li>An orphaned calf.</li>
@@ -302,7 +290,7 @@ Would you like to hear another poem?
 </category>
 
 <category>
-<pattern>CPLINETWO</pattern>
+<pattern>CPLN2</pattern>
 <template>
 <random>
 <li>This prairie flower,</li>
@@ -316,7 +304,7 @@ Would you like to hear another poem?
 </category>
 
 <category>
-<pattern>CPLINETHREE</pattern>
+<pattern>CPLN3</pattern>
 <template>
 <random>
 <li>Frozen...not a soul in sight.</li>
@@ -330,7 +318,7 @@ Would you like to hear another poem?
 </category>
 
 <category>
-<pattern>CPLINEFOUR</pattern>
+<pattern>CPLN4</pattern>
 <template>
 <random>
 <li>My heart.</li>
@@ -343,42 +331,60 @@ Would you like to hear another poem?
 </template>
 </category>
 
+<topic name="CWBYPTY">
 <category>
-<pattern> * </pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<pattern> YES </pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
+<template><srai>COWBOTPOEMREFTWO</srai></template>
+</category>
+
+<category>
+<pattern>_ YES </pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
+<template><srai>COWBOTPOEMREFTWO</srai></template>
+</category>
+
+<category>
+<pattern> YES *</pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
+<template><srai>COWBOTPOEMREFTWO</srai></template>
+</category>
+
+<category>
+<pattern>_ YES *</pattern>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
 <template><srai>COWBOTPOEMREFTWO</srai></template>
 </category>
 
 <category>
 <pattern>NO</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
 <template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
 </category>
 
 <category>
 <pattern>NO *</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
 <template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
 </category>
 
 <category>
 <pattern>_ NO</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
 <template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
 </category>
 
 <category>
 <pattern>_ NO *</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER POEM</that>
+<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
 <template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
 </category>
 
-
 <category>
-<pattern>_ DEPRESSING *</pattern>
-<that>MOST HUMANS FIND MY POEMS POWERFUL AND EVOCATIVE IF SOMEWHAT DEPRESSING</that>
+<pattern> _ </pattern>
+<that>_ POWERFUL AND EVOCATIVE IF SOMEWHAT DEPRESSING</that>
 <template>They're slightly depressing.</template>
 </category>
-
+</topic>
 
 </aiml>

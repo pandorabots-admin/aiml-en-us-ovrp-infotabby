@@ -6232,20 +6232,10 @@
 </category>
 
 
-<category>
-<pattern>MAY BE</pattern>
-<template>
-<srai>MAYBE</srai>
-</template>
-</category>
 
 
-<category>
-<pattern>UNSURE</pattern>
-<template>
-<srai>maybe</srai>
-</template>
-</category>
+
+
 
 
 <category>
@@ -9208,12 +9198,6 @@
 </category>
 
 
-<category>
-<pattern>MAYBE</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
 
 
 <category>

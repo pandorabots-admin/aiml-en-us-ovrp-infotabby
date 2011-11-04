@@ -19,8 +19,8 @@
   
 <category>
 <pattern>INFOTBBY</pattern>
-<template>infoTabby is the name of the knowledge base of this bot. It's the bot's "brain," as it were. You can learn more about infoTabby and even get a copy of her
-on the <a href="http://code.google.com/p/aiml-en-us-ovrp-infotabby/" target="_blank"><b>infoTabby website</b></a>.</template>
+<template>infoTabby is the name of the AIML set that makes up my knowledge base. It is constantly growing. I am an instance of infoTabby. You can learn more about infoTabby and even get a copy of her
+on the <a href="http://www.infotabby.org" target="_blank"><b>infoTabby website</b></a>.</template>
 </category> 
 
 <category>
@@ -29,20 +29,19 @@ on the <a href="http://code.google.com/p/aiml-en-us-ovrp-infotabby/" target="_bl
 </category>
   
 <category>
-<pattern>* INFOTABBY</pattern>
+<pattern>_ INFOTABBY</pattern>
 <template><srai>INFOTBBY</srai></template>
 </category> 
   
 <category>
-<pattern>INFOTABBY *</pattern>
+<pattern>_ INFOTABBY *</pattern>
 <template><srai>INFOTBBY</srai></template>
 </category> 
 
 <category>
-<pattern>* INFOTABBY *</pattern>
+<pattern>_ INFOTABBY *</pattern>
 <template><srai>INFOTBBY</srai></template>
 </category>
-
 
 <category>
 <pattern>INFO TABBY</pattern>
@@ -50,7 +49,7 @@ on the <a href="http://code.google.com/p/aiml-en-us-ovrp-infotabby/" target="_bl
 </category>
   
 <category>
-<pattern>* INFO TABBY</pattern>
+<pattern>_ INFO TABBY</pattern>
 <template><srai>INFOTBBY</srai></template>
 </category> 
   
@@ -60,7 +59,7 @@ on the <a href="http://code.google.com/p/aiml-en-us-ovrp-infotabby/" target="_bl
 </category> 
 
 <category>
-<pattern>* INFO TABBY *</pattern>
+<pattern>_ INFO TABBY *</pattern>
 <template><srai>INFOTBBY</srai></template>
 </category>
 

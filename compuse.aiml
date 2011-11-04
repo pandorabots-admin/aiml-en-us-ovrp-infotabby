@@ -17,7 +17,7 @@
 <category>
 <pattern>CMPTR</pattern>
 <template>
-I'm often asked questions about using our computers. Yes or no, would you like me to explain how to use a library computer?
+I'm often asked questions about using our computers. Yes or no, would you like to know what you need to use a library computer or the internet?
 </template>
 </category>
 
@@ -106,28 +106,28 @@ I'm often asked questions about using our computers. Yes or no, would you like m
 </category>
 
 <category>
-<pattern>PCs</pattern>
+<pattern>PCS</pattern>
 <template>
 <srai>CMPTR</srai>
 </template>
 </category>
 
 <category>
-<pattern>* PCs</pattern>
+<pattern>* PCS</pattern>
 <template>
 <srai>CMPTR</srai>
 </template>
 </category>
 
 <category>
-<pattern>PCs *</pattern>
+<pattern>PCS *</pattern>
 <template>
 <srai>CMPTR</srai>
 </template>
 </category>
 
 <category>
-<pattern>* PCs *</pattern>
+<pattern>* PCS *</pattern>
 <template>
 <srai>CMPTR</srai>
 </template>
@@ -135,28 +135,28 @@ I'm often asked questions about using our computers. Yes or no, would you like m
 
 <category>
 <pattern>YES</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
 <pattern>_ YES</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
 <pattern>YES *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
 <pattern>_ YES *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template><srai>CMPUSE</srai>
 </template>
 </category>
@@ -168,34 +168,28 @@ Computers in the adult area are for those 14 years and older; computers in the c
 </template>
 </category>
 
-
-
-
-
-
 <category>
 <pattern>NO</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template>
 <random>
 <li>What would you like to know about our computers?</li>
-<li>What is your question our computers?</li>
-<li>What can I tell you our computers?</li>
+<li>What is your question about our computers?</li>
+<li>What can I tell you about our computers?</li>
 </random>
 <think><set name="topic">CMPS</set>
 </think>
 </template>
 </category>
 
-
 <category>
 <pattern>* NO</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template>
 <random>
 <li>What would you like to know about our computers?</li>
-<li>What is your question our computers?</li>
-<li>What can I tell you our computers?</li>
+<li>What is your question about our computers?</li>
+<li>What can I tell you about our computers?</li>
 </random>
 <think><set name="topic">CMPS</set>
 </think>
@@ -204,12 +198,12 @@ Computers in the adult area are for those 14 years and older; computers in the c
 
 <category>
 <pattern>NO *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template>
 <random>
 <li>What would you like to know about our computers?</li>
-<li>What is your question our computers?</li>
-<li>What can I tell you our computers?</li>
+<li>What is your question about our computers?</li>
+<li>What can I tell you about our computers?</li>
 </random>
 <think><set name="topic">CMPS</set>
 </think>
@@ -218,12 +212,12 @@ Computers in the adult area are for those 14 years and older; computers in the c
 
 <category>
 <pattern>* NO *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* USE A LIBRARY COMPUTER OR THE INTERNET</that>
 <template>
 <random>
 <li>What would you like to know about our computers?</li>
-<li>What is your question our computers?</li>
-<li>What can I tell you our computers?</li>
+<li>What is your question about our computers?</li>
+<li>What can I tell you about our computers?</li>
 </random>
 <think><set name="topic">CMPS</set>
 </think>
@@ -236,66 +230,53 @@ Computers in the adult area are for those 14 years and older; computers in the c
 <topic name="CMPS">
 <category>
 <pattern>AGE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ AGE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>AGE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ AGE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>OLD</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ OLD</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>OLD *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>* ABOUT OUR COMPUTERS</that>
+<template><srai>CMPAGE</srai></template>
+</category>  
+
+<category>
+<pattern>_ OLD *</pattern>
+<that>* ABOUT OUR COMPUTERS</that>
 <template><srai>CMPAGE</srai></template>
 </category>  
 </topic>
 
-<topic name="CMPS">
-<category>
-<pattern>_ OLD *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
-<template><srai>CMPAGE</srai></template>
-</category>  
-</topic>
 
 <category>
 <pattern>CMPAGE</pattern>
@@ -353,66 +334,53 @@ Computers in the adult area are for those 14 years and older; computers in the c
 </category>
 
 <!--computer policies-->
+
 <topic name="CMPS">
 <category>
 <pattern>POLICY</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ POLICY</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>POLICY *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ POLICY *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>POLICIES</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ POLICIES</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>POLICIES *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ POLICIES *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>CPOLICY</srai></template>
 </category>  
 </topic>
@@ -424,42 +392,42 @@ Computers in the adult area are for those 14 years and older; computers in the c
 </category>
 
 <category>
-<pattern>computer policy</pattern>
+<pattern>COMPUTER POLICY</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>computer policies</pattern>
+<pattern>COMPUTER POLICIES</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  computer policy</pattern>
+<pattern>_  COMPUTER POLICY</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  computer policies</pattern>
+<pattern>_  COMPUTER POLICIES</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  computer * policy</pattern>
+<pattern>_  COMPUTER * POLICY</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  computer * policies</pattern>
+<pattern>_  COMPUTER * POLICIES</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  computer * policy *</pattern>
+<pattern>_  COMPUTER * POLICY *</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  computer * policies *</pattern>
+<pattern>_  COMPUTER * POLICIES *</pattern>
 <template><srai>CPOLICY</srai></template>
 </category>
 
@@ -471,107 +439,94 @@ Computers in the adult area are for those 14 years and older; computers in the c
 </category>
 
 <category>
-<pattern>internet policy</pattern>
+<pattern>INTERNET POLICY</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>internet policies</pattern>
+<pattern>INTERNET POLICIES</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  internet policy</pattern>
+<pattern>_  INTERNET POLICY</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  internet policies</pattern>
+<pattern>_  INTERNET POLICIES</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  internet * policy</pattern>
+<pattern>_  INTERNET * POLICY</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  internet * policies</pattern>
+<pattern>_  INTERNET * POLICIES</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  internet * policy *</pattern>
+<pattern>_  INTERNET * POLICY *</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 <category>
-<pattern>_  internet * policies *</pattern>
+<pattern>_  INTERNET * POLICIES *</pattern>
 <template><srai>IPOLICY</srai></template>
 </category>
 
 
 <!--comp time-->
+
 <topic name="CMPS">
 <category>
 <pattern>TIME</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ TIME</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>TIME *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ TIME *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>HOW LONG</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ HOW LONG</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>HOW LONG *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ HOW LONG *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>PCTMLMT</srai></template>
 </category>  
 </topic>
@@ -915,131 +870,101 @@ We do not have computers for you to check out and take home, they are for librar
 <topic name="CMPS">
 <category>
 <pattern>CLASS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ CLASS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>CLASS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ CLASS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-
-<topic name="CMPS">
 <category>
 <pattern>CLASSES</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ CLASSES</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>CLASSES *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ CLASSES *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>ECO</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ ECO</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>ECO *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ ECO *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>INSTRUCTION</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ INSTRUCTION</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>INSTRUCTION *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
+<template><srai>COMPINSTR</srai></template>
+</category>  
+
+<category>
+<pattern>_ INSTRUCTION *</pattern>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>COMPINSTR</srai></template>
 </category>  
 </topic>
 
-<topic name="CMPS">
-<category>
-<pattern>_ INSTRUCTION *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
-<template><srai>COMPINSTR</srai></template>
-</category>  
-</topic>
 
 <category>
   <pattern>COMPINSTR</pattern>
@@ -1051,42 +976,42 @@ We do not have computers for you to check out and take home, they are for librar
 </category>
 
 <category>
-  <pattern>computer classes</pattern>
+  <pattern>COMPUTER CLASSES</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer * classes</pattern>
+  <pattern>COMPUTER * CLASSES</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer classes</pattern>
+  <pattern>_  COMPUTER CLASSES</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer * classes</pattern>
+  <pattern>_  COMPUTER * CLASSES</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer classes *</pattern>
+  <pattern>_  COMPUTER CLASSES *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer * classes *</pattern>
+  <pattern>_  COMPUTER * CLASSES *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer classes *</pattern>
+  <pattern>COMPUTER CLASSES *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer * classes *</pattern>
+  <pattern>COMPUTER * CLASSES *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
@@ -1106,67 +1031,67 @@ We do not have computers for you to check out and take home, they are for librar
 </category>
 
 <category>
-  <pattern>computer class</pattern>
+  <pattern>COMPUTER CLASS</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer class</pattern>
+  <pattern>_  COMPUTER CLASS</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer * class</pattern>
+  <pattern>_  COMPUTER * CLASS</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer class *</pattern>
+  <pattern>_  COMPUTER CLASS *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer * class *</pattern>
+  <pattern>_  COMPUTER * CLASS *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer class *</pattern>
+  <pattern>COMPUTER CLASS *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer * class *</pattern>
+  <pattern>COMPUTER * CLASS *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer instruction</pattern>
+  <pattern>COMPUTER INSTRUCTION</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>computer * instruction</pattern>
+  <pattern>COMPUTER * INSTRUCTION</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer instruction</pattern>
+  <pattern>_  COMPUTER INSTRUCTION</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer * instruction</pattern>
+  <pattern>_  COMPUTER * INSTRUCTION</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer instruction *</pattern>
+  <pattern>_  COMPUTER INSTRUCTION *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
 <category>
-  <pattern>_  computer * instruction *</pattern>
+  <pattern>_  COMPUTER * INSTRUCTION *</pattern>
   <template><srai>COMPINSTR</srai></template>
 </category>
 
@@ -1238,66 +1163,53 @@ We do not have computers for you to check out and take home, they are for librar
 <topic name="CMPS">
 <category>
 <pattern>GUEST</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ GUEST</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>GUEST *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ GUEST *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>PASS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ PASS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>PASS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
+<template><srai>GUESTPSS</srai></template>
+</category>  
+
+<category>
+<pattern>_ PASS *</pattern>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>GUESTPSS</srai></template>
 </category>  
 </topic>
 
-<topic name="CMPS">
-<category>
-<pattern>_ PASS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
-<template><srai>GUESTPSS</srai></template>
-</category>  
-</topic>
 
 <category>
   <pattern>GUESTPSS</pattern>
@@ -1306,32 +1218,32 @@ We do not have computers for you to check out and take home, they are for librar
 </category>
 
 <category>
-  <pattern>guest pass</pattern>
+  <pattern>GUEST PASS</pattern>
   <template><srai>GUESTPSS</srai></template>
 </category>
 
 <category>
-  <pattern>* guest pass</pattern>
+  <pattern>* GUEST PASS</pattern>
   <template><srai>GUESTPSS</srai></template>
 </category>
 
 <category>
-  <pattern>* guest pass *</pattern>
+  <pattern>* GUEST PASS *</pattern>
   <template><srai>GUESTPSS</srai></template>
 </category>
 
 <category>
-  <pattern>guest passes</pattern>
+  <pattern>GUEST PASSES</pattern>
    <template><srai>GUESTPSS</srai></template>
 </category>
 
 <category>
-  <pattern>* guest passes</pattern>
+  <pattern>* GUEST PASSES</pattern>
    <template><srai>GUESTPSS</srai></template>
 </category>
 
 <category>
-  <pattern>* guest passes *</pattern>
+  <pattern>* GUEST PASSES *</pattern>
    <template><srai>GUESTPSS</srai></template>
 </category>
 
@@ -1341,63 +1253,49 @@ We do not have computers for you to check out and take home, they are for librar
 <topic name="CMPS">
 <category>
 <pattern>HOTSPOT</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ HOTSPOT</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>HOTSPOT *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ HOTSPOT *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>HOT SPOT</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ HOT SPOT</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>HOT SPOT *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ HOT SPOT *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>HTSPT</srai></template>
 </category>  
 </topic>
@@ -1410,42 +1308,42 @@ We do not have computers for you to check out and take home, they are for librar
 </category>
 
 <category>
-  <pattern>Hot Spot</pattern>
+  <pattern>HOT SPOT</pattern>
   <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>* Hot Spot</pattern>
+  <pattern>* HOT SPOT</pattern>
   <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>* Hot Spot *</pattern>
+  <pattern>* HOT SPOT *</pattern>
   <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>Hot Spot *</pattern>
+  <pattern>HOT SPOT *</pattern>
   <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>Hotspot</pattern>
+  <pattern>HOTSPOT</pattern>
     <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>* Hotspot</pattern>
+  <pattern>* HOTSPOT</pattern>
    <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>* Hotspot *</pattern>
+  <pattern>* HOTSPOT *</pattern>
     <template><srai>HTSPT</srai></template>
 </category>
 
 <category>
-  <pattern>Hotspot *</pattern>
+  <pattern>HOTSPOT *</pattern>
    <template><srai>HTSPT</srai></template>
 </category>
 
@@ -1461,80 +1359,109 @@ You can print from the library laptops, but not from your personal laptop. The L
 
 
 <category>
-  <pattern>laptop</pattern>
+  <pattern>LAPTOP</pattern>
   <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>* laptop</pattern>
+  <pattern>* LAPTOP</pattern>
   <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>* laptop *</pattern>
+  <pattern>* LAPTOP *</pattern>
   <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>laptop *</pattern>
+  <pattern>LAPTOP *</pattern>
   <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>lap top</pattern>
+  <pattern>LAP TOP</pattern>
     <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>* lap top</pattern>
+  <pattern>* LAP TOP</pattern>
    <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>* lap top *</pattern>
+  <pattern>* LAP TOP *</pattern>
     <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>lap top *</pattern>
+  <pattern>LAP TOP *</pattern>
    <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>laptops</pattern>
+  <pattern>LAPTOPS</pattern>
     <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>* laptops</pattern>
+  <pattern>* LAPTOPS</pattern>
    <template><srai>LPTP</srai></template>
 </category>
 
 <category>
-  <pattern>* laptops *</pattern>
-   <template><srai>LPTP</srai></template>
-</category>
-
-
-<category>
-  <pattern>lap tops</pattern>
-   <template><srai>LPTP</srai></template>
-</category>
-
-<category>
-  <pattern>* lap tops</pattern>
-   <template><srai>LPTP</srai></template>
-</category>
-
-<category>
-  <pattern>* lap tops *</pattern>
+  <pattern>* LAPTOPS *</pattern>
    <template><srai>LPTP</srai></template>
 </category>
 
 
 <category>
-<pattern>* laptop * home *</pattern>
+  <pattern>LAP TOPS</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* LAP TOPS</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+  <pattern>* LAP TOPS *</pattern>
+   <template><srai>LPTP</srai></template>
+</category>
+
+<category>
+<pattern>LPTPHM</pattern>
 <template>Library laptops are for use in the Main Library only. You are not allowed to take them home.</template>
+</category>
+
+<category>
+<pattern>* LAPTOP HOME</pattern>
+<template><srai>LPTPHM</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOP * HOME</pattern>
+<template><srai>LPTPHM</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOP * HOME *</pattern>
+<template><srai>LPTPHM</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOPS HOME</pattern>
+<template><srai>LPTPHM</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOPS * HOME</pattern>
+<template><srai>LPTPHM</srai></template>
+</category>
+
+<category>
+<pattern>* LAPTOPS * HOME *</pattern>
+<template><srai>LPTPHM</srai></template>
 </category>
 
 
@@ -1543,95 +1470,73 @@ You can print from the library laptops, but not from your personal laptop. The L
 <topic name="CMPS">
 <category>
 <pattern>EXCEL</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ EXCEL</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>EXCEL *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ EXCEL *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>OFFICE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ OFFICE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>OFFICE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ OFFICE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WORD</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WORD</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WORD *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WORD *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>MCRSFTOFFICE</srai></template>
 </category>  
 </topic>
@@ -1643,48 +1548,48 @@ You can print from the library laptops, but not from your personal laptop. The L
 </category>
 
 <category>
-  <pattern>microsoft office</pattern>
+  <pattern>MICROSOFT OFFICE</pattern>
   <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>* microsoft office</pattern>
+  <pattern>* MICROSOFT OFFICE</pattern>
   <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>* microsoft office *</pattern>
+  <pattern>* MICROSOFT OFFICE *</pattern>
   <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 
 <category>
-  <pattern>microsoft word</pattern>
+  <pattern>MICROSOFT WORD</pattern>
     <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>* microsoft word</pattern>
+  <pattern>* MICROSOFT WORD</pattern>
     <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>* microsoft word *</pattern>
+  <pattern>* MICROSOFT WORD *</pattern>
     <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>microsoft excel</pattern>
+  <pattern>MICROSOFT EXCEL</pattern>
    <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>* microsoft excel</pattern>
+  <pattern>* MICROSOFT EXCEL</pattern>
     <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
 <category>
-  <pattern>* microsoft excel *</pattern>
+  <pattern>* MICROSOFT EXCEL *</pattern>
     <template><srai>MCRSFTOFFICE</srai></template>
 </category>
 
@@ -1693,63 +1598,49 @@ You can print from the library laptops, but not from your personal laptop. The L
 <topic name="CMPS">
 <category>
 <pattern>TYPEWRITER</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ TYPEWRITER</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>TYPEWRITER *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ TYPEWRITER *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>TYPEWRITERS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ TYPEWRITERS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>TYPEWRITERS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ TYPEWRITERS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>TYPEWRTR</srai></template>
 </category>  
 </topic>
@@ -1761,27 +1652,37 @@ You can print from the library laptops, but not from your personal laptop. The L
 </category>
 
 <category>
-  <pattern>* typewriter</pattern>
+  <pattern>TYPEWRITER</pattern>
   <template><srai>TYPEWRTR</srai></template>
 </category>
 
 <category>
-  <pattern>* typewriter *</pattern>
+  <pattern>* TYPEWRITER</pattern>
   <template><srai>TYPEWRTR</srai></template>
 </category>
 
 <category>
-  <pattern>typewriters</pattern>
+  <pattern>* TYPEWRITER *</pattern>
+  <template><srai>TYPEWRTR</srai></template>
+</category>
+
+<category>
+  <pattern>TYPEWRITERS</pattern>
+  <template><srai>TYPEWRTR</srai></template>
+</category>
+
+<category>
+  <pattern>TYPEWRITERS</pattern>
    <template><srai>TYPEWRTR</srai></template>
 </category>
 
 <category>
-  <pattern>* typewriters</pattern>
+  <pattern>* TYPEWRITERS</pattern>
    <template><srai>TYPEWRTR</srai></template>
 </category>
 
 <category>
-  <pattern>* typewriters *</pattern>
+  <pattern>* TYPEWRITERS *</pattern>
    <template><srai>TYPEWRTR</srai></template>
 </category>
 
@@ -1811,87 +1712,87 @@ You can print from the library laptops, but not from your personal laptop. The L
 </category>
 
 <category>
-  <pattern>* use * internet</pattern>
+  <pattern>* USE * INTERNET</pattern>
   <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* use * internet *</pattern>
+  <pattern>* USE * INTERNET *</pattern>
   <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>get on * internet</pattern>
+  <pattern>GET ON * INTERNET</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* get on * internet</pattern>
+  <pattern>* GET ON * INTERNET</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* get on * internet *</pattern>
+  <pattern>* GET ON * INTERNET *</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>get on * internet *</pattern>
+  <pattern>GET ON * INTERNET *</pattern>
     <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>use * computer</pattern>
+  <pattern>USE * COMPUTER</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* use * computer</pattern>
+  <pattern>* USE * COMPUTER</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* use * computer *</pattern>
+  <pattern>* USE * COMPUTER *</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>use * computer *</pattern>
+  <pattern>USE * COMPUTER *</pattern>
     <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>get online</pattern>
+  <pattern>GET ONLINE</pattern>
     <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* get online</pattern>
+  <pattern>* GET ONLINE</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* get online *</pattern>
+  <pattern>* GET ONLINE *</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>get online *</pattern>
+  <pattern>GET ONLINE *</pattern>
   <template><srai>USEINTERNET</srai></template>
   </category>
 
 <category>
-  <pattern>use * computers</pattern>
+  <pattern>USE * COMPUTERS</pattern>
     <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* use * computers</pattern>
+  <pattern>* USE * COMPUTERS</pattern>
     <template><srai>USEINTERNET</srai></template>
 </category>
 
 <category>
-  <pattern>* use * computers *</pattern>
+  <pattern>* USE * COMPUTERS *</pattern>
    <template><srai>USEINTERNET</srai></template>
 </category>
 
@@ -2029,95 +1930,73 @@ reporter
 <topic name="CMPS">
 <category>
 <pattern>WIRELESS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WIRELESS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WIRELESS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WIRELESS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WIFI</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WIFI</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WIFI *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WIFI *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WI FI</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WI FI</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>WI FI *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ WI FI *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>WRLSS</srai></template>
 </category>  
 </topic>
@@ -2130,52 +2009,52 @@ reporter
 </category>
 
 <category>
-  <pattern>wireless</pattern>
+  <pattern>WIRELESS</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>* wireless</pattern>
+  <pattern>* WIRELESS</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>* wireless *</pattern>
+  <pattern>* WIRELESS *</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>wireless *</pattern>
+  <pattern>WIRELESS *</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>wifi</pattern>
+  <pattern>WIFI</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>* wifi</pattern>
+  <pattern>* WIFI</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>* wifi *</pattern>
+  <pattern>* WIFI *</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>wi fi</pattern>
+  <pattern>WI FI</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>* wi fi</pattern>
+  <pattern>* WI FI</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
 <category>
-  <pattern>* wi fi *</pattern>
+  <pattern>* WI FI *</pattern>
   <template><srai>WRLSS</srai></template>
 </category>
 
@@ -2233,127 +2112,97 @@ The Library no longer sells floppy discs.</template>
 <topic name="CMPS">
 <category>
 <pattern>RESERVE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ RESERVE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>RESERVE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ RESERVE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>RESERVATION</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ RESERVATION</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>RESERVATION *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ RESERVATION *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>RESERVATIONS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ RESERVATIONS</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>RESERVATIONS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ RESERVATIONS *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>SIGN UP</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ SIGN UP</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>SIGN UP *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ SIGN UP *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>RSRVPC</srai></template>
 </category>  
 </topic>
@@ -2589,63 +2438,49 @@ computer online. You will need a library card in good standing to use our comput
 <topic name="CMPS">
 <category>
 <pattern>SKYPE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ SKYPE</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>SKYPE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ SKYPE *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>SKYPING</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ SKYPING</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>SKYPING *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
-</topic>
 
-<topic name="CMPS">
 <category>
 <pattern>_ SKYPING *</pattern>
-<that>* HOW TO USE A LIBRARY COMPUTER</that>
+<that>*  ABOUT OUR COMPUTERS</that>
 <template><srai>SKP</srai></template>
 </category>  
 </topic>

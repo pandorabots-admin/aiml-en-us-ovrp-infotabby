@@ -17,11 +17,8 @@
   limitations under the License.-->
 
 
-
-
-
 <category>
-<pattern>CHECK SHELF</pattern>
+<pattern>CHKSHLF</pattern>
 <template>
 <random>
 <li>"Check Shelf" means that the item should be in its correct place on the shelf. If you need help finding something, please ask one of the librarians for assistance.</li>
@@ -31,70 +28,75 @@
 </template>
 </category>
 
+
+<category>
+<pattern>CHECK SHELF</pattern>
+<template><srai>CHKSHLF</srai></template>
+</category>
+
 <category>
 <pattern>_ CHECK SHELF</pattern>
-<template><srai>CHECK SHELF</srai></template>
+<template><srai>CHKSHLF</srai></template>
 </category>
 
 <category>
 <pattern>_ CHECK SHELF *</pattern>
-<template><srai>CHECK SHELF</srai></template>
+<template><srai>CHKSHLF</srai></template>
 </category>
 
 <category>
 <pattern>CHECK SHELF _</pattern>
-<template><srai>CHECK SHELF</srai></template>
+<template><srai>CHKSHLF</srai></template>
 </category>
 
 <!--display-->
 
 <category>
-<pattern>DSPLAY</pattern>
+<pattern>DSPLY</pattern>
 <template>When an item's status is "Display," that item is on one of our display shelves. You are welcome to check it out. If you cannot find one of the displays, ask one of our librarians for assitance.</template>
 </category>
 
 <category>
 <pattern>DISPLAY</pattern>
-<template><srai>DSPLAY</srai></template>
+<template><srai>DSPLY</srai></template>
 </category>
 
 <category>
 <pattern>_ DISPLAY</pattern>
-<template><srai>DSPLAY</srai></template>
+<template><srai>DSPLY</srai></template>
 </category>
 
 <category>
 <pattern>_ DISPLAY *</pattern>
-<template><srai>DSPLAY</srai></template>
+<template><srai>DSPLY</srai></template>
 </category>
 
 <category>
-<pattern>DSPLAY * </pattern>
+<pattern>DSPLY * </pattern>
 <template><srai>DISPLAY</srai></template>
 </category>
 
 <!--on holdshelf-->
 
 <category>
-<pattern>ON HOLDSHELF</pattern>
+<pattern>ONHLDSHLF</pattern>
 <template>"On Holdshelf" means a patron has placed a hold on the item and it is ready for them to pickup.</template>
+</category>
+
+
+<category>
+<pattern>ON HOLDSHELF</pattern>
+<template><srai>ONHLDSHLF</srai></template>
 </category>
 
 <category>
 <pattern>_ ON HOLDSHELF</pattern>
-<template><srai>ON HOLDSHELF</srai></template>
+<template><srai>ONHLDSHLF</srai></template>
 </category>
 
 <category>
 <pattern>_ ON HOLDSHELF *</pattern>
-<template><srai>ON HOLDSHELF</srai></template>
-</category>
-
-
-<!--hold x of y-->
-<category>
-<pattern>HOLD * OF _</pattern>
-<template>"Hold <star/> of" means that the hold is number <star/> on the hold queue.</template>
+<template><srai>OONHLDSHLF</srai></template>
 </category>
 
 <!--due-->
@@ -112,27 +114,33 @@
 <!--lost and paid-->
 
 <category>
-<pattern>LOST AND PAID</pattern>
+<pattern>LANDPD</pattern>
 <template>"Lost and Paid" means that the item was lost. It is no longer in our collection. Ask a librarian if we can get the item from 
 SearchOhio or purchase a replacement.
 </template>
 </category>
 
 <category>
+<pattern>LOST AND PAID</pattern>
+<template><srai>LANDPD</srai>
+</template>
+</category>
+
+<category>
 <pattern>_ LOST AND PAID</pattern>
-<template><srai>LOST AND PAID</srai>
+<template><srai>LANDPD</srai>
 </template>
 </category>
 
 <category>
 <pattern>_ LOST AND PAID *</pattern>
-<template><srai>LOST AND PAID</srai>
+<template><srai>LANDPD</srai>
 </template>
 </category>
 
 <category>
-<pattern>LOST AND PAID _</pattern>
-<template><srai>LOST AND PAID</srai>
+<pattern>LOST AND PAID *</pattern>
+<template><srai>LANDPD</srai>
 </template>
 </category>
 
@@ -140,6 +148,12 @@ SearchOhio or purchase a replacement.
 <category>
 <pattern>PLACE HOLD</pattern>
 <template>"Place Hold" means that the item is not immediately available and you should place a hold on the item. (If you're asking how to place a hold, type "How do I place a hold.")
+</template>
+</category>
+
+<category>
+<pattern>HOW DO I PLACE A HOLD</pattern>
+<template><srai>PLACEHOLD</srai>
 </template>
 </category>
 
@@ -215,69 +229,79 @@ the library at 440.255.8811.
 </category>
 
 <category>
-<pattern>ITEM STATUS MEAN</pattern>
+<pattern>ITMSTATQ</pattern>
 <template>Type in the item status and I'll tell you what it means
 </template>
 </category>
 
 <category>
 <pattern>_ ITEM STATUS MEAN</pattern>
-<template><srai>ITEM STATUS MEAN</srai>
+<template><srai>ITMSTATQ</srai>
 </template>
 </category>
 
 <category>
 <pattern>_ ITEM STATUS MEAN *</pattern>
-<template><srai>ITEM STATUS MEAN</srai>
+<template><srai>ITMSTATQ</srai>
 </template>
 </category>
 
 <category>
 <pattern>ITEM STATUS MEAN _</pattern>
-<template><srai>ITEM STATUS MEAN</srai>
+<template><srai>ITMSTATQ</srai>
 </template>
 </category>
 
 <category>
-<pattern>S-OH REQUESTED</pattern>
+<pattern>SOREQ</pattern>
 <template>"S-OH REQUESTED" means that the item has been requested through SearchOhio. It is not yet on its way to the person who requested it. The item is on its way when the status is "in transit."</template>
 </category>
 
 <category>
-<pattern>WHAT DOES S-OH REQUESTED MEAN</pattern>
-<template><srai>S-OH REQUESTED</srai></template>
+<pattern>S OH REQUESTED</pattern>
+<template><srai>SOREQ</srai></template>
 </category>
  
 <category>
-<pattern>WHAT DOES * S-OH REQUESTED MEAN</pattern>
-<template><srai>S-OH REQUESTED</srai></template>
+<pattern>* S OH REQUESTED</pattern>
+<template><srai>SOREQ</srai></template>
 </category>
 
 <category>
-<pattern>HOW LONG DOES TRANSITION LAST</pattern>
-<template>If you're asking how long "in transit" lasts, it's usually around 5 business days.</template>
+<pattern>S OH REQUESTED *</pattern>
+<template><srai>SOREQ</srai></template>
+</category>
+
+<category>
+<pattern>* S OH REQUESTED *</pattern>
+<template><srai>SOREQ</srai></template>
 </category>
 
 <!--PROCESSING-->
 
 <category>
-<pattern>PROCESSING</pattern>
+<pattern>PRCSS</pattern>
 <template>The item status "processing" means that the item has arrived from the vendor and is being prepared for circulation. You may place holds on items with this status.</template>
 </category>
 
 <category>
 <pattern>_ PROCESSING</pattern>
-<template><srai>PROCESSING</srai></template>
+<template><srai>PRCSS</srai></template>
+</category>
+
+<category>
+<pattern>_ PROCESSING</pattern>
+<template><srai>PRCSS</srai></template>
 </category>
 
 <category>
 <pattern>PROCESSING *</pattern>
-<template><srai>PROCESSING</srai></template>
+<template><srai>PRCSS</srai></template>
 </category>
 
 <category>
 <pattern>_ PROCESSING *</pattern>
-<template><srai>PROCESSING</srai></template>
+<template><srai>PRCSS</srai></template>
 </category>
 
 <!--IN TRANSIT-->
@@ -308,11 +332,6 @@ this usually means that the item is on it's way to your pick up location.</templ
 <pattern>_ IN TRANSIT *</pattern>
 <template><srai>INTRNST</srai></template>
 </category>
-
-
-
-
-
 
 
 </aiml>

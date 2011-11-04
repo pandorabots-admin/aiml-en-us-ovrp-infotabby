@@ -20,42 +20,42 @@
 
 <category>
 <pattern>IMAGE</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* IMAGE </pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>IMAGE *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* IMAGE *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>IMAGES</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* IMAGES </pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>IMAGES *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* IMAGES *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 
@@ -63,91 +63,87 @@
 
 <category>
 <pattern>PICTURE</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PICTURE </pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PICTURE *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PICTURE *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PICTURES</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PICTURES </pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PICTURES *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PICTURES *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PHOTO</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PHOTO </pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PHOTO *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PHOTO *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PHOTOS</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PHOTOS </pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>PHOTOS *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
 
 <category>
 <pattern>* PHOTOS *</pattern>
-<template>I can search in Google Images, enter your search terms now.</template>
+<template>I can search in Google Images, tell me what you are looking for in a few words.</template>
 </category>
-
-
-
-
 
 <category>
 <pattern> * </pattern>
-<that>I CAN SEARCH IN GOOGLE IMAGES ENTER YOUR SEARCH TERMS NOW</that>
+<that>* TELL ME WHAT YOU ARE * FEW WORDS</that>
 <template>Here we go.
 If you don't see the results, please turn off your pop-up blocker.  
 <think>

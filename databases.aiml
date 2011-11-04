@@ -16,6 +16,82 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
+<!--ALLDATA-->
+
+<category>
+<pattern>ALLDATA</pattern>
+<template>We have AllData available at all of our locations. You have to be in the library to use it. </template>
+</category>
+
+<category>
+<pattern>ALLDATA2</pattern>
+<template>We have AllData available at all of our locations. You have to be in the library to use it. We have auto repair manuals, too, take a look in our catalog.
+<think>
+<set name="searcharg">AUTO REPAIR</set>
+<set name="search">catkey</set>
+</think>
+
+</template>
+</category>
+
+<category>
+<pattern>* ALLDATA</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+
+<category>
+<pattern>ALLDATA *</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+
+<category>
+<pattern>* ALLDATA *</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+
+<category>
+<pattern>ALL DATA</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+
+<category>
+<pattern>* ALL DATA</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+
+<category>
+<pattern>ALL DATA *</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+
+<category>
+<pattern>* ALL DATA *</pattern>
+<template><srai>ALLDATA</srai></template>
+</category>
+  
+<category>
+<pattern>AUTO REPAIR</pattern>
+<template><srai>ALLDATA2</srai></template>
+</category>
+
+<category>
+<pattern>* AUTO REPAIR</pattern>
+<template><srai>ALLDATA2</srai></template>
+</category>
+
+<category>
+<pattern>AUTO REPAIR *</pattern>
+<template><srai>ALLDATA2</srai></template>
+</category>
+
+<category>
+<pattern>* AUTO REPAIR *</pattern>
+<template><srai>ALLDATA2</srai></template>
+</category>
+
+
+  
+
 <!--ANCESTRY LIBRARY EDITION-->
 
 <category>
@@ -141,7 +217,7 @@ login.aspx?authtype=ip,uid%26site=crcro%26return=y
 <!--databases-->
 
 <category>
-  <pattern>database</pattern>
+  <pattern>DBS</pattern>
   <template>You can find a list of our databases <a href="http://www.mentorpl.org/find.html" target="_blank"><b>here</b></a>. If you do not see the database you're looking for on this list,
    our reference staff may be able to help you find the information you're looking for. Call them at 440.255.8811 extension 215 during regular business hours. Or for immediate
    assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.
@@ -149,44 +225,49 @@ login.aspx?authtype=ip,uid%26site=crcro%26return=y
 </category>
 
 <category>
+  <pattern>database</pattern>
+  <template><srai>DBS</srai></template>
+</category>
+
+<category>
 <pattern>_  database</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <category>
 <pattern>_  database *</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <category>
   <pattern>database *</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <category>
   <pattern>databases</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <category>
 <pattern>_  databases</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <category>
 <pattern>_  databases *</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <category>
   <pattern>databases *</pattern>
-  <template><srai>database</srai></template>
+  <template><srai>DBS</srai></template>
 </category>
 
 <!--know it now-->
 
 <category>
-  <pattern>KNOWITNOW</pattern>
+  <pattern>KIN247</pattern>
   <template>
   <random>
   <li>If you really want to converse with a human librarian, I'll open the interface for Know it Now. If you don't see it, turn off your popup blocker and ask me again.
@@ -204,136 +285,228 @@ login.aspx?authtype=ip,uid%26site=crcro%26return=y
 
 <category>
   <pattern>KNOWITNOW *</pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
 </category>
 
 <category>
 <pattern>_  KNOWITNOW *</pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
 </category>
 
 <category>
 <pattern>_  KNOWITNOW </pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
 </category>
 
 <category>
   <pattern>KNOW IT NOW</pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
 </category>
 
 <category>
   <pattern>KNOW IT NOW *</pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
 </category>
 
 <category>
 <pattern>_  KNOW IT NOW *</pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
 </category>
 
 <category>
 <pattern>_  KNOW IT NOW </pattern>
-  <template><srai>KNOWITNOW</srai></template>
+  <template><srai>KIN247</srai></template>
+</category>
+
+<!--LEGAL FORMS-->
+
+<category>
+<pattern>LGLFRMS</pattern>
+  <template>We have a legal form database. You can use it from home to find and print legal forms. I'll open it for you. If you don't see it, turn off your pop up blocker and ask me again. If you'd like help using the database, follow this link to watch a short <a href="http://www.gale.cengage.com/media/training/Legalforms_demo/Legalforms_demo.htm" target="_blank"><b>online tutorial</b></a>.
+  <think>
+<set name="search">lglfrms</set>
+</think>
+  </template>
+</category>
+
+<category>
+<pattern>LEGAL FORM</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>_ LEGAL FORM</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>LEGAL FORM *</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>_ LEGAL FORM *</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>LEGAL FORMS</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>_ LEGAL FORMS</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>LEGAL FORMS *</pattern>
+  <template><srai>LGLFRMS</srai></template>
+</category>
+
+<category>
+<pattern>_ LEGAL FORMS *</pattern>
+  <template><srai>LGLFRMS</srai></template>
 </category>
 
 <!--learning express-->
 
 <category>
-<pattern>LEARNINGEXPRESS</pattern>
+<pattern>LRNXPRSS</pattern>
 <template>Follow this link to the <a href="http://www.learnatest.com/LEL/index.cfm/" target="_blank"><b>Learning Express Library</b></a>.</template>
 </category>
 
 <category>
+<pattern>LEARNINGEXPRESS</pattern>
+<template><srai>LRNXPRSS</srai></template>
+</category>
+
+<category>
 <pattern>* LEARNINGEXPRESS</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>* LEARNINGEXPRESS *</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>LEARNINGEXPRESS *</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>LEARNINGEXPRESSLIBRARY.COM</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>* LEARNINGEXPRESSLIBRARY.COM</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>* LEARNINGEXPRESSLIBRARY.COM *</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>LEARNINGEXPRESSLIBRARY.COM *</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
-
-
 
 <category>
 <pattern>LEARNING EXPRESS</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>* LEARNING EXPRESS </pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>* LEARNING EXPRESS  *</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
 
 <category>
 <pattern>LEARNING EXPRESS *</pattern>
-<template><srai>LEARNINGEXPRESS</srai></template>
+<template><srai>LRNXPRSS</srai></template>
 </category>
-
-
-
 
 <!--NEWSBANK-->
 
 <category>
-<pattern>NEWSBANK</pattern>
+<pattern>NWSBNK</pattern>
 <template>Follow this link to the <a href="http://www.mentorpl.org/subjects.html#NEWS" target="_blank"><b>Newsbank Database</b></a>.</template>
 </category>
 
 <category>
+<pattern>NEWSBANK</pattern>
+<template><srai>NWSBNK</srai></template>
+</category>
+
+<category>
 <pattern>* NEWSBANK</pattern>
-<template><srai>NEWSBANK</srai></template>
+<template><srai>NWSBNK</srai></template>
 </category>
 
 <category>
 <pattern>* NEWSBANK *</pattern>
-<template><srai>NEWSBANK</srai></template>
+<template><srai>NWSBNK</srai></template>
 </category>
 
 <category>
 <pattern>NEWSBANK *</pattern>
-<template><srai>NEWSBANK</srai></template>
+<template><srai>NWSBNK</srai></template>
 </category>
 
 <!--REF USA-->
 
 <category>
 <pattern>REFUSA</pattern>
-<template>We no longer have the Reference USA database. Our reference staff may be able to help you find the information you're looking for. 
-Call them at 440.255.8811 extension 215 during regular business hours. For immediate
-   assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.
+<template>We have the Reference USA database and you can use it from home. I'll open it for you. If you don't see it, turn off your pop up blocker and ask me again.
+  <think>
+<set name="search">refusa</set>
+</think>
 </template>
+</category>
+
+<category>
+<pattern>_ REFUSA</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>REFUSA *</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>_ REFUSA *</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>REF USA</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>_ REF USA</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>REF USA *</pattern>
+<template><srai>REFUSA</srai></template>
+</category>
+
+<category>
+<pattern>_ REF USA *</pattern>
+<template><srai>REFUSA</srai></template>
 </category>
 
 <category>

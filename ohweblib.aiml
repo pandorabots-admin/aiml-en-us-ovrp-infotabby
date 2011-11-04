@@ -230,23 +230,15 @@ I'm opening a link to The Ohio Web Library which contains a variety of magazine 
 </template>
 </category>
 
-
-
-
-
 <category>
 <pattern>_ ARTICLE</pattern>
 <template> <srai>ARTICLE</srai></template>
 </category>
 
-
-
 <category>
 <pattern>_ ARTICLES</pattern>
 <template> <srai>ARTICLES</srai></template>
 </category>
-
-
 
 <category>
 <pattern>ARTICLE</pattern>
@@ -258,7 +250,6 @@ I'm opening a link to The Ohio Web Library which contains a variety of magazine 
 <template>I can help you find articles, please enter your topic.</template>
 </category>
 
-
 <category>
 <pattern>*</pattern>
 <that>I can help you find articles please enter your topic</that>
@@ -282,37 +273,37 @@ I'm opening a link to The Ohio Web Library which contains a variety of magazine 
 </think>
 </template>
 </category>
-
-
-
 
  
  <!--OBITS-->
  
 <category>
 <pattern>OBITUARY</pattern>
-<template>What is the person's name?</template>
+<template>Please enter the name.</template>
 </category>
 
 <category>
 <pattern>OBITUARIES</pattern>
-<template>What is the person's name?</template>
+<template>Please enter the name.</template>
 </category>
+
 
 <category>
 <pattern>OBIT</pattern>
-<template>What is the person's name?</template>
+<template>Please enter the name.</template>
 </category>
+
 
 <category>
 <pattern>OBITS</pattern>
-<template>What is the person's name?</template>
+<template>Please enter the name.</template>
 </category>
+
 
 
 <category>
 <pattern> * </pattern>
-<that>What is the person's name</that>
+<that>PLEASE ENTER THE NAME</that>
 <template>
 I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
 <think>
@@ -321,10 +312,7 @@ I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If 
 </think>
 </template>
 </category>
- 
- 
- 
- 
+  
 
  <category>
 <pattern>OBITUARY FOR *</pattern> 
@@ -384,17 +372,9 @@ I'm sending this inquiry to The Ohio Web Library.  If you don't see the results,
 </template>
 </category>
 
- <category>
-<pattern>WHO IS *</pattern> 
-<template>
-I'm sending this inquiry to The Ohio Web Library.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">ohweblib</set>
-</think>
-</template>
-</category>
 
+
+<!--
 <category>
 <pattern>TELL ME EMMA *</pattern> 
 <template>
@@ -439,6 +419,6 @@ I'm sending this inquiry to The Ohio Web Library.  If you don't see the results,
 </think>
 </template>
 </category>
-
+-->
 
 </aiml>

@@ -1366,7 +1366,7 @@ I suggest you go to <a href="http://www.cnn.com" target="_blank"><b>CNN</b></a> 
 </category>
 
 <category>
-  <pattern>_ NEWS</pattern>
+  <pattern>* NEWS</pattern>
   <template><srai>CUREVNTS</srai></template>
 </category>
 
@@ -1376,9 +1376,8 @@ I suggest you go to <a href="http://www.cnn.com" target="_blank"><b>CNN</b></a> 
 </category>
 
 <category>
-  <pattern>_ NEWS *</pattern>
+  <pattern>* NEWS *</pattern>
   <template><srai>CUREVNTS</srai></template>
 </category>
-
 
 </aiml>

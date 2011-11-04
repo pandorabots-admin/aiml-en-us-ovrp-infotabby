@@ -100,7 +100,7 @@
 <category>
   <pattern>GTCRD</pattern>
   <template>
-  You may apply for a library card at the Main Library Circulation Desk or at either Branch. There is no charge to get a card.
+  You may apply for a library card at the Main Library Circulation Desk or at either Branch. You can also get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. There is no charge to get a card.
   You must present identification showing your current address. Any Ohio resident can get a card, you do not need to live in Mentor. If your photo ID does not have your current address, a personal check, utility bill, envelope or post card with a recent postmark showing your current address is required. 
   You must be 18 years of age to get an Adult card; Children cards require a guardian's signature. Once you have your card, you can use it at any of our locations.
  At this time it is not possible for you to get a library card online. We hope to offer this service in the future. Please call us immediately if your card
@@ -221,93 +221,129 @@ related by blood or marriage. </template>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>_ LINK</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LINK *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>_ LINK *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LINKED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>_ LINKED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LINKED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>_ LINKED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LINKING</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>_ LINKING</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LINKING *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>_ LINKING *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LNKCRDS</srai></template>
+</category>  
+</topic>
+
+<!--ONLINE CARDS-->
+
+<category>
+<pattern>ONLNCRDS</pattern>
+<template>You can get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. You will have limited privileges until you bring your photo ID and proof
+of address to the library to get a fully functional card. Your temporary card will give you access to our databases and other online resources; you also place holds on materials.  </template>
+</category>
+
+<topic name="CRDQ">
+<category>
+<pattern>ONLINE</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>_ ONLINE</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>ONLINE *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>_ ONLINE *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>ON LINE</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>_ ON LINE</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>ON LINE *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
+</category>  
+
+<category>
+<pattern>_ ON LINE *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>ONLNCRDS</srai></template>
 </category>  
 </topic>
 
@@ -324,57 +360,43 @@ There is no charge to get a card, replacement cards are $1.00.</template>
 <pattern>NEW</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
-  
-<topic name="CRDQ">
+
 <category>
 <pattern>NEW * </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* NEW * </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* NEW </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
- 
-<topic name="CRDQ">
+
 <category>
 <pattern>ANOTHER</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
-  
-<topic name="CRDQ">
+
 <category>
 <pattern>ANOTHER * </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* ANOTHER * </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NEWLIBCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* ANOTHER </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -392,62 +414,51 @@ There is no charge to get a card, replacement cards are $1.00.</template>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
-  
-<topic name="CRDQ"><category>
+
+<category>
 <pattern>* REPLACE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>REPLACE *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"><category><pattern>* REPLACE *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<category><pattern>* REPLACE *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
-  
-<topic name="CRDQ"><category><pattern>REPLACED</pattern><that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>RPLCRD</srai></template>
-</category>
-</topic>
-  
-<topic name="CRDQ"><category><pattern>* REPLACED</pattern><that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>RPLCRD</srai></template>
-</category>
-</topic>
 
-<topic name="CRDQ"><category><pattern>REPLACED *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<category><pattern>REPLACED</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"><category><pattern>* REPLACED *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<category><pattern>* REPLACED</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
-   
-<topic name="CRDQ"><category><pattern>REPLACEMENT</pattern><that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>RPLCRD</srai></template>
-</category>
-</topic>
-  
-<topic name="CRDQ"><category><pattern>* REPLACEMENT</pattern><that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>RPLCRD</srai></template>
-</category>
-</topic>
 
-<topic name="CRDQ"><category><pattern>REPLACEMENT *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<category><pattern>REPLACED *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"><category><pattern>* REPLACEMENT *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<category><pattern>* REPLACED *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>RPLCRD</srai></template>
+</category>
+
+<category><pattern>REPLACEMENT</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>RPLCRD</srai></template>
+</category>
+
+<category><pattern>* REPLACEMENT</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>RPLCRD</srai></template>
+</category>
+
+<category><pattern>REPLACEMENT *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>RPLCRD</srai></template>
+</category>
+
+<category><pattern>* REPLACEMENT *</pattern><that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>RPLCRD</srai></template>
 </category>
 </topic>  
@@ -483,379 +494,319 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>EXPIRE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
 
-<topic name="CRDQ">
+
 <category>
 <pattern>EXPIRED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>EXPIRED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
 
-<topic name="CRDQ">
+
 <category>
 <pattern>EXPIRES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>EXPIRES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>    
 
-<topic name="CRDQ">
+
 <category>
 <pattern>EXPIRE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>EXPIRE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>     
-  
 
-<topic name="CRDQ">
+
 <category>
 <pattern>EXPIRATION</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRATION</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>EXPIRATION *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* EXPIRATION *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>CRDEXPR</srai></template>
 </category>
-</topic>     
 
-<topic name="CRDQ">
+
 <category>
 <pattern>ACTIVE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* ACTIVE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>ACTIVE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* ACTIVE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>
- 
-<topic name="CRDQ">
+
+
 <category>
 <pattern>GOOD</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* GOOD</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>GOOD *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* GOOD *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>     
 
 
-<topic name="CRDQ">
 <category>
 <pattern>OLD</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* OLD</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>OLD *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* OLD *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-   
-<topic name="CRDQ">
+
+
 <category>
 <pattern>VALID</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* VALID</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>VALID *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
+
 <category>
 <pattern>* VALID *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>      
-  
-<topic name="CRDQ">
+
+
 <category>
 <pattern>WORK</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
 <category>
 <pattern>* WORK</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
 <category>
 <pattern>WORK *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
 <category>
 <pattern>* WORK *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
- 
-<topic name="CRDQ">
+
 <category>
 <pattern>WORKS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
 <category>
 <pattern>* WORKS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
 <category>
 <pattern>WORKS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
 <category>
 <pattern>* WORKS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
- 
-<topic name="CRDQ">
+
 <category>
 <pattern>WORKING</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-  
-<topic name="CRDQ">
+
 <category>
 <pattern>* WORKING</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
 <category>
 <pattern>WORKING *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>EXPRDCRD</srai></template>
 </category>
-</topic>   
-    
-<topic name="CRDQ">
+
 <category>
 <pattern>* WORKING *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -877,121 +828,91 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BARCODE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>BARCODE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BARCODE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>BAR CODE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BAR CODE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>BAR CODE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BAR CODE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>BARCODES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BARCODES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>BARCODES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BARCODES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>BAR CODES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BAR CODES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>BAR CODES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>BCDE</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* BAR CODES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -1003,7 +924,8 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>ONLNCRD</pattern>
-  <template>At this time it is not possible for you to get a library card online. We hope to offer this service in the future.
+  <template>All Ohio residents are welcome to apply for a Mentor Public Library card. You may use your new temporary account to place 5 holds on items in the Mentor Public Library catalog. Once you get your permanent card, you may place up to 35 holds, including holds on OhioLINK or SearchOhio items, and also use our databases and downloadable media.
+  Follow this link to <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>get a card online</b></a>!
  </template>
 </category>
 
@@ -1013,57 +935,43 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* ONLINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>ONLINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* ONLINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>ON LINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* ON LINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>ON LINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* ON LINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -1085,281 +993,211 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* KID</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>KID *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* KID *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>KID S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* KID S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>KID S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* KID S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>KID S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* KIDS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>KIDS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* KIDS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILD</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILD</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILD *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILD *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILD S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILD S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILD S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILD S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDREN</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDREN</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDREN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDREN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDREN S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDREN S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDREN S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDREN S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDRENS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDRENS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CHILDRENS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>KIDSCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CHILDRENS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -1385,311 +1223,363 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>* NEW</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>NEW *</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>* NEW *</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>HOW</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>* HOW</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>HOW *</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-<topic name="CRDQ"><category>
+<category>
 <pattern>* HOW *</pattern>
 <that>REPLACEMENT CARDS ARE NOT AVAILABLE ONLINE</that>
 <template><srai>RPLCRD</srai></template>
 </category>  
-</topic>
 
-
-<topic name="CRDQ">
 <category>
 <pattern>CANNOT FIND</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CANNOT FIND</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>CANNOT FIND *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* CANNOT FIND *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LOST</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* LOST</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LOST *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* LOST *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LOSE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* LOSE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LOSE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* LOSE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LOSES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* LOSES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>LOSES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* LOSES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>MISSING</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* MISSING</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>MISSING *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* MISSING *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>STEAL</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* STEAL</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>STEAL *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* STEAL *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>STEALS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* STEALS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>STEALS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* STEALS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>STOLEN</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* STOLEN</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>STOLEN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* STOLEN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>LSTCRD</srai></template>
+</category>
+</topic>
+
+<!--CO WITHOUT CARD-->
+
+<topic name="CRDQ">
+<category>
+<pattern>FORGOT CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ FORGOT CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>FORGOT * CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>FORGOT CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ FORGOT CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ FORGOT * CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>FORGOT * CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ FORGOT * CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>DO NOT * CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT * CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT * CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>WITHOUT CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ WITHOUT CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>WITHOUT * CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>WITHOUT CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ WITHOUT CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ WITHOUT * CARD</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>WITHOUT * CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>_ WITHOUT * CARD *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>COWOCRD</srai></template>
 </category>
 </topic>
 
@@ -1710,89 +1600,67 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* TEACHER</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>TEACHER *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* TEACHER *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>TEACHER S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* TEACHER S</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>TEACHER S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* TEACHER S *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>TEACHERS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* TEACHERS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>TEACHERS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>TCHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* TEACHERS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -1815,217 +1683,163 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SAVE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>SAVE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SAVE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>REMEMBER</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* REMEMBER</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>REMEMBER *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* REMEMBER *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>REMEMBERED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* REMEMBERED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>REMEMBERED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* REMEMBERED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>REMEMBERS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* REMEMBERS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>REMEMBERS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* REMEMBERS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>RETAIN</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* RETAIN</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>RETAIN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* RETAIN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>RETAINED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* RETAINED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>RETAINED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* RETAINED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>RETAINS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* RETAINS</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
-
-<topic name="CRDQ">
+>
 <category>
 <pattern>RETAINS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SVCRDNUM</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* RETAINS *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -2047,89 +1861,67 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SHARE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>SHARE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SHARE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>SHARED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SHARED</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>SHARED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SHARED *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>SHARES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SHARES</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>SHARES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>SHRCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>
 <pattern>* SHARES *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -2151,25 +1943,19 @@ and attach to the back of your driver's license or other convenient place. This 
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>APTAB</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* TAB</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>APTAB</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>TAB *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>APTAB</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* TAB *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -2192,91 +1978,67 @@ with your photo ID and proof of address.</template>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>NON * RESIDENT * MENTOR *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* NON * RESIDENT * MENTOR</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>NON * RESIDENT * LAKE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-
-<topic name="CRDQ">
 <category>
 <pattern>* NON * RESIDENT * LAKE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-
-<topic name="CRDQ">
 <category>
 <pattern>* NOT * MENTOR RESIDENT </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>* NOT * MENTOR RESIDENT * </pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic>  
 
-<topic name="CRDQ">
 <category>
 <pattern>*  LIVE * MENTOR</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* LIVE * MENTOR *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* LIVE * LAKE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* LIVE IN *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONLCRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* NOT LIVE * OHIO</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -2300,81 +2062,61 @@ or call us at 440.255.8811 for more information. </template>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>NON * RESIDENT *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* NON * RESIDENT *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>NOT * RESIDENT</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* NOT * RESIDENT</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* NOT * RESIDENT *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>OUT * STATE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* OUT * STATE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* DO NOT LIVE * OHIO</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* DO NOT LIVE * OHIO *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONOHRES</srai></template>
 </category>
-</topic> 
 
-<topic name="CRDQ">
 <category>
 <pattern>* OUTSIDE * OHIO</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
@@ -2398,187 +2140,139 @@ if you have a CLEVNET or Greater Access card, you must get a Mentor Public Libra
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* GREATER</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>GREATER *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
-
-
-<topic name="CRDQ"> 
+ 
 <category> 
 <pattern>* GREATER *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-
-<topic name="CRDQ"> 
 <category> 
 <pattern>CLEVELAND</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* CLEVELAND</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
-
-<topic name="CRDQ"> 
+ 
 <category> 
 <pattern>CLEVELAND *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* CLEVELAND *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>CLEVNET</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* CLEVNET</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>  
 <pattern>CLEVNET *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* CLEVNET *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>CUYAHOGA</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
-
-<topic name="CRDQ"> 
+ 
 <category> 
 <pattern>* CUYAHOGA</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ">
 <category>  
 <pattern>CUYAHOGA *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* CUYAHOGA *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>MORLEY</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* MORLEY</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>MORLEY *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* MORLEY *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>WILLOUGHBY</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* WILLOUGHBY</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>WILLOUGHBY *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>NONMPLCRD</srai></template>
 </category>
-</topic>
 
-<topic name="CRDQ"> 
 <category> 
 <pattern>* WILLOUGHBY *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>

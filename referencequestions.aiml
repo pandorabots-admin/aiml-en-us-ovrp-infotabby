@@ -17,16 +17,15 @@
   limitations under the License.-->
 
 
-
 <category>
 <pattern>REFQ</pattern>
 <template>
-I can answer many reference questions and I'm far more entertaining than most human librarians. What is your question?</template>
+I can answer many reference questions and I'm far more entertaining than most human librarians. What would you like to ask me?</template>
 </category>
 
 <category>
 <pattern> * </pattern>
-<that>WHAT IS YOUR QUESTION</that>
+<that>WHAT * ASK ME</that>
 <template>
 I can send this question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
 depending on the nature of your question. If you're asking about statistics, economics, populations, or scientific data, I recommend <a href="http://www.wolframalpha.com/" target="_blank"><b>Wolfram Alpha</b></a>.

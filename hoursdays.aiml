@@ -18,16 +18,36 @@
 
 
 
+<category>
+  <pattern>HOURS</pattern>
+  <template>
+  The Main Library is open 9 am to 9 pm, Monday through Thursday, 9 am to 5 pm Friday and Saturday, and 11 am to 5 pm on Sunday. Both branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm on Tuesday, Thursday, Friday and Saturday. Both Branches are closed on Sunday.
+Follow this link for a nice chart showing our <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>hours</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>* HOURS</pattern>
+  <template><srai>HOURS</srai></template>
+</category>
+
+<category>
+  <pattern>* HOURS *</pattern>
+  <template><srai>HOURS</srai></template>
+</category>
+
+<category>
+  <pattern>HOURS *</pattern>
+  <template><srai>HOURS</srai></template>
+</category>
 
 
-<!--misc idiocy-->
 
 <category>
 <pattern>* LIBRARY OPEN ON *</pattern>
-<template><srai>CLSD</srai>
+<template><srai>HOURS</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>WHEN * OPEN *</pattern>
@@ -40,6 +60,26 @@
 </category>
 
 <category>
+<pattern>WHAT TIME * OPEN</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT TIME * OPEN *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT TIME * OPENED</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT TIME * OPENED *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
 <pattern>WHEN * CLOSE *</pattern>
 <template><srai>HOURS</srai></template>
 </category>
@@ -48,7 +88,6 @@
 <pattern>WHEN * CLOSED *</pattern>
 <template><srai>HOURS</srai></template>
 </category>
-
 
 <category>
 <pattern>* DAYS * OPEN</pattern>
@@ -79,7 +118,6 @@
 <pattern>* TIMES * OPEN *</pattern>
 <template><srai>HOURS</srai></template>
 </category>
-
 
 <category>
 <pattern>HOW LATE * OPEN</pattern>
@@ -132,7 +170,107 @@
 </category>
 
 <category>
+<pattern>CLOSING TIME</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING TIME</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING TIME *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING TIME *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING TIMES</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING TIMES</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING TIMES *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING TIMES *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
 <pattern>ARE YOU OPEN</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPEN * SUNDAY</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPEN * SUNDAY *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPEN * SUNDAYS</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPEN * SUNDAYS *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>OPENING TIME</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING TIME</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>OPENING TIME *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING TIME *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>OPENING TIMES</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING TIMES</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>OPENING TIMES *</pattern>
+<template><srai>HOURS</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING TIMES *</pattern>
 <template><srai>HOURS</srai></template>
 </category>
 
@@ -161,12 +299,9 @@
 <template><srai>HOURS</srai></template>
 </category>
 
-
-
 <category>
 <pattern>WHAT TIME * OPEN</pattern>
-<template>The Main Library is open 9 am to 9 pm, Monday through Thursday, 9 am to 5 pm Friday and Saturday, and 11 am to 5 pm on Sunday.
-Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm on Tuesday, Thursday, Friday and Saturday. Both Branches are closed on Sunday.</template>
+<template>HOURS</template>
 </category>
 
 <category>
@@ -204,7 +339,6 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 </category>
 
  
-
 <category>
 <pattern>HOW LATE * OPEN</pattern>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT THE LIBRARY</that>
@@ -212,11 +346,9 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 </category>
 
 <category>
-<pattern>WHEN DOES THE LIBRARY CLOSE ON SUNDAY</pattern>
+<pattern>* CLOSE ON SUNDAY</pattern>
 <template>The Main Library closes at 5 pm on Sundays.</template>
 </category>
-
-
 
 <category>
 <pattern>WHEN DO * CLOSE</pattern>
@@ -237,7 +369,6 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 <pattern>WHEN DOES * OPEN</pattern>
 <template><srai>HOURS</srai></template>
 </category>
-
 
 <category>
 <pattern>WHEN IS * OPEN</pattern>
@@ -293,7 +424,6 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 <pattern>WHAT TIME * CLOSES</pattern>
 <template><srai>HOURS</srai></template>
 </category>
-<!--branch hours two star-->
 
 <category>
 <pattern>* WHEN DO * CLOSE</pattern>
@@ -377,10 +507,8 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 </category>
 
 
-
-<!--closed today-->
 <category>
-<pattern>HOW LATE ARE YOU OPEN TODAY</pattern>
+<pattern>HOW LATE * OPEN TODAY</pattern>
 <template><srai>HOURS</srai></template>
 </category>
 
@@ -416,8 +544,6 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 </category>
 
 
-<!--open today-->
-
 <category>
 <pattern>OPEN TODAY</pattern>
 <template><srai>HOURS</srai></template>
@@ -433,139 +559,6 @@ Both Branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm o
 <template><srai>HOURS</srai></template>
 </category>
 
-
-
-<!--CLOSE TIME DAY-->
-
-
-<category>
-<pattern>* DOES THE LIBRARY CLOSE ON *</pattern>
-<template><srai>CLOSE TIME <star index="2"/></srai>
-</template>
-</category>
-
-<category>
-<pattern>* DO YOU CLOSE ON *</pattern>
-<template><srai>CLOSE TIME <star index="2"/></srai>
-</template>
-</category>
-
-
-<category>
-<pattern>CLOSE TIME MONDAY</pattern>
-<template>On Mondays the Main Library is until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>CLOSE TIME TUESDAY</pattern>
-<template>On Tuesdays the Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>CLOSE TIME WEDNESDAY</pattern>
-<template>On Wednesdays the Main Library is open until 9 pm, both Branches are open until 9 pm.</template>
-</category>
-
-<category>
-<pattern>CLOSE TIME THURSDAY</pattern>
-<template>On Thursdays the Main Library is open until 9 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>CLOSE TIME FRIDAY</pattern>
-<template>On Fridays the Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>CLOSE TIME SATURDAY</pattern>
-<template>On Saturdays the Main Library is open until 5 pm, both Branches are open until 5 pm.</template>
-</category>
-
-<category>
-<pattern>CLOSE TIME SUNDAY</pattern>
-<template>On Sundays the Main Library is open until 5 pm, both Branches are closed.</template>
-</category>
-
-
-<!--OPEN TIME DAY-->
-
-
-<category>
-<pattern>* DOES THE LIBRARY OPEN ON *</pattern>
-<template><srai>OPEN TIME <star index="2"/></srai>
-</template>
-</category>
-
-<category>
-<pattern>* DO YOU OPEN ON *</pattern>
-<template><srai>OPEN TIME <star index="2"/></srai>
-</template>
-</category>
-
-
-
-
-<category>
-<pattern>OPEN TIME MONDAY</pattern>
-<template>On Mondays the Main Library opens at 9 am, both Branches open at 1 pm.</template>
-</category>
-
-<category>
-<pattern>OPEN TIME TUESDAY</pattern>
-<template>On Tuesdays the Main Library opens at 9 am, both Branches open at 9 am.</template>
-</category>
-
-<category>
-<pattern>OPEN TIME WEDNESDAY</pattern>
-<template>On Wednesdays the Main Library opens at 9 am, both Branches open at 1 pm.</template>
-</category>
-
-<category>
-<pattern>OPEN TIME THURSDAY</pattern>
-<template>On Thursdays the Main Library opens at 9 am, both Branches open at 9 am.</template>
-</category>
-
-<category>
-<pattern>OPEN TIME FRIDAY</pattern>
-<template>On Fridays the Main Library opens at 9 am, both Branches open at 9 am.</template>
-</category>
-
-<category>
-<pattern>OPEN TIME SATURDAY</pattern>
-<template>On Fridays the Main Library opens at 9 am, both Branches open at 9 am.</template>
-</category>
-
-<category>
-<pattern>OPEN TIME SUNDAY</pattern>
-<template>On Sundays the Main Library opens at 11 am, both Branches are closed.</template>
-</category>
-
-<!--hours-->
-
-<category>
-  <pattern>HOURS</pattern>
-  <template>
-  The Main Library is open 9 am to 9 pm, Monday through Thursday, 9 am to 5 pm Friday and Saturday, and 11 am to 5 pm on Sunday. Both branches are open 1 pm to 9 pm on Monday and Wednesday, from 9 am to 5 pm on Tuesday, Thursday, Friday and Saturday. Both Branches are closed on Sunday.
-Here's a nice chart showing our <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>hours</b></a>.
- </template>
-</category>
-
-<category>
-  <pattern>* HOURS</pattern>
-  <template><srai>HOURS</srai></template>
-</category>
-
-<category>
-  <pattern>* HOURS *</pattern>
-  <template><srai>HOURS</srai></template>
-</category>
-
-<category>
-  <pattern>HOURS *</pattern>
-  <template><srai>HOURS</srai></template>
-</category>
-
-<!--closed-->
 
 
 <category>

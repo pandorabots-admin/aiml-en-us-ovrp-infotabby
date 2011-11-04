@@ -99,9 +99,7 @@ Would you like to hear one of my poems?</template>
 </random>
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that>PRETTY GOOD HUH</that>

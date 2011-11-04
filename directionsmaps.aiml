@@ -415,14 +415,6 @@
 <template><srai>BRANCHLOCS</srai></template>
 </category>
 
-
-
-
-
-
-
-
-
 <category>
 <pattern>NO</pattern>
 <that>YES OR NO WOULD YOU LIKE INFORMATION ABOUT BRANCH HOURS AND LOCATIONS</that>
@@ -459,11 +451,6 @@
 </template>
 </category>
 
-
-
-
-
-
 <category>
 <pattern>BRANCHLOCS</pattern>
 <template>We have two branches. <srai>HDLSLOC</srai>
@@ -471,15 +458,11 @@
 </template>
 </category>
 
-
-
-
 <category>
 <pattern>BRANCH</pattern>
 <template><srai>BRNCHS</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>* BRANCH</pattern>
@@ -531,251 +514,187 @@
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROP OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROP OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROP OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROP * OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROP * OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROP * OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROP * OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROPPED OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROPPED OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROPPED OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROPPED OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROPPED * OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROPPED * OFF</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>DROPPED * OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ DROPPED * OFF *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURN</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURN</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURN *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURN *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURNS</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURNS</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURNS *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURNS *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURNED</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURNED</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURNED *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURNED *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURNING</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURNING</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>RETURNING *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
 <template><srai>RTNLOC</srai></template>
 </category>
-</topic>
 
-<topic name="BRNCHINFO">
 <category>
 <pattern>_ RETURNING *</pattern>
 <that> * KNOW ABOUT OUR BRANCHES</that>
@@ -1180,26 +1099,26 @@ here</b></a>.</template>
 
 
 <category>
-  <pattern>LIBRARY LOC</pattern>
+  <pattern>LIBLOC</pattern>
   <template>The Main Library is at 8215 Mentor Ave., Mentor, Ohio. Their phone number is 440.255.8811. Our Lake Branch is located at 5642 Andrews Road, Mentor-on-the-Lake, 
 Ohio 44060. Their phone number is 440.257.2512. Our Headlands Branch is located at 4669 Corduroy Road,
 Mentor Headlands, Ohio 44060. Their phone number is 440.257.2000. 
 
 
-You can find maps to the Main Library and both branches <a href="http://www.mentorpl.org/hours"><b>
-here</b></a>.</template>
+Follow this link for <a href="http://www.mentorpl.org/hours"><b>
+hours, directions, maps, and phone numbers</b></a> for all of our locations.</template>
 </category>
 
 
 <category>
 <pattern>Where * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>Where * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
@@ -1207,62 +1126,62 @@ here</b></a>.</template>
 <!--
 <category>
 <pattern>* for * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>* for * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 -->
 
 <category>
 <pattern>LIBRARY * address</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>LIBRARY * address *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>* LIBRARY * address</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>* LIBRARY * address *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>ADDRESS * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>ADDRESS * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>* ADDRESS * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
 <pattern>* ADDRESS * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
@@ -1270,43 +1189,43 @@ here</b></a>.</template>
 
 <category>
   <pattern>library located</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library located</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library * located</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library located *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library * located</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library * located *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library * located *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
@@ -1314,86 +1233,86 @@ here</b></a>.</template>
 
 <category>
   <pattern>library LOCATION</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library LOCATION</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library * LOCATION</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library LOCATION *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library * LOCATION</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library * LOCATION *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library * LOCATION *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 
 <category>
   <pattern>library LOCATIONS</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library LOCATIONS</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library * LOCATIONS</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>library LOCATIONS *</pattern>
-<template><srai>LIBRARY LOC</srai>
+  <pattern>LIBLOCATIONS *</pattern>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library * LOCATIONS</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>library * LOCATIONS *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* library * LOCATIONS *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
@@ -1401,86 +1320,86 @@ here</b></a>.</template>
 
 <category>
   <pattern>LOCATION LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* LOCATION LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>LOCATION * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>LOCATION LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* LOCATION * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>LOCATION * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* LOCATION * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 
 <category>
   <pattern>LOCATIONS LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* LOCATIONS LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>LOCATIONS * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>LOCATIONS LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* LOCATIONS * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>LOCATIONS * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
   <pattern>* LOCATIONS * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai>
+<template><srai>LIBLOC</srai>
 </template>
 </category>
 
@@ -1490,65 +1409,71 @@ here</b></a>.</template>
 <!--Read House-->
 
 <category>
-  <pattern>Read House</pattern>
+  <pattern>READHSE</pattern>
   <template>The Read House in at 8245 Mentor Ave. Please park in the Main Library parking lot if you are going to an event at the Read House. You can find more information about this historic property <a href="http://www.mentorpl.org/readhouse.html" target="_blank"><b>here</b></a>.
   </template>
 </category>
 
+
+<category>
+  <pattern>Read House</pattern>
+   <template><srai>READHSE</srai></template>
+</category>
+
 <category>
 <pattern>_  Read House</pattern>
-  <template><srai>Read House</srai></template>
+  <template><srai>READHSE</srai></template>
 </category>
 
 <category>
 <pattern>_  Read House *</pattern>
-  <template><srai>Read House</srai></template>
+  <template><srai>READHSE</srai></template>
 </category>
 
 <category>
   <pattern>Read House *</pattern>
-  <template><srai>Read House</srai></template>
+  <template><srai>READHSE</srai></template>
 </category>
 
 <category>
   <pattern>Reed House</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
 <pattern>_  Reed House</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
 <pattern>_  Reed House *</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
   <pattern>Reed House *</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 
 <category>
   <pattern>ReadHouse</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
 <pattern>_  ReadHouse</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
 <pattern>_  ReadHouse *</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
   <pattern>ReadHouse *</pattern>
-    <template><srai>Read House</srai></template>
+    <template><srai>READHSE</srai></template>
 </category>
 
 <category>
@@ -1698,12 +1623,6 @@ here</b></a>.</template>
     <template><srai>LIBPHONE</srai></template>
 </category>
 
-
-
-
-
-
-
 <category>
   <pattern>your number</pattern>
     <template><srai>LIBPHONE</srai></template>
@@ -1734,8 +1653,6 @@ here</b></a>.</template>
    <template><srai>LIBPHONE</srai></template>
 </category>
 
-
-
 <category>
   <pattern>library * number *</pattern>
     <template><srai>LIBPHONE</srai></template>
@@ -1745,8 +1662,6 @@ here</b></a>.</template>
   <pattern>* library number</pattern>
    <template><srai>LIBPHONE</srai></template>
 </category>
-
-
 
 <!--phone possessive-->
 <category>
@@ -1759,8 +1674,6 @@ here</b></a>.</template>
    <template><srai>LIBPHONE</srai></template>
 </category>
 
-
-
 <category>
   <pattern>library s number</pattern>
     <template><srai>LIBPHONE</srai></template>
@@ -1770,10 +1683,6 @@ here</b></a>.</template>
   <pattern>* library s number</pattern>
    <template><srai>LIBPHONE</srai></template>
 </category>
-
-
-
-
 
 <!--call you-->
 
@@ -1799,7 +1708,6 @@ here</b></a>.</template>
    <template><srai>LOC PHONE <star/></srai></template>
 </category>
 
-
 <category>
   <pattern>PHONE NUMBER FOR *</pattern>
    <template><srai>LOC PHONE <star/></srai></template>
@@ -1810,15 +1718,10 @@ here</b></a>.</template>
    <template><srai>LOC PHONE <star/></srai></template>
 </category>
 
-
-
 <category>
   <pattern>PHONE NUMBER *</pattern>
    <template><srai>LOC PHONE <star/></srai></template>
 </category>
-
-
-
 
 <category>
   <pattern>NUMBER FOR *</pattern>
@@ -1840,19 +1743,15 @@ here</b></a>.</template>
    <template><srai>LOC PHONE <star/></srai></template>
 </category>
 
-
-
 <category>
 <pattern>LOC PHONE MAIN</pattern>
 <template>The phone number for the Main Library is 440.255.8811.</template>
 </category>
 
-
 <category>
 <pattern>LOC PHONE MAIN LIBRARY</pattern>
 <template>The phone number for the Main Library is 440.255.8811.</template>
 </category>
-
 
 <category>
 <pattern>LOC PHONE THE MAIN LIBRARY</pattern>
@@ -1863,7 +1762,6 @@ here</b></a>.</template>
 <pattern>LOC PHONE HEADLANDS</pattern>
 <template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
 </category>
-
 
 <category>
 <pattern>LOC PHONE HEADLANDS LIBRARY</pattern>
@@ -1885,12 +1783,10 @@ here</b></a>.</template>
 <template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
 </category>
 
-
 <category>
 <pattern>LOC PHONE LAKE</pattern>
 <template>The phone number for the Lake Branch Library is 440.257.2512</template>
 </category>
-
 
 <category>
 <pattern>LOC PHONE LAKE LIBRARY</pattern>
@@ -1912,12 +1808,10 @@ here</b></a>.</template>
 <template>The phone number for the Lake Branch Library is 440.257.2512</template>
 </category>
 
-
 <category>
 <pattern>LOC PHONE MOL</pattern>
 <template>The phone number for the Lake Branch Library is 440.257.2512</template>
 </category>
-
 
 <category>
 <pattern>LOC PHONE MOL LIBRARY</pattern>
@@ -1939,12 +1833,10 @@ here</b></a>.</template>
 <template>The phone number for the Lake Branch Library is 440.257.2512</template>
 </category>
 
-
 <category>
 <pattern>LOC PHONE MENTOR ON THE LAKE</pattern>
 <template>The phone number for the Lake Branch Library is 440.257.2512</template>
 </category>
-
 
 <category>
 <pattern>LOC PHONE MENTOR ON THE LAKE LIBRARY</pattern>
@@ -1968,45 +1860,45 @@ here</b></a>.</template>
 
 <category>
   <pattern>Where * Library</pattern>
-  <template>Main Library is at 8215 Mentor Ave., Mentor, Ohio 44060. You can find maps to the Main Library and both branches <a href="http://www.mentorpl.org/hours"><b>
-here</b></a>.</template>
+<template><srai>LIBLOC</srai></template>
 </category>
+
 
 <category>
   <pattern>Where * Library *</pattern>
-  <template>Main Library is at 8215 Mentor Ave., Mentor, Ohio 44060. You can find maps to the Main Library and both branches <a href="http://www.mentorpl.org/hours"><b>
-here</b></a>.</template>
+<template><srai>LIBLOC</srai></template>
 </category>
+
 
 <category>
   <pattern>* Where * Library *</pattern>
-  <template>Main Library is at 8215 Mentor Ave., Mentor, Ohio 44060. You can find maps to the Main Library and both branches <a href="http://www.mentorpl.org/hours"><b>
-here</b></a>.</template>
+<template><srai>LIBLOC</srai></template>
 </category>
+
 
 <category>
 <pattern>WHERE IS MPL</pattern>
-<template><srai>LIBRARY LOC</srai></template>
+<template><srai>LIBLOC</srai></template>
 </category>
 
 <category>
 <pattern>WHERE IS MPL *</pattern>
-<template><srai>LIBRARY LOC</srai></template>
+<template><srai>LIBLOC</srai></template>
 </category>
 
 <category>
 <pattern>* WHERE IS MPL *</pattern>
-<template><srai>LIBRARY LOC</srai></template>
+<template><srai>LIBLOC</srai></template>
 </category>
 
 <category>
 <pattern>* GET TO * LIBRARY</pattern>
-<template><srai>LIBRARY LOC</srai></template>
+<template><srai>LIBLOC</srai></template>
 </category>
 
 <category>
 <pattern>* GET TO * LIBRARY *</pattern>
-<template><srai>LIBRARY LOC</srai></template>
+<template><srai>LIBLOC</srai></template>
 </category>
 
 

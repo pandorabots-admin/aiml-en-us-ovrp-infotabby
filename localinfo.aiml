@@ -16,57 +16,66 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
-
 <category>
-<pattern>HEAP APPLICATION</pattern>
+<pattern>HEAPAPP</pattern>
 <template>HEAP applications are available at the Main Library, at both Branches, and online by following <a href="http://www.development.ohio.gov/community/ocs/Documents/2010-11HEAP.pdf" target="_blank">
 <b>this link</b></a>.</template>
 </category>
 
 <category>
+<pattern>HEAP APPLICATION</pattern>
+<template><srai>HEAPAPP</srai></template>
+</category>
+
+
+<category>
 <pattern>_ HEAP APPLICATION</pattern>
-<template><srai>HEAP APPLICATION</srai></template>
+<template><srai>HEAPAPP</srai></template>
 </category>
 
 <category>
 <pattern>_ HEAP APPLICATION *</pattern>
-<template><srai>HEAP APPLICATION</srai></template>
+<template><srai>HEAPAPP</srai></template>
 </category>
 
 <category>
 <pattern>HEAP APPLICATIONS</pattern>
-<template><srai>HEAP APPLICATION</srai></template>
+<template><srai>HEAPAPP</srai></template>
 </category>
 
 <category>
 <pattern>_ HEAP APPLICATIONS</pattern>
-<template><srai>HEAP APPLICATION</srai></template>
+<template><srai>HEAPAPP</srai></template>
 </category>
 
 <category>
 <pattern>_ HEAP APPLICATIONS *</pattern>
-<template><srai>HEAP APPLICATION</srai></template>
+<template><srai>HEAPAPP</srai></template>
 </category>
 
 <category>
-<pattern>LOCAL HISTORY</pattern>
+<pattern>LOCHIST</pattern>
 <template> While we do not have many local history books, Morley Library in Painsville does! Give them a call at 440.352.3383.</template>
 </category>
 
 <category>
+<pattern>LOCAL HISTORY</pattern>
+<template><srai>LOCHIST</srai></template>
+</category>
+
+<category>
 <pattern> _ LOCAL HISTORY</pattern>
-<template><srai>LOCAL HISTORY</srai></template>
+<template><srai>LOCHIST</srai></template>
 </category>
 
 <category>
 <pattern> _ LOCAL HISTORY *</pattern>
-<template><srai>LOCAL HISTORY</srai></template>
+<template><srai>LOCHIST</srai></template>
 </category>
 
 <category>
 <pattern>LOCAL HISTORY *</pattern>
-<template><srai>LOCAL HISTORY</srai></template>
+<template><srai>LOCHIST</srai></template>
 </category>
 
 <category>
@@ -417,6 +426,14 @@ target="_blank"><b>map</b></a>. Follow this link for more information about the 
 </template>
 </category>
 
+<category>
+<pattern>SCHOOL LUNCH PROGRAMS</pattern>
+<template>I'm not programmed with this information. I suggest you contact your local school.</template>
+</category>
 
+<category>
+<pattern>DO YOU OFFER SUTQ TRAINING FOR CHILDCARE TEACHERS IN YOUR OR SURROUNDING LIBRARIES</pattern>
+<template>We do not. One of the humans working here can check other libraries for you.</template>
+</category>
 
 </aiml>

@@ -119,81 +119,64 @@
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-<topic name="PRCHREQ">
 <category>
 <pattern> MYSTERY </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-<topic name="PRCHREQ">
 <category>
-<pattern>* MYSTERY </pattern>
+<pattern>_ MYSTERY </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-<topic name="PRCHREQ">
 <category>
 <pattern> MYSTERY *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-<topic name="PRCHREQ">
 <category>
-<pattern>* MYSTERY *</pattern>
+<pattern>_ MYSTERY *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-<topic name="PRCHREQ">
 <category>
 <pattern> MYSTERIES </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-
-<topic name="PRCHREQ">
 <category>
-<pattern>* MYSTERIES </pattern>
+<pattern>_ MYSTERIES </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-
-<topic name="PRCHREQ">
 <category>
 <pattern> MYSTERIES *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
-</topic>
 
-<topic name="PRCHREQ">
 <category>
-<pattern>* MYSTERIES *</pattern>
+<pattern>_ MYSTERIES *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
 a month. Please check the status of this request then.</template>
 </category>
 </topic>
+
 
 <category>
 <pattern>REQUEST * BUY</pattern>

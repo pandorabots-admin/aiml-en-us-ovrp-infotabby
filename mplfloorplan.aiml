@@ -127,8 +127,6 @@ If you need help finding something at one of our Branches, just ask one of the h
 <pattern>* LOCATION * KID S BOOKS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
-<!--i-->
-
 <category>
 <pattern>WHERE * CHILDRENS DVDS </pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
@@ -210,26 +208,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 <pattern>* LOCATION * KID S DVDS</pattern>
 <template><srai>LOCKIDSITMS</srai></template></category>
 
-
-
-
-
-
-
-<!--ei-->
-
-
-
-
-
-
-
-
-
-
 <!--WHERE IS X LOCATED-->
-
-
 
 <category>
 <pattern>* FICTION BOOK</pattern>
@@ -1109,8 +1088,6 @@ If you need help finding something at one of our Branches, just ask one of the h
 <pattern>* HEADLANDS YA *</pattern>
 <template><srai>HDLSYA</srai></template>
 </category>
-
-<!--I-->
 
 <category>
 <pattern>LKYA</pattern>

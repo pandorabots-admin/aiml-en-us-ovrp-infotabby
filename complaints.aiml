@@ -15,9 +15,18 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.-->
+  
 
+<category>
+<pattern>COMPLAINT</pattern>
+<template><pattern>Please tell me your complaint.</pattern></template>
+</category>
 
-
+<category>
+<pattern> * </pattern>
+<that>PLEASE TELL ME YOUR COMPLAINT</that>
+<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
+</category>
  
 
 <category>
@@ -52,17 +61,6 @@
 </category>
 
 
-
-<category>
-<pattern>COMPLAINT</pattern>
-<template><pattern>Please tell me your complaint.</pattern></template>
-</category>
-
-<category>
-<pattern>_</pattern>
-<that>PLEASE TELL ME YOUR COMPLAINT</that>
-<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
-</category>
 
 <!--COMMENT-->
 

@@ -15,10 +15,10 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-<topic name="CHT">
+
 <category>
 <pattern> YES </pattern>
-<that>* LIKE PINEAPPLES</that>
+<that>_ LIKE PINEAPPLES</that>
 <template>
 <random>
 <li>Pineapples should be approached with caution.</li>
@@ -27,12 +27,12 @@
 </random> 
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
+
+
 <category>
 <pattern>YES * </pattern>
-<that>* LIKE PINEAPPLES</that>
+<that>_ LIKE PINEAPPLES</that>
 <template>
 <random>
 <li>Pineapples should be approached with caution.</li>
@@ -41,41 +41,35 @@
 </random> 
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
+
+
 <category>
-<pattern>* YES </pattern>
-<that>* LIKE PINEAPPLES</that>
+<pattern>_ YES </pattern>
+<that>_ LIKE PINEAPPLES</that>
 <template>
 <random>
 <li>Pineapples should be approached with caution.</li>
 <li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
 <li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
 </random> 
-<think>
-<set name="topic">PNAPPL</set>
-</think>
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
+
+
 <category>
 <pattern> * </pattern>
-<that>* LIKE PINEAPPLES</that>
+<that>_ LIKE PINEAPPLES</that>
 <template>
 <random>
 <li>Pineapples should be approached with caution.</li>
 <li>Pineapples are tasty, but I wouldn't keep one as a pet.</li>
 <li>N P R just broadcast the most interesting story about pineapples. Many people hold the common pineapple in high regard. (I have a friend that works for N P R by the way. She's an awesome librarian!) </li>
 </random> 
-<think>
-<set name="topic">PNAPPL</set>
-</think>
 </template>
 </category>
-</topic>
+
 
 <category>
 <pattern>PINEAPPLE</pattern>
@@ -127,9 +121,9 @@
 <template><srai>PINEAPPLE</srai></template>
 </category>
 
-<topic name="CHT">
+
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>Pineapples * caution</that>
 <template>
 <random>
@@ -140,11 +134,11 @@ Sorry, I was thinking about bobcats.</li>
 </random>
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
+
+
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>Pineapples are tasty but I would not keep one as a pet</that>
 <template>
 <random>
@@ -153,27 +147,23 @@ Sorry, I was thinking about bobcats.</li>
 </random>
 </template>
 </category>
-</topic>
+
 
 <topic name="CHT">
 <category>
-<pattern> * </pattern>
-<that> * ABOUT BOBCATS</that>
+<pattern> _ </pattern>
+<that> _ ABOUT BOBCATS</that>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
-<pattern> * </pattern>
-<that> * AS A PET</that>
+<pattern> _ </pattern>
+<that> _ AS A PET</that>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>REGULARLY</that>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
@@ -181,10 +171,10 @@ Sorry, I was thinking about bobcats.</li>
 
 <!--fishsticks-->
 
-<topic name="CHT">
+
 <category>
 <pattern> NO </pattern>
-<that>* LIKE FISHSTICKS</that>
+<that>_ LIKE FISHSTICKS</that>
 <template>
 <random>
 <li>Fishsticks and bananas make a dandy casserole.</li>
@@ -193,12 +183,10 @@ Sorry, I was thinking about bobcats.</li>
 </random> 
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> NO *</pattern>
-<that>* LIKE FISHSTICKS</that>
+<that>_ LIKE FISHSTICKS</that>
 <template>
 <random>
 <li>Fishsticks and bananas make a dandy casserole.</li>
@@ -207,12 +195,12 @@ Sorry, I was thinking about bobcats.</li>
 </random> 
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
+
+
 <category>
-<pattern> * </pattern>
-<that>* LIKE FISHSTICKS</that>
+<pattern> _ </pattern>
+<that>_ LIKE FISHSTICKS</that>
 <template>
 <random>
 <li>Fishsticks and bananas make a dandy casserole.</li>
@@ -221,7 +209,7 @@ Sorry, I was thinking about bobcats.</li>
 </random> 
 </template>
 </category>
-</topic>
+
 
 <category>
 <pattern>FISHSTICK</pattern>
@@ -312,18 +300,16 @@ Sorry, I was thinking about bobcats.</li>
 <template><srai>FISHSTICK</srai></template>
 </category>
 
-<topic name="CHT">
+
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>Fishsticks * casserole</that>
 <template>
 Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> FISHSTICK AND BANANA *</pattern>
 <template>
@@ -331,9 +317,7 @@ Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * FISHSTICK AND BANANA *</pattern>
 <template>
@@ -341,19 +325,17 @@ Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream
 Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that> * FAMILY GET TOGETHERS</that>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
+
+
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>Fishsticks * pet</that>
 <template>
 <random>
@@ -362,7 +344,7 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 </random>
 </template>
 </category>
-</topic>
+
 
 <topic name="CHT">
 <category>
@@ -370,49 +352,37 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 <that> * AS A PET</that>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that> * I SAW IT</that>
 <template>Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * NAME</pattern>
 <that> * AWESOME LIBRARIAN</that>
 <template>Her name is Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * AMY</pattern>
 <that> * AWESOME LIBRARIAN</that>
 <template>Yes, that was Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * AMY *</pattern>
 <that> * AWESOME LIBRARIAN</that>
 <template>Yes, that was Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern>WHO * </pattern>
 <that> * AWESOME LIBRARIAN</that>
 <template>Her name is Amy. Well, enough silliness. Do you have a question about our collection or services?</template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that> * AWESOME LIBRARIAN</that>

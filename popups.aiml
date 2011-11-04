@@ -33,47 +33,6 @@ If you're using Firefox, go to "Tools," then "Options," then "Content." Look for
 www.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar. </template>
 </category>
 
-
-<category>
-<pattern>POP-UPS</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>* POP-UPS</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>POP-UPS *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>* POP-UPS *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>POP-UP</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>* POP-UP</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>POP-UP *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
-<category>
-<pattern>* POP-UP *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
-
 <category>
 <pattern>POP UPS</pattern>
 <template><srai>POPUPBLOCK</srai></template>

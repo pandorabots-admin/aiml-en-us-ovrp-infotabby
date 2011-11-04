@@ -2937,180 +2937,208 @@ your account will keep a record of all the items you check out.
 <template><srai>RHISTORY</srai></template>
 </category>
 
+<category>
+<pattern>RECCO</pattern>
+<template>The library does not keep a record of the items you check out. <br/><br/>
+<srai>RHISTORY</srai></template>
+</category>
 
 <category>
 <pattern> _ RECORD * CHECKED OUT</pattern>
-<template>The library does not keep a record of the items you check out. <br/><br/>
-<srai>RHISTORY</srai></template>
+<template><srai>RECCO</srai></template>
 </category>
 
 <category>
 <pattern> _ RECORD * CHECKED OUT *</pattern>
-<template>The library does not keep a record of the items you check out. <br/><br/>
-<srai>RHISTORY</srai></template>
+<template><srai>RECCO</srai></template>
 </category>
 
 <category>
 <pattern> _ RECORD * READ</pattern>
-<template>The library does not keep a record of the items you check out.  <br/><br/>
-<srai>RHISTORY</srai></template>
+<template><srai>RECCO</srai></template>
 </category>
 
 <category>
 <pattern> _ RECORD * READ</pattern>
-<template>The library does not keep a record of the items you check out.  <br/><br/>
-<srai>RHISTORY</srai></template>
+<template><srai>RECCO</srai></template>
 </category>
 
 <!--create lists-->
 
 <category>
-<pattern>CREATELIST</pattern>
+<pattern>CREATELST</pattern>
 <template>You can create and save a list of titles for future request. We'll have a demo soon!
 </template>
 </category>
 
 <category>
 <pattern>CREATE LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ CREATE LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern>CREATE * LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ CREATE * LIST</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern>CREATE * LIST *</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ CREATE * LIST *</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 
 <category>
 <pattern>CREATE LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ CREATE LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern>CREATE * LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ CREATE * LISTS</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern>CREATE * LISTS *</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ CREATE * LISTS *</pattern>
-<template><srai>CREATELIST</srai></template>
+<template><srai>CREATELST</srai>
+</template>
 </category>
 
 
 <!--preferred searches-->
 
 <category>
-<pattern>PREFERREDSEARCH</pattern>
+<pattern>PREFSRCH</pattern>
 <template>You can set you account to remember your preferred searches. We'll have a demo soon!
 </template>
 </category>
 
+
 <category>
 <pattern>PREFERRED SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>PREFERRED SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>_PREFERRED SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>_ PREFERRED SEARCHES *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 
 
 <category>
 <pattern>PREFERRED SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>_PREFERRED SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>_ PREFERRED SEARCH *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 
 <category>
 <pattern>RECALL * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RECALL * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RECALL * SEARCH *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>RECALL SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>RECALL * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RECALL * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RECALL * SEARCHES *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 
@@ -3118,127 +3146,157 @@ your account will keep a record of all the items you check out.
 
 <category>
 <pattern>REMEMBER SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>REMEMBER * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ REMEMBER * SEARCH</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ REMEMBER * SEARCH *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>REMEMBER SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>REMEMBER * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ REMEMBER * SEARCHES</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ REMEMBER * SEARCHES *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 
 <category>
 <pattern>REMEMBER * LOOKING FOR</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>* REMEMBER * LOOKING FOR</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>* REMEMBER * LOOKING FOR *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>* REMEMBER * LOOKED FOR *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>REMEMBER * FOUND</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>* REMEMBER * FOUND</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <category>
 <pattern>* REMEMBER * FOUND *</pattern>
-<template><srai>PREFERREDSEARCH</srai></template>
+<template><srai>PREFSRCH</srai>
+</template>
 </category>
 
 <!--rating-->
 
 <category>
-<pattern>RATING</pattern>
+<pattern>RTNG</pattern>
 <template>You rate titles in our collection. We'll have a demo soon!
 </template>
 </category>
 
 <category>
+<pattern>RATING</pattern>
+<template><srai>RTNG</srai>
+</template>
+</category>
+
+
+<category>
 <pattern> _ RATING</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RATING *</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 <category>
 <pattern>RATING *</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 
 <category>
 <pattern>RATE</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RATE</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ RATE *</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 <category>
 <pattern>RATE *</pattern>
-<template><srai>RATING</srai></template>
+<template><srai>RTNG</srai>
+</template>
 </category>
 
 
 
 <!--log out-->
+
 
 <category>
 <pattern>LOGOUT</pattern>
@@ -3319,61 +3377,78 @@ is especially important when you're using a computer in a public place. To log o
 <!--my list-->
 
 <category>
-<pattern>MYLIST</pattern>
+<pattern>MYLST</pattern>
 <template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>Your Account</b></a>. After you've logged in, click on the
 "My Lists" button.</template>
 </category>
 
 <category>
+<pattern>MYLIST</pattern>
+<template><srai>MYLST</srai>
+</template>
+</category>
+
+
+<category>
 <pattern>MY LIST</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern>MY LISTS</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ MY LIST</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern> _ MY LIST *</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 
 <category>
 <pattern>* MY * LIST</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern>* MY * LIST *</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern>* MY LISTS</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern>* MY LISTS *</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 
 <category>
 <pattern>* MY * LISTS</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <category>
 <pattern>* MY * LISTS *</pattern>
-<template><srai>MYLIST</srai></template>
+<template><srai>MYLST</srai>
+</template>
 </category>
 
 <!--my items on hold-->

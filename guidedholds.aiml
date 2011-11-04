@@ -303,25 +303,19 @@ our human librarians.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBUTTON</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BUTTON</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBUTTON</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>BUTTON *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBUTTON</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BUTTON *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -343,41 +337,31 @@ our human librarians.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WAIT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WAIT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WAIT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HOW LONG * CALL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HOW LONG * LIBRARY CALLS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -399,33 +383,25 @@ our human librarians.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * FILLED</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WHY * TAKING * LONG *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* ON HOLD * LONG *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HWLNGHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern> * ON RESERVE * LONG *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -448,25 +424,19 @@ a waiting list for a movie not yet released on DVD.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>WAITLST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WAITING LIST</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>WAITLST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WAITING LIST *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>WAITLST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WAITING LIST *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -491,25 +461,19 @@ wait until the item is ready for you to pick up, then call us and we'll cancel y
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNCLNTRNST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANCEL * TRANSIT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNCLNTRNST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CANCEL * TRANSIT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNCLNTRNST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANCEL * TRANSIT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -531,57 +495,43 @@ If you need help with this, ask one of the humans that works in the library.</te
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOT FILLED BY</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOT FILLED BY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOT FILLED BY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE DATE * HOLD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE * DATE * HOLDS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE * DATE * HOLD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CIFNOTFILLEDBY</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE DATE * HOLDS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -603,25 +553,19 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NOADDHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANNOT ADD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NOADDHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CANNOT ADD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NOADDHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANNOT ADD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -643,25 +587,19 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFRME</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOLD FOR ME</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFRME</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOLD * FOR ME</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFRME</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOLD * FOR ME *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -682,121 +620,91 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BRANCH</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>BRANCH *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BRANCH *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>BRANCHES</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BRANCHES</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>BRANCHES *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BRANCHES *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LOCATION</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LOCATION</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LOCATION *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LOCATION *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LOCATIONS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LOCATIONS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LOCATIONS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>REQBRNCH</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LOCATIONS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -818,57 +726,43 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NEW</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NEW *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NEW *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLD2H2H</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -891,121 +785,91 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* IPAD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>IPAD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* IPAD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>I PAD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* I PAD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>I PAD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* I PAD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>IPADS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* IPADS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>IPADS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* IPADS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>I PADS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* I PADS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>I PADS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDIPAD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* I PADS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1026,25 +890,19 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HDLSTAT</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* STATUS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HDLSTAT</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>STATUS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HDLSTAT</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* STATUS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1066,9 +924,7 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMNTRNST</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HOW LONG * IN TRANSIT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1101,25 +957,19 @@ hours at 440.255.8811 for additional information and assistance.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNCLHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANCEL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNCLHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CANCEL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNCLHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANCEL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1141,25 +991,19 @@ another person has a hold on the item and it's being held for them.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHKHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHECK</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHKHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CHECK *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHKHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHECK *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1179,25 +1023,19 @@ another person has a hold on the item and it's being held for them.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>_ READY</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>READY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>_ READY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1212,33 +1050,25 @@ another person has a hold on the item and it's being held for them.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* IN</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>IN *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* IN *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>READYTOPU</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>_ WHEN * GET *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1266,57 +1096,43 @@ another person has a hold on the item and it's being held for them.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE * PICKUP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CHANGE * PICKUP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE * PICKUP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CHANGE * UP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE * UP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CHANGE * UP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHANGE * UP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1338,153 +1154,115 @@ another person has a hold on the item and it's being held for them.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CDS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CDS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CDS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CDS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>DVD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* DVD</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>DVD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* DVD *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>DVDS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* DVDS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>DVDS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* DVDS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>MEDIA</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* MEDIA</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>MEDIA *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CHNGPULOC</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* MEDIA *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1512,57 +1290,43 @@ Look at the next screen to see if your request was accepted.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SEARCHOHIO</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>SEARCHOHIO *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SEARCHOHIO *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>SEARCH OHIO</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SEARCH OHIO</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>SEARCH OHIO *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>SOHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SEARCH OHIO *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1583,57 +1347,43 @@ Look at the next screen to see if your request was accepted.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOLDSHELF</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HOLDSHELF *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HOLDSHELF *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>SHELF</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SHELF</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>SHELF *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SHELF *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1648,9 +1398,7 @@ Look at the next screen to see if your request was accepted.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* TIME * PICKUP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1665,105 +1413,79 @@ Look at the next screen to see if your request was accepted.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* TIME * UP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * PICKUP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * PICKUP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * UP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * UP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>BACK</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BACK</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>BACK *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* BACK *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LONG * KEEP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * KEEP</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LONG * KEEP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TMEONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LONG * KEEP *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1786,57 +1508,43 @@ It's easy. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/fr
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* FREEZE</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>FREEZE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* FREEZE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>FREEZING</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* FREEZING</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>FREEZING *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* FREEZING *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1855,57 +1563,43 @@ It's easy. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/fr
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* UNFREEZE</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>UNFREEZE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* UNFREEZE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>THAW</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* THAW</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>THAW *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>FRZHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* THAW *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1927,25 +1621,19 @@ It's easy. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/fr
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>WHRPUHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WHERE</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>WHRPUHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WHERE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>WHRPUHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WHERE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -1967,57 +1655,43 @@ It's easy. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/fr
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* MANY</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>MANY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* MANY *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NUMBER</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NUMBER</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NUMBER *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>TOTHLDS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NUMBER *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2040,89 +1714,67 @@ It's easy. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/fr
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SUCCESSFUL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>SUCCESSFUL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* SUCCESSFUL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>GO THRU</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* GO THRU</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>GO THRU *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* GO THRU *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>GO THROUGH</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* GO THROUGH</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>GO THROUGH *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDSUCCSS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* GO THROUGH *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2146,25 +1798,19 @@ When it is, the status will be "Ready to pickup."
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>ONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* ON HOLDSHELF</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>ONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>ON HOLDSHELF *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>ONHLDSHLF</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* ON HOLDSHELF *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2186,25 +1832,19 @@ When it is, the status will be "Ready to pickup."
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDCNCLDATE</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* DATE</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDCNCLDATE</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>DATE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDCNCLDATE</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* DATE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2229,89 +1869,67 @@ please call the library at 440.255.8811 for assistance.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANNOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CANNOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CANNOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CAN NOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CAN NOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CAN NOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CAN NOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WILL NOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WILL NOT</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WILL NOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>CNNTPLCHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* WILL NOT *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2333,25 +1951,19 @@ please call the library at 440.255.8811 for assistance.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>VACHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* VACATION</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>VACHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>VACATION *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>VACHLD</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* VACATION *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2367,9 +1979,7 @@ please call the library at 440.255.8811 for assistance.
 <that>WHAT *  ABOUT HOLDS</that>
 <template>It means you are number <star/> in line for the item. The item is not ready for you to pick up, we'll notify you when it is. </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>WHAT DOES "* OF * HOLDS" MEAN</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2393,57 +2003,43 @@ please call the library at 440.255.8811 for assistance.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HIGH</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>HIGH *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* HIGH *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>MHS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* MHS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>MHS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>MHS</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* MHS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2464,249 +2060,187 @@ please call the library at 440.255.8811 for assistance.
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTICE</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTICE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTICE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTICES</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTICES</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTICES *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTICES *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTIFICATION</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTIFICATION</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTIFICATION *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTIFICATION *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTIFICATIONS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTIFICATIONS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOTIFICATIONS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOTIFICATIONS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>EMAIL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* EMAIL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>EMAIL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* EMAIL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>EMAILS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* EMAILS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>EMAILS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* EMAILS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CALL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CALL</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CALL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CALL *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CALLS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CALLS</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CALLS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>NTCFAIL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CALLS *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2729,25 +2263,19 @@ unless the item is in the catalog.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFUTREL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* FUTURE</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFUTREL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>FUTURE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFUTREL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* FUTURE *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2762,25 +2290,19 @@ unless the item is in the catalog.</template>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFUTREL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOT RELEASED</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFUTREL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>NOT RELEASED *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
 <template><srai>HLDFUTREL</srai></template>
 </category>  
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* NOT RELEASED *</pattern>
 <that>WHAT *  ABOUT HOLDS</that>
@@ -2861,63 +2383,49 @@ on one of them if you are in the Main Library. You cannot place a hold on a lapt
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LAPTOP</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LAPTOP *</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LAPTOP *</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LAPTOPS</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LAPTOPS</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>LAPTOPS *</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>LPTPHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* LAPTOPS *</pattern>
 <that>* HOW TO PLACE A HOLD</that>
@@ -2942,27 +2450,21 @@ It doesn't matter if the item is checked out. Would you like me to explain how t
 <template><srai>CHKOUTHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHECKED OUT</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>CHKOUTHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>CHECKED OUT *</pattern>
 <that>* HOW TO PLACE A HOLD</that>
 <template><srai>CHKOUTHLDS</srai>
 </template>
 </category>
-</topic>
 
-<topic name="HLDS">
 <category>
 <pattern>* CHECKED OUT *</pattern>
 <that>* HOW TO PLACE A HOLD</that>

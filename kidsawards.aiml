@@ -17,7 +17,6 @@
   limitations under the License.-->
 
 
-
 <category>
 <pattern>CALDECOTT</pattern>
 <template>Follow this link for a list of <a href="http://library.booksite.com/7353/nl/?list=CALDECOTT" target="_blank"><b>Caldecott Award Winners</b></a> in our collection.</template>
@@ -37,6 +36,5 @@
 <pattern>CALDECOTT *</pattern>
 <template><srai>CALDECOTT</srai></template>
 </category>
-
 
 </aiml>

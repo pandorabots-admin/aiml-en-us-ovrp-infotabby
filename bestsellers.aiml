@@ -17,118 +17,77 @@
   limitations under the License.-->
 
 
-
-
-
 <category>
-<pattern>BESTSELLERS</pattern>
+<pattern>BSTSLLRS</pattern>
 <template>You can find lists of best selling fiction and nonfiction <a href="http://www.booksite.com/texis/scripts/bookletter/fealists.html?sid=7353" target="_blank"><b>here</b></a>.
 You will also find award books for all ages and in many genres.</template>
 </category>
 
+
+<category>
+<pattern>BESTSELLERS</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+
 <category>
 <pattern>BESTSELLER</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>BEST SELLERS</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>BEST-SELLERS</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>BEST-SELLERS *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>* BESTSELLERS</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>* BEST SELLERS</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>* BEST-SELLERS</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>* BESTSELLER *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>* BEST SELLERS *</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>* BEST-SELLERS *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>BESTSELLER *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>BEST SELLERS *</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>BEST-SELLERS *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>BESTSELLING *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>BEST SELLING *</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>BEST-SELLING *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>* BESTSELLING *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <category>
 <pattern>* BEST SELLING *</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>* BEST-SELLING *</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>BEST-SELLER</pattern>
-<template><srai>BESTSELLERS</srai></template>
-</category>
-
-<category>
-<pattern>BEST-SELLER *</pattern>
-<template><srai>BESTSELLERS</srai></template>
+<template><srai>BSTSLLRS</srai></template>
 </category>
 
 <!--OPRAH-->

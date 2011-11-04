@@ -25,12 +25,10 @@
 <template>
 I can search for book reviews. Enter the title of the book or the author and I'll look for reviews in Book Page.   
 <think>
-<set name="topic">BKRVWS</set>
 </think>
 </template>
 </category>
 
-<topic name="BKRVWS">
 <category>
 <pattern> * </pattern>
 <that>ENTER THE TITLE * REVIEWS IN BOOK PAGE</that>
@@ -41,7 +39,6 @@ I can search for book reviews. Enter the title of the book or the author and I'l
 </think>
 </template>
 </category>
-</topic>
 
 <category>
 <pattern>BOOK REVIEW</pattern>

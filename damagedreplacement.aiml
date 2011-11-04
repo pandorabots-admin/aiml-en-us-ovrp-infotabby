@@ -154,8 +154,6 @@
   <template><srai>DAMDVDCASE</srai></template>
 </category>
 
-<!--cases-->
-
 <category>
   <pattern>DAMAGED * DVD CASES</pattern>
   <template><srai>DAMDVDCASE</srai></template>
@@ -175,8 +173,6 @@
   <pattern>DAMAGED * DVD CASES *</pattern>
   <template><srai>DAMDVDCASE</srai></template>
 </category>
-
-
 
 <category>
   <pattern>DAMAGED * CASES * DVD</pattern>
@@ -198,8 +194,6 @@
   <template><srai>DAMDVDCASE</srai></template>
 </category>
 
-
-
 <category>
   <pattern>BROKE * DVD CASES</pattern>
   <template><srai>DAMDVDCASE</srai></template>
@@ -219,7 +213,6 @@
   <pattern>BROKE * DVD CASES *</pattern>
   <template><srai>DAMDVDCASE</srai></template>
 </category>
-
 
 <category>
   <pattern>BROKEN * DVD CASES</pattern>
@@ -241,7 +234,6 @@
   <template><srai>DAMDVDCASE</srai></template>
 </category>
 
-
 <category>
   <pattern>BROKE * CASES * DVD</pattern>
   <template><srai>DAMDVDCASE</srai></template>
@@ -261,7 +253,6 @@
   <pattern>BROKE * CASES * DVD *</pattern>
   <template><srai>DAMDVDCASE</srai></template>
 </category>
-
 
 <category>
   <pattern>BROKEN * CASES * DVD</pattern>
@@ -328,50 +319,50 @@
 
 <category>
 <pattern>* forgiveness *</pattern>
-  <template><srai>forgiveness</srai></template>
+  <template><srai>FINEFORG</srai></template>
 </category>
 
 <category>
   <pattern>forgiveness * FINES</pattern>
-  <template><srai>forgiveness</srai></template>
+  <template><srai>FINEFORG</srai></template>
 </category>
 
 
 <category>
 <pattern>* forgiveness * FINES</pattern>
-  <template><srai>forgiveness</srai></template>
+  <template><srai>FINEFORG</srai></template>
 </category>
 
 <!--item lost-->
 
 <category>
 <pattern>*  book * lost</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>*  books * lost</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>*  CD * lost</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>*  CDs * lost</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>*  DVD * lost</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* DVDs * lost</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
@@ -380,7 +371,7 @@
 
 
 <category>
-  <pattern>LOSTITEM</pattern>
+  <pattern>LSTITM</pattern>
   <template> If you lose or damage an item, please call us or stop in and let us know. The charge for lost items is the cost of the item, an additional $5.00 replacement and $5.00 billing fee.  </template>
 </category>
 
@@ -388,132 +379,132 @@
 
 <category>
   <pattern>lost item</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost item</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost item *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost item *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost book</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost * book</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost book</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost * book</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
   <pattern>* lost book *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost * book *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost book *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
   <pattern>lost books</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost * books</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost books</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost * books</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
   <pattern>* lost books *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>* lost * books *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost books *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <!--DVD-->
 <category>
   <pattern>lost DVD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost * DVD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost DVD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * DVD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
 <pattern>* lost DVD *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * DVD *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost DVD *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
@@ -522,38 +513,38 @@
 
 <category>
   <pattern>lost DVDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost * DVDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost DVDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * DVDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
 <pattern>* lost DVDs *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * DVDs *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost DVDs *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
@@ -561,205 +552,205 @@
 
 <category>
   <pattern>lost CD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost * CD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost CD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * CD</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
 <pattern>* lost CD *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * CD *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost CD *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <!--CDs-->
 
 <category>
   <pattern>lost CDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost * CDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost CDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * CDs</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
 <pattern>* lost CDs *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lost * CDs *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lost CDs *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <!--lose am item-->
 
 <category>
   <pattern>lose * book</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * book</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * book *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * book *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 
 <category>
   <pattern>lose * books</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * books</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * books *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * books *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * dvd</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * dvd</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * dvd *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * dvd *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * dvds</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * dvds</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * dvds *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * dvds *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * cd</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * cd</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * cd *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * cd *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * cds</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * cds</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* lose * cds *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <category>
   <pattern>lose * cds *</pattern>
-  <template><srai>LOSTITEM</srai></template>
+  <template><srai>LSTITM</srai></template>
 </category>
 
 <!--replacments-->
 
 <category>
-  <pattern>REPLACE</pattern>
+  <pattern>RPLCE</pattern>
   <template>We are once again accepting replacement items for items that have been damaged or lost. 
   The only criteria for the replacement is that it must be the same format for the original item. 
   For example, if you are replacing a CD it must be with that CD, a book with a book, etc. 
@@ -768,60 +759,57 @@
 
 <category>
 <pattern>* replace a</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* replace *</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
   <pattern>replace *</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
   <pattern>buy * replacement</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* buy * replacement</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* buy * replacement *</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
   <pattern>buy * replacement *</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
   <pattern>buy * replace</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* buy * replace</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* buy * replace *</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
 
 <category>
   <pattern>buy * replace *</pattern>
-  <template><srai>REPLACE</srai></template>
+  <template><srai>RPLCE</srai></template>
 </category>
-
-
-
 
 </aiml>

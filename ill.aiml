@@ -20,8 +20,9 @@
 
 <category>
 <pattern> * reserve * from another library </pattern>
-<template>If it's something in our collection, but at another branch, just place your hold as usual. If it's something that isn't in out collection, try looking in <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio</b></a>. Once you've found your item
-just place your request as usual. Most SearchOhio items arrive in five business days.</template>
+<template>If it's something in our collection, but at another branch, just place your hold as usual. If it's something that isn't in out collection, try looking in <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio</b></a>
+or in <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a>. 
+Once you've found your item, just place your request as usual. Most OhioLINK and SearchOhio items arrive within five business days.</template>
 </category>
 
 
@@ -331,8 +332,9 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern>INLIBLN</pattern>
-<template>Using your Mentor Public Library card, you can find and request materials from other libraries through SearchOhio.  Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
-<think>
+<template>If the item you want isn't in our collection, try looking in <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio</b></a>
+or in <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a>. 
+Once you've found your item, just place your request as usual. Most OhioLINK and SearchOhio items arrive within five business days.<think>
 <set name="search">socat</set>
 </think>
 </template>
@@ -456,37 +458,25 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern>* OBTAIN * OUTSIDE * COLLECTION</pattern>
-<template>Yes, through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
-<think>
-<set name="search">socat</set>
-</think>
-</template>
+<template><srai>INLIBLN</srai></template>
 </category>
 
 <category>
 <pattern>* LIBRARY OBTAIN * OUTISDE * COLLECTION</pattern>
-<template>Yes, through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
-<think>
-<set name="search">socat</set>
-</think>
-</template>
+<template><srai>INLIBLN</srai></template>
 </category>
  
 
 <category>
 <pattern>* LIBRARY OBTAIN * DO NOT HAVE * COLLECTION</pattern>
-<template>Yes, through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
-<think>
-<set name="search">socat</set>
-</think>
-</template>
+<template><srai>INLIBLN</srai></template>
 </category>
 
 <!--SEARCH OTHER LIBS-->
 
 <category>
 <pattern> SEARCH * LIBRARIES</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -496,7 +486,7 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern>SEARCH * LIBRARY</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -506,7 +496,7 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern> * SEARCH * LIBRARIES</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -516,7 +506,7 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern>* SEARCH * LIBRARY</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -526,7 +516,7 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern> * SEARCH * LIBRARIES *</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -536,7 +526,7 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern>* SEARCH * LIBRARY *</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -547,7 +537,7 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 
 <category>
 <pattern>* SEARCH * LIBRARY'S *</pattern>
-<template>You can search the collections of other libraries through SearchOhio. Most SearchOhio items arrive in five business days. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
 <set name="search">socat</set>
@@ -600,7 +590,260 @@ just place your request as usual. Most SearchOhio items arrive in five business 
   <template><srai>clevnet</srai></template>
 </category>
 
+
+<!--OHIOLINK one word-->
+<category>
+  <pattern>OHLNK</pattern>
+    <template>You can use your Mentor Library Card to borrow items from college libraries in Ohio by using <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a>. It's easy. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
+<think>
+<set name="search">olcat</set>
+</think>
+</template>
+</category>
+
+
+<category>
+  <pattern>OHIO LINK</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIO LINK</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+
+<category>
+  <pattern>OHIO LINK *</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIO LINK *</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+
+<category>
+  <pattern>OHIOLINK</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIOLINK</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+
+  <category>
+  <pattern>OHIOLINK *</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+  
+<category>
+  <pattern>* OHIOLINK *</pattern>
+  <template><srai>OHLNK</srai></template>
+</category>
+  
+<!--so loan periods-->
+
+<category>
+  <pattern>OHLNKLNPRDS</pattern>
+  <template>OhioLINK DVDs, CDs, and most Books on CD circulate for 7 days with no renewals; OhioLINK books and <em>some</em> Books on CD circulate for
+  21 days with four renewals.</template>
+</category>
+
+<category>
+  <pattern>LOAN * OHIO LINK</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>LOAN  * OHIO LINK *</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LOAN  * OHIO LINK</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LOAN * OHIO LINK *</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+
+
+
+<category>
+  <pattern>LOAN * OHIOLINK</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>LOAN  * OHIOLINK *</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LOAN  * OHIOLINK</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>* LOAN * OHIOLINK *</pattern>
+<template><srai>OHLNKLNPRDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW LONG * OHIOLINK</pattern>
+<template><srai>SO LOAN PERIODS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW LONG * OHIOLINK *</pattern>
+<template><srai>SO LOAN PERIODS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW LONG * OHIO LINK</pattern>
+<template><srai>SO LOAN PERIODS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW LONG * OHIO LINK *</pattern>
+<template><srai>SO LOAN PERIODS</srai></template>
+</category>
+
+<!--how long to get SO items-->
+
+<category>
+<pattern>HWLNGOL</pattern>
+<template>
+Most items ordered through OhioLINK arrive within five business days.
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG * ILL * </pattern>
+<template>
+<srai>HWLNGOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG * OHIOLINK</pattern>
+<template>
+<srai>HWLNGOL</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW LONG * OHIOLINK *</pattern>
+<template>
+<srai>HWLNGOL</srai>
+</template>
+</category>
+
+<!--Ohio LINK Catalog-->
+
+<category>
+  <pattern>OLCAT</pattern>
+  <template>I'll open the OhioLINK catalog for you. If you don't see it, turn off your pop up blocker and ask me again.<think>
+<set name="search">olcat</set>
+</think>
+</template>
+</category>
+
+<category>
+  <pattern>OHIOLINK catalog</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIOLINK catalog</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIOLINK catalog *</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>OHIOLINK catalog *</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>OHIO LINK catalog</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIO LINK catalog</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>* OHIO LINK catalog *</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<category>
+  <pattern>OHIO LINK catalog *</pattern>
+  <template><srai>OLCAT</srai></template>
+</category>
+
+<!--what is OL-->
+
+<category>
+  <pattern>OHIOLINK</pattern>
+  <template>OhioLINK gives you easy access to millions items from college and university libraries in Ohio. 
+  Unlike traditional interlibrary loans, you place your requests online and the requests will be transmitted automatically to the other library. 
+  You can get books, DVD's, CD's, and more through OhioLINK. Here's their <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>catalog</b></a>.
+  <think>
+<set name="search">olcat</set>
+</think>
+</template>
+</category>
+
+<category>
+  <pattern>what * OHIOLINK</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
+<category>
+  <pattern>* what * OHIOLINK *</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
+<category>
+  <pattern>what * OHIOLINK *</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
+<category>
+  <pattern>what * OHIO LINK</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
+<category>
+  <pattern>* what * OHIO LINK</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
+<category>
+  <pattern>* what * OHIO LINK *</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
+<category>
+  <pattern>what * OHIO LINK *</pattern>
+  <template><srai>OHIOLINK</srai></template>
+</category>
+
 <!--SearchOhio one word-->
+
 <category>
   <pattern>SRCHOH</pattern>
     <template>You can use your Mentor Library Card to borrow items from other Ohio libraries using SearchOhio. It's easy. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
@@ -651,55 +894,53 @@ just place your request as usual. Most SearchOhio items arrive in five business 
   <template><srai>SRCHOH</srai></template>
 </category>
   
+  
 <!--so loan periods-->
 
 <category>
-  <pattern>SOLOANPERIODS</pattern>
+  <pattern>SOLNPRDS</pattern>
   <template>SearchOhio DVDs and VHS tapes circulate for 7 days; all other SearchOhio items circulate for
   21 days. You may renew SearchOhio items online.</template>
 </category>
 
 <category>
   <pattern>LOAN * SEARCH OHIO</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
   <pattern>LOAN  * SEARCH OHIO *</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
   <pattern>* LOAN  * SEARCH OHIO</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
   <pattern>* LOAN * SEARCH OHIO *</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
-
-
-
 
 <category>
   <pattern>LOAN * SEARCHOHIO</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
   <pattern>LOAN  * SEARCHOHIO *</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
   <pattern>* LOAN  * SEARCHOHIO</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
   <pattern>* LOAN * SEARCHOHIO *</pattern>
-<template><srai>SOLOANPERIODS</srai></template>
+<template><srai>SOLNPRDS</srai></template>
 </category>
 
 <category>
@@ -722,545 +963,44 @@ just place your request as usual. Most SearchOhio items arrive in five business 
 <template><srai>SO LOAN PERIODS</srai></template>
 </category>
 
-
-
-
-<!--SO FINES-->
-
-<category>
-  <pattern>SOFINES</pattern>
-<template>Fines for all SearchOhio items are fifty cents per day.</template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO FINES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FINES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FINES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO FINES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FINES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCH OHIO FINES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-<category>
-  <pattern>* SEARCH OHIO FINES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FINES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINES * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINES * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINES * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINES * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINES * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINES * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINES * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINES * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<!--start fine-->
-<category>
-  <pattern>SEARCHOHIO FINE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FINE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FINE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO FINE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FINE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCH OHIO FINE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-<category>
-  <pattern>* SEARCH OHIO FINE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FINE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINE * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINE * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINE * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINE * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINE * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINE * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FINE * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FINE * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<!--end fine-->
-
-<category>
-  <pattern>SEARCHOHIO FEE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FEE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FEE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO FEE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FEE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCH OHIO FEE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-<category>
-  <pattern>* SEARCH OHIO FEE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FEE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEE * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEE * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEE * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEE * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEE * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEE * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEE * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEE * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<!--end fee-->
-
-
-<category>
-  <pattern>SEARCHOHIO FEES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FEES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO FEES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO FEES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FEES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCH OHIO FEES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-<category>
-  <pattern>* SEARCH OHIO FEES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO FEES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEES * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEES * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEES * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEES * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEES * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEES * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* FEES * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>FEES * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<!--overdue so-->
-
-
-<category>
-  <pattern>SEARCHOHIO OVERDUES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO OVERDUES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO OVERDUES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO OVERDUES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO OVERDUES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCH OHIO OVERDUES</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-<category>
-  <pattern>* SEARCH OHIO OVERDUES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO OVERDUES *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUES * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUES * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUES * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUES * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUES * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUES * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUES * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUES * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<!--overdue-->
-
-<category>
-  <pattern>SEARCHOHIO OVERDUE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO OVERDUE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCHOHIO OVERDUE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCHOHIO OVERDUE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO OVERDUE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* SEARCH OHIO OVERDUE</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-<category>
-  <pattern>* SEARCH OHIO OVERDUE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>SEARCH OHIO OVERDUE *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUE * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUE * SEARCHOHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUE * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUE * SEARCHOHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUE * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUE * SEARCH OHIO</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>* OVERDUE * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDUE * SEARCH OHIO *</pattern>
-<template><srai>SOFINES</srai></template>
-</category>
-
-
 <!--how long to get SO items-->
 
 <category>
-<pattern>HOW LONG * ILL * </pattern>
+<pattern>ILLETA</pattern>
 <template>
-Most items ordered through SearchOhio arrive within five business days.
+Most items ordered through OhioLINK or SearchOhio are ready to pick up within five business days.
 </template>
+</category>
+
+<category>
+<pattern>HOW LONG * ILL * </pattern>
+<template><srai>ILLETA</srai></template>
 </category>
 
 <category>
 <pattern>HOW LONG * TO GET * SEARCHOHIO</pattern>
-<template>
-Most items ordered through SearchOhio arrive within five business days.
-</template>
+<template><srai>ILLETA</srai></template>
 </category>
 
 
 <category>
 <pattern>HOW LONG * TAKE FOR * SEARCHOHIO</pattern>
-<template>
-Most items ordered through SearchOhio arrive within five business days.
-</template>
+<template><srai>ILLETA</srai></template>
 </category>
 
 <category>
 <pattern>HOW LONG * TAKE FOR * SEARCH OHIO</pattern>
-<template>
-Most items ordered through SearchOhio arrive within five business days.
-</template>
+<template><srai>ILLETA</srai></template>
 </category>
 
 <category>
 <pattern>HOW LONG * WAIT * SEARCHOHIO</pattern>
-<template>
-Most items ordered through SearchOhio arrive within five business days.
-</template>
+<template><srai>ILLETA</srai></template>
 </category>
 
 <category>
 <pattern>HOW LONG *  WAIT* SEARCH OHIO</pattern>
-<template>
-Most items ordered through SearchOhio arrive within five business days.
-</template>
+<template><srai>ILLETA</srai></template>
 </category>
 
 
@@ -1271,9 +1011,9 @@ Most items ordered through SearchOhio arrive within five business days.
   <template>
   <random>
   <li>
-  You can request items that are not in our collection through the <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio catalog</b></a>.</li>
-  <li>Try looking in the <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio catalog</b></a>.</li>
-  <li>The <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio catalog</b></a> is another place to find what you're looking for.</li>
+  You can request items that are not in our collection through <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a> or though the <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio catalog</b></a>.</li>
+  <li>Try looking in <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a> or in the <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio catalog</b></a>.</li>
+  <li><a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a> and <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio</b></a> are other places to find what you're looking for.</li>
   </random>
  </template>
 </category>
@@ -1445,57 +1185,137 @@ Most items ordered through SearchOhio arrive within five business days.
 
 <!--worldcat-->
 <category>
-  <pattern>worldcat</pattern>
+  <pattern>WRLDCAT</pattern>
   <template>We are no longer able to make requests through WorldCat. 
   Lakeland Library may be able to help you with WorldCat requests. Their number is 440.525.7425.
   </template>
 </category>
 
 <category>
+  <pattern>worldcat</pattern>
+  <template><srai>WRLDCAT</srai></template>
+</category>
+
+<category>
   <pattern>* worldcat</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
   <pattern>* worldcat *</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
   <pattern>worldcat *</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
   <pattern>world cat</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
   <pattern>* world cat</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
   <pattern>* world cat *</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
   <pattern>world cat *</pattern>
-  <template><srai>worldcat</srai></template>
+  <template><srai>WRLDCAT</srai></template>
 </category>
 
 <!--NO LUCK-->
 
 <category>
 <pattern>NOGOSO</pattern>
-<template>If Search Ohio does not have the item you're looking for, please call us at 440.255.8811 during regular business hours and our staff will assist you. You
+<template>If OhioLINK and SearchOhio do not have the item you're looking for, please call us at 440.255.8811 during regular business hours and our staff will assist you. You
 might want to look in the <a href="http://www.clevnet.org/" target="_blank"><b>CLEVNET</b></a> catalog, too.</template>
 </category>
 
 <category>
+  <pattern>_ OHIOLINK DOES NOT HAVE *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ OHIOLINK DOES NOT HAVE *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN OHIOLINK</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN OHIOLINK *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN * OHIOLINK *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ OHIO LINK DOES NOT HAVE *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ OHIO LINK DOES NOT HAVE *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN OHIO LINK</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN OHIO LINK *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN * OHIO LINK *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
   <pattern>_ SEARCHOHIO DOES NOT HAVE *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ SEARCHOHIO DOES NOT HAVE *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN SEARCHOHIO</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN SEARCHOHIO *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ NOT IN * SEARCHOHIO *</pattern>
+  <template><srai>NOGOSO</srai></template>
+</category>
+
+<category>
+  <pattern>_ SEARCH OHIO DOES NOT HAVE *</pattern>
   <template><srai>NOGOSO</srai></template>
 </category>
 
@@ -1518,6 +1338,5 @@ might want to look in the <a href="http://www.clevnet.org/" target="_blank"><b>C
   <pattern>_ NOT IN * SEARCH OHIO *</pattern>
   <template><srai>NOGOSO</srai></template>
 </category>
-
 
 </aiml>

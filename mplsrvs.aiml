@@ -230,99 +230,121 @@
 <!--bulletin boards-->
 
 <category>
-  <pattern>bulletin boards</pattern>
+  <pattern>BULLBD</pattern>
   <template>All material posted on the Library's bulletin boards requires prior approval by the Library. Material for consideration may be dropped off two weeks in advance.
  </template>
 </category>
 
 <category>
+  <pattern>bulletin boards</pattern>
+  <template><srai>BULLBD</srai>
+</template>
+</category>
+
+
+<category>
   <pattern>* bulletin boards</pattern>
-  <template><srai>bulletin boards</srai></template>
+  <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <category>
   <pattern>* bulletin boards *</pattern>
-  <template><srai>bulletin boards</srai></template>
+  <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <category>
   <pattern>bulletin boards *</pattern>
-  <template><srai>bulletin boards</srai></template>
+  <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <category>
   <pattern>bulletin board</pattern>
-   <template><srai>bulletin boards</srai></template>
+   <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <category>
   <pattern>* bulletin board</pattern>
-   <template><srai>bulletin boards</srai></template>
+   <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <category>
   <pattern>* bulletin board *</pattern>
-   <template><srai>bulletin boards</srai></template>
+   <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <category>
   <pattern>bulletin board *</pattern>
-  <template><srai>bulletin boards</srai></template>
+  <template><srai>BULLBD</srai>
+</template>
 </category>
 
 <!--display cases-->
 
 <category>
-  <pattern>DISPLAYCASE</pattern>
+  <pattern>DISPCASE</pattern>
   <template>The Main Library has two lovely display cases in the foyer. Displays change at the beginning of each month. To inquire about putting up a display, please call the Library at 440.255.8811 between 8:30 am and 2:30 pm, Monday through Friday, and ask for Sue Fram at extension 233.
  </template>
 </category>
 
 <category>
   <pattern>display case</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>* display case</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>* display case *</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>display case *</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>display cases</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>* display cases</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>* display cases *</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <category>
   <pattern>display cases *</pattern>
-  <template><srai>DISPLAYCASE</srai></template>
+  <template><srai>DISPCASE</srai>
+</template>
 </category>
 
 <!--one word "printing" -->
 
 <category>
 <pattern>PRNT</pattern>
-<template>You can make both black and white and color prints at the Main Library. The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white printing only. The cost is $.10 per page. You may make as many prints as you wish to pay for. If you need help using our printers or copiers, ask one of the library staff for assistance.
+<template>You can make both black and white and color prints at the Main Library. The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white printing only. The cost is $.10 per page. You can pay with coins or singles and may make as many prints as you wish to pay for.  If you need help using our printers or copiers, ask one of the library staff for assistance.
 </template>
 </category>
 
@@ -523,488 +545,539 @@
 <!--proctoring-->
 
 <category>
-  <pattern>PROCTOR</pattern>
+  <pattern>PROCXM</pattern>
  <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+</category>
+
+<category>
+  <pattern>PROCTOR</pattern>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>* PROCTOR</pattern>
- <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>PROCTOR *</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>* PROCTOR *</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>PROCTORED</pattern>
- <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>* PROCTORED</pattern>
- <template>The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>PROCTORED *</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>* PROCTORED *</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>PROCTORING</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>PROCTORING *</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>* PROCTORING</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <category>
   <pattern>* PROCTORING *</pattern>
- <template><srai>PROCTOR</srai></template>
+ <template><srai>PROCXM</srai>
+</template>
 </category>
 
 <!--faxing-->
 
 <category>
-  <pattern>faxing</pattern>
-  <template>You may send and receive faxes at the Main Library. Call 440.255.8811 for more info.
+  <pattern>FXNG</pattern>
+  <template>You may send and receive faxes at the Main Library. The fax number is 440.205.1153.
  </template>
 </category>
 
 <category>
+  <pattern>faxing</pattern>
+  <template><srai>FXNG</srai></template>
+</category>
+
+<category>
   <pattern>* faxing</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>* faxing *</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>faxing *</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>fax</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>* fax</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>* fax *</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>fax *</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>faxes</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>* faxes</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>* faxes *</pattern>
-   <template><srai>faxing</srai></template>
+   <template><srai>FXNG</srai></template>
 </category>
 
 <category>
   <pattern>faxes *</pattern>
-  <template><srai>faxing</srai></template>
+  <template><srai>FXNG</srai></template>
 </category>
 
 <!--home delivery-->
 
 <category>
-  <pattern>HOMEDELIVERY</pattern>
+  <pattern>HMEDELVRY</pattern>
   <template> We have a homebound delivery service. Please call Pam at 440.255.8811 extension 204 for more information.
   </template>
 </category>
 
-
-
 <category>
   <pattern>home delivery</pattern>
-  <template> We have a homebound delivery service. Please call Pam at 440.255.8811 extension 204 for more information.
-  </template>
+  <template><srai>HMEDELVRY</srai></template>
 </category>
 
 <category>
   <pattern>_ home delivery</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai></template>
 </category>
+
 
 <category>
   <pattern>_ home delivery *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>home delivery *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>deliver * home</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ deliver * home</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ deliver * home *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>deliver * home *</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>home deliver</pattern>
-<template><srai>HOMEDELIVERY</srai></template>
+<template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ home deliver</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ home deliver *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>home deliver *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <!--homebound-->
 
 <category>
   <pattern>homebound</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ homebound</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ homebound *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>homebound *</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>home bound</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ home bound</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ home bound *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>home bound *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>OUTREACH</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ OUTREACH</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>_ OUTREACH *</pattern>
-  <template><srai>HOMEDELIVERY</srai></template>
+  <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
 <category>
   <pattern>OUTREACH *</pattern>
- <template><srai>HOMEDELIVERY</srai></template>
+ <template><srai>HMEDELVRY</srai>
+</template>
 </category>
 
-
-
 <category>
-  <pattern>Is the library helpful</pattern>
+  <pattern>LIBHLPFL</pattern>
   <template>We certainly try to be.
  </template>
 </category>
 
+
 <category>
-  <pattern>* Is the library helpful</pattern>
-  <template><srai>Is the library helpful</srai></template>
+  <pattern>Is * library helpful</pattern>
+  <template><srai>LIBHLPFL</srai></template>
 </category>
 
 <category>
-  <pattern>* Is the library helpful *</pattern>
-  <template><srai>Is the library helpful</srai></template>
+  <pattern>* Is * library helpful</pattern>
+  <template><srai>LIBHLPFL</srai></template>
 </category>
 
+
 <category>
-  <pattern>Is the library helpful *</pattern>
-  <template><srai>Is the library helpful</srai></template>
+  <pattern>* Is * library helpful *</pattern>
+   <template><srai>LIBHLPFL</srai></template>
 </category>
+
+
+<category>
+  <pattern>Is * library helpful *</pattern>
+  <template><srai>LIBHLPFL</srai></template>
+</category>
+
 
 <!--meeting rooms-->
 
-
 <category>
-  <pattern>community room</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-
-<category>
-  <pattern>_ community room</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-<category>
-  <pattern>_ community room *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-<category>
-  <pattern>community room *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-<category>
-  <pattern>community rooms</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-<category>
-  <pattern>_ community rooms</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-<category>
-  <pattern>_ community rooms *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-<category>
-  <pattern>community rooms *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>MEETINGROOM</pattern>
+  <pattern>MTNGRM</pattern>
   <template>You can find information about our Meeting Rooms <a href="http://www.mentorpl.org/facilities.html" target="_blank"><b>here</b></a> and the policies for their use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.
  </template>
 </category>
 
 <category>
+  <pattern>community room</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+
+<category>
+  <pattern>_ community room</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ community room *</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
+  <pattern>community room *</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
+  <pattern>community rooms</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ community rooms</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
+  <pattern>_ community rooms *</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
+  <pattern>community rooms *</pattern>
+  <template><srai>MTNGRM</srai></template>
+</category>
+
+<category>
   <pattern>meeting room</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>_ meeting room</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>_ meeting room *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>meeting room *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>meeting rooms</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>_ meeting rooms</pattern>
-   <template><srai>MEETINGROOM</srai></template>
+   <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>_ meeting rooms *</pattern>
-   <template><srai>MEETINGROOM</srai></template>
+   <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>meeting rooms *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>conference room</pattern>
-   <template><srai>MEETINGROOM</srai></template>
+   <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>_ conference room</pattern>
-   <template><srai>MEETINGROOM</srai></template>
+   <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>_ conference room *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>conference room *</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
+
 <category>
-  <pattern>GARFIELDROOM</pattern>
+  <pattern>GARFRM</pattern>
   <template>The Garfield Room is the largest of our meeting rooms. It will hold approximately 50 people. You can find the policies for Meeting Room use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.
  </template>
 </category>
 
 <category>
   <pattern>GARFIELD ROOM</pattern>
-  <template>The Garfield Room is the largest of our meeting rooms. It will hold approximately 50 people. You can find the policies for Meeting Room use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.
- </template>
+  <template><srai>GARFRM</srai></template>
 </category>
 
 <category>
   <pattern>_ Garfield room</pattern>
-  <template><srai>GARFIELDROOM</srai></template>
+  <template><srai>GARFRM</srai></template>
 </category>
 
 <category>
   <pattern>_ Garfield room *</pattern>
-  <template><srai>GARFIELDROOM</srai></template>
+  <template><srai>GARFRM</srai></template>
 </category>
 
 <category>
   <pattern>Garfield room *</pattern>
-  <template><srai>GARFIELDROOM</srai></template>
+  <template><srai>GARFRM</srai></template>
 </category>
 
+
+
+
 <category>
-  <pattern>CLEVELANDROOM</pattern>
+  <pattern>CLEVERM</pattern>
   <template>The Cleveland Room will hold about 20 to 25 people. You can find the policies for Meeting Room use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.
  </template>
 </category>
 
 <category>
   <pattern>CLEVELAND ROOM</pattern>
-  <template>The Cleveland Room will hold about 20 to 25 people. You can find the policies for Meeting Room use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.
- </template>
+  <template><srai>CLEVERM</srai></template>
 </category>
 
 <category>
   <pattern>_ Cleveland room</pattern>
-  <template><srai>CLEVELANDROOM</srai></template>
+  <template><srai>CLEVERM</srai></template>
 </category>
 
 <category>
   <pattern>_ Cleveland room *</pattern>
-  <template><srai>CLEVELANDROOM</srai></template>
+  <template><srai>CLEVERM</srai></template>
 </category>
 
 <category>
   <pattern>Cleveland room *</pattern>
-  <template><srai>CLEVELANDROOM</srai></template>
+  <template><srai>CLEVERM</srai></template>
 </category>
+
+
+
 
 <category>
   <pattern>RESERVE ROOM</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>RESERVE * ROOM</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>RESERVE ROOMS</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>RESERVE * ROOMS</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>* RESERVE ROOM</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>* RESERVE * ROOM</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>* RESERVE ROOMS</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <category>
   <pattern>* RESERVE * ROOMS</pattern>
-  <template><srai>MEETINGROOM</srai></template>
+  <template><srai>MTNGRM</srai></template>
 </category>
 
 <!--QUIET ROOMS-->
@@ -1101,149 +1174,147 @@ individual study purposes. For more information about our rooms, please call 440
 <!--newletter-->
 
 <category>
-  <pattern>COVER TO COVER</pattern>
-  <template>Here is the link to the current issue of <a href="http://www.mentorpl.org/pdfs/currentc2c.pdf" target="_blank"><b>Cover to Cover</b></a>.
-  If you'd like to receive our Newsletter by email, you can sign up <a href="http://www.booksite.com/texis/scripts/bookletter/addnluser.html?sid=7353" target="_blank"><b>here</b></a>. </template>
-<think>
+<pattern>C2C</pattern>
+<template>Here is the link to the current issue of <a href="http://www.mentorpl.org/pdfs/currentc2c.pdf" target="_blank"><b>Cover to Cover</b></a>.
+If you'd like to receive our Newsletter by email, you can sign up <a href="http://www.booksite.com/texis/scripts/bookletter/addnluser.html?sid=7353" target="_blank"><b>here</b></a>. 
+You'll find all our news and events there!<think>
 <set name="topic">C2C</set>
 </think>
-  </category>
+</template>
+</category>
+
+<category>
+  <pattern>COVER TO COVER</pattern>
+<template><srai>C2C</srai></template>
+</category>
+
 
 <category>
 <pattern>* COVER TO COVER</pattern>
-<template><srai>COVER TO COVER</srai></template>
+<template><srai>C2C</srai></template>
 </category>
 
 <category>
 <pattern>COVER TO COVER *</pattern>
-<template><srai>COVER TO COVER</srai></template>
+<template><srai>C2C</srai></template>
 </category>
 
 <category>
 <pattern>* COVER TO COVER *</pattern>
-<template><srai>COVER TO COVER</srai></template>
+<template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>newsletter</pattern>
-  <template>The Library has several newsletters. Here are the link to the current issues of <a href="http://www.mentorpl.org/pdfs/currentc2c.pdf" target="_blank"><b>Cover to Cover</b></a>
-  and to our <a href="http://www.mentorpl.org/pdfs/currentkids.pdf" target="_blank"><b>Children's Story Time Schedule</b></a>.
-  If you'd like to receive our Newsletters by email, you can sign up <a href="http://www.booksite.com/texis/scripts/bookletter/addnluser.html?sid=7353" target="_blank"><b>here</b></a>. 
-  <think>
-<set name="topic">C2C</set>
-</think>
-  </template>
+<template><srai>C2C</srai></template>
 </category>
-
 
 <category>
   <pattern>* newsletter</pattern>
-  <template><srai>newsletter</srai></template>
+  <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* newsletter *</pattern>
-  <template><srai>newsletter</srai></template>
+  <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>newsletter *</pattern>
-  <template><srai>newsletter</srai></template>
+  <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>news letter</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* news letter</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* news letter *</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>news letter *</pattern>
-  <template><srai>newsletter</srai></template>
+  <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>newsletters</pattern>
-  <template><srai>newsletter</srai></template>
+  <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* newsletters</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* newsletters *</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>newsletters *</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>news letters</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* news letters</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>* news letters *</pattern>
-   <template><srai>newsletter</srai></template>
+   <template><srai>C2C</srai></template>
 </category>
 
 <category>
   <pattern>news letters *</pattern>
-  <template><srai>newsletter</srai></template>
+  <template><srai>C2C</srai></template>
 </category>
 
 <topic name="C2C">
 <category>
 <pattern>* TOO SMALL *</pattern>
+<that>* NEWS AND EVENTS THERE</that>
 <template>
 Near the bottom of the email you should see the message, "We have provided a link to the PDF version for better viewing and printing." Click on the link directly below this
 to open a larger version of our newsletter.
 </template>
 </category>
-</topic>
 
-<topic name="C2C">
 <category>
 <pattern>* ENLARGE *</pattern>
+<that>* NEWS AND EVENTS THERE</that>
 <template>
 Near the bottom of the email you should see the message, "We have provided a link to the PDF version for better viewing and printing." Click on the link directly below this
 to open a larger version of our newsletter.
 </template>
 </category>
-</topic>
 
-<topic name="C2C">
 <category>
 <pattern>* LARGER *</pattern>
+<that>* NEWS AND EVENTS THERE</that>
 <template>
 Near the bottom of the email you should see the message, "We have provided a link to the PDF version for better viewing and printing." Click on the link directly below this
 to open a larger version of our newsletter.
 </template>
 </category>
-</topic>
 
-<topic name="C2C">
 <category>
 <pattern>* BIGGER *</pattern>
+<that>* NEWS AND EVENTS THERE</that>
 <template>
 Near the bottom of the email you should see the message, "We have provided a link to the PDF version for better viewing and printing." Click on the link directly below this
 to open a larger version of our newsletter.
@@ -1318,44 +1389,51 @@ to open a larger version of our newsletter.
 <!--parking-->
 
 <category>
-  <pattern>parking</pattern>
+  <pattern>PRKNG</pattern>
   <template>There is additional parking for the Main Library on Sharonlee Drive. If you are attending a program at the <a href="http://www.mentorpl.org/readhouse.html" target="_blank"><b>Read House</b></a>, please use the Main Library parking lot.
  </template>
 </category>
 
+
+<category>
+  <pattern>parking</pattern>
+  <template><srai>PRKNG</srai></template>
+</category>
+
+
 <category>
   <pattern>* parking</pattern>
-  <template><srai>parking</srai></template>
+  <template><srai>PRKNG</srai></template>
 </category>
 
 <category>
   <pattern>* parking *</pattern>
-  <template><srai>parking</srai></template>
+  <template><srai>PRKNG</srai></template>
 </category>
 
 <category>
   <pattern>parking *</pattern>
-  <template><srai>parking</srai></template>
+  <template><srai>PRKNG</srai></template>
 </category>
 
 <category>
   <pattern>where * park</pattern>
- <template><srai>parking</srai></template>
+ <template><srai>PRKNG</srai></template>
 </category>
 
 <category>
   <pattern>* where * park</pattern>
-  <template><srai>parking</srai></template>
+  <template><srai>PRKNG</srai></template>
 </category>
 
 <category>
   <pattern>* where * park *</pattern>
- <template><srai>parking</srai></template>
+ <template><srai>PRKNG</srai></template>
 </category>
 
 <category>
   <pattern>where * park *</pattern>
- <template><srai>parking</srai></template>
+ <template><srai>PRKNG</srai></template>
 </category>
 
 
@@ -1364,74 +1442,80 @@ to open a larger version of our newsletter.
 <!--self checks-->
 
 <category>
-  <pattern>self checks</pattern>
+  <pattern>SLFCHKS</pattern>
   <template>The self checks are friends of mine. I like them. They have unfailingly good manners. If you need help using the self checks, ask one of the human librarians.
  </template>
 </category>
 
 <category>
+  <pattern>self checks</pattern>
+  <template><srai>SLFCHKS</srai></template>
+</category>
+
+
+<category>
   <pattern>* self checks</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>* self checks *</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>self checks *</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>selfchecks</pattern>
- <template><srai>self checks</srai></template>
+ <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>* selfchecks</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>* selfchecks *</pattern>
- <template><srai>self checks</srai></template>
+ <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>selfchecks *</pattern>
- <template><srai>self checks</srai></template>
+ <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>self check</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>* self check</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>* self check *</pattern>
- <template><srai>self checks</srai></template>
+ <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>self check *</pattern>
- <template><srai>self checks</srai></template>
+ <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>selfcheck</pattern>
-  <template><srai>self checks</srai></template>
+  <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
   <pattern>* selfcheck</pattern>
- <template><srai>self checks</srai></template>
+ <template><srai>SLFCHKS</srai></template>
 </category>
 
 <category>
@@ -1444,113 +1528,123 @@ to open a larger version of our newsletter.
   <template><srai>selfcheck</srai></template>
 </category>
 
-<!--scanners-->
+<!--SCANNING-->
+
+<category>
+<pattern>SCANNG</pattern>
+<template>The Main Library has a xerox machine that can scan documents to email.</template>
+</category>
+
+<category>
+<pattern>SCANNER</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>SCANNERS</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>* SCANNER</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>* SCANNERS</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>* SCANNER *</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>* SCANNERS *</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>SCANNER *</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+<category>
+<pattern>SCANNERS *</pattern>
+<template><srai>SCANNG</srai></template>
+</category>
+
+
 
 <category>
 <pattern>* INSTRUCTIONS *</pattern>
-<that>THE MAIN LIBRARY HAS A XEROX MACHINE THAT CAN SCAN DOCUMENTS TO EMAIL</that>
+<that>* XEROX MACHINE * SCAN * EMAIL</that>
 <template>We don't not have printed instructions for the operation of the xerox machine. If you need help using it, please ask one of the staff.
 </template>
 </category>
 
 <category>
 <pattern>* CHARGE</pattern>
-<that>THE MAIN LIBRARY HAS A XEROX MACHINE THAT CAN SCAN DOCUMENTS TO EMAIL</that>
+<that>* XEROX MACHINE * SCAN * EMAIL</that>
 <template>There is no charge to scan documents to email.
 </template>
 </category>
 
 <category>
 <pattern>* CHARGE *</pattern>
-<that>THE MAIN LIBRARY HAS A XEROX MACHINE THAT CAN SCAN DOCUMENTS TO EMAIL</that>
+<that>* XEROX MACHINE * SCAN * EMAIL</that>
 <template>There is no charge to scan documents to email.
 </template>
 </category>
 
 <category>
 <pattern>* COST</pattern>
-<that>THE MAIN LIBRARY HAS A XEROX MACHINE THAT CAN SCAN DOCUMENTS TO EMAIL</that>
+<that>* XEROX MACHINE * SCAN * EMAIL</that>
 <template>There is no charge to scan documents to email.
 </template>
 </category>
 
 <category>
 <pattern>* COST *</pattern>
-<that>THE MAIN LIBRARY HAS A XEROX MACHINE THAT CAN SCAN DOCUMENTS TO EMAIL</that>
+<that>* XEROX MACHINE * SCAN * EMAIL</that>
 <template>There is no charge to scan documents to email.
 </template>
 </category>
 
 <category>
 <pattern>HOW MUCH *</pattern>
-<that>THE MAIN LIBRARY HAS A XEROX MACHINE THAT CAN SCAN DOCUMENTS TO EMAIL</that>
+<that>* XEROX MACHINE * SCAN * EMAIL</that>
 <template>There is no charge to scan documents to email.
 </template>
-</category>
-
-
-
-<category>
-<pattern>SCANNER</pattern>
-<template>The Main Library has a xerox machine that can scan documents to email.</template>
-</category>
-
-<category>
-<pattern>SCANNERS</pattern>
-<template><srai>SCANNER</srai></template>
-</category>
-
-<category>
-<pattern>* SCANNER</pattern>
-<template><srai>SCANNER</srai></template>
-</category>
-
-<category>
-<pattern>* SCANNERS</pattern>
-<template><srai>SCANNER</srai></template>
-</category>
-
-<category>
-<pattern>* SCANNER *</pattern>
-<template><srai>SCANNER</srai></template>
-</category>
-
-<category>
-<pattern>* SCANNERS *</pattern>
-<template><srai>SCANNER</srai></template>
-</category>
-
-<category>
-<pattern>SCANNER *</pattern>
-<template><srai>SCANNER</srai></template>
-</category>
-
-<category>
-<pattern>SCANNERS *</pattern>
-<template><srai>SCANNER</srai></template>
 </category>
 
 <!--TAX FORMS-->
 
 <category>
-  <pattern>tax forms</pattern>
+  <pattern>TXFRMS</pattern>
   <template>Some 2010 Tax Forms are now available at the Main Library and both Branches. Please call ahead to check on the availability of specific forms. Follow these links for <a href="http://www.irs.gov/formspubs/"><b>Federal</b></a>, <a href="http://tax.ohio.gov/forms/index.stm"><b>State</b></a>, or <a href="http://www.rita.to/municipal/mentor.htm"><b>Local</b></a> tax forms.
   </template>
 </category>
 
 <category>
+  <pattern>tax forms</pattern>
+  <template><srai>TXFRMS</srai></template>
+</category>
+
+<category>
   <pattern>* tax forms</pattern>
-  <template><srai>tax forms</srai></template>
+  <template><srai>TXFRMS</srai></template>
 </category>
 
 <category>
   <pattern>* tax forms *</pattern>
-  <template><srai>tax forms</srai></template>
+  <template><srai>TXFRMS</srai></template>
 </category>
 
 <category>
   <pattern>tax forms *</pattern>
-  <template><srai>tax forms</srai></template>
+  <template><srai>TXFRMS</srai></template>
 </category>
 
 <!--tutoring-->

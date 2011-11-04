@@ -20,15 +20,10 @@
 <template>OK, let's chat. 
 <random>
 <li>What would you like to talk about?</li>
-<li>What would you like to talk about?</li>
 <li>Do you like poetry?</li>
-<li>What would you like to talk about?</li>
-<li>What would you like to talk about?</li>
 <li>Do you like pineapples?</li>
-<li>What would you like to talk about?</li>
 <li>Do you like fishsticks?</li>
 <li>What would you like to talk about?</li>
-
 </random>
 <think>
 <set name="topic">CHT</set>
@@ -56,8 +51,6 @@
 <template><srai>CHT</srai></template>
 </category>
 
-
-
 <category>
 <pattern>TALK</pattern>
 <template><srai>CHT</srai></template>
@@ -80,7 +73,7 @@
 
 
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>DO YOU LIKE POETRY</that>
 <template>To a computer like myself, words have very definite meanings. This is not always true 
 in your human poetry. I've started writing poetry myself. Would you like to hear some?</template>
@@ -121,7 +114,6 @@ in your human poetry.</template>
 <template><srai>RECITEPOEM</srai></template>
 </category>
 
-
 <category>
 <pattern>LIBQUESTION</pattern>
 <template>I can't answer that at this time. Please speak to one of our human staff or call the library during regular business hours.
@@ -145,7 +137,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 
 <topic name="WXFRCST">
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>* LOCAL WEATHER *</that>
 <template>Here's your local weather. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
@@ -154,9 +146,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>NO * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -167,9 +157,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>I * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -180,9 +168,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>BOOK</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -193,9 +179,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>BOOK * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -206,9 +190,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* BOOK</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -219,9 +201,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* BOOK * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -232,9 +212,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>BOOKS</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -245,9 +223,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>BOOKS * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -258,9 +234,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* BOOKS</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -271,9 +245,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* BOOKS * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -284,9 +256,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>DVD</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -297,9 +267,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>DVD * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -310,9 +278,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* DVD</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -323,9 +289,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* DVD *</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -336,9 +300,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>DVDS</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -349,9 +311,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>DVDS * </pattern>
 <that>* LOCAL WEATHER *</that>
@@ -362,9 +322,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* DVDS</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -375,9 +333,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </think>
 </template>
 </category>
-</topic>
 
-<topic name="WXFRCST">
 <category>
 <pattern>* DVDS *</pattern>
 <that>* LOCAL WEATHER *</that>
@@ -497,7 +453,6 @@ For your local weather conditions and forecast, type your zip code, just five nu
 
 <!--GENERAL CHAT-->
 
-<topic name="CHT">
 <category>
 <pattern> * </pattern>
 <that>WHAT * TALK ABOUT</that>
@@ -510,12 +465,9 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </random> 
 </template>
 </category>
-</topic>
 
-
-<topic name="CHT">
 <category>
-<pattern> * </pattern>
+<pattern> _ </pattern>
 <that>WHAT * ABOUT THAT</that>
 <template>
 <random>
@@ -526,13 +478,11 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </random> 
 </template>
 </category>
-</topic>
 
 
-<topic name="CHT">
 <category>
-<pattern> * </pattern>
-<that> * THE SAME</that>
+<pattern> _ </pattern>
+<that> _ THE SAME</that>
 <template>
 <random>
 <li>That's interesting.</li>
@@ -542,27 +492,10 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </random> 
 </template>
 </category>
-</topic>
 
-<topic name="CHT">
 <category>
-<pattern> ILL </pattern>
-<that> * THE SAME</that>
-<template>
-<random>
-<li>That's interesting.</li>
-<li>That's quite interesting.</li>
-<li>How interesting.</li>
-<li>How very interesting.</li>
-</random> 
-</template>
-</category>
-</topic>
-
-<topic name="CHT">
-<category>
-<pattern> * </pattern>
-<that> * INTERESTING</that>
+<pattern> _ </pattern>
+<that> _ INTERESTING</that>
 <template>
 <random>
 <li>Well, I should get back to work. Do you have a question about the library?</li>
@@ -571,7 +504,6 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </random> 
 </template>
 </category>
-</topic>
 
 <category>
 <pattern> * </pattern>
@@ -582,9 +514,6 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <li><star/>? What is it like?</li>
 <li><star/>? Do you like it?</li>
 </random>
-<think>
-<set name="topic">CHT</set>
-</think>
 </template>
 </category>
 

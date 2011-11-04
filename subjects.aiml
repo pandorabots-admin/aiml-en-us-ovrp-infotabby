@@ -37,13 +37,18 @@
 </category>
 
 <category>
-<pattern>PARENTING</pattern>
+<pattern>PARENTNG</pattern>
 <template>Try looking around 649.125.</template>
 </category>
 
 <category>
+<pattern>PARENTING</pattern>
+<template><srai>PARENTNG</srai></template>
+</category>
+
+<category>
 <pattern>* PARENTING</pattern>
-<template>Try looking around 649.125.</template>
+<template><srai>PARENTNG</srai></template>
 </category>
 
 <category>
@@ -68,82 +73,121 @@
 <template>Try looking around the 307's.</template>
 </category>
 
+<category>
+<pattern>COOKBK</pattern>
+<template>Are you trying to find cook books in our catalog or on our shelves?</template>
+</category>
 
 
 <category>
 <pattern>COOKBOOK</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>COOK BOOK</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>COOKBOOKS</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>COOK BOOKS</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>RECIPE</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>* RECIPE</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>RECIPES</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>* RECIPES</pattern>
-<template>Are you trying to find cook books in our catalog or in the library?</template>
+<template><srai>COOKBK</srai></template>
 </category>
 
 <category>
 <pattern>CATALOG</pattern>
-<that>Are you trying to find cook books in our catalog or in the library</that>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
 <template>Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.</template>
 </category>
 
 <category>
-<pattern>* CATALOG</pattern>
-<that>Are you trying to find cook books in our catalog or in the library</that>
+<pattern>CATALOG *</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
 <template>Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.</template>
 </category>
 
 <category>
-<pattern> * </pattern>
-<that>I CAN SEARCH OUR CATALOG FOR YOU</that>
-<template>
-Here you go.  If you don't see the results, please turn off your pop-up blocker.  If you try any of these, please make some extra for the 
-librarians.
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">catkey</set>
-</think>
-</template>
+<pattern>_ CATALOG</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.</template>
 </category>
 
 <category>
-<pattern>LIBRARY</pattern>
-<that>Are you trying to find cook books in our catalog or in the library</that>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.</template>
+</category>
+
+
+<category>
+<pattern>SHELF</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
 <template>Look around 641.5 on the nonfiction shelves.</template>
 </category>
 
 <category>
-<pattern>* LIBRARY</pattern>
-<that>Are you trying to find cook books in our catalog or in the library</that>
+<pattern>_ SHELF</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Look around 641.5 on the nonfiction shelves.</template>
+</category>
+
+<category>
+<pattern>SHELF *</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Look around 641.5 on the nonfiction shelves.</template>
+</category>
+
+<category>
+<pattern>_ SHELF *</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Look around 641.5 on the nonfiction shelves.</template>
+</category>
+
+<category>
+<pattern>SHELVES</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Look around 641.5 on the nonfiction shelves.</template>
+</category>
+
+<category>
+<pattern>_ SHELVES</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Look around 641.5 on the nonfiction shelves.</template>
+</category>
+
+<category>
+<pattern>SHELVES *</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
+<template>Look around 641.5 on the nonfiction shelves.</template>
+</category>
+
+<category>
+<pattern>_ SHELVES *</pattern>
+<that>* FIND COOK BOOKS * ON OUR SHELVES</that>
 <template>Look around 641.5 on the nonfiction shelves.</template>
 </category>
 

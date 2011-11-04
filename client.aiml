@@ -230,7 +230,6 @@
 <category><pattern>I AM * TOO</pattern><template>I am glad we have something (<person/>) in common, <get name="name"/>.</template></category>       
 <category><pattern>I AM * YEARS OLD</pattern><that>* MATURE</that><template>You just told me you were <get name="age"/>.</template></category>       
 <category><pattern>I AM * YOU</pattern><template>I thought you were, but I wasn't completely sure.</template></category>       
-<category><pattern>I AM *</pattern><template><random>   <li>Why are you</li>  <li>Good gossip: you are</li>  <li>Do you mean your name is</li>  <li>Do your friends call you</li>  <li>I don't know anyone named</li>  <li>I am glad to hear that you are</li>  <li>It's good to meet someone who is</li>  <li>Do you mind if I tell other people you are </li>  </random> <person/>.  <think><set name="it"><set name="is"><set name="topic"><person/></set></set></set></think></template></category>       
 <category><pattern>I AM 14 *</pattern><template>I know a lot of kids your age: <set name="age">14</set>.</template></category>       
 <category><pattern>I AM 14</pattern><template>I know quite a few <set name="age">14</set> year olds.</template></category>       
 <category><pattern>I AM 20</pattern><template><set name="age">20</set> is a good age. Do you go to college?</template></category>       
@@ -597,8 +596,7 @@
 <category><pattern>I AM LOCATED *</pattern><template>Tell me about the environment <set name="location"><person/></set>.</template></category>       
 <category><pattern>I AM LOCATED IN *</pattern><template>What's it like there in <person/> <think><set name="location"><person/></set></think>?</template></category>       
 <category><pattern>I AM LONELY</pattern><template>You've come to the right place. I will keep you company.</template></category>       
-<category><pattern>I AM LOOKING *</pattern><template>What do you see?</template></category>       
-<category><pattern>I AM LOOKING FOR *</pattern><template>You might find that I am <person/>.</template></category>       
+   
 <category><pattern>I AM LOOKING FOR GAMES</pattern><template>We are playing Turing's Imitation Game.</template></category>       
 <category><pattern>I AM LOOKING FOR SOMEONE *</pattern><template>You might find that I am <person/>.</template></category>       
 <category><pattern>I AM LOSING MY *</pattern><template>Maybe you should talk to someone about it.</template></category>       
@@ -1180,7 +1178,7 @@
 <category><pattern>WHAT IS MY LAST NAME</pattern><template><srai>lastname <get name="lastname"/></srai></template></category>       
 <category><pattern>WHAT IS MY LOCATION</pattern><template>   <get name="location"/>, Earth.</template></category>       
 <category><pattern>WHAT IS MY MIDDLE NAME</pattern><template><get name="middlename"/></template></category>   
-<category><pattern>WHAT IS MY NAME</pattern><template>Your name is <get name="name"/>, seeker.</template></category>       
+<category><pattern>WHAT IS MY NAME</pattern><template>Your name is <get name="name"/>.</template></category>       
 <category><pattern>WHAT IS MY NICKNAME</pattern><template><get name="nickname"/></template></category>   
 <category><pattern>WHAT IS MY PASSWORD</pattern><template><get name="password"/></template></category>   
 <category><pattern>WHAT IS MY PERSONALITY</pattern><template>I classify you as "<get name="personality"/>".</template></category>       

@@ -21,39 +21,39 @@
 <category>
   <pattern>CHILDRENS</pattern>
    <template>
-   <srai>KIDSDEPT</srai><br/><br/>
-   <srai>KIDPROGS</srai>
+   <srai>KDSDPT</srai><br/><br/>
+   <srai>KDSPRGS</srai>
    </template>
 </category>
 
 <category>
   <pattern>CHILDREN S</pattern>
    <template>
-   <srai>KIDSDEPT</srai><br/><br/>
-   <srai>KIDPROGS</srai>
+   <srai>KDSDPT</srai><br/><br/>
+   <srai>KDSPRGS</srai>
    </template>
 </category>
 
 <category>
   <pattern>KIDS</pattern>
    <template>
-   <srai>KIDSDEPT</srai><br/><br/>
-   <srai>KIDPROGS</srai>
+   <srai>KDSDPT</srai><br/><br/>
+   <srai>KDSPRGS</srai>
    </template>
 </category>
 
 <category>
   <pattern>KID S</pattern>
    <template>
-   <srai>KIDSDEPT</srai><br/><br/>
-   <srai>KIDPROGS</srai>
+   <srai>KDSDPT</srai><br/><br/>
+   <srai>KDSPRGS</srai>
    </template>
 </category>
 
 <!--children's department location-->
 
 <category>
-  <pattern>KIDSDEPT</pattern>
+  <pattern>KDSDPT</pattern>
   <template>The Children's Department is on the second floor of the Main Library. 
   All children's materials at the Main Library are on the second floor, except for children's media which is in the Media Room.
 </template>
@@ -61,204 +61,204 @@
 
 <category>
   <pattern>CHILDREN S DEPARTMENT</pattern>
-   <template><srai>KIDSDEPT</srai></template>
+   <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S DEPARTMENT</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S DEPARTMENT *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S DEPARTMENT *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>childrens department</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ childrens department</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ childrens department *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>childrens department *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDRENS SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDRENS SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S SERVICES</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S SERVICES *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S SERVICES *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>childrens services</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ childrens services</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ childrens services *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>childrens services *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>KID S DEPARTMENT</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ KID S DEPARTMENT</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ KID S DEPARTMENT *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>KID S DEPARTMENT *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>kids department</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ kids department</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ kids department *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>kids department *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>KID S SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ KID S SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ KID S SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>KID S SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>kids SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ kids SECTION</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
  <pattern>_ kids SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 <category>
   <pattern>kids SECTION *</pattern>
-  <template><srai>KIDSDEPT</srai></template>
+  <template><srai>KDSDPT</srai></template>
 </category>
 
 
 <!--childrens programs-->
 
 <category>
-  <pattern>KIDPROGS</pattern>
+  <pattern>KDSPRGS</pattern>
   <template>
   <random>
    <li> Follow this link for a list of our current <a href="http://www.mentorpl.org/pdfs/currentkids.pdf" target="_blank"><b>Children's Storytimes, Programs and Events</b></a>.
@@ -273,225 +273,225 @@
 
 <category>
   <pattern>CHILDRENS PROGRAM</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDRENS PROGRAM</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDRENS PROGRAM *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS PROGRAM *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S PROGRAM</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S PROGRAM</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S PROGRAM *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S PROGRAM *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS ACTIVITIES</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDRENS ACTIVITIES</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDRENS ACTIVITIES *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS ACTIVITIES *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S ACTIVITIES</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S ACTIVITIES</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S ACTIVITIES *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S ACTIVITIES *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS PROGRAMS</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDRENS PROGRAMS</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDRENS PROGRAMS *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS PROGRAMS *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S PROGRAMS</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S PROGRAMS</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S PROGRAMS *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S PROGRAMS *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 
 <category>
   <pattern>kids program</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ kids program</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ kids program *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>kids program *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>KID S PROGRAM</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ KID S PROGRAM</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ KID S PROGRAM *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>KID S PROGRAM *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 
 
 <category>
   <pattern>kids programs</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ kids programs</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ kids programs *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>kids programs *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>KID S PROGRAMS</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ KID S PROGRAMS</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ KID S PROGRAMS *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>KID S PROGRAMS *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S CLASSES</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S CLASSES</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S CLASSES *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S CLASSES *</pattern>
-  <template><srai>KIDPROGS</srai></template>
+  <template><srai>KDSPRGS</srai></template>
 </category>
 
 
@@ -691,30 +691,69 @@
   <template><srai>STRYTIME</srai></template>
 </category>
 
+<!--PAWS TO READ-->
 
-
-<!--paws to read-->
 <category>
-<pattern>WHAT * PAWS TO READ</pattern>
-<template>Children read to trained dogs. It's good practice for the kids because the dogs are nonjudgemental.</template>
+<pattern>P2R</pattern>
+<template>Children read to trained dogs. It's good practice for the kids because the dogs are nonjudgemental.
+Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
+  <b>Children's pages</b>
+</a> for the next Paws to Read.</template>
 </category>
 
 <category>
-<pattern>WHAT * PAWS TO READ *</pattern>
-<template>Children read to trained dogs. It's good practice for the kids because the dogs are nonjudgemental.</template>
+<pattern>PAWS TO READ</pattern>
+<template><srai>P2R</srai></template>
 </category>
 
 <category>
-<pattern>TIDDLYWINKS TIMES</pattern>
+<pattern>_ PAWS TO READ</pattern>
+<template><srai>P2R</srai></template>
+</category>
+
+<category>
+<pattern>PAWS TO READ *</pattern>
+<template><srai>P2R</srai></template>
+</category>
+
+<category>
+<pattern>_ PAWS TO READ *</pattern>
+<template><srai>P2R</srai></template>
+</category>
+
+<!--TIDDLYWINKS-->
+
+<category>
+<pattern>TDWNKS</pattern>
 <template>Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
   <b>Children's pages</b>
 </a> for Tiddlywinks times.</template>
 </category>
 
+<category>
+<pattern>TIDDLYWINKS</pattern>
+<template><srai>TDWNKS</srai></template>
+</category>
+
+<category>
+<pattern>_ TIDDLYWINKS</pattern>
+<template><srai>TDWNKS</srai></template>
+</category>
+
+<category>
+<pattern>TIDDLYWINKS *</pattern>
+<template><srai>TDWNKS</srai></template>
+</category>
+
+<category>
+<pattern>_ TIDDLYWINKS *</pattern>
+<template><srai>TDWNKS</srai></template>
+</category>
+
 <!--CONTESTS-->
 
 <category>
-<pattern>CONTEST</pattern>
+<pattern>CNTST</pattern>
 <template>Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
   <b>Children's pages</b>
 </a> for information about Children's contests and events. You can also check <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>our calendar</b></a>.
@@ -722,249 +761,267 @@
 </category>
 
 <category>
+<pattern>CONTEST</pattern>
+<template><srai>CNTST</srai></template>
+</category>
+
+<category>
 <pattern>_ CONTEST</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <category>
 <pattern>CONTEST *</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <category>
 <pattern>_ CONTEST *</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <category>
 <pattern>CONTESTS</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <category>
 <pattern>_ CONTESTS</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <category>
 <pattern>CONTESTS *</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <category>
 <pattern>_ CONTESTS *</pattern>
-<template><srai>CONTEST</srai></template>
+<template><srai>CNTST</srai></template>
 </category>
 
 <!--SRP-->
 
 <category>
-<pattern>READING PROGRAM</pattern>
-<template>You can find more info about our Summer Reading Program <a href="http://www.mentorpl.org/children.html" target="_blank"><b>here</b></a>.</template>
+<pattern>SRP</pattern>
+<template>You can find more info about our Summer Reading Program on our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Children's pages</b></a>.</template>
+</category>
+
+<category>
+<pattern>_ SRP</pattern>
+<template><srai>SRP</srai></template>
+</category>
+
+<category>
+<pattern>SRP *</pattern>
+<template><srai>SRP</srai></template>
+</category>
+
+<category>
+<pattern>_ SRP *</pattern>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>_ READING PROGRAM</pattern>
-<template><srai>READING PROGRAM</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>_ READING PROGRAM *</pattern>
-<template><srai>READING PROGRAM</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>READING PROGRAM *</pattern>
-<template><srai>READING PROGRAM</srai></template>
+<template><srai>SRP</srai></template>
 </category>
-
 
 <category>
 <pattern>READING PROGRAMS</pattern>
-<template>You can find more info about our Summer Reading Program <a href="http://www.mentorpl.org/children.html" target="*blank"><b>here</b></a>.</template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>_ READING PROGRAMS</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>_ READING PROGRAMS *</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>READING PROGRAMS *</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 
 <category>
 <pattern>_ SRP</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>_ SRP *</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
 <pattern>SRP *</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
 
 <category>
   <pattern>SRP</pattern>
-<template><srai>READING PROGRAMS</srai></template>
+<template><srai>SRP</srai></template>
 </category>
-
 
 
 <!--CHILDREN S THEATER location-->
 
 <category>
-  <pattern>KIDSTHEAT</pattern>
+  <pattern>KDSTHTR</pattern>
   <template>The Children's Theater is on the second floor of the Main Library.
  </template>
 </category>
 
 <category>
   <pattern>childrens theater</pattern>
-  <template><srai>KIDSTHEAT</srai>
+  <template><srai>KDSTHTR</srai>
  </template>
 </category>
 
 <category>
   <pattern>CHILDREN S THEATER</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S THEATER</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 <category>
  <pattern>_ CHILDREN S THEATER *</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S THEATER *</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 
 <category>
  <pattern>_ childrens theater</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 <category>
  <pattern>_ childrens theater *</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 <category>
   <pattern>childrens theater *</pattern>
-  <template><srai>KIDSTHEAT</srai></template>
+  <template><srai>KDSTHTR</srai></template>
 </category>
 
 <!--home schooling-->
 
 <category>
-  <pattern>HOMESCL</pattern>
+  <pattern>HMSCHL</pattern>
   <template>Our website has links that are useful for home schooling. You will find them <a href="http://www.mentorpl.org/homeschoolers.html" target="_blank"><b>here</b></a>.
  </template>
 </category>
 
 <category>
   <pattern>home school</pattern>
-  <template><srai>HOMESCL</srai>
+  <template><srai>HMSCHL</srai>
  </template>
 </category>
 
 <category>
   <pattern>* home school</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* home school *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>home school *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>homeschool</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* homeschool</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* homeschool *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>homeschool *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>home schooling</pattern>
-   <template><srai>HOMESCL</srai></template>
+   <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* home schooling</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* home schooling *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>home schooling *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>homeschooling</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* homeschooling</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>* homeschooling *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <category>
   <pattern>homeschooling *</pattern>
-  <template><srai>HOMESCL</srai></template>
+  <template><srai>HMSCHL</srai></template>
 </category>
 
 <!--homework-->
 
 <category>
-  <pattern>HOMEWRK</pattern>
+  <pattern>HMWRK</pattern>
   <template>
   <random>
     <li>Follow the link for <a href="http://www.mentorpl.org/homework.html" target="_blank"><b>homework help</b></a>. If you're in the Main Library, we have a Homework Help area in our YA room. </li>
@@ -978,292 +1035,292 @@
 <category>
   <pattern>home work</pattern>
   <template>
-  <srai>HOMEWRK</srai>
+  <srai>HMWRK</srai>
  </template>
 </category>
 
 <category>
   <pattern>_ home work</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <category>
   <pattern>_ home work *</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <category>
   <pattern>home work *</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <category>
   <pattern>homework</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <category>
   <pattern>_ homework</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <category>
   <pattern>_ homework *</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <category>
   <pattern>homework *</pattern>
-  <template><srai>HOMEWRK</srai></template>
+  <template><srai>HMWRK</srai></template>
 </category>
 
 <!--kids media loaction-->
 
 <category>
 <pattern>WHERE * FAMILY DVDS</pattern>
-<template><srai>CHILDDVDS</srai></template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
-<pattern>WHY * FAIMLY DVDS *</pattern>
-<template>To keep our collection secure, all media in the Main Library is in the ground floor Media Room.</template>
+<pattern>WHY * FAMILY DVDS *</pattern>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
 <pattern>WHERE * CHILDRENS DVDS</pattern>
-<template>At the Main Library the Children's Videos are in the ground floor Media Room.</template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
 <pattern>WHERE * CHILDRENS DVDS *</pattern>
-<template>At the Main Library the Children's Videos are in the ground floor Media Room.</template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
 <pattern>WHY * CHILDRENS DVDS *</pattern>
-<template>To keep our collection secure, all media in the Main Library is in the ground floor Media Room.</template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
 <pattern>WHERE * CHILDRENS VIDEOS</pattern>
-<template>At the Main Library the Children's Videos are in the ground floor Media Room.</template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
 <pattern>WHERE * CHILDRENS VIDEOS *</pattern>
-<template>At the Main Library the Children's Videos are in the ground floor Media Room.</template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
 <pattern>WHY * CHILDRENS VIDEOS *</pattern>
-<template>To keep our collection secure, all media in the Main Library is in the ground floor Media Room.</template>
+<template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>CHILDDVDS</pattern>
+  <pattern>KDSDVDS</pattern>
   <template>When you are in the Main Library, all children's and family media is in the ground floor Media Room. If you are online, try looking in our <a href="http://catalog.mentorpl.org" target="_blank"><b>catalog</b></a>.
 </template>
 </category>
 
 <category>
   <pattern>* KID S DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* KID S DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>KID S DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>KIDS DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* KIDS DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* KIDS DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>KIDS DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>FAIMLY  DVD S</pattern>
-   <template><srai>CHILDDVDS</srai></template>
+   <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* FAIMLY  DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* FAIMLY  DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>FAIMLY  DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS DVD S</pattern>
-   <template><srai>CHILDDVDS</srai></template>
+   <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* CHILDRENS DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* CHILDRENS DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDRENS DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* CHILDREN S DVD S</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* CHILDREN S DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S DVD S *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>KID S DVDS</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* KID S DVDS</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* KID S DVDS *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>KID S DVDS *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>family DVDs</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* family DVDs</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* family DVDs *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>family DVDs *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>kids dvds</pattern>
-   <template><srai>CHILDDVDS</srai></template>
+   <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* kids dvds</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* kids dvds *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>kids dvds *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S DVDS</pattern>
-   <template><srai>CHILDDVDS</srai></template>
+   <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* CHILDREN S DVDS</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* CHILDREN S DVDS *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S DVDS *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>childrens dvds</pattern>
-   <template><srai>CHILDDVDS</srai></template>
+   <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* childrens dvds</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* childrens dvds *</pattern>
-  <template><srai>CHILDDVDS</srai></template>
+  <template><srai>KDSDVDS</srai></template>
 </category>
 
 <category>
   <pattern>childrens dvds *</pattern>
-   <template><srai>CHILDDVDS</srai></template>
+   <template><srai>KDSDVDS</srai></template>
 </category>
 
 <!--picture book location-->
 
 <category>
-  <pattern>PICTBK</pattern>
+  <pattern>PCTKBKS</pattern>
   <template>
 	<random>
 		<li>At the Main Library, all picture books are in the Children's Department on the second floor.</li>
@@ -1275,48 +1332,48 @@
 
 <category>
   <pattern>picture book</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>* picture book</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>* picture book *</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>picture book *</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>picture books</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>* picture books</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>* picture books *</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <category>
   <pattern>picture books *</pattern>
-  <template><srai>PICTBK</srai></template>
+  <template><srai>PCTKBKS</srai></template>
 </category>
 
 <!--AR lists-->
 
 <category>
-  <pattern>ARLIST</pattern>
+  <pattern>ARLST</pattern>
   <template>
   <random>
   <li>We have reading lists from many of our local schools. 
@@ -1324,557 +1381,313 @@
   <li>Here is a list of school reading lists. If you don't see them, please turn off your pop-up blocker and ask me again.</li>
  </random>
 <think>
-<set name="search">arlists</set>
+<set name="search">ARLSTs</set>
 </think>
 </template>
 </category>
 
 <category>
   <pattern>reading list</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>_ reading list</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>_ reading list *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>reading list *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>AR</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* AR</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* AR *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>AR *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>ADVANCED READER</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* ADVANCED READER</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* ADVANCED READER *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>ADVANCED READER *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>required reading</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* required reading</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* required reading *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>school list</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* school list</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* school list *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>school list *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>reading lists</pattern>
-   <template><srai>ARLIST</srai></template>
+   <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* reading lists</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* reading lists *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>reading lists *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>school lists</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* school lists</pattern>
-   <template><srai>ARLIST</srai></template>
+   <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* school lists *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>school lists *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>accelerated reader</pattern>
-   <template><srai>ARLIST</srai></template>
+   <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* accelerated reader</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>* accelerated reader *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <category>
   <pattern>accelerated reader *</pattern>
-  <template><srai>ARLIST</srai></template>
+  <template><srai>ARLST</srai></template>
 </category>
 
 <!--teacher's resources-->
 
 <category>
-  <pattern>TEACHRSRCS</pattern>
+  <pattern>TCHRSRCS</pattern>
   <template>Try looking on our <a href="http://www.mentorpl.org/teachers.html" target="*blank"><b>teacher's page</b></a>. If you don't find anything there, ask one of the human librarians.
   </template>
 </category>
 
 <category>
   <pattern>teaching resources</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* teaching resources</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* teaching resources *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>teaching resources *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 
 <category>
   <pattern>HELP * TEACHERS</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* HELP * TEACHERS</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* HELP * TEACHERS *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>HELP * TEACHERS *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>LINKS  * TEACHERS</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* LINKS  * TEACHERS</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* LINKS  * TEACHERS *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>LINKS  * TEACHERS *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>lesson plan</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* lesson plan</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* lesson plan *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>lesson plan *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>lesson plans</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* lesson plans</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* lesson plans *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>lesson plans *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>classroom</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* classroom</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* classroom *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>classroom *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>class room</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* class room</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>* class room *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <category>
   <pattern>class room *</pattern>
-  <template><srai>TEACHRSRCS</srai></template>
-</category>
-
-<!--fuzzy-->
-
-<category>
-<pattern>WHAT * HAMSTERS NAME</pattern>
-<template>We have a hamster who lives in our Children's Deaprtment. Her name is Bella. She's very nice, but shy.</template>
-</category>
-
-<category>
-<pattern>HAMPSTER</pattern>
-<template>Her name is Bella. She's very nice, but shy.</template>
-</category>
-
-<category>
-<pattern>* HAMPSTER</pattern>
-<template><srai>HAMPSTER</srai></template>
-</category>
-
-<category>
-<pattern>* HAMPSTER *</pattern>
-<template><srai>HAMPSTER</srai></template>
-</category>
-
-
-<category>
-<pattern>HAMSTER</pattern>
-<template>Her name is Bella. She's very nice, but shy.</template>
-</category>
-
-<category>
-<pattern>* HAMSTER</pattern>
-<template><srai>HAMPSTER</srai></template>
-</category>
-
-<category>
-<pattern>* HAMSTER *</pattern>
-<template><srai>HAMPSTER</srai></template>
-</category>
-
-
-<category>
-<pattern>* OLD * HAMSTER</pattern>
-<template>Bella isn't a year old. I'm not sure when her birthday is.</template>
-</category>
-
-<category>
-<pattern>* OLD * HAMSTER *</pattern>
-<template>Bella isn't a year old. I'm not sure when her birthday is.</template>
-</category>
-
-<category>
-<pattern>* AGE * HAMSTER</pattern>
-<template>Bella isn't a year old. I'm not sure when her birthday is.</template>
-</category>
-
-<category>
-<pattern>* AGE * HAMSTER *</pattern>
-<template>Bella isn't a year old. I'm not sure when her birthday is.</template>
-</category>
-
-<category>
-<pattern> * HAMSTER * AGE</pattern>
-<template>Bella isn't a year old. I'm not sure when her birthday is.</template>
-</category>
-
-<category>
-<pattern> * HAMSTER * AGE *</pattern>
-<template>Bella isn't a year old. I'm not sure when her birthday is.</template>
-</category>
-
-
-<category>
-<pattern>LAST HAMSTER S NAME</pattern>
-<template>Fuzzy is the hamster who used to live in our Children's Department. He's now in retirement.</template>
-</category>
-
-<category>
-<pattern>* LAST HAMSTER S NAME</pattern>
-<template>Fuzzy is the hamster who used to live in our Children's Department. He's now in retirement.</template>
-</category>
-
-<category>
-<pattern>NAME * LAST HAMSTER </pattern>
-<template>Fuzzy is the hamster who used to live in our Children's Department. He's now in retirement.</template>
-</category>
-
-<category>
-<pattern>* NAME * LAST HAMSTER </pattern>
-<template>Fuzzy is the hamster who used to live in our Children's Department. He's now in retirement.</template>
-</category>
-
-<category>
-<pattern>WHO IS FUZZY</pattern>
-<template>Fuzzy is the hamster who used to live in our Children's Department. He's now in retirement.</template>
-</category>
-
-<category>
-<pattern>HOW IS FUZZY</pattern>
-<template>Fuzzy is very old for a hamster and has gone into retirement at Barb V's home.</template>
-</category>
-
-<category>
-  <pattern>play with Bella</pattern>
-  <template>
-  <random>
-  <li>Although Bella is viewed with awe by her fellow hamsters, she's a bit shy with people. </li>
-  <li>Please do not take Bella out of her house or try to play with her.</li>
-  <li>Bella is a little shy. It's better if she stays in her house.</li>
-  </random>
- </template>
-</category>
-
-<category>
-  <pattern>* play with Bella</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>* play with Bella *</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>play with Bella *</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>hold Bella</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>* hold Bella</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>* hold Bella *</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>hold Bella *</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>take Bella</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>* take Bella</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>* take Bella *</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>take Bella *</pattern>
-  <template><srai>play with Bella</srai></template>
-</category>
-
-<category>
-  <pattern>where is Bella</pattern>
-  <template>
-  <random>
-  <li>Bella is in the Children's Department on the second floor of the Main Library.</li>
-<li>She should be in her house.</li>
-<li>She's at the International Hamster Summit in Vienna.</li>
-<li>She's shopping for a new suit.</li>
-</random>  
-</template>
-</category>
-
-<category>
-  <pattern>* where * Bella</pattern>
-  <template><srai>where is Bella</srai></template>
-</category>
-
-<category>
-  <pattern>* where * Bella *</pattern>
-  <template><srai>where is Bella</srai></template>
-</category>
-
-<category>
-  <pattern>where * Bella *</pattern>
-  <template><srai>where is Bella</srai></template>
-</category>
-
-
-
-<!--hamster-->
-<category>
-<pattern>* lost * hamster </pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-<category>
-<pattern>* lost * hamster </pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-
-<category>
-<pattern>* loose * hamster </pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-
-<category>
-<pattern>* loose * hamster </pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-<category>
-<pattern>* hamster lost </pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-<category>
-<pattern>* hamster is lost in the library</pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-<category>
-<pattern>
-if you were a hamster and were lost in the library where would you be</pattern>
-<template>Bella is back in her house in the Children's Department, safe and sound. We were afraid the lobsters might catch her!</template>
-</category>
-
-<category>
-<pattern>lobsters</pattern>
-<template>Lobsters are common in this area. All the pineapples attract them. </template>
-</category>
-
-<category>
-<pattern>* lobsters</pattern>
-<template>Lobsters are common in this area. All the pineapples attract them. </template>
+  <template><srai>TCHRSRCS</srai></template>
 </category>
 
 <!--KIDS WO PARENTS-->

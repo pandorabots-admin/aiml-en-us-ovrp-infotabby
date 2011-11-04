@@ -16,10 +16,8 @@
   limitations under the License.-->
 
 
-
-
 <category>
-<pattern>FREEGAL</pattern>
+<pattern>FREEGL</pattern>
 <template>You can download thousands of recordings by your favorite artists by using Freegal. Access Freegal Music by clicking any of the Freegal logos or links on our website, or by following <a href="http://www.freegalmusic.com/users/indlogin" target="_blank"><b>this link</b></a>.
 Once you are on the Freegal login page, please enter your Mentor Public Library card number, all fourteen digits with no spaces. 
 Your Mentor Public Library account must be in good standing (less than $5.00 in fines or fees) to use Freegal. 
@@ -28,181 +26,207 @@ You can find more info about using Freegal on our <a href="http://www.mentorpl.o
 </category>
 
 <category>
+<pattern>FREEGAL</pattern>
+<template><srai>FREEGL</srai></template>
+</category>
+
+
+<category>
 <pattern> _ FREEGAL</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>FREEGAL *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> * FREEGAL * </pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>DOWNLOAD MUSIC</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> _ DOWNLOAD MUSIC</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>DOWNLOAD MUSIC *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> _ DOWNLOAD MUSIC * </pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
+</category>
+
+<category>
+<pattern>DOWNLOADABLE MUSIC</pattern>
+<template><srai>FREEGL</srai></template>
+</category>
+
+<category>
+<pattern> _ DOWNLOADABLE MUSIC</pattern>
+<template><srai>FREEGL</srai></template>
+</category>
+
+<category>
+<pattern>DOWNLOADABLE MUSIC *</pattern>
+<template><srai>FREEGL</srai></template>
+</category>
+
+<category>
+<pattern> _ DOWNLOADABLE MUSIC * </pattern>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>DOWNLOADING MUSIC</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> _ DOWNLOADING MUSIC</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>DOWNLOADING MUSIC *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> _ DOWNLOADING MUSIC * </pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>FREE SONGS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* FREE SONGS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>FREE SONGS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* FREE SONGS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>FREE MUSIC</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* FREE MUSIC</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>FREE MUSIC *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* FREE MUSIC *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>MUSIC DOWNLOAD</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* MUSIC DOWNLOAD</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>MUSIC DOWNLOAD * </pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* MUSIC DOWNLOAD *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 
 <category>
 <pattern>MUSIC DOWNLOADS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* MUSIC DOWNLOADS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>MUSIC DOWNLOADS * </pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>* MUSIC DOWNLOADS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>DOWNLOAD SONGS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> _ DOWNLOAD SONGS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 
 <category>
 <pattern>DOWNLOAD SONGS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>_ DOWNLOAD SONGS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>ITUNES SONGS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern> _ ITUNES SONGS</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 
 <category>
 <pattern>ITUNES SONGS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <category>
 <pattern>_ ITUNES SONGS *</pattern>
-<template><srai>FREEGAL</srai></template>
+<template><srai>FREEGL</srai></template>
 </category>
 
 <!--ARTISTS & SELECTIONS-->

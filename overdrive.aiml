@@ -6197,4 +6197,38 @@ You have the world's classic literature at your fingertips; over a million free 
   <template><srai>OPNLIB</srai></template>
 </category>
 
+<!--PUBLIC DOMAIN BOOKS-->
+
+<category>
+<pattern>PUBDOMBKS</pattern>
+<template>
+If you're looking for free, public domain eBooks, you can get plenty of them from the <a href="http://openlibrary.org/" target="_blank"><b>Open Library</b>
+</a> or from <a href="http://books.google.com/" target="_blank"><b>Google Books</b></a>.
+</template>
+</category>
+
+<category>
+  <pattern>PUBLIC DOMAIN</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* PUBLIC DOMAIN</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>PUBLIC DOMAIN *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* PUBLIC DOMAIN *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+
+
+
+
 </aiml>  

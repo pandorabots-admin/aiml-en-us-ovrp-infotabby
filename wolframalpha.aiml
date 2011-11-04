@@ -19,156 +19,187 @@
 
 
 <category>
-<pattern>EMMA ASK WOLFRAM ALPHA *</pattern> 
+<pattern>ASKWA</pattern> 
 <template>
-<random>
-<li>
 Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
 <think>
 <set name="searcharg"><star/></set>
 <set name="search">wolframalpha</set>
 </think>
-</li>
-<li>Let's try Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
+</template>
+</category>
+
+<category>
+<pattern>ASKWA2</pattern> 
+<template>
+Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
 <think>
-<set name="searcharg"><star/></set>
+<set name="searcharg"><star index="2"/></set>
 <set name="search">wolframalpha</set>
-</think></li>
-<li>Say "Hello" to Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-</random>
+</think>
 </template>
 </category>
 
 
 <category>
 <pattern>WOLFRAM ALPHA *</pattern> 
-<template>
-<random>
-<li>
-Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think>
-</li>
-<li>Let's try Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-<li>Say "Hello" to Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-</random>
+<template><srai>ASKWA</srai>
 </template>
 </category>
 
 <category>
 <pattern>ASK WOLFRAM ALPHA *</pattern> 
-<template>
-<random>
-<li>
-Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think>
-</li>
-<li>Let's try Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-<li>Say "Hello" to Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-</random>
+<template><srai>ASKWA</srai>
 </template>
 </category>
 
 
 <category>
 <pattern>* ASK WOLFRAM ALPHA *</pattern> 
-<template>
-<random>
-<li>
-Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think>
-</li>
-<li>Let's try Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-<li>Say "Hello" to Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-</random>
+<template><srai>ASKWA2</srai>
 </template>
 </category>
 
 
 <category>
 <pattern>SEARCH WOLFRAM ALPHA FOR *</pattern> 
-<template>
-<random>
-<li>
-Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think>
-</li>
-<li>Let's try Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-<li>Say "Hello" to Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-</random>
+<template><srai>ASKWA</srai>
 </template>
 </category>
 
  
  <category>
 <pattern>* SEARCH WOLFRAM ALPHA FOR *</pattern> 
-<template>
-<random>
-<li>
-Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
+<template><srai>ASKWA2</srai>
+</template>
+</category>
+
+
+<!--AGE-->
+
+<category>
+<pattern>_ AGE OF * </pattern>
+<template><srai>WAPASS</srai>
 <think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
+<set name="searcharg">AGE OF <star index="2"/></set>
 </think>
-</li>
-<li>Let's try Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
+</template>
+</category>
+
+<category>
+<pattern>_ OLD IS * </pattern>
+<template><srai>WAPASS</srai>
 <think>
-<set name="searcharg"><star/></set>
-<set name="search">wolframalpha</set>
-</think></li>
-<li>Say "Hello" to Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker.  
+<set name="searcharg">AGE OF <star index="2"/></set>
+</think>
+</template>
+</category>
+
+
+<!--DISTANCE-->
+
+
+<category>
+<pattern>WAPASS</pattern> 
+<template>
+Let's check Wolfram Alpha. It's a very smart website. If you don't see the results, please turn off your pop-up blocker and ask again. 
 <think>
-<set name="searcharg"><star/></set>
 <set name="search">wolframalpha</set>
-</think></li>
-</random>
+</think> 
+</template>
+</category>
+
+<category>
+<pattern>_ DISTANCE FROM * TO *</pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">DISTANCE FROM <star index="2"/> to <star index="3"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ FAR IS IT FROM * TO *</pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">DISTANCE FROM <star index="2"/> to <star index="3"/></set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW FAR IS IT TO *</pattern>
+<template>Where are you now?
+<think>
+<set name="endpt"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>WHERE ARE YOU NOW</that>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">DISTANCE FROM <star/> to <get name="endpt"/></set>
+</think>
+</template>
+</category>
+
+
+
+
+
+
+
+<!--NUMBER OF X IN Y-->
+
+<category>
+<pattern>HOW MANY * ARE IN *</pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">NUMBER OF <star index="1"/> IN <star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>HOW MANY * MAKE UP *</pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">NUMBER OF <star index="1"/> IN <star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ NUMBER OF * IN *</pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">NUMBER OF <star index="2"/> IN <star index="3"/></set>
+</think>
+</template>
+</category>
+
+
+<!--POPULATION-->
+
+<category>
+<pattern>_ POPULATION OF * </pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">POPULATION OF <star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>HOW MANY PEOPLE * IN * </pattern>
+<template><srai>WAPASS</srai>
+<think>
+<set name="searcharg">POPULATION OF <star index="2"/></set>
+</think>
 </template>
 </category>
  

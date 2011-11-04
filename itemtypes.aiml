@@ -19,212 +19,166 @@
 
 
 
-<!--2hot2hold-->
+<!--2HOTS-->
 
 <category>
-<pattern>2HOT2HOLD</pattern>
+<pattern>2H2H</pattern>
 <template>Copies of our most popular titles may be marked "2 Hot 2 Hold." This means that a hold may not be placed on that copy nor may it be renewed.
 We want to keep a number of copies of the most popular titles available for our walk-in customers. If a "2 Hot 2 Hold" item is available, it should be on its display.
 </template>
 </category>
 
 <category>
+<pattern>2HOT2HOLD</pattern>
+<template><srai>2H2H</srai></template>
+</category>
+
+<category>
 <pattern>_ 2HOT2HOLD</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 <category>
 <pattern>_ 2HOT2HOLD *</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 
 <category>
 <pattern>2 HOT 2 HOLD</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 <category>
 <pattern>_ 2 HOT 2 HOLD</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 <category>
 <pattern>_ 2 HOT 2 HOLD *</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 <category>
 <pattern>TOO HOT TO HOLD</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 <category>
 <pattern>_ TOO HOT TO HOLD</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 <category>
 <pattern>_ TOO HOT TO HOLD *</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
 
 
-<!--renew 2hots-->
+<!--RENEW 2H-->
 
 <category>
-<pattern>RENEW2HOT2HOLD</pattern>
+<pattern>RNW2H</pattern>
 <template>Copies of our most popular titles may be marked "2 Hot 2 Hold." This means that a hold may not be placed on that copy nor may it be renewed.
 We want to keep a number of copies of the most popular titles available for our walk-in customers. If a "2 Hot 2 Hold" item is available, it should be on its display.
 </template>
 </category>
 
+
 <category>
 <pattern>RENEW 2HOT2HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW * 2HOT2HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW 2HOT2HOLD * </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW * 2HOT2HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW * 2HOT2HOLD *</pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW * 2HOT2HOLD *</pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW 2 HOT 2 HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW * 2 HOT 2 HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW 2 HOT 2 HOLD * </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
+<template><srai>RNW2H</srai>
 </template>
 </category>
 
 <category>
 <pattern>* RENEW * 2 HOT 2 HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW * 2 HOT 2 HOLD *</pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW * 2 HOT 2 HOLD *</pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW TOO HOT TO HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW * TOO HOT TO HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW TOO HOT TO HOLD * </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW * TOO HOT TO HOLD </pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>RENEW * TOO HOT TO HOLD *</pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
 
 <category>
 <pattern>* RENEW * TOO HOT TO HOLD *</pattern>
-<template><srai>RENEW2HOT2HOLD</srai>
-</template>
+<template><srai>RNW2H</srai></template>
 </category>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <category>
 <pattern>TO HOT TO HOLD</pattern>
-<template><srai>2HOT2HOLD</srai>
-</template>
+<template><srai>2H2H</srai></template>
 </category>
-
-
-
-
-
-
-
 
 </aiml>

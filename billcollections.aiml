@@ -119,86 +119,73 @@
 
 <category>
   <pattern>in collections</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>* in collections</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>* in collections *</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>in collections *</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>in collection</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>* in collection</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>* in collection *</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
   <pattern>in collection *</pattern>
-  <template><srai>don't pay</srai></template>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <!--do not pay-->
 
 <category>
-  <pattern>DON'T PAY</pattern>
+  <pattern>DNTPAY</pattern>
   <template>If your fines are more than $5.00, you will not be able to check out materials or use the computers. If your fines are over $25.00, we'll mail you a bill. If your account is still over $25.00 after 10 days, your account will go to collections. You can read more about the billing process <a href="http://www.mentorpl.org/fines.html" target="_blank"><b>here</b></a>.
  </template>
 </category>
 
 <category>
-  <pattern>* don't pay</pattern>
-  <template><srai>don't pay</srai></template>
+  <pattern>DO NOT PAY</pattern>
+  <template>If your fines are more than $5.00, you will not be able to check out materials or use the computers. If your fines are over $25.00, we'll mail you a bill. If your account is still over $25.00 after 10 days, your account will go to collections. You can read more about the billing process <a href="http://www.mentorpl.org/fines.html" target="_blank"><b>here</b></a>.
+ </template>
 </category>
 
 <category>
-  <pattern>* don't pay *</pattern>
-  <template><srai>don't pay</srai></template>
+  <pattern>* DO NOT PAY</pattern>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
-  <pattern>don't pay *</pattern>
-  <template><srai>don't pay</srai></template>
+  <pattern>* DO NOT PAY *</pattern>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
 <category>
-  <pattern>do not pay</pattern>
-  <template><srai>don't pay</srai></template>
+  <pattern>DO NOT PAY *</pattern>
+  <template><srai>DNTPAY</srai></template>
 </category>
 
-<category>
-  <pattern>* do not pay</pattern>
-  <template><srai>don't pay</srai></template>
-</category>
-
-<category>
-  <pattern>* do not pay *</pattern>
-  <template><srai>don't pay</srai></template>
-</category>
-
-<category>
-  <pattern>do not pay *</pattern>
-  <template><srai>don't pay</srai></template>
-</category>
 
 <category>
 <pattern>* JAIL * FINES</pattern>

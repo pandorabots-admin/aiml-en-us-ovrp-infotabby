@@ -16,15 +16,12 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
-
 <category>
 <pattern>* RELIGION</pattern>
 <template>
 <srai>YOURRELIGION</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>MY NAME IS GOD</pattern>

@@ -11592,15 +11592,6 @@
 </template>
 </category>
 
-
-<category>
-<pattern>WHERE DO YOU *</pattern>
-<template>
-<srai>where are you</srai>
-</template>
-</category>
-
-
 <category>
 <pattern>WHERE IS THERE</pattern>
 <template>

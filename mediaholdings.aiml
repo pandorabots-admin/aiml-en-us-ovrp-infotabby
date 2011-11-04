@@ -46,325 +46,330 @@ If you need help finding media at one of our branches, please ask one of the sta
 <!--audiobooks-->
 
 <category>
-  <pattern>AUDIOBOOKS</pattern>
+  <pattern>AUDBKS</pattern>
   <template>At this time we do not have downloadable audiobooks. We have e Books for you to download using <a href="http://mentor.lib.overdrive.com/" target="_blank"><b>Overdrive</b></a>. We do have a large collection of audiobooks on CD. Try looking in our <a href="http://catalog.mentorpl.org/" target="_blank"><b>catalog</b></a> for a specific title,
   or enter the keyword "audiobook." You can see a list of our newest audiobooks <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>AUDIOBOOKS</pattern>
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIOBOOKS </pattern>
-  <template><srai>AUDIOBOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIOBOOKS *</pattern>
-  <template><srai>AUDIOBOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>AUDIOBOOKS *</pattern>
-  <template><srai>AUDIOBOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>AUDIOBOOK</pattern>
-  <template><srai>AUDIOBOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIOBOOK</pattern>
-  <template><srai>AUDIOBOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIOBOOK *</pattern>
-  <template><srai>AUDIOBOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>AUDIOBOOK *</pattern>
-  <template><srai>AUDIOBOOKS</srai> 
- </template>
-</category>
-
-<category>
-  <pattern>AUDIO BOOKS</pattern>
-  <template>At this time we do not have downloadable audiobooks. We have e Books for you to download using <a href="http://mentor.lib.overdrive.com/" target="_blank"><b>Overdrive</b></a>. We do have a large collection of audiobooks on CD. Try looking in our <a href="http://catalog.mentorpl.org/" target="_blank"><b>catalog</b></a> for a specific title,
-  or enter the keyword "audiobook." You can see a list of our newest audiobooks <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>here</b></a>.
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIO BOOKS</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIO BOOKS *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>AUDIO BOOKS *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>AUDIO BOOK</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIO BOOK</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* AUDIO BOOK *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>AUDIO BOOK *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>BOOKS ON CD</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* BOOKS ON CD</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* BOOKS ON CD *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>BOOKS ON CD *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>BOOK ON CD</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* BOOK ON CD</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* BOOK ON CD *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>BOOK ON CD *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>SPOKEN RECORDS</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* SPOKEN RECORDS</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* SPOKEN RECORDS *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>SPOKEN RECORDS *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>SPOKEN RECORD</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* SPOKEN RECORD</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>* SPOKEN RECORD *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <category>
   <pattern>SPOKEN RECORD *</pattern>
-  <template><srai>AUDIO BOOKS</srai> 
+  <template><srai>AUDBKS</srai> 
  </template>
 </category>
 
 <!--book kits-->
 
 <category>
-  <pattern>KITS</pattern>
+  <pattern>BKDISCKTS</pattern>
   <template>You can find a list of our book discussion kits <a href="http://catalog.mentorpl.org/search/X?SEARCH=book+discussion+kits&amp;SORT=D&amp;searchscope=12" target="_blank"><b>here</b></a>. If the title you're looking for
   isn't on this list, our Reference Librarians may be able to order multiple copies from Search Ohio. Please call the library during regular business hours at 440.255.8811 for assistance. 
  </template>
 </category>
 
 <category>
+  <pattern>KITS</pattern>
+<template><srai>BKDISCKTS</srai>
+ </template>
+</category>
+
+<category>
   <pattern>* KITS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>KIT</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* KIT</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOK CLUB BOOKS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOK CLUB BOOKS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOK CLUB BOOKS *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOK CLUB BOOKS *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOKS IN A BAG</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOKS IN A BAG</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOKS IN A BAG *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOKS IN A BAG *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOKS IN BAGS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOKS IN BAGS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOKS IN BAGS *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOKS IN BAGS *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOK CLUB BAGS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOK CLUB BAGS</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>BOOK CLUB BAGS *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* BOOK CLUB BAGS *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
 <category>
   <pattern>* MULTIPLE COPIES *</pattern>
-<template><srai>KITS</srai>
+<template><srai>BKDISCKTS</srai>
  </template>
 </category>
 
@@ -374,47 +379,6 @@ If you need help finding media at one of our branches, please ask one of the sta
   <pattern>BLRY</pattern>
   <template>We now have Blu Ray discs. Here is a <a href="http://catalog.mentorpl.org/search/c?SEARCH=blu-rayandsortdropdown=-andsearchscope=12" target="_blank"><b>list</b></a>.
  </template>
-</category>
-
-
-<category>
-  <pattern>Blu-Ray</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>* Blu-Ray</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>* Blu-Ray *</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>Blu-Ray *</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>blu-rays</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>* blu-rays</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>* blu-rays *</pattern>
-  <template><srai>BLRY</srai></template>
-</category>
-
-<category>
-  <pattern>blu-rays *</pattern>
-  <template><srai>BLRY</srai></template>
 </category>
 
 <category>
@@ -559,85 +523,90 @@ If you need help finding media at one of our branches, please ask one of the sta
 </category>
 
 <category>
-  <pattern>criss-cross</pattern>
-  <template>We have Haines directories, criss-cross directories, for Lake and Geauga Counties and for Cleveland. These directories are for library use only, they maynot be checked out.
+  <pattern>HNSDIR</pattern>
+  <template>We have Haines directories, CRISS CROSS directories, for Lake and Geauga Counties and for Cleveland. These directories are for library use only, they maynot be checked out.
   </template>
 </category>
 
 <category>
-  <pattern>* criss-cross</pattern>
-  <template><srai>criss-cross</srai></template>
+  <pattern>CRISS CROSS</pattern>
+ <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>* criss-cross *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <pattern>* CRISS CROSS</pattern>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>criss-cross *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <pattern>* CRISS CROSS *</pattern>
+  <template><srai>HNSDIR</srai></template>
+</category>
+
+<category>
+  <pattern>CRISS CROSS *</pattern>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>criss cross</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>* criss cross</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>* criss cross *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>criss cross *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 
 
 <category>
   <pattern>haines directory</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>* haines directory</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>* haines directory *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>haines directory *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>haines directories</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>* haines directories</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
   <pattern>* haines directories *</pattern>
-  <template><srai>criss-cross</srai></template></category>
+  <template><srai>HNSDIR</srai></template></category>
 
 <category>
   <pattern>haines directories *</pattern>
-  <template><srai>criss-cross</srai></template>
+  <template><srai>HNSDIR</srai></template>
 </category>
 
 
@@ -646,150 +615,180 @@ If you need help finding media at one of our branches, please ask one of the sta
 <!--MICROFORMS-->
 
 <category>
-  <pattern>MICROFORM</pattern>
+  <pattern>MCROFRM</pattern>
   <template>Our library does not have any materials on microform or microfiche. If you're looking for old newspapers, try
   the <a href="http://www.morleylibrary.org" target="_blank"><b>Morley Library</b></a> or <a href="http://lakelandcc.edu/library/" target="_blank"><b>Lakeland Community College Library</b></a>.</template>
 </category>
 
 <category>
+  <pattern>MICROFORM</pattern>
+  <template><srai>MCROFRM</srai></template>
+</category>
+
+<category>
   <pattern>* MICROFORM</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFORM *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFORM *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 
 <category>
   <pattern>MICROFORMS</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 
 <category>
   <pattern>* MICROFORMS</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFORMS *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFORMS *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 
 <category>
   <pattern>MICROFILM</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFILM</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFILM *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFILM *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFILMS</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFILMS</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFILMS *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFILMS *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFICHE</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFICHE</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>* MICROFICHE *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <category>
   <pattern>MICROFICHE *</pattern>
-  <template><srai>MICROFORM</srai></template>
+  <template><srai>MCROFRM</srai></template>
 </category>
 
 <!--newspaper holdings-->
 
 <category>
-<pattern>CLEVELANDPLAINDEALER</pattern>
+<pattern>CLEVEPD</pattern>
 <template>Do you mean "Cleveland Plain Dealer?" We have a subscription, so we have the current issue and 11 months worth of back issues.</template>
 </category>
 
 <category>
-<pattern>NEWS HERALD</pattern>
+<pattern>LCNH</pattern>
 <template>We have the current issue and 11 months worth of back issues. We do not maintain a newspaper archive. You can try checking their website:
 <a href="http://www.news-herald.com/" target="_blank"><b>www.news-herald.com</b></a></template>
+</category>
+
+<category>
+<pattern>NEWS HERALD</pattern>
+<template><srai>LCNH</srai></template>
 </category>
 
 <category>
 <pattern>* NEWS HERALD</pattern>
-<template>We have the current issue and 11 months worth of back issues. We do not maintain a newspaper archive. You can try checking their website:
-<a href="http://www.news-herald.com/" target="_blank"><b>www.news-herald.com</b></a></template>
+<template><srai>LCNH</srai></template>
 </category>
 
 <category>
 <pattern>NEWS HERALD *</pattern>
-<template>We have the current issue and 11 months worth of back issues. We do not maintain a newspaper archive. You can try checking their website:
-<a href="http://www.news-herald.com/" target="_blank"><b>www.news-herald.com</b></a></template>
+<template><srai>LCNH</srai></template>
+</category>
+
+<category>
+<pattern>* NEWS HERALD *</pattern>
+<template><srai>LCNH</srai></template>
+</category>
+
+<category>
+<pattern>LAKE COUNTY NEWS HERALD</pattern>
+<template><srai>LCNH</srai></template>
+</category>
+
+<category>
+<pattern>* LAKE COUNTY NEWS HERALD</pattern>
+<template><srai>LCNH</srai></template>
+</category>
+
+<category>
+<pattern>LAKE COUNTY NEWS HERALD *</pattern>
+<template><srai>LCNH</srai></template>
+</category>
+
+<category>
+<pattern>* LAKE COUNTY NEWS HERALD *</pattern>
+<template><srai>LCNH</srai></template>
 </category>
 
 <category>
 <pattern>NEWSHERALD</pattern>
-<template>We have the current issue and 11 months worth of back issues. We do not maintain a newspaper archive. You can try checking their website:
-<a href="http://www.news-herald.com/" target="_blank"><b>www.news-herald.com</b></a></template>
+<template><srai>LCNH</srai></template>
 </category>
 
 <category>
 <pattern>* NEWSHERALD</pattern>
-<template>We have the current issue and 11 months worth of back issues. We do not maintain a newspaper archive. You can try checking their website:
-<a href="http://www.news-herald.com/" target="_blank"><b>www.news-herald.com</b></a></template>
+<template><srai>LCNH</srai></template>
 </category>
 
 <category>
 <pattern>* NEWSHERALD *</pattern>
-<template>We have the current issue and 11 months worth of back issues. We do not maintain a newspaper archive. You can try checking their website:
-<a href="http://www.news-herald.com/" target="_blank"><b>www.news-herald.com</b></a></template>
+<template><srai>LCNH</srai></template>
 </category>
 
 <category>
@@ -861,6 +860,7 @@ If you need help finding media at one of our branches, please ask one of the sta
 <category>
 <pattern>PLWYVW</pattern>
 <template>Playaway View is a simple idea for young children to watch educational and entertaining videos on the go. Each Playaway View comes with the video content already pre-loaded on it. Earphones are not required. You can check out Playaway Views for two weeks; you can renew and request them, too.  
+Due to high demand, you may only check out one Playaway View at a time so others may have a chance to enjoy them.
 Check our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Kid's Page</b></a> for more information
 or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searchtype=X&amp;searcharg=playaway+view" target="_blank"><b>list of titles</b></a>.
 </template>
@@ -952,111 +952,126 @@ or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searc
 
 <!--PHONEBOOKS-->
 
+<category>
+  <pattern>PHNBKS</pattern>
+  <template>We have phone books for many counties in Northeast Ohio. We have Haines directories, CRISS CROSS directories, for Lake and Geauga Counties and for Cleveland. You might like to try this <a href="http://www.theultimates.com/"><b>online phonebook</b></a>.
+ </template>
+</category>
+
+
 
 <category>
   <pattern>phone book</pattern>
-  <template>We have phone books for many counties in Northeast Ohio. We have Haines directories, criss-cross directories, for Lake and Geauga Counties and for Cleveland. You might like to try this <a href="http://www.theultimates.com/"><b>online phonebook</b></a>.
- </template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>* phone book</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>* phone book *</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>phone book *</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>phone books</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>* phone books</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>* phone books *</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
   <pattern>phone books *</pattern>
-  <template><srai>phone book</srai></template>
+  <template><srai>PHNBKS</srai></template>
 </category>
 
-
 <category>
-  <pattern>reference book</pattern>
+  <pattern>REFBKS</pattern>
   <template>At the Main Library, reference materials are shelved separately. Please ask one of the library staff if you need help finding them. 
   Reference materials do not circulate. You cannot check them out. You are welcome to xerox the pages you need.
  </template>
 </category>
 
 <category>
+  <pattern>reference book</pattern>
+  <template><srai>REFBKS</srai></template>
+</category>
+
+<category>
   <pattern>* reference book</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
   <pattern>* reference book *</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
   <pattern>reference book *</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
   <pattern>reference books</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
   <pattern>* reference books</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
   <pattern>* reference books *</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
   <pattern>reference books *</pattern>
-  <template><srai>reference book</srai></template>
+  <template><srai>REFBKS</srai></template>
 </category>
 
 <!--software-->
 
 <category>
-<pattern>SOFTWARE</pattern>
+<pattern>SFTWR</pattern>
 <template>We have very little circulating software, a few games and some language instruction. We do not have any Microsoft or Adobe products for you to check out, but we do have Office 2003 on our public computers for you to use in the library.</template>
 </category>
 
 <category>
+<pattern>SOFTWARE</pattern>
+<template><srai>SFTWR</srai></template>
+</category>
+
+<category>
 <pattern> * SOFTWARE</pattern>
-<template><srai>SOFTWARE</srai></template>
+<template><srai>SFTWR</srai></template>
 </category>
 
 <category>
 <pattern>SOFTWARE *</pattern>
-<template><srai>SOFTWARE</srai></template>
+<template><srai>SFTWR</srai></template>
 </category>
 
 <category>
 <pattern> * SOFTWARE *</pattern>
-<template><srai>SOFTWARE</srai></template>
+<template><srai>SFTWR</srai></template>
 </category>
 
 
@@ -1214,23 +1229,28 @@ catalog</b></a>.</template>
 </category>
 
 <category>
-  <pattern>ROSETTA</pattern>
+  <pattern>RSTTA</pattern>
   <template>We do not have any Rosetta Stone language instruction materials. </template>
 </category>
 
 <category>
+  <pattern>ROSETTA</pattern>
+  <template><srai>RSTTA</srai></template>
+</category>
+
+<category>
   <pattern>* ROSETTA</pattern>
-  <template><srai>ROSETTA</srai></template>
+  <template><srai>RSTTA</srai></template>
 </category>
 
 <category>
   <pattern>* ROSETTA *</pattern>
-  <template><srai>ROSETTA</srai></template>
+  <template><srai>RSTTA</srai></template>
 </category>
 
 <category>
   <pattern>ROSETTA *</pattern>
-  <template><srai>ROSETTA</srai></template>
+  <template><srai>RSTTA</srai></template>
 </category>
 
 
@@ -1314,10 +1334,6 @@ catalog</b></a>.</template>
   <pattern>OLD VIDEOS *</pattern>
     <template><srai>VHS</srai></template>
 </category>
-
-
-
-
 
 <category>
   <pattern>VCR</pattern>
@@ -1602,264 +1618,258 @@ them back to the library to be opened.</template>
 <!--where are the movies-->
 
 <category>
-<pattern>MOVIE SECTION</pattern>
+<pattern>MEDRM</pattern>
 <template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
 please ask one of the humans that are working there.</template>
+</category>
+
+<category>
+<pattern>MOVIE SECTION</pattern>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>* MOVIE SECTION</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>MOVIE SHELVES</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>* MOVIE SHELVES</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>DVD SECTION</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>* DVD SECTION</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>DVD SHELVES</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
 <pattern>* DVD SHELVES</pattern>
-<template>When you are in the Main Library, all media is in the ground floor Media Room. If you are at one of the Branches,
-please ask one of the humans that are working there.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 <category>
-<pattern>OLD MAGAZINE</pattern>
+<pattern>OLDMAGS</pattern>
 <template>We usually back issues of magazines for one year. After that, they are given to the Friends for sale or placed on the free cart in the Main Library 
 lobby. We cannot hold or mark back issues of magazines or newspapers for you to purchase when they are deselected.</template>
 </category>
 
 <category>
+<pattern>OLD MAGAZINE</pattern>
+<template><srai>OLDMAGS</srai></template>
+</category>
+
+<category>
 <pattern>* OLD MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>BACK ISSUE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* BACK ISSUE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>BACK ISSUES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* BACK ISSUES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD ISSUE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD ISSUE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD ISSUES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD ISSUES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>PAST ISSUE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* PAST ISSUE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>PAST ISSUES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* PAST ISSUES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>BACK ISSUE * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* BACK ISSUE * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>BACK ISSUES * MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* BACK ISSUES * MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD ISSUE * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD ISSUE * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD ISSUES * MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD ISSUES * MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 
 <category>
 <pattern>PAST ISSUE * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* PAST ISSUE * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>PAST ISSUES * MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* PAST ISSUES * MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
-
-
-
-
-
 
 <category>
 <pattern>OLD COPY</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD COPY</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD COPIES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD COPIES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>OLD COPIES * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* OLD COPIES * MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
-<pattern>OLD COPIES OF MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<pattern>OLD COPIES * MAGAZINES</pattern>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
-<pattern>* OLD COPIES OF MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<pattern>* OLD COPIES * MAGAZINES</pattern>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>COPY * OLD MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* COPY * OLD MAGAZINE</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>COPIES * OLD MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
 <category>
 <pattern>* COPIES * OLD MAGAZINES</pattern>
-<template><srai>OLD MAGAZINE</srai></template>
+<template><srai>OLDMAGS</srai></template>
 </category>
 
- <category>
-<pattern>WHERE * TEEN MAGAZINES</pattern>
-<template>At the Main Library, adult and teen magazines are on the shelves near the Media Room. Children's magazines are in the Children's Department on the second floor.</template>
-</category>
 
 <category>
 <pattern>WHERE * MAGAZINES</pattern>
@@ -1868,7 +1878,7 @@ lobby. We cannot hold or mark back issues of magazines or newspapers for you to 
 
 <category>
 <pattern>WHERE * DVDS</pattern>
-<template>In the Main Library, the DVDs are in the Media Room.</template>
+<template><srai>MEDRM</srai></template>
 </category>
 
 
@@ -1924,7 +1934,7 @@ If you are looking for a current textbook, please contact our reference departme
 <!--YEARBOOKS-->
 
 <category>
-<pattern>YEARBOOK</pattern>
+<pattern>YRBKS</pattern>
 <template>We have an in complete set of Mentor High School Yearbooks at the Main Library. They are for library use only, they may not be checked out. I'll open our catalog for you. If you
 don't see it, turn off your popup blocker and ask me again.
 <think>
@@ -1935,84 +1945,90 @@ don't see it, turn off your popup blocker and ask me again.
 </category>
 
 <category>
+<pattern>YEARBOOK</pattern>
+<template><srai>YRBKS</srai>
+</template>
+</category>
+
+<category>
 <pattern>* YEARBOOK</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* YEARBOOK *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>YEARBOOK *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>YEARBOOKS</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* YEARBOOKS</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* YEARBOOKS *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>YEARBOOKS *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>CLASS BOOK</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* CLASS BOOK</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* CLASS BOOK *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>CLASS BOOK *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>CLASS BOOKS</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* CLASS BOOKS</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>* CLASS BOOKS *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>CLASS BOOKS *</pattern>
-<template><srai>YEARBOOK</srai></template>
+<template><srai>YRBKS</srai></template>
 </category>
 
 <category>
 <pattern>VIRTITEMS</pattern>
-<template>Our library offers downloadable music through Freegal and will have downloadable ePubs through Overdrive.
-To use either of these services you need to have a Mentor Public Library card in good standing. You cannot get a card online at this time.</template>
+<template>Our library offers downloadable music through <a href="https://www.freegalmusic.com/users/indlogin" target="_blank"><b>Freegal</b></a> and will have downloadable ePubs through <a href="http://mentor.lib.overdrive.com/" target="_blank"><b>Overdrive</b></a>.
+To use either of these services you need to have a Mentor Public Library card in good standing. You can also get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary library card online</b></a>.</template>
 </category>
 
 <category>
@@ -2060,7 +2076,8 @@ To use either of these services you need to have a Mentor Public Library card in
 <category>
 <pattern>FICDVD</pattern>
 <template>Fiction DVDs are about imaginary things: imaginary people, imaginary events, imaginary places and imaginary writing. Most feature films are examples of fiction DVDs.
-Nonfiction DVDs are about real things: real people, real events, real places and real writing. Documentaries are examples of nonfiction DVDs.</template>
+Nonfiction DVDs are about real things: real people, real events, real places and real writing. Documentaries are examples of nonfiction DVDs. At the Main Library,
+all DVDs are in the ground floor Media Room. If your looking for them at one of our branches, ask one of the staff for assistance.</template>
 </category>
 
 <category>
@@ -2152,76 +2169,5 @@ Nonfiction DVDs are about real things: real people, real events, real places and
 <pattern>* NON FICTION * DVDS</pattern>
 <template><srai>FICDVD</srai></template>
 </category>
-
-<!--fic vs nonfic-->
-
-
-<category>
-<pattern>FICNONFIC</pattern>
-<template>Fiction is about imaginary things: imaginary people, imaginary events, imaginary places and imaginary writing. 
-Nonfiction is about real things: real people, real events, real places and real writing.</template>
-</category>
-
-<category>
-<pattern>FICTION</pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>FICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>* FICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>* FICTION * </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>NONFICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>NONFICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>* NONFICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>* NONFICTION * </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>NON FICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>NON FICTION </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>* NON FICTION</pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-<category>
-<pattern>* NON FICTION * </pattern>
-<template><srai>FICNONFIC</srai></template>
-</category>
-
-
 
 </aiml>

@@ -184,154 +184,115 @@ Nooks and i Pads are the only exception and must be returned to the Main Library
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* ANOTHER</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>ANOTHER *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* ANOTHER *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-
-<topic name="RTNSQ">
 <category>
 <pattern>BRANCH</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BRANCH</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>BRANCH *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BRANCH *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>BRANCHES</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BRANCHES</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>BRANCHES *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BRANCHES *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>SAME</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* SAME</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>SAME *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* SAME *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>WHERE</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* WHERE</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>WHERE *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTNLOC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* WHERE *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
@@ -377,182 +338,185 @@ Nooks and i Pads are the only exception and must be returned to the Main Library
 <!--rental dvds games-->
 
 <category>
-  <pattern>Blockbuster</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>* Blockbuster</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>* Blockbuster *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>Blockbuster *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>hollywood video</pattern>
-   <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>* hollywood video</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>* hollywood video *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>hollywood video *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>video store</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>* video store</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>* video store *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>video store *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-
-<category>
-  <pattern>rental dvd</pattern>
+  <pattern>RNTLDVDS</pattern>
   <template>If you return rental DVDs and games (from Hollywood Video, Blockbuster, etc.) to Mentor Public Library, we will keep them behind the circulation desk for two weeks for you to pick up. We cannot keep these items beyond two weeks due to lack of space. The library is not able to return rental DVDs and games for you.
  </template>
 </category>
 
+
+<category>
+  <pattern>Blockbuster</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* Blockbuster</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* Blockbuster *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>Blockbuster *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>hollywood video</pattern>
+   <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* hollywood video</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* hollywood video *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>hollywood video *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>video store</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* video store</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* video store *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>video store *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>rental dvd</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
 <category>
   <pattern>* rental dvd</pattern>
-  <template><srai>rental dvd</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* rental dvd *</pattern>
-  <template><srai>rental dvd</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>rental dvd *</pattern>
-  <template><srai>rental dvd</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>rented dvd</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* rented dvd</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* rented dvd *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>rented dvd *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>dvd i rented</pattern>
-   <template><srai>RENTAL DVD</srai></template>
+  <pattern>dvd * rented</pattern>
+   <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* dvd i rented</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>* dvd * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* dvd i rented *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>* dvd * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>dvd i rented *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
-</category>
-<category>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>dvd * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* rented game</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>* rented game *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
   <pattern>rented game *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>game i rented</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>game * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* game i rented</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>* game * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* game i rented *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>* game * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>game i rented *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>game * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>videogame i rented</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>videogame * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* videogame i rented</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>* videogame * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>* videogame i rented *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>* videogame * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 <category>
-  <pattern>videogame i rented *</pattern>
-  <template><srai>RENTAL DVD</srai></template>
+  <pattern>videogame * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
 </category>
 
 
@@ -564,58 +528,43 @@ Nooks and i Pads are the only exception and must be returned to the Main Library
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* CLAIMS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>CLAIMS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* CLAIMS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-
-<topic name="RTNSQ">
 <category>
 <pattern>CLAIMED</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* CLAIMED</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>CLAIMED *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>CLMSRET</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* CLAIMED *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
@@ -663,25 +612,19 @@ during regular business hours or email us a askalibrarian@mentorpl.org.</templat
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTRNONREC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* STILL ON</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTRNONREC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>STILL ON *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>RTRNONREC</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* STILL ON *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
@@ -732,185 +675,139 @@ Nooks and i Pads must be returned to the Main Library Computer Help Desk.
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ IPAD</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>IPAD *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ IPAD *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>I PAD</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ I PAD</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>I PAD *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ I PAD *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>IPADS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ IPADS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>IPADS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ IPADS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>I PADS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ I PADS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>I PADS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ I PADS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>NOOK</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ NOOK</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>NOOK *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ NOOK *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
-
-<topic name="RTNSQ">
+>
 <category>
 <pattern>NOOKS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ NOOKS</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>NOOKS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
 <template><srai>DRPYN</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>_ NOOKS *</pattern>
 <that>WHAT *  ABOUT RETURNS</that>
@@ -1845,107 +1742,77 @@ drop for your items. </template>
 <pattern>BOOK DROP</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BOOK DROP</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>BOOK DROP *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BOOK DROP *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>BOOK DROPS</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BOOK DROPS</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>BOOK DROPS *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* BOOK DROPS *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>DROP BOX</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* DROP BOX</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>DROP * BOX</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>DROP BOX *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* DROP * BOX</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>DROP * BOX *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* DROP BOX *</pattern>
 <template><srai>BKDRPS</srai></template>
 </category>  
-</topic>
 
-<topic name="RTNSQ">
 <category>
 <pattern>* DROP * BOX *</pattern>
 <template><srai>BKDRPS</srai></template>

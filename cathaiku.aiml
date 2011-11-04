@@ -16,9 +16,12 @@
   limitations under the License.-->
   
   
-  <category>
+<category>
 <pattern>HAIKU</pattern>
-<template>I find your human poetry fascinating, especially cowboy poetry and haiku. I write cowboy poetry and am studying the great masters of haiku. Would you like to hear one of my favorite haiku?</template>
+<template>I find your human poetry fascinating, especially cowboy poetry and haiku. I write cowboy poetry and am studying the great masters of haiku. 
+<br/>
+Can I recite one of my favorite haiku for you?
+</template>
 </category> 
 
 <category>
@@ -37,12 +40,100 @@
 </category> 
 
 <category>
-<pattern> * </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY FAVORITE HAIKU</that>
+<pattern>OK</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
 <template><srai>CATHAIKU</srai></template>
 </category>
-  
-  
+
+<category>
+<pattern>_ OK</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>OK *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ OK *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>PLEASE</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ PLEASE</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>PLEASE *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ PLEASE *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>SURE</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ SURE</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>SURE *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ SURE *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ YES</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
+
+<category>
+<pattern>_ YES *</pattern>
+<that>CAN I RECITE * FAVORITE HAIKU FOR YOU</that>
+<template><srai>CATHAIKU</srai></template>
+</category>
   
   
   

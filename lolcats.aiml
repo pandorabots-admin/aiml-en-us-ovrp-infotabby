@@ -17,7 +17,6 @@
   limitations under the License.-->
 
 
-
 <category>
 <pattern>LOLCATS</pattern> 
 <template>One of my favorite websites. Please turn off your pop-up blocker while I open it for you. Excuse me a moment. Don't mind if I talk to myself a little............ <script language="JavaScript">setPlayerVolume (0);</script><script language="JavaScript">var myWindow =window.open('http://icanhascheezburger.com/');</script> </template>
@@ -57,8 +56,6 @@
 <pattern>LOL CATS *</pattern>
 <template><srai>LOLCATS</srai></template>
 </category>
-
-
 
 
 </aiml>

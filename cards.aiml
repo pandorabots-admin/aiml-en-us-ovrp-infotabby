@@ -1041,6 +1041,45 @@ is lost or stolen. If you're getting a message that your card is going to expire
   <template><srai>GTCRD</srai></template>
 </category>
 
+<category>
+  <pattern>MEMBERSHIP</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>* MEMBERSHIP</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>MEMBERSHIP *</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>* MEMBERSHIP *</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>MEMBERSHIPS</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>* MEMBERSHIPS</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>MEMBERSHIPS *</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
+
+<category>
+  <pattern>* MEMBERSHIPS *</pattern>
+  <template><srai>GTCRD</srai></template>
+</category>
 
 <!--get card online-->
 
@@ -2679,6 +2718,45 @@ Replacement cards are not available online.
 <pattern>* library * live in *</pattern>
 <template><srai>OUTSDMNTR</srai></template>
 </category>
+
+<!--CO WO CARD-->
+
+<category>
+<pattern>COWOCRD</pattern>
+<template>A library card is needed to check out materials. You cannot check out items using the number only, or with a driver's license or other ID.</template>
+</category>
+
+<category>
+<pattern>* DO NOT * CARD * OUT</pattern>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT * CARD * OUT *</pattern>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT * CARD * NUMBER</pattern>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* DO NOT * CARD * NUMBER *</pattern>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* WITHOUT * CARD</pattern>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+<category>
+<pattern>* WITHOUT * CARD *</pattern>
+<template><srai>COWOCRD</srai></template>
+</category>
+
+
 
 
 </aiml>

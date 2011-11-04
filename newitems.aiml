@@ -438,7 +438,6 @@ Would you like to make a purchase request?</template>
 <template><srai>NWCDS</srai></template>
 </category>
 
-
 <!--NEW DVDS-->
 
 <category>
@@ -448,7 +447,6 @@ or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib13%2C1%2C0%2C56/mo
 these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
 Would you like to make a purchase request?</template>
 </category>
-
 
 <category>
 <pattern>NEW DVD</pattern>
@@ -609,8 +607,6 @@ Would you like to make a purchase request?</template>
 <pattern>* NEW * MOVIES *</pattern>
 <template><srai>NWDVDS</srai></template>
 </category>
-
-
 
 <!--NEW CHILDREN'S-->
 
@@ -1112,7 +1108,6 @@ Would you like to make a purchase request?</template>
 <template><srai>NWYA</srai></template>
 </category>
 
-
 <!--NEW BOOKS-->
 
 <category>
@@ -1122,7 +1117,6 @@ or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib24%2C1%2C0%2C56/mo
 these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
 Would you like to make a purchase request?</template>
 </category>
-
 
 <category>
 <pattern>NEW BOOK</pattern>

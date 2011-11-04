@@ -17,7 +17,6 @@
   limitations under the License.-->
 
 
-
 <category>
 <pattern>SERIES</pattern>
 <template>I don't know every book in every series, but here's a website that can help you: <a href="http://ww2.kdl.org/libcat/whatsnext.asp" target="_blank"><b>KDL What's Next?</b></a></template>
