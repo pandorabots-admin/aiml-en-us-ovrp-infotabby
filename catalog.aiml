@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<!--CATALOGS-->
+
+<category>
+<pattern>OPNMPLCAT</pattern>
+<template>
+I'll open it for you. If you don't see our catalog, please turn off your pop-up blocker and ask me again.  
+Our catalog will open as a new window, or possibly as a new tab, depending on your browser settings.
+<think>
+<set name="search">mplcat</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>OPEN CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* LIBRARY CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* LIBRARY S CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<!--Where is the SO catalog-->
+
+<category>
+<pattern>OPNSOCAT</pattern>
+<template>
+I'll open it for you. If you don't see our catalog, please turn off your pop-up blocker and ask me again.  
+Our catalog will open as a new window, or possibly as a new tab, depending on your browser settings.
+<think>
+<set name="search">searchohiocat</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>WHERE * SEARCH OHIO CATALOG</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * SEARCH OHIO CATALOG</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SEARCHOHIO CATALOG</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * SEARCHOHIO CATALOG</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * CATALOG * SEARCH OHIO</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * CATALOG * SEARCH OHIO</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>WHERE  * CATALOG * SEARCHOHIO</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<category>
+<pattern>* WHERE * CATALOG * SEARCHOHIO</pattern>
+<template><srai>OPNSOCAT</srai></template>
+</category>
+
+<!--HOW DO I SEARCH THE CATALOG-->
+
+<category>
+<pattern>SRCHMPLCAT</pattern>
+<template>I suggest starting with a keyword search. Enter what you're looking for in a few words and press "submit."
+Follow this link if you'd like help <a href="http://catalog.mentorpl.org/help" target="_blank"><b>using our catalog</b></a>.
+<br/>
+I'll open the catalog for you. If you don't see it, please turn off your pop-up blocker and ask me again.  
+Our catalog will open as a new window, or possibly as a new tab, depending on your browser settings.
+<think>
+<set name="search">mplcat</set>
+</think></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * SEARCH * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * SEARCH * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * FIND * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * FIND * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * FIND * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>HOW * USE * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE * CATALOG</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOW * USE * CATALOG *</pattern>
+<template><srai>SRCHMPLCAT</srai></template>
+</category>
+
+<!--DESCRIPTION OF ITEMS-->
+
+<category>
+<pattern>ITMDESC</pattern>
+<template>You can get a basic description of each item in the item's record. The item record will have information such as
+the author, title, place and date of publication, size, ISBN, etc.
+</template>
+</category>
+
+<category>
+<pattern>* DESCRIPTION * BOOK</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+<category>
+<pattern>* DESCRIPTION * BOOKS</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+
+<category>
+<pattern>* DESCRIPTION * BOOK *</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+<category>
+<pattern>* DESCRIPTION * BOOKS *</pattern>
+<template><srai>ITMDESC</srai></template>
+</category>
+
+
+</aiml>

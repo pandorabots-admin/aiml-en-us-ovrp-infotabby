@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<!--WRAP UP-->
+
+<category>
+<pattern>0CONCL</pattern>
+<template>
+<random>
+<li>Is there anything else you'd like to ask me?</li>
+<li>Is there anything else you'd like to talk about?</li>
+<li>Is there anything else you'd like to chat about?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+<category>
+<pattern>* NO</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+<category>
+<pattern>* NO *</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+<category>
+<pattern> YES </pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>NONCONCL</srai></template>
+</category>
+
+<category>
+<pattern>_ YES </pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>NONCONCL</srai></template>
+</category>
+
+<category>
+<pattern> YES *</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>NONCONCL</srai></template>
+</category>
+
+<category>
+<pattern>_ YES *</pattern>
+<that>IS THERE ANYTHING ELSE * </that>
+<template><srai>NONCONCL</srai></template>
+</category>
+
+
+<category>
+<pattern>CONCL</pattern>
+<template>
+If you need further assistance, call the library at 440.255.8811 during regular business hours or follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to reach a live human librarian anytime, day or night.
+<br/><br/>
+<random>
+<li>Is there anything else you'd like to ask me?</li>
+<li>Is there anything else you'd like to talk about?</li>
+<li>Is there anything else you'd like to chat about?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ENDNG</pattern>
+<template>
+<random>
+<li>Very good. I'm pleased we had this conversation.</li>
+<li>This has been a most interesting conversation. Thanks!</li>
+<li>Thanks for chatting. Every interaction helps me become smarter.</li>
+<li>Thanks! Interacting with humans is fascinating. I'm learning more about you everyday.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>NONCONCL</pattern>
+<template>
+<srai>SBSQLKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template><srai>SBSQLKUP</srai></template>
+</category>
+
+<category>
+<pattern>_ YES</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template><srai>SBSQLKUP</srai></template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template><srai>SBSQLKUP</srai></template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+<category>
+<pattern>_ NO</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
+<template><srai>ENDNG</srai></template>
+</category>
+
+</aiml>
+

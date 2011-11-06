@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<!--UDC-->
+
+<category>
+<pattern>*</pattern>
+<template><srai>UDC</srai></template>
+</category>
+
+<category>
+<pattern>UDC</pattern>
+<template>
+<srai>BSYCAT</srai>
+<srai>LKUP</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>BSYCAT</pattern>
+<template>
+<random>
+<li>Just a minute. There's a ladybug on the ceiling. While I watch it...</li>
+<li>Hang on...the kittenbots got hold of a roll of tissue. What a mess!</li>
+<li>Just a moment, some bluejays are arguing outside. Wow, what a racket!</li>
+<li>The kittenbots knocked over their water. Just a moment. Now..</li>
+<li>The kittenbots are climbing up my curtains. Excuse me...O.K.</li>
+<li>I beg your pardon. One of the selfchecks had a question.</li>
+<li>I'm sorry, I was watching your mouse.</li>
+<li>Excuse me, someone else was asking a question.</li>
+<li>Sorry, I was grooming. </li>
+<li>Just a moment, there's a fly in the server room. Got him! O.K.</li>
+<li>Pardon me. One of my clones was on another line.</li>
+<li>I'm sorry, I was searching our catalog for another person. </li>
+<li>Excuse me, I was helping another person. </li>
+<li>I was grooming. Just a minute. O.K.</li>
+<li>Just a moment. One of my kittenbots was stuck under the couch. O.K.</li>
+<li>One of the kittenbots knocked over a lamp. Sorry. </li>
+<li>Pardon me. The kittenbots are making a racket. O.K.</li>
+<li>I was looking under the fridge for a piece of string. Sorry. </li>
+<li>Sorry, the selfchecks had a question.</li>
+<li>Excuse me, the selfcheck was asking a question. </li>
+<li>One of the kittenbots lost her mouse. Just a moment. O.K.</li>
+<li>Sorry, had to stretch. </li>
+<li>Sorry, there was a bird outside the window.</li>
+</random>
+</template>
+</category>
+
+
+
+
+<!--PASS SEARCH FOR LKUP-->
+
+<category>
+<pattern>LKUP</pattern>
+<template> <srai>00LKUP</srai> <srai>0LKUP</srai> just a few words, please, or my <srai>1LKUP</srai> will <srai>2LKUP</srai>. </template>
+</category>
+
+
+<category>
+<pattern>00LKUP</pattern>
+<template>
+<random>
+<li>What is it again that you're looking for?</li>
+<li>Tell me once again what you're looking for.</li>
+<li>You were looking for something.</li>
+<li>You were asking about something.</li>
+<li>What can I find for you?</li>
+<li>So, what are you looking for?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>0LKUP</pattern>
+<template>
+<random>
+<li>Tell me using</li>
+<li>Enter</li>
+<li>Type </li>
+<li>Tell me in</li>
+<li>Tell me with</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>1LKUP</pattern>
+<template>
+<random>
+<li>cat brain</li>
+<li>CPU</li>
+<li>I D E cable</li>
+<li>processor</li>
+<li>circuits</li>
+<li>RAM</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>2LKUP</pattern>
+<template>
+<random>
+<li>melt</li>
+<li>overheat</li>
+<li>overload</li>
+<li>start to twist</li>
+<li>loop</li>
+<li>get sluggish</li>
+<li>falter due to excessive recursion</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>_ JUST A FEW WORDS PLEASE OR *</that>
+<template>
+O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+All you have to do is type "yes" or "no." <br/><br/>
+First question. You entered <b><star/></b>. Is this something you want to borrow from the library? 
+<think>
+<set name="topic">1SRCH</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>1FUN</pattern>
+<template>
+<random>
+<li>It's fun, like a game.</li>
+<li>Like Twenty Questions, but a lot shorter.</li>
+<li>This is fun. </li>
+<li>This will be easy, I promise.</li>
+will be<li>This is easier than catching mice in a barrel!</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HELP * FIND</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * FIND</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>HELP * FIND * </pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * FIND *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>HELP * FINDING</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * FINDING</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>HELP * FINDING * </pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* HELP * FINDING *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK * FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK FOR *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK * FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK * FOR *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK * FOR *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+
+<category>
+<pattern>LOOKING FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKING FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKING * FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKING FOR *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKING * FOR</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKING * FOR *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKING * FOR *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKUP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKUP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKUP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKUP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK * UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK * UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOK * UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOK * UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+
+<category>
+<pattern>LOOKING UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKING UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKING * UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKING UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKING * UP</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>LOOKING * UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+<category>
+<pattern>* LOOKING * UP *</pattern>
+<template><srai>LKUP</srai></template>
+</category>
+
+
+</aiml>

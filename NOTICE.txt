@@ -26,8 +26,6 @@ friends.aiml
 guidedaccount.aiml
 guidedcard.aiml
 guidedholds.aiml
-guidedsearch.aiml
-helpmefind.aiml
 holds.aiml
 hoursdays.aiml
 ill.aiml
@@ -56,10 +54,15 @@ popups.aiml
 purchasereqs.aiml
 readersadvisory.aiml
 referencequestions.aiml
-research.aiml
 returns.aiml
 reviews.aiml
 salutations.aiml
+search0pre.aiml
+search1udc.aiml
+search2catalog.aiml
+search2info.aiml
+search3additlq.aiml
+search4concl.aiml
 series.aiml
 staff.aiml
 subjects.aiml
