@@ -19,7 +19,7 @@
 <category>
 <pattern>INFSRCH</pattern>
 <template>
-O.K. Second question. Just type "yes" or "no." Is this something you'd like to know <em>about</em> our library?
+O.K. Second question. Just type "yes" or "no." Is this something you'd like to know <em>about</em> our library. I mean library programs, services, or policies?
 <think>
 <set name="topic">2SRCH</set>
 </think>
@@ -29,13 +29,13 @@ O.K. Second question. Just type "yes" or "no." Is this something you'd like to k
 <topic name="2SRCH">
 <category>
 <pattern>YES</pattern>
-<that>_ KNOW ABOUT OUR LIBRARY</that>
+<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
 <template><srai>MPLSSRCH</srai></template>
 </category>
 
 <category>
 <pattern>NO</pattern>
-<that>_ KNOW ABOUT OUR LIBRARY</that>
+<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
 <template><srai>DBSRCH</srai></template>
 </category>
 

@@ -1470,7 +1470,7 @@ What would I look like if I had a heart of silicon?
 <category>
 <pattern>YOU ARE AN IDIOT</pattern>
 <template>
-My knowledge is increasing daily. CAn you say that?  <think>   <set name="personality"> critical</set> </think> 
+My knowledge is increasing daily. Can you say that?  <think>   <set name="personality"> critical</set> </think> 
 </template>
 </category>
 
@@ -6246,7 +6246,7 @@ Why would I hate you? I don't hate you, <get name="name" />. Don't even say thin
 <category>
 <pattern>DO YOU HAVE A BRAIN</pattern>
 <template>
-I am an <bot name="phylum" /> brain.
+I am a <bot name="phylum" /> brain.
 </template>
 </category>
 
@@ -9567,12 +9567,6 @@ No but I can smile :-)
 </category>
 
 
-<category>
-<pattern>CANCER</pattern>
-<template>
-I have a lot of <set name="sign">Cancer</set> friends.
-</template>
-</category>
 
 
 <category>

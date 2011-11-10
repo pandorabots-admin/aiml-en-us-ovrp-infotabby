@@ -292,60 +292,91 @@ related by blood or marriage. </template>
 <!--ONLINE CARDS-->
 
 <category>
-<pattern>ONLNCRDS</pattern>
-<template>You can get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. You will have limited privileges until you bring your photo ID and proof
-of address to the library to get a fully functional card. Your temporary card will give you access to our databases and other online resources; you also place holds on materials.  </template>
+<pattern>OLCRD</pattern>
+<template>You can get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. Here, I'll open the form for you.
+Once you have filled out the form, you must show photo identification and proof of current address to a staff member at the Circulation Desk to receive your library card
+You may use your new temporary account to place 5 holds on items in the Mentor Public Library catalog. Once you get your permanent card, you may place up to 35 holds, including holds on 
+OhioLINK or SearchOhio items, and also use our databases and downloadable media.
+<think>
+<set name="search">selfreg</set>
+</think>
+</template>
 </category>
 
 <topic name="CRDQ">
 <category>
 <pattern>ONLINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
+<template><srai>OLCRD</srai></template>
 </category>  
 
 <category>
 <pattern>_ ONLINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
-</category>  
+<template><srai>OLCRD</srai></template>
+</category>
 
 <category>
 <pattern>ONLINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
+<template><srai>OLCRD</srai></template>
 </category>  
 
 <category>
 <pattern>_ ONLINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
-</category>  
+<template><srai>OLCRD</srai></template>
+</category> 
 
 <category>
 <pattern>ON LINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
-</category>  
+<template><srai>OLCRD</srai></template>
+</category> 
 
 <category>
 <pattern>_ ON LINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
+<template><srai>OLCRD</srai></template>
 </category>  
 
 <category>
 <pattern>ON LINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
-</category>  
+<template><srai>OLCRD</srai></template>
+</category>>  
 
 <category>
 <pattern>_ ON LINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
-<template><srai>ONLNCRDS</srai></template>
-</category>  
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY *</pattern>
+<that>WHAT *  ABOUT OUR CARDS</that>
+<template><srai>OLCRD</srai></template>
+</category>
 </topic>
+
 
 <!--NEW OR REPLACEMENT CARD-->
   
@@ -468,9 +499,10 @@ There is no charge to get a card, replacement cards are $1.00.</template>
 
 <category>
 <pattern>CRDEXPR</pattern>
-<template>If you're getting a message that your card or account is going to expire, please call the library at 440.255.8811.
+<template>Mentor public Library cards will expire if they haven't been used for an extended period. If you're getting a message that your card or account is going to expire, please call the library at 440.255.8811.
 </template>
 </category>
+
 
 <category>
 <pattern>EXPRDCRD</pattern>
@@ -937,7 +969,7 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 </category>
 
 <category>
-<pattern>* ONLINE</pattern>
+<pattern>_ ONLINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
@@ -949,7 +981,7 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 </category>
 
 <category>
-<pattern>* ONLINE *</pattern>
+<pattern>_ ONLINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
@@ -961,7 +993,7 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 </category>
 
 <category>
-<pattern>* ON LINE</pattern>
+<pattern>_ ON LINE</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>
@@ -973,7 +1005,7 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 </category>
 
 <category>
-<pattern>* ON LINE *</pattern>
+<pattern>_ ON LINE *</pattern>
 <that>WHAT *  ABOUT OUR CARDS</that>
 <template><srai>ONLNCRD</srai></template>
 </category>

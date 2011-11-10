@@ -35,11 +35,13 @@
 <pattern>BSYCAT</pattern>
 <template>
 <random>
+<li>What you wrote isn't familiar, but I'll try to find it.</li>
 <li>Just a minute. There's a ladybug on the ceiling. While I watch it...</li>
 <li>Hang on...the kittenbots got hold of a roll of tissue. What a mess!</li>
 <li>Just a moment, some bluejays are arguing outside. Wow, what a racket!</li>
 <li>The kittenbots knocked over their water. Just a moment. Now..</li>
 <li>The kittenbots are climbing up my curtains. Excuse me...O.K.</li>
+<li>Hmm...I don't have a response.</li>
 <li>I beg your pardon. One of the selfchecks had a question.</li>
 <li>I'm sorry, I was watching your mouse.</li>
 <li>Excuse me, someone else was asking a question.</li>
@@ -48,14 +50,17 @@
 <li>Pardon me. One of my clones was on another line.</li>
 <li>I'm sorry, I was searching our catalog for another person. </li>
 <li>Excuse me, I was helping another person. </li>
+<li>I don't recognize your input.</li>
 <li>I was grooming. Just a minute. O.K.</li>
 <li>Just a moment. One of my kittenbots was stuck under the couch. O.K.</li>
 <li>One of the kittenbots knocked over a lamp. Sorry. </li>
 <li>Pardon me. The kittenbots are making a racket. O.K.</li>
+<li>I don't recognize that input.</li>
 <li>I was looking under the fridge for a piece of string. Sorry. </li>
 <li>Sorry, the selfchecks had a question.</li>
 <li>Excuse me, the selfcheck was asking a question. </li>
 <li>One of the kittenbots lost her mouse. Just a moment. O.K.</li>
+<li>I don't have a response at this time, but I can still try to help you.</li>
 <li>Sorry, had to stretch. </li>
 <li>Sorry, there was a bird outside the window.</li>
 </random>
@@ -69,12 +74,18 @@
 
 <category>
 <pattern>LKUP</pattern>
-<template> <srai>00LKUP</srai> <srai>0LKUP</srai> just a few words, please, or my <srai>1LKUP</srai> will <srai>2LKUP</srai>. </template>
+<template> 
+<srai>000LKUP</srai> 
+<!--<srai>00LKUP</srai> 
+<srai>0LKUP</srai>-->
+Please <srai>1LKUP</srai>, 
+or my <srai>2LKUP</srai> 
+will <srai>3LKUP</srai>. </template>
 </category>
 
 
 <category>
-<pattern>00LKUP</pattern>
+<pattern>000LKUP</pattern>
 <template>
 <random>
 <li>What is it again that you're looking for?</li>
@@ -88,20 +99,49 @@
 </category>
 
 <category>
+<pattern>00LKUP</pattern>
+<template>
+<random>
+<li>Tell me again using</li>
+<li>Tell me again in</li>
+<li>Tell me again with</li>
+<li>Ask me again using</li>
+<li>Ask me again in</li>
+<li>Ask me again with</li>
+<li>Tell me using</li>
+<li>Tell me in</li>
+<li>Tell me with</li>
+<li>Ask me using</li>
+<li>Ask me in</li>
+<li>Ask me with</li>
+</random>
+</template>
+</category>
+
+<category>
 <pattern>0LKUP</pattern>
 <template>
 <random>
-<li>Tell me using</li>
-<li>Enter</li>
-<li>Type </li>
-<li>Tell me in</li>
-<li>Tell me with</li>
+<li>a few words.</li>
+<li>just a few words.</li>
 </random>
 </template>
 </category>
 
 <category>
 <pattern>1LKUP</pattern>
+<template>
+<random>
+<li>be brief</li>
+<li>be concise</li>
+<li>don't be too wordy</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>2LKUP</pattern>
 <template>
 <random>
 <li>cat brain</li>
@@ -115,7 +155,7 @@
 </category>
 
 <category>
-<pattern>2LKUP</pattern>
+<pattern>3LKUP</pattern>
 <template>
 <random>
 <li>melt</li>
@@ -131,7 +171,7 @@
 
 <category>
 <pattern> * </pattern>
-<that>_ JUST A FEW WORDS PLEASE OR *</that>
+<that>PLEASE BE * OR *</that>
 <template>
 O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
 All you have to do is type "yes" or "no." <br/><br/>

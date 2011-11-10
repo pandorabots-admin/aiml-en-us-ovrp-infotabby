@@ -174,8 +174,29 @@ Evil? David's trying to help libraries survive! </template>
   <template><srai>adult information services manager</srai></template>
 </category>
 
+<category>
+<pattern>WHERE * DAVID</pattern>
+<template>David is working. Always working. If you want to contact him, send an email 
+to david.newyear@gmail.com. </template>
+</category>
 
+<category>
+<pattern>* WHERE * DAVID</pattern>
+<template>David is working. Always working. If you want to contact him, send an email 
+to david.newyear@gmail.com. </template>
+</category>
 
+<category>
+<pattern>WHERE * DAVID *</pattern>
+<template>David is working. Always working. If you want to contact him, send an email 
+to david.newyear@gmail.com. </template>
+</category>
+
+<category>
+<pattern>* WHERE * DAVID *</pattern>
+<template>David is working. Always working. If you want to contact him, send an email 
+to david.newyear@gmail.com. </template>
+</category>
 
 <category>
   <pattern>Amanda Densmore</pattern>

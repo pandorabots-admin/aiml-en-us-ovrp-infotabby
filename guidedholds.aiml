@@ -99,6 +99,13 @@ I'm often asked about placing holds and requesting items.
 </category>
 
 <category>
+<pattern>HOW * RESERVE</pattern>
+<template>
+<srai>HLDS</srai>
+</template>
+</category>
+
+<category>
 <pattern>RESERVE *</pattern>
 <template>
 <srai>HLDS</srai>
@@ -107,6 +114,13 @@ I'm often asked about placing holds and requesting items.
 
 <category>
 <pattern>* RESERVE *</pattern>
+<template>
+<srai>HLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW * RESERVE *</pattern>
 <template>
 <srai>HLDS</srai>
 </template>
@@ -127,6 +141,13 @@ I'm often asked about placing holds and requesting items.
 </category>
 
 <category>
+<pattern>HOW * RESERVES</pattern>
+<template>
+<srai>HLDS</srai>
+</template>
+</category>
+
+<category>
 <pattern>RESERVES *</pattern>
 <template>
 <srai>HLDS</srai>
@@ -135,6 +156,13 @@ I'm often asked about placing holds and requesting items.
 
 <category>
 <pattern>* RESERVES *</pattern>
+<template>
+<srai>HLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW * RESERVES *</pattern>
 <template>
 <srai>HLDS</srai>
 </template>
@@ -155,6 +183,13 @@ I'm often asked about placing holds and requesting items.
 </category>
 
 <category>
+<pattern>HOW * REQUEST</pattern>
+<template>
+<srai>HLDS</srai>
+</template>
+</category>
+
+<category>
 <pattern>REQUEST *</pattern>
 <template>
 <srai>HLDS</srai>
@@ -163,6 +198,13 @@ I'm often asked about placing holds and requesting items.
 
 <category>
 <pattern>* REQUEST *</pattern>
+<template>
+<srai>HLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW * REQUEST *</pattern>
 <template>
 <srai>HLDS</srai>
 </template>

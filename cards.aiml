@@ -40,7 +40,12 @@
 <pattern>COITEM</pattern>
 <template>If you want to check something out, you'll need a library card. If you already have a card, any fines on that card must be less than $5.00.
 To get a new library card, please bring a photo ID and proof of address to the Main Library or either branch.
-You cannot get a card online at this time, you must come in to one of our <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>locations</b></a>.
+You can get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. Here, I'll open the form for you.
+Once you have filled out the form, you must show photo identification and proof of current address to a staff member at the Circulation Desk 
+to receive your library card.
+<think>
+<set name="search">selfreg</set>
+</think>
 </template>
 </category>
 
@@ -216,8 +221,6 @@ You cannot get a card online at this time, you must come in to one of our <a hre
 There is no charge to get a card, replacement cards are $1.00.</template>
 </category>
 
-
-
 <category>
 <pattern>NEW LIBRARY CARD</pattern>
 <template><srai>NEWLIBCRD</srai></template>
@@ -269,9 +272,6 @@ There is no charge to get a card, replacement cards are $1.00.</template>
 <pattern>* APPLY * NEW * CARD</pattern>
 <template><srai>NEWLIBCRD</srai></template>
 </category>
-
-
-
 
 <category>
 <pattern>NEW ACCOUNT</pattern>
@@ -472,19 +472,16 @@ There is no charge to get a card, replacement cards are $1.00.</template>
 </category>
 
 <category>
-<pattern>* ONLINE * CARD * EXPIRE</pattern>
+<pattern>* CARD * EXPIRE</pattern>
 <template><srai>CRDEXPR</srai>
 </template>
 </category>
 
 <category>
-<pattern>* ONLINE * CARD * EXPIRE *</pattern>
+<pattern>* CARD * EXPIRE *</pattern>
 <template><srai>CRDEXPR</srai>
 </template>
 </category>
-
-
-
 
 <!--expired cards-->
 
@@ -1276,212 +1273,182 @@ is lost or stolen. If you're getting a message that your card is going to expire
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>CARD COST</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CARD COST</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CARD COST *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>CHARGE CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CHARGE CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CHARGE * CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CHARGE * CARD *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>COST CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* COST CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* COST * CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* COST * CARD *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>FEE CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* FEE CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* FEE * CARD</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* FEE * CARD *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>CARDS COST</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CARDS COST</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CARDS COST *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>CHARGE CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CHARGE CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CHARGE * CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* CHARGE * CARDS *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>COST CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* COST CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* COST * CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* COST * CARDS *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>FEE CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* FEE CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* FEE * CARDS</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
+</category>
 
-<topic name="FEES">
 <category>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT OUR FEES OR CHARGES</that>
   <pattern>* FEE * CARDS *</pattern>
   <template><srai>LCCST</srai></template>
-</category></topic>
-
-
+</category>
+</topic>
 
 <!--children's cards-->
 
@@ -1839,8 +1806,520 @@ Replacement cards are not available online.
   <template><srai>LSTCRD</srai></template>
 </category>
 
+<!--ONLINE CARDS-->
 
-<!--teachers cards-->
+
+<category>
+<pattern>ONLINE ACCOUNT</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE ACCOUNT</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * ACCOUNT</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE * ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE ACCOUNT</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE ACCOUNT</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * ACCOUNT</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE * ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * ACCOUNT *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE ACCOUNTS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE ACCOUNTS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * ACCOUNTS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE * ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE ACCOUNTS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE ACCOUNTS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * ACCOUNTS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE * ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * ACCOUNTS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE * CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE * CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE * CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ONLINE * CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>ON LINE * CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* ON LINE * CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY * CARD</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY * CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY * CARD *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY * CARDS</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>TEMPORARY * CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* TEMPORARY * CARDS *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD * ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD * ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD * ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD * ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD * ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD * ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARD * ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARD * ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS * ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS * ONLINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS * ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS * ONLINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS * ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS * ON LINE</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>CARDS * ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<category>
+<pattern>* CARDS * ON LINE *</pattern>
+<template><srai>OLCRD</srai></template>
+</category>
+
+<!--TEACHER CARDS-->
 
 <category>
   <pattern>TCHRCRD</pattern>

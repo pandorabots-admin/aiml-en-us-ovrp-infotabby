@@ -29613,13 +29613,6 @@
 </category>
 
 
-<category>
-<pattern>CATS</pattern>
-<template>
-<srai>do you like cats</srai>
-</template>
-</category>
-
 
 <category>
 <pattern>DO YOU LIKE TIGERS</pattern>

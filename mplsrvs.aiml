@@ -541,6 +541,53 @@
 <template><srai>CPY</srai></template>
 </category>
 
+<!--PASSPORTS-->
+
+<category>
+  <pattern>PSSPRTS</pattern>
+ <template>Mentor Public Library does not process passports. Follow this link for 
+ <a href="http://travel.state.gov/passport" target="_blank"><b>Travel.State.gov</b></a>. </template>
+</category>
+
+<category>
+<pattern>PASSPORT</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>* PASSPORT</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>PASSPORT *</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>* PASSPORT *</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>PASSPORTS</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>* PASSPORTS</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>PASSPORTS *</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
+
+<category>
+<pattern>* PASSPORTS *</pattern>
+<template><srai>PSSPRTS</srai></template>
+</category>
 
 <!--proctoring-->
 

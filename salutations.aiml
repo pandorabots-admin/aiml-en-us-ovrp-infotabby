@@ -34,6 +34,12 @@
 </category>
 
 <category>
+<pattern>FINE AND YOU</pattern>
+<that>HI THERE HOW ARE YOU</that>
+<template>Peachy. What can I do for you?</template>
+</category>
+
+<category>
 <pattern>GRTNGST</pattern>
 <template>
 <random>
@@ -46,6 +52,8 @@
 </random>
 </template>
 </category>
+
+
 
 
 <category>

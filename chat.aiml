@@ -137,7 +137,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 
 <topic name="WXFRCST">
 <category>
-<pattern> _ </pattern>
+<pattern> * </pattern>
 <that>* LOCAL WEATHER *</that>
 <template>Here's your local weather. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
@@ -174,7 +174,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -185,7 +185,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -196,7 +196,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -207,7 +207,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -218,7 +218,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -229,7 +229,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -240,7 +240,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -251,7 +251,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">bookkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -262,7 +262,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -273,7 +273,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -284,7 +284,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -295,7 +295,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -306,7 +306,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -317,7 +317,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -328,7 +328,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>
@@ -339,7 +339,7 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">dvdkey</set>
+<set name="search">catkey</set>
 <set name="searcharg">weather</set>
 </think>
 </template>

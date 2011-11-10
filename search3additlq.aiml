@@ -129,7 +129,20 @@
 
 <category>
 <pattern>SBSQLKUP</pattern>
-<template> You're more than welcome to ask another question. Tell me what you're looking for using the fewest possible words. You know why. </template>
+<template> You're more than welcome to ask another question. <srai>1SLKUP</srai> You know why. </template>
+</category>
+
+
+<category>
+<pattern>1SLKUP</pattern>
+<template>
+<random>
+<li>Tell me what you're looking for using just a few words.</li>
+<li>Tell me what you'd like to know in a few words.</li>
+<li>In a few words, tell me what you're looking for.</li>
+<li>In a few words, tell me what you'd like to know.</li>
+</random>
+</template>
 </category>
 
 <category>

@@ -219,7 +219,7 @@ login.aspx?authtype=ip,uid%26site=crcro%26return=y
 <category>
   <pattern>DBS</pattern>
   <template>You can find a list of our databases <a href="http://www.mentorpl.org/find.html" target="_blank"><b>here</b></a>. If you do not see the database you're looking for on this list,
-   our reference staff may be able to help you find the information you're looking for. Call them at 440.255.8811 extension 215 during regular business hours. Or for immediate
+  or if you're not sure which database is the best one to use, our reference staff may be able to help you find the information you're looking for. Call them at 440.255.8811 extension 215 during regular business hours. Or for immediate
    assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.
  </template>
 </category>
@@ -262,6 +262,29 @@ login.aspx?authtype=ip,uid%26site=crcro%26return=y
 <category>
   <pattern>databases *</pattern>
   <template><srai>DBS</srai></template>
+</category>
+
+<!--EBSCO-->
+
+<category>
+<pattern>EBSCO</pattern>
+  <template>Follow this link to the <a href="http://www.oplin.org/ebsco" target="_blank"><b>EBSCO database</b></a>. If you're using EBSCO from home,
+  you'll have to type in your Mentor Public Library card number to gain access. Just typr it in, all 14 digits with no spaces.</template>
+</category>
+
+<category>
+<pattern>* EBSCO</pattern>
+  <template><srai>EBSCO</srai></template>
+</category>
+
+<category>
+<pattern>EBSCO *</pattern>
+  <template><srai>EBSCO</srai></template>
+</category>
+
+<category>
+<pattern>* EBSCO *</pattern>
+  <template><srai>EBSCO</srai></template>
 </category>
 
 <!--know it now-->
@@ -434,6 +457,92 @@ login.aspx?authtype=ip,uid%26site=crcro%26return=y
 <category>
 <pattern>LEARNING EXPRESS *</pattern>
 <template><srai>LRNXPRSS</srai></template>
+</category>
+
+<!--MANGO LANGUAGES-->
+
+<category>
+<pattern>0MNGLNG</pattern>
+<template>I want to make sure that I get you to the correct place. Please answer "yes" or "no" - are you looking for Mango Languages?</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>_ ARE YOU LOOKING FOR MANGO LANGUAGES</that>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>_ ARE YOU LOOKING FOR MANGO LANGUAGES</that>
+<template><srai>LKUP</srai></template>
+</category>
+
+
+<category>
+<pattern>MNGLNG</pattern>
+<template>Here's the link to <a href="http://oplin.org/databases/proxy/proxy.php?qurl=http%3A%2F%2Foplin.org%2Fmango" target="_blank"><b>Mango Languages</b></a>. You'll have to create a profile to
+use it. Creating the profile takes a minute, but it's a great way to learn another language, and it's free.</template>
+</category>
+
+<category>
+<pattern>MANGO</pattern>
+<template><srai>0MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>* MANGO</pattern>
+<template><srai>0MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>MANGO *</pattern>
+<template><srai>0MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>* MANGO *</pattern>
+<template><srai>0MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>MANGO LANGUAGE</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>* MANGO LANGUAGE</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>MANGO LANGUAGE *</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>* MANGO LANGUAGE *</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>MANGO LANGUAGES</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>* MANGO LANGUAGES</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>MANGO LANGUAGES *</pattern>
+<template><srai>MNGLNG</srai></template>
+</category>
+
+<category>
+<pattern>* MANGO LANGUAGES *</pattern>
+<template><srai>MNGLNG</srai></template>
 </category>
 
 <!--NEWSBANK-->
@@ -625,8 +734,5 @@ Follow this <a href="http://library.lakelandcc.edu/findsources.html#SUBJ" target
 <pattern>_ RESEARCH MATERIALS *</pattern>
 <template><srai>RMATERIAL</srai></template>
 </category>
-
-
-
 
 </aiml>

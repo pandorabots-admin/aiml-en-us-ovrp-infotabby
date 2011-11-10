@@ -35,51 +35,89 @@
 <template>Try looking for <star/> in our <a href="http://www.catalog.mentorpl.org" target="_blank"><b>catalog</b></a>.</template>
 </category>
 
+<category>
+<pattern>2RDRSAD</pattern>
+<template>I'm still learning how to do readers advisory, so I can only give you partial help. I'll look in Google for books like <star index="2"/>. This should open 
+in a new window or tab. If you don't see the results, turn off your pop up blocker and ask me again.
+<think>
+<set name="searcharg"><star index="2"/> readalikes</set>
+<set name="search">google</set>
+</think>
+</template>
+</category>
 
 <category>
-<pattern>* FIND * BOOK LIKE *</pattern>
+<pattern>* AUTHORS LIKE *</pattern>
+<template><srai>2RDRSAD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* AUTHORS SIMILAR TO *</pattern>
+<template><srai>2RDRSAD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK LIKE *</pattern>
+<template><srai>2RDRSAD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK SIMILAR TO *</pattern>
+<template><srai>2RDRSAD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS LIKE *</pattern>
+<template><srai>2RDRSAD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS SIMILAR TO *</pattern>
+<template><srai>2RDRSAD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>3RDRSAD</pattern>
 <template>I'm still learning how to do readers advisory, so I can only give you partial help. I'll look in Google for books like <star index="3"/>. This should open 
 in a new window or tab. If you don't see the results, turn off your pop up blocker and ask me again.
 <think>
 <set name="searcharg"><star index="3"/> readalikes</set>
 <set name="search">google</set>
 </think>
+</template>
+</category>
+
+<category>
+<pattern>* FIND * BOOK LIKE *</pattern>
+<template><srai>3RDRSAD</srai>
 </template>
 </category>
 
 <category>
 <pattern>* FIND * BOOKS LIKE *</pattern>
-<template>I'm still learning how to do readers advisory, so I can only give you partial help. I'll look in Google for books like <star index="3"/>. This should open 
-in a new window or tab. If you don't see the results, turn off your pop up blocker and ask me again.
-<think>
-<set name="searcharg"><star index="3"/> readalikes</set>
-<set name="search">google</set>
-</think>
+<template><srai>3RDRSAD</srai>
 </template>
 </category>
 
-
 <category>
 <pattern>* RECOMMEND * BOOK LIKE *</pattern>
-<template>I'm still learning how to do readers advisory, so I can only give you partial help. I'll look in Google for books like <star index="3"/>. This should open 
-in a new window or tab. If you don't see the results, turn off your pop up blocker and ask me again.
-<think>
-<set name="searcharg"><star index="3"/> readalikes</set>
-<set name="search">google</set>
-</think>
+<template><srai>3RDRSAD</srai>
 </template>
 </category>
 
 <category>
 <pattern>* RECOMMEND * BOOKS LIKE *</pattern>
-<template>I'm still learning how to do readers advisory, so I can only give you partial help. I'll look in Google for books like <star index="3"/>. This should open 
-in a new window or tab. If you don't see the results, turn off your pop up blocker and ask me again.
-<think>
-<set name="searcharg"><star index="3"/> readalikes</set>
-<set name="search">google</set>
-</think>
+<template><srai>3RDRSAD</srai>
 </template>
 </category>
+
 
 
 
