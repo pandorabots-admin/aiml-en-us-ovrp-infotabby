@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<category>
+<pattern>COMPUTER</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">COMPUTER</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER *</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">COMPUTER <star/></set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPUTER</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg"><star/> COMPUTER</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPUTER *</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg"><star/> COMPUTER <star/></set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>COMPUTERS</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">COMPUTERS</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>COMPUTER *</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">COMPUTERS <star/></set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPUTERS</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg"><star/> COMPUTER</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPUTERS *</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg"><star/> COMPUTER <star/></set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>THEHLP</pattern>
+<template>
+<think>
+<set name="searcharg">Kathryn Stockett</set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>THE HELP</pattern>
+<template>Here you go.
+<srai>THEHLP</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ THE HELP</pattern>
+<template>Here you go.
+<srai>THEHLP</srai>
+</template>
+</category>
+
+<category>
+<pattern>THE HELP *</pattern>
+<template>Here you go.
+<srai>THEHLP</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ THE HELP *</pattern>
+<template>Here you go.
+<srai>THEHLP</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>SJOBS</pattern>
+<template>Here you go.
+<think>
+<set name="searcharg">STEVE JOBS</set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>STEVE JOBS</pattern>
+<template>
+<srai>SJOBS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ STEVE JOBS</pattern>
+<template>
+<srai>SJOBS</srai>
+</template>
+</category>
+
+<category>
+<pattern>STEVE JOBS *</pattern>
+<template>
+<srai>SJOBS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ STEVE JOBS *</pattern>
+<template>
+<srai>SJOBS</srai>
+</template>
+</category>
+
+</aiml>

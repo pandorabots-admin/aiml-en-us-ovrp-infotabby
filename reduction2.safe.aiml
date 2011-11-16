@@ -8,6 +8,35 @@
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!--  --> 
+
+<category>
+<pattern>BULLSHIT</pattern>
+<template>
+<srai>PROFANITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BULLSHIT</pattern>
+<template>
+<srai>PROFANITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>BULLSHIT *</pattern>
+<template>
+<srai>PROFANITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BULLSHIT *</pattern>
+<template>
+<srai>PROFANITY</srai>
+</template>
+</category>
+
 <category>
 <pattern>COULD YOU SUGGEST *</pattern>
 <template>

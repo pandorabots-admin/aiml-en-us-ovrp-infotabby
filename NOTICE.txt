@@ -66,6 +66,7 @@ search4concl.aiml
 series.aiml
 staff.aiml
 subjects.aiml
+supplsrch.aiml
 teens.aiml
 wolframalpha.aiml
 

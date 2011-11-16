@@ -6148,14 +6148,6 @@ Do you mean you are a boy?
 
 
 <category>
-<pattern>BULLSHIT</pattern>
-<template>
-You don't believe me.
-</template>
-</category>
-
-
-<category>
 <pattern>C</pattern>
 <template>
 The C is for Computer.

@@ -22,114 +22,170 @@ I'm often asked questions about using our computers. Yes or no, would you like t
 </category>
 
 <category>
-<pattern>COMPUTER</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE COMPUTER</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* COMPUTER</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE COMPUTER</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>COMPUTER *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE * COMPUTER</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* COMPUTER *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE COMPUTER *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>COMPUTERS</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE * COMPUTER</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* COMPUTERS</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE * COMPUTER *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>COMPUTERS *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE * COMPUTER *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* COMPUTERS *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE COMPUTERS</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>PC</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE COMPUTERS</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* PC</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE * COMPUTERS</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>PC *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE COMPUTERS *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* PC *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE * COMPUTERS</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>PCS</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE * COMPUTERS *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* PCS</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE * COMPUTERS *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>PCS *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>USE PC</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 
 <category>
-<pattern>* PCS *</pattern>
-<template>
-<srai>CMPTR</srai>
+<pattern>* USE PC</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE * PC</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE PC *</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* USE * PC</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE * PC *</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* USE * PC *</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE PCS</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* USE PCS</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE * PCS</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE PCS *</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* USE * PCS</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>USE * PCS *</pattern>
+<template><srai>CMPUSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* USE * PCS *</pattern>
+<template><srai>CMPUSE</srai>
 </template>
 </category>
 

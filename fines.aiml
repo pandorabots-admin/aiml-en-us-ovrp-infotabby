@@ -21,7 +21,7 @@
 
 <category>
 <pattern>FNS</pattern>
-<template>This is a question I'm often asked. 
+<template>I'm often asked about fines. 
 <random>
 <li>Would you like a summary of charges for overdue items, yes or no?</li>
 <li>Would you like to know the charges for overdue items, yes or no?</li>
@@ -446,18 +446,19 @@ We are not currently offering fine forgiveness. If you have questions about fine
 <topic name="FEES">
 <category>
 <pattern>BANKRUPT</pattern>
-<that> *  ABOUT OUR FEES OR CHARGES</that>
+<that>*  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category>
 
 <category>
-<pattern>* BANKRUPT</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+<pattern>* BANKRUPT</pattern>
+<that>*  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category>
 
 <category>
 <pattern>BANKRUPT * </pattern>
-<that> *  ABOUT OUR FEES OR CHARGES</that>
+<that>*  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>BNKRPTCY</srai></template>
 </category>
 
@@ -760,22 +761,26 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category>
 
 <topic name="FEES"><category>
- <pattern>GRACE</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+ <pattern>GRACE</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>GRCEPER</srai></template>
 </category>
 
 <category>
- <pattern>*  GRACE </pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+ <pattern>*  GRACE </pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>GRCEPER</srai></template>
 </category>
 
 <category>
- <pattern>*  GRACE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+ <pattern>*  GRACE *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>GRCEPER</srai></template>
 </category>
 
 <category>
- <pattern>GRACE *</pattern><that> *  ABOUT OUR FEES OR CHARGES</that>
+ <pattern>GRACE *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
 <template><srai>GRCEPER</srai></template>
 </category>
 </topic>
@@ -1012,120 +1017,151 @@ You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_bla
 <!--FINES DO I HAVE THEM-->
 
 <category>
-<pattern>CHKFINES</pattern>
+<pattern>CHKFNS</pattern>
 <template>To check on your fines, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Any fines will be indicated there.</template>
 </category>
 
 <category>
- <pattern>* HOW MUCH * OWE</pattern>
-<template><srai>CHKFINES</srai></template>
+ <pattern>OWE</pattern>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
- <pattern>HOW MUCH * OWE</pattern>
-<template><srai>CHKFINES</srai></template>
+ <pattern> * OWE</pattern>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
-<pattern>HOW MUCH * OWE *</pattern>
-<template><srai>CHKFINES</srai></template>
+<pattern>OWE *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>* OWE *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>OWED</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern> * OWED</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWED *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>* OWED *</pattern>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <topic name="FEES">
 <category>
  <pattern>* HAVE * FINES</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>* HAVE * FINES *</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>WHAT * FINES</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>WHAT * FINE</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>HOW MUCH * FINES</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>HOW MUCH * FINE</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
- <pattern>WHAT * OWE</pattern>
+ <pattern>OWE</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
- <pattern>WHAT * OWE</pattern>
+ <pattern>* OWE</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
- <pattern>HOW MUCH * OWE</pattern>
+ <pattern> * OWE *</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
- <pattern>HOW MUCH * OWE *</pattern>
+ <pattern>OWE *</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>OWED</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>* OWED</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern> * OWED *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>OWED *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>WHAT * OWE *</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
- <pattern>WHAT * OWE *</pattern>
+ <pattern>LATE FEE</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
-</category>
-
-<category>
- <pattern>HOW MUCH * OWE *</pattern>
- <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
-</category>
-
-<category>
- <pattern>HOW MUCH * OWE *</pattern>
- <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
-</category>
-
-<category>
- <pattern>HOW * SEE * OWE * LATE FEE</pattern>
- <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>
  <pattern>HOW * SEE * OWE * LATE FEES</pattern>
  <that> *  ABOUT OUR FEES OR CHARGES</that>
-<template><srai>CHKFINES</srai></template>
+<template><srai>CHKFNS</srai></template>
 </category>
 
 <category>

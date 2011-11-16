@@ -66,7 +66,6 @@
 </category>
 
 <topic name="ACCTQ">
-
 <category>
 <pattern> * </pattern>
 <that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
@@ -107,12 +106,14 @@
 </category>
 </topic>
 
+
 <category>
 <pattern>ADDBAG</pattern>
 <template>You can select a number of items in our catalog then press the "Add marked to bag" to add all of them to your bag. You can then 
 go to "view bag" and save or request the items it contains. It's a bit hard to explain. If you have further questions, please call
 the library at 440.255.8811 during regular business hours.</template>
 </category>
+
 
 <topic name="ACCTQ">
 <category>
@@ -141,8 +142,6 @@ the library at 440.255.8811 during regular business hours.</template>
 </topic>
 
 <!--NO ACCT-->  
-
-
 
 <topic name="ACCTQ">
 <category>
@@ -198,17 +197,13 @@ the library at 440.255.8811 during regular business hours.</template>
 <that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
 <template><srai>GTCRD</srai></template>
 </category>
-</topic>
-  
-<topic name="ACCTQ">
+
 <category>
 <pattern> DO NOT HAVE * </pattern>
 <that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
 <template><srai>GTCRD</srai></template>
 </category>
-</topic>
-  
-<topic name="ACCTQ">
+
 <category>
 <pattern>* DO NOT HAVE *</pattern>
 <that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
@@ -1314,6 +1309,274 @@ If you receive this message after regular business hours, please call us when we
 </category>
 </topic>
 
+<!--CHECK FINES-->
+
+
+<topic name="ACCTQ">
+<category>
+<pattern>CHARGE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ CHARGE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ CHARGE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGED</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ CHARGED</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGED *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ CHARGED *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ CHARGES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>CHARGES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ CHARGES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FEE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FEE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FEE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FEE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FEES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FEES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FEES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FEES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FINE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FINE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FINE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FINE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FINES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FINES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>FINES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ FINES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ OWE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ OWE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWED</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ OWED</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWED *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ OWED *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>LATE FEE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ LATE FEE</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>LATE FEE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ LATE FEE *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>LATE FEES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ LATE FEES</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>LATE FEES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>_ LATE FEES *</pattern>
+<that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
+<template><srai>CHKFNS</srai></template>
+</category>
+</topic>
 
 <!--INVALID BARCODE-->
 

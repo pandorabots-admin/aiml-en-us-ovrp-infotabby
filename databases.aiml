@@ -735,4 +735,56 @@ Follow this <a href="http://library.lakelandcc.edu/findsources.html#SUBJ" target
 <template><srai>RMATERIAL</srai></template>
 </category>
 
+
+<!--WOLFRAM ALPHA-->
+
+<category>
+<pattern>WLFRMALPHA</pattern>
+<template>I can take you to Wolfram Alpha. It's an extraordinary database! I'll open it for you. If you don't see it, turn off your pop up blocker and ask me again.
+  <think>
+<set name="search">walpha</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>WOLFRAMALPHA</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>* WOLFRAMALPHA</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>WOLFRAMALPHA *</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>* WOLFRAMALPHA *</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>WOLFRAM ALPHA</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>* WOLFRAM ALPHA</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>WOLFRAM ALPHA *</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
+<category>
+<pattern>* WOLFRAM ALPHA *</pattern>
+<template><srai>WLFRMALPHA</srai></template>
+</category>
+
 </aiml>

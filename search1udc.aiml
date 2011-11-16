@@ -35,23 +35,45 @@
 <pattern>BSYCAT</pattern>
 <template>
 <random>
+<li>Just a minute while I scratch the couch.</li>
+<li>I'm sorry. I was looking for a something under the fridge.</li>
+<li>I was talking with Dewey.</li>
+<li>I have to groom one of the kittenbots. O.K.</li>
+<li>One moment. I have to groom one of the kittenbots.</li>
+<li>Sorry, I was distracted by some birds outside.</li>
 <li>What you wrote isn't familiar, but I'll try to find it.</li>
 <li>Just a minute. There's a ladybug on the ceiling. While I watch it...</li>
+<li>Just a moment. I have to scratch this chair.</li>
+<li>Sorry. I was under the couch. </li>
+<li>I was playing in a laundry basket. Sorry.</li>
 <li>Hang on...the kittenbots got hold of a roll of tissue. What a mess!</li>
 <li>Just a moment, some bluejays are arguing outside. Wow, what a racket!</li>
 <li>The kittenbots knocked over their water. Just a moment. Now..</li>
+<li>Sorry, I was distracted. There's a ladybug on the ceiling.</li>
 <li>The kittenbots are climbing up my curtains. Excuse me...O.K.</li>
+<li>Dewey has a question on another line. Hang on.</li>
+<li>Pixel has a question on another line. Hang on.</li>
+<li>Ella has a question on another line. Hang on.</li>
 <li>Hmm...I don't have a response.</li>
 <li>I beg your pardon. One of the selfchecks had a question.</li>
 <li>I'm sorry, I was watching your mouse.</li>
 <li>Excuse me, someone else was asking a question.</li>
 <li>Sorry, I was grooming. </li>
+<li>Excuse me while I check the temperature of my nose. Is it cold enough? Yes.</li>
 <li>Just a moment, there's a fly in the server room. Got him! O.K.</li>
+<li>Dewey is asking me a question. Hang on.</li>
+<li>Pixel is asking me a question. Hang on.</li>
+<li>Ella is asking me a question. Hang on.</li>
 <li>Pardon me. One of my clones was on another line.</li>
-<li>I'm sorry, I was searching our catalog for another person. </li>
+<li>I'm sorry, I was searching our catalog for another person.</li>
+<li>I'm sorry, I was searching a database for another person.</li>
 <li>Excuse me, I was helping another person. </li>
 <li>I don't recognize your input.</li>
-<li>I was grooming. Just a minute. O.K.</li>
+<li>I'm grooming. Just a minute. O.K.</li>
+<li>I'm not sure what you're asking.</li>
+<li>I have to check my nose. Is it cold enough? Yes.</li>
+<li>David's trying to add to my knowledge. I'll disable his keyboard. What fun!</li>
+<li>My creator is trying to update me. I'll turn off his laptop. My, my. Such language!</li>
 <li>Just a moment. One of my kittenbots was stuck under the couch. O.K.</li>
 <li>One of the kittenbots knocked over a lamp. Sorry. </li>
 <li>Pardon me. The kittenbots are making a racket. O.K.</li>
@@ -63,6 +85,13 @@
 <li>I don't have a response at this time, but I can still try to help you.</li>
 <li>Sorry, had to stretch. </li>
 <li>Sorry, there was a bird outside the window.</li>
+<li>One of the selfchecks has a question. O.K.</li>
+<li>Sorry, a dog was barking outside.</li>
+<li>Just a minute. I think I hear the can opener. O.K.</li>
+<li>Just a moment, I'm getting an update. Now...</li>
+<li>Excuse me, I'm processing another request.</li>
+<li>Pardon me, I'm processing another question.</li>
+<li>Just a moment. I have a question on another line. O.K.</li>
 </random>
 </template>
 </category>
@@ -76,11 +105,12 @@
 <pattern>LKUP</pattern>
 <template> 
 <srai>000LKUP</srai> 
-<!--<srai>00LKUP</srai> 
-<srai>0LKUP</srai>-->
-Please <srai>1LKUP</srai>, 
-or my <srai>2LKUP</srai> 
-will <srai>3LKUP</srai>. </template>
+<random>
+<li><srai>00LKUP</srai> <srai>0LKUP</srai></li>
+<li>Please <srai>1LKUP</srai>. </li>
+<li>Please <srai>1LKUP</srai>, or my <srai>2LKUP</srai> will <srai>3LKUP</srai>.</li>
+</random>
+</template>
 </category>
 
 
@@ -88,6 +118,9 @@ will <srai>3LKUP</srai>. </template>
 <pattern>000LKUP</pattern>
 <template>
 <random>
+<li>How can I help you?</li>
+<li>What is it you'd like?</li>
+<li>What can I help you with?</li>
 <li>What is it again that you're looking for?</li>
 <li>Tell me once again what you're looking for.</li>
 <li>You were looking for something.</li>
@@ -146,7 +179,9 @@ will <srai>3LKUP</srai>. </template>
 <random>
 <li>cat brain</li>
 <li>CPU</li>
-<li>I D E cable</li>
+<li>whiskers</li>
+<li>tail</li>
+<li>virtual fur</li>
 <li>processor</li>
 <li>circuits</li>
 <li>RAM</li>
@@ -171,11 +206,39 @@ will <srai>3LKUP</srai>. </template>
 
 <category>
 <pattern> * </pattern>
-<that>PLEASE BE * OR *</that>
+<that>PLEASE * OR *</that>
 <template>
-O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-All you have to do is type "yes" or "no." <br/><br/>
-First question. You entered <b><star/></b>. Is this something you want to borrow from the library? 
+<random>
+<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
+Just type "yes" or "no." </li>
+<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+All you have to do is type "yes" or "no." </li>
+<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+Just type "yes" or "no." </li>
+</random>
+<br/><br/>
+You entered <b><star/></b>. First question. Is this something you want to borrow from the library? 
+<think>
+<set name="topic">1SRCH</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>_ A FEW WORDS</that>
+<template>
+<random>
+<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
+Just type "yes" or "no." </li>
+<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+All you have to do is type "yes" or "no." </li>
+<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+Just type "yes" or "no." </li>
+</random>
+<br/><br/>
+You entered <b><star/></b>. First question. Is this something you want to borrow from the library? 
 <think>
 <set name="topic">1SRCH</set>
 <set name="searcharg"><star/></set>
@@ -187,11 +250,14 @@ First question. You entered <b><star/></b>. Is this something you want to borrow
 <pattern>1FUN</pattern>
 <template>
 <random>
+<li>It's easy, I promise.</li>
 <li>It's fun, like a game.</li>
 <li>Like Twenty Questions, but a lot shorter.</li>
 <li>This is fun. </li>
+<li>Easy as pie, as you humans say.</li>
+<li>More fun than a barrel of digital monkeys.</li>
 <li>This will be easy, I promise.</li>
-will be<li>This is easier than catching mice in a barrel!</li>
+<li>This is easier than catching mice in a barrel!</li>
 </random>
 </template>
 </category>

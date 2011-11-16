@@ -34,6 +34,11 @@ Our catalog will open as a new window, or possibly as a new tab, depending on yo
 </category>
 
 <category>
+<pattern>YOUR CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
 <pattern>* YOUR CATALOG</pattern>
 <template><srai>OPNMPLCAT</srai></template>
 </category>
@@ -44,7 +49,17 @@ Our catalog will open as a new window, or possibly as a new tab, depending on yo
 </category>
 
 <category>
+<pattern>LIBRARY CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
 <pattern>* LIBRARY CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>LIBRARY S CATALOG</pattern>
 <template><srai>OPNMPLCAT</srai></template>
 </category>
 

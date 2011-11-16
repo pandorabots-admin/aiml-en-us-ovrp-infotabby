@@ -767,6 +767,18 @@ The results will open as a new window or as a new tab. <br/><br/>
 <!--BOOK/S-->
 
 <category>
+<pattern> * </pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
 <pattern>BKLKUP</pattern>
 <template><srai>BKLKUPINSRT</srai> Enter the author or the title or the topic. </template>
 </category>
@@ -4278,90 +4290,6 @@ clock help.</template>
 <pattern>UNSUPPORTED METHOD *</pattern>
 <template><srai>PRXYERR</srai></template>
 </category>
-
-<!--UGH-->
-
-<category>
-<pattern>THEHLP</pattern>
-<template>
-<think>
-<set name="searcharg">THE HELP</set>
-<set name="search">catkey</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>THE HELP</pattern>
-<template>Here you go.
-<srai>THEHLP</srai>
-</template>
-</category>
-
-<category>
-<pattern>_ THE HELP</pattern>
-<template>Here you go.
-<srai>THEHLP</srai>
-</template>
-</category>
-
-<category>
-<pattern>THE HELP *</pattern>
-<template>Here you go.
-<srai>THEHLP</srai>
-</template>
-</category>
-
-<category>
-<pattern>_ THE HELP *</pattern>
-<template>Here you go.
-<srai>THEHLP</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>SJOBS</pattern>
-<template>Here you go.
-<think>
-<set name="searcharg">STEVE JOBS</set>
-<set name="search">catkey</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>STEVE JOBS</pattern>
-<template>
-<srai>SJOBS</srai>
-</template>
-</category>
-
-<category>
-<pattern>_ STEVE JOBS</pattern>
-<template>
-<srai>SJOBS</srai>
-</template>
-</category>
-
-<category>
-<pattern>STEVE JOBS *</pattern>
-<template>
-<srai>SJOBS</srai>
-</template>
-</category>
-
-<category>
-<pattern>_ STEVE JOBS *</pattern>
-<template>
-<srai>SJOBS</srai>
-</template>
-</category>
-
-
-
-
-
 
 
   
