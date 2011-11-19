@@ -6948,14 +6948,6 @@
 
 
 <category>
-<pattern>LEO *</pattern>
-<template>
-<srai>leo</srai>
-</template>
-</category>
-
-
-<category>
 <pattern>LEGALIZE PROSTITUTION _</pattern>
 <template>
 <srai>legalizing prostitution</srai>

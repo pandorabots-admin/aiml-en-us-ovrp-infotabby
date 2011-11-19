@@ -17,7 +17,7 @@
   limitations under the License.-->
 
 
-
+<!--
 <category>
   <pattern>HOURS</pattern>
   <template>
@@ -25,278 +25,279 @@
 Follow this link for a nice chart showing our <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>hours</b></a>.
  </template>
 </category>
+-->
 
 <category>
   <pattern>* HOURS</pattern>
-  <template><srai>HOURS</srai></template>
+  <template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
   <pattern>* HOURS *</pattern>
-  <template><srai>HOURS</srai></template>
+  <template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
   <pattern>HOURS *</pattern>
-  <template><srai>HOURS</srai></template>
+  <template><srai>HRSTDY</srai></template>
 </category>
 
 
 
 <category>
 <pattern>* LIBRARY OPEN ON *</pattern>
-<template><srai>HOURS</srai>
+<template><srai>HRSTDY</srai>
 </template>
 </category>
 
 <category>
 <pattern>WHEN * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN * OPENED *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME * OPENED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME * OPENED *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN * CLOSE *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN * CLOSED *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* DAYS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* DAYS * CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIME * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIME * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIMES * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIMES * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>HOW LATE * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* HOW LATE * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>HOW LATE * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* HOW LATE * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>HOW LONG * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* HOW LONG * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>HOW LONG * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* HOW LONG * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>_ LIBRARY OPENED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>_ LIBRARY CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIME</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIME</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIMES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIMES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIMES *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIMES *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>ARE YOU OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN * SUNDAY</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN * SUNDAY *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN * SUNDAYS</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN * SUNDAYS *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>OPENING TIME</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPENING TIME</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>OPENING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPENING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>OPENING TIMES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPENING TIMES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>OPENING TIMES *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPENING TIMES *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* LIBRARY OPEN * CLOSE</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern> * LIBRARY OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern> * LIBRARY CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>TIMES * LIBRARY IS OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>TIMES * LIBRARY IS CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
@@ -317,25 +318,25 @@ Follow this link for a nice chart showing our <a href="http://www.mentorpl.org/h
 
 <category>
 <pattern>WHEN * CLOSE</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN * CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <!--how late are you open-->
 
 <category>
 <pattern>HOW LATE IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>HOW LATE ARE * OPEN</pattern>
 <that>WHAT WOULD YOU LIKE TO KNOW ABOUT THE LIBRARY</that>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
  
@@ -352,264 +353,443 @@ Follow this link for a nice chart showing our <a href="http://www.mentorpl.org/h
 
 <category>
 <pattern>WHEN DO * CLOSE</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN ARE * CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN DO * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN DOES * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN ARE * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHEN IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>HOW LATE IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME DOES * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME IS * OPEN TIL</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME IS * OPEN TILL</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME IS * OPEN UNTIL</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME * OPENS</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>WHAT TIME * CLOSES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN DO * CLOSE</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN ARE * CLOSED</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN DO * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN DOES * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN ARE * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHEN IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* HOW LATE IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHAT TIME DOES * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* IS * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHAT TIME IS * OPEN TIL</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHAT TIME IS * OPEN TILL</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHAT TIME IS * OPEN UNTIL</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHAT TIME * OPENS</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* WHAT TIME * CLOSES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
-
 
 <category>
 <pattern>WHEN ARE YOU OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
+<!--OPEN TODAY-->
 
 <category>
-<pattern>HOW LATE * OPEN TODAY</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-<category>
-<pattern>CLOSE TODAY</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-<category>
-<pattern>* CLOSE TODAY</pattern>
-<template><srai>HOURS</srai></template>
+<pattern>HRSTDY</pattern>
+<template>Today is <date format="%A %B %d, %Y"/>. 
+<srai>OPN <date format="%A %d %m %Y"/></srai>
+Follow this link to see our weekly <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>hours of operation</b></a>.
+</template>
 </category>
 
 <category>
-<pattern>* CLOSE TODAY *</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-
-<category>
-<pattern>CLOSED TODAY</pattern>
-<template><srai>HOURS</srai></template>
+<pattern>CLSDTDY</pattern>
+<template>The Library is closed today.</template>
 </category>
 
 <category>
-<pattern>* CLOSED TODAY</pattern>
-<template><srai>HOURS</srai></template>
+<pattern>ECLSDTDY</pattern>
+<template>The Library will close today at 5:00 pm.</template>
 </category>
 
 <category>
-<pattern>* CLOSED TODAY *</pattern>
-<template><srai>HOURS</srai></template>
+<pattern>OPN *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<!--SEE HOLIDAYLIST.AIML-->
+
+<category>
+<pattern>OPN MONDAY *</pattern>
+<template>On Mondays, the Main Library is open from 9:00 am until 9:00 pm and
+both Branches are open from 1:00 pm until 9:00 pm.</template>
+</category>
+
+<category>
+<pattern>OPN TUESDAY *</pattern>
+<template>On Tuesdays, the Main Library is open from 9:00 am until 9:00 pm and
+both Branches are open from 9:00 am until 5:00 pm.</template>
+</category>
+
+<category>
+<pattern>OPN WEDNESDAY *</pattern>
+<template>On Wednesdays, the Main Library is open from 9:00 am until 9:00 pm and
+both Branches are open from 1:00 pm until 9:00 pm.</template>
+</category>
+
+<category>
+<pattern>OPN THURSDAY *</pattern>
+<template>On Thursdays, the Main Library is open from 9:00 am until 9:00 pm and
+both Branches are open from 9:00 am until 5:00 pm.</template>
+</category>
+
+<category>
+<pattern>OPN FRIDAY *</pattern>
+<template>On Fridays, all Library locations are open from 9:00 am until 5:00 pm.</template>
+</category>
+
+<category>
+<pattern>OPN SATURDAY *</pattern>
+<template>On Saturdays, all Library locations are open from 9:00 am until 5:00 pm.</template>
+</category>
+
+<category>
+<pattern>OPN SUNDAY *</pattern>
+<template>On Sundays, the Main Library is open from 11:00 am until 5:00 pm. 
+Both Branches are closed.</template>
 </category>
 
 
 <category>
 <pattern>OPEN TODAY</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* OPEN TODAY</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-<pattern>* OPEN TODAY *</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>HOLIDAY</pattern>
-  <template>All of our locations are closed on the following holidays: Christmas Eve and Christmas Day, New Year's Eve and New Year's Day, Easter Sunday, Memorial Day,
-   Independence Day (the Fourth of July), Labor Day, Veteran's Day, and Thanksgiving. Please note that our hours may change around any of these holidays. Check the calendar on the left for all of our holiday hours and closings. 
-  </template>
+<pattern>OPEN * TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern>HOLIDAY *</pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>OPEN TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern>* HOLIDAY </pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>* OPEN * TODAY </pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern>* HOLIDAY *</pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>OPEN * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern>HOLIDAYS</pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>* OPEN * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern>* HOLIDAYS </pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>OPENED TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern> HOLIDAYS *</pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>* OPENED TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
-  <pattern>* HOLIDAYS *</pattern>
-  <template><srai>HOLIDAY</srai></template>
+<pattern>OPENED * TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
 </category>
 
+<category>
+<pattern>OPENED TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* OPENED * TODAY </pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPENED * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* OPENED * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPENING TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPENING * TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPENING TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING * TODAY </pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPENING * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* OPENING * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSE TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSE TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSE * TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSE TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSE * TODAY </pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSE * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSE * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSED TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSED TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSED * TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSED TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSED * TODAY </pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSED * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSED * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING * TODAY</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING * TODAY </pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>CLOSING * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
+
+<category>
+<pattern>* CLOSING * TODAY *</pattern>
+<template><srai>HRSTDY</srai></template>
+</category>
 
 
 <!--one word open-->
 
 <category>
   <pattern>OPEN</pattern>
-  <template><srai>HOURS</srai>
+  <template><srai>HRSTDY</srai>
   </template>
 </category>
 
@@ -637,575 +817,80 @@ Follow this link for a nice chart showing our <a href="http://www.mentorpl.org/h
   <template><srai>CLSD</srai></template>
 </category>
 
-<!--enumerated holidays-->
-
-<category>
-  <pattern>XMAS</pattern>
-  <template>We are closed on both Christmas Eve and Christmas Day. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>* CHRISTMAS</pattern>
-  <template><srai>XMAS</srai></template>
-</category>
-
-<category>
-  <pattern>* CHRISTMAS *</pattern>
-  <template><srai>XMAS</srai></template>
-</category>
-
-<category>
-  <pattern>CHRISTMAS *</pattern>
-  <template><srai>XMAS</srai></template>
-</category>
-
-
-<category>
-  <pattern>* XMAS</pattern>
-  <template><srai>XMAS</srai></template>
-</category>
-
-<category>
-  <pattern>* XMAS *</pattern>
-  <template><srai>XMAS</srai></template>
-</category>
-
-<category>
-  <pattern>XMAS *</pattern>
-  <template><srai>XMAS</srai></template>
-</category>
-
-
-<category>
-  <pattern>NEWYRS</pattern>
-  <template>We are closed on both New Year's Eve and New Year's Day. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>NEW YEARS</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-<category>
-  <pattern>* NEW YEARS</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-<category>
-  <pattern>* NEW YEARS *</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-<category>
-  <pattern>NEW YEARS *</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-
-<category>
-  <pattern>NEW YEAR S</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-<category>
-  <pattern>* NEW YEAR S</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-<category>
-  <pattern>* NEW YEAR S *</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-<category>
-  <pattern>NEW YEAR S *</pattern>
-  <template><srai>NEWYRS</srai></template>
-</category>
-
-
-<category>
-  <pattern>EASTER</pattern>
-  <template>We are closed on Easter Sunday, but we are open on Good Friday. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>* EASTER</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-<category>
-  <pattern>* EASTER *</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-<category>
-  <pattern>EASTER *</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-
-<category>
-  <pattern>GOOD FRIDAY</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-<category>
-  <pattern>* GOOD FRIDAY</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-<category>
-  <pattern>GOOD FRIDAY *</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-<category>
-  <pattern>* GOOD FRIDAY *</pattern>
-  <template><srai>EASTER</srai></template>
-</category>
-
-
-<category>
-  <pattern>MEMDAY</pattern>
-  <template>We are closed on Memorial Day. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>MEMORIAL DAY</pattern>
-  <template><srai>MEMDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* MEMORIAL DAY</pattern>
-  <template><srai>MEMDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* MEMORIAL DAY *</pattern>
-  <template><srai>MEMDAY</srai></template>
-</category>
-
-<category>
-  <pattern>MEMORIAL DAY *</pattern>
-  <template><srai>MEMDAY</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>INDEPDAY</pattern>
-  <template>We are closed on July Fourth, Independence Day. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>INDEPDAY5</pattern>
-  <template>Please check the calendar on the left for all of our holiday closings and for the resumption of regular business hours.
-  </template>
-</category>
-
-<category>
-  <pattern>* INDEPENDENCE DAY</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* INDEPENDENCE DAY</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* INDEPENDENCE DAY *</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-  <pattern>INDEPENDENCE DAY *</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-
-<category>
-  <pattern>* FOURTH * JULY</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* FOURTH * JULY *</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* JULY * FOURTH </pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* JULY * FOURTH *</pattern>
-  <template><srai>INDEPDAY</srai></template>
-</category>
-
-
-<category>
-  <pattern>LABDAY</pattern>
-  <template>We are closed on Labor Day. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>LABOR DAY</pattern>
-  <template><srai>LABDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* LABOR DAY</pattern>
-  <template><srai>LABDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* LABOR DAY *</pattern>
-  <template><srai>LABDAY</srai></template>
-</category>
-
-<category>
-  <pattern>LABOR DAY *</pattern>
-  <template><srai>LABDAY</srai></template>
-</category>
-
-
-<category>
-  <pattern>VETSDAY</pattern>
-  <template>We are closed on Veteran's Day. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>* VETERANS DAY</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* VETERANS DAY</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* VETERANS DAY *</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-<category>
-  <pattern>VETERANS DAY *</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>VETERAN S DAY</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* VETERAN S DAY</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-<category>
-  <pattern>* VETERAN S DAY *</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-<category>
-  <pattern>VETERAN S DAY *</pattern>
-  <template><srai>VETSDAY</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>THNKSGVNG</pattern>
-  <template>We are closed on Thanksgiving. Please check the calendar on the left for all of our holiday closings.
-  </template>
-</category>
-
-<category>
-  <pattern>THANKSGIVING</pattern>
-  <template><srai>THNKSGVNG</srai></template>
-</category>
-
-<category>
-  <pattern>* THANKSGIVING</pattern>
-  <template><srai>THNKSGVNG</srai></template>
-</category>
-
-<category>
-  <pattern>* THANKSGIVING *</pattern>
-  <template><srai>THNKSGVNG</srai></template>
-</category>
-
-<category>
-  <pattern>THANKSGIVING *</pattern>
-  <template><srai>THNKSGVNG</srai></template>
-</category>
-
-
-
-
-<!--AWKWARD CONSTRUCTION-->
-
-<category>
-<pattern>WHAT TIME IS THE MAIN BRANCH OPEN UNTIL ON *</pattern>
-<template><srai>AWKWARD MAIN <star/></srai></template>
-</category>
-
-
-
-<category>
-<pattern>AWKWARD MAIN SATURDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 5 pm on Saturdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN SATURDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 5 pm on Saturdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN SUNDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 5 pm on Sundays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN SUNDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 5 pm on Sundays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN MONDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Mondays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN MONDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Mondays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN TUESDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Tuesdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN TUESDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Tuesdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN WEDNESDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Wednesdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN WEDNESDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Wednesdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN THURSDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Thursdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN THURSDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 9 pm on Thursdays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN FRIDAY</pattern>
-<template>My, what an awkward sentence! Main Library is open until 5 pm on Fridays.</template>
-</category>
-
-<category>
-<pattern>AWKWARD MAIN FRIDAYS</pattern>
-<template>My, what an awkward sentence! Main Library is open until 5 pm on Fridays.</template>
-</category>
 
 <category>
 <pattern>TIMES OPEN</pattern>
-<template> <srai>HOURS</srai></template>
+<template> <srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIME * OPEN</pattern>
-<template> <srai>HOURS</srai></template>
+<template> <srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIME * OPEN *</pattern>
-<template> <srai>HOURS</srai></template>
+<template> <srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIME * CLOSE</pattern>
-<template> <srai>HOURS</srai></template>
+<template> <srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* TIME * CLOSE *</pattern>
-<template> <srai>HOURS</srai></template>
+<template> <srai>HRSTDY</srai></template>
 </category>
-
-
-<!--holidays-->
-
-<category>
-<pattern>OPEN SUNDAY JULY 4TH</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-<pattern>* OPEN SUNDAY JULY 4TH</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-<pattern>OPEN JULY 4TH</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-
-<category>
-<pattern>JULY 4TH</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-<pattern>* JULY 4TH</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-<pattern>* JULY 4TH *</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-<pattern>JULY 4TH *</pattern>
-<template><srai>INDEPDAY</srai></template>
-</category>
-
-<category>
-<pattern>JULY 5</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>* JULY 5</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>* JULY 5 *</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>JULY 5 *</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>JULY 5TH</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>* JULY 5TH</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>* JULY 5TH *</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<category>
-<pattern>JULY 5TH *</pattern>
-<template><srai>INDEPDAY5</srai></template>
-</category>
-
-<!--CLOSING TIME-->
 
 <category>
 <pattern>CLOSING TIME</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIME</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIMES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIMES</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>CLOSING TIMES *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* CLOSING TIMES *</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-<!--late are you open-->
-
-<category>
-<pattern>CLOSING TIME</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-<category>
-<pattern>* CLOSING TIME</pattern>
-<template><srai>HOURS</srai></template>
-</category>
-
-<category>
-<pattern>CLOSING TIME *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* LATE * OPEN</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 <category>
 <pattern>* LATE * OPEN *</pattern>
-<template><srai>HOURS</srai></template>
+<template><srai>HRSTDY</srai></template>
 </category>
 
 </aiml>

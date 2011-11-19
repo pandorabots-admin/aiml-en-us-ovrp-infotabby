@@ -1138,6 +1138,46 @@ individual study purposes. For more information about our rooms, please call 440
 </category>
 
 <category>
+  <pattern>STUDY AREA</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>* STUDY AREA</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>STUDY AREA *</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>* STUDY AREA *</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>STUDY AREAS</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>* STUDY AREAS</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>STUDY AREAS *</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
+  <pattern>* STUDY AREAS *</pattern>
+  <template><srai>QROOM</srai></template>
+</category>
+
+<category>
   <pattern>STUDY ROOM</pattern>
   <template><srai>QROOM</srai></template>
 </category>

@@ -25,55 +25,6 @@
 </template>
 </category>  
 
-<category>
-<pattern>BAG</pattern>
-<template>After logging into your account, your bag should be in the upper row of icons on our catalog. If you don't see it, select "new search." That should bring it up.
-</template>
-</category>
-
-<category>
-<pattern>* BAG</pattern>
-<template><srai>BAG</srai></template>
-</category>
-
-<category>
-<pattern>BAG *</pattern>
-<template><srai>BAG</srai></template>
-</category>
-
-<category>
-<pattern>* BAG *</pattern>
-<template><srai>BAG</srai></template>
-</category>
-
-<category>
-<pattern>ADDBAG</pattern>
-<template>You can select a number of items in our catalog then press the "Add marked to bag" to add all of them to your bag. You can then 
-go to "view bag" and save or request the items it contains. It's a bit hard to explain. If you have further questions, please call
-the library at 440.255.8811 during regular business hours.</template>
-</category>
-
-<category>
-<pattern>ADD * BAG</pattern>
-<template><srai>ADDBAG</srai></template>
-</category>
-  
-<category>
-<pattern>ADD * BAG *</pattern>
-<template><srai>ADDBAG</srai></template>
-</category>  
-
-<category>
-<pattern>_ ADD * BAG</pattern>
-<template><srai>ADDBAG</srai></template>
-</category>
-  
-  
-<category>
-<pattern>_ ADD * BAG *</pattern>
-<template><srai>ADDBAG</srai></template>
-</category>
-
 <!--NO ACCT-->  
   
 <category>

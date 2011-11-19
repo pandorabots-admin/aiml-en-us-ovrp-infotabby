@@ -19,8 +19,8 @@
 <!--CAN YOU ANSWER QUESTIONS-->
 
 <category>
-<pattern> _ </pattern>
-<that>WHAT * LOOKING FOR</that>
+<pattern> * </pattern>
+<that>_ CAN I ASSIST YOU</that>
 <template>
 <think>
 <set name="searcharg"><star/></set>
@@ -30,7 +30,8 @@
 
 <category>
 <pattern>ANSWRQ</pattern>
-<template>I can answer many questions about the library and our services. I can help you find items in our catalog, on our website, and in selected databases. What are you looking for?</template>
+<template>I can answer many questions about the library and our services. I can help you find items in our catalog, on our website, and in selected databases. 
+How can I assist you?</template>
 </category>
 
 <category>

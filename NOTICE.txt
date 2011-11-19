@@ -27,6 +27,7 @@ guidedaccount.aiml
 guidedcard.aiml
 guidedholds.aiml
 holds.aiml
+holidaylist.aiml
 hoursdays.aiml
 ill.aiml
 imagesearch.aiml

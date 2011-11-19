@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+<!--date format="%A %d %m %Y"-->
+
+
+
+<category>
+<pattern>OPN FRIDAY 11 11 2011</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN WEDNESDAY 23 11 2011</pattern>
+<template><srai>ECLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN THURSDAY 24 11 2011</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN FRIDAY 23 12 2011</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN SATURDAY 24 12 2011</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN SUNDAY 25 12 2011</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN MONDAY 26 12 2011</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN SUNDAY 01 01 2012</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>OPN MONDAY 02 01 2012</pattern>
+<template><srai>CLSDTDY</srai></template>
+</category>
+
+
+
+<category>
+  <pattern>HOLIDAY</pattern>
+  <template>All of our locations are closed on the following holidays: Christmas Eve and Christmas Day, New Year's Eve and New Year's Day, Easter Sunday, Memorial Day,
+   Independence Day (the Fourth of July), Labor Day, Veteran's Day, and Thanksgiving. Please note that our hours may change around any of these holidays. Check the calendar on the left for all of our holiday hours and closings. 
+  </template>
+</category>
+
+<category>
+  <pattern>HOLIDAY *</pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLIDAY </pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLIDAY *</pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+<category>
+  <pattern>HOLIDAYS</pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLIDAYS </pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+<category>
+  <pattern> HOLIDAYS *</pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLIDAYS *</pattern>
+  <template><srai>HOLIDAY</srai></template>
+</category>
+
+
+<category>
+<pattern>OPEN SUNDAY JULY 4TH</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+<pattern>* OPEN SUNDAY JULY 4TH</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+<pattern>OPEN JULY 4TH</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+
+<category>
+<pattern>JULY 4TH</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+<pattern>* JULY 4TH</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+<pattern>* JULY 4TH *</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+<pattern>JULY 4TH *</pattern>
+<template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+<pattern>JULY 5</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>* JULY 5</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>* JULY 5 *</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>JULY 5 *</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>JULY 5TH</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>* JULY 5TH</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>* JULY 5TH *</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+<category>
+<pattern>JULY 5TH *</pattern>
+<template><srai>INDEPDAY5</srai></template>
+</category>
+
+
+
+
+
+<category>
+  <pattern>XMAS</pattern>
+  <template>We are closed on both Christmas Eve and Christmas Day. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>* CHRISTMAS</pattern>
+  <template><srai>XMAS</srai></template>
+</category>
+
+<category>
+  <pattern>* CHRISTMAS *</pattern>
+  <template><srai>XMAS</srai></template>
+</category>
+
+<category>
+  <pattern>CHRISTMAS *</pattern>
+  <template><srai>XMAS</srai></template>
+</category>
+
+<category>
+  <pattern>* XMAS</pattern>
+  <template><srai>XMAS</srai></template>
+</category>
+
+<category>
+  <pattern>* XMAS *</pattern>
+  <template><srai>XMAS</srai></template>
+</category>
+
+<category>
+  <pattern>XMAS *</pattern>
+  <template><srai>XMAS</srai></template>
+</category>
+
+<category>
+  <pattern>NEWYRS</pattern>
+  <template>We are closed on both New Year's Eve and New Year's Day. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>NEW YEARS</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>* NEW YEARS</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>* NEW YEARS *</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>NEW YEARS *</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>NEW YEAR S</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>* NEW YEAR S</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>* NEW YEAR S *</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>NEW YEAR S *</pattern>
+  <template><srai>NEWYRS</srai></template>
+</category>
+
+<category>
+  <pattern>EASTER</pattern>
+  <template>We are closed on Easter Sunday, but we are open on Good Friday. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>* EASTER</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>* EASTER *</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>EASTER *</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>GOOD FRIDAY</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>* GOOD FRIDAY</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>GOOD FRIDAY *</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>* GOOD FRIDAY *</pattern>
+  <template><srai>EASTER</srai></template>
+</category>
+
+<category>
+  <pattern>MEMDAY</pattern>
+  <template>We are closed on Memorial Day. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>MEMORIAL DAY</pattern>
+  <template><srai>MEMDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* MEMORIAL DAY</pattern>
+  <template><srai>MEMDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* MEMORIAL DAY *</pattern>
+  <template><srai>MEMDAY</srai></template>
+</category>
+
+<category>
+  <pattern>MEMORIAL DAY *</pattern>
+  <template><srai>MEMDAY</srai></template>
+</category>
+
+<category>
+  <pattern>INDEPDAY</pattern>
+  <template>We are closed on July Fourth, Independence Day. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>INDEPDAY5</pattern>
+  <template>Please check the calendar on the left for all of our holiday closings and for the resumption of regular business hours.
+  </template>
+</category>
+
+<category>
+  <pattern>* INDEPENDENCE DAY</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* INDEPENDENCE DAY</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* INDEPENDENCE DAY *</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>INDEPENDENCE DAY *</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* FOURTH * JULY</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* FOURTH * JULY *</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* JULY * FOURTH </pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* JULY * FOURTH *</pattern>
+  <template><srai>INDEPDAY</srai></template>
+</category>
+
+<category>
+  <pattern>LABDAY</pattern>
+  <template>We are closed on Labor Day. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>LABOR DAY</pattern>
+  <template><srai>LABDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* LABOR DAY</pattern>
+  <template><srai>LABDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* LABOR DAY *</pattern>
+  <template><srai>LABDAY</srai></template>
+</category>
+
+<category>
+  <pattern>LABOR DAY *</pattern>
+  <template><srai>LABDAY</srai></template>
+</category>
+
+<category>
+  <pattern>VETSDAY</pattern>
+  <template>We are closed on Veteran's Day. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>* VETERANS DAY</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* VETERANS DAY</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* VETERANS DAY *</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>VETERANS DAY *</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>VETERAN S DAY</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* VETERAN S DAY</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* VETERAN S DAY *</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>VETERAN S DAY *</pattern>
+  <template><srai>VETSDAY</srai></template>
+</category>
+
+<category>
+  <pattern>THNKSGVNG</pattern>
+  <template>We are closed on Thanksgiving. Please check the calendar on the left for all of our holiday closings.
+  </template>
+</category>
+
+<category>
+  <pattern>THANKSGIVING</pattern>
+  <template><srai>THNKSGVNG</srai></template>
+</category>
+
+<category>
+  <pattern>* THANKSGIVING</pattern>
+  <template><srai>THNKSGVNG</srai></template>
+</category>
+
+<category>
+  <pattern>* THANKSGIVING *</pattern>
+  <template><srai>THNKSGVNG</srai></template>
+</category>
+
+<category>
+  <pattern>THANKSGIVING *</pattern>
+  <template><srai>THNKSGVNG</srai></template>
+</category>
+
+
+</aiml>
