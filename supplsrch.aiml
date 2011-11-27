@@ -111,6 +111,38 @@ The results will open as a new window or as a new tab. <br/><br/>
 </template>
 </category>
 
+
+<category>
+<pattern>GRINCH</pattern>
+<template>
+<think>
+<set name="searcharg">GRINCH</set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>_ GRINCH</pattern>
+<template>Here you go.
+<srai>GRINCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>GRINCH *</pattern>
+<template>Here you go.
+<srai>GRINCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ GRINCH *</pattern>
+<template>Here you go.
+<srai>GRINCH</srai>
+</template>
+</category>
+
 <category>
 <pattern>THEHLP</pattern>
 <template>
@@ -148,6 +180,59 @@ The results will open as a new window or as a new tab. <br/><br/>
 <srai>THEHLP</srai>
 </template>
 </category>
+
+
+<category>
+<pattern>NEVERMIND</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">NEVERMIND</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>_ NEVERMIND</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">NEVERMIND</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>NEVERMIND *</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">NEVERMIND</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+<category>
+<pattern>_ NEVERMIND *</pattern>
+<that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
+<template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
+The results will open as a new window or as a new tab. <br/><br/>
+<srai>CONCL</srai>
+<think>
+<set name="searcharg">NEVERMIND</set>
+<set name="search">catkey</set></think>
+</template>
+</category>
+
+
+
+
 
 
 <category>

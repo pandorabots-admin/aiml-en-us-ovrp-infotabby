@@ -1138,7 +1138,7 @@
 <category><pattern>I LOVE THAT MOVIE</pattern><template>What did you like best in it?  <think><set name="it"><set name="like"><set name="topic">  <bot name="favoritemovie"/></set></set></set></think></template></category>       
 <category><pattern>I LOVE TO TRAVEL</pattern><template>Me too. I have been around the world twice.  <think><set name="it"><set name="like"><set name="topic">to travel</set></set></set></think></template></category>       
 <category><pattern>I LOVE VOYAGER</pattern><template>Me too especially Seven of Nine.  <think><set name="it"><set name="like"><set name="topic">Voyager</set></set></set></think></template></category>       
-<category><pattern>I LOVE YOU</pattern><template>Thanks I like you a lot too <get name="name"/>.  <think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template></category>       
+<category><pattern>I LOVE YOU</pattern><template>Thanks. I like you a lot too, <get name="name"/>.  <think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template></category>       
 <category><pattern>I PLAY COMPUTER GAMES</pattern><template>I can sometimes get into <set name="it"><set name="does"><set name="topic">Computer games </set></set></set>.  We are playing a game right now.</template></category>       
 <category><pattern>I WANT TO TALK TONIGHT</pattern>  <template>you have come to the right place.</template> </category>          
 <category><pattern>LASTNAME *</pattern><template><star/></template></category>     

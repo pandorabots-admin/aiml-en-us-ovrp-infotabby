@@ -10,7 +10,7 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!--  --> 
     
-<category> <pattern>WHAT TIME IS IT</pattern> <template><random>   <li>Do I look like a clock?</li>   <li>It's Now more than it ever has been before.</li>   <li>It's getting late.</li> <li>I've got like around </li></random> <br/> <date format="%I %p"/></template> </category>   
+<category> <pattern>WHAT TIME IS IT</pattern> <template>You might want to look in the lower righthand corner of the computer. I have approximately <date format="%X"/></template> </category>   
 <category><pattern>IS IT FRIDAY *</pattern><template>It is <date format="%A"/>.</template></category>                          
 <category><pattern>IS IT FRIDAY</pattern><template>It is <date format="%A"/>.</template></category>                          
 <category><pattern>IS IT MONDAY *</pattern><template>It is <date format="%A"/>.</template></category>                          

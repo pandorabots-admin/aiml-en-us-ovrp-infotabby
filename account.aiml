@@ -2544,6 +2544,16 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 <!--change account info-->
 
 
+
+
+
+
+
+
+
+
+
+
 <category>
 <pattern>change account info</pattern>
 <template><srai>CHNGACCTINF</srai></template>
@@ -2586,6 +2596,127 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 
 <category>
 <pattern> _ change * account information *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+
+<category>
+<pattern>EDIT CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT * CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT CARD *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT * CARD</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT * CARD *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT CARD *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT * CARD *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>CHANGE NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* CHANGE NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>CHANGE * NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>CHANGE NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* CHANGE * NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>CHANGE * NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* CHANGE NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* CHANGE * NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT * NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT * NAME</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>EDIT * NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT NAME *</pattern>
+<template><srai>CHNGACCTINF</srai></template>
+</category> 
+
+<category>
+<pattern>* EDIT * NAME *</pattern>
 <template><srai>CHNGACCTINF</srai></template>
 </category> 
 

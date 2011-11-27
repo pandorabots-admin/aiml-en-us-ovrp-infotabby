@@ -3337,6 +3337,84 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 <!--CAN YOU LOOK FOR-->
 
 <category>
+<pattern>LOOK FOR * BOOK</pattern>
+<template>
+Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOOK FOR * BOOK</pattern>
+<template>
+Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOOK FOR * BOOK *</pattern>
+<template>
+Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOOK * BOOK ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="2"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOOK * BOOK ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="3"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="3"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>LOOKING * BOOK ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="2"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOOKING * BOOK ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="3"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="3"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
 <pattern>LOOK FOR * BOOKS</pattern>
 <template>
 Let me check our catalog for <star/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
@@ -3368,6 +3446,62 @@ Let me check our catalog for <star index="2"/>.  If you don't see the results, p
 </think>
 </template>
 </category>
+
+<category>
+<pattern>LOOK * BOOKS ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="2"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOOK * BOOKS ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="3"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="3"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>LOOKING * BOOKS ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="2"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="2"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOOKING * BOOKS ABOUT *</pattern>
+<template>
+Let me check our catalog for <star index="3"/>.  If you don't see the results, please turn off your pop-up blocker and ask me again. 
+<think>
+<set name="searcharg"><star index="3"/></set>
+<set name="search">catkey</set>
+</think>
+</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
 
 <category>
 <pattern>SEARCH FOR * BOOKS</pattern>

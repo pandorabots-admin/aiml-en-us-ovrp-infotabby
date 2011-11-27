@@ -672,8 +672,10 @@
 
 <category>
   <pattern>FXNG</pattern>
-  <template>You may send and receive faxes at the Main Library. The fax number is 440.205.1153.
- </template>
+  <template>You may send and receive faxes at the Main Library. The Main Library fax number is 440.205.1153.
+  The charge to send faxes are $1.00 per page for local calls and $2.00 for the first page of a long distance call and $1.00 for additional pages. Charges for receiving faxes are $1.00 per page. 
+  Mentor-on-the-Lake and Headlands Branches can send, but not receive, faxes.
+  </template>
 </category>
 
 <category>
@@ -2122,7 +2124,92 @@ that you may purchase for $1.00. </template>
 <template><srai>HDPHN</srai></template>
 </category>
 
+<!--TABLES-->
 
+<category>
+<pattern>TBLS</pattern>
+<template>All of our locations have tables. They are available on a first come first served basis; you may not reserve them. The Main Library
+has a number of study carrels on the ground floor. They  are also available on a first come basis and may not be reserved.</template>
+</category>
 
+<category>
+<pattern>CARREL</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* CARREL</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>CARREL *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* CARREL *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>CARRELS</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* CARRELS</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>CARRELS *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* CARRELS *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>TABLE</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* TABLE</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>TABLE *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* TABLE *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>TABLES</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* TABLES</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>TABLES *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
+
+<category>
+<pattern>* TABLES *</pattern>
+<template><srai>TBLS</srai></template>
+</category>
 
 </aiml>

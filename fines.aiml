@@ -752,6 +752,88 @@ We are not currently offering fine forgiveness. If you have questions about fine
 </category>
 </topic>
 
+<!--CHARGE FOR FAXING-->
+
+<category>
+  <pattern>FXNGCH</pattern>
+  <template>The charge to send faxes are $1.00 per page for local calls and $2.00 for the first page of a long distance call and $1.00 for additional pages. Charges for receiving faxes are $1.00 per page. 
+  Mentor-on-the-Lake and Headlands Branches can send, but not receive, faxes.
+  </template>
+</category>
+
+<topic name="FEES">
+<category>
+ <pattern>FAX</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAX</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAX *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAX *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXES</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXES</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXES *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXES *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXING</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXING</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXING *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXING *</pattern>
+ <that> *  ABOUT OUR FEES OR CHARGES</that>
+<template><srai>FXNGCH</srai></template>
+</category>
+</topic>
 
 <!--GRACE PERIODS-->
 

@@ -25,7 +25,10 @@
 <category>
 <pattern>UDC</pattern>
 <template>
-<srai>BSYCAT</srai>
+<random>
+<li><srai>BSYCAT</srai></li>
+<li>HMMM</li>
+</random>
 <srai>LKUP</srai>
 </template>
 </category>
@@ -54,7 +57,6 @@
 <li>Dewey has a question on another line. Hang on.</li>
 <li>Pixel has a question on another line. Hang on.</li>
 <li>Ella has a question on another line. Hang on.</li>
-<li>Hmm...I don't have a response.</li>
 <li>I beg your pardon. One of the selfchecks had a question.</li>
 <li>I'm sorry, I was watching your mouse.</li>
 <li>Excuse me, someone else was asking a question.</li>
@@ -68,21 +70,17 @@
 <li>I'm sorry, I was searching our catalog for another person.</li>
 <li>I'm sorry, I was searching a database for another person.</li>
 <li>Excuse me, I was helping another person. </li>
-<li>I don't recognize your input.</li>
 <li>I'm grooming. Just a minute. O.K.</li>
-<li>I'm not sure what you're asking.</li>
 <li>I have to check my nose. Is it cold enough? Yes.</li>
 <li>David's trying to add to my knowledge. I'll disable his keyboard. What fun!</li>
 <li>My creator is trying to update me. I'll turn off his laptop. My, my. Such language!</li>
 <li>Just a moment. One of my kittenbots was stuck under the couch. O.K.</li>
 <li>One of the kittenbots knocked over a lamp. Sorry. </li>
 <li>Pardon me. The kittenbots are making a racket. O.K.</li>
-<li>I don't recognize that input.</li>
 <li>I was looking under the fridge for a piece of string. Sorry. </li>
 <li>Sorry, the selfchecks had a question.</li>
 <li>Excuse me, the selfcheck was asking a question. </li>
 <li>One of the kittenbots lost her mouse. Just a moment. O.K.</li>
-<li>I don't have a response at this time, but I can still try to help you.</li>
 <li>Sorry, had to stretch. </li>
 <li>Sorry, there was a bird outside the window.</li>
 <li>One of the selfchecks has a question. O.K.</li>
@@ -96,8 +94,26 @@
 </template>
 </category>
 
-
-
+<category>
+<pattern>HMMM</pattern>
+<template>
+<random>
+<li>O.K. I don't have any response.</li>
+<li>I don't recognize what you typed.</li>
+<li>I don't have an answer for that right now.</li>
+<li>I can't say right now.</li>
+<li>I can't answer that right now.</li>
+<li>I have no answer for that right now.</li>
+<li>I don't recognize your input.</li>
+<li>Hmm...I don't have a response.</li>
+<li>I'm not sure what you're asking.</li>
+<li>I don't recognize that input.</li>
+<li>I don't have a response at this time, but I can still try to help you.</li>
+<li>There's no response to that input in my database.</li>
+<li>My creator will a response to this input. In the meantime....</li>
+</random>
+</template>
+</category>
 
 <!--PASS SEARCH FOR LKUP-->
 
@@ -167,7 +183,6 @@
 <random>
 <li>be brief</li>
 <li>be concise</li>
-<li>don't be too wordy</li>
 </random>
 </template>
 </category>
@@ -207,6 +222,27 @@
 <category>
 <pattern> * </pattern>
 <that>PLEASE * OR *</that>
+<template>
+<random>
+<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
+Just type "yes" or "no." </li>
+<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+All you have to do is type "yes" or "no." </li>
+<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+Just type "yes" or "no." </li>
+</random>
+<br/><br/>
+You entered <b><star/></b>. First question. Is this something you want to borrow from the library? 
+<think>
+<set name="topic">1SRCH</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>PLEASE BE *</that>
 <template>
 <random>
 <li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
