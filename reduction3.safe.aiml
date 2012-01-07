@@ -17782,13 +17782,6 @@
 </category>
 
 
-<category>
-<pattern>TELL ME ABOUT THE *</pattern>
-<template>
-<srai>what is the <star /></srai>
-</template>
-</category>
-
 
 <category>
 <pattern>WHAT IS THE ACTUAL *</pattern>

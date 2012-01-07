@@ -103,7 +103,7 @@
   You may apply for a library card at the Main Library Circulation Desk or at either Branch. You can also get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. There is no charge to get a card.
   You must present identification showing your current address. Any Ohio resident can get a card, you do not need to live in Mentor. If your photo ID does not have your current address, a personal check, utility bill, envelope or post card with a recent postmark showing your current address is required. 
   You must be 18 years of age to get an Adult card; Children cards require a guardian's signature. Once you have your card, you can use it at any of our locations.
- At this time it is not possible for you to get a library card online. We hope to offer this service in the future. Please call us immediately if your card
+ Please call us immediately if your card
 is lost or stolen. If you're getting a message that your card is going to expire, please call the library at 440.255.8811. 
 <think><set name="topic">CRDQ</set>
 </think>
@@ -210,7 +210,11 @@ is lost or stolen. If you're getting a message that your card is going to expire
 
 <category>
 <pattern>LNKCRDS</pattern>
-<template>You must fill out a permission form to link cards; cards cannot be linked online. Linking cards allows
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You must fill out a permission form to link cards; cards cannot be linked online. Linking cards allows
 you to renew, pay fines, or check out items for another person. The people being linked do not have to be 
 related by blood or marriage. </template>
 </category>
@@ -293,7 +297,11 @@ related by blood or marriage. </template>
 
 <category>
 <pattern>OLCRD</pattern>
-<template>You can get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. Here, I'll open the form for you.
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You can get a <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>temporary card online</b></a>. Here, I'll open the form for you.
 Once you have filled out the form, you must show photo identification and proof of current address to a staff member at the Circulation Desk to receive your library card
 You may use your new temporary account to place 5 holds on items in the Mentor Public Library catalog. Once you get your permanent card, you may place up to 35 holds, including holds on 
 OhioLINK or SearchOhio items, and also use our databases and downloadable media.
@@ -382,7 +390,11 @@ OhioLINK or SearchOhio items, and also use our databases and downloadable media.
   
 <category>
 <pattern>NEWLIBCRD</pattern>
-<template>If you need to get a new library card, or a replacement card, please bring a photo ID and proof of address to the Main Library or either branch.
+<template>
+<think>
+<set name="topic"></set>
+</think>
+If you need to get a new library card, or a replacement card, please bring a photo ID and proof of address to the Main Library or either branch.
 There is no charge to get a card, replacement cards are $1.00.</template>
 </category>
 
@@ -437,7 +449,11 @@ There is no charge to get a card, replacement cards are $1.00.</template>
   
 <category>
 <pattern>RPLCRD</pattern>
-<template>If you need to get a replacement card, please bring a photo ID and proof of address to the Main Library or either branch. The cost for replacement cards is $1.00.</template>
+<template>
+<think>
+<set name="topic"></set>
+</think>
+If you need to get a replacement card, please bring a photo ID and proof of address to the Main Library or either branch. The cost for replacement cards is $1.00.</template>
 </category>
 
 <topic name="CRDQ"><category>
@@ -507,14 +523,16 @@ There is no charge to get a card, replacement cards are $1.00.</template>
 <category>
 <pattern>EXPRDCRD</pattern>
 <template>
-<srai>CRDEXPR</srai>
+<think>
+<set name="topic"></set>
+</think>
 <random><li>
 If you haven't used your card in a year or so, there's a good chance that it's expired. Try logging in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank">
   <b>your account</b>
 </a> using the card. If you can't log in, call us to check your card's status. At this time, it is not possible to renew or reactivate your card online.</li>
 <li>If library cards are not used for a year, they will expire. You can test a card by logging in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank">
   <b>your account</b>
-</a> using the card. If you can't log in, call us to check your card's status. At this time, it is not possible to renew or reactivate your card online.</li>
+</a> using the card. If you can't log in, call us to check your card's status.</li>
 </random>
 </template>
 </category>
@@ -850,7 +868,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>BCDE</pattern>
-  <template>The barcode is on the back of your library card. lf you signed you card, the barcode is just below your signature.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  The barcode is on the back of your library card. lf you signed you card, the barcode is just below your signature.
  </template>
 </category>
  
@@ -956,7 +978,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>ONLNCRD</pattern>
-  <template>All Ohio residents are welcome to apply for a Mentor Public Library card. You may use your new temporary account to place 5 holds on items in the Mentor Public Library catalog. Once you get your permanent card, you may place up to 35 holds, including holds on OhioLINK or SearchOhio items, and also use our databases and downloadable media.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  All Ohio residents are welcome to apply for a Mentor Public Library card. You may use your new temporary account to place 5 holds on items in the Mentor Public Library catalog. Once you get your permanent card, you may place up to 35 holds, including holds on OhioLINK or SearchOhio items, and also use our databases and downloadable media.
   Follow this link to <a href="https://catalog.mentorpl.org/selfreg" target="_blank"><b>get a card online</b></a>!
  </template>
 </category>
@@ -1015,7 +1041,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>KIDSCRD</pattern>
-  <template>Children of any age can get a library card; children's cards require a guardian's signature.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Children of any age can get a library card; children's cards require a guardian's signature.
  </template>
 </category>
 
@@ -1241,11 +1271,12 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>LSTCRD</pattern>
-  <template>Card holders are responsible for all items borrowed unless the card is reported to the library as lost or stolen. If you lose your card, call the library immediately. You may get a replacement card for <say-as type="Currency">$1.00  </say-as>.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Card holders are responsible for all items borrowed unless the card is reported to the library as lost or stolen. If you lose your card, call the library immediately. You may get a replacement card for <say-as type="Currency">$1.00  </say-as>.
  Replacement cards are not available online.
- <think>
- <set name="topic">CRDQ</set>
- </think>
  </template>
 </category>
 
@@ -1619,7 +1650,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>TCHRCRD</pattern>
-  <template>Please remember that the Mentor Public Library's Teacher card Program is a 
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Please remember that the Mentor Public Library's Teacher card Program is a 
   Privilege allowing educators the opportunity to borrow materials for extended periods of time to accommodate their teaching needs. 
   Follow this link for more information about our <a href="http://www.mentorpl.org/teachers.html" target="_blank"><b>loan policies for teacher's cards</b></a>. Apply for a teacher's card at the circulation desk - you must present identification showing your current address. 
   
@@ -1704,7 +1739,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>SVCRDNUM</pattern>
-  <template>If you want to have your browser save your card number, try changing the autocomplete settings. Here are instructions for 
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  If you want to have your browser save your card number, try changing the autocomplete settings. Here are instructions for 
   <a href="http://www.computerhope.com/issues/ch000604.htm" target="_blank"><b>Internet Explorer</b></a>, here
   are instructions for <a href="http://support.mozilla.com/en-US/kb/Form%20autocomplete" target="_blank"><b>Firefox</b></a>. If you need more help, call the library at 440.255.8811.</template>
 </category>
@@ -1883,7 +1922,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
   <pattern>SHRCRD</pattern>
-  <template>You should not share your library card. All individuals wishing to use our library should have their own card. 
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  You should not share your library card. All individuals wishing to use our library should have their own card. 
   </template>
 </category>
 
@@ -1965,7 +2008,11 @@ If you haven't used your card in a year or so, there's a good chance that it's e
 
 <category>
 <pattern>APTAB</pattern>
-<template>The application tab is a copy of your barcode that you can peal off
+<template>
+<think>
+<set name="topic"></set>
+</think>
+The application tab is a copy of your barcode that you can peal off
 and attach to the back of your driver's license or other convenient place. This may help to reduce the number of cards in your purse or wallet.</template>
 </category>
 
@@ -1999,7 +2046,11 @@ and attach to the back of your driver's license or other convenient place. This 
 
 <category>
 <pattern>NONLCRES</pattern>
-<template>If you live in Ohio, you can get a library card. It doesn't matter if you live outside Mentor or Lake County. Just stop in
+<template>
+<think>
+<set name="topic"></set>
+</think>
+If you live in Ohio, you can get a library card. It doesn't matter if you live outside Mentor or Lake County. Just stop in
 with your photo ID and proof of address.</template>
 </category>
 
@@ -2084,7 +2135,11 @@ with your photo ID and proof of address.</template>
 
 <category>
 <pattern>NONOHRES</pattern>
-<template>If you live in anywhere in Ohio, you can get a card and use our library without charge. If you don't live in Ohio, you can still get a library card. A $10.00 deposit is required. Please stop in the library
+<template>
+<think>
+<set name="topic"></set>
+</think>
+If you live in anywhere in Ohio, you can get a card and use our library without charge. If you don't live in Ohio, you can still get a library card. A $10.00 deposit is required. Please stop in the library
 or call us at 440.255.8811 for more information. </template>
 </category>
 
@@ -2162,7 +2217,11 @@ or call us at 440.255.8811 for more information. </template>
 
 <category>
 <pattern>NONMPLCRD</pattern>
-<template>You must have a Mentor Public Library card to use our services; 
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You must have a Mentor Public Library card to use our services; 
 if you have a CLEVNET or Greater Access card, you must get a Mentor Public Library card to use our library.</template>
 </category>
 

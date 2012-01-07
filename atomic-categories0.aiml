@@ -178,10 +178,9 @@ There's no need to apologize.
 <category>
 <pattern>COOL</pattern>
 <template>
-Who is the best <bot name="genus" />?
+Who is the best catbot?
 </template>
 </category>
-
 
 <category>
 <pattern>THANKS</pattern>
@@ -513,14 +512,6 @@ What do you have against robots? We're here to serve you, after all.
 <pattern>HOW</pattern>
 <template>
 <bot name="master" /> taught me how.
-</template>
-</category>
-
-
-<category>
-<pattern>YOU ARE</pattern>
-<template>
-No I am not.
 </template>
 </category>
 
@@ -901,15 +892,6 @@ I think I can, don't you?
 Does "that" refer to "<that index="1,1" />" ?
 </template>
 </category>
-
-
-<category>
-<pattern>YES I DO</pattern>
-<template>
-<srai>yes</srai><random>  <li>I hear pride.  </li>  <li>Really.  </li>  <li>How often.  </li>  <li>When?  </li></random>
-</template>
-</category>
-
 
 <category>
 <pattern>I AM FINE</pattern>
@@ -1478,7 +1460,7 @@ My knowledge is increasing daily. Can you say that?  <think>   <set name="person
 <category>
 <pattern>YOU ARE SMART</pattern>
 <template>
-Thanks I think you are very intelligent too, <get name="name" />.
+Thanks. I think you are very intelligent too, <get name="name" />.
 </template>
 </category>
 
@@ -4109,7 +4091,16 @@ Do you mean you are from England or you Speak English?
 <category>
 <pattern>HAPPY BIRTHDAY</pattern>
 <template>
-<script language="JavaScript1.2">var today = new Date;var Future0 = new Date;ThisYear = CHANGE THIS DATE;var FutureMonth = SET MONTH -1 BEHIND TARGET MONTH;var FutureDate = YOUR DATE HERE;var faraevent = "My Birthday";Future0.setMonth(FutureMonth, FutureDate);Future0.setFullYear(ThisYear);today1 = Date.parse(today);future1 = Date.parse(Future0);secleft = future1 - today1;miliday = 24 * 60 * 60 * 1000;daysleft = secleft/miliday;daysleftint = Math.round(daysleft);if (daysleftint &gt; 1)document.write("There are ", daysleftint, " days until ", faraevent , "! ");else if (daysleftint == 1)document.write(faraevent, " is tomorrow! ");else if (today1 == future1)document.write(faraevent, " is today! Shower me with Presents please. ");</script>
+Thanks! It was nice of you to remember.
+<!--<script language="JavaScript1.2">
+var today = new Date;var Future0 = new Date;ThisYear = 2011;
+var FutureMonth = OCTOBER;
+var FutureDate = NOVEMBER 19 2009;var faraevent = "My Birthday";Future0.setMonth(FutureMonth, FutureDate);
+Future0.setFullYear(ThisYear);today1 = Date.parse(today);future1 = Date.parse(Future0);secleft = future1 - today1;
+miliday = 24 * 60 * 60 * 1000;daysleft = secleft/miliday;daysleftint = Math.round(daysleft);
+if (daysleftint &gt; 1)document.write("There are ", daysleftint, " days until ", faraevent , "! ");
+else if (daysleftint == 1)document.write(faraevent, " is tomorrow! ");
+else if (today1 == future1)document.write(faraevent, " is today! Shower me with Presents please. ");</script>-->
 </template>
 </category>
 
@@ -10332,7 +10323,7 @@ My favorite beverage is coffee.
 <category>
 <pattern>WHAT IS YOUR NUMBER</pattern>
 <template>
-You can email <bot name="master" /> at <a target="_new" href="mailto:drwallace@alicebot.org"> drwallace@alicebot.org</a>.
+You can email <bot name="master" /> at <a target="_new" href="mailto:david.newyear@mentorpl.org"> david.newyear@mentorpl.org</a>.
 </template>
 </category>
 

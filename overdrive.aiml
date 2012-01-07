@@ -124,7 +124,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 
 <category>
 <pattern>ODHLP</pattern>
-<template>If you have questions or need assistance with Overdrive, please follow this link for <a href="http://mentor.lib.overdrive.com/65024B84-DC2B-4A8C-917F-CC8FAC78F5C9/10/806/en/Help.htm" target="_blank"><b>Overdrive Help</b></a>.
+<template>If you have questions about downloading eBooks, please follow this link for <a href="http://mentor.lib.overdrive.com/65024B84-DC2B-4A8C-917F-CC8FAC78F5C9/10/806/en/Help.htm" target="_blank"><b>Overdrive Help</b></a>.
 We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/tour/Main.html" target="_blank"><b>short demos</b></a> that will answer many of your questions about this service. If you need further assistance, please call the library at 440.255.8811 during regular business hours.
 </template>
 </category>
@@ -394,995 +394,30 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 
 <!--comp devices-->
 
-
-<category>
-  <pattern>KNDL</pattern>
-  <template>We don't have Kindles to loan, but you can download eBooks to your own Kindle using Overdrive. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.</template>
-</category>
-
-<category>
-  <pattern>KINDLE</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE *</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLE *</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLES</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES *</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLES *</pattern>
-  <template><srai>KNDL</srai></template>
-</category>
-
-<category>
-  <pattern>KNDLOD</pattern>
-  <template>Overdrive eBooks are now compatible with Kindles. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.
-  </template>
-</category>
-
-<category>
-  <pattern>KINDLE * OVERDRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE * OVERDRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLE * OVERDRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE * OVERDRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE OVERDRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLES * OVERDRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES * OVERDRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLES * OVERDRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES * OVERDRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES OVERDRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLE * OVER DRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE * OVER DRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLE * OVER DRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE * OVER DRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLE OVER DRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLES * OVER DRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES * OVER DRIVE</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>KINDLES * OVER DRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES * OVER DRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  KINDLES OVER DRIVE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVER DRIVE * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVER DRIVE * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVER DRIVE * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVER DRIVE * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVER DRIVE KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVER DRIVE * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVER DRIVE * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>OVER DRIVE * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVER DRIVE * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVER DRIVE KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLE * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLE * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLE * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLE * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLE KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLE * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLE * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLE * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLE * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLE KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLES * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLES * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLES * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLES * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLES KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLES * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLES * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADABLES * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLES * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADABLES KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>EBOOK * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
 <category>
-  <pattern>_  EPUBS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
+<pattern>ODHLP2</pattern>
+<template>You can download eBooks to a wide variety of eReaders. Please follow these links for a list of
+<a href="http://www.overdrive.com/resources/drc/Default.aspx?type=ebook" target="_blank"><b>compatible devices</b></a> or for general
+<a href="http://mentor.lib.overdrive.com/65024B84-DC2B-4A8C-917F-CC8FAC78F5C9/10/806/en/Help.htm" target="_blank"><b>Overdrive Help</b></a>.
+If you need further assistance, please call the library at 440.255.8811 during regular business hours.
+</template>
 </category>
 
 <category>
-  <pattern>_  EPUBS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
+<pattern>COMPATIBLE *</pattern>
+<template><srai>ODHLP2</srai></template>
 </category>
 
 <category>
-  <pattern>_  EPUB * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
+<pattern>* COMPATIBLE</pattern>
+<template><srai>ODHLP2</srai></template>
 </category>
 
 <category>
-  <pattern>_  EPUB KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
+<pattern>* COMPATIBLE *</pattern>
+<template><srai>ODHLP2</srai></template>
 </category>
 
-<category>
-  <pattern>EPUBS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-
-
-
-<category>
-  <pattern>_ PDF * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDF KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>PDF * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDF * KINDLE </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>PDFS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDFS * KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDFS KINDLE *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>PDFS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDFS * KINDLES </pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>PDFS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDFS * KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<category>
-  <pattern>_ PDFS KINDLES *</pattern>
-  <template><srai>KNDLOD</srai></template>
-</category>
-
-<!--ei-->
-
-<category>
-  <pattern>EREADER</pattern>
-  <template><srai>OD</srai>
- </template>
-</category>
-
-<category>
-  <pattern>_  EREADER</pattern>
-  <template><srai>EREADER</srai></template>
-</category>
-
-<category>
-  <pattern>_  EREADER *</pattern>
-  <template><srai>EREADER</srai></template>
-</category>
-
-<category>
-  <pattern>EREADER *</pattern>
-  <template><srai>EREADER</srai></template>
-</category>
-
-<category>
-  <pattern>EREADERS</pattern>
-   <template><srai>EREADER</srai></template>
-</category>
-
-<category>
-  <pattern>_  EREADERS</pattern>
-  <template><srai>EREADER</srai></template>
-</category>
-
-<category>
-  <pattern>_  EREADERS *</pattern>
-  <template><srai>EREADER</srai></template>
-</category>
-
-<category>
-  <pattern>EREADERS *</pattern>
-  <template><srai>EREADER</srai></template>
-</category>
 
 <!--DEMOS-->
 
@@ -2404,1320 +1439,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
   <template><srai>ODTUTRLS</srai></template>
 </category>
 
-<!--LOAD IPAD-->
 
-<category>
-<pattern>ODIPAD</pattern>
-<template>To download EBOOKS to your i Pad, you need to do two things: <br/>
-1. install the OverDrive Media Console, and <br/>
-2. create and activate your Adobe ID. Follow this link for more information and assistance on <a href="http://mentor.lib.overdrive.com/AB9F3092-F0F0-4D30-BB33-0C2A3959D5A6/10/806/en/Help-QuickStartGuide.htm" target="_blank"><b>using OverDrive with your i Pad</b></a>.
-</template>
-</category>
-
-<category>
-  <pattern>LOAD * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  LOAD * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  LOAD * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-
-<category>
-  <pattern>EBOOK * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  LOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  LOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOK * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOK * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * LOAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * LOAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * LOAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * LOAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * LOAD*</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * DOWNLOAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * DOWNLOAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<!--I-->
-
-<category>
-  <pattern>IPAD * DOWNLOADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * DOWNLOADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * DOWNLOADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOADING</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * DOWNLOADING</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOADING *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * DOWNLOADING *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * DOWNLOADING *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * EBOOK</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * EBOOK</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * EBOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * EBOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * EBOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EBOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOK * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E BOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E BOOKS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>EPUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  EPUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUB * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>E PUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  E PUBS * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * IPAD</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>OVERDRIVE * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  OVERDRIVE * IPAD *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  LOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>LOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  LOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOAD * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<!--I-->
-
-<category>
-  <pattern>DOWNLOADS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADS * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * IPADS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>DOWNLOADING * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  DOWNLOADING * IPADS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPAD * EBOOK</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPAD * EBOOK</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EBOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EBOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EBOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EBOOKS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EBOOKS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EBOOKS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EBOOKS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EBOOKS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E BOOK</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E BOOK</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E BOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E BOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E BOOK *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E BOOKS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E BOOKS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E BOOKS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E BOOKS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E BOOKS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EPUB</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EPUB</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EPUB *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EPUB *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EPUB *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EPUBS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EPUBS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EPUBS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * EPUBS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * EPUBS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E PUB</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E PUB</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E PUB *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E PUB *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E PUB *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E PUBS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E PUBS</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E PUBS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * E PUBS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * E PUBS *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * OVERDRIVE  </pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * OVERDRIVE</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * OVERDRIVE *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>IPADS * OVERDRIVE *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
-
-<category>
-  <pattern>_  IPADS * OVERDRIVE *</pattern>
-  <template><srai>ODIPAD</srai></template>
-</category>
 
 <!--RETURNING EBOOKS-->
 
@@ -5509,7 +3231,7 @@ We also have a number of <a href="http://www.overdrive.com/Solutions/Libraries/t
 Follow this link for <a href="http://mentor.lib.overdrive.com/D5DE83A9-D933-4EC1-830F-9FEA2A82C69E/10/806/en/Help-Policies-Borrowing.htm" target="_blank"><b>more information on downloading, reading, and returning eBooks</b></a> using OverDrive. 
 You can get even more downloadable books free from <a href="http://openlibrary.org/" target="_blank"><b>Open Library</b>
 </a> or from <a href="http://books.google.com/" target="_blank"><b>Google Books</b>
-</a>. We don't have downloadable audio books or movies at this time, but Overdrive eBooks are now compatible with Kindles. Follow this link for information about <a href="http://help.overdrive.com/MyHelpMH32" target="_blank"><b>downloading eBooks to your Kindle</b></a>.
+</a>. We don't have downloadable audio books or movies at this time. 
 <think>
 <set name="search">overdrive</set>
 </think>
@@ -5517,12 +3239,12 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 </category>
 
 <category>
-<pattern>_ EBOOK</pattern>
+<pattern>* EBOOK</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
 <category>
-<pattern>_ EBOOK *</pattern>
+<pattern>* EBOOK *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5542,12 +3264,12 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 </category>
 
 <category>
-<pattern>_ EBOOKS</pattern>
+<pattern>* EBOOKS</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
 <category>
-<pattern>_ EBOOKS *</pattern>
+<pattern>* EBOOKS *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5558,7 +3280,7 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 </category>
 
 <category>
-<pattern>_ E BOOK</pattern>
+<pattern>* E BOOK</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5568,7 +3290,7 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 </category>
 
 <category>
-<pattern>_ E BOOK *</pattern>
+<pattern>* E BOOK *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5578,7 +3300,7 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 </category>
 
 <category>
-<pattern>_ E BOOKS</pattern>
+<pattern>* E BOOKS</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5588,7 +3310,7 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 </category>
 
 <category>
-<pattern>_ E BOOKS *</pattern>
+<pattern>* E BOOKS *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
@@ -5680,17 +3402,12 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 <template><srai>EBOOK</srai></template>
 </category>
 
-
 <category>
 <pattern>DIGITAL EDITIONS *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
 
-
-
-
 <!--E READER-->
-
 
 <category>
 <pattern>E READER BOOKS</pattern>
@@ -5712,9 +3429,6 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 <template><srai>EBOOK</srai></template>
 </category>
 
-
-
-
 <category>
 <pattern>EREADER BOOKS</pattern>
 <template><srai>EBOOK</srai></template>
@@ -5734,7 +3448,6 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 <pattern>_ EREADER BOOKS *</pattern>
 <template><srai>EBOOK</srai></template>
 </category>
-
 
 <category>
 <pattern>NOOKBOOKS</pattern>
@@ -5858,6 +3571,494 @@ You can get even more downloadable books free from <a href="http://openlibrary.o
 <category>
 <pattern>_ MY OWN EREADER *</pattern>
 <template><srai>EBOOK</srai></template>
+</category>
+
+<!--LIST OF EBOOKS-->
+
+<category>
+<pattern>LSTEBK</pattern>
+<template>Overdrive doesn't have a list, per se, but you can follow this link to browse all of our <a href="http://mentor.lib.overdrive.com/04958E51-F7EC-4E7E-8DEE-401C67C34B66/10/806/en/BrowseCollections.htm" target="_blank"><b>eBook titles</b></a>.
+</template>
+</category>
+
+<category>
+<pattern>EBOOK LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK * LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK * LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK * LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK * LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK * LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK * LIST</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK * LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK * LIST *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK * LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK * LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>EBOOK * LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* EBOOK * LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK * LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK * LISTS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>E BOOK * LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* E BOOK * LISTS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LIST * E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LIST * E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * EBOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * EBOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * E BOOK</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * E BOOK *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * EBOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * EBOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * E BOOKS</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>LISTS * E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
+</category>
+
+<category>
+<pattern>* LISTS * E BOOKS *</pattern>
+<template><srai>LSTEBK</srai></template>
 </category>
 
 <!--PDF BOOKS-->
@@ -6201,9 +4402,9 @@ You have the world's classic literature at your fingertips; over a million free 
 
 <category>
 <pattern>PUBDOMBKS</pattern>
-<template>
-If you're looking for free, public domain eBooks, you can get plenty of them from the <a href="http://openlibrary.org/" target="_blank"><b>Open Library</b>
-</a> or from <a href="http://books.google.com/" target="_blank"><b>Google Books</b></a>.
+<template>Overdrive offers free eBooks; these titles never expire and don’t count against your checkout limit! Follow this link for <a href="http://mentor.lib.overdrive.com/04958E51-F7EC-4E7E-8DEE-401C67C34B66/10/806/en/PublicDomainCollection.htm" target="_blank"><b>free eBooks from Overdrive</b></a>.
+You can find even more free eBooks at <a href="http://openlibrary.org/" target="_blank"><b>Open Library</b>
+</a> or <a href="http://books.google.com/" target="_blank"><b>Google Books</b></a>. Just follow the links. <srai>FFREEBKS</srai>
 </template>
 </category>
 
@@ -6227,8 +4428,84 @@ If you're looking for free, public domain eBooks, you can get plenty of them fro
   <template><srai>PUBDOMBKS</srai></template>
 </category>
 
+<category>
+  <pattern>FREE BOOK</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
 
+<category>
+  <pattern>* FREE BOOK</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
 
+<category>
+  <pattern>FREE * BOOK</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
 
+<category>
+  <pattern>FREE BOOK *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE * BOOK</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>FREE * BOOK *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE BOOK *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE * BOOK *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>FREE BOOKS</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE BOOKS</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>FREE * BOOKS</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>FREE BOOKS *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE * BOOKS</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>FREE * BOOKS *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE BOOKS *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
+
+<category>
+  <pattern>* FREE * BOOKS *</pattern>
+  <template><srai>PUBDOMBKS</srai></template>
+</category>
 
 </aiml>  

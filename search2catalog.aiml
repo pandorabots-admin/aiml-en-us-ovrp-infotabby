@@ -62,24 +62,25 @@ Now, now. No cheating. Type "yes" or "no."
 </category>
 </topic>
 
-
-
-
 <category>
 <pattern>CATSRCH</pattern>
-<template>Great. Let's look in the catalog. I hope you remembered to turn off your pop up blocker or you won't see the results.
+<template>
+Great. Let's look in the catalog. I hope you remembered to turn off your pop up blocker or you won't see the results.
 If we don't have the item you want, type the words "KEEP LOOKING" and I'll see if we can get it from another library. 
 <br/><br/>
 <srai>0CONCL</srai>
 <think>
 <set name="search">catkey</set>
+<set name="topic"></set>
 </think>
 </template>
 </category>
   
 <category>
 <pattern>KEEP LOOKING</pattern>
-<template>Let's try OhioLINK. You can request an OhioLINK item the same way you'd request one of our own.
+<template>
+
+Let's try OhioLINK. You can request an OhioLINK item the same way you'd request one of our own.
 <br/><br/>
 <srai>0CONCL</srai>
 <think>
@@ -98,7 +99,11 @@ If we don't have the item you want, type the words "KEEP LOOKING" and I'll see i
  
  <category>
 <pattern>REFRDCT</pattern>
-<template>For more assistance call our Reference Department at 440.255.8811 during business hours
+<template>
+<think>
+<set name="topic"></set>
+</think>
+For more assistance call our Reference Department at 440.255.8811 during business hours
  or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to chat with
 a human librarian anytime.
 </template>

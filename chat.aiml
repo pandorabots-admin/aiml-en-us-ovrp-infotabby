@@ -73,12 +73,118 @@
 
 
 <category>
-<pattern> _ </pattern>
+<pattern>OK</pattern>
 <that>DO YOU LIKE POETRY</that>
 <template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some?</template>
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
 </category>
 
+<category>
+<pattern>* OK</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
+</category>
+
+<category>
+<pattern>OK *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
+</category>
+
+<category>
+<pattern>* OK *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
+</category>
+
+
+<category>
+<pattern>O K</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
+</category>
+
+<category>
+<pattern>* O K</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
+</category>
+
+<category>
+<pattern>O K *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>* O K *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+
+<category>
+<pattern>SURE</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>* SURE</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>SURE *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>* SURE *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>* YES</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
+
+<category>
+<pattern>* YES *</pattern>
+<that>DO YOU LIKE POETRY</that>
+<template>To a computer like myself, words have very definite meanings. This is not always true 
+in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
+</category>
 
 <category>
 <pattern> NO </pattern>
@@ -109,9 +215,9 @@ in your human poetry.</template>
 </category>
 
 <category>
-<pattern> * </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME</that>
-<template><srai>RECITEPOEM</srai></template>
+<pattern>_</pattern>
+<that>_ WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
+<template><srai>CWBYPOEM</srai></template>
 </category>
 
 <category>
@@ -139,7 +245,8 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <category>
 <pattern> * </pattern>
 <that>* LOCAL WEATHER *</that>
-<template>Here's your local weather. If you don't see it, turn off your pop up blocker and ask me again.
+<template>
+Here's your local weather. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
 <set name="search">wx</set>
 <set name="searcharg"><star/></set>
@@ -337,7 +444,9 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <category>
 <pattern>* DVDS *</pattern>
 <that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<template>
+
+Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
 <set name="search">catkey</set>
 <set name="searcharg">weather</set>
@@ -364,6 +473,335 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <category>
 <pattern>* WEATHER *</pattern>
 <template><srai>WX</srai></template>
+</category>
+
+ <category>
+<pattern>WX2</pattern>
+<template>I can check the local weather forecast. Yype your zip code, just five numbers, and press "enter."
+<think>
+<set name="topic">WXFRCST</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* COLD LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* COLD TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* COLD * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* COLD TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FREEZING LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FREEZING TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FREEZING * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FREEZING TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FROST LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FROST TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FROST * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* FROST TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* HOT LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* HOT TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* HOT * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* HOT TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAIN LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAINING LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAIN TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAINING TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAIN TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAINING TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAIN * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* RAINING * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOW LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOWING LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOW TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOWING TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOW * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOWING * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOW TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SNOWING TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORM LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMY LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORM TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMY TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORM * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMY * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORM TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMY TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMS LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMING LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMS TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMING TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMS * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMING * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMS TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* STORMING TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUN LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUNNY LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUN TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUNNY TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUN * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUNNY * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUN TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* SUNNY TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WIND LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WINDY LATER</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WIND TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WINDY TODAY</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WIND * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WINDY * WEEK</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WIND TOMORROW</pattern>
+<template><srai>WX2</srai></template>
+</category>
+
+<category>
+<pattern>* WINDY TOMORROW</pattern>
+<template><srai>WX2</srai></template>
 </category>
 
 <!--CAT IN COMP-->
@@ -425,7 +863,6 @@ For your local weather conditions and forecast, type your zip code, just five nu
 </template>
 </category>
 
-
 <category>
 <pattern>TLKNGDOG</pattern>
 <template>If dogs could talk, what would they talk about? Interesting smells, I bet.</template>
@@ -473,12 +910,11 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <random>
 <li>A few people have said the same.</li>
 <li>Some other people I've talked to think the same.</li>
-<li>Does eveyone feel the same.</li>
+<li>Does everyone you know feel the same.</li>
 <li>Do your friends think the same.</li>
 </random> 
 </template>
 </category>
-
 
 <category>
 <pattern> _ </pattern>
@@ -514,6 +950,62 @@ For your local weather conditions and forecast, type your zip code, just five nu
 <li><star/>? What is it like?</li>
 <li><star/>? Do you like it?</li>
 </random>
+</template>
+</category>
+
+<!--HAVE YOU EVER BEEN TO-->
+
+<category>
+<pattern>* BEEN TO *</pattern>
+<template><srai>BEEN2</srai>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* YOU BEEN TO *</pattern>
+<template><srai>BEEN2</srai>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* YOU * BEEN TO *</pattern>
+<template><srai>BEEN2</srai>
+<think>
+<set name="searcharg"><star index="3"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* YOU GONE TO *</pattern>
+<template><srai>BEEN2</srai>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* YOU * GONE TO *</pattern>
+<template><srai>BEEN2</srai>
+<think>
+<set name="searcharg"><star index="3"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BEEN2</pattern>
+<template>Let me see, I may have. Does it look anything like this?
+<think>
+<set name="search">googleimages</set>
+</think>
 </template>
 </category>
 

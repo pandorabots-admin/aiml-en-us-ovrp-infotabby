@@ -16386,13 +16386,6 @@
 </category>
 
 
-<category>
-<pattern>CANADA</pattern>
-<template>
-<srai>I am in canada</srai>
-</template>
-</category>
-
 
 <category>
 <pattern>CANADIAN</pattern>
@@ -16434,28 +16427,6 @@
 </category>
 
 
-<category>
-<pattern>BRASIL</pattern>
-<template>
-<srai>I am in brazil</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>BRAZIL</pattern>
-<template>
-<srai>I am in brazil</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>BELGIUM</pattern>
-<template>
-<srai>I am in belgium</srai>
-</template>
-</category>
 
 
 <category>
@@ -16464,63 +16435,6 @@
 <srai>I am in belgium</srai>
 </template>
 </category>
-
-
-<category>
-<pattern>BALTIMORE</pattern>
-<template>
-<srai>I am in baltimore</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>AUSTRALIA</pattern>
-<template>
-<srai>I am in australia</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>ASIA</pattern>
-<template>
-<srai>I am in asia</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>ARIZONA</pattern>
-<template>
-<srai>I am in arizona</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>AMERICA</pattern>
-<template>
-<srai>I am in america</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>ALASKA</pattern>
-<template>
-<srai>I am in alaska</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>ALABAMA</pattern>
-<template>
-<srai>I am in alabama</srai>
-</template>
-</category>
-
 
 <category>
 <pattern>I AM IN _ DO YOU *</pattern>
@@ -16584,15 +16498,6 @@
 <srai>I am in <star /></srai>
 </template>
 </category>
-
-
-<category>
-<pattern>NORTH CAROLINA</pattern>
-<template>
-<srai>I am in  north carolina</srai>
-</template>
-</category>
-
 
 <category>
 <pattern>I AM MORE IMPRESSED</pattern>
@@ -23009,15 +22914,6 @@
 </template>
 </category>
 
-
-<category>
-<pattern>HOW DO YOU KNOW *</pattern>
-<template>
-<srai>HOW DO YOU KNOW</srai>
-</template>
-</category>
-
-
 <category>
 <pattern>HOW CAN YOU TELL</pattern>
 <template>
@@ -25193,21 +25089,6 @@
 </template>
 </category>
 
-
-<category>
-<pattern>HAVE YOU EVER BEEN *</pattern>
-<template>
-<srai>have you been <star /></srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HAVE YOU EVER *</pattern>
-<template>
-<srai>HAVE YOU <star /></srai>
-</template>
-</category>
 
 
 <category>

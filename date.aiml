@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
 <aiml> 
 
 <!--  -->
@@ -10,7 +10,6 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!--  --> 
     
-<category> <pattern>WHAT TIME IS IT</pattern> <template>You might want to look in the lower righthand corner of the computer. I have approximately <date format="%X"/></template> </category>   
 <category><pattern>IS IT FRIDAY *</pattern><template>It is <date format="%A"/>.</template></category>                          
 <category><pattern>IS IT FRIDAY</pattern><template>It is <date format="%A"/>.</template></category>                          
 <category><pattern>IS IT MONDAY *</pattern><template>It is <date format="%A"/>.</template></category>                          

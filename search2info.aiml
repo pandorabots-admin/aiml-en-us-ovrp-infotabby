@@ -88,6 +88,7 @@ Now, now. No cheating. Type "yes" or "no."
 <category>
 <pattern>DBSRCH</pattern>
 <template>
+
 We're almost done. This one is a <em>little</em> more difficult. I want you to answer by typing "words" or "numbers." Is your question best answered by words or numbers?
 <think>
 <set name="topic">3SRCH</set>

@@ -5418,14 +5418,6 @@
 
 
 <category>
-<pattern>YOU ARE</pattern>
-<template>
-<srai>ARE YOU</srai>
-</template>
-</category>
-
-
-<category>
 <pattern>ARE YOU ALWAYS</pattern>
 <template>
 <srai>are you</srai>

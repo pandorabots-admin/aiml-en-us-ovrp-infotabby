@@ -24,6 +24,7 @@ function sayit() {
 sayit();
 </script>
 
+
 <template>
 <think><srai>SET PREDICATES</srai></think>
 
@@ -32,8 +33,38 @@ sayit();
 </script>
 </condition>
 
+<condition name="search" value="gmaps">
+<script language="JavaScript">var myWindow =window.open('http://maps.google.com/maps?q=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="locradio">
+<script language="JavaScript">var myWindow =window.open('http://www.iheart.com/#/find/||<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="radio">
+<script language="JavaScript">var myWindow =window.open('http://www.iheart.com/#/search/?q=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="recipes">
+<script language="JavaScript">var myWindow =window.open('http://www.foodnetwork.com/search/delegate.do?fnSearchString=<get name="searcharg"/>');
+</script>
+</condition>
+
+<condition name="search" value="recipes">
+<script language="JavaScript">var myWindow =window.open('http://www.foodnetwork.com/search/delegate.do?fnSearchString=<get name="searcharg"/>');
+</script>
+</condition>
+
 <condition name="search" value="greadalikes">
 <script language="JavaScript">var myWindow =window.open('http://www.google.com/search?q=<get name="searcharg"/> read alikes');
+</script>
+</condition>
+
+<condition name="search" value="lglfrms">
+<script language="JavaScript">var myWindow =window.open('http://www.oplin.org/databases/proxy/proxy.php?qurl=http://infotrac.galegroup.com/itweb/?db=TGLF');
 </script>
 </condition>
 

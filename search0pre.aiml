@@ -178,7 +178,8 @@ How can I assist you?</template>
 <pattern> * </pattern>
 <that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
 <template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
-The results will open as a new window or as a new tab. <br/><br/>
+The results will open as a new window or as a new tab. 
+If we don't have the item you want, type the words "KEEP LOOKING" and I'll see if we can get it from another library. <br/><br/>
 <srai>CONCL</srai>
 <think>
 <set name="searcharg"><star/></set>
@@ -771,7 +772,8 @@ The results will open as a new window or as a new tab. <br/><br/>
 <pattern> * </pattern>
 <that>ENTER THE AUTHOR OR THE TITLE OR THE TOPIC</that>
 <template>Let's take a look in our catalog. Here are the closest matches based on what you told me. 
-The results will open as a new window or as a new tab. <br/><br/>
+The results will open as a new window or as a new tab. If we don't have the item you want, type the words "KEEP LOOKING" and I'll see if we can get it from another library. 
+<br/><br/>
 <srai>CONCL</srai>
 <think>
 <set name="searcharg"><star/></set>
@@ -1355,7 +1357,9 @@ The results will open as a new window or as a new tab. <br/><br/>
 <pattern> * </pattern>
 <that>ENTER THE TITLE OR * KIND OF MUSIC YOU WANT</that>
 <template>Let's take a look in our catalog. Here are the best matches based on what you told me. 
-The results will open as a new window or as a new tab.<br/><br/>
+The results will open as a new window or as a new tab.
+If we don't have the item you want, type the words "KEEP LOOKING" and I'll see if we can get it from another library. 
+<br/><br/>
 <srai>CONCL</srai>
 <think>
 <set name="searcharg"><star/></set>
@@ -1743,7 +1747,9 @@ The results will open as a new window or as a new tab.<br/><br/>
 <pattern> * </pattern>
 <that>ENTER A TITLE OR * WHAT THE MOVIE IS ABOUT IN JUST A FEW WORDS</that>
 <template>Let's take a look in our catalog. Here are the best matches based on what you entered. 
-The results will open as a new window or as a new tab. <br/><br/>
+The results will open as a new window or as a new tab. 
+If we don't have the item you want, type the words "KEEP LOOKING" and I'll see if we can get it from another library. 
+<br/><br/>
 <srai>CONCL</srai>
 <think>
 <set name="searcharg"><star/></set>
@@ -1763,7 +1769,7 @@ The results will open as a new window or as a new tab. <br/><br/>
 <random>
 <li>I can help you find movies in our catalog.</li>
 <li>Our library has a large DVD collection.</li>
-<li>We have over 16,000 DVDs. I can help you search our catalog.</li>
+<li>We have over 18,000 DVDs. I can help you search our catalog.</li>
 <li>Dogs can fetch and catbots can show you what's in the catalog.</li>
 </random>
 </template>

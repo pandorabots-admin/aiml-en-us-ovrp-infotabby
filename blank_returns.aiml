@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<category>
+<pattern>RTNS</pattern>
+<template>I'm often asked about returning items. 
+<random>
+<li>Yes or no, do you want to know where you can return items?</li>
+<li>Yes or no, would you like me to tell you where you can return items?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>RETURN</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURN *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURNS</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNS</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURNS *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNS *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURNING</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNING</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>RETURNING *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNING *</pattern>
+<template><srai>RTNS</srai></template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* YES</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* YES *</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RTNLOC</pattern>
+<template>You can return any of our items to YOUR_INFO</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNQ</srai></template>
+</category>
+
+<category>
+<pattern>* NO</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNQ</srai></template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNQ</srai></template>
+</category>
+
+<category>
+<pattern>* NO *</pattern>
+<that>* WHERE YOU CAN RETURN ITEMS</that>
+<template><srai>RTNQ</srai></template>
+</category>
+
+
+<category>
+<pattern>RTNQ</pattern>
+<template>
+<random><li>What is your question about returns?</li>
+<li>What would you like to know about returns?</li>
+<li>What can I tell you about returns?</li>
+</random>
+<think><set name="topic">RTNSQ</set></think>
+</template>
+</category>
+
+
+
+<!--return where-->
+
+<topic name="RTNSQ">
+<category>
+<pattern>ANOTHER</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* ANOTHER</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>ANOTHER *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* ANOTHER *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>BRANCH</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* BRANCH</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>BRANCH *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* BRANCH *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>BRANCHES</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* BRANCHES</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>BRANCHES *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* BRANCHES *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>SAME</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* SAME</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>SAME *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* SAME *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>WHERE</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* WHERE</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>WHERE *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+
+<category>
+<pattern>* WHERE *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTNLOC</srai></template>
+</category>  
+</topic>
+
+
+
+<!--non mpl items-->
+
+<category>
+  <pattern>NONMPLRET</pattern>
+  <template>If you accidentally return another library's items to YOUR_LIBRARY, we will do our best to return those items to the owning library.
+  </template>
+</category>
+
+<category>
+  <pattern>* belonging * another library</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* belonging * another library *</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* another library</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* another library's *</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<category>
+  <pattern>* another library *</pattern>
+  <template><srai>NONMPLRET</srai></template>
+</category>
+
+<!--rental dvds games-->
+
+<category>
+  <pattern>RNTLDVDS</pattern>
+  <template>If you return rental DVDs and games (from Hollywood Video, Blockbuster, etc.) to YOUR_LIBRARY, we will YOUR_INFO.
+ </template>
+</category>
+
+
+<category>
+  <pattern>Blockbuster</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* Blockbuster</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* Blockbuster *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>Blockbuster *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>hollywood video</pattern>
+   <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* hollywood video</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* hollywood video *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>hollywood video *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>video store</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* video store</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* video store *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>video store *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>rental dvd</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* rental dvd</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* rental dvd *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>rental dvd *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>rented dvd</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* rented dvd</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* rented dvd *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>rented dvd *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>dvd * rented</pattern>
+   <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* dvd * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* dvd * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>dvd * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* rented game</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* rented game *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>rented game *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>game * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* game * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* game * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>game * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>videogame * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* videogame * rented</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>* videogame * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+<category>
+  <pattern>videogame * rented *</pattern>
+  <template><srai>RNTLDVDS</srai></template>
+</category>
+
+
+<!--claims returned-->
+
+<topic name="RTNSQ">
+<category>
+<pattern>CLAIMS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>* CLAIMS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>CLAIMS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>* CLAIMS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>CLAIMED</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>* CLAIMED</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>CLAIMED *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+
+<category>
+<pattern>* CLAIMED *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>CLMSRET</srai></template>
+</category>  
+</topic>
+
+<category>
+<pattern>CLMSRET</pattern>
+<template>"Claims returned" is a courtesy given to patrons. For more information, please call our Circulation Department at YOUR_PHONE.</template>
+</category>
+
+<category>
+<pattern>CLAIMS RETURNED</pattern>
+<template><srai>CLMSRET</srai></template>
+</category>
+
+<category>
+<pattern>* CLAIMS RETURNED</pattern>
+<template><srai>CLMSRET</srai></template>
+</category>
+
+<category>
+<pattern>* CLAIMS RETURNED *</pattern>
+<template><srai>CLMSRET</srai></template>
+</category>
+
+<category>
+<pattern>CLAIMS RETURNED *</pattern>
+<template><srai>CLMSRET</srai></template>
+</category>
+
+
+<!--returned still on my record-->
+
+<category>
+<pattern>RTRNONREC</pattern>
+<template>If an item you returned is still on your record, please call our Circulation Department at YOUR_PHONE 
+during regular business hours or email us a YOUR_EMAIL.</template>
+</category>
+
+<topic name="RTNSQ">
+<category>
+<pattern>STILL ON</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNONREC</srai></template>
+</category>  
+
+<category>
+<pattern>* STILL ON</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNONREC</srai></template>
+</category>  
+
+<category>
+<pattern>STILL ON *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNONREC</srai></template>
+</category>  
+
+<category>
+<pattern>* STILL ON *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNONREC</srai></template>
+</category>  
+</topic>
+
+
+
+<category>
+<pattern>* RETURNED IS STILL ON *</pattern>
+<template><srai>RTRNONREC</srai></template>
+</category>
+
+<category>
+<pattern>I RETURNED</pattern>
+<template><srai>RTRNONREC</srai></template>
+</category>
+
+<category>
+<pattern>* I RETURNED</pattern>
+<template><srai>RTRNONREC</srai></template>
+</category>
+
+<category>
+<pattern>I RETURNED *</pattern>
+<template><srai>RTRNONREC</srai></template>
+</category>
+
+<category>
+<pattern>* I RETURNED *</pattern>
+<template><srai>RTRNONREC</srai></template>
+</category>
+
+
+<!--DROP NOT DROP-->
+
+<category>
+  <pattern>DRPYN</pattern>
+  <template> You may return any item using the outside book drops YOUR_INFO.
+ </template>
+</category>
+
+<topic name="RTNSQ">
+<category>
+<pattern>IPAD</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ IPAD</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>IPAD *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ IPAD *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>I PAD</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ I PAD</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>I PAD *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ I PAD *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>IPADS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ IPADS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>IPADS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ IPADS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>I PADS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ I PADS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>I PADS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ I PADS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>NOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ NOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>NOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ NOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+>
+<category>
+<pattern>NOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ NOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>NOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+
+<category>
+<pattern>_ NOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>DRPYN</srai></template>
+</category>  
+</topic>
+
+<category>
+  <pattern>* RETURN * BOX</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOX *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOXES</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * BOXES *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROP</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROP *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROPS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURN * DROPS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOXES * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURN</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURN *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOX</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOX *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOXES</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * BOXES *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROP</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROP *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROPS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* RETURNS * DROPS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOXES * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* BOX * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROP * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURNS</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<category>
+  <pattern>* DROPS * RETURNS *</pattern>
+  <template><srai>DRPYN</srai></template>
+</category>
+
+<topic name="RTNSQ">
+<category>
+<pattern>EBOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* EBOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>EBOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* EBOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>EBOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* EBOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>EBOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* EBOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>E BOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* E BOOK</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>E BOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* E BOOK *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>E BOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* E BOOKS</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>E BOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+
+<category>
+<pattern>* E BOOKS *</pattern>
+<that>WHAT *  ABOUT RETURNS</that>
+<template><srai>RTRNEBK</srai></template>
+</category>  
+</topic>
+
+<!--RETURN WHERE-->
+<!--
+<category>
+<pattern>RTRNLOC</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>_ RETURN * BRANCH *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * BRANCHES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURN * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ return * any * location</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ returned * location</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>_ return * any * locations</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>_ RETURNED * BRANCH *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURNED * BRANCH</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>_ RETURNED * BRANCHES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * OWNING *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARY</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARY *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARIES</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LIBRARIES *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATION</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATION *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATIONS</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>RETURNED * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+
+<category>
+<pattern>* RETURNED * LOCATIONS *</pattern>
+<template><srai>RTRNLOC</srai></template>
+</category>
+-->
+
+
+<!--return IPAD-->
+<!--
+<category>
+<pattern>RTRNIPD</pattern>
+<template>i Pads must be returned at the Main Library Computer Help Desk. Do not return them in the book drops!</template>
+</category>
+
+<category>
+<pattern>RETURN IPAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN IPADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * IPADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * IPADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* IPAD * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* IPAD * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* IPADS * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* IPADS * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>RETURN I PAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PAD</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PAD *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN I PADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * I PADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PADS</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * I PADS *</pattern>
+<template><srai>RTRNIPD</srai></template>
+</category>
+
+<category>
+<pattern>* I PAD * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* I PAD * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* I PADS * BOOKDROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<category>
+<pattern>* I PADS * BOOK DROP</pattern>
+<template>No. Do not place the IPAD in a bookdrop.</template>
+</category>
+
+<!--return nook-->
+
+<category>
+<pattern>RTRNNK</pattern>
+<template>Nooks must be returned at the Main Library Computer Help Desk. Do not return them in the book drops!</template>
+</category>
+
+<category>
+<pattern>RETURN NOOK</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * NOOK</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOK</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOK *</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* NOOK * BOOKDROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* NOOK * BOOK DROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN NOOKS</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>RETURN * NOOKS</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOKS</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* RETURN * NOOKS *</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+
+<category>
+<pattern>* NOOKS * BOOKDROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+
+<category>
+<pattern>* NOOKS * BOOK DROP</pattern>
+<template><srai>RTRNNK</srai></template>
+</category>
+-->
+
+<!--BOOK DROPS-->
+
+<category>
+<pattern>BKDRPS</pattern>
+<template>There are book drops at all of our locations. Some of our
+book drops are for books and some are for DVDs and CDs. Please use the appropriate
+drop for your items. </template>
+</category>
+
+<category>
+<pattern>BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+
+<category>
+<pattern>DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<category>
+<pattern>* DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>
+
+<topic name="RTNSQ">
+<category>
+<pattern>BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* BOOK DROP</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* BOOK DROP *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* BOOK DROPS</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* BOOK DROPS *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* DROP BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* DROP * BOX</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* DROP BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+
+<category>
+<pattern>* DROP * BOX *</pattern>
+<template><srai>BKDRPS</srai></template>
+</category>  
+</topic>
+
+
+
+</aiml>

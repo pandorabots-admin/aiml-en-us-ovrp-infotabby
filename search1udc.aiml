@@ -19,7 +19,104 @@
 
 <category>
 <pattern>*</pattern>
-<template><srai>UDC</srai></template>
+<template>
+<think>
+<set name="miltime"><date locale="en_US" timezone="-5" format="%H"/></set>
+<set name="time"><date locale="en_US" timezone="-5" format="%I:%M %p"/></set>
+</think>
+<srai>UDCT</srai></template>
+</category>
+
+<category>
+<pattern>UDCT</pattern>
+<template><srai>UDC TIME <get name="miltime"/></srai></template>
+</category>
+
+<category>
+<pattern>UDC TIME *</pattern>
+<template><srai>UDC</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 21</pattern>
+<template><srai>JUSTCLSDFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 22</pattern>
+<template><srai>JUSTCLSDFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 23</pattern>
+<template><srai>JUSTCLSDFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 00</pattern>
+<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 01</pattern>
+<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 02</pattern>
+<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 03</pattern>
+<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 04</pattern>
+<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+<category>
+<pattern>UDC TIME 05</pattern>
+<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
+</template>
+</category>
+
+
+
+<category>
+<pattern>JUSTCLSDFUN</pattern>
+<template>
+<random>
+<li>It's <get name="time"/>. We're closed and all the librarians have gone home except for me. </li>
+<li>It's <get name="time"/>. The library is closed and the humans who work here have gone home. It's just me and the optical mice.</li>
+<li>It's <get name="time"/> and the library is closed.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>LATENIGHTFUN</pattern>
+<template>
+<random>
+<li>Cats are nocturnal. I didn't know that humans were, too.</li>
+<li>Well, you're up late.</li>
+<li>A sleepless night, I see.</li>
+<li>I'm always awake and listening. Even at this hour.</li>
+<li>Can't sleep? That's O.K. We can talk.</li>
+<li>What brings you here at this hour?</li>
+</random>
+</template>
 </category>
 
 <category>
@@ -27,12 +124,11 @@
 <template>
 <random>
 <li><srai>BSYCAT</srai></li>
-<li>HMMM</li>
+<li><srai>HMMM</srai></li>
 </random>
 <srai>LKUP</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>BSYCAT</pattern>

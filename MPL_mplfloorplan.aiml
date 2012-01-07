@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+<!--CHILDREN"S STUFF-->
+
+<category>
+<pattern>LOCKIDSITMS</pattern>
+<template>If you're at our Main Library, you'll find Children's books on the second floor and all Children's DVDs in the ground floor Media Room. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>WHERE * CHILDRENS BOOKS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * CHILDRENS BOOKS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION CHILDRENS BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION CHILDRENS BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * CHILDRENS BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * PICTURE BOOKS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * PICTURE BOOKS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION PICTURE BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION PICTURE BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * PICTURE BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * PICTUREBOOKS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * PICTUREBOOKS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION PICTUREBOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION PICTUREBOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * PICTUREBOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KIDS BOOKS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KIDS BOOKS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION KIDS BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION KIDS BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * KIDS BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KID S BOOKS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KID S BOOKS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION KID S BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION KID S BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * KID S BOOKS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * CHILDRENS DVDS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * CHILDRENS DVDS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION CHILDRENS DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION CHILDRENS DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * CHILDRENS DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * FAMILY DVDS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * FAMILY DVDS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION FAMILY DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION FAMILY DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * FAMILY DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+
+<category>
+<pattern>WHERE * KIDS DVDS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KIDS DVDS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION KIDS DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION KIDS DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * KIDS DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KID S DVDS </pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>WHERE * KID S DVDS *</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>LOCATION KID S DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION KID S DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<category>
+<pattern>* LOCATION * KID S DVDS</pattern>
+<template><srai>LOCKIDSITMS</srai></template></category>
+
+<!--WHERE IS X LOCATED-->
+
+<category>
+<pattern>* FICTION BOOK</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* FICTION BOOKS</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* FICTION LOCATED</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* FICTION LOCATION</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. 
+The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* FICTION SECTION</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. The shelves with the fiction are marked. Children's fiction books are on the second floor. 
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NONFICTION BOOK</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NONFICTION BOOKS</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NONFICTION LOCATED</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NONFICTION LOCATION</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* NONFICTION SECTION</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<!--SF LOCATION-->
+
+<category>
+<pattern>* MAIN SCIENCE FICTION</pattern>
+<template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that
+work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* SCIENCE FICTION BOOKS</pattern>
+<template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that
+work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>* SCIENCE FICTION LOCATED</pattern>
+<template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that
+work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* SCIENCE FICTION LOCATION</pattern>
+<template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that
+work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* SCIENCE FICTION SECTION</pattern>
+<template>If you're at our Main Library, you'll find science fiction on the first floor. The shelves are marked.  Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that
+work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<!--END INSERT-->
+
+<category>
+<pattern>* MAIN BIOGRAPHY</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BIOGRAPHY LOCATED</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>* BIOGRAPHY SECTION</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MAIN BIOGRAPHIES</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* BIOGRAPHIES LOCATED</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MYSTERIES</pattern>
+<template>If you're at our Main Library, you'll find mysteries on the first floor. 
+The shelves with the mysteries are marked. Children's mysteries are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* MYSTERY *</pattern>
+<template>If you're at our Main Library, you'll find mysteries on the first floor. 
+The shelves with the mysteries are marked. Children's mysteries are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>* BIOGRAPHIES LOCATION</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Children's biographies are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * FICTION</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. 
+The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * NONFICTION</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * BIOGRAPHIES</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the biographies are marked. Children's biographies are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * FICTION *</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. 
+The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * NONFICTION *</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * BIOGRAPHIES *</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the nonfiction are marked. Children's biographies are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOCATION * FICTION</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. 
+The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOCATION * NONFICTION</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOCATION * BIOGRAPHIES</pattern>
+<template>If you're at our Main Library, you'll find biographies on the first floor. 
+The shelves with the nonfiction are marked. Children's biographies are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOCATION * FICTION *</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. 
+The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOCATION * NONFICTION *</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* LOCATION * BIOGRAPHIES *</pattern>
+<template>If you're at our Main Library, you'll find Biographies and Autobiographies on the first floor. 
+Biographies and Autobiographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<!--WHERE IS X LOCATED SRAIS-->
+
+<category>
+<pattern>MABIOGLOC</pattern>
+<template>If you're at our Main Library, you'll find Biographies and Autobiographies on the first floor. 
+Biographies and Autobiographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>MBIOGLOC</pattern>
+<template>If you're at our Main Library, you'll find Biographies on the first floor. 
+The shelves with the Biographies are marked. Biographies for children are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>MFANLOC</pattern>
+<template>If you're at our Main Library, you'll find Fantasy and Science Fiction on the first floor. 
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MFICLOC</pattern>
+<template>If you're at our Main Library, you'll find adult fiction on the first floor. 
+The shelves with the fiction are marked. Children's fiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MLTLOC</pattern>
+<template>If you're at our Main Library, you'll find large type fiction and nonfiction on the first floor. 
+Children's large type books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MMAGSLOC</pattern>
+<template>If you're at our Main Library, you'll find adult and teen Magazines on the first floor, and children's magazines on the second floor. 
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MMYSTLOC</pattern>
+<template>If you're at our Main Library, you'll find Mysteries on the first floor. 
+The shelves with the Mysteries are marked. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MNONFICLOC</pattern>
+<template>If you're at our Main Library, you'll find adult nonfiction on the first floor. 
+The shelves with the Nonfiction are marked. Children's nonfiction books are on the second floor. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MSCIFILOC</pattern>
+<template>If you're at our Main Library, you'll find Science Fiction on the first floor. 
+The shelves with the Science Fiction are marked. Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<!--WHERE X LOC PATTERNS-->
+
+<category>
+<pattern>WHERE * AUTOBIOGRAPHY</pattern>
+<template><srai>MABIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * AUTOBIOGRAPHY *</pattern>
+<template><srai>MABIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * AUTOBIOGRAPHIES</pattern>
+<template><srai>MABIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * AUTOBIOGRAPHIES *</pattern>
+<template><srai>MABIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * BIOGRAPHY</pattern>
+<template><srai>MBIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * BIOGRAPHY *</pattern>
+<template><srai>MBIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * BIOGRAPHIES</pattern>
+<template><srai>MBIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * BIOGRAPHIES *</pattern>
+<template><srai>MBIOGLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FANTASY</pattern>
+<template><srai>MFANLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FANTASY *</pattern>
+<template><srai>MFANLOC</srai></template>
+</category>
+
+
+<category>
+<pattern>WHERE * FICTION</pattern>
+<template><srai>MFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * FICTION *</pattern>
+<template><srai>MFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>LARGE PRINT</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>LARGE PRINT *</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>* LARGE PRINT</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>* LARGE PRINT *</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>* LARGE TYPE</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>* LARGE TYPE *</pattern>
+<template><srai>MLTLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * MYSTERY</pattern>
+<template><srai>MMYSTLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * MYSTERY *</pattern>
+<template><srai>MMYSTLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * MYSTERIES</pattern>
+<template><srai>MMYSTLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * MYSTERIES *</pattern>
+<template><srai>MMYSTLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NONFICTION</pattern>
+<template><srai>MNONFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NONFICTION *</pattern>
+<template><srai>MNONFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NON FICTION</pattern>
+<template><srai>MNONFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NON FICTION *</pattern>
+<template><srai>MNONFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NON-FICTION</pattern>
+<template><srai>MNONFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * NON-FICTION *</pattern>
+<template><srai>MNONFICLOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SCIENCE FICTION</pattern>
+<template><srai>MSCIFILOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SCIENCE FICTION *</pattern>
+<template><srai>MSCIFILOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SCI FI</pattern>
+<template><srai>MSCIFILOC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * SCI FI *</pattern>
+<template><srai>MSCIFILOC</srai></template>
+</category>
+
+
+
+<!--MORE STUFF-->
+
+
+
+
+
+<category>
+<pattern>MFLPLAN</pattern>
+<template>Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>FLOOR PLAN</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>FLOOR PLAN MAIN</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>FIRST FLOOR PLAN</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>FIRST FLOOR PLAN MAIN</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+
+
+<category>
+<pattern>SECOND FLOOR PLAN</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>SECOND FLOOR PLAN MAIN</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>CHILDREN S DEPT MAP</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>CHILDREN S DEPARTMENT MAP</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>KID S DEPT MAP</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>KID S DEPARTMENT MAP</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>map of the library</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>* map of the library</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>maps of the library</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>* maps of the library</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>maps of the library</pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>* floor plan * </pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+<category>
+<pattern>* floor plans * </pattern>
+<template><srai>MFLPLAN</srai></template>
+</category>
+
+
+<category>
+<pattern>HLDSHLF</pattern>
+<template>If you're at our Main Library, the hold shelves are in the Hot Spot, just past circulation. Please note that at the Main Library all DVD and CD holds are in the ground floor Media Room.
+Here's a guide to the Main Library. If you don't see it, turn off your pop up blocker.
+If you need help finding something at one of our Branches, just ask one of the humans that work there.
+<think>
+<set name="search">mflplan</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>HOLD SHELF</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD SHELF</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLD SHELF *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD SHELF *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS SHELF</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS SHELF</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS SHELF *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS SHELF *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLD SHELVES</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD SHELVES</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLD SHELVES *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD SHELVES *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS SHELVES</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS SHELVES</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS SHELVES *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS SHELVES *</pattern>
+<template><srai>HLDSHLF</srai></template>
+</category>
+
+<category>
+<pattern>HDLSYA</pattern>
+<template>I don't have a floorplan for the Headlands Branch. Please ask one of the Headlands staff for assistance.</template>
+</category>
+
+<category>
+<pattern>HEADLANDS YA</pattern>
+<template><srai>HDLSYA</srai></template>
+</category>
+
+<category>
+<pattern>* HEADLANDS YA</pattern>
+<template><srai>HDLSYA</srai></template>
+</category>
+
+<category>
+<pattern>HEADLANDS YA *</pattern>
+<template><srai>HDLSYA</srai></template>
+</category>
+
+<category>
+<pattern>* HEADLANDS YA *</pattern>
+<template><srai>HDLSYA</srai></template>
+</category>
+
+<category>
+<pattern>LKYA</pattern>
+<template>I don't have a floorplan for the Lake Branch. Please ask one of the Lake staff for assistance.</template>
+</category>
+
+<category>
+<pattern>LAKE YA</pattern>
+<template><srai>LKYA</srai></template>
+</category>
+
+<category>
+<pattern>* LAKE YA</pattern>
+<template><srai>LKYA</srai></template>
+</category>
+
+<category>
+<pattern>LAKE YA *</pattern>
+<template><srai>LKYA</srai></template>
+</category>
+
+<category>
+<pattern>* LAKE YA *</pattern>
+<template><srai>LKYA</srai></template>
+</category>
+
+</aiml>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
 <!--Copyright 2011 David W. Newyear-->
@@ -34,8 +34,26 @@
 </category>
 
 <category>
-<pattern>FINE AND YOU</pattern>
-<that>HI THERE HOW ARE YOU</that>
+<pattern>FINE</pattern>
+<that>HOW ARE YOU</that>
+<template>Peachy. What can I do for you?</template>
+</category>
+
+<category>
+<pattern>* FINE</pattern>
+<that>HOW ARE YOU</that>
+<template>Peachy. What can I do for you?</template>
+</category>
+
+<category>
+<pattern>FINE *</pattern>
+<that>HOW ARE YOU</that>
+<template>Peachy. What can I do for you?</template>
+</category>
+
+<category>
+<pattern>* FINE *</pattern>
+<that>HOW ARE YOU</that>
 <template>Peachy. What can I do for you?</template>
 </category>
 

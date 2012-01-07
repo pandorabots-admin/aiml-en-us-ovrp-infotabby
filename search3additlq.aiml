@@ -116,6 +116,78 @@
 </category>
 
 <category>
+<pattern>RESET</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESET</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESET *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESET *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESTART</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESTART</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESTART *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESTART *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>START OVER</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* START OVER</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>START OVER *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
+<pattern>* START OVER *</pattern>
+<template><srai>NEWQST</srai>
+</template>
+</category>
+
+<category>
 <pattern>NEWQST</pattern>
 <template>
 <random>
@@ -129,7 +201,7 @@
 
 <category>
 <pattern>SBSQLKUP</pattern>
-<template> You're more than welcome to ask another question. <srai>1SLKUP</srai> You know why. </template>
+<template> You're more than welcome to ask another question. <srai>1SLKUP</srai> </template>
 </category>
 
 

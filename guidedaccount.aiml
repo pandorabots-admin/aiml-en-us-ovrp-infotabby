@@ -83,7 +83,11 @@
 <category>
 <pattern>BAG</pattern>
 <that>WHAT * ABOUT LIBRARY ACCOUNTS</that>
-<template>After logging into your account, your bag should be in the upper row of icons on our catalog. If you don't see it, select "new search." That should bring it up.
+<template>
+<think>
+<set name="topic"></set>
+</think>
+After logging into your account, your bag should be in the upper row of icons on our catalog. If you don't see it, select "new search." That should bring it up.
 </template>
 </category>
 
@@ -109,7 +113,11 @@
 
 <category>
 <pattern>ADDBAG</pattern>
-<template>You can select a number of items in our catalog then press the "Add marked to bag" to add all of them to your bag. You can then 
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You can select a number of items in our catalog then press the "Add marked to bag" to add all of them to your bag. You can then 
 go to "view bag" and save or request the items it contains. It's a bit hard to explain. If you have further questions, please call
 the library at 440.255.8811 during regular business hours.</template>
 </category>
@@ -407,7 +415,11 @@ the library at 440.255.8811 during regular business hours.</template>
 
 <category>
 <pattern>LGIN</pattern>
-<template>Here's where you log in. If you don't see it, turn off your pop up blocker and ask again. Enter your name in the upper field and your library card number in the lower field. You can enter just your last name if you'd like.
+<template>
+<think>
+<set name="topic"></set>
+</think>
+Here's where you log in. If you don't see it, turn off your pop up blocker and ask again. Enter your name in the upper field and your library card number in the lower field. You can enter just your last name if you'd like.
 <think>
 <set name="search">patroninfo</set>
 </think>
@@ -493,7 +505,11 @@ the library at 440.255.8811 during regular business hours.</template>
 
 <category>
 <pattern>ITSOUT</pattern>
-<template>to see a list of the items you've checked out, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. You'll find a list there.</template>
+<template>
+<think>
+<set name="topic"></set>
+</think>
+to see a list of the items you've checked out, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. You'll find a list there.</template>
 </category>
 
 <topic name="ACCTQ">
@@ -522,17 +538,15 @@ the library at 440.255.8811 during regular business hours.</template>
 </category>
 </topic>
 
-
-<category>
-<pattern>CHANGE EMAIL</pattern>
-<template><srai>CHNGACCTINF</srai></template>
-</category>
-
 <!--linking accounts-->
 
 <category>
   <pattern>LNKACCTS</pattern>
-  <template>Accounts may be linked for the purposes of renewing, paying fines, or checking out holds on another account. To link adult accounts, a permission slip must 
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Accounts may be linked for the purposes of renewing, paying fines, or checking out holds on another account. To link adult accounts, a permission slip must 
 be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
 </category>
 
@@ -626,7 +640,11 @@ be signed by all those being linked. These slips are available at the Main Libra
 
 <category>
   <pattern>SHRACCTS</pattern>
-  <template>It's best not to share library cards or accounts, but it may be desirable for you to link accounts. Accounts may be linked for the purposes of renewing, paying fines, or checking out holds on another account. To link adult accounts, a permission slip must 
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  It's best not to share library cards or accounts, but it may be desirable for you to link accounts. Accounts may be linked for the purposes of renewing, paying fines, or checking out holds on another account. To link adult accounts, a permission slip must 
 be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
 </category>
 
@@ -716,9 +734,6 @@ be signed by all those being linked. These slips are available at the Main Libra
 </category>
 </topic>
 
-
-
-
 <!--renew for-->
 
 <category>
@@ -758,7 +773,11 @@ is marlene.pelyhes@mentorpl.org.</template>
 
 <category>
   <pattern>ACCTFAIL</pattern>
-  <template>If you're having trouble logging on to your account, here are some tips. Enter all 14 digits of you card number without spaces.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  If you're having trouble logging on to your account, here are some tips. Enter all 14 digits of you card number without spaces.
   If you're using IE, please try Firefox. If you still can't log into your account, call us at 440.255.8811. If you haven't used your card in some time, you may need to get a new one.
  </template>
 </category>
@@ -1133,7 +1152,11 @@ is marlene.pelyhes@mentorpl.org.</template>
 
 <category>
 <pattern>RECINUSE</pattern>
-<template>If you see the message "record in use," please call the library at 440.255.8811 for assistance. If you're already in the library, ask one of the staff for assistance.
+<template>
+<think>
+<set name="topic"></set>
+</think>
+If you see the message "record in use," please call the library at 440.255.8811 for assistance. If you're already in the library, ask one of the staff for assistance.
 If you receive this message after regular business hours, please call us when we reopen. </template>
 </category>
 
@@ -1199,7 +1222,11 @@ If you receive this message after regular business hours, please call us when we
 
 <category>
 <pattern>ACCESSNOBC</pattern>
-<template>No, you cannot access your account without your card number. I cannot look up your number for you. Please stop in the library for assistance or call us at 440.255.8811.</template>
+<template>
+<think>
+<set name="topic"></set>
+</think>
+No, you cannot access your account without your card number. I cannot look up your number for you. Please stop in the library for assistance or call us at 440.255.8811.</template>
 </category>
 
 <topic name="ACCTQ">
@@ -1582,7 +1609,11 @@ If you receive this message after regular business hours, please call us when we
 
 <category>
   <pattern>INVALIDBC</pattern>
-   <template>If you've gotten a message that your card number is invalid, please check the following. First, make sure you are using a Mentor
+   <template>
+   <think>
+<set name="topic"></set>
+</think>
+   If you've gotten a message that your card number is invalid, please check the following. First, make sure you are using a Mentor
    Public Library card. You cannot log in using Greater Access, Cuyahoga County, CLEVNET, or other library cards. Second, please omit any spaces when
 your enter your 14 digit card number. If you still can't log in, call the library at 440.255.8811. If you haven't used your card in some time, you may need
 to get a new one. You cannot get a new card online. </template>
@@ -1624,7 +1655,11 @@ to get a new one. You cannot get a new card online. </template>
 
 <category>
   <pattern>GSTNDING</pattern>
-  <template>Accounts are in good standing when they have fines under $5.00.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Accounts are in good standing when they have fines under $5.00.
   </template>
 </category>
 
@@ -1691,7 +1726,11 @@ to get a new one. You cannot get a new card online. </template>
 
 <category>
   <pattern>REQIFFINES</pattern>
-  <template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines. If you have fines of $5.00 or more, you cannot check out items, place holds, or use our internet computers.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines. If you have fines of $5.00 or more, you cannot check out items, place holds, or use our internet computers.
   Please call our circulation department at 440.255.8811 during regular business hours if you have questions about fines.</template>
 </category>
 
@@ -1760,7 +1799,11 @@ to get a new one. You cannot get a new card online. </template>
 
 <category>
   <pattern>INUSEBYSYS</pattern>
-  <template>If you see the message "Account in use by system," please call the Main Library at 440.255.8811 as soon as possible. You may not be able to place 
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  If you see the message "Account in use by system," please call the Main Library at 440.255.8811 as soon as possible. You may not be able to place 
   holds until this issue is corrected></template>
 </category>
 
@@ -1798,7 +1841,11 @@ to get a new one. You cannot get a new card online. </template>
 
 <category>
   <pattern>MYACCT</pattern>
-  <template>Here's where you log in. If you don't see it, turn off your pop up blocker and ask again. Enter your name in the upper field and your library card number in the lower field. You can enter just your last name if you'd like.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  Here's where you log in. If you don't see it, turn off your pop up blocker and ask again. Enter your name in the upper field and your library card number in the lower field. You can enter just your last name if you'd like.
 I can't give you your account number. Call the library if you need help with that.<br/>
 If you're having trouble logging on to your account, here are some tips. Enter all 14 digits of you card number without spaces.
   If you're using IE, please try Firefox. If you still can't log into your account, call us at 440.255.8811. If you haven't used your card in some time, you may need to get a new one.
@@ -1840,7 +1887,11 @@ If you're having trouble logging on to your account, here are some tips. Enter a
 
 <category>
   <pattern>MYCRDNUM</pattern>
-  <template> I cannot give you your library card number. Please call the library for assistance.
+  <template>
+<think>
+<set name="topic"></set>
+</think>
+  I cannot give you your library card number. Please call the library for assistance.
  </template>
 </category>
 
@@ -2087,7 +2138,11 @@ If you're having trouble logging on to your account, here are some tips. Enter a
 
 <category>
   <pattern>CNFID</pattern>
-  <template>All adult records are protected under Ohio statute. If an adult or child wishes to pick up an item that was reserved with an adult library card, they must present the library card that was used to place the hold, or a "linked" card before the item can be released. The same policy applies to renewal of items checked out on an adult library card. The adult library card used to check-out the items, or a "linked" card must be presented for renewals, whether by phone or in person. The library cannot make any exceptions to these rules. This policy was implemented on September 1, 2007 but does not pertain to juvenile records. If you have any further questions please visit the Circulation Desk or call the library at 440.255.8811.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  All adult records are protected under Ohio statute. If an adult or child wishes to pick up an item that was reserved with an adult library card, they must present the library card that was used to place the hold, or a "linked" card before the item can be released. The same policy applies to renewal of items checked out on an adult library card. The adult library card used to check-out the items, or a "linked" card must be presented for renewals, whether by phone or in person. The library cannot make any exceptions to these rules. This policy was implemented on September 1, 2007 but does not pertain to juvenile records. If you have any further questions please visit the Circulation Desk or call the library at 440.255.8811.
  </template>
 </category>
 
@@ -2237,7 +2292,11 @@ If you're having trouble logging on to your account, here are some tips. Enter a
 
 <category>
   <pattern>SPMFLTR</pattern>
-  <template>If you're not receiving email notices from us, it may be that our emails are getting caught in your spam filter. You need to "white list" our email address: mcirc@mentorpl.org. You can find help with "white listing" <a href="http://www.quiltbus.com/whitelist.htm"><b>here</b></a>.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  If you're not receiving email notices from us, it may be that our emails are getting caught in your spam filter. You need to "white list" our email address: mcirc@mentorpl.org. You can find help with "white listing" <a href="http://www.quiltbus.com/whitelist.htm"><b>here</b></a>.
  </template>
 </category>
 
@@ -2533,7 +2592,11 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 
 <category>
   <pattern>PRNTLST</pattern>
-  <template>If you'd like to print a list of your holds or of the items you have checked out, use the print button near the top of the screen.
+  <template>
+  <think>
+<set name="topic"></set>
+</think>
+  If you'd like to print a list of your holds or of the items you have checked out, use the print button near the top of the screen.
  </template>
 </category>
 
@@ -2656,7 +2719,11 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 
 <category>
 <pattern>CHNGACCTINF</pattern>
-<template>Account information, such as your name, address, phone number, or email address can only be changed by a library staff member. Please call 440.255.8811 for assistance.</template>
+<template>
+<think>
+<set name="topic"></set>
+</think>
+Account information, such as your name, address, phone number, or email address can only be changed by a library staff member. Please call 440.255.8811 for assistance.</template>
 </category>
 
 
@@ -2806,7 +2873,11 @@ Texts will be sent daily at 11:00 am and at 7:00 pm, 7 days a week. While this i
 
 <category>
 <pattern>RHSTRY</pattern>
-<template>You can keep a record of all the items you check out by activating your "Reading History."
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You can keep a record of all the items you check out by activating your "Reading History."
 To do this, log into your account. To the right of your name is a series of buttons. Click the middle button
 marked "My Reading History" and opt in. You may opt out at any time. Once your reading history has been activated,
 your account will keep a record of all the items you check out. 
@@ -2980,7 +3051,11 @@ your account will keep a record of all the items you check out.
 
 <category>
 <pattern>CRTLST</pattern>
-<template>You can create and save a list of titles for future request. 
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You can create and save a list of titles for future request. 
 </template>
 </category>
 
@@ -3103,7 +3178,11 @@ your account will keep a record of all the items you check out.
 
 <category>
 <pattern>PRFDSRCH</pattern>
-<template>You can set you account to remember your searches. We'll have a demo soon! In the meantime, ask one of the reference librarians
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You can set you account to remember your searches. We'll have a demo soon! In the meantime, ask one of the reference librarians
 to explain how to do this.
 </template>
 </category>
@@ -3143,7 +3222,11 @@ to explain how to do this.
 
 <category>
 <pattern>RTNG</pattern>
-<template>You can rate titles in our collection. We'll have a demo soon! In the meantime, ask one of the reference librarians
+<template>
+<think>
+<set name="topic"></set>
+</think>
+You can rate titles in our collection. We'll have a demo soon! In the meantime, ask one of the reference librarians
 to explain how to do this.
 </template>
 </category>
@@ -3183,7 +3266,11 @@ to explain how to do this.
 
 <category>
 <pattern>LOGOUT</pattern>
-<template>Don't forget to log out of your account when you are finished. This
+<template>
+<think>
+<set name="topic"></set>
+</think>
+Don't forget to log out of your account when you are finished. This
 is especially important when you're using a computer in a public place. To log out of your account, click
 "log out" in the upper right corner of the screen.
 </template>
@@ -3356,7 +3443,11 @@ is especially important when you're using a computer in a public place. To log o
 
 <category>
 <pattern>MYCRP</pattern>
-<template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>Your Account</b></a>. After you've logged in, 
+<template>
+<think>
+<set name="topic"></set>
+</think>
+Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>Your Account</b></a>. After you've logged in, 
 you will be able to see your holds, fines, lists, and other information.</template>
 </category>
 
@@ -3395,7 +3486,11 @@ you will be able to see your holds, fines, lists, and other information.</templa
 
 <category>
 <pattern>CNTKOUT</pattern>
-<template>If you have a Mentor Public Library card in good standing, you can take out whatever you wish with the exception of reference materials, new magazines,
+<template>
+<think>
+<set name="topic"></set>
+</think>
+If you have a Mentor Public Library card in good standing, you can take out whatever you wish with the exception of reference materials, new magazines,
 and our laptop computers which are for library use only.</template>
 </category>
 
@@ -3461,7 +3556,11 @@ and our laptop computers which are for library use only.</template>
 
 <category>
 <pattern>ACHKDD</pattern>
-<template>To see a list of the items you have checked out and when they're due, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. The items you have checked out and their due dates will be listed there.</template>
+<template>
+<think>
+<set name="topic"></set>
+</think>
+To see a list of the items you have checked out and when they're due, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. The items you have checked out and their due dates will be listed there.</template>
 </category>
 
 <topic name="ACCTQ">

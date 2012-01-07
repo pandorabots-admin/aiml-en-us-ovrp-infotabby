@@ -19,7 +19,10 @@
 
 <category>
 <pattern>LOLCATS</pattern> 
-<template>One of my favorite websites. Please turn off your pop-up blocker while I open it for you. Excuse me a moment. Don't mind if I talk to myself a little............ <script language="JavaScript">setPlayerVolume (0);</script><script language="JavaScript">var myWindow =window.open('http://icanhascheezburger.com/');</script> </template>
+<template>One of my favorite websites. I'll open it for you. Make sure you pop up blocker is off, or you won't see it.
+<think>
+<set name="search">lolcats</set>
+</template>
 </category>
 
 <category>

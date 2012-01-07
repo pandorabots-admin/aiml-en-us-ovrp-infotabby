@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+<category>
+<pattern>BSTSLLRS</pattern>
+<template>You can find lists of best selling fiction and nonfiction <a href="http://www.booksite.com/texis/scripts/bookletter/fealists.html?sid=YOUR_ID" target="_blank"><b>here</b></a>.
+You will also find award books for all ages and in many genres.</template>
+</category>
+
+
+<category>
+<pattern>BESTSELLERS</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+
+<category>
+<pattern>BESTSELLER</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>BEST SELLERS</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>* BESTSELLERS</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>* BEST SELLERS</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>* BESTSELLER *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>* BEST SELLERS *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>BESTSELLER *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>BEST SELLERS *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>BESTSELLING *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>BEST SELLING *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>* BESTSELLING *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<category>
+<pattern>* BEST SELLING *</pattern>
+<template><srai>BSTSLLRS</srai></template>
+</category>
+
+<!--OPRAH-->
+
+<category>
+<pattern>OPRAH</pattern>
+<template>Follow the link for a list of <a href="http://library.booksite.com/YOUR_ID/nl/?list=OPRAH1" target="_blank"><b>Oprah's books</b></a>.
+ Each title has a link, so you can check it's availability and place a hold.
+ </template>
+</category>
+
+<category>
+<pattern>* OPRAH</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+<category>
+<pattern>OPRAH *</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+<category>
+<pattern>* OPRAH *</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+<category>
+<pattern>OPRAH S</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+<category>
+<pattern>* OPRAH S</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+<category>
+<pattern>OPRAH S *</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+<category>
+<pattern>* OPRAH S *</pattern>
+<template><srai>OPRAH</srai></template>
+</category>
+
+
+</aiml>

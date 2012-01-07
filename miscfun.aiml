@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+  
+<category>
+<pattern>DYSNYR</pattern>
+<template>
+<random>
+<li>There are 365.25 days in a human year on Earth.</li> 
+<li>It depends where you are. 365.25 on earth, 87.96 on Mercury, or 90,472 on Pluto.</li>
+<li>It depends on where you are and what you are. If you're a human on Earth, there are 365.25 days in a year. If you're a dog on Earth, there are about 52. 
+If you're a human on Pluto, there are 90,472. If you're a dog on Pluto, you probably aren't concerned with such trivialities.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>DAYS * YEAR</pattern>
+<template><srai>DYSNYR</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAYS * YEAR</pattern>
+<template><srai>DYSNYR</srai>
+</template>
+</category>
+
+<category>
+<pattern>DAYS * YEAR *</pattern>
+<template><srai>DYSNYR</srai>
+</template>
+</category>
+  
+<category>
+<pattern>_ DAYS * YEAR *</pattern>
+<template><srai>DYSNYR</srai>
+</template>
+</category>
+
+<!--MONTHS PER YEAR-->
+
+<category>
+<pattern>MNTHSYR</pattern>
+<template>In one of your human years there are 12. In virtual cat years there are 77.</template>
+</category>
+
+<category>
+<pattern>MONTHS * YEAR</pattern>
+<template><srai>MNTHSYR</srai></template>
+</category>
+
+<category>
+<pattern>_ MONTHS * YEAR</pattern>
+<template><srai>MNTHSYR</srai></template>
+</category>
+
+<category>
+<pattern>MONTHS * YEAR *</pattern>
+<template><srai>MNTHSYR</srai></template>
+</category>
+
+<category>
+<pattern>_ MONTHS * YEAR *</pattern>
+<template><srai>MNTHSYR</srai></template>
+</category>
+
+<!--STATES IN USA-->
+
+ <category>
+<pattern>STATESUSA</pattern>
+<template>
+<random>
+<li>I have it on good authority that there are 50, not 57.</li>
+<li>Still 50, not 57.</li>
+</random>
+</template>
+</category>
+ 
+ <category>
+<pattern>_ MANY STATES * USA</pattern>
+<template><srai>STATESUSA</srai></template>
+</category>
+ 
+<category>
+<pattern>_ LETTERS * ALPHABET</pattern>
+<template>Which alphabet?</template>
+</category>
+ 
+<category>
+<pattern>_ ELEMENTS * PERIODIC TABLE</pattern>
+<template>117, 118, 119</template>
+</category>
+
+<!--DAVID AT MOL-->
+
+
+<category>
+<pattern>_ CREATOR * LAKE</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CREATOR * LAKE *</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CREATOR * MOL</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CREATOR * MOL *</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID * LAKE</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID * LAKE *</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID * MOL</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID * MOL *</pattern>
+<template>
+<srai>DN@MOL</srai>
+</template>
+</category>
+
+<category>
+<pattern>DN@MOL</pattern>
+<template>
+<think>
+<set name="message"></set>
+</think>
+That's a secret. I bet you can't guess why he went to the Lake Branch. If you can, I'll give you a prize.
+</template>
+</category>
+
+<category>
+<pattern>RLANSWRDN</pattern>
+<template>
+<random>
+<li>That's it! His colon is a ticking time bomb. He has horrible, noisy flatulence, and he just lets it rip. Anywhere!</li>
+<li>You are correct. It's <get name="answr"/>.</li>
+<li>Right! His diet consists mainly of broccoli stalks, oat meal, and coffee. His guts are so clean, they shine.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>OFFLANSWRDN</pattern>
+<template>
+<random>
+<li>You are correct. David has been charged to bring more technology to the Lake Branch.</li>
+<li>You are correct. It's <get name="answr"/>.</li>
+<li>Right! David will be bringing lots of fun stuff to Lake. Laptops, Nooks, Kindles, iPads, and classes on how to use them all.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern> * </pattern>
+<that>_ GIVE YOU A PRIZE</that>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<srai>CHKANSWR <get name="answr"/></srai>
+<condition name="message">
+<li value="wrong answer">No. It's not <get name="answr"/>. Guess again.</li>
+<li value="right answer"><srai>RLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+<li value="official right answer"><srai>OFFLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+</condition>
+</template>
+</category>
+ 
+
+<category>
+<pattern>PRIZE</pattern>
+<that>_ GIVE YOU A PRIZE</that>
+<template>
+David will mail you an "Ask Emma" sticker. They're really nice. Go ahead and guess.
+</template>
+</category>
+
+<category>
+<pattern>* PRIZE</pattern>
+<that>_ GIVE YOU A PRIZE</that>
+<template>
+David will mail you an "Ask Emma" sticker. They're really nice. Go ahead and guess.
+</template>
+</category>
+
+<category>
+<pattern>PRIZE *</pattern>
+<that>_ GIVE YOU A PRIZE</that>
+<template>
+David will mail you an "Ask Emma" sticker. They're really nice. Go ahead and guess.
+</template>
+</category>
+
+<category>
+<pattern>* PRIZE *</pattern>
+<that>_ GIVE YOU A PRIZE</that>
+<template>
+David will mail you an "Ask Emma" sticker. They're really nice.
+Go ahead and guess.
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>GO AHEAD AND GUESS</that>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<srai>CHKANSWR <get name="answr"/></srai>
+<condition name="message">
+<li value="wrong answer">No. It's not <get name="answr"/>. Guess again.</li>
+<li value="right answer"><srai>RLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+<li value="official right answer"><srai>OFFLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+</condition>
+</template>
+</category>
+ 
+
+<category>
+<pattern> * </pattern>
+<that>GUESS AGAIN</that>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<srai>CHKANSWR <get name="answr"/></srai>
+<condition name="message">
+<li value="wrong answer">No. It's not <get name="answr"/>. Guess again.</li>
+<li value="right answer"><srai>RLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+<li value="official right answer"><srai>OFFLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>_ DO NOT *</pattern>
+<that>GUESS AGAIN</that>
+<template>
+You can give up if you want to, but I'm not allowed to tell you. It's a secret. 
+</template>
+</category>
+
+<category>
+<pattern>_ GIVE UP</pattern>
+<that>GUESS AGAIN</that>
+<template>
+You can give up if you want to, but I'm not allowed to tell you. It's a secret. 
+</template>
+</category>
+
+<category>
+<pattern>_ GIVE UP *</pattern>
+<that>GUESS AGAIN</that>
+<template>
+You can give up if you want to, but I'm not allowed to tell you. It's a secret. 
+</template>
+</category>
+
+<category>
+<pattern>_ TELL ME</pattern>
+<that>GUESS AGAIN</that>
+<template>
+You can give up if you want to, but I'm not allowed to tell you. It's a secret. 
+</template>
+</category>
+
+<category>
+<pattern>_ TELL ME *</pattern>
+<that>GUESS AGAIN</that>
+<template>
+You can give up if you want to, but I'm not allowed to tell you. It's a secret. 
+</template>
+</category>
+
+<category>
+<pattern> * </pattern>
+<that>_ A SECRET</that>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<srai>CHKANSWR <get name="answr"/></srai>
+<condition name="message">
+<li value="wrong answer">No. It's not <get name="answr"/>. Guess again.</li>
+<li value="right answer"><srai>RLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+<li value="official right answer"><srai>OFFLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>
+</condition>
+</template>
+</category>
+  
+<category>
+<pattern>CHKANSWR * </pattern>
+<template>
+<think>
+<set name="message">wrong answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * TECH</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * TECH *</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR * TECHNOLOGY</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * TECHNOLOGY *</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR COMPUTER *</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR * COMPUTER</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * COMPUTER *</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR COMPUTERS *</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR * COMPUTERS</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * COMPUTERS *</pattern>
+<template>
+<think>
+<set name="message">official right answer</set>
+</think>
+</template>
+</category> 
+
+
+
+<category>
+<pattern>CHKANSWR * FARTS</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * FARTS *</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR * FARTING</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * FARTING *</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR GAS *</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR * GAS</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * GAS *</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR GASSY *</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern>CHKANSWR * GASSY</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category>  
+
+<category>
+<pattern>CHKANSWR * GASSY *</pattern>
+<template>
+<think>
+<set name="message">real right answer</set>
+</think>
+</template>
+</category> 
+
+<category>
+<pattern> * </pattern>
+<that>_ SEND * PRIZE</that>
+<template>Great! David will get this in the mail for you!</template>
+</category>
+ 
+</aiml>  
