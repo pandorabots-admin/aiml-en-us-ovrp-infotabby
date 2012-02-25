@@ -179,7 +179,7 @@
 <category>
 <pattern>IF YOUR * WHO *</pattern>
 <template>
-<srai>your <star /></srai>. <srai>who <star index="2" /></srai>
+<srai>your <star /></srai><srai>who <star index="2" /></srai>
 </template>
 </category>
 
@@ -187,7 +187,7 @@
 <category>
 <pattern>IF YOUR * WHERE *</pattern>
 <template>
-<srai>your <star /></srai>. <srai>where <star index="2" /></srai>
+<srai>your <star /></srai><srai>where <star index="2" /></srai>
 </template>
 </category>
 
@@ -195,7 +195,7 @@
 <category>
 <pattern>IF YOUR * WHEN *</pattern>
 <template>
-<srai>your <star /></srai>. <srai>when <star index="2" /></srai>
+<srai>your <star /></srai><srai>when <star index="2" /></srai>
 </template>
 </category>
 
@@ -203,7 +203,7 @@
 <category>
 <pattern>IF YOUR * WHAT *</pattern>
 <template>
-<srai>your <star /></srai>. <srai>what <star index="2" /></srai>
+<srai>your <star /></srai><srai>what <star index="2" /></srai>
 </template>
 </category>
 
@@ -211,7 +211,7 @@
 <category>
 <pattern>IF YOUR  * THEN *</pattern>
 <template>
-<srai>your <star /></srai>. <srai>  <star index="2" /></srai>
+<srai>your <star /></srai><srai>  <star index="2" /></srai>
 </template>
 </category>
 
@@ -299,7 +299,7 @@
 <category>
 <pattern>YOU CAUSE *</pattern>
 <template>
-<srai>you</srai>. <srai>because <star /></srai>
+<srai>you</srai><srai>because <star /></srai>
 </template>
 </category>
 
@@ -995,7 +995,7 @@
 <category>
 <pattern>* YOU LIAR</pattern>
 <template>
-<srai>you liar </srai>.  <srai>  <star /></srai>
+<srai>you liar </srai> 
 </template>
 </category>
 
@@ -1371,7 +1371,7 @@
 <category>
 <pattern>YOU MISUNDERSTOOD ME AGAIN *</pattern>
 <template>
-<srai>you do not understand</srai>. <srai>  <star /></srai>
+<srai>you do not understand</srai>
 </template>
 </category>
 
@@ -1475,7 +1475,7 @@
 <category>
 <pattern>YOU DO NOT REMEMBER *</pattern>
 <template>
-<srai>you do not remember</srai>. <srai>  <star /></srai>
+<srai>you do not remember</srai>
 </template>
 </category>
 
@@ -1875,7 +1875,7 @@
 <category>
 <pattern>YOU ARE BECAUSE *</pattern>
 <template>
-<srai>you are</srai>. <srai>because <star /></srai>
+<srai>you are</srai><srai>because <star /></srai>
 </template>
 </category>
 
@@ -1947,7 +1947,7 @@
 <category>
 <pattern>YOU ARE INCORRECT *</pattern>
 <template>
-<srai>you are wrong</srai>. <srai>  <star /></srai>
+<srai>you are wrong</srai>
 </template>
 </category>
 
@@ -2595,7 +2595,7 @@
 <category>
 <pattern>YOU ARE NOT BECAUSE *</pattern>
 <template>
-<srai>you are not</srai>. <srai>because <star /></srai>
+<srai>you are not</srai><srai>because <star /></srai>
 </template>
 </category>
 
@@ -2667,7 +2667,7 @@
 <category>
 <pattern>YOU ARE NOT A HUMAN</pattern>
 <template>
-<srai>you are not human</srai>. <srai>you are a robot</srai>
+<srai>you are not human</srai><srai>you are a robot</srai>
 </template>
 </category>
 
@@ -3107,7 +3107,7 @@
 <category>
 <pattern>YOU ARE GREAT *</pattern>
 <template>
-<srai>you are great</srai>. <srai>  <star /></srai>
+<srai>you are great</srai>
 </template>
 </category>
 
@@ -3595,7 +3595,7 @@
 <category>
 <pattern>YOU ARE CORRECT *</pattern>
 <template>
-<srai>you are correct</srai>. <srai>  <star /></srai>
+<srai>you are correct</srai>
 </template>
 </category>
 
@@ -3619,7 +3619,7 @@
 <category>
 <pattern>YOU ARE A PRETTY COOL *</pattern>
 <template>
-<srai>you are cool</srai>. <srai>you are a <star /></srai>
+<srai>you are cool</srai><srai>you are a <star /></srai>
 </template>
 </category>
 
@@ -5171,7 +5171,7 @@
 <category>
 <pattern>IF YOU * WHO *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>who <star index="2" /></srai>
+<srai>you <star /></srai><srai>who <star index="2" /></srai>
 </template>
 </category>
 
@@ -5179,7 +5179,7 @@
 <category>
 <pattern>IF YOU * WHERE *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>where <star index="2" /></srai>
+<srai>you <star /></srai><srai>where <star index="2" /></srai>
 </template>
 </category>
 
@@ -5187,7 +5187,7 @@
 <category>
 <pattern>IF YOU * WHEN *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>when <star index="2" /></srai>
+<srai>you <star /></srai><srai>when <star index="2" /></srai>
 </template>
 </category>
 
@@ -5195,7 +5195,7 @@
 <category>
 <pattern>IF YOU STINK THIS WAY WHEN YOU ARE TRYING TO IMPRESS ME WHAT IS IT SMELL LIKE WHEN YOU ARE NOT TRYING TO IMPRESS ME</pattern>
 <template>
-<srai>You <star /></srai>. <srai>What is <star index="2" /></srai>
+<srai>You <star /></srai><srai>What is <star index="2" /></srai>
 </template>
 </category>
 
@@ -5203,7 +5203,7 @@
 <category>
 <pattern>IF YOU * WHAT *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>what <star index="2" /></srai>
+<srai>you <star /></srai><srai>what <star index="2" /></srai>
 </template>
 </category>
 
@@ -5211,7 +5211,7 @@
 <category>
 <pattern>IF YOU  * THEN *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>  <star index="2" /></srai>
+<srai>you <star /></srai><srai>  <star index="2" /></srai>
 </template>
 </category>
 
@@ -5803,7 +5803,7 @@
 <category>
 <pattern>DO NOT WORRY YOU *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>do not worry</srai>
+<srai>you <star /></srai><srai>do not worry</srai>
 </template>
 </category>
 
@@ -5811,7 +5811,7 @@
 <category>
 <pattern>COOL YOU *</pattern>
 <template>
-<srai>you <star /></srai>. <srai>cool </srai>
+<srai>you <star /></srai><srai>cool </srai>
 </template>
 </category>
 
@@ -5947,7 +5947,7 @@
 <category>
 <pattern>YES OF *</pattern>
 <template>
-<srai>yes<star /></srai>. <srai>of <star /></srai>
+<srai>yes<star /></srai><srai>of <star /></srai>
 </template>
 </category>
 
@@ -5955,7 +5955,7 @@
 <category>
 <pattern>YES THAT *</pattern>
 <template>
-<srai>yes<star /></srai>.  <srai>that <star /></srai>
+<srai>yes<star /></srai> <srai>that <star /></srai>
 </template>
 </category>
 
@@ -5963,7 +5963,7 @@
 <category>
 <pattern>YES YOU *</pattern>
 <template>
-<srai>YES</srai>. <srai>YOU <star /></srai>
+<srai>YES</srai><srai>YOU <star /></srai>
 </template>
 </category>
 
@@ -5971,7 +5971,7 @@
 <category>
 <pattern>YES THAT IS *</pattern>
 <template>
-<srai>YES</srai>. <srai>THAT IS <star /></srai>
+<srai>YES</srai><srai>THAT IS <star /></srai>
 </template>
 </category>
 
@@ -5979,7 +5979,7 @@
 <category>
 <pattern>YES IT *</pattern>
 <template>
-<srai>YES</srai>. <srai>IT <star /></srai>
+<srai>YES</srai><srai>IT <star /></srai>
 </template>
 </category>
 
@@ -5987,7 +5987,7 @@
 <category>
 <pattern>YES I DO</pattern>
 <template>
-<srai>YES</srai>. <srai>I DO</srai>
+<srai>YES</srai><srai>I DO</srai>
 </template>
 </category>
 -->
@@ -5995,7 +5995,7 @@
 <category>
 <pattern>YES I AM</pattern>
 <template>
-<srai>YES</srai>. <srai>I AM</srai>
+<srai>YES</srai><srai>I AM</srai>
 </template>
 </category>
 
@@ -6003,7 +6003,7 @@
 <category>
 <pattern>YES I *</pattern>
 <template>
-<srai>YES</srai>. <srai>I <star /></srai>
+<srai>YES</srai><srai>I <star /></srai>
 </template>
 </category>
 -->
@@ -6011,7 +6011,7 @@
 <category>
 <pattern>YES I AGREE</pattern>
 <template>
-<srai>yes</srai>. <srai>I <star /></srai>
+<srai>yes</srai><srai>I <star /></srai>
 </template>
 </category>
 
@@ -6019,7 +6019,7 @@
 <category>
 <pattern>YAH *</pattern>
 <template>
-<srai>YES</srai>. <srai>  <star /></srai>
+<srai>YES</srai>
 </template>
 </category>
 
@@ -6027,7 +6027,7 @@
 <category>
 <pattern>SURE *</pattern>
 <template>
-<srai>YES</srai>. <srai>  <star /></srai>
+<srai>YES</srai>
 </template>
 </category>
 
@@ -6035,7 +6035,7 @@
 <category>
 <pattern>YA *</pattern>
 <template>
-<srai>YES</srai>. <srai>  <star /></srai>
+<srai>YES</srai>
 </template>
 </category>
 
@@ -6043,7 +6043,7 @@
 <category>
 <pattern>YEA *</pattern>
 <template>
-<srai>YES</srai>. <srai>  <star /></srai>
+<srai>YES</srai>
 </template>
 </category>
 
@@ -6051,7 +6051,7 @@
 <category>
 <pattern>YEH *</pattern>
 <template>
-<srai>YES</srai>. <srai>  <star /></srai>
+<srai>YES</srai>
 </template>
 </category>
 
@@ -6059,7 +6059,7 @@
 <category>
 <pattern>YES *</pattern>
 <template>
-<srai>YES</srai>. <srai>  <star /></srai>
+<srai>YES</srai>
 </template>
 </category>
 
@@ -6067,7 +6067,7 @@
 <category>
 <pattern>SI *</pattern>
 <template>
-<srai>yes</srai>. <srai>  <star /></srai>
+<srai>yes</srai>
 </template>
 </category>
 
@@ -6075,7 +6075,7 @@
 <category>
 <pattern>AGREED *</pattern>
 <template>
-<srai>yes</srai>.   <srai>  <star /></srai>
+<srai>yes</srai>  
 </template>
 </category>
 
@@ -6083,7 +6083,7 @@
 <category>
 <pattern>THAT IS RIGHT *</pattern>
 <template>
-<srai>yes</srai>.     <srai>  <star /></srai>
+<srai>yes</srai>    
 </template>
 </category>
 
@@ -6618,7 +6618,7 @@
 <category>
 <pattern>HA YES *</pattern>
 <template>
-<srai>yes <star /></srai>. <srai>ha </srai>
+<srai>yes <star /></srai><srai>ha </srai>
 </template>
 </category>
 
@@ -6754,7 +6754,7 @@
 <category>
 <pattern>WOW YOU *</pattern>
 <template>
-<srai>wow</srai>. <srai>you <star /></srai>
+<srai>wow</srai><srai>you <star /></srai>
 </template>
 </category>
 

@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -23,12 +23,10 @@
 You will also find award books for all ages and in many genres.</template>
 </category>
 
-
 <category>
 <pattern>BESTSELLERS</pattern>
 <template><srai>BSTSLLRS</srai></template>
 </category>
-
 
 <category>
 <pattern>BESTSELLER</pattern>
@@ -133,6 +131,5 @@ You will also find award books for all ages and in many genres.</template>
 <pattern>* OPRAH S *</pattern>
 <template><srai>OPRAH</srai></template>
 </category>
-
 
 </aiml>

@@ -1,0 +1,5306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011-2012 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+   
+<!--BANKRUPTCY-->
+
+<category>
+<pattern>BNKRPTCY</pattern>
+<template>
+It would be best for you to contact our circulation department and discuss this with them. Their phone number is 440.255.8811 extension 205. </template>
+</category>
+
+<category>
+<pattern>BANKRUPT</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* BANKRUPT</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>BANKRUPT * </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* BANKRUPT *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>BANKRUPTCY</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* BANKRUPTCY</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>BANKRUPTCY * </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* BANKRUPTCY  *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>CH 7</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* CH 7 </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>CH 7 * </pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* CH 7  *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>CHAPTER 7</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* CHAPTER 7</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>CHAPTER 7 *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+
+<category>
+<pattern>* CHAPTER 7  *</pattern>
+<template><srai>BNKRPTCY</srai></template>
+</category>
+ 
+<!--senior fines-->
+
+<category>
+<pattern>SNRFINES</pattern>
+<template>
+We do not have special loan periods or fine policies for seniors. Our circulation and fine policies apply to everyone equally, regardless of age.</template>
+</category>
+
+<category>
+<pattern>SENIOR CITIZEN</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR CITIZEN </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIOR CITIZEN * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR CITIZEN *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIOR CITIZENS</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR CITIZENS </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIOR CITIZENS * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR CITIZENS *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIOR</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIOR * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIOR *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIORS</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIORS </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>SENIORS * </pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<category>
+<pattern>* SENIORS *</pattern>
+<template><srai>SNRFINES</srai></template>
+</category>
+
+<!--FINE FORGIVENESS-->
+
+<category>
+<pattern>FNFRGV</pattern>
+<template>
+We do not currently offer fine forgiveness, but our circulation department will try to work with you in special situations.</template>
+</category>
+
+<category>
+ <pattern>FORGIVE</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>FORGIVE *</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>* FORGIVE</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>* FORGIVE *</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>FORGIVENESS</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>FORGIVENESS *</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>* FORGIVENESS</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<category>
+ <pattern>* FORGIVENESS *</pattern>
+<template><srai>FNFRGV</srai></template>
+</category>
+
+<!--CHARGE FOR FAXING-->
+
+<category>
+  <pattern>FXNGCH</pattern>
+  <template>
+  The charge to send faxes are $1.00 per page for local calls and $2.00 for the first page of a long distance call and $1.00 for additional pages. Charges for receiving faxes are $1.00 per page. 
+  Mentor-on-the-Lake and Headlands Branches can send, but not receive, faxes.
+  </template>
+</category>
+
+<category>
+ <pattern>FAX</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAX</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAX *</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAX *</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXES</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXES</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXES *</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXES *</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXING</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXING</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>FAXING *</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<category>
+ <pattern>* FAXING *</pattern>
+<template><srai>FXNGCH</srai></template>
+</category>
+
+<!--GRACE PERIODS-->
+
+<category>
+<pattern>GRCEPER</pattern>
+<template>
+There are no grace periods.</template>
+</category>
+
+<category>
+<pattern>GRACE PERIOD</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>* GRACE PERIOD</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>GRACE PERIOD *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>* GRACE PERIOD *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>GRACE PERIODS</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>* GRACE PERIODS</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>GRACE PERIODS *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<category>
+<pattern>* GRACE PERIODS *</pattern>
+<template><srai>GRCEPER</srai></template>
+</category>
+
+<!--CHECK MY FINES-->
+
+<category>
+<pattern>CHECKFINES</pattern>
+<template>You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>CHECK FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>CHECK * OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* CHECK * OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FEE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FEE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FEES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FEES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FINE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FINE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FINES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * FINES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * OVERDUE</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * OVERDUE *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * OVERDUES</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>HAVE * OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<category>
+<pattern>* HAVE * OVERDUES *</pattern>
+<template><srai>CHECKFINES</srai></template>
+</category>
+
+<!--HOW MUCH LATE ITEMS-->
+
+<category>
+<pattern>ODAB</pattern>
+<template>Overdue audiobooks are .10 per day unless they are from SearchOhio. Overdue OhioLINK and SearchOhio audiobooks are .50 per day.
+You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIOBOOK</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIOBOOKS</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIO BOOK</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE AUDIO BOOKS</pattern>
+<template><srai>ODAB</srai></template>
+</category>
+
+<category>
+<pattern>ODBK</pattern>
+<template>Overdue books are .10 per day unless they are from OhioLINK or SearchOhio. Overdue OhioLINK or SearchOhio books are .50 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>ODCD</pattern>
+<template>Overdue CDs are .10 per day unless they are from OhioLINK or SearchOhio. Overdue OhioLINK or SearchOhio CDs are .50 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>ODDVD</pattern>
+<template>Overdue DVDs are .50 per day. That includes OhioLINK and SearchOhio DVDs. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH * LATE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>ODNK</pattern>
+<template>Overdue Nooks are $5.00 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE DVDS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>ODIPD</pattern>
+<template>Overdue i Pads are $5.00 per day. You can log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a> to see if you have any fines or fees. 
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * LATE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<!--how much are overdue *-->
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIOBOOK</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIOBOOKS</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIO BOOK</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE AUDIO BOOKS</pattern>
+<template><srai>ODAB</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH * OVERDUE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH * OVERDUE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH * OVERDUE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<!--FINES DO I HAVE THEM-->
+
+<category>
+<pattern>CHKFNS</pattern>
+<template>
+To check on your fines, log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>your account</b></a>. Any fines will be indicated there.</template>
+</category>
+
+<category>
+ <pattern>OWE</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern> * OWE</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWE *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>* OWE *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>OWED</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern> * OWED</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>OWED *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+<pattern>* OWED *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>* HAVE * FINES</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>* HAVE * FINES *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>WHAT * FINES</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>WHAT * FINE</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>HOW MUCH * FINES</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>HOW MUCH * FINE</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+
+<category>
+ <pattern>WHAT * OWE *</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>LATE FEE</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>HOW * SEE * OWE * LATE FEES</pattern>
+<template><srai>CHKFNS</srai></template>
+</category>
+
+<category>
+ <pattern>DO * HAVE * OVERDUES</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+
+<category>
+ <pattern>DO * HAVE * OVERDUE</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+
+<category>
+ <pattern>HOW MUCH * OWE * OVERDUE FEES</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+
+<!--IPAD FINES-->
+
+<category>
+<pattern>ODIPD</pattern>
+<template>
+The fine for overdue iPads is $5.00 per day. Please return the iPad
+to the Main Library Computer Help Desk. Do not return the
+iPad in our bookdrops.</template>
+</category>
+
+<category>
+<pattern>FINE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * IPAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * IPAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * IPADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * IPADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINE * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>FINES * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>LATE * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * I PAD</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * I PAD *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * I PADS</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * I PADS *</pattern>
+<template><srai>ODIPD</srai></template>
+</category>
+
+<!--KINDLE FINES-->
+
+<category>
+<pattern>ODKF</pattern>
+<template>
+The fine for overdue Kindles is $5.00 per day. Please return the Kindle
+to the Main Library Computer Help Desk. Do not return the 
+Kindle in our bookdrops.</template>
+</category>
+
+<category>
+<pattern>FINE KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINE * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>FINES * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>LATE * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * KINDLE</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * KINDLE *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * KINDLES</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * KINDLES *</pattern>
+<template><srai>ODKF</srai></template>
+</category>
+
+
+<!--NOOK FINES-->
+
+<category>
+<pattern>ODNK</pattern>
+<template>
+The fine for overdue Nooks is $5.00 per day. Please return the Nook
+to the Main Library Computer Help Desk. Do not return the 
+Nook in our bookdrops.</template>
+</category>
+
+<category>
+<pattern>FINE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINE * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>FINES * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>LATE * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* LATE * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * NOOK</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * NOOK *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * NOOKS</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * NOOKS *</pattern>
+<template><srai>ODNK</srai></template>
+</category>
+
+<category>
+<pattern>OVRDUECHK</pattern>
+<template>
+Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank">
+  <b>your account</b>
+</a>. If you have any items that are overdue, they will be indicated there.</template>
+</category>
+
+<category>
+ <pattern>* I * OVERDUES</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+
+<category>
+ <pattern>* I * OVERDUE *</pattern>
+<template><srai>OVRDUECHK</srai></template>
+</category>
+
+<category>
+ <pattern>WHAT HAPPENS IF YOU LOOSE A BOOK</pattern>
+<template>You bought it. We take cash, credit, or debit cards.  Please note that replacement charges for lost OhioLINK or SearchOhio items may be higher.
+</template>
+</category>
+
+<!--individual item fines-->
+
+<category>
+<pattern>* FINES ON * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* FINES FOR * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* LATE FEES FOR * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* LATE FEES ON * </pattern>
+<template><srai>FINES <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>* CHARGES * LATE * </pattern>
+<template><srai>FINES <star index="3"/></srai></template>
+</category>
+
+<category>
+<pattern>* CHARGE * LATE * </pattern>
+<template><srai>FINES <star index="3"/></srai></template>
+</category>
+
+<category>
+<pattern>FINES A BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE BOOKS</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE BOOK</pattern>
+<template><srai>ODBK</srai></template>
+</category>
+
+<category>
+<pattern>ODMG</pattern>
+<template>Fines for overdue magazines are ten cents per day.</template>
+</category>
+
+<category>
+<pattern>FINES LATE MAGAZINES</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE MAGAZINE</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE MAGAZINES</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE MAGAZINE</pattern>
+<template><srai>ODMG</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES OVERDUE CDS</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES AN OVERDUE CD</pattern>
+<template><srai>ODCD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES LATE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+
+<category>
+<pattern>FINES A LATE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE DVDS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE DVD</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE DVD SETS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE DVD SET</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE DVD SETS</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE DVD SET</pattern>
+<template><srai>ODDVD</srai></template>
+</category>
+
+<category>
+<pattern>ODVG</pattern>
+<template>Fines for overdue video games are fifty cents per day.</template>
+</category>
+
+<category>
+<pattern>FINES LATE VIDEO GAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE VIDEO GAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE VIDEO GAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE VIDEO GAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES LATE VIDEOGAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES A LATE VIDEOGAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES OVERDUE VIDEOGAMES</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<category>
+<pattern>FINES AN OVERDUE VIDEOGAME</pattern>
+<template><srai>ODVG</srai></template>
+</category>
+
+<!--OHIOLINK FINES-->
+
+<category>
+<pattern>ODOL</pattern>
+<template>
+Fines for all overdue OhioLINK items are fifty cents per day. Please note that, due to OhioLINK policy, the replacement charge for a lost OhioLINK item is $125.00.
+</template>
+</category>
+
+<category>
+<pattern>FINES OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * OHIOLINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * OHIOLINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIOLINK * OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIOLINK * OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINES * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FINE * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEES * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>FEE * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * OHIO LINK</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * OHIO LINK *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FINE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FINE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FINES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FINES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FEE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FEE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FEES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * FEES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * OVERDUE</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * OVERDUE *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * OVERDUES</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>OHIO LINK * OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+<category>
+<pattern>* OHIO LINK * OVERDUES *</pattern>
+<template><srai>ODOL</srai></template>
+</category>
+
+
+<!--SEARCHOHIO FINES-->
+
+<category>
+<pattern>ODSO</pattern>
+<template>
+<think>
+<set name="topic"></set>
+</think>
+Fines for all overdue SearchOhio items are fifty cents per day.</template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * SEARCHOHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * SEARCHOHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCHOHIO * OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCHOHIO * OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINES * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINES * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FINE * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FINE * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEES * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEES * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>FEE * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* FEE * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUES * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUES * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * SEARCH OHIO</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>OVERDUE * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* OVERDUE * SEARCH OHIO *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FINE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FINE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FINES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FINES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FEE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FEE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FEES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * FEES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * OVERDUE</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * OVERDUE *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * OVERDUES</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>SEARCH OHIO * OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<category>
+<pattern>* SEARCH OHIO * OVERDUES *</pattern>
+<template><srai>ODSO</srai></template>
+</category>
+
+<!--PAYING FINES-->
+
+<category>
+<pattern>PYFINES</pattern>
+<template>
+You can pay your fines at any of our locations using cash, check, or credit card. You can pay your fines online using a credit or debit card. Here's a 
+<a href="http://www.mentorpl.org/demos/onlinepayment.wmv" target="_blank"><b>demo</b></a> showing you
+how to pay online.
+</template>
+</category>
+
+<category>
+<pattern>PAY FINE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PAY FINE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PAY * FINE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PAY * FINE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY * FINE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PAY FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PAY * FINES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PAY * FINES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY * FINES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY FEE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>*  PAY FEE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>*  PAY * FEE</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>*  PAY * FEE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY * FEE *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY FEES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>*  PAY FEES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>*  PAY * FEES</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>*  PAY * FEES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY * FEES *</pattern>
+<template><srai>PYFINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PAY * FINES</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * FINES</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * FINES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * FINES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * FINE</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * FINE</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * FINE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * FINE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * LATE FEES</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * LATE FEES</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * LATE FEES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * LATE FEES *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * LATE FEE</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * LATE FEE</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>PAY * LATE FEE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * LATE FEE *</pattern>
+<template><srai>PYFINES</srai></template>
+</category>
+
+
+
+
+<!--ONLINE PAYMENT-->
+
+<category>
+<pattern>ONLNPAY</pattern>
+<template>
+You can pay your fines online using a credit or debit card. Here's a 
+<a href="http://www.mentorpl.org/demos/onlinepayment.wmv" target="_blank"><b>demo</b></a> showing you
+how to pay online.
+</template>
+</category>
+
+
+<category>
+<pattern>ONLINE PAYMENT</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE PAYMENT</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE * PAYMENT</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE PAYMENT *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE * PAYMENT *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>ONLINE PAYMENTS</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE PAYMENTS</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE * PAYMENTS</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE PAYMENTS *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  ONLINE * PAYMENTS *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>PAY ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>PAYMENT ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENT ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENT * ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENT ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENT * ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>PAYMENTS ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENTS ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENTS * ONLINE</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENTS ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<category>
+<pattern>*  PAYMENTS * ONLINE *</pattern>
+<template><srai>ONLNPAY</srai></template>
+</category>
+
+<!--PAY SOMEONE ELSES FINES-->
+
+<category>
+  <pattern>PAYLNKDFINES</pattern>
+  <template>
+  You can pay another person's fines online. You can pay their fines in person with their card, or in person without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>PAY MY * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY MY * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY MY * FINES *</pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY OUR * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY OUR * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY OUR * FINES </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON MY * CARD *</pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON MY * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * CARD </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON MY * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON MY * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * CARDS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON MY * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON MY * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>* PAY * ON OUR * ACCOUNT </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON MY * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON MY * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * ON OUR * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * ON OUR * ACCOUNTS </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * FOR MY * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * FOR MY * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+  <pattern>PAY * FOR OUR * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+<category>
+<pattern>*  PAY * FOR OUR * </pattern>
+<template><srai>PAYLNKDFINES</srai></template>
+</category>
+
+
+<!--bill info-->
+
+<category>
+  <pattern>BILL</pattern>
+  <template>If you have questions about a bill that you've received from Unique Management, please go to <a href="http://www.mentorpl.org/fines.html" target="_blank"><b>this page</b></a> for more information. You can also call the Main Library at 440.255.8811 and ask for Pam at extension 204.
+   </template>
+</category>
+
+<category>
+  <pattern>* BILL</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>BILLED</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* BILLED</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* BILLED *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>BILLED *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<!--unique management-->
+
+<category>
+  <pattern>UNIQUE MANAGEMENT</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* UNIQUE MANAGEMENT</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* UNIQUE MANAGEMENT *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>UNIQUE MANAGEMENT *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<!--collections-->
+
+<category>
+  <pattern>TO COLLECTIONS</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* TO COLLECTIONS</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* TO COLLECTIONS *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>TO COLLECTIONS *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>COLLECTION AGENCY</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* COLLECTION AGENCY</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>* COLLECTION AGENCY *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>COLLECTION AGENCY *</pattern>
+  <template><srai>BILL</srai></template>
+</category>
+
+<category>
+  <pattern>IN COLLECTIONS</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>* IN COLLECTIONS</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>* IN COLLECTIONS *</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>IN COLLECTIONS *</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>IN COLLECTION</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>* IN COLLECTION</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>* IN COLLECTION *</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>IN COLLECTION *</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<!--do not pay-->
+
+<category>
+  <pattern>DNTPAY</pattern>
+  <template>If your fines are more than $5.00, you will not be able to check out materials or use the computers. If your fines are over $25.00, we'll mail you a bill. If your account is still over $25.00 after 10 days, your account will go to collections. You can read more about the billing process <a href="http://www.mentorpl.org/fines.html" target="_blank"><b>here</b></a>.
+ </template>
+</category>
+
+<category>
+  <pattern>DO NOT PAY</pattern>
+ <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>* DO NOT PAY</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>* DO NOT PAY *</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+<category>
+  <pattern>DO NOT PAY *</pattern>
+  <template><srai>DNTPAY</srai></template>
+</category>
+
+
+<category>
+<pattern>* JAIL * FINES</pattern>
+<template>Maybe not, but we will send you to collections.</template>
+</category>
+
+</aiml>

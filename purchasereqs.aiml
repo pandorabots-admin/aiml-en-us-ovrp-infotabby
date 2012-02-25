@@ -105,75 +105,93 @@
 
 <category>
 <pattern>PRCHREQ</pattern>
-<template>Tell me about the item you're suggesting we purchase. Please enter the author, title, or other information for the item.
+<template>
+Just so I understand, please answer "yes" or "no." Would you like to suggest an item for the library to purchase?
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>_ LIBRARY TO PURCHASE</that>
+<template>
+Tell me about the item you're suggesting we purchase. Please enter your library card number and the author, title, or other information for the item.
 <think>
 <set name="topic">PRCHREQ</set>
 </think>
 </template>
 </category>
 
+<category>
+<pattern>NO</pattern>
+<that>_ LIBRARY TO PURCHASE</that>
+<template>
+O.K. It sounds like you're asking me to recommend a book you might enjoy. What do you like to read?
+</template>
+</category>
+
 <topic name="PRCHREQ">
 <category>
-<pattern> * </pattern>
+<pattern>*</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern> MYSTERY </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern>_ MYSTERY </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern> MYSTERY *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern>_ MYSTERY *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern> MYSTERIES </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern>_ MYSTERIES </pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern> MYSTERIES *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
-<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+<template><srai>PREQCONF</srai></template>
 </category>
 
 <category>
 <pattern>_ MYSTERIES *</pattern>
 <that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PREQCONF</srai></template>
+</category>
+
+<category>
+<pattern>PREQCONF</pattern>
 <template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
-a month. Please check the status of this request then.</template>
+a month. Please check the status of this request then.
+<think>
+<set name="topic"></set>
+</think>
+</template>
 </category>
 </topic>
 
@@ -203,6 +221,85 @@ a month. Please check the status of this request then.</template>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
+<category>
+<pattern>SUGGEST BOOK</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST BOOK</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * BOOK</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST BOOK *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * BOOK</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * BOOK *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST BOOK *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * BOOK *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST BOOKS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST BOOKS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * BOOKS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST BOOKS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * BOOKS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * BOOKS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST BOOKS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * BOOKS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
 
 <category>
 <pattern>SUGGEST * BUY</pattern>
@@ -221,6 +318,86 @@ a month. Please check the status of this request then.</template>
 
 <category>
 <pattern>_ SUGGEST * BUY *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST ITEM</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST ITEM</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * ITEM</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST ITEM *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * ITEM</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * ITEM *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST ITEM *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * ITEM *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST ITEMS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST ITEMS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * ITEMS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST ITEMS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * ITEMS</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>SUGGEST * ITEMS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST ITEMS *</pattern>
+<template><srai>PRCHREQ</srai></template>
+</category>
+
+<category>
+<pattern>* SUGGEST * ITEMS *</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
@@ -369,8 +546,6 @@ a month. Please check the status of this request then.</template>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
-
-
 <category>
 <pattern>NEW ACQUISITIONS REQUEST</pattern>
 <template><srai>PRCHREQ</srai></template>
@@ -412,22 +587,22 @@ a month. Please check the status of this request then.</template>
 </category>
 
 <category>
-  <pattern>* recommend * purchased</pattern>
+  <pattern>* RECOMMEND * PURCHASED</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
 <category>
-  <pattern>* recommend * purchase</pattern>
+  <pattern>* RECOMMEND * PURCHASE</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
 <category>
-  <pattern>* recommend * purchased *</pattern>
+  <pattern>* RECOMMEND * PURCHASED *</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>
 
 <category>
-  <pattern>* recommend * purchase *</pattern>
+  <pattern>* RECOMMEND * PURCHASE *</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>
 

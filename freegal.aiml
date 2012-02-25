@@ -18,7 +18,7 @@
 
 <category>
 <pattern>FREEGL</pattern>
-<template>You can download thousands of recordings by your favorite artists by using Freegal. Access Freegal Music by clicking any of the Freegal logos or links on our website, or by following <a href="http://www.freegalmusic.com/users/indlogin" target="_blank"><b>this link</b></a>.
+<template>You can download up to five tracks each week using Freegal. Access Freegal Music by clicking any of the Freegal logos or links on our website, or by following <a href="http://www.freegalmusic.com/users/indlogin" target="_blank"><b>this link</b></a>.
 Once you are on the Freegal login page, please enter your Mentor Public Library card number, all fourteen digits with no spaces. 
 Your Mentor Public Library account must be in good standing (less than $5.00 in fines or fees) to use Freegal. 
 You can find more info about using Freegal on our <a href="http://www.mentorpl.org/freegalintro.html" target="_blank"><b>Intro to Freegal</b></a> page. You can find solutions to the most common tech questions on our <a href="http://www.mentorpl.org/freegalFAQs.html" target="_blank"><b>Freegal Troubleshooting</b></a> page.
@@ -29,7 +29,6 @@ You can find more info about using Freegal on our <a href="http://www.mentorpl.o
 <pattern>FREEGAL</pattern>
 <template><srai>FREEGL</srai></template>
 </category>
-
 
 <category>
 <pattern> _ FREEGAL</pattern>
@@ -197,7 +196,6 @@ You can find more info about using Freegal on our <a href="http://www.mentorpl.o
 <template><srai>FREEGL</srai></template>
 </category>
 
-
 <category>
 <pattern>DOWNLOAD SONGS *</pattern>
 <template><srai>FREEGL</srai></template>
@@ -217,7 +215,6 @@ You can find more info about using Freegal on our <a href="http://www.mentorpl.o
 <pattern> _ ITUNES SONGS</pattern>
 <template><srai>FREEGL</srai></template>
 </category>
-
 
 <category>
 <pattern>ITUNES SONGS *</pattern>
@@ -388,7 +385,5 @@ New material is added daily.
 <pattern>* FREEGAL * ARTISTS *</pattern>
 <template><srai>FRGARTS</srai></template>
 </category>
-
-
 
 </aiml>

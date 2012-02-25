@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -40,7 +40,6 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </template>
 </category>
 
-
 <category>
 <pattern>WOLFRAM ALPHA *</pattern> 
 <template><srai>ASKWA</srai>
@@ -53,27 +52,23 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </template>
 </category>
 
-
 <category>
 <pattern>* ASK WOLFRAM ALPHA *</pattern> 
 <template><srai>ASKWA2</srai>
 </template>
 </category>
 
-
 <category>
 <pattern>SEARCH WOLFRAM ALPHA FOR *</pattern> 
 <template><srai>ASKWA</srai>
 </template>
 </category>
-
  
- <category>
+<category>
 <pattern>* SEARCH WOLFRAM ALPHA FOR *</pattern> 
 <template><srai>ASKWA2</srai>
 </template>
 </category>
-
 
 <!--AGE-->
 
@@ -95,9 +90,7 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </template>
 </category>
 
-
 <!--DISTANCE-->
-
 
 <category>
 <pattern>WAPASS</pattern> 
@@ -127,7 +120,6 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </template>
 </category>
 
-
 <category>
 <pattern>HOW FAR IS IT TO *</pattern>
 <template>Where are you now?
@@ -138,7 +130,7 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </category>
 
 <category>
-<pattern> * </pattern>
+<pattern>*</pattern>
 <that>WHERE ARE YOU NOW</that>
 <template><srai>WAPASS</srai>
 <think>
@@ -146,12 +138,6 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </think>
 </template>
 </category>
-
-
-
-
-
-
 
 <!--NUMBER OF X IN Y-->
 
@@ -182,7 +168,6 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </template>
 </category>
 
-
 <!--POPULATION-->
 
 <category>
@@ -203,6 +188,4 @@ Let's check Wolfram Alpha. It's a very smart website. If you don't see the resul
 </template>
 </category>
  
-
-
 </aiml>

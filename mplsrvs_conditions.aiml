@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011-2012 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+  
+<category>
+  <pattern>MPLSRVCS</pattern>
+  <template>Our library has a wide range of services. What would you like to know about our library or services?
+   <think>
+<set name="topic">MPL SERVICES</set>
+</think>
+ </template>
+</category>
+
+
+<topic name="MPL SERVICES">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="BATHROOM"><set name="message">restrooms</set></li>
+<li value="* BATHROOM"><set name="message">restrooms</set></li>
+<li value="BATHROOM *"><set name="message">restrooms</set></li>
+<li value="* BATHROOM *"><set name="message">restrooms</set></li>
+  
+<li value="BATHROOMS"><set name="message">restrooms</set></li>
+<li value="* BATHROOMS"><set name="message">restrooms</set></li>
+<li value="BATHROOMS *"><set name="message">restrooms</set></li>
+<li value="* BATHROOMS *"><set name="message">restrooms</set></li>
+  
+<li value="BATH ROOM"><set name="message">restrooms</set></li>
+<li value="* BATH ROOM"><set name="message">restrooms</set></li>
+<li value="BATH ROOM *"><set name="message">restrooms</set></li>
+<li value="* BATH ROOM *"><set name="message">restrooms</set></li>
+  
+<li value="BATH ROOMS"><set name="message">restrooms</set></li>
+<li value="* BATH ROOMS"><set name="message">restrooms</set></li>
+<li value="BATH ROOMS *"><set name="message">restrooms</set></li>
+<li value="* BATH ROOMS *"><set name="message">restrooms</set></li>
+
+<li value="LATRINE"><set name="message">restrooms</set></li>
+<li value="* LATRINE"><set name="message">restrooms</set></li>
+<li value="LATRINE *"><set name="message">restrooms</set></li>
+<li value="* LATRINE *"><set name="message">restrooms</set></li>
+  
+<li value="LATRINES"><set name="message">restrooms</set></li>
+<li value="* LATRINES"><set name="message">restrooms</set></li>
+<li value="LATRINES *"><set name="message">restrooms</set></li>
+<li value="* LATRINES *"><set name="message">restrooms</set></li>
+
+<li value="LAVATORY"><set name="message">restrooms</set></li>
+<li value="* LAVATORY"><set name="message">restrooms</set></li>
+<li value="LAVATORY *"><set name="message">restrooms</set></li>
+<li value="* LAVATORY *"><set name="message">restrooms</set></li>
+
+<li value="LAVATORIES"><set name="message">restrooms</set></li>
+<li value="* LAVATORIES"><set name="message">restrooms</set></li>
+<li value="LAVATORIES *"><set name="message">restrooms</set></li>
+<li value="* LAVATORIES *"><set name="message">restrooms</set></li>
+
+<li value="RESTROOM"><set name="message">restrooms</set></li>
+<li value="* RESTROOM"><set name="message">restrooms</set></li>
+<li value="RESTROOM *"><set name="message">restrooms</set></li>
+<li value="* RESTROOM *"><set name="message">restrooms</set></li>
+  
+<li value="RESTROOMS"><set name="message">restrooms</set></li>
+<li value="* RESTROOMS"><set name="message">restrooms</set></li>
+<li value="RESTROOMS *"><set name="message">restrooms</set></li>
+<li value="* RESTROOMS *"><set name="message">restrooms</set></li>
+
+<li value="REST ROOM"><set name="message">restrooms</set></li>
+<li value="* REST ROOM"><set name="message">restrooms</set></li>
+<li value="REST ROOM *"><set name="message">restrooms</set></li>
+<li value="* REST ROOM *"><set name="message">restrooms</set></li>
+  
+<li value="REST ROOMS"><set name="message">restrooms</set></li>
+<li value="* REST ROOMS"><set name="message">restrooms</set></li>
+<li value="REST ROOMS *"><set name="message">restrooms</set></li>
+<li value="* REST ROOMS *"><set name="message">restrooms</set></li>
+
+<li value="TOILET"><set name="message">restrooms</set></li>
+<li value="* TOILET"><set name="message">restrooms</set></li>
+<li value="TOILET *"><set name="message">restrooms</set></li>
+<li value="* TOILET *"><set name="message">restrooms</set></li>
+
+<li value="TOILETS"><set name="message">restrooms</set></li>
+<li value="* TOILETS"><set name="message">restrooms</set></li>
+<li value="TOILETS *"><set name="message">restrooms</set></li>
+<li value="* TOILETS *"><set name="message">restrooms</set></li>
+
+<li value="WASHROOM"><set name="message">restrooms</set></li>
+<li value="* WASHROOM"><set name="message">restrooms</set></li>
+<li value="WASHROOM *"><set name="message">restrooms</set></li>
+<li value="* WASHROOM *"><set name="message">restrooms</set></li>
+  
+<li value="WASHROOMS"><set name="message">restrooms</set></li>
+<li value="* WASHROOMS"><set name="message">restrooms</set></li>
+<li value="WASHROOMS *"><set name="message">restrooms</set></li>
+<li value="* WASHROOMS *"><set name="message">restrooms</set></li>
+
+<li value="WASH ROOM"><set name="message">restrooms</set></li>
+<li value="* WASH ROOM"><set name="message">restrooms</set></li>
+<li value="WASH ROOM *"><set name="message">restrooms</set></li>
+<li value="* WASH ROOM *"><set name="message">restrooms</set></li>
+  
+<li value="WASH ROOMS"><set name="message">restrooms</set></li>
+<li value="* WASH ROOMS"><set name="message">restrooms</set></li>
+<li value="WASH ROOMS *"><set name="message">restrooms</set></li>
+<li value="* WASH ROOMS *"><set name="message">restrooms</set></li>
+
+<li value="BULLETIN BOARD"><set name="message">bboards</set></li>
+<li value="* BULLETIN BOARD"><set name="message">bboards</set></li>
+<li value="BULLETIN BOARD *"><set name="message">bboards</set></li>
+<li value="* BULLETIN BOARD *"><set name="message">bboards</set></li>
+
+<li value="BULLETIN BOARDS"><set name="message">bboards</set></li>
+<li value="* BULLETIN BOARDS"><set name="message">bboards</set></li>
+<li value="BULLETIN BOARDS *"><set name="message">bboards</set></li>
+<li value="* BULLETIN BOARDS *"><set name="message">bboards</set></li>
+
+<li value="DISPLAY"><set name="message">display case</set></li>
+<li value="* DISPLAY"><set name="message">display case</set></li>
+<li value="DISPLAY *"><set name="message">display case</set></li>
+<li value="* DISPLAY *"><set name="message">display case</set></li>
+
+<li value="DISPLAYS"><set name="message">display case</set></li>
+<li value="* DISPLAYS"><set name="message">display case</set></li>
+<li value="DISPLAYS *"><set name="message">display case</set></li>
+<li value="* DISPLAYS *"><set name="message">display case</set></li>
+
+<li value="PRINT"><set name="message">printing</set></li>
+<li value="* PRINT"><set name="message">printing</set></li>
+<li value="PRINT *"><set name="message">printing</set></li>
+<li value="* PRINT *"><set name="message">printing</set></li>
+
+<li value="PRINTS"><set name="message">printing</set></li>
+<li value="* PRINTS"><set name="message">printing</set></li>
+<li value="PRINTS *"><set name="message">printing</set></li>
+<li value="* PRINTS *"><set name="message">printing</set></li>
+
+<li value="PRINTING"><set name="message">printing</set></li>
+<li value="* PRINTING"><set name="message">printing</set></li>
+<li value="PRINTING *"><set name="message">printing</set></li>
+<li value="* PRINTING *"><set name="message">printing</set></li>
+
+<li value="COPY"><set name="message">xerox</set></li>
+<li value="* COPY"><set name="message">xerox</set></li>
+<li value="COPY *"><set name="message">xerox</set></li>
+<li value="* COPY *"><set name="message">xerox</set></li>
+
+<li value="COPIER"><set name="message">xerox</set></li>
+<li value="* COPIER"><set name="message">xerox</set></li>
+<li value="COPIER *"><set name="message">xerox</set></li>
+<li value="* COPIER *"><set name="message">xerox</set></li>
+
+<li value="COPIERS"><set name="message">xerox</set></li>
+<li value="* COPIERS"><set name="message">xerox</set></li>
+<li value="COPIERS *"><set name="message">xerox</set></li>
+<li value="* COPIERS *"><set name="message">xerox</set></li>
+
+<li value="COPIES"><set name="message">xerox</set></li>
+<li value="* COPIES"><set name="message">xerox</set></li>
+<li value="COPIES *"><set name="message">xerox</set></li>
+<li value="* COPIES *"><set name="message">xerox</set></li>
+
+<li value="COPYING"><set name="message">xerox</set></li>
+<li value="* COPYING"><set name="message">xerox</set></li>
+<li value="COPYING *"><set name="message">xerox</set></li>
+<li value="* COPYING *"><set name="message">xerox</set></li>
+
+<li value="XEROX"><set name="message">xerox</set></li>
+<li value="* XEROX"><set name="message">xerox</set></li>
+<li value="XEROX *"><set name="message">xerox</set></li>
+<li value="* XEROX *"><set name="message">xerox</set></li>
+
+<li value="PASSPORT"><set name="message">passports</set></li>
+<li value="* PASSPORT"><set name="message">passports</set></li>
+<li value="PASSPORT *"><set name="message">passports</set></li>
+<li value="* PASSPORT *"><set name="message">passports</set></li>
+
+<li value="PASSPORTS"><set name="message">passports</set></li>
+<li value="* PASSPORTS"><set name="message">passports</set></li>
+<li value="PASSPORTS *"><set name="message">passports</set></li>
+<li value="* PASSPORTS *"><set name="message">passports</set></li>
+
+<li value="EXAM"><set name="message">proctoring</set></li>
+<li value="* EXAM"><set name="message">proctoring</set></li>
+<li value="EXAM *"><set name="message">proctoring</set></li>
+<li value="* EXAM *"><set name="message">proctoring</set></li>
+
+<li value="EXAMS"><set name="message">proctoring</set></li>
+<li value="* EXAMS"><set name="message">proctoring</set></li>
+<li value="EXAMS*"><set name="message">proctoring</set></li>
+<li value="* EXAMS *"><set name="message">proctoring</set></li>
+
+<li value="PROCTOR"><set name="message">proctoring</set></li>
+<li value="* PROCTOR"><set name="message">proctoring</set></li>
+<li value="PROCTOR *"><set name="message">proctoring</set></li>
+<li value="* PROCTOR *"><set name="message">proctoring</set></li>
+
+<li value="PROCTORED"><set name="message">proctoring</set></li>
+<li value="* PROCTORED"><set name="message">proctoring</set></li>
+<li value="PROCTORED *"><set name="message">proctoring</set></li>
+<li value="* PROCTORED *"><set name="message">proctoring</set></li>
+
+<li value="PROCTORS"><set name="message">proctoring</set></li>
+<li value="* PROCTORS"><set name="message">proctoring</set></li>
+<li value="PROCTORS *"><set name="message">proctoring</set></li>
+<li value="* PROCTORS *"><set name="message">proctoring</set></li>
+
+<li value="PROCTORING"><set name="message">proctoring</set></li>
+<li value="* PROCTORING"><set name="message">proctoring</set></li>
+<li value="PROCTORING *"><set name="message">proctoring</set></li>
+<li value="* PROCTORING *"><set name="message">proctoring</set></li>
+
+<li value="FAX"><set name="message">faxing</set></li>
+<li value="* FAX"><set name="message">faxing</set></li>
+<li value="FAX *"><set name="message">faxing</set></li>
+<li value="* FAX *"><set name="message">faxing</set></li>
+
+<li value="FAXES"><set name="message">faxing</set></li>
+<li value="* FAXES"><set name="message">faxing</set></li>
+<li value="FAXES *"><set name="message">faxing</set></li>
+<li value="* FAXES *"><set name="message">faxing</set></li>
+
+<li value="FAXING"><set name="message">faxing</set></li>
+<li value="* FAXING"><set name="message">faxing</set></li>
+<li value="FAXING *"><set name="message">faxing</set></li>
+<li value="* FAXING *"><set name="message">faxing</set></li>
+
+<li value="DELIVER"><set name="message">homebound</set></li>
+<li value="* DELIVER"><set name="message">homebound</set></li>
+<li value="DELIVER *"><set name="message">homebound</set></li>
+<li value="* DELIVER *"><set name="message">homebound</set></li>
+
+<li value="DELIVERY"><set name="message">homebound</set></li>
+<li value="* DELIVERY"><set name="message">homebound</set></li>
+<li value="DELIVERY *"><set name="message">homebound</set></li>
+<li value="* DELIVERY *"><set name="message">homebound</set></li>
+
+<li value="HOMEBOUND"><set name="message">homebound</set></li>
+<li value="* HOMEBOUND"><set name="message">homebound</set></li>
+<li value="HOMEBOUND *"><set name="message">homebound</set></li>
+<li value="* HOMEBOUND *"><set name="message">homebound</set></li>
+
+<li value="HOME BOUND"><set name="message">homebound</set></li>
+<li value="* HOME BOUND"><set name="message">homebound</set></li>
+<li value="HOME BOUND *"><set name="message">homebound</set></li>
+<li value="* HOME BOUND *"><set name="message">homebound</set></li>
+
+<li value="OUTREACH"><set name="message">homebound</set></li>
+<li value="* OUTREACH"><set name="message">homebound</set></li>
+<li value="OUTREACH *"><set name="message">homebound</set></li>
+<li value="* OUTREACH *"><set name="message">homebound</set></li>
+
+<li value="OUT REACH"><set name="message">homebound</set></li>
+<li value="* OUT REACH"><set name="message">homebound</set></li>
+<li value="OUT REACH *"><set name="message">homebound</set></li>
+<li value="* OUT REACH *"><set name="message">homebound</set></li>
+
+<li value="COMMUNITY ROOM"><set name="message">meeting rooms</set></li>
+<li value="* COMMUNITY ROOM"><set name="message">meeting rooms</set></li>
+<li value="COMMUNITY ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* COMMUNITY ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="COMMUNITY ROOMS"><set name="message">meeting rooms</set></li>
+<li value="* COMMUNITY ROOMS"><set name="message">meeting rooms</set></li>
+<li value="COMMUNITY ROOMS *"><set name="message">meeting rooms</set></li>
+<li value="* COMMUNITY ROOMS *"><set name="message">meeting rooms</set></li>
+
+<li value="CONFERENCE ROOM"><set name="message">meeting rooms</set></li>
+<li value="* CONFERENCE ROOM"><set name="message">meeting rooms</set></li>
+<li value="CONFERENCE ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* CONFERENCE ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="CONFERENCE ROOMS"><set name="message">meeting rooms</set></li>
+<li value="* CONFERENCE ROOMS"><set name="message">meeting rooms</set></li>
+<li value="CONFERENCE ROOMS *"><set name="message">meeting rooms</set></li>
+<li value="* CONFERENCE ROOMS *"><set name="message">meeting rooms</set></li>
+
+<li value="MEETING ROOM"><set name="message">meeting rooms</set></li>
+<li value="* MEETING ROOM"><set name="message">meeting rooms</set></li>
+<li value="MEETING ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* MEETING ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="MEETING ROOMS"><set name="message">meeting rooms</set></li>
+<li value="* MEETING ROOMS"><set name="message">meeting rooms</set></li>
+<li value="MEETING ROOMS *"><set name="message">meeting rooms</set></li>
+<li value="* MEETING ROOMS *"><set name="message">meeting rooms</set></li>
+
+<li value="GARFIELD ROOM"><set name="message">garfield room</set></li>
+<li value="* GARFIELD ROOM"><set name="message">garfield room</set></li>
+<li value="GARFIELD ROOM *"><set name="message">garfield room</set></li>
+<li value="* GARFIELD ROOM *"><set name="message">garfield room</set></li>
+
+<li value="CLEVELAND ROOM"><set name="message">cleveland room</set></li>
+<li value="* CLEVELAND ROOM"><set name="message">cleveland room</set></li>
+<li value="CLEVELAND ROOM *"><set name="message">cleveland room</set></li>
+<li value="* CLEVELAND ROOM *"><set name="message">cleveland room</set></li>
+
+<li value="BOOK ROOM"><set name="message">meeting rooms</set></li>
+<li value="* BOOK ROOM"><set name="message">meeting rooms</set></li>
+<li value="BOOK * ROOM"><set name="message">meeting rooms</set></li>
+<li value="BOOK ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* BOOK * ROOM"><set name="message">meeting rooms</set></li>
+<li value="BOOK * ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* BOOK ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* BOOK * ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="BOOKING ROOM"><set name="message">meeting rooms</set></li>
+<li value="* BOOKING ROOM"><set name="message">meeting rooms</set></li>
+<li value="BOOKING * ROOM"><set name="message">meeting rooms</set></li>
+<li value="BOOKING ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* BOOKING * ROOM"><set name="message">meeting rooms</set></li>
+<li value="BOOKING * ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* BOOKING ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* BOOKING * ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="RESERVE ROOM"><set name="message">meeting rooms</set></li>
+<li value="* RESERVE ROOM"><set name="message">meeting rooms</set></li>
+<li value="RESERVE * ROOM"><set name="message">meeting rooms</set></li>
+<li value="RESERVE ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* RESERVE * ROOM"><set name="message">meeting rooms</set></li>
+<li value="RESERVE * ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* RESERVE ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* RESERVE * ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="RESERVING ROOM"><set name="message">meeting rooms</set></li>
+<li value="* RESERVING ROOM"><set name="message">meeting rooms</set></li>
+<li value="RESERVING * ROOM"><set name="message">meeting rooms</set></li>
+<li value="RESERVING ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* RESERVING * ROOM"><set name="message">meeting rooms</set></li>
+<li value="RESERVING * ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* RESERVING ROOM *"><set name="message">meeting rooms</set></li>
+<li value="* RESERVING * ROOM *"><set name="message">meeting rooms</set></li>
+
+<li value="ROOM BOOKED"><set name="message">meeting rooms</set></li>
+<li value="* ROOM BOOKED"><set name="message">meeting rooms</set></li>
+<li value="ROOM * BOOKED"><set name="message">meeting rooms</set></li>
+<li value="ROOM BOOKED *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * BOOKED"><set name="message">meeting rooms</set></li>
+<li value="ROOM * BOOKED *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM BOOKED *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * BOOKED *"><set name="message">meeting rooms</set></li>
+
+<li value="ROOM RESERVATION"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVATION"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVATION"><set name="message">meeting rooms</set></li>
+<li value="ROOM RESERVATION *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVATION"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVATION *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVATION *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVATION *"><set name="message">meeting rooms</set></li>
+
+<li value="ROOM RESERVATIONS"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVATIONS"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVATIONS"><set name="message">meeting rooms</set></li>
+<li value="ROOM RESERVATIONS *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVATIONS"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVATIONS *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVATIONS *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVATIONS *"><set name="message">meeting rooms</set></li>
+
+<li value="ROOM RESERVE"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVE"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVE"><set name="message">meeting rooms</set></li>
+<li value="ROOM RESERVE *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVE"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVE *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVE *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVE *"><set name="message">meeting rooms</set></li>
+
+<li value="ROOM RESERVED"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVED"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVED"><set name="message">meeting rooms</set></li>
+<li value="ROOM RESERVED *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVED"><set name="message">meeting rooms</set></li>
+<li value="ROOM * RESERVED *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM RESERVED *"><set name="message">meeting rooms</set></li>
+<li value="* ROOM * RESERVED *"><set name="message">meeting rooms</set></li>
+
+<li value="STUDY AREA"><set name="message">quiet room</set></li>
+<li value="* STUDY AREA"><set name="message">quiet room</set></li>
+<li value="STUDY AREA *"><set name="message">quiet room</set></li>
+<li value="* STUDY AREA *"><set name="message">quiet room</set></li>
+
+<li value="STUDY AREAS"><set name="message">quiet room</set></li>
+<li value="* STUDY AREAS"><set name="message">quiet room</set></li>
+<li value="STUDY AREAS *"><set name="message">quiet room</set></li>
+<li value="* STUDY AREAS *"><set name="message">quiet room</set></li>
+
+<li value="QUIET AREA"><set name="message">quiet room</set></li>
+<li value="* QUIET AREA"><set name="message">quiet room</set></li>
+<li value="QUIET AREA *"><set name="message">quiet room</set></li>
+<li value="* QUIET AREA *"><set name="message">quiet room</set></li>
+
+<li value="QUIET AREAS"><set name="message">quiet room</set></li>
+<li value="* QUIET AREAS"><set name="message">quiet room</set></li>
+<li value="QUIET AREAS *"><set name="message">quiet room</set></li>
+<li value="* QUIET AREAS *"><set name="message">quiet room</set></li>
+
+<li value="STUDY ROOM"><set name="message">quiet room</set></li>
+<li value="* STUDY ROOM"><set name="message">quiet room</set></li>
+<li value="STUDY ROOM *"><set name="message">quiet room</set></li>
+<li value="* STUDY ROOM *"><set name="message">quiet room</set></li>
+
+<li value="STUDY ROOMS"><set name="message">quiet room</set></li>
+<li value="* STUDY ROOMS"><set name="message">quiet room</set></li>
+<li value="STUDY ROOMS *"><set name="message">quiet room</set></li>
+<li value="* STUDY ROOMS *"><set name="message">quiet room</set></li>
+
+<li value="QUIET ROOM"><set name="message">quiet room</set></li>
+<li value="* QUIET ROOM"><set name="message">quiet room</set></li>
+<li value="QUIET ROOM *"><set name="message">quiet room</set></li>
+<li value="* QUIET ROOM *"><set name="message">quiet room</set></li>
+
+<li value="QUIET ROOMS"><set name="message">quiet room</set></li>
+<li value="* QUIET ROOMS"><set name="message">quiet room</set></li>
+<li value="QUIET ROOMS *"><set name="message">quiet room</set></li>
+<li value="* QUIET ROOMS *"><set name="message">quiet room</set></li>
+
+<li value="NOTARIES"><set name="message">notary</set></li>
+<li value="* NOTARIES"><set name="message">notary</set></li>
+<li value="NOTARIES *"><set name="message">notary</set></li>
+<li value="* NOTARIES *"><set name="message">notary</set></li>
+
+<li value="NOTARIZE"><set name="message">notary</set></li>
+<li value="* NOTARIZE"><set name="message">notary</set></li>
+<li value="NOTARIZE *"><set name="message">notary</set></li>
+<li value="* NOTARIZE *"><set name="message">notary</set></li>
+
+<li value="NOTARIZED"><set name="message">notary</set></li>
+<li value="* NOTARIZED"><set name="message">notary</set></li>
+<li value="NOTARIZED *"><set name="message">notary</set></li>
+<li value="* NOTARIZED *"><set name="message">notary</set></li>
+
+<li value="NOTARIZING"><set name="message">notary</set></li>
+<li value="* NOTARIZING"><set name="message">notary</set></li>
+<li value="NOTARIZING *"><set name="message">notary</set></li>
+<li value="* NOTARIZING *"><set name="message">notary</set></li>
+
+<li value="NOTARY"><set name="message">notary</set></li>
+<li value="* NOTARY"><set name="message">notary</set></li>
+<li value="NOTARY *"><set name="message">notary</set></li>
+<li value="* NOTARY *"><set name="message">notary</set></li>
+
+<li value="LOT"><set name="message">parking</set></li>
+<li value="* LOT"><set name="message">parking</set></li>
+<li value="LOT *"><set name="message">parking</set></li>
+<li value="* LOT *"><set name="message">parking</set></li>
+
+<li value="PARKING"><set name="message">parking</set></li>
+<li value="* PARKING"><set name="message">parking</set></li>
+<li value="PARKING *"><set name="message">parking</set></li>
+<li value="* PARKING *"><set name="message">parking</set></li>
+
+<li value="SELFCHECK"><set name="message">selfchecks</set></li>
+<li value="* SELFCHECK"><set name="message">selfchecks</set></li>
+<li value="SELFCHECK *"><set name="message">selfchecks</set></li>
+<li value="* SELFCHECK *"><set name="message">selfchecks</set></li>
+
+<li value="SELFCHECKS"><set name="message">selfchecks</set></li>
+<li value="* SELFCHECKS"><set name="message">selfchecks</set></li>
+<li value="SELFCHECKS *"><set name="message">selfchecks</set></li>
+<li value="* SELFCHECKS *"><set name="message">selfchecks</set></li>
+
+<li value="SELF CHECK"><set name="message">selfchecks</set></li>
+<li value="* SELF CHECK"><set name="message">selfchecks</set></li>
+<li value="SELF CHECK *"><set name="message">selfchecks</set></li>
+<li value="* SELF CHECK *"><set name="message">selfchecks</set></li>
+
+<li value="SELF CHECKS"><set name="message">selfchecks</set></li>
+<li value="* SELF CHECKS"><set name="message">selfchecks</set></li>
+<li value="SELF CHECKS *"><set name="message">selfchecks</set></li>
+<li value="* SELF CHECKS *"><set name="message">selfchecks</set></li>
+
+<li value="SCAN"><set name="message">scanner</set></li>
+<li value="* SCAN"><set name="message">scanner</set></li>
+<li value="SCAN *"><set name="message">scanner</set></li>
+<li value="* SCAN *"><set name="message">scanner</set></li>
+
+<li value="SCANS"><set name="message">scanner</set></li>
+<li value="* SCANS"><set name="message">scanner</set></li>
+<li value="SCANS *"><set name="message">scanner</set></li>
+<li value="* SCANS *"><set name="message">scanner</set></li>
+
+<li value="SCANNER"><set name="message">scanner</set></li>
+<li value="* SCANNER"><set name="message">scanner</set></li>
+<li value="SCANNER *"><set name="message">scanner</set></li>
+<li value="* SCANNER *"><set name="message">scanner</set></li>
+
+<li value="SCANNERS"><set name="message">scanner</set></li>
+<li value="* SCANNERS"><set name="message">scanner</set></li>
+<li value="SCANNERS *"><set name="message">scanner</set></li>
+<li value="* SCANNERS *"><set name="message">scanner</set></li>
+
+<li value="SCANNING"><set name="message">scanner</set></li>
+<li value="* SCANNING"><set name="message">scanner</set></li>
+<li value="SCANNING *"><set name="message">scanner</set></li>
+<li value="* SCANNING *"><set name="message">scanner</set></li>
+
+<li value="CCA FORM"><set name="message">tax forms</set></li>
+<li value="* CCA FORM"><set name="message">tax forms</set></li>
+<li value="CCA * FORM"><set name="message">tax forms</set></li>
+<li value="CCA FORM *"><set name="message">tax forms</set></li>
+<li value="* CCA * FORM"><set name="message">tax forms</set></li>
+<li value="CCA * FORM *"><set name="message">tax forms</set></li>
+<li value="* CCA FORM *"><set name="message">tax forms</set></li>
+<li value="* CCA * FORM *"><set name="message">tax forms</set></li>
+
+<li value="CCA FORMS"><set name="message">tax forms</set></li>
+<li value="* CCA FORMS"><set name="message">tax forms</set></li>
+<li value="CCA * FORMS"><set name="message">tax forms</set></li>
+<li value="CCA FORMS *"><set name="message">tax forms</set></li>
+<li value="* CCA * FORMS"><set name="message">tax forms</set></li>
+<li value="CCA * FORMS *"><set name="message">tax forms</set></li>
+<li value="* CCA FORMS *"><set name="message">tax forms</set></li>
+<li value="* CCA * FORMS *"><set name="message">tax forms</set></li>
+
+<li value="CITY FORM"><set name="message">tax forms</set></li>
+<li value="* CITY FORM"><set name="message">tax forms</set></li>
+<li value="CITY * FORM"><set name="message">tax forms</set></li>
+<li value="CITY FORM *"><set name="message">tax forms</set></li>
+<li value="* CITY * FORM"><set name="message">tax forms</set></li>
+<li value="CITY * FORM *"><set name="message">tax forms</set></li>
+<li value="* CITY FORM *"><set name="message">tax forms</set></li>
+<li value="* CITY * FORM *"><set name="message">tax forms</set></li>
+
+<li value="CITY FORMS"><set name="message">tax forms</set></li>
+<li value="* CITY FORMS"><set name="message">tax forms</set></li>
+<li value="CITY * FORMS"><set name="message">tax forms</set></li>
+<li value="CITY FORMS *"><set name="message">tax forms</set></li>
+<li value="* CITY * FORMS"><set name="message">tax forms</set></li>
+<li value="CITY * FORMS *"><set name="message">tax forms</set></li>
+<li value="* CITY FORMS *"><set name="message">tax forms</set></li>
+<li value="* CITY * FORMS *"><set name="message">tax forms</set></li>
+
+<li value="FEDERAL FORM"><set name="message">tax forms</set></li>
+<li value="* FEDERAL FORM"><set name="message">tax forms</set></li>
+<li value="FEDERAL * FORM"><set name="message">tax forms</set></li>
+<li value="FEDERAL FORM *"><set name="message">tax forms</set></li>
+<li value="* FEDERAL * FORM"><set name="message">tax forms</set></li>
+<li value="FEDERAL * FORM *"><set name="message">tax forms</set></li>
+<li value="* FEDERAL FORM *"><set name="message">tax forms</set></li>
+<li value="* FEDERAL * FORM *"><set name="message">tax forms</set></li>
+
+<li value="FEDERAL FORMS"><set name="message">tax forms</set></li>
+<li value="* FEDERAL FORMS"><set name="message">tax forms</set></li>
+<li value="FEDERAL * FORMS"><set name="message">tax forms</set></li>
+<li value="FEDERAL FORMS *"><set name="message">tax forms</set></li>
+<li value="* FEDERAL * FORMS"><set name="message">tax forms</set></li>
+<li value="FEDERAL * FORMS *"><set name="message">tax forms</set></li>
+<li value="* FEDERAL FORMS *"><set name="message">tax forms</set></li>
+<li value="* FEDERAL * FORMS *"><set name="message">tax forms</set></li>
+
+<li value="IRS FORM"><set name="message">tax forms</set></li>
+<li value="* IRS FORM"><set name="message">tax forms</set></li>
+<li value="IRS * FORM"><set name="message">tax forms</set></li>
+<li value="IRS FORM *"><set name="message">tax forms</set></li>
+<li value="* IRS * FORM"><set name="message">tax forms</set></li>
+<li value="IRS * FORM *"><set name="message">tax forms</set></li>
+<li value="* IRS FORM *"><set name="message">tax forms</set></li>
+<li value="* IRS * FORM *"><set name="message">tax forms</set></li>
+
+<li value="IRS FORMS"><set name="message">tax forms</set></li>
+<li value="* IRS FORMS"><set name="message">tax forms</set></li>
+<li value="IRS * FORMS"><set name="message">tax forms</set></li>
+<li value="IRS FORMS *"><set name="message">tax forms</set></li>
+<li value="* IRS * FORMS"><set name="message">tax forms</set></li>
+<li value="IRS * FORMS *"><set name="message">tax forms</set></li>
+<li value="* IRS FORMS *"><set name="message">tax forms</set></li>
+<li value="* IRS * FORMS *"><set name="message">tax forms</set></li>
+
+<li value="LOCAL FORM"><set name="message">tax forms</set></li>
+<li value="* LOCAL FORM"><set name="message">tax forms</set></li>
+<li value="LOCAL * FORM"><set name="message">tax forms</set></li>
+<li value="LOCAL FORM *"><set name="message">tax forms</set></li>
+<li value="* LOCAL * FORM"><set name="message">tax forms</set></li>
+<li value="LOCAL * FORM *"><set name="message">tax forms</set></li>
+<li value="* LOCAL FORM *"><set name="message">tax forms</set></li>
+<li value="* LOCAL * FORM *"><set name="message">tax forms</set></li>
+
+<li value="LOCAL FORMS"><set name="message">tax forms</set></li>
+<li value="* LOCAL FORMS"><set name="message">tax forms</set></li>
+<li value="LOCAL * FORMS"><set name="message">tax forms</set></li>
+<li value="LOCAL FORMS *"><set name="message">tax forms</set></li>
+<li value="* LOCAL * FORMS"><set name="message">tax forms</set></li>
+<li value="LOCAL * FORMS *"><set name="message">tax forms</set></li>
+<li value="* LOCAL FORMS *"><set name="message">tax forms</set></li>
+<li value="* LOCAL * FORMS *"><set name="message">tax forms</set></li>
+
+<li value="TAX FORM"><set name="message">tax forms</set></li>
+<li value="* TAX FORM"><set name="message">tax forms</set></li>
+<li value="TAX * FORM"><set name="message">tax forms</set></li>
+<li value="TAX FORM *"><set name="message">tax forms</set></li>
+<li value="* TAX * FORM"><set name="message">tax forms</set></li>
+<li value="TAX * FORM *"><set name="message">tax forms</set></li>
+<li value="* TAX FORM *"><set name="message">tax forms</set></li>
+<li value="* TAX * FORM *"><set name="message">tax forms</set></li>
+
+<li value="TAX FORMS"><set name="message">tax forms</set></li>
+<li value="* TAX FORMS"><set name="message">tax forms</set></li>
+<li value="TAX * FORMS"><set name="message">tax forms</set></li>
+<li value="TAX FORMS *"><set name="message">tax forms</set></li>
+<li value="* TAX * FORMS"><set name="message">tax forms</set></li>
+<li value="TAX * FORMS *"><set name="message">tax forms</set></li>
+<li value="* TAX FORMS *"><set name="message">tax forms</set></li>
+<li value="* TAX * FORMS *"><set name="message">tax forms</set></li>
+
+<li value="TUTOR"><set name="message">tutoring</set></li>
+<li value="* TUTOR"><set name="message">tutoring</set></li>
+<li value="TUTOR *"><set name="message">tutoring</set></li>
+<li value="* TUTOR *"><set name="message">tutoring</set></li>
+
+<li value="TUTORED"><set name="message">tutoring</set></li>
+<li value="* TUTORED"><set name="message">tutoring</set></li>
+<li value="TUTORED *"><set name="message">tutoring</set></li>
+<li value="* TUTORED *"><set name="message">tutoring</set></li>
+
+<li value="TUTORING"><set name="message">tutoring</set></li>
+<li value="* TUTORING"><set name="message">tutoring</set></li>
+<li value="TUTORING *"><set name="message">tutoring</set></li>
+<li value="* TUTORING *"><set name="message">tutoring</set></li>
+
+<li value="VOTER REGISTRATION"><set name="message">voter registration</set></li>
+<li value="* VOTER REGISTRATION"><set name="message">voter registration</set></li>
+<li value="VOTER REGISTRATION *"><set name="message">voter registration</set></li>
+<li value="* VOTER REGISTRATION *"><set name="message">voter registration</set></li>
+
+<li value="REGISTER * VOTE"><set name="message">voter registration</set></li>
+<li value="* REGISTER * VOTE"><set name="message">voter registration</set></li>
+<li value="REGISTER * VOTE *"><set name="message">voter registration</set></li>
+<li value="* REGISTER * VOTE *"><set name="message">voter registration</set></li>
+
+<li value="ABSENTEE"><set name="message">absentee ballot</set></li>
+<li value="* ABSENTEE"><set name="message">absentee ballot</set></li>
+<li value="ABSENTEE *"><set name="message">absentee ballot</set></li>
+<li value="* ABSENTEE *"><set name="message">absentee ballot</set></li>
+
+<li value="USB"><set name="message">usb</set></li>
+<li value="* USB"><set name="message">usb</set></li>
+<li value="USB *"><set name="message">usb</set></li>
+<li value="* USB *"><set name="message">usb</set></li>
+
+<li value="USBS"><set name="message">usb</set></li>
+<li value="* USBS"><set name="message">usb</set></li>
+<li value="USBS *"><set name="message">usb</set></li>
+<li value="* USBS *"><set name="message">usb</set></li>
+
+<li value="FLASH DRIVE"><set name="message">usb</set></li>
+<li value="* FLASH DRIVE"><set name="message">usb</set></li>
+<li value="FLASH DRIVE *"><set name="message">usb</set></li>
+<li value="* FLASH DRIVE *"><set name="message">usb</set></li>
+
+<li value="FLASH DRIVES"><set name="message">usb</set></li>
+<li value="* FLASH DRIVES"><set name="message">usb</set></li>
+<li value="FLASH DRIVES *"><set name="message">usb</set></li>
+<li value="* FLASH DRIVES *"><set name="message">usb</set></li>
+
+<li value="THUMB DRIVE"><set name="message">usb</set></li>
+<li value="* THUMB DRIVE"><set name="message">usb</set></li>
+<li value="THUMB DRIVE *"><set name="message">usb</set></li>
+<li value="* THUMB DRIVE *"><set name="message">usb</set></li>
+
+<li value="THUMB DRIVES"><set name="message">usb</set></li>
+<li value="* THUMB DRIVES"><set name="message">usb</set></li>
+<li value="THUMB DRIVES *"><set name="message">usb</set></li>
+<li value="* THUMB DRIVES *"><set name="message">usb</set></li>
+
+<li value="EARBUD"><set name="message">headphones</set></li>
+<li value="* EARBUD"><set name="message">headphones</set></li>
+<li value="EARBUD *"><set name="message">headphones</set></li>
+<li value="* EARBUD *"><set name="message">headphones</set></li>
+
+<li value="EARBUDS"><set name="message">headphones</set></li>
+<li value="* EARBUDS"><set name="message">headphones</set></li>
+<li value="EARBUDS *"><set name="message">headphones</set></li>
+<li value="* EARBUDS *"><set name="message">headphones</set></li>
+
+<li value="EAR BUD"><set name="message">headphones</set></li>
+<li value="* EAR BUD"><set name="message">headphones</set></li>
+<li value="EAR BUD *"><set name="message">headphones</set></li>
+<li value="* EAR BUD *"><set name="message">headphones</set></li>
+
+<li value="EAR BUDS"><set name="message">headphones</set></li>
+<li value="* EAR BUDS"><set name="message">headphones</set></li>
+<li value="EAR BUDS *"><set name="message">headphones</set></li>
+<li value="* EAR BUDS *"><set name="message">headphones</set></li>
+
+<li value="HEADPHONE"><set name="message">headphones</set></li>
+<li value="* HEADPHONE"><set name="message">headphones</set></li>
+<li value="HEADPHONE *"><set name="message">headphones</set></li>
+<li value="* HEADPHONE *"><set name="message">headphones</set></li>
+
+<li value="HEADPHONES"><set name="message">headphones</set></li>
+<li value="* HEADPHONES"><set name="message">headphones</set></li>
+<li value="HEADPHONES *"><set name="message">headphones</set></li>
+<li value="* HEADPHONES *"><set name="message">headphones</set></li>
+
+<li value="HEAD PHONE"><set name="message">headphones</set></li>
+<li value="* HEAD PHONE"><set name="message">headphones</set></li>
+<li value="HEAD PHONE *"><set name="message">headphones</set></li>
+<li value="* HEAD PHONE *"><set name="message">headphones</set></li>
+
+<li value="HEAD PHONES"><set name="message">headphones</set></li>
+<li value="* HEAD PHONES"><set name="message">headphones</set></li>
+<li value="HEAD PHONES *"><set name="message">headphones</set></li>
+<li value="* HEAD PHONES *"><set name="message">headphones</set></li>
+
+<li value="CARREL"><set name="message">tables</set></li>
+<li value="* CARREL"><set name="message">tables</set></li>
+<li value="CARREL *"><set name="message">tables</set></li>
+<li value="* CARREL *"><set name="message">tables</set></li>
+
+<li value="CARRELS"><set name="message">tables</set></li>
+<li value="* CARRELS"><set name="message">tables</set></li>
+<li value="CARRELS *"><set name="message">tables</set></li>
+<li value="* CARRELS *"><set name="message">tables</set></li>
+
+<li value="TABLE"><set name="message">tables</set></li>
+<li value="* TABLE"><set name="message">tables</set></li>
+<li value="TABLE *"><set name="message">tables</set></li>
+<li value="* TABLE *"><set name="message">tables</set></li>
+
+<li value="TABLES"><set name="message">tables</set></li>
+<li value="* TABLES"><set name="message">tables</set></li>
+<li value="TABLES *"><set name="message">tables</set></li>
+<li value="* TABLES *"><set name="message">tables</set></li>
+
+<li value="ADA"><set name="message">ada</set></li>
+<li value="* ADA"><set name="message">ada</set></li>
+<li value="ADA *"><set name="message">ada</set></li>
+<li value="* ADA *"><set name="message">ada</set></li>
+
+<li value="A D A"><set name="message">ada</set></li>
+<li value="* A D A"><set name="message">ada</set></li>
+<li value="A D A *"><set name="message">ada</set></li>
+<li value="* A D A *"><set name="message">ada</set></li>
+
+<li value="HANDICAP"><set name="message">ada</set></li>
+<li value="* HANDICAP"><set name="message">ada</set></li>
+<li value="HANDICAP *"><set name="message">ada</set></li>
+<li value="* HANDICAP *"><set name="message">ada</set></li>
+
+<li value="HANDICAPS"><set name="message">ada</set></li>
+<li value="* HANDICAPS"><set name="message">ada</set></li>
+<li value="HANDICAPS *"><set name="message">ada</set></li>
+<li value="* HANDICAPS *"><set name="message">ada</set></li>
+
+<li value="HANDICAPPED"><set name="message">ada</set></li>
+<li value="* HANDICAPPED"><set name="message">ada</set></li>
+<li value="HANDICAPPED *"><set name="message">ada</set></li>
+<li value="* HANDICAPPED *"><set name="message">ada</set></li>
+
+<li value="WHEELCHAIR"><set name="message">ada</set></li>
+<li value="* WHEELCHAIR"><set name="message">ada</set></li>
+<li value="WHEELCHAIR *"><set name="message">ada</set></li>
+<li value="* WHEELCHAIR *"><set name="message">ada</set></li>
+
+<li value="WHEELCHAIRS"><set name="message">ada</set></li>
+<li value="* WHEELCHAIRS"><set name="message">ada</set></li>
+<li value="WHEELCHAIRS *"><set name="message">ada</set></li>
+<li value="* WHEELCHAIRS *"><set name="message">ada</set></li>
+
+<li value="WHEEL CHAIR"><set name="message">ada</set></li>
+<li value="* WHEEL CHAIR"><set name="message">ada</set></li>
+<li value="WHEEL CHAIR *"><set name="message">ada</set></li>
+<li value="* WHEEL CHAIR *"><set name="message">ada</set></li>
+
+<li value="WHEEL CHAIRS"><set name="message">ada</set></li>
+<li value="* WHEEL CHAIRS"><set name="message">ada</set></li>
+<li value="WHEEL CHAIRS *"><set name="message">ada</set></li>
+<li value="* WHEEL CHAIRS *"><set name="message">ada</set></li>
+
+<li value="ELEVATOR"><set name="message">elevator</set></li>
+<li value="* ELEVATOR"><set name="message">elevator</set></li>
+<li value="ELEVATOR *"><set name="message">elevator</set></li>
+<li value="* ELEVATOR *"><set name="message">elevator</set></li>
+
+<li value="ELEVATORS"><set name="message">elevator</set></li>
+<li value="* ELEVATORS"><set name="message">elevator</set></li>
+<li value="ELEVATORS *"><set name="message">elevator</set></li>
+<li value="* ELEVATORS *"><set name="message">elevator</set></li>
+
+<li value="ILS"><set name="message">ils</set></li>
+<li value="* ILS"><set name="message">ils</set></li>
+<li value="ILS *"><set name="message">ils</set></li>
+<li value="* ILS *"><set name="message">ils</set></li>
+
+<li value="COLLECTION POLICY"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION POLICY"><set name="message">collection development policy</set></li>
+<li value="COLLECTION * POLICY"><set name="message">collection development policy</set></li>
+<li value="COLLECTION POLICY *"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION * POLICY"><set name="message">collection development policy</set></li>
+<li value="COLLECTION * POLICY *"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION POLICY *"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION * POLICY *"><set name="message">collection development policy</set></li>
+
+<li value="COLLECTION POLICIES"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION POLICIES"><set name="message">collection development policy</set></li>
+<li value="COLLECTION * POLICIES"><set name="message">collection development policy</set></li>
+<li value="COLLECTION POLICIES *"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION * POLICIES"><set name="message">collection development policy</set></li>
+<li value="COLLECTION * POLICIES *"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION POLICIES *"><set name="message">collection development policy</set></li>
+<li value="* COLLECTION * POLICIES *"><set name="message">collection development policy</set></li>
+
+<li value="BEHAVIOR POLICY"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR POLICY"><set name="message">behavior policy</set></li>
+<li value="BEHAVIOR * POLICY"><set name="message">behavior policy</set></li>
+<li value="BEHAVIOR POLICY *"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR * POLICY"><set name="message">behavior policy</set></li>
+<li value="BEHAVIOR * POLICY *"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR POLICY *"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR * POLICY *"><set name="message">behavior policy</set></li>
+
+<li value="BEHAVIOR POLICIES"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR POLICIES"><set name="message">behavior policy</set></li>
+<li value="BEHAVIOR * POLICIES"><set name="message">behavior policy</set></li>
+<li value="BEHAVIOR POLICIES *"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR * POLICIES"><set name="message">behavior policy</set></li>
+<li value="BEHAVIOR * POLICIES *"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR POLICIES *"><set name="message">behavior policy</set></li>
+<li value="* BEHAVIOR * POLICIES *"><set name="message">behavior policy</set></li>
+
+<li value="BUDGET"><set name="message">mpl budget</set></li>
+<li value="* BUDGET"><set name="message">mpl budget</set></li>
+<li value="BUDGET *"><set name="message">mpl budget</set></li>
+<li value="* BUDGET *"><set name="message">mpl budget</set></li>
+
+<li value="BUDGETED"><set name="message">mpl budget</set></li>
+<li value="* BUDGETED"><set name="message">mpl budget</set></li>
+<li value="BUDGETED *"><set name="message">mpl budget</set></li>
+<li value="* BUDGETED *"><set name="message">mpl budget</set></li>
+
+<li value="SPEND"><set name="message">mpl budget</set></li>
+<li value="* SPEND"><set name="message">mpl budget</set></li>
+<li value="SPEND *"><set name="message">mpl budget</set></li>
+<li value="* SPEND *"><set name="message">mpl budget</set></li>
+
+<li value="SPENT"><set name="message">mpl budget</set></li>
+<li value="* SPENT"><set name="message">mpl budget</set></li>
+<li value="SPENT *"><set name="message">mpl budget</set></li>
+<li value="* SPENT *"><set name="message">mpl budget</set></li>
+
+<li value="CELLPHONE"><set name="message">cell phones</set></li>
+<li value="* CELLPHONE"><set name="message">cell phones</set></li>
+<li value="CELLPHONE *"><set name="message">cell phones</set></li>
+<li value="* CELLPHONE *"><set name="message">cell phones</set></li>
+
+<li value="CELLPHONES"><set name="message">cell phones</set></li>
+<li value="* CELLPHONES"><set name="message">cell phones</set></li>
+<li value="CELLPHONES *"><set name="message">cell phones</set></li>
+<li value="* CELLPHONES *"><set name="message">cell phones</set></li>
+
+<li value="PHONE"><set name="message">cell phones</set></li>
+<li value="* PHONE"><set name="message">cell phones</set></li>
+<li value="PHONE *"><set name="message">cell phones</set></li>
+<li value="* PHONE *"><set name="message">cell phones</set></li>
+
+<li value="PHONES"><set name="message">cell phones</set></li>
+<li value="* PHONES"><set name="message">cell phones</set></li>
+<li value="PHONES *"><set name="message">cell phones</set></li>
+<li value="* PHONES *"><set name="message">cell phones</set></li>
+
+<li value="ANIMAL"><set name="message">animals</set></li>
+<li value="* ANIMAL"><set name="message">animals</set></li>
+<li value="ANIMAL *"><set name="message">animals</set></li>
+<li value="* ANIMAL *"><set name="message">animals</set></li>
+
+<li value="ANIMALS"><set name="message">animals</set></li>
+<li value="* ANIMALS"><set name="message">animals</set></li>
+<li value="ANIMALS *"><set name="message">animals</set></li>
+<li value="* ANIMALS *"><set name="message">animals</set></li>
+
+<li value="PET"><set name="message">animals</set></li>
+<li value="* PET"><set name="message">animals</set></li>
+<li value="PET *"><set name="message">animals</set></li>
+<li value="* PET *"><set name="message">animals</set></li>
+
+<li value="PETS"><set name="message">animals</set></li>
+<li value="* PETS"><set name="message">animals</set></li>
+<li value="PETS *"><set name="message">animals</set></li>
+<li value="* PETS *"><set name="message">animals</set></li>
+
+<li value="HAMSTER"><set name="message">hamster</set></li>
+<li value="* HAMSTER"><set name="message">hamster</set></li>
+<li value="HAMSTER *"><set name="message">hamster</set></li>
+<li value="* HAMSTER *"><set name="message">hamster</set></li>
+
+<li value="HAMSTERS"><set name="message">hamster</set></li>
+<li value="* HAMSTERS"><set name="message">hamster</set></li>
+<li value="HAMSTERS *"><set name="message">hamster</set></li>
+<li value="* HAMSTERS *"><set name="message">hamster</set></li>
+
+<li value="EMPLOYMENT"><set name="message">employment</set></li>
+<li value="* EMPLOYMENT"><set name="message">employment</set></li>
+<li value="EMPLOYMENT *"><set name="message">employment</set></li>
+<li value="* EMPLOYMENT *"><set name="message">employment</set></li>
+
+<li value="HIRE"><set name="message">employment</set></li>
+<li value="* HIRE"><set name="message">employment</set></li>
+<li value="HIRE *"><set name="message">employment</set></li>
+<li value="* HIRE *"><set name="message">employment</set></li>
+
+<li value="HIRING"><set name="message">employment</set></li>
+<li value="* HIRING"><set name="message">employment</set></li>
+<li value="HIRING *"><set name="message">employment</set></li>
+<li value="* HIRING *"><set name="message">employment</set></li>
+
+<li value="JOBS"><set name="message">employment</set></li>
+<li value="* JOBS"><set name="message">employment</set></li>
+<li value="JOBS *"><set name="message">employment</set></li>
+<li value="* JOBS *"><set name="message">employment</set></li>
+
+<li value="OPENING"><set name="message">employment</set></li>
+<li value="* OPENING"><set name="message">employment</set></li>
+<li value="OPENING *"><set name="message">employment</set></li>
+<li value="* OPENING *"><set name="message">employment</set></li>
+
+<li value="OPENINGS"><set name="message">employment</set></li>
+<li value="* OPENINGS"><set name="message">employment</set></li>
+<li value="OPENINGS *"><set name="message">employment</set></li>
+<li value="* OPENINGS *"><set name="message">employment</set></li>
+
+<li value="WORK"><set name="message">employment</set></li>
+<li value="* WORK"><set name="message">employment</set></li>
+<li value="WORK *"><set name="message">employment</set></li>
+<li value="* WORK *"><set name="message">employment</set></li>
+
+<li value="RESUME"><set name="message">resume</set></li>
+<li value="* RESUME"><set name="message">resume</set></li>
+<li value="RESUME *"><set name="message">resume</set></li>
+<li value="* RESUME *"><set name="message">resume</set></li>
+
+<li value="RESUMES"><set name="message">resume</set></li>
+<li value="* RESUMES"><set name="message">resume</set></li>
+<li value="RESUMES *"><set name="message">resume</set></li>
+<li value="* RESUMES *"><set name="message">resume</set></li>
+
+<li value="FACEBOOK"><set name="message">facebook</set></li>
+<li value="* FACEBOOK"><set name="message">facebook</set></li>
+<li value="FACEBOOK *"><set name="message">facebook</set></li>
+<li value="* FACEBOOK *"><set name="message">facebook</set></li>
+
+<li value="TWITTER"><set name="message">twitter</set></li>
+<li value="* TWITTER"><set name="message">twitter</set></li>
+<li value="TWITTER *"><set name="message">twitter</set></li>
+<li value="* TWITTER *"><set name="message">twitter</set></li>
+
+<li value="YOUTUBE"><set name="message">youtube</set></li>
+<li value="* YOUTUBE"><set name="message">youtube</set></li>
+<li value="YOUTUBE *"><set name="message">youtube</set></li>
+<li value="* YOUTUBE *"><set name="message">youtube</set></li>
+
+<li value="YOU TUBE"><set name="message">youtube</set></li>
+<li value="* YOU TUBE"><set name="message">youtube</set></li>
+<li value="YOU TUBE *"><set name="message">youtube</set></li>
+<li value="* YOU TUBE *"><set name="message">youtube</set></li>
+
+<li value="BLOG"><set name="message">blogs</set></li>
+<li value="* BLOG"><set name="message">blogs</set></li>
+<li value="BLOG *"><set name="message">blogs</set></li>
+<li value="* BLOG *"><set name="message">blogs</set></li>
+
+<li value="BLOGS"><set name="message">blogs</set></li>
+<li value="* BLOGS"><set name="message">blogs</set></li>
+<li value="BLOGS *"><set name="message">blogs</set></li>
+<li value="* BLOGS *"><set name="message">blogs</set></li>
+
+<li value="DRINK"><set name="message">food</set></li>
+<li value="* DRINK"><set name="message">food</set></li>
+<li value="DRINK *"><set name="message">food</set></li>
+<li value="* DRINK *"><set name="message">food</set></li>
+
+<li value="DRINKING"><set name="message">food</set></li>
+<li value="* DRINKING"><set name="message">food</set></li>
+<li value="DRINKING *"><set name="message">food</set></li>
+<li value="* DRINKING *"><set name="message">food</set></li>
+
+<li value="DRINKS"><set name="message">food</set></li>
+<li value="* DRINKS"><set name="message">food</set></li>
+<li value="DRINKS *"><set name="message">food</set></li>
+<li value="* DRINKS *"><set name="message">food</set></li>
+
+<li value="EAT"><set name="message">food</set></li>
+<li value="* EAT"><set name="message">food</set></li>
+<li value="EAT *"><set name="message">food</set></li>
+<li value="* EAT *"><set name="message">food</set></li>
+
+<li value="EATING"><set name="message">food</set></li>
+<li value="* EATING"><set name="message">food</set></li>
+<li value="EATING *"><set name="message">food</set></li>
+<li value="* EATING *"><set name="message">food</set></li>
+
+<li value="FOOD"><set name="message">food</set></li>
+<li value="* FOOD"><set name="message">food</set></li>
+<li value="FOOD *"><set name="message">food</set></li>
+<li value="* FOOD *"><set name="message">food</set></li>
+
+<li value="SNACK"><set name="message">food</set></li>
+<li value="* SNACK"><set name="message">food</set></li>
+<li value="SNACK *"><set name="message">food</set></li>
+<li value="* SNACK *"><set name="message">food</set></li>
+
+<li value="SNACKING"><set name="message">food</set></li>
+<li value="* SNACKING"><set name="message">food</set></li>
+<li value="SNACKING *"><set name="message">food</set></li>
+<li value="* SNACKING *"><set name="message">food</set></li>
+
+<li value="SNACKS"><set name="message">food</set></li>
+<li value="* SNACKS"><set name="message">food</set></li>
+<li value="SNACKS *"><set name="message">food</set></li>
+<li value="* SNACKS *"><set name="message">food</set></li>
+
+<li value="LOST AND FOUND"><set name="message">lost and found</set></li>
+<li value="* LOST AND FOUND"><set name="message">lost and found</set></li>
+<li value="LOST AND FOUND *"><set name="message">lost and found</set></li>
+<li value="* LOST AND FOUND *"><set name="message">lost and found</set></li>
+
+<li value="MISSION"><set name="message">mission</set></li>
+<li value="* MISSION"><set name="message">mission</set></li>
+<li value="MISSION *"><set name="message">mission</set></li>
+<li value="* MISSION *"><set name="message">mission</set></li>
+
+<li value="STATIONARY"><set name="message">stationary</set></li>
+<li value="* STATIONARY"><set name="message">stationary</set></li>
+<li value="STATIONARY *"><set name="message">stationary</set></li>
+<li value="* STATIONARY *"><set name="message">stationary</set></li>
+
+<li value="SPECIAL COLLECTION"><set name="message">special collections</set></li>
+<li value="* SPECIAL COLLECTION"><set name="message">special collections</set></li>
+<li value="SPECIAL * COLLECTION"><set name="message">special collections</set></li>
+<li value="SPECIAL COLLECTION *"><set name="message">special collections</set></li>
+<li value="* SPECIAL * COLLECTION"><set name="message">special collections</set></li>
+<li value="SPECIAL * COLLECTION *"><set name="message">special collections</set></li>
+<li value="* SPECIAL COLLECTION *"><set name="message">special collections</set></li>
+<li value="* SPECIAL * COLLECTION *"><set name="message">special collections</set></li>
+
+<li value="SPECIAL COLLECTIONS"><set name="message">special collections</set></li>
+<li value="* SPECIAL COLLECTIONS"><set name="message">special collections</set></li>
+<li value="SPECIAL * COLLECTIONS"><set name="message">special collections</set></li>
+<li value="SPECIAL COLLECTIONS *"><set name="message">special collections</set></li>
+<li value="* SPECIAL * COLLECTIONS"><set name="message">special collections</set></li>
+<li value="SPECIAL * COLLECTIONS *"><set name="message">special collections</set></li>
+<li value="* SPECIAL COLLECTIONS *"><set name="message">special collections</set></li>
+<li value="* SPECIAL * COLLECTIONS *"><set name="message">special collections</set></li>
+
+<li value="PETITION"><set name="message">petitions</set></li>
+<li value="* PETITION"><set name="message">petitions</set></li>
+<li value="PETITION *"><set name="message">petitions</set></li>
+<li value="* PETITION *"><set name="message">petitions</set></li>
+
+<li value="PETITIONS"><set name="message">petitions</set></li>
+<li value="* PETITIONS"><set name="message">petitions</set></li>
+<li value="PETITIONS *"><set name="message">petitions</set></li>
+<li value="* PETITIONS *"><set name="message">petitions</set></li>
+
+<li value="PETITIONER"><set name="message">petitions</set></li>
+<li value="* PETITIONER"><set name="message">petitions</set></li>
+<li value="PETITIONER *"><set name="message">petitions</set></li>
+<li value="* PETITIONER *"><set name="message">petitions</set></li>
+
+<li value="PETITIONERS"><set name="message">petitions</set></li>
+<li value="* PETITIONERS"><set name="message">petitions</set></li>
+<li value="PETITIONERS *"><set name="message">petitions</set></li>
+<li value="* PETITIONERS *"><set name="message">petitions</set></li>
+
+<li value="PETITIONING"><set name="message">petitions</set></li>
+<li value="* PETITIONING"><set name="message">petitions</set></li>
+<li value="PETITIONING *"><set name="message">petitions</set></li>
+<li value="* PETITIONING *"><set name="message">petitions</set></li>
+
+<li value="POLITICAL"><set name="message">petitions</set></li>
+<li value="* POLITICAL"><set name="message">petitions</set></li>
+<li value="POLITICAL *"><set name="message">petitions</set></li>
+<li value="* POLITICAL *"><set name="message">petitions</set></li>
+
+<li value="DEBATE"><set name="message">meeting room guidelines</set></li>
+<li value="* DEBATE"><set name="message">meeting room guidelines</set></li>
+<li value="DEBATE *"><set name="message">meeting room guidelines</set></li>
+<li value="* DEBATE *"><set name="message">meeting room guidelines</set></li>
+
+<li value="DEBATES"><set name="message">meeting room guidelines</set></li>
+<li value="* DEBATES"><set name="message">meeting room guidelines</set></li>
+<li value="DEBATES *"><set name="message">meeting room guidelines</set></li>
+<li value="* DEBATES *"><set name="message">meeting room guidelines</set></li>
+
+<li value="RALLY"><set name="message">meeting room guidelines</set></li>
+<li value="* RALLY"><set name="message">meeting room guidelines</set></li>
+<li value="RALLY *"><set name="message">meeting room guidelines</set></li>
+<li value="* RALLY *"><set name="message">meeting room guidelines</set></li>
+
+<li value="RALLIES"><set name="message">meeting room guidelines</set></li>
+<li value="* RALLIES"><set name="message">meeting room guidelines</set></li>
+<li value="RALLIES *"><set name="message">meeting room guidelines</set></li>
+<li value="* RALLIES *"><set name="message">meeting room guidelines</set></li>
+
+<li value="BUILT"><set name="message">mpl history</set></li>
+<li value="* BUILT"><set name="message">mpl history</set></li>
+<li value="BUILT *"><set name="message">mpl history</set></li>
+<li value="* BUILT *"><set name="message">mpl history</set></li>
+
+<li value="FORMED"><set name="message">mpl history</set></li>
+<li value="* FORMED"><set name="message">mpl history</set></li>
+<li value="FORMED *"><set name="message">mpl history</set></li>
+<li value="* FORMED *"><set name="message">mpl history</set></li>
+
+<li value="FOUNDED"><set name="message">mpl history</set></li>
+<li value="* FOUNDED"><set name="message">mpl history</set></li>
+<li value="FOUNDED *"><set name="message">mpl history</set></li>
+<li value="* FOUNDED *"><set name="message">mpl history</set></li>
+
+<li value="HISTORY"><set name="message">mpl history</set></li>
+<li value="* HISTORY"><set name="message">mpl history</set></li>
+<li value="HISTORY *"><set name="message">mpl history</set></li>
+<li value="* HISTORY *"><set name="message">mpl history</set></li>
+
+<li value="OLD"><set name="message">mpl history</set></li>
+<li value="* OLD"><set name="message">mpl history</set></li>
+<li value="OLD *"><set name="message">mpl history</set></li>
+<li value="* OLD *"><set name="message">mpl history</set></li>
+
+<li value="ADDRESS"><set name="message">locations</set></li>
+<li value="* ADDRESS"><set name="message">locations</set></li>
+<li value="ADDRESS *"><set name="message">locations</set></li>
+<li value="* ADDRESS *"><set name="message">locations</set></li>
+
+<li value="DIRECTIONS"><set name="message">locations</set></li>
+<li value="* DIRECTIONS"><set name="message">locations</set></li>
+<li value="DIRECTIONS *"><set name="message">locations</set></li>
+<li value="* DIRECTIONS *"><set name="message">locations</set></li>
+
+<li value="DIRECTIONS TO LIBRARY"><set name="message">locations</set></li>
+<li value="* DIRECTIONS TO LIBRARY"><set name="message">locations</set></li>
+<li value="DIRECTIONS TO * LIBRARY"><set name="message">locations</set></li>
+<li value="DIRECTIONS TO LIBRARY *"><set name="message">locations</set></li>
+<li value="* DIRECTIONS TO * LIBRARY"><set name="message">locations</set></li>
+<li value="DIRECTIONS TO * LIBRARY *"><set name="message">locations</set></li>
+<li value="* DIRECTIONS TO * LIBRARY *"><set name="message">locations</set></li>
+
+<li value="GET TO"><set name="message">locations</set></li>
+<li value="* GET TO"><set name="message">locations</set></li>
+<li value="GET TO *"><set name="message">locations</set></li>
+<li value="* GET TO *"><set name="message">locations</set></li>
+
+<li value="GET TO LIBRARY"><set name="message">locations</set></li>
+<li value="* GET TO LIBRARY"><set name="message">locations</set></li>
+<li value="GET TO * LIBRARY"><set name="message">locations</set></li>
+<li value="GET TO LIBRARY *"><set name="message">locations</set></li>
+<li value="* GET TO * LIBRARY"><set name="message">locations</set></li>
+<li value="GET TO * LIBRARY *"><set name="message">locations</set></li>
+<li value="* GET TO * LIBRARY *"><set name="message">locations</set></li>
+
+<li value="LOCATED"><set name="message">locations</set></li>
+<li value="* LOCATED"><set name="message">locations</set></li>
+<li value="LOCATED *"><set name="message">locations</set></li>
+<li value="* LOCATED *"><set name="message">locations</set></li>
+
+<li value="LOCATION"><set name="message">locations</set></li>
+<li value="* LOCATION"><set name="message">locations</set></li>
+<li value="LOCATION *"><set name="message">locations</set></li>
+<li value="* LOCATION *"><set name="message">locations</set></li>
+
+<li value="MAP"><set name="message">locations</set></li>
+<li value="* MAP"><set name="message">locations</set></li>
+<li value="MAP *"><set name="message">locations</set></li>
+<li value="* MAP *"><set name="message">locations</set></li>
+
+<li value="MAPS"><set name="message">locations</set></li>
+<li value="* MAPS"><set name="message">locations</set></li>
+<li value="MAPS *"><set name="message">locations</set></li>
+<li value="* MAPS *"><set name="message">locations</set></li>
+
+<li value="WHERE LIBRARY"><set name="message">locations</set></li>
+<li value="* WHERE LIBRARY"><set name="message">locations</set></li>
+<li value="WHERE * LIBRARY"><set name="message">locations</set></li>
+<li value="WHERE LIBRARY *"><set name="message">locations</set></li>
+<li value="* WHERE * LIBRARY"><set name="message">locations</set></li>
+<li value="WHERE * LIBRARY *"><set name="message">locations</set></li>
+<li value="* WHERE * LIBRARY *"><set name="message">locations</set></li>
+
+<li value="ADDRESS HEADLANDS"><set name="message">hdls location</set></li>
+<li value="* ADDRESS HEADLANDS"><set name="message">hdls location</set></li>
+<li value="ADDRESS * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="ADDRESS HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* ADDRESS * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="ADDRESS * HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* ADDRESS * HEADLANDS *"><set name="message">hdls location</set></li>
+
+<li value="DIRECTIONS HEADLANDS"><set name="message">hdls location</set></li>
+<li value="* DIRECTIONS HEADLANDS"><set name="message">hdls location</set></li>
+<li value="DIRECTIONS * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="DIRECTIONS HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* DIRECTIONS * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="DIRECTIONS * HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* DIRECTIONS * HEADLANDS *"><set name="message">hdls location</set></li>
+
+<li value="GET TO HEADLANDS"><set name="message">hdls location</set></li>
+<li value="* GET TO HEADLANDS"><set name="message">hdls location</set></li>
+<li value="GET TO * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="GET TO HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* GET TO * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="GET TO * HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* GET TO * HEADLANDS *"><set name="message">hdls location</set></li>
+
+<li value="WHERE HEADLANDS"><set name="message">hdls location</set></li>
+<li value="* WHERE HEADLANDS"><set name="message">hdls location</set></li>
+<li value="WHERE * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="WHERE HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* WHERE * HEADLANDS"><set name="message">hdls location</set></li>
+<li value="WHERE * HEADLANDS *"><set name="message">hdls location</set></li>
+<li value="* WHERE * HEADLANDS *"><set name="message">hdls location</set></li>
+
+<li value="ADDRESS MAIN"><set name="message">main location</set></li>
+<li value="* ADDRESS MAIN"><set name="message">main location</set></li>
+<li value="ADDRESS * MAIN"><set name="message">main location</set></li>
+<li value="ADDRESS MAIN *"><set name="message">main location</set></li>
+<li value="* ADDRESS * MAIN"><set name="message">main location</set></li>
+<li value="ADDRESS * MAIN *"><set name="message">main location</set></li>
+<li value="* ADDRESS * MAIN *"><set name="message">main location</set></li>
+
+<li value="DIRECTIONS MAIN"><set name="message">main location</set></li>
+<li value="* DIRECTIONS MAIN"><set name="message">main location</set></li>
+<li value="DIRECTIONS * MAIN"><set name="message">main location</set></li>
+<li value="DIRECTIONS MAIN *"><set name="message">main location</set></li>
+<li value="* DIRECTIONS * MAIN"><set name="message">main location</set></li>
+<li value="DIRECTIONS * MAIN *"><set name="message">main location</set></li>
+<li value="* DIRECTIONS * MAIN *"><set name="message">main location</set></li>
+
+<li value="GET TO MAIN"><set name="message">main location</set></li>
+<li value="* GET TO MAIN"><set name="message">main location</set></li>
+<li value="GET TO * MAIN"><set name="message">main location</set></li>
+<li value="GET TO MAIN *"><set name="message">main location</set></li>
+<li value="* GET TO * MAIN"><set name="message">main location</set></li>
+<li value="GET TO * MAIN *"><set name="message">main location</set></li>
+<li value="* GET TO * MAIN *"><set name="message">main location</set></li>
+
+<li value="WHERE MAIN"><set name="message">main location</set></li>
+<li value="* WHERE MAIN"><set name="message">main location</set></li>
+<li value="WHERE * MAIN"><set name="message">main location</set></li>
+<li value="WHERE MAIN *"><set name="message">main location</set></li>
+<li value="* WHERE * MAIN"><set name="message">main location</set></li>
+<li value="WHERE * MAIN *"><set name="message">main location</set></li>
+<li value="* WHERE * MAIN *"><set name="message">main location</set></li>
+
+<li value="ADDRESS LAKE"><set name="message">mol location</set></li>
+<li value="* ADDRESS LAKE"><set name="message">mol location</set></li>
+<li value="ADDRESS * LAKE"><set name="message">mol location</set></li>
+<li value="ADDRESS LAKE *"><set name="message">mol location</set></li>
+<li value="* ADDRESS * LAKE"><set name="message">mol location</set></li>
+<li value="ADDRESS * LAKE *"><set name="message">mol location</set></li>
+<li value="* ADDRESS * LAKE *"><set name="message">mol location</set></li>
+
+<li value="DIRECTIONS LAKE"><set name="message">mol location</set></li>
+<li value="* DIRECTIONS LAKE"><set name="message">mol location</set></li>
+<li value="DIRECTIONS * LAKE"><set name="message">mol location</set></li>
+<li value="DIRECTIONS LAKE *"><set name="message">mol location</set></li>
+<li value="* DIRECTIONS * LAKE"><set name="message">mol location</set></li>
+<li value="DIRECTIONS * LAKE *"><set name="message">mol location</set></li>
+<li value="* DIRECTIONS * LAKE *"><set name="message">mol location</set></li>
+
+<li value="GET TO LAKE"><set name="message">mol location</set></li>
+<li value="* GET TO LAKE"><set name="message">mol location</set></li>
+<li value="GET TO * LAKE"><set name="message">mol location</set></li>
+<li value="GET TO LAKE *"><set name="message">mol location</set></li>
+<li value="* GET TO * LAKE"><set name="message">mol location</set></li>
+<li value="GET TO * LAKE *"><set name="message">mol location</set></li>
+<li value="* GET TO * LAKE *"><set name="message">mol location</set></li>
+
+<li value="WHERE LAKE"><set name="message">mol location</set></li>
+<li value="* WHERE LAKE"><set name="message">mol location</set></li>
+<li value="WHERE * LAKE"><set name="message">mol location</set></li>
+<li value="WHERE LAKE *"><set name="message">mol location</set></li>
+<li value="* WHERE * LAKE"><set name="message">mol location</set></li>
+<li value="WHERE * LAKE *"><set name="message">mol location</set></li>
+<li value="* WHERE * LAKE *"><set name="message">mol location</set></li>
+
+<li value="ADDRESS MOL"><set name="message">mol location</set></li>
+<li value="* ADDRESS MOL"><set name="message">mol location</set></li>
+<li value="ADDRESS * MOL"><set name="message">mol location</set></li>
+<li value="ADDRESS MOL *"><set name="message">mol location</set></li>
+<li value="* ADDRESS * MOL"><set name="message">mol location</set></li>
+<li value="ADDRESS * MOL *"><set name="message">mol location</set></li>
+<li value="* ADDRESS * MOL *"><set name="message">mol location</set></li>
+
+<li value="DIRECTIONS MOL"><set name="message">mol location</set></li>
+<li value="* DIRECTIONS MOL"><set name="message">mol location</set></li>
+<li value="DIRECTIONS * MOL"><set name="message">mol location</set></li>
+<li value="DIRECTIONS MOL *"><set name="message">mol location</set></li>
+<li value="* DIRECTIONS * MOL"><set name="message">mol location</set></li>
+<li value="DIRECTIONS * MOL *"><set name="message">mol location</set></li>
+<li value="* DIRECTIONS * MOL *"><set name="message">mol location</set></li>
+
+<li value="GET TO MOL"><set name="message">mol location</set></li>
+<li value="* GET TO MOL"><set name="message">mol location</set></li>
+<li value="GET TO * MOL"><set name="message">mol location</set></li>
+<li value="GET TO MOL *"><set name="message">mol location</set></li>
+<li value="* GET TO * MOL"><set name="message">mol location</set></li>
+<li value="GET TO * MOL *"><set name="message">mol location</set></li>
+<li value="* GET TO * MOL *"><set name="message">mol location</set></li>
+
+<li value="WHERE MOL"><set name="message">mol location</set></li>
+<li value="* WHERE MOL"><set name="message">mol location</set></li>
+<li value="WHERE * MOL"><set name="message">mol location</set></li>
+<li value="WHERE MOL *"><set name="message">mol location</set></li>
+<li value="* WHERE * MOL"><set name="message">mol location</set></li>
+<li value="WHERE * MOL *"><set name="message">mol location</set></li>
+<li value="* WHERE * MOL *"><set name="message">mol location</set></li>
+
+<li value="NUMBER"><set name="message">libphone</set></li>
+<li value="* NUMBER"><set name="message">libphone</set></li>
+<li value="NUMBER *"><set name="message">libphone</set></li>
+<li value="* NUMBER *"><set name="message">libphone</set></li>
+
+<li value="PHONE"><set name="message">libphone</set></li>
+<li value="* PHONE"><set name="message">libphone</set></li>
+<li value="PHONE *"><set name="message">libphone</set></li>
+<li value="* PHONE *"><set name="message">libphone</set></li>
+
+<li value="READ HOUSE"><set name="message">read house</set></li>
+<li value="* READ HOUSE"><set name="message">read house</set></li>
+<li value="READ HOUSE *"><set name="message">read house</set></li>
+<li value="* READ HOUSE *"><set name="message">read house</set></li>
+
+<li value="READHOUSE"><set name="message">read house</set></li>
+<li value="* READHOUSE"><set name="message">read house</set></li>
+<li value="READHOUSE *"><set name="message">read house</set></li>
+<li value="* READHOUSE *"><set name="message">read house</set></li>
+
+<li value="REED HOUSE"><set name="message">read house</set></li>
+<li value="* REED HOUSE"><set name="message">read house</set></li>
+<li value="REED HOUSE *"><set name="message">read house</set></li>
+<li value="* REED HOUSE *"><set name="message">read house</set></li>
+
+<li value="REEDHOUSE"><set name="message">read house</set></li>
+<li value="* REEDHOUSE"><set name="message">read house</set></li>
+<li value="REEDHOUSE *"><set name="message">read house</set></li>
+<li value="* REEDHOUSE *"><set name="message">read house</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+ 
+<condition name="message">
+<li value="no match"><set name="topic"></set><srai>NOMATCH</srai></li>
+
+<li value="restrooms">At the Main Library there are restrooms in the lobby and children's restrooms on the second floor.
+  If you're at a Branch Library, just ask one of the staff.</li>
+  
+<li value="bboards">All material posted on the Library's bulletin boards must have prior approval by the Library. Material for consideration may be dropped off two weeks in advance.</li>
+
+<li value="display case">The Main Library has two lovely display cases in the foyer. Displays change at the beginning of each month. To inquire about putting up a display, please call the Library at 440.255.8811 between 8:30 am and 2:30 pm, 
+Monday through Friday, and ask for Sue Fram at extension 233. The Branch Libraries also have space for displays. Please call the individual Branch to inquire.</li>
+
+<li value="printing">You can make both black and white and color prints at the Main Library. The costs are $.10 per page for single sided black and white, 
+$.20 per page for double sided black and white, $.25 per page for single sided color, and $.50 per page for double sided color. Both Branch Libraries have single sided, 
+black and white printing only. The cost is $.10 per page. You can pay with coins or singles and may make as many prints as you wish to pay for.  
+If you need help using our printers or copiers, ask one of the library staff for assistance.</li>
+
+<li value="xerox">You can make both black and white and color copies at the Main Library. 
+The costs are $.10 per page for single sided black and white, $.20 per page for double sided black and white, $.25 per page for single sided color, 
+and $.50 per page for double sided color. Both Branch Libraries have single sided, black and white copying only. The cost is $.10 per page. </li>
+
+<li value="passports">Mentor Public Library does not process passports. Follow this link for 
+ <a href="http://travel.state.gov/passport" target="_blank"><b>Travel.State.gov</b></a>.</li>
+
+<li value="proctoring">The library staff can proctor exams. Please call the library for details and to schedule a time for your exam.</li>
+
+<li value="faxing">You may send and receive faxes at the Main Library. The Main Library fax number is 440.205.1153.
+  The charge to send faxes are $1.00 per page for local calls and $2.00 for the first page of a long distance call and $1.00 for additional pages. Charges for receiving faxes are $1.00 per page. 
+  Mentor-on-the-Lake and Headlands Branches can send, but not receive, faxes.</li>
+
+<li value="homebound">We have a homebound delivery service. Please call Pam Rose at 440.255.8811 extension 204 for more information.</li>
+
+<li value="meeting rooms">You can find information about our Meeting Rooms <a href="http://www.mentorpl.org/facilities.html" target="_blank"><b>here</b></a> and the policies for their use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. 
+Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.</li>
+
+<li value="garfield room">The Garfield Room in the Main Library basement is the largest of our meeting rooms. It will hold approximately 50 people. You can find the policies for Meeting Room use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. 
+Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.</li>
+
+<li value="cleveland room">The Cleveland Room is on the second floor of the Main Library and will hold 20 to 25 people. You can find the policies for Meeting Room use <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf"><b>here</b></a>. Request a meeting room by using our calendar or phone Pam Rose at the Main Library at 440.255.8811 extension 204.</li>
+
+<li value="quiet rooms">We do not currently have any designated quiet or study rooms at the Main Library or at our Branches.
+You may use one of our meeting rooms as a study room if it is available. Meeting rooms may not be reserved for
+individual study purposes. For more information about our rooms, please call 440.255.8811.</li>
+
+<li value="notary">We have several notaries on our staff. Notary service is free. Please call ahead to make sure a notary is available.</li>
+
+<li value="parking">There is additional parking for the Main Library on Sharonlee Drive. If you are attending a program at the <a href="http://www.mentorpl.org/readhouse.html" target="_blank"><b>Read House</b></a>, please use the Main Library parking lot.</li>
+
+<li value="selfchecks">The self checks are friends of mine. I like them. They have unfailingly good manners. If you need help using the self checks, ask one of the human librarians.</li>
+
+<li value="scanner">The Main Library has a xerox machine that can scan documents to email. The Branches do not have any way to scan documents at this time.</li>
+
+<li value="tax forms">Many 2010 Tax Forms are now available at the Main Library and at our Branches. Please call ahead to check on the availability of specific forms. Follow these links for <a href="http://www.irs.gov/formspubs/"><b>Federal</b></a>, <a href="http://tax.ohio.gov/forms/index.stm"><b>State</b></a>, or <a href="http://www.rita.to/municipal/mentor.htm"><b>Local</b></a> tax forms.</li>
+
+<li value="tutoring">The Library does not offer tutoring or instruction of any type at this time. If you are a tutor and would like to use the library, please contact
+our Reference Department. The Library does not have a designated quiet room, but you may be able to use one of our meeting rooms if it's available. Meeting rooms may not be booked for individual tutoring.
+</li>
+
+<li value="voter registration">You may pick up a voter registration form at the Main Library, at either Branch, or <a href="http://www.sos.state.oh.us/sos/upload/publications/election/VRform.pdf" target="blank"><b>online</b></a>. We also have absentee ballot forms, as well. For more information about voter registration in Ohio, 
+follow this <a href="http://www.sos.state.oh.us/elections/voterInformation/regToVote.aspx" target="_blank"><b>link</b></a>.</li>
+
+<li value="absentee ballot">You may pick up an absentee ballot form at the Main Library or at either Branch, or <a href="http://www.sos.state.oh.us/sos/upload/elections/forms/11-A.pdf" target="_blank"><b>online</b></a>. For more information about absentee voting in Ohio, follow this <a href="http://www.sos.state.oh.us/elections/voterInformation/absentee.aspx" target="_blank"><b>link</b></a>.
+</li>
+
+<li value="usb">You are welcome to use USB drives on our computers. If you don't have one,
+you can purchase one at the Main Library for $6.50.</li>
+
+<li value="headphones">You are welcome to use your own headphones at the library. If you don't have your own, we have headphones for children to use in our Main Library Children's Department. We do not have headphones for adults to use, but we do have earbuds
+that you may purchase for $1.00.</li>
+
+<li value="tables">All of our locations have tables, chairs, and other assorted furniture. The furniture is available on a first come first served basis; you may not reserve any of it or check it out to take home. The Main Library
+has a number of study carrels on the ground floor. They are also available on a first come basis and may not be reserved.</li>
+
+<li value="ada">All of our locations are A D A compliant and handicap accessible.</li>
+
+<li value="elevator">The Main Library has an elevator serving all floors. There's nowhere to take an elevator at the branches, both have a single floor for the public. I suppose we could
+install them to go to the roof, but that would be silly.</li>
+
+<li value="ils">Our library uses the Millennium I L S software desinged by Innovative Interfaces.</li>
+
+<li value="collection development policy">Copies of our collection development policy are not currently available online. If you'd like a printed copy, ask at the Main Library reference desk.</li>
+
+<li value="behavior policy">Here is a copy of our <a href="http://www.mentorpl.org/pdfs/MPL%20behavioral%20policy%20rev.%20Sept.2010.pdf" target="_blank"><b>behavior policy</b></a>. You'll need Adobe Reader to view it.</li>
+
+<li value="mpl budget">The Library's budget is not available online. If you would like detailed information about our budget,
+submit a public records request in writing and be specific.</li>
+
+<li value="cell phones">All cell phones, beepers, and other communication devices should be set to vibrate or on low tones before
+entering the library, and extended conversations should be moved to the library foyer. There is a pay phone in the Main Library foyer</li>
+
+<li value="animals">Service dogs are allowed in all of the Library's locations. We request that you do not bring pets or other animals
+into the library. </li>
+
+<li value="hamster">We no longer have a hamster. We have a hermit crab, instead. The crab doesn't
+have a name, we just refer to it as "the hermit crab."</li>
+
+<li value="employment">Information about employment, including openings at our library, is on our <a href="http://www.mentorpl.org/employment.html" target="_blank"><b>employment page</b></a>.
+Our reference staff can offer limited resume assistance; we do not currently offer help with interview preparation.</li>
+
+<li value="resume">Our reference staff can offer limited resume assistance; we do not currently offer help with interview preparation. I suggest you contact <a href="http://www.lake1stop.org/" target="_blank"><b>Lake One Stop</b></a>
+for these.</li>
+
+<li value="facebook">Yes, Mentor Public Library is on Facebook. Here's the <a href="http://www.facebook.com/pages/Mentor-OH/Mentor-Public-Library/70568696904" target="_blank"><b>link</b></a>.</li>
+
+<li value="twitter">Yes, the Library is on Twitter. Here's the <a href="http://twitter.com/MentorPL" target="_blank"><b>link</b></a>.</li>
+
+<li value="youtube">Yes, we have a YouTube Channel. Take a look <a href="http://www.youtube.com/MentorPublicLib" target="_blank"><b>here</b></a>.</li>
+
+<li value="blogs">We have a number of blogs at MPL. <a href="
+http://mplreader.blogspot.com/" target="_blank"><b>Mentor's Reader</b></a> is a reader's advisory blog where you'll find good books off the beaten path.  
+<a href="http://mpltweens.blogspot.com/" target="_blank"><b>Totally Tweens</b></a> presents the freshest information and commentaries on books, 
+movies and music for tweens and teens. I have one of my own, too. You can see it <a href="http://emmathemplcatbot.blogspot.com/" target="_blank"><b>here</b></a>.</li>
+
+<li value="food">You may bring covered drinks into the Main Library. Food and drink are not allowed in the Branch Libraries. We do not have any vending machines. Please do not eat while using our computers. It's very hard to remove crumbs, cheeze-whiz, and egg salad from the keyboards.</li>
+
+<li value="lost and found">We have lost and found boxes at all of our locations. If you've lost something, ask one of the Library staff for assistance.</li>
+
+<li value="mission">Mentor Public Library is your community library. We foster lifelong enrichment by providing materials, services, and programs for literacy, learning, and pleasure in an environment of intellectual freedom and confidentiality.</li>
+
+<li value="stationary">The library does not stock stationary items. We do have flash drives, ear buds, and CD-Rs 
+available for purchase at the Main Library. </li>
+
+<li value="special collections">
+<random>
+<li>We are a popular reading library. We do not have any special collections. Not even local history.</li>
+<li>We do not have any special collections. We are a popular reading library.</li>
+<li>Our library does not have any special collections. We have a wide variety of popular materials.</li>
+</random>
+</li>
+
+<li value="petitions">Individuals or groups of individuals requesting signatures on petitions that are in the interest of the general public or for initiatives intended for the ballot in a general election are currently permitted by Mentor Public Library on the sidewalks and other outdoor public areas around the library as long as the activity does not interfere with patrons accessing the library entrances or library services. 
+  Petitioners are not permitted to: <br/><br/>
+Block patron access to the library, <br/>
+Harass patrons in an effort to obtain signatures, <br/>
+Intimate that the Mentor Public Library endorses or supports their cause, or<br/>
+Gather signatures inside the library.<br/><br/>
+The presence of petitioners on library property does not confer the library's approval, endorsement, or support of the petitioner's cause!</li>
+
+<li value="meeting room guidelines">Please see our <a href="http://www.mentorpl.org/pdfs/Meeting%20Room%20Policy%202009.pdf" target="_blank"><b>Meeting Room Guidelines</b></a> or call Sue Fram at 440.255.8811 extension 231.</li>
+
+<li value="mpl history">
+<random>
+<li>The Library was formed formed on February 22, 1819. Our current building was constructed in 1990. You can read more about the Library's history <a href="http://en.wikipedia.org/wiki/Mentor_Public_Library" target="_blank"><b>here</b></a>.</li>
+<li>Mentor Library Company was formed on February 22, 1819 and was the earliest library association recorded in Lake County. The Main Library was built in 1990. You can read more about the Library's history <a href="http://en.wikipedia.org/wiki/Mentor_Public_Library" target="_blank"><b>here</b></a>.</li>
+</random>
+</li>
+
+<li value="locations"><srai>LIBLOC</srai></li>
+
+<li value="hdls location"><srai>HDLSLOC</srai></li>
+
+<li value="main location"><srai>MAINLOC</srai></li>
+
+<li value="mol location"><srai>LAKELOC</srai></li>
+
+<li value="libphone"><srai>LIBPHONE</srai></li>
+
+<li value="read house"><srai>READHSE</srai></li>
+
+</condition>
+</template>
+</category>
+</topic> 
+
+
+
+<category>
+  <pattern>I LOST *</pattern>
+  <template>
+   <think>
+<set name="answr"><star/></set>
+<set name="topic">LOST4EVER</set>
+</think>
+<srai>LST4EVER</srai>
+ </template>
+</category>
+
+<topic name="LOST4EVER">
+<category>
+<pattern>LST4EVER</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="BOOK"><set name="message">lost book</set></li>
+<li value="* BOOK"><set name="message">lost book</set></li>
+<li value="BOOK *"><set name="message">lost book</set></li>
+<li value="* BOOK *"><set name="message">lost book</set></li>
+
+<li value="BOOKS"><set name="message">lost book</set></li>
+<li value="* BOOKS"><set name="message">lost book</set></li>
+<li value="BOOKS *"><set name="message">lost book</set></li>
+<li value="* BOOKS *"><set name="message">lost book</set></li>
+
+<li value="CARD"><set name="message">lost card</set></li>
+<li value="* CARD"><set name="message">lost card</set></li>
+<li value="CARD *"><set name="message">lost card</set></li>
+<li value="* CARD *"><set name="message">lost card</set></li>
+
+<li value="CARDS"><set name="message">lost card</set></li>
+<li value="* CARDS"><set name="message">lost card</set></li>
+<li value="CARDS *"><set name="message">lost card</set></li>
+<li value="* CARDS *"><set name="message">lost card</set></li>
+
+<li value="CD"><set name="message">lost cd</set></li>
+<li value="* CD"><set name="message">lost cd</set></li>
+<li value="CD *"><set name="message">lost cd</set></li>
+<li value="* CD *"><set name="message">lost cd</set></li>
+
+<li value="CDS"><set name="message">lost cd</set></li>
+<li value="* CDS"><set name="message">lost cd</set></li>
+<li value="CDS *"><set name="message">lost cd</set></li>
+<li value="* CDS *"><set name="message">lost cd</set></li>
+
+<li value="DVD"><set name="message">lost dvd</set></li>
+<li value="* DVD"><set name="message">lost dvd</set></li>
+<li value="DVD *"><set name="message">lost dvd</set></li>
+<li value="* DVD *"><set name="message">lost dvd</set></li>
+
+<li value="DVDS"><set name="message">lost dvd</set></li>
+<li value="* DVDS"><set name="message">lost dvd</set></li>
+<li value="DVDS *"><set name="message">lost dvd</set></li>
+<li value="* DVDS *"><set name="message">lost dvd</set></li>
+
+<li value="MIND"><set name="message">lost mind</set></li>
+<li value="* MIND"><set name="message">lost mind</set></li>
+<li value="MIND *"><set name="message">lost mind</set></li>
+<li value="* MIND *"><set name="message">lost mind</set></li>
+
+<li value="MOVIE"><set name="message">lost dvd</set></li>
+<li value="* MOVIE"><set name="message">lost dvd</set></li>
+<li value="MOVIE *"><set name="message">lost dvd</set></li>
+<li value="* MOVIE *"><set name="message">lost dvd</set></li>
+
+<li value="MOVIES"><set name="message">lost dvd</set></li>
+<li value="* MOVIES"><set name="message">lost dvd</set></li>
+<li value="MOVIES *"><set name="message">lost dvd</set></li>
+<li value="* MOVIES *"><set name="message">lost dvd</set></li>
+
+
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+ 
+<condition name="message">
+<li value="no match">All of our locations have lost and founds. Please call the location where you lost this.</li>
+
+<li value="lost book">If you lose or damage an item, please call us or stop in and let us know. The charge for lost items is the cost of the item, an additional $5.00 replacement and $5.00 billing fee.
+</li>
+<li value="lost card">Card holders are responsible for all items borrowed unless the card is reported to the library as lost or stolen. If you lose your card, call the library immediately. You may get a replacement card for $1.00. Replacement cards are not available online.
+</li>
+<li value="lost cd">If you lose or damage an item, please call us or stop in and let us know. The charge for lost items is the cost of the item, an additional $5.00 replacement and $5.00 billing fee.
+</li>
+<li value="lost dvd">If you lose or damage an item, please call us or stop in and let us know. The charge for lost items is the cost of the item, an additional $5.00 replacement and $5.00 billing fee.
+</li>
+<li value="lost mind">So you lost your mind, eh? I really can't help you with that.
+</li>
+
+</condition>
+</template>
+</category>
+</topic> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

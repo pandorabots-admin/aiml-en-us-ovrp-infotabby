@@ -27,7 +27,6 @@
 <template><srai>HEAPAPP</srai></template>
 </category>
 
-
 <category>
 <pattern>_ HEAP APPLICATION</pattern>
 <template><srai>HEAPAPP</srai></template>
@@ -129,7 +128,6 @@ Local television includes  <a href="http://www.newsnet5.com/" target="_blank"><b
 <template><srai>LOCNEWS</srai></template>
 </category>
 
-
 <category>
 <pattern>LOCPAPER</pattern>
 <template>Our local newspaper is the <a href="http://www.news-herald.com/" target="_blank"><b>News Herald</b></a>. You can find more local news and info at
@@ -155,7 +153,6 @@ Local television includes  <a href="http://www.newsnet5.com/" target="_blank"><b
 <pattern> _ LOCAL NEWSPAPER *</pattern>
 <template><srai>LOCPAPER</srai></template>
 </category>
-
 
 <category>
 <pattern>LOCAL NEWSPAPERS</pattern>
@@ -217,7 +214,6 @@ Local television includes  <a href="http://www.newsnet5.com/" target="_blank"><b
 <template><srai>LOCPAPER</srai></template>
 </category>
 
-
 <!--MENTOR PAPERS-->
 
 <category>
@@ -239,7 +235,6 @@ Local television includes  <a href="http://www.newsnet5.com/" target="_blank"><b
 <pattern> _ MENTOR NEWSPAPER *</pattern>
 <template><srai>LOCPAPER</srai></template>
 </category>
-
 
 <category>
 <pattern>MENTOR NEWSPAPERS</pattern>
@@ -372,8 +367,6 @@ tab.
 <pattern>_ MENTOR.PATCH.COM *</pattern>
 <template><srai>MENTPATCH</srai></template>
 </category>
-
-
 
 <category>
 <pattern>JASONLEA</pattern>

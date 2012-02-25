@@ -136,7 +136,7 @@ www.mentorpl.org</b> to your allowed sites. That's it. Doing this in other brows
 </category>
 
 <category>
-<pattern> * </pattern>
+<pattern>*</pattern>
 <that>PLEASE RE ENTER YOUR SEARCH</that>
 <template>
 Let's see what's in the catalog. 

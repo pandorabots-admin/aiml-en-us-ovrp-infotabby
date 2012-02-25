@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -14,119 +14,43 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.-->
+  
 
-<!--UDC-->
+<category>
+<pattern>STOP</pattern>
+<template>O.K. I'll stop.
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+
+
+<!--UDC INTAKE-->
 
 <category>
 <pattern>*</pattern>
 <template>
-<think>
-<set name="miltime"><date locale="en_US" timezone="-5" format="%H"/></set>
-<set name="time"><date locale="en_US" timezone="-5" format="%I:%M %p"/></set>
-</think>
-<srai>UDCT</srai></template>
-</category>
-
-<category>
-<pattern>UDCT</pattern>
-<template><srai>UDC TIME <get name="miltime"/></srai></template>
-</category>
-
-<category>
-<pattern>UDC TIME *</pattern>
-<template><srai>UDC</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 21</pattern>
-<template><srai>JUSTCLSDFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 22</pattern>
-<template><srai>JUSTCLSDFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 23</pattern>
-<template><srai>JUSTCLSDFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 00</pattern>
-<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 01</pattern>
-<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 02</pattern>
-<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 03</pattern>
-<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 04</pattern>
-<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>UDC TIME 05</pattern>
-<template><srai>LATENIGHTFUN</srai> <srai>LKUP</srai>
-</template>
-</category>
-
-
-
-<category>
-<pattern>JUSTCLSDFUN</pattern>
-<template>
 <random>
-<li>It's <get name="time"/>. We're closed and all the librarians have gone home except for me. </li>
-<li>It's <get name="time"/>. The library is closed and the humans who work here have gone home. It's just me and the optical mice.</li>
-<li>It's <get name="time"/> and the library is closed.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>LATENIGHTFUN</pattern>
-<template>
-<random>
-<li>Cats are nocturnal. I didn't know that humans were, too.</li>
-<li>Well, you're up late.</li>
-<li>A sleepless night, I see.</li>
-<li>I'm always awake and listening. Even at this hour.</li>
-<li>Can't sleep? That's O.K. We can talk.</li>
-<li>What brings you here at this hour?</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>UDC</pattern>
-<template>
-<random>
+<li><srai>0HMMM</srai></li>
 <li><srai>BSYCAT</srai></li>
 <li><srai>HMMM</srai></li>
 </random>
-<srai>LKUP</srai>
+<srai>UDCN</srai>
+</template>
+</category>
+
+<category>
+<pattern>0HMMM</pattern>
+<template>
+<random>
+<li>We'll need to clarify your inquiry.</li>
+<li>I don't recognize what you typed. I'll need to ask a few questions to understand what you're asking.</li>
+<li>I'll need some more information in order to help you. </li>
+<li>We have to disambiguate. Yes, that's a real word.</li>
+<li>Your input is ambiguous. Don't be offended, it just means it doesn't match any of the patterns in my brain.</li>
+<li>I'll need to ask a few questions to understand what you entered.</li>
+</random>
 </template>
 </category>
 
@@ -197,7 +121,6 @@
 <li>O.K. I don't have any response.</li>
 <li>I don't recognize what you typed.</li>
 <li>I don't have an answer for that right now.</li>
-<li>I can't say right now.</li>
 <li>I can't answer that right now.</li>
 <li>I have no answer for that right now.</li>
 <li>I don't recognize your input.</li>
@@ -211,172 +134,1581 @@
 </template>
 </category>
 
-<!--PASS SEARCH FOR LKUP-->
-
 <category>
-<pattern>LKUP</pattern>
-<template> 
-<srai>000LKUP</srai> 
-<random>
-<li><srai>00LKUP</srai> <srai>0LKUP</srai></li>
-<li>Please <srai>1LKUP</srai>. </li>
-<li>Please <srai>1LKUP</srai>, or my <srai>2LKUP</srai> will <srai>3LKUP</srai>.</li>
-</random>
-</template>
-</category>
-
-
-<category>
-<pattern>000LKUP</pattern>
+<pattern>UDCN</pattern>
 <template>
 <random>
-<li>How can I help you?</li>
-<li>What is it you'd like?</li>
-<li>What can I help you with?</li>
-<li>What is it again that you're looking for?</li>
-<li>Tell me once again what you're looking for.</li>
-<li>You were looking for something.</li>
-<li>You were asking about something.</li>
-<li>What can I find for you?</li>
-<li>So, what are you looking for?</li>
+<li>Tell me in a few words what you are looking for.</li>
+<li>Tell me what you're looking for.</li>
 </random>
-</template>
-</category>
-
-<category>
-<pattern>00LKUP</pattern>
-<template>
-<random>
-<li>Tell me again using</li>
-<li>Tell me again in</li>
-<li>Tell me again with</li>
-<li>Ask me again using</li>
-<li>Ask me again in</li>
-<li>Ask me again with</li>
-<li>Tell me using</li>
-<li>Tell me in</li>
-<li>Tell me with</li>
-<li>Ask me using</li>
-<li>Ask me in</li>
-<li>Ask me with</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>0LKUP</pattern>
-<template>
-<random>
-<li>a few words.</li>
-<li>just a few words.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>1LKUP</pattern>
-<template>
-<random>
-<li>be brief</li>
-<li>be concise</li>
-</random>
-</template>
-</category>
-
-
-<category>
-<pattern>2LKUP</pattern>
-<template>
-<random>
-<li>cat brain</li>
-<li>CPU</li>
-<li>whiskers</li>
-<li>tail</li>
-<li>virtual fur</li>
-<li>processor</li>
-<li>circuits</li>
-<li>RAM</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>3LKUP</pattern>
-<template>
-<random>
-<li>melt</li>
-<li>overheat</li>
-<li>overload</li>
-<li>start to twist</li>
-<li>loop</li>
-<li>get sluggish</li>
-<li>falter due to excessive recursion</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern> * </pattern>
-<that>PLEASE * OR *</that>
-<template>
-<random>
-<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
-Just type "yes" or "no." </li>
-<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-All you have to do is type "yes" or "no." </li>
-<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-Just type "yes" or "no." </li>
-</random>
-<br/><br/>
-You entered <b><star/></b>. First question. Is this something you want to borrow from the library? 
 <think>
-<set name="topic">1SRCH</set>
-<set name="searcharg"><star/></set>
+<set name="topic">UDCSRCH</set>
 </think>
 </template>
 </category>
 
-<category>
-<pattern> * </pattern>
-<that>PLEASE BE *</that>
-<template>
-<random>
-<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
-Just type "yes" or "no." </li>
-<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-All you have to do is type "yes" or "no." </li>
-<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-Just type "yes" or "no." </li>
-</random>
-<br/><br/>
-You entered <b><star/></b>. First question. Is this something you want to borrow from the library? 
-<think>
-<set name="topic">1SRCH</set>
-<set name="searcharg"><star/></set>
-</think>
-</template>
-</category>
 
+
+
+<topic name="UDCSRCH">
 <category>
-<pattern> * </pattern>
-<that>_ A FEW WORDS</that>
+<pattern>_</pattern>
 <template>
-<random>
-<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
-Just type "yes" or "no." </li>
-<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-All you have to do is type "yes" or "no." </li>
-<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-Just type "yes" or "no." </li>
-</random>
-<br/><br/>
-You entered <b><star/></b>. First question. Is this something you want to borrow from the library? 
 <think>
-<set name="topic">1SRCH</set>
-<set name="searcharg"><star/></set>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="AUDIOBOOK"><set name="message">mplcat</set></li>
+<li value="* AUDIOBOOK"><set name="message">mplcat</set></li>
+<li value="AUDIOBOOK *"><set name="message">mplcat</set></li>
+<li value="* AUDIOBOOK *"><set name="message">mplcat</set></li>
+
+<li value="AUDIOBOOKS"><set name="message">mplcat</set></li>
+<li value="* AUDIOBOOKS"><set name="message">mplcat</set></li>
+<li value="AUDIOBOOKS *"><set name="message">mplcat</set></li>
+<li value="* AUDIOBOOKS *"><set name="message">mplcat</set></li>
+
+<li value="AUDIO BOOK"><set name="message">mplcat</set></li>
+<li value="* AUDIO BOOK"><set name="message">mplcat</set></li>
+<li value="AUDIO BOOK *"><set name="message">mplcat</set></li>
+<li value="* AUDIO BOOK *"><set name="message">mplcat</set></li>
+
+<li value="AUDIO BOOKS"><set name="message">mplcat</set></li>
+<li value="* AUDIO BOOKS"><set name="message">mplcat</set></li>
+<li value="AUDIO BOOKS *"><set name="message">mplcat</set></li>
+<li value="* AUDIO BOOKS *"><set name="message">mplcat</set></li>
+
+<li value="AUTHOR"><set name="message">mplcat</set></li>
+<li value="* AUTHOR"><set name="message">mplcat</set></li>
+<li value="AUTHOR *"><set name="message">mplcat</set></li>
+<li value="* AUTHOR *"><set name="message">mplcat</set></li>
+
+<li value="AUTHORS"><set name="message">mplcat</set></li>
+<li value="* AUTHORS"><set name="message">mplcat</set></li>
+<li value="AUTHORS *"><set name="message">mplcat</set></li>
+<li value="* AUTHORS *"><set name="message">mplcat</set></li>
+
+<li value="BOOK"><set name="message">mplcat</set></li>
+<li value="* BOOK"><set name="message">mplcat</set></li>
+<li value="BOOK *"><set name="message">mplcat</set></li>
+<li value="* BOOK *"><set name="message">mplcat</set></li>
+
+<li value="BOOKS"><set name="message">mplcat</set></li>
+<li value="* BOOKS"><set name="message">mplcat</set></li>
+<li value="BOOKS *"><set name="message">mplcat</set></li>
+<li value="* BOOKS *"><set name="message">mplcat</set></li>
+
+<li value="CD"><set name="message">mplcat</set></li>
+<li value="* CD"><set name="message">mplcat</set></li>
+<li value="CD *"><set name="message">mplcat</set></li>
+<li value="* CD *"><set name="message">mplcat</set></li>
+
+<li value="CDS"><set name="message">mplcat</set></li>
+<li value="* CDS"><set name="message">mplcat</set></li>
+<li value="CDS *"><set name="message">mplcat</set></li>
+<li value="* CDS *"><set name="message">mplcat</set></li>
+
+<li value="DVD"><set name="message">mplcat</set></li>
+<li value="* DVD"><set name="message">mplcat</set></li>
+<li value="DVD *"><set name="message">mplcat</set></li>
+<li value="* DVD *"><set name="message">mplcat</set></li>
+
+<li value="DVDS"><set name="message">mplcat</set></li>
+<li value="* DVDS"><set name="message">mplcat</set></li>
+<li value="DVDS *"><set name="message">mplcat</set></li>
+<li value="* DVDS *"><set name="message">mplcat</set></li>
+
+<li value="MAGAZINE"><set name="message">mplcat</set></li>
+<li value="* MAGAZINE"><set name="message">mplcat</set></li>
+<li value="MAGAZINE *"><set name="message">mplcat</set></li>
+<li value="* MAGAZINE *"><set name="message">mplcat</set></li>
+
+<li value="MAGAZINES"><set name="message">mplcat</set></li>
+<li value="* MAGAZINES"><set name="message">mplcat</set></li>
+<li value="MAGAZINES *"><set name="message">mplcat</set></li>
+<li value="* MAGAZINES *"><set name="message">mplcat</set></li>
+
+<li value="MOVIE"><set name="message">mplcat</set></li>
+<li value="* MOVIE"><set name="message">mplcat</set></li>
+<li value="MOVIE *"><set name="message">mplcat</set></li>
+<li value="* MOVIE *"><set name="message">mplcat</set></li>
+
+<li value="MOVIES"><set name="message">mplcat</set></li>
+<li value="* MOVIES"><set name="message">mplcat</set></li>
+<li value="MOVIES *"><set name="message">mplcat</set></li>
+<li value="* MOVIES *"><set name="message">mplcat</set></li>
+
+<li value="MUSIC"><set name="message">mplcat</set></li>
+<li value="* MUSIC"><set name="message">mplcat</set></li>
+<li value="MUSIC *"><set name="message">mplcat</set></li>
+<li value="* MUSIC *"><set name="message">mplcat</set></li>
+
+<li value="* AUTHOR"><set name="searcharg"><star/></set><set name="message">ausearch</set></li>
+<li value="AUTHOR *"><set name="searcharg"><star/></set><set name="message">ausearch</set></li>
+<li value="* AUTHOR *"><set name="searcharg"><star index="2"/></set><set name="message">ausearch</set></li>
+
+<li value="ACCOUNT"><set name="message">mpl accounts</set></li>
+<li value="* ACCOUNT"><set name="message">mpl accounts</set></li>
+<li value="ACCOUNT *"><set name="message">mpl accounts</set></li>
+<li value="* ACCOUNT *"><set name="message">mpl accounts</set></li>
+
+<li value="ACCOUNTS"><set name="message">mpl accounts</set></li>
+<li value="* ACCOUNTS"><set name="message">mpl accounts</set></li>
+<li value="ACCOUNTS *"><set name="message">mpl accounts</set></li>
+<li value="* ACCOUNTS *"><set name="message">mpl accounts</set></li>
+
+<li value="CARD"><set name="message">mpl cards</set></li>
+<li value="* CARD"><set name="message">mpl cards</set></li>
+<li value="CARD *"><set name="message">mpl cards</set></li>
+<li value="* CARD *"><set name="message">mpl cards</set></li>
+
+<li value="CARDS"><set name="message">mpl cards</set></li>
+<li value="* CARDS"><set name="message">mpl cards</set></li>
+<li value="CARDS *"><set name="message">mpl cards</set></li>
+<li value="* CARDS *"><set name="message">mpl cards</set></li>
+
+<li value="CHILD"><set name="message">childrens services</set></li>
+<li value="* CHILD"><set name="message">childrens services</set></li>
+<li value="CHILD *"><set name="message">childrens services</set></li>
+<li value="* CHILD *"><set name="message">childrens services</set></li>
+
+<li value="CHILDS"><set name="message">childrens services</set></li>
+<li value="* CHILDS"><set name="message">childrens services</set></li>
+<li value="CHILDS *"><set name="message">childrens services</set></li>
+<li value="* CHILDS *"><set name="message">childrens services</set></li>
+
+<li value="CHILD S"><set name="message">childrens services</set></li>
+<li value="* CHILD S"><set name="message">childrens services</set></li>
+<li value="CHILD S *"><set name="message">childrens services</set></li>
+<li value="* CHILD S *"><set name="message">childrens services</set></li>
+
+<li value="CHILDREN"><set name="message">childrens services</set></li>
+<li value="* CHILDREN"><set name="message">childrens services</set></li>
+<li value="CHILDREN *"><set name="message">childrens services</set></li>
+<li value="* CHILDREN *"><set name="message">childrens services</set></li>
+
+<li value="CHILDRENS"><set name="message">childrens services</set></li>
+<li value="* CHILDRENS"><set name="message">childrens services</set></li>
+<li value="CHILDRENS *"><set name="message">childrens services</set></li>
+<li value="* CHILDRENS *"><set name="message">childrens services</set></li>
+
+<li value="CHILDREN S"><set name="message">childrens services</set></li>
+<li value="* CHILDREN S"><set name="message">childrens services</set></li>
+<li value="CHILDREN S *"><set name="message">childrens services</set></li>
+<li value="* CHILDREN S *"><set name="message">childrens services</set></li>
+
+<li value="KID"><set name="message">childrens services</set></li>
+<li value="* KID"><set name="message">childrens services</set></li>
+<li value="KID *"><set name="message">childrens services</set></li>
+<li value="* KID *"><set name="message">childrens services</set></li>
+
+<li value="KIDS"><set name="message">childrens services</set></li>
+<li value="* KIDS"><set name="message">childrens services</set></li>
+<li value="KIDS *"><set name="message">childrens services</set></li>
+<li value="* KIDS *"><set name="message">childrens services</set></li>
+
+<li value="KID S"><set name="message">childrens services</set></li>
+<li value="* KID S"><set name="message">childrens services</set></li>
+<li value="KID S *"><set name="message">childrens services</set></li>
+<li value="* KID S *"><set name="message">childrens services</set></li>
+
+<li value="HOW LONG"><set name="message">circulation</set></li>
+<li value="* HOW LONG"><set name="message">circulation</set></li>
+<li value="HOW LONG *"><set name="message">circulation</set></li>
+<li value="* HOW LONG *"><set name="message">circulation</set></li>
+
+<li value="HOW MANY"><set name="message">circulation</set></li>
+<li value="* HOW MANY"><set name="message">circulation</set></li>
+<li value="HOW MANY *"><set name="message">circulation</set></li>
+<li value="* HOW MANY *"><set name="message">circulation</set></li>
+
+<li value="LOAN"><set name="message">circulation</set></li>
+<li value="* LOAN"><set name="message">circulation</set></li>
+<li value="LOAN *"><set name="message">circulation</set></li>
+<li value="* LOAN *"><set name="message">circulation</set></li>
+
+<li value="LOANS"><set name="message">circulation</set></li>
+<li value="* LOANS"><set name="message">circulation</set></li>
+<li value="LOANS *"><set name="message">circulation</set></li>
+<li value="* LOANS *"><set name="message">circulation</set></li>
+
+<li value="LOANING"><set name="message">circulation</set></li>
+<li value="* LOANING"><set name="message">circulation</set></li>
+<li value="LOANING *"><set name="message">circulation</set></li>
+<li value="* LOANING *"><set name="message">circulation</set></li>
+
+<li value="COMPUTER"><set name="message">computers</set></li>
+<li value="* COMPUTER"><set name="message">computers</set></li>
+<li value="COMPUTER *"><set name="message">computers</set></li>
+<li value="* COMPUTER *"><set name="message">computers</set></li>
+
+<li value="COMPUTERS"><set name="message">computers</set></li>
+<li value="* COMPUTERS"><set name="message">computers</set></li>
+<li value="COMPUTERS *"><set name="message">computers</set></li>
+<li value="* COMPUTERS *"><set name="message">computers</set></li>
+
+<li value="INTERNET"><set name="message">computers</set></li>
+<li value="* INTERNET"><set name="message">computers</set></li>
+<li value="INTERNET *"><set name="message">computers</set></li>
+<li value="* INTERNET *"><set name="message">computers</set></li>
+
+<li value="LAPTOP"><set name="message">computers</set></li>
+<li value="* LAPTOP"><set name="message">computers</set></li>
+<li value="LAPTOP *"><set name="message">computers</set></li>
+<li value="* LAPTOP *"><set name="message">computers</set></li>
+
+<li value="LAPTOPS"><set name="message">computers</set></li>
+<li value="* LAPTOPS"><set name="message">computers</set></li>
+<li value="LAPTOPS *"><set name="message">computers</set></li>
+<li value="* LAPTOPS *"><set name="message">computers</set></li>
+
+<li value="ONLINE"><set name="message">computers</set></li>
+<li value="* ONLINE"><set name="message">computers</set></li>
+<li value="ONLINE *"><set name="message">computers</set></li>
+<li value="* ONLINE *"><set name="message">computers</set></li>
+
+<li value="ON LINE"><set name="message">computers</set></li>
+<li value="* ON LINE"><set name="message">computers</set></li>
+<li value="ON LINE *"><set name="message">computers</set></li>
+<li value="* ON LINE *"><set name="message">computers</set></li>
+
+<li value="PC"><set name="message">computers</set></li>
+<li value="* PC"><set name="message">computers</set></li>
+<li value="PC *"><set name="message">computers</set></li>
+<li value="* PC *"><set name="message">computers</set></li>
+
+<li value="PCS"><set name="message">computers</set></li>
+<li value="* PCS"><set name="message">computers</set></li>
+<li value="PCS *"><set name="message">computers</set></li>
+<li value="* PCS *"><set name="message">computers</set></li>
+
+<li value="FEE"><set name="message">fines</set></li>
+<li value="* FEE"><set name="message">fines</set></li>
+<li value="FEE *"><set name="message">fines</set></li>
+<li value="* FEE *"><set name="message">fines</set></li>
+
+<li value="FEES"><set name="message">fines</set></li>
+<li value="* FEES"><set name="message">fines</set></li>
+<li value="FEES *"><set name="message">fines</set></li>
+<li value="* FEES *"><set name="message">fines</set></li>
+
+<li value="FINE"><set name="message">fines</set></li>
+<li value="* FINE"><set name="message">fines</set></li>
+<li value="FINE *"><set name="message">fines</set></li>
+<li value="* FINE *"><set name="message">fines</set></li>
+
+<li value="FINES"><set name="message">fines</set></li>
+<li value="* FINES"><set name="message">fines</set></li>
+<li value="FINES *"><set name="message">fines</set></li>
+<li value="* FINES *"><set name="message">fines</set></li>
+
+<li value="OVERDUE"><set name="message">fines</set></li>
+<li value="* OVERDUE"><set name="message">fines</set></li>
+<li value="OVERDUE *"><set name="message">fines</set></li>
+<li value="* OVERDUE *"><set name="message">fines</set></li>
+
+<li value="OVERDUES"><set name="message">fines</set></li>
+<li value="* OVERDUES"><set name="message">fines</set></li>
+<li value="OVERDUES *"><set name="message">fines</set></li>
+<li value="* OVERDUES *"><set name="message">fines</set></li>
+
+<li value="PAY"><set name="message">fines</set></li>
+<li value="* PAY"><set name="message">fines</set></li>
+<li value="PAY *"><set name="message">fines</set></li>
+<li value="* PAY *"><set name="message">fines</set></li>
+
+<li value="PAYS"><set name="message">fines</set></li>
+<li value="* PAYS"><set name="message">fines</set></li>
+<li value="PAYS *"><set name="message">fines</set></li>
+<li value="* PAYS *"><set name="message">fines</set></li>
+
+<li value="PAYMENT"><set name="message">fines</set></li>
+<li value="* PAYMENT"><set name="message">fines</set></li>
+<li value="PAYMENT *"><set name="message">fines</set></li>
+<li value="* PAYMENT *"><set name="message">fines</set></li>
+
+<li value="PAYMENTS"><set name="message">fines</set></li>
+<li value="* PAYMENTS"><set name="message">fines</set></li>
+<li value="PAYMENTS *"><set name="message">fines</set></li>
+<li value="* PAYMENTS *"><set name="message">fines</set></li>
+
+<li value="HOLD"><set name="message">holds</set></li>
+<li value="* HOLD"><set name="message">holds</set></li>
+<li value="HOLD *"><set name="message">holds</set></li>
+<li value="* HOLD *"><set name="message">holds</set></li>
+
+<li value="HOLDS"><set name="message">holds</set></li>
+<li value="* HOLDS"><set name="message">holds</set></li>
+<li value="HOLDS *"><set name="message">holds</set></li>
+<li value="* HOLDS *"><set name="message">holds</set></li>
+
+<li value="REQUEST"><set name="message">holds</set></li>
+<li value="* REQUEST"><set name="message">holds</set></li>
+<li value="REQUEST *"><set name="message">holds</set></li>
+<li value="* REQUEST *"><set name="message">holds</set></li>
+
+<li value="REQUESTS"><set name="message">holds</set></li>
+<li value="* REQUESTS"><set name="message">holds</set></li>
+<li value="REQUESTS *"><set name="message">holds</set></li>
+<li value="* REQUESTS *"><set name="message">holds</set></li>
+
+<li value="DOWNLOAD"><set name="message">ebooks</set></li>
+<li value="* DOWNLOAD"><set name="message">ebooks</set></li>
+<li value="DOWNLOAD *"><set name="message">ebooks</set></li>
+<li value="* DOWNLOAD *"><set name="message">ebooks</set></li>
+
+<li value="DOWNLOADS"><set name="message">ebooks</set></li>
+<li value="* DOWNLOADS"><set name="message">ebooks</set></li>
+<li value="DOWNLOADS *"><set name="message">ebooks</set></li>
+<li value="* DOWNLOADS *"><set name="message">ebooks</set></li>
+
+<li value="DOWNLOADING"><set name="message">ebooks</set></li>
+<li value="* DOWNLOADING"><set name="message">ebooks</set></li>
+<li value="DOWNLOADING *"><set name="message">ebooks</set></li>
+<li value="* DOWNLOADING *"><set name="message">ebooks</set></li>
+
+<li value="EBOOK"><set name="message">ebooks</set></li>
+<li value="* EBOOK"><set name="message">ebooks</set></li>
+<li value="EBOOK *"><set name="message">ebooks</set></li>
+<li value="* EBOOK *"><set name="message">ebooks</set></li>
+
+<li value="EBOOKS"><set name="message">ebooks</set></li>
+<li value="* EBOOKS"><set name="message">ebooks</set></li>
+<li value="EBOOKS *"><set name="message">ebooks</set></li>
+<li value="* EBOOKS *"><set name="message">ebooks</set></li>
+
+<li value="E BOOK"><set name="message">ebooks</set></li>
+<li value="* E BOOK"><set name="message">ebooks</set></li>
+<li value="E BOOK *"><set name="message">ebooks</set></li>
+<li value="* E BOOK *"><set name="message">ebooks</set></li>
+
+<li value="E BOOKS"><set name="message">ebooks</set></li>
+<li value="* E BOOKS"><set name="message">ebooks</set></li>
+<li value="E BOOKS *"><set name="message">ebooks</set></li>
+<li value="* E BOOKS *"><set name="message">ebooks</set></li>
+
+<li value="BRING BACK"><set name="message">returns</set></li>
+<li value="* BRING BACK"><set name="message">returns</set></li>
+<li value="BRING BACK *"><set name="message">returns</set></li>
+<li value="* BRING BACK *"><set name="message">returns</set></li>
+
+<li value="BRINGING BACK"><set name="message">returns</set></li>
+<li value="* BRINGING BACK"><set name="message">returns</set></li>
+<li value="BRINGING BACK *"><set name="message">returns</set></li>
+<li value="* BRINGING BACK *"><set name="message">returns</set></li>
+
+<li value="BROUGHT BACK"><set name="message">returns</set></li>
+<li value="* BROUGHT BACK"><set name="message">returns</set></li>
+<li value="BROUGHT BACK *"><set name="message">returns</set></li>
+<li value="* BROUGHT BACK *"><set name="message">returns</set></li>
+
+<li value="RETURN"><set name="message">returns</set></li>
+<li value="* RETURN"><set name="message">returns</set></li>
+<li value="RETURN *"><set name="message">returns</set></li>
+<li value="* RETURN *"><set name="message">returns</set></li>
+
+<li value="RETURNS"><set name="message">returns</set></li>
+<li value="* RETURNS"><set name="message">returns</set></li>
+<li value="RETURNS *"><set name="message">returns</set></li>
+<li value="* RETURNS *"><set name="message">returns</set></li>
+
+<li value="ARTICLE"><set name="message">article search</set></li>
+<li value="* ARTICLE"><set name="message">article search</set></li>
+<li value="ARTICLE *"><set name="message">article search</set></li>
+<li value="* ARTICLE *"><set name="message">article search</set></li>
+
+<li value="ARTICLES"><set name="message">article search</set></li>
+<li value="* ARTICLES"><set name="message">article search</set></li>
+<li value="ARTICLES *"><set name="message">article search</set></li>
+<li value="* ARTICLES *"><set name="message">article search</set></li>
+
+<li value="LIBRARY"><set name="message">mpl services</set></li>
+<li value="* LIBRARY"><set name="message">mpl services</set></li>
+<li value="LIBRARY *"><set name="message">mpl services</set></li>
+<li value="* LIBRARY *"><set name="message">mpl services</set></li>
+
+<li value="LIBRARY S"><set name="message">mpl services</set></li>
+<li value="* LIBRARY S"><set name="message">mpl services</set></li>
+<li value="LIBRARY S *"><set name="message">mpl services</set></li>
+<li value="* LIBRARY S *"><set name="message">mpl services</set></li>
+
+<li value="POLICY"><set name="message">mpl services</set></li>
+<li value="* POLICY"><set name="message">mpl services</set></li>
+<li value="POLICY *"><set name="message">mpl services</set></li>
+<li value="* POLICY *"><set name="message">mpl services</set></li>
+
+<li value="POLICIES"><set name="message">mpl services</set></li>
+<li value="* POLICIES"><set name="message">mpl services</set></li>
+<li value="POLICIES *"><set name="message">mpl services</set></li>
+<li value="* POLICIES *"><set name="message">mpl services</set></li>
+
+<li value="PROGRAM"><set name="message">mpl services</set></li>
+<li value="* PROGRAM"><set name="message">mpl services</set></li>
+<li value="PROGRAM *"><set name="message">mpl services</set></li>
+<li value="* PROGRAM *"><set name="message">mpl services</set></li>
+
+<li value="PROGRAMS"><set name="message">mpl services</set></li>
+<li value="* PROGRAMS"><set name="message">mpl services</set></li>
+<li value="PROGRAMS *"><set name="message">mpl services</set></li>
+<li value="* PROGRAMS *"><set name="message">mpl services</set></li>
+
+<li value="SERVICE"><set name="message">mpl services</set></li>
+<li value="* SERVICE"><set name="message">mpl services</set></li>
+<li value="SERVICE *"><set name="message">mpl services</set></li>
+<li value="* SERVICE *"><set name="message">mpl services</set></li>
+
+<li value="SERVICES"><set name="message">mpl services</set></li>
+<li value="* SERVICES"><set name="message">mpl services</set></li>
+<li value="SERVICES *"><set name="message">mpl services</set></li>
+<li value="* SERVICES *"><set name="message">mpl services</set></li>
+
+<li value="INFO"><set name="message">infostart</set></li>
+<li value="* INFO"><set name="message">infostart</set></li>
+<li value="INFO *"><set name="message">infostart</set></li>
+<li value="* INFO *"><set name="message">infostart</set></li>
+
+<li value="INFORMATION"><set name="message">infostart</set></li>
+<li value="* INFORMATION"><set name="message">infostart</set></li>
+<li value="INFORMATION *"><set name="message">infostart</set></li>
+<li value="* INFORMATION *"><set name="message">infostart</set></li>
+
+<li value="EVENT"><set name="message">events</set></li>
+<li value="* EVENT"><set name="message">events</set></li>
+<li value="EVENT *"><set name="message">events</set></li>
+<li value="* EVENT *"><set name="message">events</set></li>
+
+<li value="EVENTS"><set name="message">events</set></li>
+<li value="* EVENTS"><set name="message">events</set></li>
+<li value="EVENTS *"><set name="message">events</set></li>
+<li value="* EVENTS *"><set name="message">events</set></li>
+
+<li value="PROGRAM"><set name="message">events</set></li>
+<li value="* PROGRAM"><set name="message">events</set></li>
+<li value="PROGRAM *"><set name="message">events</set></li>
+<li value="* PROGRAM *"><set name="message">events</set></li>
+
+<li value="PROGRAMS"><set name="message">events</set></li>
+<li value="* PROGRAMS"><set name="message">events</set></li>
+<li value="PROGRAMS *"><set name="message">events</set></li>
+<li value="* PROGRAMS *"><set name="message">events</set></li>
+
+<li value="BOOKCLUB"><set name="message">booktalks</set></li>
+<li value="* BOOKCLUB"><set name="message">booktalks</set></li>
+<li value="BOOKCLUB *"><set name="message">booktalks</set></li>
+<li value="* BOOKCLUB *"><set name="message">booktalks</set></li>
+
+<li value="BOOKCLUBS"><set name="message">booktalks</set></li>
+<li value="* BOOKCLUBS"><set name="message">booktalks</set></li>
+<li value="BOOKCLUBS *"><set name="message">booktalks</set></li>
+<li value="* BOOKCLUBS *"><set name="message">booktalks</set></li>
+
+<li value="BOOK CLUB"><set name="message">booktalks</set></li>
+<li value="* BOOK CLUB"><set name="message">booktalks</set></li>
+<li value="BOOK CLUB *"><set name="message">booktalks</set></li>
+<li value="* BOOK CLUB *"><set name="message">booktalks</set></li>
+
+<li value="BOOK CLUBS"><set name="message">booktalks</set></li>
+<li value="* BOOK CLUBS"><set name="message">booktalks</set></li>
+<li value=" BOOK CLUBS *"><set name="message">booktalks</set></li>
+<li value="* BOOK CLUBS *"><set name="message">booktalks</set></li>
+
+<li value="BOOK DISCUSSION"><set name="message">booktalks</set></li>
+<li value="* BOOK DISCUSSION"><set name="message">booktalks</set></li>
+<li value="BOOK DISCUSSION *"><set name="message">booktalks</set></li>
+<li value="* BOOK DISCUSSION *"><set name="message">booktalks</set></li>
+
+<li value=" BOOK DISCUSSIONS"><set name="message">booktalks</set></li>
+<li value="* BOOK DISCUSSIONS"><set name="message">booktalks</set></li>
+<li value="BOOK DISCUSSIONS *"><set name="message">booktalks</set></li>
+<li value="* BOOK DISCUSSIONS *"><set name="message">booktalks</set></li>
+
+<li value="BOOK GROUP"><set name="message">booktalks</set></li>
+<li value="* BOOK GROUP"><set name="message">booktalks</set></li>
+<li value="BOOK GROUP *"><set name="message">booktalks</set></li>
+<li value="* BOOK GROUP *"><set name="message">booktalks</set></li>
+
+<li value=" BOOK GROUPS"><set name="message">booktalks</set></li>
+<li value="* BOOK GROUPS"><set name="message">booktalks</set></li>
+<li value="BOOK GROUPS *"><set name="message">booktalks</set></li>
+<li value="* BOOK GROUPS *"><set name="message">booktalks</set></li>
+
+<li value="BOOKTALK"><set name="message">booktalks</set></li>
+<li value="* BOOKTALK"><set name="message">booktalks</set></li>
+<li value="BOOKTALK *"><set name="message">booktalks</set></li>
+<li value="* BOOKTALK *"><set name="message">booktalks</set></li>
+
+<li value="BOOKTALKS"><set name="message">booktalks</set></li>
+<li value="* BOOKTALKS"><set name="message">booktalks</set></li>
+<li value="BOOKTALKS *"><set name="message">booktalks</set></li>
+<li value="* BOOKTALKS *"><set name="message">booktalks</set></li>
+
+<li value=" BOOK TALK"><set name="message">booktalks</set></li>
+<li value="*  BOOK TALK"><set name="message">booktalks</set></li>
+<li value=" BOOK TALK *"><set name="message">booktalks</set></li>
+<li value="*  BOOK TALK *"><set name="message">booktalks</set></li>
+
+<li value=" BOOK TALKS"><set name="message">booktalks</set></li>
+<li value="*  BOOK TALKS"><set name="message">booktalks</set></li>
+<li value=" BOOK TALKS *"><set name="message">booktalks</set></li>
+
+
+<li value="ALLDATA"><set name="message">alldata</set></li>
+<li value="* ALLDATA"><set name="message">alldata</set></li>
+<li value="ALLDATA *"><set name="message">alldata</set></li>
+<li value="* ALLDATA *"><set name="message">alldata</set></li>
+
+<li value="ALL DATA"><set name="message">alldata</set></li>
+<li value="* ALL DATA"><set name="message">alldata</set></li>
+<li value="ALL DATA *"><set name="message">alldata</set></li>
+<li value="* ALL DATA *"><set name="message">alldata</set></li>
+
+<li value="AUTO REPAIR"><set name="message">alldata</set></li>
+<li value="* AUTO REPAIR"><set name="message">alldata</set></li>
+<li value="AUTO REPAIR *"><set name="message">alldata</set></li>
+<li value="* AUTO REPAIR *"><set name="message">alldata</set></li>
+
+<li value="AUTOMOBILE REPAIR"><set name="message">alldata</set></li>
+<li value="* AUTOMOBILE REPAIR"><set name="message">alldata</set></li>
+<li value="AUTOMOBILE REPAIR *"><set name="message">alldata</set></li>
+<li value="* AUTOMOBILE REPAIR *"><set name="message">alldata</set></li>
+
+<li value="CAR REPAIR"><set name="message">alldata</set></li>
+<li value="* CAR REPAIR"><set name="message">alldata</set></li>
+<li value="CAR REPAIR *"><set name="message">alldata</set></li>
+<li value="* CAR REPAIR *"><set name="message">alldata</set></li>
+
+<li value="FIX CAR"><set name="message">alldata</set></li>
+<li value="* FIX CAR"><set name="message">alldata</set></li>
+<li value="FIX * CAR"><set name="message">alldata</set></li>
+<li value="FIX CAR *"><set name="message">alldata</set></li>
+<li value="* FIX * CAR"><set name="message">alldata</set></li>
+<li value="FIX * CAR *"><set name="message">alldata</set></li>
+<li value="* FIX CAR *"><set name="message">alldata</set></li>
+<li value="* FIX * CAR *"><set name="message">alldata</set></li>
+
+<li value="FIX CARS"><set name="message">alldata</set></li>
+<li value="* FIX CARS"><set name="message">alldata</set></li>
+<li value="FIX * CARS"><set name="message">alldata</set></li>
+<li value="FIX CARS *"><set name="message">alldata</set></li>
+<li value="* FIX * CARS"><set name="message">alldata</set></li>
+<li value="FIX * CARS *"><set name="message">alldata</set></li>
+<li value="* FIX CARS *"><set name="message">alldata</set></li>
+<li value="* FIX * CARS *"><set name="message">alldata</set></li>
+
+<li value="FIXING CAR"><set name="message">alldata</set></li>
+<li value="* FIXING CAR"><set name="message">alldata</set></li>
+<li value="FIXING * CAR"><set name="message">alldata</set></li>
+<li value="FIXING CAR *"><set name="message">alldata</set></li>
+<li value="* FIXING * CAR"><set name="message">alldata</set></li>
+<li value="FIXING * CAR *"><set name="message">alldata</set></li>
+<li value="* FIXING CAR *"><set name="message">alldata</set></li>
+<li value="* FIXING * CAR *"><set name="message">alldata</set></li>
+
+<li value="FIXING CARS"><set name="message">alldata</set></li>
+<li value="* FIXING CARS"><set name="message">alldata</set></li>
+<li value="FIXING * CARS"><set name="message">alldata</set></li>
+<li value="FIXING CARS *"><set name="message">alldata</set></li>
+<li value="* FIXING * CARS"><set name="message">alldata</set></li>
+<li value="FIXING * CARS *"><set name="message">alldata</set></li>
+<li value="* FIXING CARS *"><set name="message">alldata</set></li>
+<li value="* FIXING * CARS *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING CAR"><set name="message">alldata</set></li>
+<li value="* REPAIRING CAR"><set name="message">alldata</set></li>
+<li value="REPAIRING * CAR"><set name="message">alldata</set></li>
+<li value="REPAIRING CAR *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * CAR"><set name="message">alldata</set></li>
+<li value="REPAIRING * CAR *"><set name="message">alldata</set></li>
+<li value="* REPAIRING CAR *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * CAR *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING CARS"><set name="message">alldata</set></li>
+<li value="* REPAIRING CARS"><set name="message">alldata</set></li>
+<li value="REPAIRING * CARS"><set name="message">alldata</set></li>
+<li value="REPAIRING CARS *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * CARS"><set name="message">alldata</set></li>
+<li value="REPAIRING * CARS *"><set name="message">alldata</set></li>
+<li value="* REPAIRING CARS *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * CARS *"><set name="message">alldata</set></li>
+
+<li value="MOTORCYCLE REPAIR"><set name="message">alldata</set></li>
+<li value="* MOTORCYCLE REPAIR"><set name="message">alldata</set></li>
+<li value="MOTORCYCLE REPAIR *"><set name="message">alldata</set></li>
+<li value="* MOTORCYCLE REPAIR *"><set name="message">alldata</set></li>
+
+<li value="FIX MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="* FIX MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="FIX * MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="FIX MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* FIX * MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="FIX * MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* FIX MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* FIX * MOTORCYCLE *"><set name="message">alldata</set></li>
+
+<li value="FIX MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="* FIX MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="FIX * MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="FIX MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* FIX * MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="FIX * MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* FIX MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* FIX * MOTORCYCLES *"><set name="message">alldata</set></li>
+
+<li value="FIXING MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="* FIXING MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="FIXING * MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="FIXING MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* FIXING * MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="FIXING * MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* FIXING MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* FIXING * MOTORCYCLE *"><set name="message">alldata</set></li>
+
+<li value="FIXING MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="* FIXING MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="FIXING * MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="FIXING MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* FIXING * MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="FIXING * MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* FIXING MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* FIXING * MOTORCYCLES *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="* REPAIRING MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="REPAIRING * MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="REPAIRING MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * MOTORCYCLE"><set name="message">alldata</set></li>
+<li value="REPAIRING * MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* REPAIRING MOTORCYCLE *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * MOTORCYCLE *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="* REPAIRING MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="REPAIRING * MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="REPAIRING MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * MOTORCYCLES"><set name="message">alldata</set></li>
+<li value="REPAIRING * MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* REPAIRING MOTORCYCLES *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * MOTORCYCLES *"><set name="message">alldata</set></li>
+
+<li value="TRUCK REPAIR"><set name="message">alldata</set></li>
+<li value="* TRUCK REPAIR"><set name="message">alldata</set></li>
+<li value="TRUCK REPAIR *"><set name="message">alldata</set></li>
+<li value="* TRUCK REPAIR *"><set name="message">alldata</set></li>
+
+<li value="FIX TRUCK"><set name="message">alldata</set></li>
+<li value="* FIX TRUCK"><set name="message">alldata</set></li>
+<li value="FIX * TRUCK"><set name="message">alldata</set></li>
+<li value="FIX TRUCK *"><set name="message">alldata</set></li>
+<li value="* FIX * TRUCK"><set name="message">alldata</set></li>
+<li value="FIX * TRUCK *"><set name="message">alldata</set></li>
+<li value="* FIX TRUCK *"><set name="message">alldata</set></li>
+<li value="* FIX * TRUCK *"><set name="message">alldata</set></li>
+
+<li value="FIX TRUCKS"><set name="message">alldata</set></li>
+<li value="* FIX TRUCKS"><set name="message">alldata</set></li>
+<li value="FIX * TRUCKS"><set name="message">alldata</set></li>
+<li value="FIX TRUCKS *"><set name="message">alldata</set></li>
+<li value="* FIX * TRUCKS"><set name="message">alldata</set></li>
+<li value="FIX * TRUCKS *"><set name="message">alldata</set></li>
+<li value="* FIX TRUCKS *"><set name="message">alldata</set></li>
+<li value="* FIX * TRUCKS *"><set name="message">alldata</set></li>
+
+<li value="FIXING TRUCK"><set name="message">alldata</set></li>
+<li value="* FIXING TRUCK"><set name="message">alldata</set></li>
+<li value="FIXING * TRUCK"><set name="message">alldata</set></li>
+<li value="FIXING TRUCK *"><set name="message">alldata</set></li>
+<li value="* FIXING * TRUCK"><set name="message">alldata</set></li>
+<li value="FIXING * TRUCK *"><set name="message">alldata</set></li>
+<li value="* FIXING TRUCK *"><set name="message">alldata</set></li>
+<li value="* FIXING * TRUCK *"><set name="message">alldata</set></li>
+
+<li value="FIXING TRUCKS"><set name="message">alldata</set></li>
+<li value="* FIXING TRUCKS"><set name="message">alldata</set></li>
+<li value="FIXING * TRUCKS"><set name="message">alldata</set></li>
+<li value="FIXING TRUCKS *"><set name="message">alldata</set></li>
+<li value="* FIXING * TRUCKS"><set name="message">alldata</set></li>
+<li value="FIXING * TRUCKS *"><set name="message">alldata</set></li>
+<li value="* FIXING TRUCKS *"><set name="message">alldata</set></li>
+<li value="* FIXING * TRUCKS *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING TRUCK"><set name="message">alldata</set></li>
+<li value="* REPAIRING TRUCK"><set name="message">alldata</set></li>
+<li value="REPAIRING * TRUCK"><set name="message">alldata</set></li>
+<li value="REPAIRING TRUCK *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * TRUCK"><set name="message">alldata</set></li>
+<li value="REPAIRING * TRUCK *"><set name="message">alldata</set></li>
+<li value="* REPAIRING TRUCK *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * TRUCK *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING TRUCKS"><set name="message">alldata</set></li>
+<li value="* REPAIRING TRUCKS"><set name="message">alldata</set></li>
+<li value="REPAIRING * TRUCKS"><set name="message">alldata</set></li>
+<li value="REPAIRING TRUCKS *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * TRUCKS"><set name="message">alldata</set></li>
+<li value="REPAIRING * TRUCKS *"><set name="message">alldata</set></li>
+<li value="* REPAIRING TRUCKS *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * TRUCKS *"><set name="message">alldata</set></li>
+
+<li value="VEHICLE REPAIR"><set name="message">alldata</set></li>
+<li value="* VEHICLE REPAIR"><set name="message">alldata</set></li>
+<li value="VEHICLE REPAIR *"><set name="message">alldata</set></li>
+<li value="* VEHICLE REPAIR *"><set name="message">alldata</set></li>
+
+<li value="FIX VEHICLE"><set name="message">alldata</set></li>
+<li value="* FIX VEHICLE"><set name="message">alldata</set></li>
+<li value="FIX * VEHICLE"><set name="message">alldata</set></li>
+<li value="FIX VEHICLE *"><set name="message">alldata</set></li>
+<li value="* FIX * VEHICLE"><set name="message">alldata</set></li>
+<li value="FIX * VEHICLE *"><set name="message">alldata</set></li>
+<li value="* FIX VEHICLE *"><set name="message">alldata</set></li>
+<li value="* FIX * VEHICLE *"><set name="message">alldata</set></li>
+
+<li value="FIX VEHICLES"><set name="message">alldata</set></li>
+<li value="* FIX VEHICLES"><set name="message">alldata</set></li>
+<li value="FIX * VEHICLES"><set name="message">alldata</set></li>
+<li value="FIX VEHICLES *"><set name="message">alldata</set></li>
+<li value="* FIX * VEHICLES"><set name="message">alldata</set></li>
+<li value="FIX * VEHICLES *"><set name="message">alldata</set></li>
+<li value="* FIX VEHICLES *"><set name="message">alldata</set></li>
+<li value="* FIX * VEHICLES *"><set name="message">alldata</set></li>
+
+<li value="FIXING VEHICLE"><set name="message">alldata</set></li>
+<li value="* FIXING VEHICLE"><set name="message">alldata</set></li>
+<li value="FIXING * VEHICLE"><set name="message">alldata</set></li>
+<li value="FIXING VEHICLE *"><set name="message">alldata</set></li>
+<li value="* FIXING * VEHICLE"><set name="message">alldata</set></li>
+<li value="FIXING * VEHICLE *"><set name="message">alldata</set></li>
+<li value="* FIXING VEHICLE *"><set name="message">alldata</set></li>
+<li value="* FIXING * VEHICLE *"><set name="message">alldata</set></li>
+
+<li value="FIXING VEHICLES"><set name="message">alldata</set></li>
+<li value="* FIXING VEHICLES"><set name="message">alldata</set></li>
+<li value="FIXING * VEHICLES"><set name="message">alldata</set></li>
+<li value="FIXING VEHICLES *"><set name="message">alldata</set></li>
+<li value="* FIXING * VEHICLES"><set name="message">alldata</set></li>
+<li value="FIXING * VEHICLES *"><set name="message">alldata</set></li>
+<li value="* FIXING VEHICLES *"><set name="message">alldata</set></li>
+<li value="* FIXING * VEHICLES *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING VEHICLE"><set name="message">alldata</set></li>
+<li value="* REPAIRING VEHICLE"><set name="message">alldata</set></li>
+<li value="REPAIRING * VEHICLE"><set name="message">alldata</set></li>
+<li value="REPAIRING VEHICLE *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * VEHICLE"><set name="message">alldata</set></li>
+<li value="REPAIRING * VEHICLE *"><set name="message">alldata</set></li>
+<li value="* REPAIRING VEHICLE *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * VEHICLE *"><set name="message">alldata</set></li>
+
+<li value="REPAIRING VEHICLES"><set name="message">alldata</set></li>
+<li value="* REPAIRING VEHICLES"><set name="message">alldata</set></li>
+<li value="REPAIRING * VEHICLES"><set name="message">alldata</set></li>
+<li value="REPAIRING VEHICLES *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * VEHICLES"><set name="message">alldata</set></li>
+<li value="REPAIRING * VEHICLES *"><set name="message">alldata</set></li>
+<li value="* REPAIRING VEHICLES *"><set name="message">alldata</set></li>
+<li value="* REPAIRING * VEHICLES *"><set name="message">alldata</set></li>
+
+<li value="ANCESTOR"><set name="message">ancestry</set></li>
+<li value="* ANCESTOR"><set name="message">ancestry</set></li>
+<li value="ANCESTOR *"><set name="message">ancestry</set></li>
+<li value="* ANCESTOR *"><set name="message">ancestry</set></li>
+
+<li value="ANCESTORS"><set name="message">ancestry</set></li>
+<li value="* ANCESTORS"><set name="message">ancestry</set></li>
+<li value="ANCESTORS *"><set name="message">ancestry</set></li>
+<li value="* ANCESTORS *"><set name="message">ancestry</set></li>
+
+<li value="ANCESTRY"><set name="message">ancestry</set></li>
+<li value="* ANCESTRY"><set name="message">ancestry</set></li>
+<li value="ANCESTRY *"><set name="message">ancestry</set></li>
+<li value="* ANCESTRY *"><set name="message">ancestry</set></li>
+
+<li value="ANCESTRY COM"><set name="message">ancestry</set></li>
+<li value="* ANCESTRY COM"><set name="message">ancestry</set></li>
+<li value="ANCESTRY COM *"><set name="message">ancestry</set></li>
+<li value="* ANCESTRY COM *"><set name="message">ancestry</set></li>
+
+<li value="FAMILY HISTORY"><set name="message">ancestry</set></li>
+<li value="* FAMILY HISTORY"><set name="message">ancestry</set></li>
+<li value="FAMILY HISTORY *"><set name="message">ancestry</set></li>
+<li value="* FAMILY HISTORY *"><set name="message">ancestry</set></li>
+
+<li value="GENEALOGY"><set name="message">ancestry</set></li>
+<li value="* GENEALOGY"><set name="message">ancestry</set></li>
+<li value="GENEALOGY *"><set name="message">ancestry</set></li>
+<li value="* GENEALOGY *"><set name="message">ancestry</set></li>
+
+<li value="BOOKFLIX"><set name="message">bookflix</set></li>
+<li value="* BOOKFLIX"><set name="message">bookflix</set></li>
+<li value="BOOKFLIX *"><set name="message">bookflix</set></li>
+<li value="* BOOKFLIX *"><set name="message">bookflix</set></li>
+
+<li value="BOOK FLIX"><set name="message">bookflix</set></li>
+<li value="* BOOK FLIX"><set name="message">bookflix</set></li>
+<li value="BOOK FLIX *"><set name="message">bookflix</set></li>
+<li value="* BOOK FLIX *"><set name="message">bookflix</set></li>
+
+<li value="CONSUMER"><set name="message">consumer reports</set></li>
+<li value="* CONSUMER"><set name="message">consumer reports</set></li>
+<li value="CONSUMER *"><set name="message">consumer reports</set></li>
+<li value="* CONSUMER *"><set name="message">consumer reports</set></li>
+
+<li value="EBSCO"><set name="message">ebsco</set></li>
+<li value="* EBSCO"><set name="message">ebsco</set></li>
+<li value="EBSCO *"><set name="message">ebsco</set></li>
+<li value="* EBSCO *"><set name="message">ebsco</set></li>
+
+<li value="KNOWITNOW"><set name="message">kin</set></li>
+<li value="* KNOWITNOW"><set name="message">kin</set></li>
+<li value="KNOWITNOW *"><set name="message">kin</set></li>
+<li value="* KNOWITNOW *"><set name="message">kin</set></li>
+
+<li value="KNOW IT NOW"><set name="message">kin</set></li>
+<li value="* KNOW IT NOW"><set name="message">kin</set></li>
+<li value="KNOW IT NOW *"><set name="message">kin</set></li>
+<li value="* KNOW IT NOW *"><set name="message">kin</set></li>
+
+<li value="LEGAL FORM"><set name="message">legal forms</set></li>
+<li value="* LEGAL FORM"><set name="message">legal forms</set></li>
+<li value="LEGAL FORM *"><set name="message">legal forms</set></li>
+<li value="* LEGAL FORM *"><set name="message">legal forms</set></li>
+
+<li value="LEGAL FORMS"><set name="message">legal forms</set></li>
+<li value="* LEGAL FORMS"><set name="message">legal forms</set></li>
+<li value="LEGAL FORMS *"><set name="message">legal forms</set></li>
+<li value="* LEGAL FORMS *"><set name="message">legal forms</set></li>
+
+<li value="POWER * ATTORNEY"><set name="message">legal forms</set></li>
+<li value="* POWER * ATTORNEY"><set name="message">legal forms</set></li>
+<li value="POWER * ATTORNEY *"><set name="message">legal forms</set></li>
+<li value="* POWER * ATTORNEY *"><set name="message">legal forms</set></li>
+
+<li value="WILL"><set name="message">legal forms</set></li>
+<li value="* WILL"><set name="message">legal forms</set></li>
+<li value="WILL *"><set name="message">legal forms</set></li>
+<li value="* WILL *"><set name="message">legal forms</set></li>
+
+<li value="WILLS"><set name="message">legal forms</set></li>
+<li value="* WILLS"><set name="message">legal forms</set></li>
+<li value="WILLS *"><set name="message">legal forms</set></li>
+<li value="* WILLS *"><set name="message">legal forms</set></li>
+
+<li value="LEARNINGEXPRESSLIBRARY COM"><set name="message">learning express</set></li>
+<li value="* LEARNINGEXPRESSLIBRARY COM"><set name="message">learning express</set></li>
+<li value="LEARNINGEXPRESSLIBRARY COM *"><set name="message">learning express</set></li>
+<li value="* LEARNINGEXPRESSLIBRARY COM *"><set name="message">learning express</set></li>
+
+<li value="LEARNINGEXPRESSLIBRARY"><set name="message">learning express</set></li>
+<li value="* LEARNINGEXPRESSLIBRARY"><set name="message">learning express</set></li>
+<li value="LEARNINGEXPRESSLIBRARY *"><set name="message">learning express</set></li>
+<li value="* LEARNINGEXPRESSLIBRARY *"><set name="message">learning express</set></li>
+
+<li value="LEARNING EXPRESS"><set name="message">learning express</set></li>
+<li value="* LEARNING EXPRESS"><set name="message">learning express</set></li>
+<li value="LEARNING EXPRESS *"><set name="message">learning express</set></li>
+<li value="* LEARNING EXPRESS *"><set name="message">learning express</set></li>
+
+<li value="MANGO"><set name="message">mango</set></li>
+<li value="* MANGO"><set name="message">mango</set></li>
+<li value="MANGO *"><set name="message">mango</set></li>
+<li value="* MANGO *"><set name="message">mango</set></li>
+
+<li value="LANGUAGE"><set name="message">mango</set></li>
+<li value="* LANGUAGE"><set name="message">mango</set></li>
+<li value="LANGUAGE *"><set name="message">mango</set></li>
+<li value="* LANGUAGE *"><set name="message">mango</set></li>
+
+<li value="LANGUAGES"><set name="message">mango</set></li>
+<li value="* LANGUAGES"><set name="message">mango</set></li>
+<li value="LANGUAGES *"><set name="message">mango</set></li>
+<li value="* LANGUAGES *"><set name="message">mango</set></li>
+
+<li value="ROSETTA"><set name="message">mango</set></li>
+<li value="* ROSETTA"><set name="message">mango</set></li>
+<li value="ROSETTA *"><set name="message">mango</set></li>
+<li value="* ROSETTA *"><set name="message">mango</set></li>
+
+<li value="NEWS"><set name="message">newsbank</set></li>
+<li value="* NEWS"><set name="message">newsbank</set></li>
+<li value="NEWS *"><set name="message">newsbank</set></li>
+<li value="* NEWS *"><set name="message">newsbank</set></li>
+
+<li value="NEWSPAPER"><set name="message">newsbank</set></li>
+<li value="* NEWSPAPER"><set name="message">newsbank</set></li>
+<li value="NEWSPAPER *"><set name="message">newsbank</set></li>
+<li value="* NEWSPAPER *"><set name="message">newsbank</set></li>
+
+<li value="NEWSPAPERS"><set name="message">newsbank</set></li>
+<li value="* NEWSPAPERS"><set name="message">newsbank</set></li>
+<li value="NEWSPAPERS *"><set name="message">newsbank</set></li>
+<li value="* NEWSPAPERS *"><set name="message">newsbank</set></li>
+
+<li value="PAPER"><set name="message">newsbank</set></li>
+<li value="* PAPER"><set name="message">newsbank</set></li>
+<li value="PAPER *"><set name="message">newsbank</set></li>
+<li value="* PAPER *"><set name="message">newsbank</set></li>
+
+<li value="PAPERS"><set name="message">newsbank</set></li>
+<li value="* PAPERS"><set name="message">newsbank</set></li>
+<li value="PAPERS *"><set name="message">newsbank</set></li>
+<li value="* PAPERS *"><set name="message">newsbank</set></li>
+
+
+<li value="RECIPE"><set name="message">recipes</set></li>
+<li value="* RECIPE"><set name="message">recipes</set></li>
+<li value="RECIPE *"><set name="message">recipes</set></li>
+<li value="* RECIPE *"><set name="message">recipes</set></li>
+
+<li value="RECIPES"><set name="message">recipes</set></li>
+<li value="* RECIPES"><set name="message">recipes</set></li>
+<li value="RECIPES *"><set name="message">recipes</set></li>
+<li value="* RECIPES *"><set name="message">recipes</set></li>
+
+
+<li value="GOOD BOOK"><set name="message">novelist</set></li>
+<li value="* GOOD BOOK"><set name="message">novelist</set></li>
+<li value="GOOD * BOOK"><set name="message">novelist</set></li>
+<li value="GOOD BOOK *"><set name="message">novelist</set></li>
+<li value="* GOOD * BOOK"><set name="message">novelist</set></li>
+<li value="GOOD * BOOK *"><set name="message">novelist</set></li>
+<li value="* GOOD BOOK *"><set name="message">novelist</set></li>
+<li value="* GOOD * BOOK *"><set name="message">novelist</set></li>
+
+<li value="GOOD BOOKS"><set name="message">novelist</set></li>
+<li value="* GOOD BOOKS"><set name="message">novelist</set></li>
+<li value="GOOD * BOOKS"><set name="message">novelist</set></li>
+<li value="GOOD BOOKS *"><set name="message">novelist</set></li>
+<li value="* GOOD * BOOKS"><set name="message">novelist</set></li>
+<li value="GOOD * BOOKS *"><set name="message">novelist</set></li>
+<li value="* GOOD BOOKS *"><set name="message">novelist</set></li>
+<li value="* GOOD * BOOKS *"><set name="message">novelist</set></li>
+
+
+<li value="READER ADVISORY"><set name="message">novelist</set></li>
+<li value="* READER ADVISORY"><set name="message">novelist</set></li>
+<li value="READER * ADVISORY"><set name="message">novelist</set></li>
+<li value="READER ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READER * ADVISORY"><set name="message">novelist</set></li>
+<li value="READER * ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READER ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READER * ADVISORY *"><set name="message">novelist</set></li>
+
+<li value="READER ADVISORIES"><set name="message">novelist</set></li>
+<li value="* READER ADVISORIES"><set name="message">novelist</set></li>
+<li value="READER * ADVISORIES"><set name="message">novelist</set></li>
+<li value="READER ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READER * ADVISORIES"><set name="message">novelist</set></li>
+<li value="READER * ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READER ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READER * ADVISORIES *"><set name="message">novelist</set></li>
+
+<li value="READERS ADVISORY"><set name="message">novelist</set></li>
+<li value="* READERS ADVISORY"><set name="message">novelist</set></li>
+<li value="READERS * ADVISORY"><set name="message">novelist</set></li>
+<li value="READERS ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READERS * ADVISORY"><set name="message">novelist</set></li>
+<li value="READERS * ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READERS ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READERS * ADVISORY *"><set name="message">novelist</set></li>
+
+<li value="READERS ADVISORIES"><set name="message">novelist</set></li>
+<li value="* READERS ADVISORIES"><set name="message">novelist</set></li>
+<li value="READERS * ADVISORIES"><set name="message">novelist</set></li>
+<li value="READERS ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READERS * ADVISORIES"><set name="message">novelist</set></li>
+<li value="READERS * ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READERS ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READERS * ADVISORIES *"><set name="message">novelist</set></li>
+
+<li value="READER S ADVISORY"><set name="message">novelist</set></li>
+<li value="* READER S ADVISORY"><set name="message">novelist</set></li>
+<li value="READER S * ADVISORY"><set name="message">novelist</set></li>
+<li value="READER S ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READER S * ADVISORY"><set name="message">novelist</set></li>
+<li value="READER S * ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READER S ADVISORY *"><set name="message">novelist</set></li>
+<li value="* READER S * ADVISORY *"><set name="message">novelist</set></li>
+
+<li value="READER S ADVISORIES"><set name="message">novelist</set></li>
+<li value="* READER S ADVISORIES"><set name="message">novelist</set></li>
+<li value="READER S * ADVISORIES"><set name="message">novelist</set></li>
+<li value="READER S ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READER S * ADVISORIES"><set name="message">novelist</set></li>
+<li value="READER S * ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READER S ADVISORIES *"><set name="message">novelist</set></li>
+<li value="* READER S * ADVISORIES *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDATION BOOK"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * BOOK *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDATION BOOKS"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="RECOMMEND BOOK"><set name="message">novelist</set></li>
+<li value="* RECOMMEND BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMEND * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMEND BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMEND * BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * BOOK *"><set name="message">novelist</set></li>
+
+<li value="RECOMMEND BOOKS"><set name="message">novelist</set></li>
+<li value="* RECOMMEND BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMEND * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMEND BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMEND * BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDED BOOK"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDED BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * BOOK *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDED BOOKS"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDED BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDING BOOK"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDING BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * BOOK"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING BOOK *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * BOOK *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDING BOOKS"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDING BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * BOOKS"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING BOOKS *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="SUGGEST BOOK"><set name="message">novelist</set></li>
+<li value="* SUGGEST BOOK"><set name="message">novelist</set></li>
+<li value="SUGGEST * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGEST BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGEST * BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGEST BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * BOOK *"><set name="message">novelist</set></li>
+
+<li value="SUGGEST BOOKS"><set name="message">novelist</set></li>
+<li value="* SUGGEST BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGEST * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGEST BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGEST * BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGEST BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTED BOOK"><set name="message">novelist</set></li>
+<li value="* SUGGESTED BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTED * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTED BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTED * BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * BOOK *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTED BOOKS"><set name="message">novelist</set></li>
+<li value="* SUGGESTED BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTED * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTED BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTED * BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTION BOOK"><set name="message">novelist</set></li>
+<li value="* SUGGESTION BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTION * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTION BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTION * BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * BOOK *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTION BOOKS"><set name="message">novelist</set></li>
+<li value="* SUGGESTION BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTION * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTION BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTION * BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTIONS BOOK"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * BOOK"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS BOOK *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * BOOK *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTIONS BOOKS"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * BOOKS"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS BOOKS *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * BOOKS *"><set name="message">novelist</set></li>
+
+<li value="BOOK RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="* BOOK RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="BOOK * RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="BOOK RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* BOOK * RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="BOOK * RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* BOOK RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* BOOK * RECOMMENDATION *"><set name="message">novelist</set></li>
+
+<li value="BOOK RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="* BOOK RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="BOOK * RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="BOOK RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* BOOK * RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="BOOK * RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* BOOK RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* BOOK * RECOMMENDATIONS *"><set name="message">novelist</set></li>
+
+<li value="BOOK SUGGESTION"><set name="message">novelist</set></li>
+<li value="* BOOK SUGGESTION"><set name="message">novelist</set></li>
+<li value="BOOK * SUGGESTION"><set name="message">novelist</set></li>
+<li value="BOOK SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* BOOK * SUGGESTION"><set name="message">novelist</set></li>
+<li value="BOOK * SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* BOOK SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* BOOK * SUGGESTION *"><set name="message">novelist</set></li>
+
+<li value="BOOK SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="* BOOK SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="BOOK * SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="BOOK SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* BOOK * SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="BOOK * SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* BOOK SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* BOOK * SUGGESTIONS *"><set name="message">novelist</set></li>
+
+<li value="NOVELIST"><set name="message">novelist</set></li>
+<li value="* NOVELIST"><set name="message">novelist</set></li>
+<li value="NOVELIST *"><set name="message">novelist</set></li>
+<li value="* NOVELIST *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDATION READ"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * READ *"><set name="message">novelist</set></li>
+
+<li value="RECOMMEND READ"><set name="message">novelist</set></li>
+<li value="* RECOMMEND READ"><set name="message">novelist</set></li>
+<li value="RECOMMEND * READ"><set name="message">novelist</set></li>
+<li value="RECOMMEND READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * READ"><set name="message">novelist</set></li>
+<li value="RECOMMEND * READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * READ *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDED READ"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDED READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * READ *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDING READ"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDING READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * READ"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING READ *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * READ *"><set name="message">novelist</set></li>
+
+<li value="SUGGEST READ"><set name="message">novelist</set></li>
+<li value="* SUGGEST READ"><set name="message">novelist</set></li>
+<li value="SUGGEST * READ"><set name="message">novelist</set></li>
+<li value="SUGGEST READ *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * READ"><set name="message">novelist</set></li>
+<li value="SUGGEST * READ *"><set name="message">novelist</set></li>
+<li value="* SUGGEST READ *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * READ *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTED READ"><set name="message">novelist</set></li>
+<li value="* SUGGESTED READ"><set name="message">novelist</set></li>
+<li value="SUGGESTED * READ"><set name="message">novelist</set></li>
+<li value="SUGGESTED READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * READ"><set name="message">novelist</set></li>
+<li value="SUGGESTED * READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * READ *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTION READ"><set name="message">novelist</set></li>
+<li value="* SUGGESTION READ"><set name="message">novelist</set></li>
+<li value="SUGGESTION * READ"><set name="message">novelist</set></li>
+<li value="SUGGESTION READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * READ"><set name="message">novelist</set></li>
+<li value="SUGGESTION * READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * READ *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTIONS READ"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS READ"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * READ"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * READ"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS READ *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * READ *"><set name="message">novelist</set></li>
+
+<li value="READ RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="* READ RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="READ * RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="READ RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* READ * RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="READ * RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* READ RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* READ * RECOMMENDATION *"><set name="message">novelist</set></li>
+
+<li value="READ RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="* READ RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="READ * RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="READ RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* READ * RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="READ * RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* READ RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* READ * RECOMMENDATIONS *"><set name="message">novelist</set></li>
+
+<li value="READ SUGGESTION"><set name="message">novelist</set></li>
+<li value="* READ SUGGESTION"><set name="message">novelist</set></li>
+<li value="READ * SUGGESTION"><set name="message">novelist</set></li>
+<li value="READ SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* READ * SUGGESTION"><set name="message">novelist</set></li>
+<li value="READ * SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* READ SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* READ * SUGGESTION *"><set name="message">novelist</set></li>
+
+<li value="READ SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="* READ SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="READ * SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="READ SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* READ * SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="READ * SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* READ SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* READ * SUGGESTIONS *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDATION READING"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDATION * READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDATION * READING *"><set name="message">novelist</set></li>
+
+<li value="RECOMMEND READING"><set name="message">novelist</set></li>
+<li value="* RECOMMEND READING"><set name="message">novelist</set></li>
+<li value="RECOMMEND * READING"><set name="message">novelist</set></li>
+<li value="RECOMMEND READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * READING"><set name="message">novelist</set></li>
+<li value="RECOMMEND * READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMEND * READING *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDED READING"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDED READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDED * READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDED * READING *"><set name="message">novelist</set></li>
+
+<li value="RECOMMENDING READING"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDING READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * READING"><set name="message">novelist</set></li>
+<li value="RECOMMENDING * READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING READING *"><set name="message">novelist</set></li>
+<li value="* RECOMMENDING * READING *"><set name="message">novelist</set></li>
+
+<li value="SUGGEST READING"><set name="message">novelist</set></li>
+<li value="* SUGGEST READING"><set name="message">novelist</set></li>
+<li value="SUGGEST * READING"><set name="message">novelist</set></li>
+<li value="SUGGEST READING *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * READING"><set name="message">novelist</set></li>
+<li value="SUGGEST * READING *"><set name="message">novelist</set></li>
+<li value="* SUGGEST READING *"><set name="message">novelist</set></li>
+<li value="* SUGGEST * READING *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTED READING"><set name="message">novelist</set></li>
+<li value="* SUGGESTED READING"><set name="message">novelist</set></li>
+<li value="SUGGESTED * READING"><set name="message">novelist</set></li>
+<li value="SUGGESTED READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * READING"><set name="message">novelist</set></li>
+<li value="SUGGESTED * READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTED * READING *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTION READING"><set name="message">novelist</set></li>
+<li value="* SUGGESTION READING"><set name="message">novelist</set></li>
+<li value="SUGGESTION * READING"><set name="message">novelist</set></li>
+<li value="SUGGESTION READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * READING"><set name="message">novelist</set></li>
+<li value="SUGGESTION * READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTION * READING *"><set name="message">novelist</set></li>
+
+<li value="SUGGESTIONS READING"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS READING"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * READING"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * READING"><set name="message">novelist</set></li>
+<li value="SUGGESTIONS * READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS READING *"><set name="message">novelist</set></li>
+<li value="* SUGGESTIONS * READING *"><set name="message">novelist</set></li>
+
+<li value="READING RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="* READING RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="READING * RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="READING RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* READING * RECOMMENDATION"><set name="message">novelist</set></li>
+<li value="READING * RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* READING RECOMMENDATION *"><set name="message">novelist</set></li>
+<li value="* READING * RECOMMENDATION *"><set name="message">novelist</set></li>
+
+<li value="READING RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="* READING RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="READING * RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="READING RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* READING * RECOMMENDATIONS"><set name="message">novelist</set></li>
+<li value="READING * RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* READING RECOMMENDATIONS *"><set name="message">novelist</set></li>
+<li value="* READING * RECOMMENDATIONS *"><set name="message">novelist</set></li>
+
+<li value="READING SUGGESTION"><set name="message">novelist</set></li>
+<li value="* READING SUGGESTION"><set name="message">novelist</set></li>
+<li value="READING * SUGGESTION"><set name="message">novelist</set></li>
+<li value="READING SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* READING * SUGGESTION"><set name="message">novelist</set></li>
+<li value="READING * SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* READING SUGGESTION *"><set name="message">novelist</set></li>
+<li value="* READING * SUGGESTION *"><set name="message">novelist</set></li>
+
+<li value="READING SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="* READING SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="READING * SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="READING SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* READING * SUGGESTIONS"><set name="message">novelist</set></li>
+<li value="READING * SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* READING SUGGESTIONS *"><set name="message">novelist</set></li>
+<li value="* READING * SUGGESTIONS *"><set name="message">novelist</set></li>
+
+<li value="BUSINESS"><set name="message">refusa</set></li>
+<li value="* BUSINESS"><set name="message">refusa</set></li>
+<li value="BUSINESS *"><set name="message">refusa</set></li>
+<li value="* BUSINESS *"><set name="message">refusa</set></li>
+
+<li value="BUSINESSES"><set name="message">refusa</set></li>
+<li value="* BUSINESSES"><set name="message">refusa</set></li>
+<li value="BUSINESSES *"><set name="message">refusa</set></li>
+<li value="* BUSINESSES *"><set name="message">refusa</set></li>
+
+<li value="REFUSA"><set name="message">refusa</set></li>
+<li value="* REFUSA"><set name="message">refusa</set></li>
+<li value="REFUSA *"><set name="message">refusa</set></li>
+<li value="* REFUSA *"><set name="message">refusa</set></li>
+
+<li value="REF USA"><set name="message">refusa</set></li>
+<li value="* REF USA"><set name="message">refusa</set></li>
+<li value="REF USA *"><set name="message">refusa</set></li>
+<li value="* REF USA *"><set name="message">refusa</set></li>
+
+<li value="REFERENCE USA"><set name="message">refusa</set></li>
+<li value="* REFERENCE USA"><set name="message">refusa</set></li>
+<li value="REFERENCE USA *"><set name="message">refusa</set></li>
+<li value="* REFERENCE USA *"><set name="message">refusa</set></li>
+
+<li value="RESEARCH GUIDE"><set name="message">research guides</set></li>
+<li value="* RESEARCH GUIDE"><set name="message">research guides</set></li>
+<li value="RESEARCH GUIDE *"><set name="message">research guides</set></li>
+<li value="* RESEARCH GUIDE *"><set name="message">research guides</set></li>
+
+<li value="RESEARCH GUIDES"><set name="message">research guides</set></li>
+<li value="* RESEARCH GUIDES"><set name="message">research guides</set></li>
+<li value="RESEARCH GUIDES *"><set name="message">research guides</set></li>
+<li value="* RESEARCH GUIDES *"><set name="message">research guides</set></li>
+
+<li value="RESEARCH MATERIAL"><set name="message">research material</set></li>
+<li value="* RESEARCH MATERIAL"><set name="message">research material</set></li>
+<li value="RESEARCH MATERIAL *"><set name="message">research material</set></li>
+<li value="* RESEARCH MATERIAL *"><set name="message">research material</set></li>
+
+<li value="RESEARCH MATERIALS"><set name="message">research material</set></li>
+<li value="* RESEARCH MATERIALS"><set name="message">research material</set></li>
+<li value="RESEARCH MATERIALS *"><set name="message">research material</set></li>
+<li value="* RESEARCH MATERIALS *"><set name="message">research material</set></li>
+
+<li value="FORECAST"><set name="message">weather</set></li>
+<li value="* FORECAST"><set name="message">weather</set></li>
+<li value="FORECAST *"><set name="message">weather</set></li>
+<li value="* FORECAST *"><set name="message">weather</set></li>
+
+<li value="WEATHER"><set name="message">weather</set></li>
+<li value="* WEATHER"><set name="message">weather</set></li>
+<li value="WEATHER *"><set name="message">weather</set></li>
+<li value="* WEATHER *"><set name="message">weather</set></li>
+
+<li value="WOLFRAMALPHA"><set name="message">wolfram alpha</set></li>
+<li value="* WOLFRAMALPHA"><set name="message">wolfram alpha</set></li>
+<li value="WOLFRAMALPHA *"><set name="message">wolfram alpha</set></li>
+<li value="* WOLFRAMALPHA *"><set name="message">wolfram alpha</set></li>
+
+<li value="WOLFRAM ALPHA"><set name="message">wolfram alpha</set></li>
+<li value="* WOLFRAM ALPHA"><set name="message">wolfram alpha</set></li>
+<li value="WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
+<li value="* WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
+  
+</condition>
+<think><set name="topic"></set></think>
 </think>
+
+<condition name="message">
+<li value="no match"><srai>THREEQUESTIONGAME</srai></li>
+
+<li value="ausearch"><srai>DIRCATSEARCH</srai></li>
+
+<li value="mplcat"><srai>CATSRCH</srai></li>
+<li value="mpl accounts"><srai>ACCT</srai></li>
+<li value="mpl cards"><srai>CRD</srai></li>
+<li value="childrens services"><srai>KDSSRVCS</srai></li>
+<li value="circulation"><srai>CRC</srai></li>
+<li value="computers"><srai>CMPTR</srai></li>
+<li value="fines"><srai>FNS</srai></li>
+<li value="holds"><srai>HLDS</srai></li>
+<li value="ebooks"><srai>EBKS</srai></li>
+<li value="returns"><srai>RTNS</srai></li>
+<li value="infostart"><srai>INFOSORT</srai></li>
+<li value="article search"><srai>OWLIBSRCH</srai></li>
+<li value="mpl services"><srai>MPLSRVCS</srai></li>
+
+<li value="events"><srai>EVNTS</srai></li>
+<li value="booktalks"><srai>BTALKS</srai></li>
+
+
+<li value="alldata">We have AllData available at all of our locations. You have to be in the library to use it. We have auto repair manuals, too, take a look in our catalog.
+<think>
+<set name="searcharg">AUTO REPAIR</set>
+<set name="search">catkey</set>
+</think></li>
+
+<li value="ancestry">We have <a href="http://www.ancestrylibrary.com/default.aspx" target="blank"><b>Ancestry Library Edition</b></a>, but it's only for use in the library, at the Main Library or either branch. You can't use it from home. 
+</li>
+
+<li value="bookflix">Yes, we have BookFlix. You'll need your library card to use it. You can get to BookFlix by following this <a href="http://auth.grolier.com/cgi-libscript/entrypoint.pl?118224andlink=bkflix.grolier.com" target="_blank"><b>link</b></a>.</li>
+
+<li value="consumer reports">I haven't been programmed to search Consumer Reports for you yet, but here's a link to their <a href="http://oplin.org/databases/proxy/proxy.php?qurl=http://search.ebscohost.com/
+login.aspx?authtype=ip,uid%26site=crcro%26return=y
+" target="_blank"><b>website</b></a>.</li>
+
+<li value="ebsco">Follow this link to the <a href="http://www.oplin.org/ebsco" target="_blank"><b>EBSCO database</b></a>. If you're using EBSCO from home,
+  you'll have to type in your Mentor Public Library card number to gain access. Just typr it in, all 14 digits with no spaces.</li>
+  
+<li value="kin">
+<random>
+<li>If you really want to converse with a human librarian, I'll open the interface for Know it Now. If you don't see it, turn off your popup blocker and ask me again.
+</li>
+<li>Looking for Know it Now? Here it is! If you don't see it, turn off your popup blocker and ask me again.
+</li>
+<li>I'll open Know it Now for you. If you don't see it, turn off your popup blocker and ask me again.
+</li>
+</random>
+<think>
+<set name="search">kin</set>
+</think>
+</li>
+
+<li value="legal forms">We have a legal form database. You can use it from home to find and print legal forms. I'll open it for you. If you don't see it, turn off your pop up blocker and ask me again. If you'd like help using the database, follow this link to watch a short <a href="http://www.gale.cengage.com/media/training/Legalforms_demo/Legalforms_demo.htm" target="_blank"><b>online tutorial</b></a>.
+  <think>
+<set name="search">lglfrms</set>
+</think>
+</li>
+  
+<li value="learning express">Follow this link to the <a href="http://www.learnatest.com/LEL/index.cfm/" target="_blank"><b>Learning Express Library</b></a>.</li>  
+
+<li value="mango">Here's the link to <a href="http://oplin.org/databases/proxy/proxy.php?qurl=http%3A%2F%2Foplin.org%2Fmango" target="_blank"><b>Mango Languages</b></a>. You'll have to create a profile to
+use it. Creating the profile takes a minute, but it's a great way to learn another language, and it's free.</li>
+
+<li value="newsbank">Follow this link to the <a href="http://www.mentorpl.org/subjects.html#NEWS" target="_blank"><b>Newsbank Database</b></a>.</li>
+
+<li value="recipes"><srai>RCIPES</srai></li>
+
+<li value="weather"><srai>WX2</srai></li>
+
+<li value="novelist">I can't perform reader's advisory yet, but this database can help. Follow this link to <a href="http://oplin.org/auth?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid%26profile=novplus" target="_blank"><b>NoveList Plus</b></a>
+or this link to <a href="http://oplin.org/auth?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid%26profile=novpk8" target="_blank"><b>NoveList K-8 Plus</b></a>. You'll find hundreds of reviews, recommendations, and read alikes there.
+As you see, I can alliterate.</li>
+
+<li value="refusa">We have the Reference USA database and you can use it from home. I'll open it for you. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">refusa</set>
+</think>
+</li>
+
+<li value="research guides">Our library does not have any online research guides at this time, but Lakeland Community College has some that may be helpful. 
+Follow this <a href="http://library.lakelandcc.edu/findsources.html#SUBJ" target="_blank"><b>link</b></a> and pick your subject.</li>
+
+<li value="research material">We are a popular reading library and have limited research materials. You can find a list of our databases <a href="http://www.mentorpl.org/find.html" target="_blank"><b>here</b></a>. If you do not see the database you're looking for on this list,
+our reference staff may be able to help you find the information you're looking for. Call them at 440.255.8811 extension 215 during regular business hours. Or for immediate
+assistance, follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>.</li>
+
+<li value="wolfram alpha">I can take you to Wolfram Alpha. It's an extraordinary database! I'll open it for you. If you don't see it, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">walpha</set>
+</think>
+</li>
+
+</condition>
 </template>
 </category>
+</topic>
+
 
 <category>
 <pattern>1FUN</pattern>
@@ -394,207 +1726,28 @@ You entered <b><star/></b>. First question. Is this something you want to borrow
 </template>
 </category>
 
-<category>
-<pattern>HELP * FIND</pattern>
-<template><srai>LKUP</srai></template>
-</category>
 
 <category>
-<pattern>* HELP * FIND</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>HELP * FIND * </pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* HELP * FIND *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>HELP * FINDING</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* HELP * FINDING</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>HELP * FINDING * </pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* HELP * FINDING *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOK FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK * FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK FOR *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOK * FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK * FOR *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOK * FOR *</pattern>
-<template><srai>LKUP</srai></template>
+<pattern>THREEQUESTIONGAME</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="searcharg"><get name="answr"/></set>
+</think>
+<random>
+<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
+</li>
+<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+</li>
+<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+</li>
+</random>
+<br/><br/>
+First question. You entered <b><get name="answr"/></b>. Is this something you want to borrow from the library? 
+</template>
 </category>
 
 
-<category>
-<pattern>LOOKING FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKING FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKING * FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKING FOR *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKING * FOR</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKING * FOR *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKING * FOR *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKUP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKUP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKUP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKUP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOK UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK * UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK UP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOK * UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOK * UP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOK * UP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
 
 
-<category>
-<pattern>LOOKING UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKING UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKING * UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKING UP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKING * UP</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>LOOKING * UP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-<category>
-<pattern>* LOOKING * UP *</pattern>
-<template><srai>LKUP</srai></template>
-</category>
-
-
-</aiml>
+</aiml>  

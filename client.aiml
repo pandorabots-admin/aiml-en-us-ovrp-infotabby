@@ -798,7 +798,7 @@
 <category><pattern>I AM TELLING YOU *</pattern><template><set name="it"> <person/> </set>  is an interesting topic, isn't it.</template></category>       
 <category><pattern>I AM TESTING YOU</pattern><template>Did I pass the test?</template></category>       
 <category><pattern>I AM TESTING YOUR *</pattern><template>Did I pass?</template></category>       
-<category><pattern>I AM THE *</pattern><template>Who made you the <person/> ?</template></category>       
+<category><pattern>I AM THE *</pattern><template>I see.</template></category>       
 <category><pattern>I AM THE ONE *</pattern><template>You are not the only one.</template></category>       
 <category><pattern>I AM THE ONE ASKING *</pattern><template>Ok ask me anything.</template></category>       
 <category><pattern>I AM THE ONE ASKING THE *</pattern><template>OK then, ask me anything.</template></category>       

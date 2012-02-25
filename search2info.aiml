@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -19,58 +19,51 @@
 <category>
 <pattern>INFSRCH</pattern>
 <template>
-O.K. Second question. Just type "yes" or "no." Is this something you'd like to know <em>about</em> our library? About our library programs, services, or policies?
-<think>
-<set name="topic">2SRCH</set>
-</think>
+O.K. Second question. Is this something you'd like to know <em>about</em> our library? I mean, is it something about our library programs, services, or policies?
 </template>
 </category>
 
-<topic name="2SRCH">
+
 <category>
 <pattern>YES</pattern>
 <that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
-<template><srai>MPLSSRCH</srai></template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
-<template><srai>DBSRCH</srai></template>
-</category>
-
-<category>
-<pattern> * </pattern>
-<that>_ SOMETHING YOU WANT TO BORROW FROM THE LIBRARY</that>
 <template>
-Now, now. No cheating. Type "yes" or "no."
-<think>
-<set name="topic">2CHEAT</set>
-</think>
+<srai>MPLSSRCH</srai>
 </template>
 </category>
-</topic>
 
-<topic name="2CHEAT">
 <category>
-<pattern>YES</pattern>
-<that>TYPE YES OR NO</that>
-<template><srai>MPLSRCH</srai></template>
+<pattern>* YES</pattern>
+<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
+<template>
+<srai>MPLSSRCH</srai>
+</template>
 </category>
 
 <category>
-<pattern>NO</pattern>
-<that>TYPE YES OR NO</that>
-<template><srai>DBSRCH</srai></template>
+<pattern>YES *</pattern>
+<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
+<template>
+<srai>MPLSSRCH</srai>
+</template>
 </category>
 
 <category>
-<pattern> * </pattern>
-<that>TYPE YES OR NO</that>
-<template><srai>REFRDCT</srai></template>
+<pattern>* YES *</pattern>
+<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
+<template>
+<srai>MPLSSRCH</srai>
+</template>
 </category>
-</topic>
 
+<category>
+<pattern>*</pattern>
+<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
+<template>
+<srai>DBSRCH</srai>
+</template>
+</category>
+  
 
 <category>
 <pattern>MPLSSRCH</pattern>
@@ -83,45 +76,56 @@ Now, now. No cheating. Type "yes" or "no."
 </template>
 </category>
 
-
-
 <category>
 <pattern>DBSRCH</pattern>
 <template>
-
-We're almost done. This one is a <em>little</em> more difficult. I want you to answer by typing "words" or "numbers." Is your question best answered by words or numbers?
-<think>
-<set name="topic">3SRCH</set>
-</think>
+We're almost done. This one is a <em>little</em> more difficult. Just type "yes" or "no." Is your question best answered by numbers? 
 </template>
 </category>
 
-<topic name="3SRCH">
-<category>
-<pattern>NUMBERS</pattern>
-<that>_ BEST ANSWERED BY WORDS OR NUMBERS</that>
-<template><srai>WASRCH</srai></template>
-</category>
+
 
 <category>
-<pattern>WORDS</pattern>
-<that>_ BEST ANSWERED BY WORDS OR NUMBERS</that>
-<template><srai>OWLSRCH</srai></template>
-</category>
-
-<category>
-<pattern> * </pattern>
-<that>_ BEST ANSWERED BY WORDS OR NUMBERS</that>
-<template>Sometimes it <em>is</em> hard to know which, so let's try the Ohio Web Library. 
-<srai>REFRDCT</srai>
-<br/><br/>
-<srai>0CONCL</srai>
-<think>
-<set name="search">ohweblib</set>
-</think>
+<pattern>YES</pattern>
+<that>_ BEST ANSWERED BY NUMBERS</that>
+<template>
+<srai>WASRCH</srai>
 </template>
 </category>
-</topic>
+
+<category>
+<pattern>* YES</pattern>
+<that>_ BEST ANSWERED BY NUMBERS</that>
+<template>
+<srai>WASRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>_ BEST ANSWERED BY NUMBERS</that>
+<template>
+<srai>WASRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* YES *</pattern>
+<that>_ BEST ANSWERED BY NUMBERS</that>
+<template>
+<srai>WASRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>_ BEST ANSWERED BY NUMBERS</that>
+<template>
+<srai>OWLSRCH</srai>
+</template>
+</category>
+
+
 
 <category>
 <pattern>WASRCH</pattern>
@@ -144,5 +148,16 @@ We're almost done. This one is a <em>little</em> more difficult. I want you to a
 </think>
 </template>
 </category>
-  
+
+<!--INFOSTART-->
+
+<category>
+<pattern>INFOSTART</pattern>
+<template>What kind of information are you looking for?
+<think>
+<set name="topic">INFOSORT</set>
+</think>
+</template>
+</category>
+
 </aiml>  

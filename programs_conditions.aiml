@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011-2012 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+<category>
+<pattern>BOOKTALK</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK TALK</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOKTALKS</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK TALKS</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DISCUSSION</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DISCUSSIONS</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK CLUB</pattern>
+<template><srai>BTALKS</srai></template>
+</category>
+
+<category>
+<pattern>BOOK CLUBS</pattern>
+<template><srai>BTALKS</srai></template>
+</category>  
+
+<category>
+<pattern>BTALKS</pattern>
+<template>Mentor Public Library offers a variety of book discussion groups. To see the full listing and learn more about each group, 
+go to our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.<br/>
+What would you like to know about our book talks?
+<think><set name="topic">BOOKTALKS</set>
+</think>
+</template>
+</category>
+  
+<topic name="BOOKTALKS">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="DATE"><set name="message">date</set></li>
+<li value="* DATE"><set name="message">date</set></li>
+<li value="DATE *"><set name="message">date</set></li>
+<li value="* DATE *"><set name="message">date</set></li>
+
+<li value="DATES"><set name="message">date</set></li>
+<li value="* DATES"><set name="message">date</set></li>
+<li value="DATES *"><set name="message">date</set></li>
+<li value="* DATES *"><set name="message">date</set></li>
+
+<li value="TIME"><set name="message">date</set></li>
+<li value="* TIME"><set name="message">date</set></li>
+<li value="TIME *"><set name="message">date</set></li>
+<li value="* TIME *"><set name="message">date</set></li>
+
+<li value="TIMES"><set name="message">date</set></li>
+<li value="* TIMES"><set name="message">date</set></li>
+<li value="TIMES *"><set name="message">date</set></li>
+<li value="* TIMES *"><set name="message">date</set></li>
+
+<li value="REGISTER"><set name="message">sign up</set></li>
+<li value="* REGISTER"><set name="message">sign up</set></li>
+<li value="REGISTER *"><set name="message">sign up</set></li>
+<li value="* REGISTER *"><set name="message">sign up</set></li>
+
+<li value="REGISTERING"><set name="message">sign up</set></li>
+<li value="* REGISTERING"><set name="message">sign up</set></li>
+<li value="REGISTERING *"><set name="message">sign up</set></li>
+<li value="* REGISTERING *"><set name="message">sign up</set></li>
+
+<li value="REGISTRATION"><set name="message">sign up</set></li>
+<li value="* REGISTRATION"><set name="message">sign up</set></li>
+<li value="REGISTRATION *"><set name="message">sign up</set></li>
+<li value="* REGISTRATION *"><set name="message">sign up</set></li>
+
+<li value="SIGN UP"><set name="message">sign up</set></li>
+<li value="* SIGN UP"><set name="message">sign up</set></li>
+<li value="SIGN UP *"><set name="message">sign up</set></li>
+<li value="* SIGN UP *"><set name="message">sign up</set></li>
+
+<li value="SIGN UPS"><set name="message">sign up</set></li>
+<li value="* SIGN UPS"><set name="message">sign up</set></li>
+<li value="SIGN UPS *"><set name="message">sign up</set></li>
+<li value="* SIGN UPS *"><set name="message">sign up</set></li>
+
+<li value="SIGNING UP"><set name="message">sign up</set></li>
+<li value="* SIGNING UP"><set name="message">sign up</set></li>
+<li value="SIGNING UP *"><set name="message">sign up</set></li>
+<li value="* SIGNING UP *"><set name="message">sign up</set></li>
+
+<li value="COPY"><set name="message">copy</set></li>
+<li value="* COPY"><set name="message">copy</set></li>
+<li value="COPY *"><set name="message">copy</set></li>
+<li value="* COPY *"><set name="message">copy</set></li>
+
+<li value="COPIES"><set name="message">copy</set></li>
+<li value="* COPIES"><set name="message">copy</set></li>
+<li value="COPIES *"><set name="message">copy</set></li>
+<li value="* COPIES *"><set name="message">copy</set></li>
+
+<li value="ONLINE"><set name="message">online book club</set></li>
+<li value="* ONLINE"><set name="message">online book club</set></li>
+<li value="ONLINE *"><set name="message">online book club</set></li>
+<li value="* ONLINE *"><set name="message">online book club</set></li>
+
+<li value="ON LINE"><set name="message">online book club</set></li>
+<li value="* ON LINE"><set name="message">online book club</set></li>
+<li value="ON LINE *"><set name="message">online book club</set></li>
+<li value="* ON LINE *"><set name="message">online book club</set></li>
+
+<li value="ON LINE"><set name="message">discussion kits</set></li>
+<li value="* ON LINE"><set name="message">discussion kits</set></li>
+<li value="ON LINE *"><set name="message">discussion kits</set></li>
+<li value="* ON LINE *"><set name="message">discussion kits</set></li>
+
+<li value="MONDAY"><set name="message">monday night</set></li>
+<li value="* MONDAY"><set name="message">monday night</set></li>
+<li value="MONDAY *"><set name="message">monday night</set></li>
+<li value="* MONDAY *"><set name="message">monday night</set></li>
+
+<li value="SENIOR"><set name="message">senior</set></li>
+<li value="* SENIOR"><set name="message">senior</set></li>
+<li value="SENIOR *"><set name="message">senior</set></li>
+<li value="* SENIOR *"><set name="message">senior</set></li>
+
+<li value="SENIOR S"><set name="message">senior</set></li>
+<li value="* SENIOR S"><set name="message">senior</set></li>
+<li value="SENIOR S *"><set name="message">senior</set></li>
+<li value="* SENIOR S *"><set name="message">senior</set></li>
+
+<li value="SENIORS"><set name="message">senior</set></li>
+<li value="* SENIORS"><set name="message">senior</set></li>
+<li value="SENIORS *"><set name="message">senior</set></li>
+<li value="* SENIORS *"><set name="message">senior</set></li>
+
+<li value="MEN"><set name="message">bcm</set></li>
+<li value="* MEN"><set name="message">bcm</set></li>
+<li value="MEN *"><set name="message">bcm</set></li>
+<li value="* MEN *"><set name="message">bcm</set></li>
+
+<li value="MEN S"><set name="message">bcm</set></li>
+<li value="* MEN S"><set name="message">bcm</set></li>
+<li value="MEN S *"><set name="message">bcm</set></li>
+<li value="* MEN S *"><set name="message">bcm</set></li>
+
+<li value="MENS"><set name="message">bcm</set></li>
+<li value="* MENS"><set name="message">bcm</set></li>
+<li value="MENS *"><set name="message">bcm</set></li>
+<li value="* MENS *"><set name="message">bcm</set></li>
+
+<li value="ART"><set name="message">book and brush</set></li>
+<li value="* ART"><set name="message">book and brush</set></li>
+<li value="ART *"><set name="message">book and brush</set></li>
+<li value="* ART *"><set name="message">book and brush</set></li>
+
+<li value="ARTIST"><set name="message">book and brush</set></li>
+<li value="* ARTIST"><set name="message">book and brush</set></li>
+<li value="ARTIST *"><set name="message">book and brush</set></li>
+<li value="* ARTIST *"><set name="message">book and brush</set></li>
+
+<li value="ARTISTS"><set name="message">book and brush</set></li>
+<li value="* ARTISTS"><set name="message">book and brush</set></li>
+<li value="ARTISTS *"><set name="message">book and brush</set></li>
+<li value="* ARTISTS *"><set name="message">book and brush</set></li>
+
+<li value="BRUSH"><set name="message">book and brush</set></li>
+<li value="* BRUSH"><set name="message">book and brush</set></li>
+<li value="BRUSH *"><set name="message">book and brush</set></li>
+<li value="* BRUSH *"><set name="message">book and brush</set></li>
+
+<li value="PAINTER"><set name="message">book and brush</set></li>
+<li value="* PAINTER"><set name="message">book and brush</set></li>
+<li value="PAINTER *"><set name="message">book and brush</set></li>
+<li value="* PAINTER *"><set name="message">book and brush</set></li>
+
+<li value="PAINTERS"><set name="message">book and brush</set></li>
+<li value="* PAINTERS"><set name="message">book and brush</set></li>
+<li value="PAINTERS *"><set name="message">book and brush</set></li>
+<li value="* PAINTERS *"><set name="message">book and brush</set></li>
+
+<li value="PAINTING"><set name="message">book and brush</set></li>
+<li value="* PAINTING"><set name="message">book and brush</set></li>
+<li value="PAINTING *"><set name="message">book and brush</set></li>
+<li value="* PAINTING *"><set name="message">book and brush</set></li>
+
+<li value="PAINTINGS"><set name="message">book and brush</set></li>
+<li value="* PAINTINGS"><set name="message">book and brush</set></li>
+<li value="PAINTINGS *"><set name="message">book and brush</set></li>
+<li value="* PAINTINGS *"><set name="message">book and brush</set></li>
+
+<li value="CRIME"><set name="message">profilers</set></li>
+<li value="* CRIME"><set name="message">profilers</set></li>
+<li value="CRIME *"><set name="message">profilers</set></li>
+<li value="* CRIME *"><set name="message">profilers</set></li>
+
+<li value="MYSTERY"><set name="message">profilers</set></li>
+<li value="* MYSTERY"><set name="message">profilers</set></li>
+<li value="MYSTERY *"><set name="message">profilers</set></li>
+<li value="* MYSTERY *"><set name="message">profilers</set></li>
+
+<li value="MYSTERIES"><set name="message">profilers</set></li>
+<li value="* MYSTERIES"><set name="message">profilers</set></li>
+<li value="MYSTERIES *"><set name="message">profilers</set></li>
+<li value="* MYSTERIES *"><set name="message">profilers</set></li>
+
+<li value="PROFILERS"><set name="message">profilers</set></li>
+<li value="* PROFILERS"><set name="message">profilers</set></li>
+<li value="PROFILERS *"><set name="message">profilers</set></li>
+<li value="* PROFILERS *"><set name="message">profilers</set></li>
+
+
+<li value="TEEN"><set name="message">teen bookclub</set></li>
+<li value="* TEEN"><set name="message">teen bookclub</set></li>
+<li value="TEEN *"><set name="message">teen bookclub</set></li>
+<li value="* TEEN *"><set name="message">teen bookclub</set></li>
+
+<li value="TEENS"><set name="message">teen bookclub</set></li>
+<li value="* TEENS"><set name="message">teen bookclub</set></li>
+<li value="TEENS *"><set name="message">teen bookclub</set></li>
+<li value="* TEENS *"><set name="message">teen bookclub</set></li>
+
+<li value="YA"><set name="message">teen bookclub</set></li>
+<li value="* YA"><set name="message">teen bookclub</set></li>
+<li value="YA *"><set name="message">teen bookclub</set></li>
+<li value="* YA *"><set name="message">teen bookclub</set></li>
+
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+<li value="no match"><set name="topic"></set><srai>NOMATCH</srai></li>
+ 
+<li value="date">You can find dates and times of meetings on our Events Calendar.</li>
+
+<li value="sign up">You do not need to sign up in advance for most discussions.</li>
+
+<li value="copy">For a copy of a discussion book, ask at the Main Library Reference Desk.</li>
+
+<li value="online book club">Mentor Public Library offers a number of online book discussion groups. Follow the link to sign up for our <a href="http://www.supportlibrary.com/su/su.cfm?q=6474252" target="_blank"><b>online book clubs</b></a>. 
+</li>
+  
+<li value="discussion kits">The library has sets of books that you can check out to use with your own book discussion group. You can find a list of book discussion kits <a href="http://catalog.mentorpl.org/search/X?SEARCH=book+discussion+kits&amp;SORT=D&amp;searchscope=12" target="_blank"><b>here</b></a>.
+</li>
+
+<li value="monday night">Librarian Barb Hauer leads the Monday Night Book Discussion. It's a stimulating discussion of bestsellers, classics, and more. This group
+  usually meets on the first Monday of every month. Please see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a> for details, including lists of past and future titles, or call Barb Hauer
+  at 440.255.8811 extension 210.</li>
+  
+<li value="senior">Librarian Barb Hauer leads our Senior Citizen Book Discussion Group. This group meets at the Mentor Senior Center on the second Wednesday of each month at 1:30 pm. To learn more, contact Barb Hauer at 440.255.8811 extension 210,
+ or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+
+ <li value="bcm">Steve Haas leads our Book Club for Men. This group meets at the Main Library on the third Monday of each month at 7:00 pm. To learn more, contact Steve at 440.255.8811,
+ or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+ 
+<li value="book and brush">Explore the fine arts through reading and discussing art historical novels with librarian Barb Hauer. The Book and Brush Club meets at the Main Library on the last Wednesday of each month at the Main Library. To learn more, contact Barb at 440.255.8811
+  extension 210, or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+ 
+<li value="profilers">Profilers investigates crime related genres, such as: thriller, suspense, true crime, noir, detective, and mystery.
+  This group meets on the last Thursday of each month at the Main Library. To learn more, contact the library at 440.255.8811
+  extension 214, or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+  
+<li value="teen bookclub">We don't have a teen book club at the moment, but that's a good idea. I'll make sure the correct person gets your suggestion.</li>  
+  
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+<category>
+<pattern>* BOOK CLUB</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK CLUB *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK CLUB *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK * CLUB</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * CLUB</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * CLUB *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK * CLUB *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK CLUBS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK CLUBS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK CLUBS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK * CLUBS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * CLUBS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK * CLUBS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK * CLUBS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DISCUSSION</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DISCUSSION *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>>
+
+<category>
+<pattern>BOOK DISCUSSION *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DISCUSSIONS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK DISCUSSIONS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK DISCUSSIONS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOKTALK</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOKTALK *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOKTALK *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK TALK</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK TALK *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK TALK *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+
+<category>
+<pattern>* BOOKTALKS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOKTALKS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOKTALKS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+
+<category>
+<pattern>* BOOK TALKS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>* BOOK TALKS *</pattern>
+<template>
+<think>
+<set name="answr"><star index="2"/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<category>
+<pattern>BOOK TALKS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">BOOKTALKS2</set>
+</think>
+<srai>BKTLKS2</srai></template>
+</category>
+
+<topic name="BOOKTALKS2">
+<category>
+<pattern>BKTLKS2</pattern>
+<template>
+<think>
+<get name="answr">
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="DATE"><set name="message">date</set></li>
+<li value="* DATE"><set name="message">date</set></li>
+<li value="DATE *"><set name="message">date</set></li>
+<li value="* DATE *"><set name="message">date</set></li>
+
+<li value="DATES"><set name="message">date</set></li>
+<li value="* DATES"><set name="message">date</set></li>
+<li value="DATES *"><set name="message">date</set></li>
+<li value="* DATES *"><set name="message">date</set></li>
+
+<li value="TIME"><set name="message">date</set></li>
+<li value="* TIME"><set name="message">date</set></li>
+<li value="TIME *"><set name="message">date</set></li>
+<li value="* TIME *"><set name="message">date</set></li>
+
+<li value="TIMES"><set name="message">date</set></li>
+<li value="* TIMES"><set name="message">date</set></li>
+<li value="TIMES *"><set name="message">date</set></li>
+<li value="* TIMES *"><set name="message">date</set></li>
+
+<li value="REGISTER"><set name="message">sign up</set></li>
+<li value="* REGISTER"><set name="message">sign up</set></li>
+<li value="REGISTER *"><set name="message">sign up</set></li>
+<li value="* REGISTER *"><set name="message">sign up</set></li>
+
+<li value="REGISTERING"><set name="message">sign up</set></li>
+<li value="* REGISTERING"><set name="message">sign up</set></li>
+<li value="REGISTERING *"><set name="message">sign up</set></li>
+<li value="* REGISTERING *"><set name="message">sign up</set></li>
+
+<li value="REGISTRATION"><set name="message">sign up</set></li>
+<li value="* REGISTRATION"><set name="message">sign up</set></li>
+<li value="REGISTRATION *"><set name="message">sign up</set></li>
+<li value="* REGISTRATION *"><set name="message">sign up</set></li>
+
+<li value="SIGN UP"><set name="message">sign up</set></li>
+<li value="* SIGN UP"><set name="message">sign up</set></li>
+<li value="SIGN UP *"><set name="message">sign up</set></li>
+<li value="* SIGN UP *"><set name="message">sign up</set></li>
+
+<li value="SIGN UPS"><set name="message">sign up</set></li>
+<li value="* SIGN UPS"><set name="message">sign up</set></li>
+<li value="SIGN UPS *"><set name="message">sign up</set></li>
+<li value="* SIGN UPS *"><set name="message">sign up</set></li>
+
+<li value="SIGNING UP"><set name="message">sign up</set></li>
+<li value="* SIGNING UP"><set name="message">sign up</set></li>
+<li value="SIGNING UP *"><set name="message">sign up</set></li>
+<li value="* SIGNING UP *"><set name="message">sign up</set></li>
+
+<li value="COPY"><set name="message">copy</set></li>
+<li value="* COPY"><set name="message">copy</set></li>
+<li value="COPY *"><set name="message">copy</set></li>
+<li value="* COPY *"><set name="message">copy</set></li>
+
+<li value="COPIES"><set name="message">copy</set></li>
+<li value="* COPIES"><set name="message">copy</set></li>
+<li value="COPIES *"><set name="message">copy</set></li>
+<li value="* COPIES *"><set name="message">copy</set></li>
+
+<li value="ONLINE"><set name="message">online book club</set></li>
+<li value="* ONLINE"><set name="message">online book club</set></li>
+<li value="ONLINE *"><set name="message">online book club</set></li>
+<li value="* ONLINE *"><set name="message">online book club</set></li>
+
+<li value="ON LINE"><set name="message">online book club</set></li>
+<li value="* ON LINE"><set name="message">online book club</set></li>
+<li value="ON LINE *"><set name="message">online book club</set></li>
+<li value="* ON LINE *"><set name="message">online book club</set></li>
+
+<li value="ON LINE"><set name="message">discussion kits</set></li>
+<li value="* ON LINE"><set name="message">discussion kits</set></li>
+<li value="ON LINE *"><set name="message">discussion kits</set></li>
+<li value="* ON LINE *"><set name="message">discussion kits</set></li>
+
+<li value="MONDAY"><set name="message">monday night</set></li>
+<li value="* MONDAY"><set name="message">monday night</set></li>
+<li value="MONDAY *"><set name="message">monday night</set></li>
+<li value="* MONDAY *"><set name="message">monday night</set></li>
+
+<li value="SENIOR"><set name="message">senior</set></li>
+<li value="* SENIOR"><set name="message">senior</set></li>
+<li value="SENIOR *"><set name="message">senior</set></li>
+<li value="* SENIOR *"><set name="message">senior</set></li>
+
+<li value="SENIOR S"><set name="message">senior</set></li>
+<li value="* SENIOR S"><set name="message">senior</set></li>
+<li value="SENIOR S *"><set name="message">senior</set></li>
+<li value="* SENIOR S *"><set name="message">senior</set></li>
+
+<li value="SENIORS"><set name="message">senior</set></li>
+<li value="* SENIORS"><set name="message">senior</set></li>
+<li value="SENIORS *"><set name="message">senior</set></li>
+<li value="* SENIORS *"><set name="message">senior</set></li>
+
+<li value="MEN"><set name="message">bcm</set></li>
+<li value="* MEN"><set name="message">bcm</set></li>
+<li value="MEN *"><set name="message">bcm</set></li>
+<li value="* MEN *"><set name="message">bcm</set></li>
+
+<li value="MEN S"><set name="message">bcm</set></li>
+<li value="* MEN S"><set name="message">bcm</set></li>
+<li value="MEN S *"><set name="message">bcm</set></li>
+<li value="* MEN S *"><set name="message">bcm</set></li>
+
+<li value="MENS"><set name="message">bcm</set></li>
+<li value="* MENS"><set name="message">bcm</set></li>
+<li value="MENS *"><set name="message">bcm</set></li>
+<li value="* MENS *"><set name="message">bcm</set></li>
+
+<li value="ART"><set name="message">book and brush</set></li>
+<li value="* ART"><set name="message">book and brush</set></li>
+<li value="ART *"><set name="message">book and brush</set></li>
+<li value="* ART *"><set name="message">book and brush</set></li>
+
+<li value="ARTIST"><set name="message">book and brush</set></li>
+<li value="* ARTIST"><set name="message">book and brush</set></li>
+<li value="ARTIST *"><set name="message">book and brush</set></li>
+<li value="* ARTIST *"><set name="message">book and brush</set></li>
+
+<li value="ARTISTS"><set name="message">book and brush</set></li>
+<li value="* ARTISTS"><set name="message">book and brush</set></li>
+<li value="ARTISTS *"><set name="message">book and brush</set></li>
+<li value="* ARTISTS *"><set name="message">book and brush</set></li>
+
+<li value="BRUSH"><set name="message">book and brush</set></li>
+<li value="* BRUSH"><set name="message">book and brush</set></li>
+<li value="BRUSH *"><set name="message">book and brush</set></li>
+<li value="* BRUSH *"><set name="message">book and brush</set></li>
+
+<li value="PAINTER"><set name="message">book and brush</set></li>
+<li value="* PAINTER"><set name="message">book and brush</set></li>
+<li value="PAINTER *"><set name="message">book and brush</set></li>
+<li value="* PAINTER *"><set name="message">book and brush</set></li>
+
+<li value="PAINTERS"><set name="message">book and brush</set></li>
+<li value="* PAINTERS"><set name="message">book and brush</set></li>
+<li value="PAINTERS *"><set name="message">book and brush</set></li>
+<li value="* PAINTERS *"><set name="message">book and brush</set></li>
+
+<li value="PAINTING"><set name="message">book and brush</set></li>
+<li value="* PAINTING"><set name="message">book and brush</set></li>
+<li value="PAINTING *"><set name="message">book and brush</set></li>
+<li value="* PAINTING *"><set name="message">book and brush</set></li>
+
+<li value="PAINTINGS"><set name="message">book and brush</set></li>
+<li value="* PAINTINGS"><set name="message">book and brush</set></li>
+<li value="PAINTINGS *"><set name="message">book and brush</set></li>
+<li value="* PAINTINGS *"><set name="message">book and brush</set></li>
+
+<li value="CRIME"><set name="message">profilers</set></li>
+<li value="* CRIME"><set name="message">profilers</set></li>
+<li value="CRIME *"><set name="message">profilers</set></li>
+<li value="* CRIME *"><set name="message">profilers</set></li>
+
+<li value="MYSTERY"><set name="message">profilers</set></li>
+<li value="* MYSTERY"><set name="message">profilers</set></li>
+<li value="MYSTERY *"><set name="message">profilers</set></li>
+<li value="* MYSTERY *"><set name="message">profilers</set></li>
+
+<li value="MYSTERIES"><set name="message">profilers</set></li>
+<li value="* MYSTERIES"><set name="message">profilers</set></li>
+<li value="MYSTERIES *"><set name="message">profilers</set></li>
+<li value="* MYSTERIES *"><set name="message">profilers</set></li>
+
+<li value="PROFILERS"><set name="message">profilers</set></li>
+<li value="* PROFILERS"><set name="message">profilers</set></li>
+<li value="PROFILERS *"><set name="message">profilers</set></li>
+<li value="* PROFILERS *"><set name="message">profilers</set></li>
+
+
+<li value="TEEN"><set name="message">teen bookclub</set></li>
+<li value="* TEEN"><set name="message">teen bookclub</set></li>
+<li value="TEEN *"><set name="message">teen bookclub</set></li>
+<li value="* TEEN *"><set name="message">teen bookclub</set></li>
+
+<li value="TEENS"><set name="message">teen bookclub</set></li>
+<li value="* TEENS"><set name="message">teen bookclub</set></li>
+<li value="TEENS *"><set name="message">teen bookclub</set></li>
+<li value="* TEENS *"><set name="message">teen bookclub</set></li>
+
+<li value="YA"><set name="message">teen bookclub</set></li>
+<li value="* YA"><set name="message">teen bookclub</set></li>
+<li value="YA *"><set name="message">teen bookclub</set></li>
+<li value="* YA *"><set name="message">teen bookclub</set></li>
+
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+<li value="no match"><set name="topic"></set><srai>NOMATCH</srai></li>
+ 
+<li value="date">You can find dates and times of meetings on our Events Calendar.</li>
+
+<li value="sign up">You do not need to sign up in advance for most discussions.</li>
+
+<li value="copy">For a copy of a discussion book, ask at the Main Library Reference Desk.</li>
+
+<li value="online book club">Mentor Public Library offers a number of online book discussion groups. Follow the link to sign up for our <a href="http://www.supportlibrary.com/su/su.cfm?q=6474252" target="_blank"><b>online book clubs</b></a>. 
+</li>
+  
+<li value="discussion kits">The library has sets of books that you can check out to use with your own book discussion group. You can find a list of book discussion kits <a href="http://catalog.mentorpl.org/search/X?SEARCH=book+discussion+kits&amp;SORT=D&amp;searchscope=12" target="_blank"><b>here</b></a>.
+</li>
+
+<li value="monday night">Librarian Barb Hauer leads the Monday Night Book Discussion. It's a stimulating discussion of bestsellers, classics, and more. This group
+  usually meets on the first Monday of every month. Please see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a> for details, including lists of past and future titles, or call Barb Hauer
+  at 440.255.8811 extension 210.</li>
+  
+<li value="senior">Librarian Barb Hauer leads our Senior Citizen Book Discussion Group. This group meets at the Mentor Senior Center on the second Wednesday of each month at 1:30 pm. To learn more, contact Barb Hauer at 440.255.8811 extension 210,
+ or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+
+ <li value="bcm">Steve Haas leads our Book Club for Men. This group meets at the Main Library on the third Monday of each month at 7:00 pm. To learn more, contact Steve at 440.255.8811,
+ or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+ 
+<li value="book and brush">Explore the fine arts through reading and discussing art historical novels with librarian Barb Hauer. The Book and Brush Club meets at the Main Library on the last Wednesday of each month at the Main Library. To learn more, contact Barb at 440.255.8811
+  extension 210, or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+ 
+<li value="profilers">Profilers investigates crime related genres, such as: thriller, suspense, true crime, noir, detective, and mystery.
+  This group meets on the last Thursday of each month at the Main Library. To learn more, contact the library at 440.255.8811
+  extension 214, or see our <a href="http://www.mentorpl.org/readers.html" target="_blank"><b>Reader's Page</b></a>.</li>
+  
+<li value="teen bookclub">We don't have a teen book club at the moment, but that's a good idea. I'll make sure the correct person gets your suggestion.</li>  
+  
+</condition>
+</template>
+</category>
+</topic>
+
+  
+<!--EVENTS ALL AGES-->  
+
+<category>
+<pattern>EVENT</pattern>
+<template>
+<srai>EVNTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>EVENTS</pattern>
+<template>
+<srai>EVNTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROGRAM</pattern>
+<template>
+<srai>EVNTS</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROGRAMS</pattern>
+<template>
+<srai>EVNTS</srai>
+</template>
+</category>
+
+<category>
+  <pattern>EVNTS</pattern>
+  <template>You can find library events and programs on our calendar. I'll open it for you. Unless noted, all library events are free.
+<br/>
+  What else would you like to know about our programs or events?
+  <think>
+  <set name="search">mplcal</set>
+  <set name="topic">EVENTS</set>
+</think>
+</template>
+</category>
+  
+<topic name="EVENTS">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="COMING"><set name="message">upcoming events</set></li>
+<li value="* COMING"><set name="message">upcoming events</set></li>
+<li value="COMING *"><set name="message">upcoming events</set></li>
+<li value="* COMING *"><set name="message">upcoming events</set></li>
+
+<li value="FUTURE"><set name="message">upcoming events</set></li>
+<li value="* FUTURE"><set name="message">upcoming events</set></li>
+<li value="FUTURE *"><set name="message">upcoming events</set></li>
+<li value="* FUTURE *"><set name="message">upcoming events</set></li>
+
+<li value="UPCOMING"><set name="message">upcoming events</set></li>
+<li value="* UPCOMING"><set name="message">upcoming events</set></li>
+<li value="UPCOMING *"><set name="message">upcoming events</set></li>
+<li value="* UPCOMING *"><set name="message">upcoming events</set></li>
+
+<li value="UP COMING"><set name="message">upcoming events</set></li>
+<li value="* UP COMING"><set name="message">upcoming events</set></li>
+<li value="UP COMING *"><set name="message">upcoming events</set></li>
+<li value="* UP COMING *"><set name="message">upcoming events</set></li>
+
+<li value="AUTHOR"><set name="message">author visits</set></li>
+<li value="* AUTHOR"><set name="message">author visits</set></li>
+<li value="AUTHOR *"><set name="message">author visits</set></li>
+<li value="* AUTHOR *"><set name="message">author visits</set></li>
+
+<li value="AUTHORS"><set name="message">author visits</set></li>
+<li value="* AUTHORS"><set name="message">author visits</set></li>
+<li value="AUTHORS *"><set name="message">author visits</set></li>
+<li value="* AUTHORS *"><set name="message">author visits</set></li>
+
+<li value="BOOK SIGNING"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNING"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNING"><set name="message">author visits</set></li>
+<li value="BOOK SIGNING *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNING"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNING *"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNING *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNING *"><set name="message">author visits</set></li>
+
+<li value="BOOK SIGNINGS"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNINGS"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNINGS"><set name="message">author visits</set></li>
+<li value="BOOK SIGNINGS *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNINGS"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNINGS *"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNINGS *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNINGS *"><set name="message">author visits</set></li>
+
+<li value="REGISTER"><set name="message">registration</set></li>
+<li value="* REGISTER"><set name="message">registration</set></li>
+<li value="REGISTER *"><set name="message">registration</set></li>
+<li value="* REGISTER *"><set name="message">registration</set></li>
+
+<li value="REGISTERING"><set name="message">registration</set></li>
+<li value="* REGISTERING"><set name="message">registration</set></li>
+<li value="REGISTERING *"><set name="message">registration</set></li>
+<li value="* REGISTERING *"><set name="message">registration</set></li>
+
+<li value="REGISTRATION"><set name="message">registration</set></li>
+<li value="* REGISTRATION"><set name="message">registration</set></li>
+<li value="REGISTRATION *"><set name="message">registration</set></li>
+<li value="* REGISTRATION *"><set name="message">registration</set></li>
+
+<li value="SIGN UP"><set name="message">registration</set></li>
+<li value="* SIGN UP"><set name="message">registration</set></li>
+<li value="SIGN UP *"><set name="message">registration</set></li>
+<li value="* SIGN UP *"><set name="message">registration</set></li>
+
+<li value="SIGN UPS"><set name="message">registration</set></li>
+<li value="* SIGN UPS"><set name="message">registration</set></li>
+<li value="SIGN UPS *"><set name="message">registration</set></li>
+<li value="* SIGN UPS *"><set name="message">registration</set></li>
+
+<li value="SIGNING UP"><set name="message">registration</set></li>
+<li value="* SIGNING UP"><set name="message">registration</set></li>
+<li value="SIGNING UP *"><set name="message">registration</set></li>
+<li value="* SIGNING UP *"><set name="message">registration</set></li>
+
+<li value="COST"><set name="message">registration</set></li>
+<li value="* COST"><set name="message">registration</set></li>
+<li value="COST *"><set name="message">registration</set></li>
+<li value="* COST *"><set name="message">registration</set></li>
+
+<li value="COSTS"><set name="message">registration</set></li>
+<li value="* COSTS"><set name="message">registration</set></li>
+<li value="COSTS *"><set name="message">registration</set></li>
+<li value="* COSTS *"><set name="message">registration</set></li>
+
+<li value="CHARGE"><set name="message">registration</set></li>
+<li value="* CHARGE"><set name="message">registration</set></li>
+<li value="CHARGE *"><set name="message">registration</set></li>
+<li value="* CHARGE *"><set name="message">registration</set></li>
+
+<li value="FEE"><set name="message">registration</set></li>
+<li value="* FEE"><set name="message">registration</set></li>
+<li value="FEE *"><set name="message">registration</set></li>
+<li value="* FEE *"><set name="message">registration</set></li>
+
+<li value="FREE"><set name="message">registration</set></li>
+<li value="* FREE"><set name="message">registration</set></li>
+<li value="FREE *"><set name="message">registration</set></li>
+<li value="* FREE *"><set name="message">registration</set></li>
+
+<li value="FREE"><set name="message">registration</set></li>
+<li value="* FREE"><set name="message">registration</set></li>
+<li value="FREE *"><set name="message">registration</set></li>
+<li value="* FREE *"><set name="message">registration</set></li>
+
+<li value="CHILD"><set name="message">kids programs</set></li>
+<li value="* CHILD"><set name="message">kids programs</set></li>
+<li value="CHILD *"><set name="message">kids programs</set></li>
+<li value="* CHILD *"><set name="message">kids programs</set></li>
+
+<li value="CHILDREN"><set name="message">kids programs</set></li>
+<li value="* CHILDREN"><set name="message">kids programs</set></li>
+<li value="CHILDREN *"><set name="message">kids programs</set></li>
+<li value="* CHILDREN *"><set name="message">kids programs</set></li>
+
+<li value="CHILDRENS"><set name="message">kids programs</set></li>
+<li value="* CHILDRENS"><set name="message">kids programs</set></li>
+<li value="CHILDRENS *"><set name="message">kids programs</set></li>
+<li value="* CHILDRENS *"><set name="message">kids programs</set></li>
+
+<li value="CHILDREN S"><set name="message">kids programs</set></li>
+<li value="* CHILDREN S"><set name="message">kids programs</set></li>
+<li value="CHILDREN S *"><set name="message">kids programs</set></li>
+<li value="* CHILDREN S *"><set name="message">kids programs</set></li>
+
+<li value="KID"><set name="message">kids programs</set></li>
+<li value="* KID"><set name="message">kids programs</set></li>
+<li value="KID *"><set name="message">kids programs</set></li>
+<li value="* KID *"><set name="message">kids programs</set></li>
+
+<li value="KIDS"><set name="message">kids programs</set></li>
+<li value="* KIDS"><set name="message">kids programs</set></li>
+<li value="KIDS *"><set name="message">kids programs</set></li>
+<li value="* KIDS *"><set name="message">kids programs</set></li>
+
+<li value="KID S"><set name="message">kids programs</set></li>
+<li value="* KID S"><set name="message">kids programs</set></li>
+<li value="KID S *"><set name="message">kids programs</set></li>
+<li value="* KID S *"><set name="message">kids programs</set></li>
+
+<li value="STORYHOUR"><set name="message">kids programs</set></li>
+<li value="* STORYHOUR"><set name="message">kids programs</set></li>
+<li value="STORYHOUR *"><set name="message">kids programs</set></li>
+<li value="* STORYHOUR *"><set name="message">kids programs</set></li>
+
+<li value="STORY HOUR"><set name="message">kids programs</set></li>
+<li value="* STORY HOUR"><set name="message">kids programs</set></li>
+<li value="STORY HOUR *"><set name="message">kids programs</set></li>
+<li value="* STORY HOUR *"><set name="message">kids programs</set></li>
+
+<li value="STORYHOURS"><set name="message">kids programs</set></li>
+<li value="* STORYHOURS"><set name="message">kids programs</set></li>
+<li value="STORYHOURS *"><set name="message">kids programs</set></li>
+<li value="* STORYHOURS *"><set name="message">kids programs</set></li>
+
+<li value="STORY HOURS"><set name="message">kids programs</set></li>
+<li value="* STORY HOURS"><set name="message">kids programs</set></li>
+<li value="STORY HOURS *"><set name="message">kids programs</set></li>
+<li value="* STORY HOURS *"><set name="message">kids programs</set></li>
+
+<li value="STORYTIME"><set name="message">kids programs</set></li>
+<li value="* STORYTIME"><set name="message">kids programs</set></li>
+<li value="STORYTIME *"><set name="message">kids programs</set></li>
+<li value="* STORYTIME *"><set name="message">kids programs</set></li>
+
+<li value="STORY TIME"><set name="message">kids programs</set></li>
+<li value="* STORY TIME"><set name="message">kids programs</set></li>
+<li value="STORY TIME *"><set name="message">kids programs</set></li>
+<li value="* STORY TIME *"><set name="message">kids programs</set></li>
+
+<li value="STORYTIMES"><set name="message">kids programs</set></li>
+<li value="* STORYTIMES"><set name="message">kids programs</set></li>
+<li value="STORYTIMES *"><set name="message">kids programs</set></li>
+<li value="* STORYTIMES *"><set name="message">kids programs</set></li>
+
+<li value="STORY TIMES"><set name="message">kids programs</set></li>
+<li value="* STORY TIMES"><set name="message">kids programs</set></li>
+<li value="STORY TIMES *"><set name="message">kids programs</set></li>
+<li value="* STORY TIMES *"><set name="message">kids programs</set></li>
+
+<li value="DOG"><set name="message">paws to read</set></li>
+<li value="* DOG"><set name="message">paws to read</set></li>
+<li value="DOG *"><set name="message">paws to read</set></li>
+<li value="* DOG *"><set name="message">paws to read</set></li>
+
+<li value="DOGS"><set name="message">paws to read</set></li>
+<li value="* DOGS"><set name="message">paws to read</set></li>
+<li value="DOGS *"><set name="message">paws to read</set></li>
+<li value="* DOGS *"><set name="message">paws to read</set></li>
+
+<li value="PAW"><set name="message">paws to read</set></li>
+<li value="* PAW"><set name="message">paws to read</set></li>
+<li value="PAW *"><set name="message">paws to read</set></li>
+<li value="* PAW *"><set name="message">paws to read</set></li>
+
+<li value="PAWS"><set name="message">paws to read</set></li>
+<li value="* PAWS"><set name="message">paws to read</set></li>
+<li value="PAWS *"><set name="message">paws to read</set></li>
+<li value="* PAWS *"><set name="message">paws to read</set></li>
+
+<li value="TIDDLYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLYWINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLYWINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="TIDDLEYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLEYWINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEYWINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="TIDDLY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLY WINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLY WINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="TIDDLEY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLEY WINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEY WINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="CONTEST"><set name="message">kids contests</set></li>
+<li value="* CONTEST"><set name="message">kids contests</set></li>
+<li value="CONTEST *"><set name="message">kids contests</set></li>
+<li value="* CONTEST *"><set name="message">kids contests</set></li>
+
+<li value="CONTESTS"><set name="message">kids contests</set></li>
+<li value="* CONTESTS"><set name="message">kids contests</set></li>
+<li value="CONTESTS *"><set name="message">kids contests</set></li>
+<li value="* CONTESTS *"><set name="message">kids contests</set></li>
+
+<li value="READING"><set name="message">srp</set></li>
+<li value="* READING"><set name="message">srp</set></li>
+<li value="READING *"><set name="message">srp</set></li>
+<li value="* READING *"><set name="message">srp</set></li>
+
+<li value="SRP"><set name="message">srp</set></li>
+<li value="* SRP"><set name="message">srp</set></li>
+<li value="SRP *"><set name="message">srp</set></li>
+<li value="* SRP *"><set name="message">srp</set></li>
+
+<li value="SUMMER"><set name="message">srp</set></li>
+<li value="* SUMMER"><set name="message">srp</set></li>
+<li value="SUMMER *"><set name="message">srp</set></li>
+<li value="* SUMMER *"><set name="message">srp</set></li>
+
+<li value="TEEN"><set name="message">teen</set></li>
+<li value="* TEEN"><set name="message">teen</set></li>
+<li value="TEEN *"><set name="message">teen</set></li>
+<li value="* TEEN *"><set name="message">teen</set></li>
+
+<li value="TEENS"><set name="message">teen</set></li>
+<li value="* TEENS"><set name="message">teen</set></li>
+<li value="TEENS *"><set name="message">teen</set></li>
+<li value="* TEENS *"><set name="message">teen</set></li>
+
+<li value="YA"><set name="message">teen</set></li>
+<li value="* YA"><set name="message">teen</set></li>
+<li value="YA *"><set name="message">teen</set></li>
+<li value="* YA *"><set name="message">teen</set></li>
+
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+
+<li value="upcoming events">You can find library events and programs on our calendar. I'll open it for you. Just pick your month and you'll see the programs that are scheduled.
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="author visits">All author visits and book signings will be on our calendar. They will also be listed on our home page.
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="calendar">We have programs and events for all ages. Unless noted, all library events are free. 
+Here is our calendar. 
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="registration">You can register for a program by following the "register online" link in the program desciption, or by clicking on the program title in our calendar (I'll open it for you). 
+Or you can call the library and register over the phone. 
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="cost">Unless noted, all Library programs are free.</li>
+
+<li value="kids programs">
+<random>
+<li> Follow this link for a list of our current <a href="http://www.mentorpl.org/pdfs/currentkids.pdf" target="_blank"><b>Children's Storytimes, Programs and Events</b></a>.
+  You can sign up for these by using our <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>Events Calendar</b></a>, or by calling us at 440.255.8811 extension 221.</li>
+ <li>We have programs and Story Times for children of all ages.  Here's a <a href="http://www.mentorpl.org/pdfs/currentkids.pdf"><b>complete schedule</b></a>. Sign up using the <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>our calendar</b></a> or call us at 440.255.8811. 
+ </li>
+ </random>
+</li>
+
+<li value="paws to read">Children read to trained dogs. It's good practice for the kids because the dogs are nonjudgemental.
+Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
+  <b>Children's pages</b></a> for the next Paws to Read.</li>
+  
+<li value="tiddlywinks">Check our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Children's pages</b></a> for Tiddlywinks times.</li>
+
+<li value="kids contests">Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
+  <b>Children's pages</b>
+</a> for information about Children's contests and events. You can also check <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>our calendar</b></a>.</li>
+
+<li value="srp">You can find more info about our Reading Programs on our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Children's pages</b></a>.</li>
+
+<li value="teen">You can find programs for teens on our calendar. On the left.
+If you'd like to present a program at the Library, please call us at 440.255.8811.</li>
+
+</condition>
+</template>
+</category>
+</topic>
+
+
+<category>
+<pattern>* EVENT</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>EVENT *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* EVENT *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* EVENTS</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>EVENTS *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* EVENTS *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROGRAM</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROGRAM *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROGRAM *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROGRAMS</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROGRAMS *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROGRAMS *</pattern>
+<template>
+<think>
+<set name="answtr"><star/></set>
+<set name="topic">EVENTS2</set>
+</think>
+<srai>EVNTS2</srai>
+</template>
+</category>
+
+<topic name="EVENTS2">
+<category>
+<pattern>EVNTS2</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="COMING"><set name="message">upcoming events</set></li>
+<li value="* COMING"><set name="message">upcoming events</set></li>
+<li value="COMING *"><set name="message">upcoming events</set></li>
+<li value="* COMING *"><set name="message">upcoming events</set></li>
+
+<li value="FUTURE"><set name="message">upcoming events</set></li>
+<li value="* FUTURE"><set name="message">upcoming events</set></li>
+<li value="FUTURE *"><set name="message">upcoming events</set></li>
+<li value="* FUTURE *"><set name="message">upcoming events</set></li>
+
+<li value="UPCOMING"><set name="message">upcoming events</set></li>
+<li value="* UPCOMING"><set name="message">upcoming events</set></li>
+<li value="UPCOMING *"><set name="message">upcoming events</set></li>
+<li value="* UPCOMING *"><set name="message">upcoming events</set></li>
+
+<li value="UP COMING"><set name="message">upcoming events</set></li>
+<li value="* UP COMING"><set name="message">upcoming events</set></li>
+<li value="UP COMING *"><set name="message">upcoming events</set></li>
+<li value="* UP COMING *"><set name="message">upcoming events</set></li>
+
+<li value="AUTHOR"><set name="message">author visits</set></li>
+<li value="* AUTHOR"><set name="message">author visits</set></li>
+<li value="AUTHOR *"><set name="message">author visits</set></li>
+<li value="* AUTHOR *"><set name="message">author visits</set></li>
+
+<li value="AUTHORS"><set name="message">author visits</set></li>
+<li value="* AUTHORS"><set name="message">author visits</set></li>
+<li value="AUTHORS *"><set name="message">author visits</set></li>
+<li value="* AUTHORS *"><set name="message">author visits</set></li>
+
+<li value="BOOK SIGNING"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNING"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNING"><set name="message">author visits</set></li>
+<li value="BOOK SIGNING *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNING"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNING *"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNING *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNING *"><set name="message">author visits</set></li>
+
+<li value="BOOK SIGNINGS"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNINGS"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNINGS"><set name="message">author visits</set></li>
+<li value="BOOK SIGNINGS *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNINGS"><set name="message">author visits</set></li>
+<li value="BOOK * SIGNINGS *"><set name="message">author visits</set></li>
+<li value="* BOOK SIGNINGS *"><set name="message">author visits</set></li>
+<li value="* BOOK * SIGNINGS *"><set name="message">author visits</set></li>
+
+<li value="REGISTER"><set name="message">registration</set></li>
+<li value="* REGISTER"><set name="message">registration</set></li>
+<li value="REGISTER *"><set name="message">registration</set></li>
+<li value="* REGISTER *"><set name="message">registration</set></li>
+
+<li value="REGISTERING"><set name="message">registration</set></li>
+<li value="* REGISTERING"><set name="message">registration</set></li>
+<li value="REGISTERING *"><set name="message">registration</set></li>
+<li value="* REGISTERING *"><set name="message">registration</set></li>
+
+<li value="REGISTRATION"><set name="message">registration</set></li>
+<li value="* REGISTRATION"><set name="message">registration</set></li>
+<li value="REGISTRATION *"><set name="message">registration</set></li>
+<li value="* REGISTRATION *"><set name="message">registration</set></li>
+
+<li value="SIGN UP"><set name="message">registration</set></li>
+<li value="* SIGN UP"><set name="message">registration</set></li>
+<li value="SIGN UP *"><set name="message">registration</set></li>
+<li value="* SIGN UP *"><set name="message">registration</set></li>
+
+<li value="SIGN UPS"><set name="message">registration</set></li>
+<li value="* SIGN UPS"><set name="message">registration</set></li>
+<li value="SIGN UPS *"><set name="message">registration</set></li>
+<li value="* SIGN UPS *"><set name="message">registration</set></li>
+
+<li value="SIGNING UP"><set name="message">registration</set></li>
+<li value="* SIGNING UP"><set name="message">registration</set></li>
+<li value="SIGNING UP *"><set name="message">registration</set></li>
+<li value="* SIGNING UP *"><set name="message">registration</set></li>
+
+<li value="COST"><set name="message">registration</set></li>
+<li value="* COST"><set name="message">registration</set></li>
+<li value="COST *"><set name="message">registration</set></li>
+<li value="* COST *"><set name="message">registration</set></li>
+
+<li value="COSTS"><set name="message">registration</set></li>
+<li value="* COSTS"><set name="message">registration</set></li>
+<li value="COSTS *"><set name="message">registration</set></li>
+<li value="* COSTS *"><set name="message">registration</set></li>
+
+<li value="CHARGE"><set name="message">registration</set></li>
+<li value="* CHARGE"><set name="message">registration</set></li>
+<li value="CHARGE *"><set name="message">registration</set></li>
+<li value="* CHARGE *"><set name="message">registration</set></li>
+
+<li value="FEE"><set name="message">registration</set></li>
+<li value="* FEE"><set name="message">registration</set></li>
+<li value="FEE *"><set name="message">registration</set></li>
+<li value="* FEE *"><set name="message">registration</set></li>
+
+<li value="FREE"><set name="message">registration</set></li>
+<li value="* FREE"><set name="message">registration</set></li>
+<li value="FREE *"><set name="message">registration</set></li>
+<li value="* FREE *"><set name="message">registration</set></li>
+
+<li value="FREE"><set name="message">registration</set></li>
+<li value="* FREE"><set name="message">registration</set></li>
+<li value="FREE *"><set name="message">registration</set></li>
+<li value="* FREE *"><set name="message">registration</set></li>
+
+<li value="CHILD"><set name="message">kids programs</set></li>
+<li value="* CHILD"><set name="message">kids programs</set></li>
+<li value="CHILD *"><set name="message">kids programs</set></li>
+<li value="* CHILD *"><set name="message">kids programs</set></li>
+
+<li value="CHILDREN"><set name="message">kids programs</set></li>
+<li value="* CHILDREN"><set name="message">kids programs</set></li>
+<li value="CHILDREN *"><set name="message">kids programs</set></li>
+<li value="* CHILDREN *"><set name="message">kids programs</set></li>
+
+<li value="CHILDRENS"><set name="message">kids programs</set></li>
+<li value="* CHILDRENS"><set name="message">kids programs</set></li>
+<li value="CHILDRENS *"><set name="message">kids programs</set></li>
+<li value="* CHILDRENS *"><set name="message">kids programs</set></li>
+
+<li value="CHILDREN S"><set name="message">kids programs</set></li>
+<li value="* CHILDREN S"><set name="message">kids programs</set></li>
+<li value="CHILDREN S *"><set name="message">kids programs</set></li>
+<li value="* CHILDREN S *"><set name="message">kids programs</set></li>
+
+<li value="KID"><set name="message">kids programs</set></li>
+<li value="* KID"><set name="message">kids programs</set></li>
+<li value="KID *"><set name="message">kids programs</set></li>
+<li value="* KID *"><set name="message">kids programs</set></li>
+
+<li value="KIDS"><set name="message">kids programs</set></li>
+<li value="* KIDS"><set name="message">kids programs</set></li>
+<li value="KIDS *"><set name="message">kids programs</set></li>
+<li value="* KIDS *"><set name="message">kids programs</set></li>
+
+<li value="KID S"><set name="message">kids programs</set></li>
+<li value="* KID S"><set name="message">kids programs</set></li>
+<li value="KID S *"><set name="message">kids programs</set></li>
+<li value="* KID S *"><set name="message">kids programs</set></li>
+
+<li value="STORYHOUR"><set name="message">kids programs</set></li>
+<li value="* STORYHOUR"><set name="message">kids programs</set></li>
+<li value="STORYHOUR *"><set name="message">kids programs</set></li>
+<li value="* STORYHOUR *"><set name="message">kids programs</set></li>
+
+<li value="STORY HOUR"><set name="message">kids programs</set></li>
+<li value="* STORY HOUR"><set name="message">kids programs</set></li>
+<li value="STORY HOUR *"><set name="message">kids programs</set></li>
+<li value="* STORY HOUR *"><set name="message">kids programs</set></li>
+
+<li value="STORYHOURS"><set name="message">kids programs</set></li>
+<li value="* STORYHOURS"><set name="message">kids programs</set></li>
+<li value="STORYHOURS *"><set name="message">kids programs</set></li>
+<li value="* STORYHOURS *"><set name="message">kids programs</set></li>
+
+<li value="STORY HOURS"><set name="message">kids programs</set></li>
+<li value="* STORY HOURS"><set name="message">kids programs</set></li>
+<li value="STORY HOURS *"><set name="message">kids programs</set></li>
+<li value="* STORY HOURS *"><set name="message">kids programs</set></li>
+
+<li value="STORYTIME"><set name="message">kids programs</set></li>
+<li value="* STORYTIME"><set name="message">kids programs</set></li>
+<li value="STORYTIME *"><set name="message">kids programs</set></li>
+<li value="* STORYTIME *"><set name="message">kids programs</set></li>
+
+<li value="STORY TIME"><set name="message">kids programs</set></li>
+<li value="* STORY TIME"><set name="message">kids programs</set></li>
+<li value="STORY TIME *"><set name="message">kids programs</set></li>
+<li value="* STORY TIME *"><set name="message">kids programs</set></li>
+
+<li value="STORYTIMES"><set name="message">kids programs</set></li>
+<li value="* STORYTIMES"><set name="message">kids programs</set></li>
+<li value="STORYTIMES *"><set name="message">kids programs</set></li>
+<li value="* STORYTIMES *"><set name="message">kids programs</set></li>
+
+<li value="STORY TIMES"><set name="message">kids programs</set></li>
+<li value="* STORY TIMES"><set name="message">kids programs</set></li>
+<li value="STORY TIMES *"><set name="message">kids programs</set></li>
+<li value="* STORY TIMES *"><set name="message">kids programs</set></li>
+
+<li value="DOG"><set name="message">paws to read</set></li>
+<li value="* DOG"><set name="message">paws to read</set></li>
+<li value="DOG *"><set name="message">paws to read</set></li>
+<li value="* DOG *"><set name="message">paws to read</set></li>
+
+<li value="DOGS"><set name="message">paws to read</set></li>
+<li value="* DOGS"><set name="message">paws to read</set></li>
+<li value="DOGS *"><set name="message">paws to read</set></li>
+<li value="* DOGS *"><set name="message">paws to read</set></li>
+
+<li value="PAW"><set name="message">paws to read</set></li>
+<li value="* PAW"><set name="message">paws to read</set></li>
+<li value="PAW *"><set name="message">paws to read</set></li>
+<li value="* PAW *"><set name="message">paws to read</set></li>
+
+<li value="PAWS"><set name="message">paws to read</set></li>
+<li value="* PAWS"><set name="message">paws to read</set></li>
+<li value="PAWS *"><set name="message">paws to read</set></li>
+<li value="* PAWS *"><set name="message">paws to read</set></li>
+
+<li value="TIDDLYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLYWINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLYWINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="TIDDLEYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEYWINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLEYWINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEYWINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="TIDDLY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLY WINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLY WINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="TIDDLEY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEY WINKS"><set name="message">tiddlywinks</set></li>
+<li value="TIDDLEY WINKS *"><set name="message">tiddlywinks</set></li>
+<li value="* TIDDLEY WINKS *"><set name="message">tiddlywinks</set></li>
+
+<li value="CONTEST"><set name="message">kids contests</set></li>
+<li value="* CONTEST"><set name="message">kids contests</set></li>
+<li value="CONTEST *"><set name="message">kids contests</set></li>
+<li value="* CONTEST *"><set name="message">kids contests</set></li>
+
+<li value="CONTESTS"><set name="message">kids contests</set></li>
+<li value="* CONTESTS"><set name="message">kids contests</set></li>
+<li value="CONTESTS *"><set name="message">kids contests</set></li>
+<li value="* CONTESTS *"><set name="message">kids contests</set></li>
+
+<li value="READING"><set name="message">srp</set></li>
+<li value="* READING"><set name="message">srp</set></li>
+<li value="READING *"><set name="message">srp</set></li>
+<li value="* READING *"><set name="message">srp</set></li>
+
+<li value="SRP"><set name="message">srp</set></li>
+<li value="* SRP"><set name="message">srp</set></li>
+<li value="SRP *"><set name="message">srp</set></li>
+<li value="* SRP *"><set name="message">srp</set></li>
+
+<li value="SUMMER"><set name="message">srp</set></li>
+<li value="* SUMMER"><set name="message">srp</set></li>
+<li value="SUMMER *"><set name="message">srp</set></li>
+<li value="* SUMMER *"><set name="message">srp</set></li>
+
+<li value="TEEN"><set name="message">teen</set></li>
+<li value="* TEEN"><set name="message">teen</set></li>
+<li value="TEEN *"><set name="message">teen</set></li>
+<li value="* TEEN *"><set name="message">teen</set></li>
+
+<li value="TEENS"><set name="message">teen</set></li>
+<li value="* TEENS"><set name="message">teen</set></li>
+<li value="TEENS *"><set name="message">teen</set></li>
+<li value="* TEENS *"><set name="message">teen</set></li>
+
+<li value="YA"><set name="message">teen</set></li>
+<li value="* YA"><set name="message">teen</set></li>
+<li value="YA *"><set name="message">teen</set></li>
+<li value="* YA *"><set name="message">teen</set></li>
+
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+
+<li value="upcoming events">You can find library events and programs on our calendar. I'll open it for you. Just pick your month and you'll see the programs that are scheduled.
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="author visits">All author visits and book signings will be on our calendar. They will also be listed on our home page.
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="calendar">We have programs and events for all ages. Unless noted, all library events are free. 
+Here is our calendar. 
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="registration">You can register for a program by following the "register online" link in the program desciption, or by clicking on the program title in our calendar (I'll open it for you). 
+Or you can call the library and register over the phone. 
+<think><set name="search">mplcal</set></think>
+</li>
+
+<li value="cost">Unless noted, all Library programs are free.</li>
+
+<li value="kids programs">
+<random>
+<li> Follow this link for a list of our current <a href="http://www.mentorpl.org/pdfs/currentkids.pdf" target="_blank"><b>Children's Storytimes, Programs and Events</b></a>.
+  You can sign up for these by using our <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>Events Calendar</b></a>, or by calling us at 440.255.8811 extension 221.</li>
+ <li>We have programs and Story Times for children of all ages.  Here's a <a href="http://www.mentorpl.org/pdfs/currentkids.pdf"><b>complete schedule</b></a>. Sign up using the <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>our calendar</b></a> or call us at 440.255.8811. 
+ </li>
+ </random>
+</li>
+
+<li value="paws to read">Children read to trained dogs. It's good practice for the kids because the dogs are nonjudgemental.
+Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
+  <b>Children's pages</b></a> for the next Paws to Read.</li>
+  
+<li value="tiddlywinks">Check our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Children's pages</b></a> for Tiddlywinks times.</li>
+
+<li value="kids contests">Check our <a href="http://www.mentorpl.org/children.html" target="_blank">
+  <b>Children's pages</b>
+</a> for information about Children's contests and events. You can also check <a href="http://www.mentor.lib.oh.us/evanced/lib/eventcalendar.asp?Lib=ALL" target="_blank"><b>our calendar</b></a>.</li>
+
+<li value="srp">You can find more info about our Reading Programs on our <a href="http://www.mentorpl.org/children.html" target="_blank"><b>Children's pages</b></a>.</li>
+
+<li value="teen">You can find programs for teens on our calendar. On the left.
+If you'd like to present a program at the Library, please call us at 440.255.8811.</li>
+
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

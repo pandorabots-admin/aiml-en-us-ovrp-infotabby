@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -16,229 +16,414 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
   
+<!--COMMENT-->
+
+<category>
+<pattern>COMMENT</pattern>
+<template>You can use <a href="" target="_blank"><b>this form</b></a> or you can tell me your comment or complaint.</template>
+</category>
+
+<category>
+<pattern>* COMMENT</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>COMMENT *</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>* COMMENT *</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>COMMENTS</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>* COMMENTS</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>COMMENTS *</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>* COMMENTS *</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>_ TELL ME YOUR COMMENT OR COMPLAINT</that>
+<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that this gets to the correct person.
+Please enter your contact information, an email address or phone number so we can follow up on this.
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>_ SO WE CAN FOLLOW UP ON THIS</that>
+<template>Thank you. You entered: <b>"<star/>"</b>. Someone from the Library will
+be in touch with you.
+</template>
+</category>
 
 <category>
 <pattern>COMPLAINT</pattern>
-<template><pattern>Please tell me your complaint.</pattern></template>
+<template><srai>COMMENT</srai></template>
 </category>
-
-<category>
-<pattern> * </pattern>
-<that>PLEASE TELL ME YOUR COMPLAINT</that>
-<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
-</category>
- 
 
 <category>
 <pattern>COMPLAIN *</pattern>
-<template><srai>COMPLAINT</srai></template>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
 <pattern>_ COMPLAIN</pattern>
-<template><srai>COMPLAINT</srai></template>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
 <pattern>_ COMPLAIN *</pattern>
-<template><srai>COMPLAINT</srai></template>
+<template><srai>COMMENT</srai></template>
 </category>
 
+<category>
+<pattern>COMPLAINT</pattern>
+<template><srai>COMMENT</srai></template>
+</category>
 
 <category>
 <pattern>_ COMPLAINT</pattern>
-<template><srai>COMPLAINT</srai></template>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
 <pattern>COMPLAINT *</pattern>
-<template><srai>COMPLAINT</srai></template>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
 <pattern>_ COMPLAINT *</pattern>
-<template><srai>COMPLAINT</srai></template>
-</category>
-
-
-
-<!--COMMENT-->
-
-<category>
-<pattern>LEAVE * COMMENT</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>_ LEAVE * COMMENT</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<pattern>COMPLAINTS</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>_ LEAVE * COMMENT *</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<pattern>_ COMPLAINTS</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>LEAVE * COMMENT *</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<pattern>COMPLAINTS *</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>MAKE * COMMENT</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<pattern>_ COMPLAINTS *</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>_ MAKE * COMMENT</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<pattern>COMPLAINING</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>_ MAKE * COMMENT *</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
+<pattern>_ COMPLAINING</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>MAKE * COMMENT *</pattern>
-<template><pattern>Please enter your comment.</pattern></template>
-</category>
-
-
-<category>
-<pattern>_</pattern>
-<that>PLEASE ENTER YOUR COMMENT</that>
-<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
-</category>
-
-<!--SUGGESTION-->
-<category>
-<pattern>MAKE * SUGGESTION</pattern>
-<template><pattern>Please enter your suggestion.</pattern></template>
+<pattern>COMPLAINING *</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
-<pattern>_ MAKE * SUGGESTION</pattern>
-<template><pattern>Please enter your suggestion.</pattern></template>
+<pattern>_ COMPLAINING *</pattern>
+<template><srai>COMMENT</srai></template>
 </category>
+
+<!--SUGGESTIONS-->
 
 <category>
-<pattern>_ MAKE * SUGGESTION *</pattern>
-<template><pattern>Please enter your suggestion.</pattern></template>
+<pattern>SGGST</pattern>
+<template>Just so I understand, is this a suggestion for an item you'd like the library to purchase, or an idea to help us to improve our services?
+<think>
+<set name="topic">SUGGEST</set>
+</think>
+</template>
 </category>
 
-<category>
-<pattern>MAKE * SUGGESTION *</pattern>
-<template><pattern>Please enter your suggestion.</pattern></template>
-</category>
-
-
+<topic name="SUGGEST">
 <category>
 <pattern>_</pattern>
-<that>PLEASE ENTER YOUR SUGGESTION</that>
-<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that the correct person gets your message.</template>
-</category>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">service suggestion</set>
+<condition name="answr">
 
+<li value="ADD"><set name="message">purchase suggestion</set></li>
+<li value="* ADD"><set name="message">purchase suggestion</set></li>
+<li value="ADD *"><set name="message">purchase suggestion</set></li>
+<li value="* ADD *"><set name="message">purchase suggestion</set></li>
 
+<li value="ADDED"><set name="message">purchase suggestion</set></li>
+<li value="* ADDED"><set name="message">purchase suggestion</set></li>
+<li value="ADDED *"><set name="message">purchase suggestion</set></li>
+<li value="* ADDED *"><set name="message">purchase suggestion</set></li>
 
-<!--can't wait-->
+<li value="BOOK"><set name="message">purchase suggestion</set></li>
+<li value="* BOOK"><set name="message">purchase suggestion</set></li>
+<li value="BOOK *"><set name="message">purchase suggestion</set></li>
+<li value="* BOOK *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>CANTWAIT</pattern>
-  <template>Well, you can always try another library. Morley is especially lovely at this time of year. 
- </template>
-</category>
+<li value="BOOKS"><set name="message">purchase suggestion</set></li>
+<li value="* BOOKS"><set name="message">purchase suggestion</set></li>
+<li value="BOOKS *"><set name="message">purchase suggestion</set></li>
+<li value="* BOOKS *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_ can not wait</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="CD"><set name="message">purchase suggestion</set></li>
+<li value="* CD"><set name="message">purchase suggestion</set></li>
+<li value="CD *"><set name="message">purchase suggestion</set></li>
+<li value="* CD *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_ can not wait *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="CDS"><set name="message">purchase suggestion</set></li>
+<li value="* CDS"><set name="message">purchase suggestion</set></li>
+<li value="CDS *"><set name="message">purchase suggestion</set></li>
+<li value="* CDS *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>can not wait *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="DVD"><set name="message">purchase suggestion</set></li>
+<li value="* DVD"><set name="message">purchase suggestion</set></li>
+<li value="DVD *"><set name="message">purchase suggestion</set></li>
+<li value="* DVD *"><set name="message">purchase suggestion</set></li>
 
+<li value="DVDS"><set name="message">purchase suggestion</set></li>
+<li value="* DVDS"><set name="message">purchase suggestion</set></li>
+<li value="DVDS *"><set name="message">purchase suggestion</set></li>
+<li value="* DVDS *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_ wait * too long *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="EBOOK"><set name="message">purchase suggestion</set></li>
+<li value="* EBOOK"><set name="message">purchase suggestion</set></li>
+<li value="EBOOK *"><set name="message">purchase suggestion</set></li>
+<li value="* EBOOK *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>too long * wait *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="EBOOKS"><set name="message">purchase suggestion</set></li>
+<li value="* EBOOKS"><set name="message">purchase suggestion</set></li>
+<li value="EBOOKS *"><set name="message">purchase suggestion</set></li>
+<li value="* EBOOKS *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>do not want to wait</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="E BOOK"><set name="message">purchase suggestion</set></li>
+<li value="* E BOOK"><set name="message">purchase suggestion</set></li>
+<li value="E BOOK *"><set name="message">purchase suggestion</set></li>
+<li value="* E BOOK *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_ do not want to wait</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="E BOOKS"><set name="message">purchase suggestion</set></li>
+<li value="* E BOOKS"><set name="message">purchase suggestion</set></li>
+<li value="E BOOKS *"><set name="message">purchase suggestion</set></li>
+<li value="* E BOOKS *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_ do not want to wait *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="GAME"><set name="message">purchase suggestion</set></li>
+<li value="* GAME"><set name="message">purchase suggestion</set></li>
+<li value="GAME *"><set name="message">purchase suggestion</set></li>
+<li value="* GAME *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>do not want to wait *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="GAMES"><set name="message">purchase suggestion</set></li>
+<li value="* GAMES"><set name="message">purchase suggestion</set></li>
+<li value="GAMES *"><set name="message">purchase suggestion</set></li>
+<li value="* GAMES *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>TAKES TOO LONG</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="MOVIE"><set name="message">purchase suggestion</set></li>
+<li value="* MOVIE"><set name="message">purchase suggestion</set></li>
+<li value="MOVIE *"><set name="message">purchase suggestion</set></li>
+<li value="* MOVIE *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_  TAKES TOO LONG</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="MOVIES"><set name="message">purchase suggestion</set></li>
+<li value="* MOVIES"><set name="message">purchase suggestion</set></li>
+<li value="MOVIES *"><set name="message">purchase suggestion</set></li>
+<li value="* MOVIES *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_  TAKES TOO LONG *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="MUSIC"><set name="message">purchase suggestion</set></li>
+<li value="* MUSIC"><set name="message">purchase suggestion</set></li>
+<li value="MUSIC *"><set name="message">purchase suggestion</set></li>
+<li value="* MUSIC *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_ TAKES * TOO LONG *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="SOUND TRACK"><set name="message">purchase suggestion</set></li>
+<li value="* SOUND TRACK"><set name="message">purchase suggestion</set></li>
+<li value="SOUND TRACK *"><set name="message">purchase suggestion</set></li>
+<li value="* SOUND TRACK *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>TAKES TOO LONG *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="SOUND TRACKS"><set name="message">purchase suggestion</set></li>
+<li value="* SOUND TRACKS"><set name="message">purchase suggestion</set></li>
+<li value="SOUND TRACKS *"><set name="message">purchase suggestion</set></li>
+<li value="* SOUND TRACKS *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>TAKE TOO LONG</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="BUY"><set name="message">purchase suggestion</set></li>
+<li value="* BUY"><set name="message">purchase suggestion</set></li>
+<li value="BUY *"><set name="message">purchase suggestion</set></li>
+<li value="* BUY *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_  TAKE TOO LONG</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="COPY"><set name="message">purchase suggestion</set></li>
+<li value="* COPY"><set name="message">purchase suggestion</set></li>
+<li value="COPY *"><set name="message">purchase suggestion</set></li>
+<li value="* COPY *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>_  TAKE TOO LONG *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="COPIES"><set name="message">purchase suggestion</set></li>
+<li value="* COPIES"><set name="message">purchase suggestion</set></li>
+<li value="COPIES *"><set name="message">purchase suggestion</set></li>
+<li value="* COPIES *"><set name="message">purchase suggestion</set></li>
 
-<category>
-  <pattern>TAKE TOO LONG *</pattern>
-  <template><srai>CANTWAIT</srai></template>
-</category>
+<li value="GET"><set name="message">purchase suggestion</set></li>
+<li value="* GET"><set name="message">purchase suggestion</set></li>
+<li value="GET *"><set name="message">purchase suggestion</set></li>
+<li value="* GET *"><set name="message">purchase suggestion</set></li>
 
+<li value="ORDER"><set name="message">purchase suggestion</set></li>
+<li value="* ORDER"><set name="message">purchase suggestion</set></li>
+<li value="ORDER *"><set name="message">purchase suggestion</set></li>
+<li value="* ORDER *"><set name="message">purchase suggestion</set></li>
+
+<li value="PURCHASE"><set name="message">purchase suggestion</set></li>
+<li value="* PURCHASE"><set name="message">purchase suggestion</set></li>
+<li value="PURCHASE *"><set name="message">purchase suggestion</set></li>
+<li value="* PURCHASE *"><set name="message">purchase suggestion</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
  
- </aiml>
+<condition name="message">
+
+<li value="purchase suggestion"><srai>PRCHSGGST</srai></li>
+<li value="service suggestion"><srai>SRVCSGGST</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<category>
+<pattern>PRCHSGGST</pattern>
+<template>
+Tell me about the item. Please enter your library card number and the author, title, or other information for the item.
+<think>
+<set name="topic">PRCHSGGST</set>
+</think>
+</template>
+</category>
+
+
+<topic name="PRCHSGGST">
+<category>
+<pattern>*</pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern> MYSTERY </pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern>_ MYSTERY </pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern> MYSTERY *</pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern>_ MYSTERY *</pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern> MYSTERIES </pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern>_ MYSTERIES </pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern> MYSTERIES *</pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern>_ MYSTERIES *</pattern>
+<that>PLEASE ENTER * INFORMATION FOR THE ITEM</that>
+<template><srai>PSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern>PSGGSTCONF</pattern>
+<template>Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about 
+a month. Please check the status of this request then.
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+</topic>
+
+<!--SERVICE SUGGESTION-->
+
+<category>
+<pattern>SRVCSGGST</pattern>
+<template>
+Tell me your suggestion.
+<think>
+<set name="topic">SRVCSGGST</set>
+</think>
+</template>
+</category>
+
+<topic name="SRVCSGGST">
+<category>
+<pattern>*</pattern>
+<template><srai>SRVCSGGSTCONF</srai></template>
+</category>
+
+<category>
+<pattern>SRVCSGGSTCONF</pattern>
+<template>Thank you. You wrote: <b>"<star/>"</b>. I'll see that this gets to the correct person.
+Please enter your contact information, an email address or phone number so we can follow up.
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>_ SO WE CAN FOLLOW UP</that>
+<template>Thank you. You entered: <b>"<star/>"</b>. Someone from the Library will
+be in touch with you shortly.
+</template>
+</category>
+</topic>
+
+</aiml>

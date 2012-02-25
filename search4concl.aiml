@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -21,129 +21,73 @@
 <pattern>0CONCL</pattern>
 <template>
 <random>
-<li>Is there anything else you'd like to ask me?</li>
-<li>Is there anything else you'd like to talk about?</li>
+<li>Is there anything else I can do for you?</li>
+<li>Is there anything else I can help you with?</li>
 <li>Is there anything else you'd like to chat about?</li>
 </random>
+<think><set name="topic">SRCHCONCL</set>
+</think>
 </template>
 </category>
 
-<category>
-<pattern>NO</pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>ENDNG</srai></template>
-</category>
 
+<topic name="SRCHCONCL">
 <category>
-<pattern>* NO</pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>ENDNG</srai></template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>ENDNG</srai></template>
-</category>
-
-<category>
-<pattern>* NO *</pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>ENDNG</srai></template>
-</category>
-
-<category>
-<pattern> YES </pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>NONCONCL</srai></template>
-</category>
-
-<category>
-<pattern>_ YES </pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>NONCONCL</srai></template>
-</category>
-
-<category>
-<pattern> YES *</pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>NONCONCL</srai></template>
-</category>
-
-<category>
-<pattern>_ YES *</pattern>
-<that>IS THERE ANYTHING ELSE * </that>
-<template><srai>NONCONCL</srai></template>
-</category>
-
-
-<category>
-<pattern>CONCL</pattern>
+<pattern>_</pattern>
 <template>
-If you need further assistance, call the library at 440.255.8811 during regular business hours or follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to reach a live human librarian anytime, day or night.
-<br/><br/>
+<think>
+<set name="answr"><star/></set>
+<set name="message">cont</set>
+<condition name="answr">
+
+<li value="NO"><set name="message">concl</set></li>
+<li value="* NO"><set name="message">concl</set></li>
+<li value="NO *"><set name="message">concl</set></li>
+<li value="* NO *"><set name="message">concl</set></li>
+
+<li value="NOT"><set name="message">concl</set></li>
+<li value="* NOT"><set name="message">concl</set></li>
+<li value="NOT *"><set name="message">concl</set></li>
+<li value="* NOT *"><set name="message">concl</set></li>
+
+<li value="THANK"><set name="message">thanks</set></li>
+<li value="* THANK"><set name="message">thanks</set></li>
+<li value="THANK *"><set name="message">thanks</set></li>
+<li value="* THANK *"><set name="message">thanks</set></li>
+
+<li value="THANKS"><set name="message">thanks</set></li>
+<li value="* THANKS"><set name="message">thanks</set></li>
+<li value="THANKS *"><set name="message">thanks</set></li>
+<li value="* THANKS *"><set name="message">thanks</set></li>
+
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+<li value="cont"><srai><get name="answr"/></srai></li>
+<li value="thanks">
 <random>
-<li>Is there anything else you'd like to ask me?</li>
-<li>Is there anything else you'd like to talk about?</li>
-<li>Is there anything else you'd like to chat about?</li>
+<li>Any Catbot that can't do this much isn't worth her salt.</li>
+<li>You see, I am merely one heck of a Catbot</li>
+<li>Any Catbot that can't do even this much isn't worth her salt.</li>
+<li>I am merely one heck of a Catbot.</li>
 </random>
-</template>
-</category>
-
-<category>
-<pattern>ENDNG</pattern>
-<template>
+</li>
+<li value="concl">
 <random>
 <li>Very good. I'm pleased we had this conversation.</li>
 <li>This has been a most interesting conversation. Thanks!</li>
 <li>Thanks for chatting. Every interaction helps me become smarter.</li>
 <li>Thanks! Interacting with humans is fascinating. I'm learning more about you everyday.</li>
 </random>
+</li>
+
+</condition>
 </template>
 </category>
-
-<category>
-<pattern>NONCONCL</pattern>
-<template>
-<srai>SBSQLKUP</srai>
-</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
-<template><srai>SBSQLKUP</srai></template>
-</category>
-
-<category>
-<pattern>_ YES</pattern>
-<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
-<template><srai>SBSQLKUP</srai></template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
-<template><srai>SBSQLKUP</srai></template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
-<template><srai>ENDNG</srai></template>
-</category>
-
-<category>
-<pattern>_ NO</pattern>
-<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
-<template><srai>ENDNG</srai></template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>DO YOU HAVE ANY OTHER QUESTIONS</that>
-<template><srai>ENDNG</srai></template>
-</category>
+</topic>
 
 </aiml>
 

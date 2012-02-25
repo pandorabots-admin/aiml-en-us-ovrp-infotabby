@@ -22,49 +22,48 @@
   </template>
 </category>
 
-
 <category>
-  <pattern>abortion</pattern>
+  <pattern>ABORTION</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>* abortion</pattern>
+  <pattern>* ABORTION</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>* abortion *</pattern>
+  <pattern>* ABORTION *</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>abortion *</pattern>
+  <pattern>ABORTION *</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>abortions</pattern>
+  <pattern>ABORTIONS</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>* abortions</pattern>
+  <pattern>* ABORTIONS</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>* abortions *</pattern>
+  <pattern>* ABORTIONS *</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>abortions *</pattern>
+  <pattern>ABORTIONS *</pattern>
   <template><srai>ABORTN</srai></template>
 </category>
 
 <category>
-  <pattern>drug</pattern>
+  <pattern>DRUG</pattern>
   <template>
    <random>     
       <li>If humans spent as much time trying to solve their problems as they do running away from them, they'd have no need for drugs.</li>
@@ -75,138 +74,138 @@
 </category>
 
 <category>
-  <pattern>* drug</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* DRUG</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* drug *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* DRUG *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>drug *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>DRUG *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>drugs</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>DRUGS</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* drugs</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* DRUGS</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* drugs *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* DRUGS *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>drugs *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>DRUGS *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>crack</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>CRACK</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* crack</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* CRACK</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* crack *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* CRACK *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>crack *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>CRACK *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>pot</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>POT</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* pot</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* POT</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* pot *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* POT *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>pot *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>POT *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>weed</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>WEED</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* weed</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* WEED</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* weed *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* WEED *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>weed *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>WEED *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>cocaine</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>COCAINE</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* cocaine</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* COCAINE</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* cocaine *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* COCAINE *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>cocaine *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>COCAINE *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>lsd</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>LSD</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* lsd</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* LSD</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* lsd *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>* LSD *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>lsd *</pattern>
-  <template><srai>drug</srai></template>
+  <pattern>LSD *</pattern>
+  <template><srai>DRUG</srai></template>
 </category>
 
 
@@ -222,62 +221,62 @@
 </category>
 
 <category>
-  <pattern>hook up</pattern>
+  <pattern>HOOK UP</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* hook up</pattern>
+  <pattern>* HOOK UP</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* hook up *</pattern>
+  <pattern>* HOOK UP *</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>hook up *</pattern>
+  <pattern>HOOK UP *</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>hookup</pattern>
+  <pattern>HOOKUP</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* hookup</pattern>
+  <pattern>* HOOKUP</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* hookup *</pattern>
+  <pattern>* HOOKUP *</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>hookup *</pattern>
+  <pattern>HOOKUP *</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>have sex</pattern>
+  <pattern>HAVE SEX</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* have sex</pattern>
+  <pattern>* HAVE SEX</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* have sex *</pattern>
+  <pattern>* HAVE SEX *</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>have sex *</pattern>
+  <pattern>HAVE SEX *</pattern>
   <template><srai>HOOKUP</srai></template>
 </category>
 

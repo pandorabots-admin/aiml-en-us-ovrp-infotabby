@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -14,16 +14,114 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.-->
+    
+<category>
+<pattern>YOU * POET</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+  
+<category>
+<pattern>* YOU * POET</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
 
+<category>
+<pattern>YOU * POET *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* YOU * POET *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>YOU RE * POET</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+  
+<category>
+<pattern>* YOU RE * POET</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>YOU RE * POET *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* YOU RE * POET *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>YOUR * POEMS</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+  
+<category>
+<pattern>* YOUR * POEMS</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>YOUR * POEMS *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR * POEMS *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>YOUR * POETRY</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+  
+<category>
+<pattern>* YOUR * POETRY</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>YOUR * POETRY *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* YOUR * POETRY *</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+   
+<category>
+<pattern>* YOU LIKE POETRY</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* WRITE POETRY</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* WRITE POEMS</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* WRITE * POEMS</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
+
+<category>
+<pattern>* WRITE * POEM</pattern>
+<template><srai>CWBYPTRY</srai></template>
+</category>
   
 <!--COWBOT-->
   
-<category>
-<pattern>CWBYPTRY</pattern>
-<template>I like cowboy poetry so much I even write it.
-Would you like to hear one of my poems?</template>
-</category>
-
 <category>
 <pattern>COWBOT</pattern>
 <template><srai>CWBYPTRYHIST</srai></template>
@@ -49,7 +147,6 @@ Would you like to hear one of my poems?</template>
 <template><srai>CWBYPTRYHIST</srai></template>
 </category>
 
-
 <category>
 <pattern>_ COW BOT</pattern>
 <template><srai>CWBYPTRYHIST</srai></template>
@@ -69,7 +166,6 @@ Would you like to hear one of my poems?</template>
 <pattern>COWBOTS</pattern>
 <template><srai>CWBYPTRYHIST</srai></template>
 </category>
-
 
 <category>
 <pattern>_ COWBOTS</pattern>
@@ -91,7 +187,6 @@ Would you like to hear one of my poems?</template>
 <template><srai>CWBYPTRYHIST</srai></template>
 </category>
 
-
 <category>
 <pattern>_ COW BOTS</pattern>
 <template><srai>CWBYPTRYHIST</srai></template>
@@ -109,13 +204,21 @@ Would you like to hear one of my poems?</template>
 
 <category>
 <pattern>CWBYPTRY</pattern>
-<template>I like cowboy poetry so much I even write it.
+<template>
+<think>
+<set name="topic">CWBYPTY</set>
+</think>
+I like poetry very much, especially your human "cowboy poetry." I like it so much I even write it.
 Would you like to hear one of my poems?</template>
 </category>
 
 <category>
 <pattern>CWBYPTRYHIST</pattern>
-<template>The historic American cowbot of the late 19th century Golden West became a figure of special significance and legend. Cowbots tended virtual cattle,
+<template>
+<think>
+<set name="topic">CWBYPTY</set>
+</think>
+The historic American cowbot of the late 19th century Golden West became a figure of special significance and legend. Cowbots tended virtual cattle,
 brought outlaws to justice, were models of prudence and temperance, and also wrote poetry. I find their poems so compelling  that I'm writing some of my own.
 <br/><br/>
 Would you like to hear one of my poems?</template>
@@ -125,7 +228,6 @@ Would you like to hear one of my poems?</template>
 <pattern>COWBOY POETRY</pattern>
 <template><srai>CWBYPTRY</srai></template>
 </category>
-
 
 <category>
 <pattern>_ COWBOY POETRY</pattern>
@@ -141,8 +243,7 @@ Would you like to hear one of my poems?</template>
 <pattern>_ COWBOY POETRY *</pattern>
 <template><srai>CWBYPTRY</srai></template>
 </category>
-  
-  
+    
 <category>
 <pattern>COWBOY POEMS</pattern>
 <template><srai>CWBYPTRY</srai></template>
@@ -168,7 +269,6 @@ Would you like to hear one of my poems?</template>
 <template><srai>CWBYPTRY</srai></template>
 </category>
 
-
 <category>
 <pattern>_ COWBOY POEM</pattern>
 <template><srai>CWBYPTRY</srai></template>
@@ -184,128 +284,74 @@ Would you like to hear one of my poems?</template>
 <template><srai>CWBYPTRY</srai></template>
 </category>
 
-
 <category>
-<pattern> YES </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
+<pattern>CWBYPTRY</pattern>
+<template>
+I like cowboy poetry so much, I even write it.
+<random>
+<li>Would you like to hear one of my poems? </li>
+<li>Shall I treat you to one of my powerful evocations of the Golden West?</li>
+</random>
+<think><set name="topic">CWBYPTY</set>
+</think>
+</template>
 </category>
 
+<topic name="CWBYPTY">
 <category>
-<pattern> YES *</pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">continue</set>
+<condition name="answr">
+
+<li value="CEASE"><set name="message">stop</set></li>
+<li value="* CEASE"><set name="message">stop</set></li>
+<li value="CEASE *"><set name="message">stop</set></li>
+<li value="* CEASE *"><set name="message">stop</set></li>
+
+<li value="DESIST"><set name="message">stop</set></li>
+<li value="* DESIST"><set name="message">stop</set></li>
+<li value="DESIST *"><set name="message">stop</set></li>
+<li value="* DESIST *"><set name="message">stop</set></li>
+
+<li value="END"><set name="message">stop</set></li>
+<li value="* END"><set name="message">stop</set></li>
+<li value="END *"><set name="message">stop</set></li>
+<li value="* END *"><set name="message">stop</set></li>
+
+<li value="ENOUGH"><set name="message">stop</set></li>
+<li value="* ENOUGH"><set name="message">stop</set></li>
+<li value="ENOUGH *"><set name="message">stop</set></li>
+<li value="* ENOUGH *"><set name="message">stop</set></li>
+
+<li value="HALT"><set name="message">stop</set></li>
+<li value="* HALT"><set name="message">stop</set></li>
+<li value="HALT *"><set name="message">stop</set></li>
+<li value="* HALT *"><set name="message">stop</set></li>
+
+<li value="NO"><set name="message">stop</set></li>
+<li value="* NO"><set name="message">stop</set></li>
+<li value="NO *"><set name="message">stop</set></li>
+<li value="* NO *"><set name="message">stop</set></li>
+
+<li value="STOP"><set name="message">stop</set></li>
+<li value="* STOP"><set name="message">stop</set></li>
+<li value="STOP *"><set name="message">stop</set></li>
+<li value="* STOP *"><set name="message">stop</set></li>
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+<li value="continue"><srai>CWBYPOEM</srai></li>
+<li value="halt"><srai>ENDCBPOETRY</srai></li>
+
+</condition>
+</template>
 </category>
-
-<category>
-<pattern> OK </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> OK * </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> SURE </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> SURE * </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-
-<category>
-<pattern> NO </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> NO *</pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern>_ RATHER *</pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> * </pattern>
-<that>WOULD YOU LIKE TO HEAR ONE OF MY POEMS</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> YES </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> YES *</pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> OK </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> OK * </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> SURE </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> SURE * </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-
-<category>
-<pattern> NO </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> NO *</pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern>_ RATHER *</pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern> * </pattern>
-<that>WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
+</topic>
 
 <category>
 <pattern>CWBYPOEM</pattern>
@@ -316,22 +362,82 @@ Would you like to hear one of my poems?</template>
 <srai>CPLN4</srai>
 <br/><br/>
 Would you like to hear another one?
-<think>
-<set name="topic">CWBYPTY</set>
-</think>
+<think><set name="topic">MOREPOETRY</set></think>
 </template>
 </category>
 
+
+<topic name="MOREPOETRY">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">continue</set>
+
+<condition name="answr">
+
+<li value="CEASE"><set name="message">stop</set></li>
+<li value="* CEASE"><set name="message">stop</set></li>
+<li value="CEASE *"><set name="message">stop</set></li>
+<li value="* CEASE *"><set name="message">stop</set></li>
+
+<li value="DESIST"><set name="message">stop</set></li>
+<li value="* DESIST"><set name="message">stop</set></li>
+<li value="DESIST *"><set name="message">stop</set></li>
+<li value="* DESIST *"><set name="message">stop</set></li>
+
+<li value="END"><set name="message">stop</set></li>
+<li value="* END"><set name="message">stop</set></li>
+<li value="END *"><set name="message">stop</set></li>
+<li value="* END *"><set name="message">stop</set></li>
+
+<li value="ENOUGH"><set name="message">stop</set></li>
+<li value="* ENOUGH"><set name="message">stop</set></li>
+<li value="ENOUGH *"><set name="message">stop</set></li>
+<li value="* ENOUGH *"><set name="message">stop</set></li>
+
+<li value="HALT"><set name="message">stop</set></li>
+<li value="* HALT"><set name="message">stop</set></li>
+<li value="HALT *"><set name="message">stop</set></li>
+<li value="* HALT *"><set name="message">stop</set></li>
+
+<li value="NO"><set name="message">stop</set></li>
+<li value="* NO"><set name="message">stop</set></li>
+<li value="NO *"><set name="message">stop</set></li>
+<li value="* NO *"><set name="message">stop</set></li>
+
+<li value="STOP"><set name="message">stop</set></li>
+<li value="* STOP"><set name="message">stop</set></li>
+<li value="STOP *"><set name="message">stop</set></li>
+<li value="* STOP *"><set name="message">stop</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+<condition name="message">
+<li value="continue"><srai>CWBYPOEM2</srai></li>
+<li value="stop"><srai>ENDCBPOETRY</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+
 <category>
 <pattern>CWBYPOEM2</pattern>
-<template>
+<template>OK. Here's one of my poems:<br/><p/>
 <srai>CPLN1</srai><br/>
 <srai>CPLN2</srai><br/>
 <srai>CPLN3</srai><br/>
-<srai>CPLN4</srai><br/><br/>
-Pretty good, huh?
+<srai>CPLN4</srai>
+<br/><br/>
+Would you like to hear another poem?
+<think><set name="topic">MOREPOETRY</set></think>
 </template>
 </category>
+
+
 
 <category>
 <pattern>CPLN1</pattern>
@@ -353,8 +459,8 @@ Pretty good, huh?
 <pattern>CPLN2</pattern>
 <template>
 <random>
-<li>nothin' left back East.</li>
-<li>cold wind blowin'</li>
+<li>Nothin' left back East.</li>
+<li>Cold wind blowin'</li>
 <li>This prairie flower,</li>
 <li>We buried him here.</li>
 <li>Not enough water, let 'em die.</li>
@@ -397,152 +503,101 @@ Pretty good, huh?
 </template>
 </category>
 
-<topic name="CWBYPTY">
-<category>
-<pattern> YES </pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template><srai>CWBYPOEM2</srai></template>
-</category>
 
 <category>
-<pattern>_ YES </pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template><srai>CWBYPOEM2</srai></template>
-</category>
-
-<category>
-<pattern> YES *</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template><srai>CWBYPOEM2</srai></template>
-</category>
-
-<category>
-<pattern>_ YES *</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template><srai>CWBYPOEM2</srai></template>
-</category>
-
-<category>
-<pattern>NO</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
-</category>
-
-<category>
-<pattern>NO *</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
-</category>
-
-<category>
-<pattern>_ NO</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
-</category>
-
-<category>
-<pattern>_ NO *</pattern>
-<that>WOULD YOU LIKE TO HEAR ANOTHER ONE</that>
-<template>Most humans find my poems powerful and evocative, if somewhat depressing.</template>
-</category>
-</topic>
-
-<category>
-<pattern> * </pattern>
-<that>_ POWERFUL AND EVOCATIVE IF SOMEWHAT DEPRESSING</that>
+<pattern>ENDCBPOETRY</pattern>
 <template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic"></set>
-</think>
-<srai>COWPOKES R <get name="answr"/></srai>
-<condition name="depressedcowboys">
-<li value="happy">Enough poetry. What else would you like to talk about?</li>
-<li value="sad">They're slightly depressing.</li>
-</condition>
-</template>
+Most humans find my poems powerful and evocative, if somewhat depressing.</template>
 </category>
-  
-<category>
-<pattern>COWPOKES R * </pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
-</category>  
+
+<!--BLAKE-->
 
 <category>
-<pattern>COWPOKES R DEPRESSING </pattern>
+<pattern>RECITEBLAKE</pattern>
 <template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
-</category> 
-
-<category>
-<pattern>COWPOKES R * DEPRESSING </pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
+<random>
+<li>
+Now the sneaking serpent walks<br/>
+In mild humility.<br/>
+And the just man rages in the wilds<br/>
+Where lions roam. 
+<br/><br/>I didn't write that myself, but I like it.
+If you like Blake's poetry, you can request
+a copy of his complete works <a href="http://catalog.mentorpl.org/record=b1102721~S12" target="_blank"><b>here</b></a>.
+</li>
+<li>
+Catbot, catbot burning bright,<br/>
+In the forests of the night;<br/>
+What immmortal hand or eye,<br/>
+Dare frame thy fearful symmetry?
+<br/><br/>I didn't really write that myself, but I like it.
+If you like Blake's poetry, you can request
+a copy of his complete works <a href="http://catalog.mentorpl.org/record=b1102721~S12" target="_blank"><b>here</b></a>.
+</li>
+</random>
 </template>
 </category>
 
 <category>
-<pattern>COWPOKES R DEPRESSING *</pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
+<pattern>BLAKE</pattern>
+<template><srai>RECITEBLAKE</srai></template>
 </category>
 
 <category>
-<pattern>COWPOKES R * DEPRESSING *</pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
+<pattern>* BLAKE</pattern>
+<template><srai>RECITEBLAKE</srai></template>
 </category>
 
 <category>
-<pattern>COWPOKES R SAD </pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
-</category> 
-
-<category>
-<pattern>COWPOKES R * SAD </pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
+<pattern>BLAKE *</pattern>
+<template><srai>RECITEBLAKE</srai></template>
 </category>
 
 <category>
-<pattern>COWPOKES R SAD *</pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
+<pattern>* BLAKE *</pattern>
+<template><srai>RECITEBLAKE</srai></template>
+</category>
+
+
+<category>
+<pattern>BLAKE S</pattern>
+<template><srai>RECITEBLAKE</srai></template>
 </category>
 
 <category>
-<pattern>COWPOKES R * SAD *</pattern>
-<template>
-<think>
-<set name="depressedcowboys">happy</set>
-</think>
-</template>
+<pattern>* BLAKE S</pattern>
+<template><srai>RECITEBLAKE</srai></template>
 </category>
 
+<category>
+<pattern>BLAKE S *</pattern>
+<template><srai>RECITEBLAKE</srai></template>
+</category>
+
+<category>
+<pattern>* BLAKE S *</pattern>
+<template><srai>RECITEBLAKE</srai></template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<category>
+<pattern>_ RECITE * BLAKE</pattern>
+<template><srai>RECITEBLAKE</srai></template>
+</category>
+
+<category>
+<pattern>_ RECITE * BLAKE *</pattern>
+<template><srai>RECITEBLAKE</srai></template>
+</category>
+
+ 
 
 </aiml>

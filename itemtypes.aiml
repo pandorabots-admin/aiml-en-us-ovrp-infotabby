@@ -16,9 +16,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
-
-
 <!--2HOTS-->
 
 <category>
@@ -74,7 +71,6 @@ We want to keep a number of copies of the most popular titles available for our 
 <template><srai>2H2H</srai></template>
 </category>
 
-
 <!--RENEW 2H-->
 
 <category>
@@ -83,7 +79,6 @@ We want to keep a number of copies of the most popular titles available for our 
 We want to keep a number of copies of the most popular titles available for our walk-in customers. If a "2 Hot 2 Hold" item is available, it should be on its display.
 </template>
 </category>
-
 
 <category>
 <pattern>RENEW 2HOT2HOLD </pattern>

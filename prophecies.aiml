@@ -15,14 +15,12 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.-->
-  
-  
+    
 <category>
 <pattern> * MY FORTUNE</pattern>
 <template>I have been programmed to tell your future. You may not like what you'll hear. Do you want to continue?
 </template>
 </category>
-
 
 <category>
 <pattern>INITP</pattern>
@@ -93,16 +91,15 @@
 <srai>PROPH</srai></template>
 </category>
 
-
 <category>
 <pattern>PROPH</pattern>
 <template>
 <random>
 <li>Fortune will smile upon you, you will find what you seek.</li>
-<li>Storms gather. What stood in strength will fail. Despair.</li>
+<li>Storms gather. What long stood in strength will fail. Despair.</li>
 <li>Your heart's desire will be granted, but only for a day.</li> 
 <li>All hands will turn against you.</li> 
-<li>That which has perished will return. What seemed like years is really but a day.</li> 
+<li>That which has perished will return. What seemed like years is but a day.</li> 
 <li>You will live to see your dearest treasure in the hands of your enemy.</li>
 <li>Success is just out of reach. Do not give up.</li>  
 </random>

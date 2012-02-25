@@ -106,7 +106,6 @@ If you'd like to present a program at the Library, please call us at 440.255.881
 <template><srai>TNPRGRMS</srai></template>
 </category>
 
-
 <category>
   <pattern>TNSDEPT</pattern>
   <template>The Teen Area is on the first floor of the Main Library. 
@@ -135,22 +134,22 @@ If you'd like to present a program at the Library, please call us at 440.255.881
 </category>
 
 <category>
-  <pattern>TEENS department</pattern>
+  <pattern>TEENS DEPARTMENT</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>* TEENS department</pattern>
+  <pattern>* TEENS DEPARTMENT</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>* TEENS department *</pattern>
+  <pattern>* TEENS DEPARTMENT *</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>TEENS department *</pattern>
+  <pattern>TEENS DEPARTMENT *</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
@@ -210,22 +209,22 @@ If you'd like to present a program at the Library, please call us at 440.255.881
 </category>
 
 <category>
-  <pattern>TEENS services</pattern>
+  <pattern>TEENS SERVICES</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>* TEENS services</pattern>
+  <pattern>* TEENS SERVICES</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>* TEENS services *</pattern>
+  <pattern>* TEENS SERVICES *</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>TEENS services *</pattern>
+  <pattern>TEENS SERVICES *</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
@@ -272,22 +271,22 @@ If you'd like to present a program at the Library, please call us at 440.255.881
 
 
 <category>
-  <pattern>YA department</pattern>
+  <pattern>YA DEPARTMENT</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>* YA department</pattern>
+  <pattern>* YA DEPARTMENT</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>* YA department *</pattern>
+  <pattern>* YA DEPARTMENT *</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
 <category>
-  <pattern>YA department *</pattern>
+  <pattern>YA DEPARTMENT *</pattern>
   <template><srai>TNSDEPT</srai></template>
 </category>
 
@@ -317,6 +316,5 @@ If you'd like to present a program at the Library, please call us at 440.255.881
   <pattern>* BOOKS * TEENS *</pattern>
   <template>You might want to call Amy or Mary D. at the library. They know which books teens like.</template>
 </category>
-
 
 </aiml>

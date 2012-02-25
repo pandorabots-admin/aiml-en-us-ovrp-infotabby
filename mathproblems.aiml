@@ -15,8 +15,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
-
 <category>
 <pattern>EQUATION</pattern>
 <template>Please enter your equation.</template>
@@ -117,7 +115,6 @@
 <template>Please enter your math problem.</template>
 </category>
 
-
 <category>
 <pattern>MATH PROBLEMS</pattern>
 <template>Please enter your math problem.</template>
@@ -137,15 +134,6 @@
 <pattern>_ MATH PROBLEMS *</pattern>
 <template>Please enter your math problem.</template>
 </category>
-
-
-
-
-
-
-
-
-
 
 <category>
 <pattern>*</pattern>

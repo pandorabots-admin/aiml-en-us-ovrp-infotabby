@@ -25,12 +25,12 @@ Can I recite one of my favorite haiku for you?
 </category> 
 
 <category>
-<pattern> _ HAIKU </pattern>
+<pattern>_ HAIKU </pattern>
 <template><srai>HAIKU</srai></template>
 </category> 
 
 <category>
-<pattern> _ HAIKU * </pattern>
+<pattern>_ HAIKU * </pattern>
 <template><srai>HAIKU</srai></template>
 </category> 
 
@@ -135,9 +135,6 @@ Can I recite one of my favorite haiku for you?
 <template><srai>CATHAIKU</srai></template>
 </category>
   
-  
-  
-  
 
 <category>
 <pattern>CATHAIKU</pattern>
@@ -229,6 +226,5 @@ I fought for hours. Come and see! <br/>
 What's a "term paper"?
 </template>
 </category>
-
 
 </aiml>

@@ -27,7 +27,6 @@
 </template>
 </category>
 
-
 <category>
 <pattern>JOIN * FRIENDS</pattern>
 <template><srai>JNFRNDS</srai></template>
@@ -84,77 +83,77 @@
 </category>
 
 <category>
-  <pattern>* book sale</pattern>
+  <pattern>* BOOK SALE</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* book sale *</pattern>
+  <pattern>* BOOK SALE *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>book sale *</pattern>
+  <pattern>BOOK SALE *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>book sales</pattern>
+  <pattern>BOOK SALES</pattern>
    <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* book sales</pattern>
+  <pattern>* BOOK SALES</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* book sales *</pattern>
+  <pattern>* BOOK SALES *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>book sales *</pattern>
+  <pattern>BOOK SALES *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>booksale</pattern>
+  <pattern>BOOKSALE</pattern>
    <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* booksale</pattern>
+  <pattern>* BOOKSALE</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* booksale *</pattern>
+  <pattern>* BOOKSALE *</pattern>
     <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>booksale *</pattern>
+  <pattern>BOOKSALE *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>booksales</pattern>
+  <pattern>BOOKSALES</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* booksales</pattern>
+  <pattern>* BOOKSALES</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>* booksales *</pattern>
+  <pattern>* BOOKSALES *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
 <category>
-  <pattern>booksales *</pattern>
+  <pattern>BOOKSALES *</pattern>
   <template><srai>BKSALE</srai></template>
 </category>
 
@@ -188,62 +187,62 @@
 </category>
 
 <category>
-  <pattern>donate</pattern>
+  <pattern>DONATE</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>* donate</pattern>
+  <pattern>* DONATE</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>* donate *</pattern>
+  <pattern>* DONATE *</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>donate *</pattern>
+  <pattern>DONATE *</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>donation</pattern>
+  <pattern>DONATION</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>* donation</pattern>
+  <pattern>* DONATION</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>* donation *</pattern>
+  <pattern>* DONATION *</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>donation *</pattern>
+  <pattern>DONATION *</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>donations</pattern>
+  <pattern>DONATIONS</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>* donations</pattern>
+  <pattern>* DONATIONS</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>* donations *</pattern>
+  <pattern>* DONATIONS *</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
 <category>
-  <pattern>donations *</pattern>
+  <pattern>DONATIONS *</pattern>
   <template><srai>DN8</srai></template>
 </category>
 
@@ -262,7 +261,7 @@
   <template><srai>DN8</srai></template>
 </category>
 
-<!--gifts-->
+<!--GIFTS-->
 
 <category>
   <pattern>GFTS</pattern>
@@ -271,71 +270,51 @@
 </category>
 
 <category>
-  <pattern>gift</pattern>
+  <pattern>GIFT</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>* gift</pattern>
+  <pattern>* GIFT</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>* gift *</pattern>
+  <pattern>* GIFT *</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>gift *</pattern>
+  <pattern>GIFT *</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>gifts</pattern>
+  <pattern>GIFTS</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>* gifts</pattern>
+  <pattern>* GIFTS</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>* gifts *</pattern>
+  <pattern>* GIFTS *</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <category>
-  <pattern>gifts *</pattern>
+  <pattern>GIFTS *</pattern>
   <template><srai>GFTS</srai></template>
 </category>
 
 <!--free books-->
 
 <category>
-  <pattern>FREEBKS</pattern>
-  <template>There is a cart of free books in the Main Library lobby. You may take any of them you wish. Most of the free books are 
+  <pattern>FFREEBKS</pattern>
+  <template>If you're asking about printed items, there is a cart of free books in the Main Library lobby. You may take any of them you wish. Most of the free books are 
   donations and are placed in the lobby by the <a href="http://www.mentorpl.org.friends.html" target="_blank"><b>Friends of Mentor Public Library</b></a>.</template>
-</category>
-
-<category>
-  <pattern>FREE BOOKS</pattern>
-  <template><srai>FREEBKS</srai></template>
-</category>
-
-<category>
-  <pattern>* FREE BOOKS</pattern>
-  <template><srai>FREEBKS</srai></template>
-</category>
-
-<category>
-  <pattern>FREE BOOKS *</pattern>
-  <template><srai>FREEBKS</srai></template>
-</category>
-
-<category>
-  <pattern>* FREE BOOKS *</pattern>
-  <template><srai>FREEBKS</srai></template>
 </category>
 
 <!--friends-->
@@ -347,154 +326,154 @@ If you believe in the library and its services, please consider becoming a Frien
 </category>
 
 <category>
-  <pattern>friends * mpl</pattern>
+  <pattern>FRIENDS * MPL</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friends * mpl</pattern>
+  <pattern>* FRIENDS * MPL</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>friends * mpl *</pattern>
+  <pattern>FRIENDS * MPL *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friends * mpl *</pattern>
+  <pattern>* FRIENDS * MPL *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>friends * library</pattern>
+  <pattern>FRIENDS * LIBRARY</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friends * library</pattern>
+  <pattern>* FRIENDS * LIBRARY</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>friends * library *</pattern>
+  <pattern>FRIENDS * LIBRARY *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friends * library *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-
-<category>
-  <pattern>friends group</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friends * group</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friends group</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friends group *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friends * group</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friends * group *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friends * group *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friend * mpl</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friend * mpl</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friend * mpl *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friend * mpl *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friend * library</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friend * library</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>friend * library *</pattern>
-  <template><srai>FRNDSMPL</srai></template>
-</category>
-
-<category>
-  <pattern>* friend * library *</pattern>
+  <pattern>* FRIENDS * LIBRARY *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 
 <category>
-  <pattern>friend group</pattern>
+  <pattern>FRIENDS GROUP</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>friend * group</pattern>
+  <pattern>FRIENDS * GROUP</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friend group</pattern>
+  <pattern>* FRIENDS GROUP</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>friend group *</pattern>
+  <pattern>FRIENDS GROUP *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friend * group</pattern>
+  <pattern>* FRIENDS * GROUP</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>friend * group *</pattern>
+  <pattern>FRIENDS * GROUP *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
 <category>
-  <pattern>* friend * group *</pattern>
+  <pattern>* FRIENDS * GROUP *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND * MPL</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND * MPL</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND * MPL *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND * MPL *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND * LIBRARY</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND * LIBRARY</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND * LIBRARY *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND * LIBRARY *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+
+<category>
+  <pattern>FRIEND GROUP</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND * GROUP</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND GROUP</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND GROUP *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND * GROUP</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>FRIEND * GROUP *</pattern>
+  <template><srai>FRNDSMPL</srai></template>
+</category>
+
+<category>
+  <pattern>* FRIEND * GROUP *</pattern>
   <template><srai>FRNDSMPL</srai></template>
 </category>
 
@@ -557,46 +536,45 @@ from 4:00 pm to 8:00 pm on Mondays,
 </category>
 
 <category>
-<pattern>FRIENDS  STORE</pattern> 
+<pattern>FRIENDS STORE</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>* FRIENDS  STORE</pattern> 
+<pattern>* FRIENDS STORE</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>FRIENDS *  STORE</pattern> 
+<pattern>FRIENDS * STORE</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>FRIENDS  STORE *</pattern> 
+<pattern>FRIENDS STORE *</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>* FRIENDS *  STORE</pattern> 
+<pattern>* FRIENDS * STORE</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern> FRIENDS *  STORE *</pattern> 
+<pattern>FRIENDS * STORE *</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>* FRIENDS *  STORE *</pattern> 
+<pattern>* FRIENDS * STORE *</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>* FRIENDS  STORE *</pattern> 
+<pattern>* FRIENDS STORE *</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
-<!--i-->
 <category>
 <pattern>FRIENDS BOOK  STORE</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
@@ -637,11 +615,6 @@ from 4:00 pm to 8:00 pm on Mondays,
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
-
-
-<!--ei-->
-
-
 <category>
 <pattern>WHAT ARE THE LIBRARY S STORE HOURS</pattern>
 <template><srai>FRNDSBKSTR</srai></template>
@@ -652,11 +625,10 @@ from 4:00 pm to 8:00 pm on Mondays,
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
- <category>
+<category>
 <pattern>WHEN * FRIEND S  STORE OPEN</pattern>
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
-
 
 <category>
 <pattern>WHEN * FRIEND S BOOK STORE OPEN</pattern>
@@ -664,17 +636,17 @@ from 4:00 pm to 8:00 pm on Mondays,
 </category>
 
 <category>
-<pattern>* book store </pattern> 
+<pattern>* BOOK STORE </pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>* bookstore </pattern> 
+<pattern>* BOOKSTORE </pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
 <category>
-<pattern>* store </pattern> 
+<pattern>* STORE</pattern> 
 <template><srai>FRNDSBKSTR</srai></template>
 </category>
 
@@ -686,62 +658,62 @@ from 4:00 pm to 8:00 pm on Mondays,
 </category>
 
 <category>
-  <pattern>volunteer</pattern>
+  <pattern>VOLUNTEER</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>* volunteer</pattern>
+  <pattern>* VOLUNTEER</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>* volunteer *</pattern>
+  <pattern>* VOLUNTEER *</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>volunteer *</pattern>
+  <pattern>VOLUNTEER *</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>volunteering</pattern>
+  <pattern>VOLUNTEERING</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>* volunteering</pattern>
+  <pattern>* VOLUNTEERING</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>* volunteering *</pattern>
+  <pattern>* VOLUNTEERING *</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>volunteering *</pattern>
+  <pattern>VOLUNTEERING *</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>volunteers</pattern>
+  <pattern>VOLUNTEERS</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>* volunteers</pattern>
+  <pattern>* VOLUNTEERS</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>* volunteers *</pattern>
+  <pattern>* VOLUNTEERS *</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
 <category>
-  <pattern>volunteers *</pattern>
+  <pattern>VOLUNTEERS *</pattern>
   <template><srai>VOLNTR</srai></template>
 </category>
 
@@ -749,7 +721,7 @@ from 4:00 pm to 8:00 pm on Mondays,
 
 <category>
   <pattern>* SELL BOOKS</pattern>
-  <template>The Friends of Mentor Public Library sell books and other items in their book store and at their book sales. You can find more information about each on the <a href="friends.html" target="_blank"><b>Friends page</b></a>. </template>
+  <template>The Friends of Mentor Public Library sell books and other items in their book store and at their book sales. You can find more information about each on the <a href="http://www.mentorpl.org/friends.html" target="_blank"><b>Friends page</b></a>. </template>
 </category>
 
 

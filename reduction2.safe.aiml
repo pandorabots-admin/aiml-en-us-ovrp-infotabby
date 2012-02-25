@@ -9211,303 +9211,7 @@
 </category>
 
 
-<category>
-<pattern>WHEEZE</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
 
-
-
-
-<category>
-<pattern>AH</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>AHA</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>AW</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>COOL</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>DUDE</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>DUH</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>EH</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>ER</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HEY</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HM</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HMM</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HMMM</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HUH</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>I AGREE</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>INDEED</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>NO</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>NOT</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>O</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>OH</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>OK</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>REALLY</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>SO</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>UH</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>UM</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>UMM</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>WOW</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-
-<category>
-<pattern>YO</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>YUP</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>GOD DAMN *</pattern>
-<template>
-<srai>interjection</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>SORTA</pattern>
-<template>
-<srai>interjection</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>WOE</pattern>
-<template>
-<srai>INTERJECTION</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>AHEM</pattern>
-<template>
-<srai>interjection</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>HURRAH</pattern>
-<template>
-<srai>Interjection</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>BLIMEY</pattern>
-<template>
-<srai>interjection </srai>
-</template>
-</category>
-
-
-<category>
-<pattern>FURTHERMORE</pattern>
-<template>
-<srai>interjection </srai>
-</template>
-</category>
-
-
-<category>
-<pattern>YIKES</pattern>
-<template>
-<srai>interjection </srai>
-</template>
-</category>
 
 
 <category>
@@ -12348,22 +12052,12 @@
 </template>
 </category>
 
-
-<category>
-<pattern>FISH</pattern>
-<template>
-<srai>I like fish</srai>
-</template>
-</category>
-
-
 <category>
 <pattern>I LIKE CATS AND DOGS</pattern>
 <template>
 <srai>I like cats</srai>.  <srai>I like dogs</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I LIKE CATS ESPECIALLY *</pattern>
@@ -12372,14 +12066,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>CAKE</pattern>
 <template>
 <srai>I like cake</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>BUTTER</pattern>
@@ -12388,14 +12080,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>I LIKE BOOKS *</pattern>
 <template>
 <srai>I like books</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I LIKE ARTIFICIAL INTELLIGENCE *</pattern>
@@ -12404,14 +12094,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>ANDROIDS</pattern>
 <template>
 <srai>I like android robots</srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I LIKE _ TOO</pattern>
@@ -12420,14 +12108,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>* ARE MY FAVORITE</pattern>
 <template>
 <srai>I like <star /></srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I AM BIG ON *</pattern>
@@ -12436,14 +12122,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>I AM CONTENT *</pattern>
 <template>
 <srai>I like <star /></srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I AM FOND OF *</pattern>
@@ -12452,14 +12136,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>I AM INTO *</pattern>
 <template>
 <srai>I like <star /></srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I CARE ABOUT *</pattern>
@@ -12468,14 +12150,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>I LIKE * VERY MUCH</pattern>
 <template>
 <srai>I like <star /></srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I LIKE IT IN *</pattern>
@@ -12484,14 +12164,12 @@
 </template>
 </category>
 
-
 <category>
 <pattern>I LIKE _ VERY MUCH</pattern>
 <template>
 <srai>I like <star /></srai>
 </template>
 </category>
-
 
 <category>
 <pattern>I LISTEN TO *</pattern>

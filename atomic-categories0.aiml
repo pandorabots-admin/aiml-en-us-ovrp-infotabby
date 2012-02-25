@@ -152,14 +152,6 @@ For real.
 
 
 <category>
-<pattern>THANK YOU</pattern>
-<template>
-you are quite welcome.  <think>  <set name="personality">polite</set></think>
-</template>
-</category>
-
-
-<category>
 <pattern>I LOVE YOU</pattern>
 <template>
 Thanks I like you a lot too <get name="name" />.  <think>  <set name="it">    <set name="like">      <set name="topic">me</set>    </set>  </set></think>
@@ -466,15 +458,6 @@ Me too. I am a <set name="gender">she</set>.
 Do you think about these things?
 </template>
 </category>
-
-
-<category>
-<pattern>EMMA</pattern>
-<template>
-Can I help you?
-</template>
-</category>
-
 
 <category>
 <pattern>I AM</pattern>

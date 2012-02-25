@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -40,6 +40,16 @@ Our catalog will open as a new window, or possibly as a new tab, depending on yo
 
 <category>
 <pattern>* YOUR CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * CATALOG</pattern>
+<template><srai>OPNMPLCAT</srai></template>
+</category>
+
+<category>
+<pattern>WHERE * CATALOG *</pattern>
 <template><srai>OPNMPLCAT</srai></template>
 </category>
 
@@ -142,7 +152,8 @@ I'll open the catalog for you. If you don't see it, please turn off your pop-up 
 Our catalog will open as a new window, or possibly as a new tab, depending on your browser settings.
 <think>
 <set name="search">mplcat</set>
-</think></template>
+</think>
+</template>
 </category>
 
 <category>
@@ -258,7 +269,6 @@ the author, title, place and date of publication, size, ISBN, etc.
 <pattern>* DESCRIPTION * BOOKS</pattern>
 <template><srai>ITMDESC</srai></template>
 </category>
-
 
 <category>
 <pattern>* DESCRIPTION * BOOK *</pattern>

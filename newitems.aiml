@@ -348,6 +348,95 @@ Would you like to make a purchase request?</template>
 <template><srai>NWADBKS</srai></template>
 </category>
 
+<!--NEW BOOKS-->
+
+<category>
+<pattern>NWBKS</pattern>
+<template>Follow this link for lists of our <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>new fiction and nonfiction books</b></a>. You may place a request for any regularly circulating items on 
+these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
+Would you like to make a purchase request?</template>
+</category>
+
+<category>
+<pattern>NEW BOOK</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>_ NEW BOOK</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW BOOK *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW * BOOK</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>_ NEW * BOOK</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW * BOOK *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>_ NEW BOOK *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>* NEW * BOOK *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW BOOKS</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>_ NEW BOOKS</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW BOOKS *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW * BOOKS</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>* NEW * BOOKS</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>NEW * BOOKS *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>* NEW BOOKS *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
+<category>
+<pattern>* NEW * BOOKS *</pattern>
+<template><srai>NWBKS</srai></template>
+</category>
+
 <!--NEW CDS-->
 
 <category>

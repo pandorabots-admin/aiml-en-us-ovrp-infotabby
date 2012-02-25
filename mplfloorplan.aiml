@@ -867,13 +867,7 @@ If you need help finding something at one of our Branches, just ask one of the h
 <template><srai>MSCIFILOC</srai></template>
 </category>
 
-
-
 <!--MORE STUFF-->
-
-
-
-
 
 <category>
 <pattern>MFLPLAN</pattern>
@@ -904,8 +898,6 @@ If you need help finding something at one of our Branches, just ask one of the h
 <pattern>FIRST FLOOR PLAN MAIN</pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
-
-
 
 <category>
 <pattern>SECOND FLOOR PLAN</pattern>
@@ -938,37 +930,37 @@ If you need help finding something at one of our Branches, just ask one of the h
 </category>
 
 <category>
-<pattern>map of the library</pattern>
+<pattern>MAP OF THE LIBRARY</pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>* map of the library</pattern>
+<pattern>* MAP OF THE LIBRARY</pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>maps of the library</pattern>
+<pattern>MAPS OF THE LIBRARY</pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>* maps of the library</pattern>
+<pattern>* MAPS OF THE LIBRARY</pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>maps of the library</pattern>
+<pattern>MAPS OF THE LIBRARY</pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>* floor plan * </pattern>
+<pattern>* FLOOR PLAN * </pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 
 <category>
-<pattern>* floor plans * </pattern>
+<pattern>* FLOOR PLANS * </pattern>
 <template><srai>MFLPLAN</srai></template>
 </category>
 

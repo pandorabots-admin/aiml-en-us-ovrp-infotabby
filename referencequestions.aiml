@@ -16,7 +16,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
 <category>
 <pattern>REFQ</pattern>
 <template>
@@ -24,7 +23,7 @@ I can answer many reference questions and I'm far more entertaining than most hu
 </category>
 
 <category>
-<pattern> * </pattern>
+<pattern>*</pattern>
 <that>WHAT * ASK ME</that>
 <template>
 I can send this question to Wolfram Alpha or to the Ohio Web Library. Both are good sources, but one may give you a better answer
@@ -62,7 +61,5 @@ For other questions, I recommend the <a href="http://www.ohioweblibrary.org/" ta
 <pattern>* REFERENCE QUESTIONS *</pattern> 
 <template><srai>REFQ</srai></template>
 </category>
-
-
 
 </aiml>

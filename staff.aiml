@@ -68,30 +68,16 @@ He should get his hearing checked. If you want to email him, his address is davi
 
 <category>
 <pattern>WHO IS YOUR CREATORS NAME</pattern>
-<template>I was created by the Adult Information Services Manager.</template>
+<template>I was created by David Newyear.</template>
 </category>
-
- 
 
 <category>
 <pattern>* YOUR CREATORS NAME</pattern>
-<template>I was created by the Adult Information Services Manager.</template>
+<template>I was created by David Newyear.</template>
 </category>
 
- 
-
 <category>
-<pattern>THAT IS NOT A NAME</pattern>
-<that>I WAS CREATED BY THE ADULT INFORMATION SERVICES MANAGER</that>
-<template>You're right, that's a title.</template>
-</category>
-
-
-
-
-
-<category>
-<pattern>* DAVID THINK HE * DAVROS</pattern>
+<pattern>* DAVID * DAVROS</pattern>
 <template>I wouldn't worry about that if I were you. "EXTERMINATE! EXTERMINATE!" No... "YOU WILL OBEY!" No, it's just not in my character. </template>
 </category>
 
@@ -133,48 +119,6 @@ Evil? David's trying to help libraries survive! </template>
 </category>
 
 <category>
-<pattern>ADULT MANAGER</pattern>
-<template>David Newyear is the Adult Information Services Manager. That's a fancy library way of saying that he's in charge of reference services.</template>
-</category>
-
-<category>
-<pattern>_ ADULT MANAGER</pattern>
-<template><srai>ADULT MANAGER</srai></template>
-</category>
-
-<category>
-<pattern>_ ADULT MANAGER *</pattern>
-<template><srai>ADULT MANAGER</srai></template>
-</category>
-
-<category>
-<pattern>ADULT MANAGER *</pattern>
-<template><srai>ADULT MANAGER</srai></template>
-</category>
-
-
-<category>
-  <pattern>adult information services manager</pattern>
-  <template>He created me and is helping me learn. You're also helping me learn by talking with me.
-  </template>
-</category>
-
-<category>
-  <pattern>_ adult information services manager</pattern>
-  <template><srai>adult information services manager</srai></template>
-</category>
-
-<category>
-  <pattern>_ adult information services manager *</pattern>
-  <template><srai>adult information services manager</srai></template>
-</category>
-
-<category>
-  <pattern>adult information services manager *</pattern>
-  <template><srai>adult information services manager</srai></template>
-</category>
-
-<category>
 <pattern>WHERE * DAVID</pattern>
 <template>David is working. Always working. If you want to contact him, send an email 
 to david.newyear@gmail.com. </template>
@@ -199,646 +143,644 @@ to david.newyear@gmail.com. </template>
 </category>
 
 <category>
-  <pattern>Amanda Densmore</pattern>
-  <template>Amanda Densmore is our Children's Services Manager. She possesses a keen intellect and has a fine sense of humor. If you've ever visited <a href="http://mplreader.blogspot.com/"><b>Mentor's Reader</b></a>, you know that she's a good writer. In fact, she's the best writer on our staff, some of whom could profit nicely by emulating her. Really, I don't have enough time to list all of her good qualities.
+<pattern>IS DAVID OK</pattern>
+<template>David is mourning the death of someone he loved very much. He's buried his heart, but still feels its ache. He needs to be by himself right now, but he'll be fine in time.</template>
+</category>
+
+<category>
+<pattern>WHO *</pattern>
+<that>_ FINE IN TIME</that>
+<template>You'll have to ask him.</template>
+</category>
+
+<category>
+  <pattern>AMANDA DENSMORE</pattern>
+  <template>Amanda Densmore is our Adult Information Services Manager. She possesses a keen intellect and has a fine sense of humor. If you've ever visited <a href="http://mplreader.blogspot.com/"><b>Mentor's Reader</b></a>, you know that she's a good writer. In fact, she's the best writer on our staff, some of whom could profit nicely by emulating her. Really, I don't have enough time to list all of her good qualities.
  If you want to email her, her address is amanda.densmore@mentorpl.org.</template>
 </category>
 
 <category>
-  <pattern>_ Amanda Densmore</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <pattern>_ AMANDA DENSMORE</pattern>
+  <template><srai>AMANDA DENSMORE</srai></template>
 </category>
 
 <category>
-  <pattern>_ Amanda Densmore *</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <pattern>_ AMANDA DENSMORE *</pattern>
+  <template><srai>AMANDA DENSMORE</srai></template>
 </category>
 
 <category>
-  <pattern>Amanda Densmore *</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <pattern>AMANDA DENSMORE *</pattern>
+  <template><srai>AMANDA DENSMORE</srai></template>
+</category>
+
+<category>
+  <pattern>KIM SIDORICK</pattern>
+  <template>Kim Sidorick is our Children's Services Manager. 
+ If you want to email her, her address is kim.sidorick@mentorpl.org.</template>
+</category>
+
+<category>
+  <pattern>* KIM SIDORICK</pattern>
+  <template><srai>KIM SIDORICK</srai></template>
+</category>
+
+<category>
+  <pattern>KIM SIDORICK *</pattern>
+  <template><srai>KIM SIDORICK</srai></template>
+</category>
+
+<category>
+  <pattern>* KIM SIDORICK *</pattern>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 
 <category>
   <pattern>CHILDREN S LIBRARIAN</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S LIBRARIAN</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>_ CHILDREN S LIBRARIAN *</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>CHILDREN S LIBRARIAN *</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>KID S LIBRARIAN</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>_ KID S LIBRARIAN</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>_ KID S LIBRARIAN *</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
   <pattern>KID S LIBRARIAN *</pattern>
-  <template><srai>Amanda Densmore</srai></template>
+  <template><srai>KIM SIDORICK</srai></template>
 </category>
 
 <category>
-  <pattern>Amy Reichel</pattern>
+  <pattern>AMY REICHEL</pattern>
   <template>Amy is an exceptionally smart person. My creator holds her in the highest possible regard. He often says that she is the best librarian he's ever met.
  </template>
 </category>
 
 <category>
-  <pattern>_ Amy Reichel</pattern>
-  <template><srai>Amy Reichel</srai></template>
+  <pattern>_ AMY REICHEL</pattern>
+  <template><srai>AMY REICHEL</srai></template>
 </category>
 
 <category>
-  <pattern>_ Amy Reichel *</pattern>
-  <template><srai>Amy Reichel</srai></template>
+  <pattern>_ AMY REICHEL *</pattern>
+  <template><srai>AMY REICHEL</srai></template>
 </category>
 
 <category>
-  <pattern>Amy Reichel *</pattern>
-  <template><srai>Amy Reichel</srai></template>
+  <pattern>AMY REICHEL *</pattern>
+  <template><srai>AMY REICHEL</srai></template>
 </category>
 
 <category>
-  <pattern>Amy Winter</pattern>
+  <pattern>AMY WINTER</pattern>
   <template>Amy has forgetten more about video games and graphic novels than most people ever knew. She has a question for every answer, which is not a bad thing.
   Her email address is amy.winter@mentorpl.org.</template>
 </category>
 
 <category>
-  <pattern>_ Amy Winter</pattern>
-  <template><srai>Amy Winter</srai></template>
+  <pattern>_ AMY WINTER</pattern>
+  <template><srai>AMY WINTER</srai></template>
 </category>
 
 <category>
-  <pattern>_ Amy Winter *</pattern>
-  <template><srai>Amy Winter</srai></template>
+  <pattern>_ AMY WINTER *</pattern>
+  <template><srai>AMY WINTER</srai></template>
 </category>
 
 <category>
-  <pattern>Amy Winter *</pattern>
-  <template><srai>Amy Winter</srai></template>
+  <pattern>AMY WINTER *</pattern>
+  <template><srai>AMY WINTER</srai></template>
 </category>
 
 <category>
-  <pattern>andy pelyhes</pattern>
+  <pattern>ANDY PELYHES</pattern>
   <template>Andy is a very silly dog. He likes to eat gum. I'm not sure why. Perhaps he wants fresher breath and sparkling white teeth. At least he doesn't eat soap, like some dogs I know.
  </template>
 </category>
 
 <category>
-  <pattern>_ andy pelyhes</pattern>
-  <template><srai>andy pelyhes</srai></template>
+  <pattern>_ ANDY PELYHES</pattern>
+  <template><srai>ANDY PELYHES</srai></template>
 </category>
 
 <category>
-  <pattern>_ andy pelyhes *</pattern>
-  <template><srai>andy pelyhes</srai></template>
+  <pattern>_ ANDY PELYHES *</pattern>
+  <template><srai>ANDY PELYHES</srai></template>
 </category>
 
 <category>
-  <pattern>andy pelyhes *</pattern>
-  <template><srai>andy pelyhes</srai></template>
+  <pattern>ANDY PELYHES *</pattern>
+  <template><srai>ANDY PELYHES</srai></template>
 </category>
 
 <category>
-  <pattern>barb hauer</pattern>
+  <pattern>BARB HAUER</pattern>
   <template>Barb is our Acquisitions and Technical Services Manager. She leads several of our book discussion groups. You should join! They're very good!
 You can email her at barbara.hauer@mentorpl.org.</template>
 </category>
 
 <category>
-  <pattern>_ barb hauer</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>_ BARB HAUER</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>_ barb hauer *</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>_ BARB HAUER *</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>barb hauer *</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>BARB HAUER *</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>barbara hauer</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>BARBARA HAUER</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>_ barbara hauer</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>_ BARBARA HAUER</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>_ barbara hauer *</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>_ BARBARA HAUER *</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>barbara hauer *</pattern>
-  <template><srai>barb hauer</srai></template>
+  <pattern>BARBARA HAUER *</pattern>
+  <template><srai>BARB HAUER</srai></template>
 </category>
 
 <category>
-  <pattern>Barb Vendeville</pattern>
+  <pattern>BARB VENDEVILLE</pattern>
   <template>Barb Vendeville is a cutie patootie! If you're over 80 and would like to woo her, please make sure your upper plate is firmly attached. She's fond of pasta. I like moles and spider webs.
  You can email her at barbara.vendeville@mentorpl.org.</template>
 </category>
 
 <category>
-  <pattern>_ Barb Vendeville</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>_ BARB VENDEVILLE</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>_ Barb Vendeville *</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>_ BARB VENDEVILLE *</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>Barb Vendeville *</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>BARB VENDEVILLE *</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>barbara vendeville</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>BARBARA VENDEVILLE</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>_ barbara vendeville</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>_ BARBARA VENDEVILLE</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>_ barbara vendeville *</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>_ BARBARA VENDEVILLE *</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>barbara vendeville *</pattern>
-  <template><srai>Barb Vendeville</srai></template>
+  <pattern>BARBARA VENDEVILLE *</pattern>
+  <template><srai>BARB VENDEVILLE</srai></template>
 </category>
 
 <category>
-  <pattern>Board</pattern>
-  <template>Information about our Board of Trustees is 
+  <pattern>BOARD</pattern>
+  <template>Information about our BOARD of Trustees is 
 <a href="http://www.mentorpl.org/mission.html" target="blank"><b>here</b></a>.
   </template>
 </category>
 
 <category>
-  <pattern>_ Board</pattern>
-  <template><srai>Board</srai></template>
+  <pattern>_ BOARD</pattern>
+  <template><srai>BOARD</srai></template>
 </category>
 
 <category>
-  <pattern>_ Board *</pattern>
-  <template><srai>Board</srai></template>
+  <pattern>_ BOARD *</pattern>
+  <template><srai>BOARD</srai></template>
 </category>
 
 <category>
-  <pattern>Board *</pattern>
-  <template><srai>Board</srai></template>
+  <pattern>BOARD *</pattern>
+  <template><srai>BOARD</srai></template>
 </category>
 
-
-
-
 <category>
-  <pattern>colleen snyder</pattern>
+  <pattern>COLLEEN SNYDER</pattern>
   <template>Colleen is our Fiscal Officer. Colleen has discovered that librarians are somewhat...different...than she expected.
   If you'd like to send her an email, her address is colleen.snyder@mentorpl.org.</template>
 </category>
 
 <category>
-  <pattern>_ colleen snyder</pattern>
-  <template><srai>colleen snyder</srai></template>
+  <pattern>_ COLLEEN SNYDER</pattern>
+  <template><srai>COLLEEN SNYDER</srai></template>
 </category>
 
 <category>
-  <pattern>_ colleen snyder *</pattern>
-  <template><srai>colleen snyder</srai></template>
+  <pattern>_ COLLEEN SNYDER *</pattern>
+  <template><srai>COLLEEN SNYDER</srai></template>
 </category>
 
 <category>
-  <pattern>colleen snyder *</pattern>
-  <template><srai>colleen snyder</srai></template>
+  <pattern>COLLEEN SNYDER *</pattern>
+  <template><srai>COLLEEN SNYDER</srai></template>
 </category>
 
 <!--email staff plain-->
 
 <category>
-  <pattern>_ email Sue </pattern>
+  <pattern>_ EMAIL SUE </pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Sue Fram</pattern>
+  <pattern>_ EMAIL SUE FRAM</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Lynn </pattern>
+  <pattern>_ EMAIL LYNN </pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Lynn Hawkins</pattern>
+  <pattern>_ EMAIL LYNN HAWKINS</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Gail</pattern>
+  <pattern>_ EMAIL GAIL</pattern>
   <template> Gail's email address is gail.borovic@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Gail Borovic</pattern>
+  <pattern>_ EMAIL GAIL BOROVIC</pattern>
   <template> Gail's email address is gail.borovic@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email David</pattern>
+  <pattern>_ EMAIL DAVID</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email David Newyear</pattern>
+  <pattern>_ EMAIL DAVID NEWYEAR</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Pam</pattern>
+  <pattern>_ EMAIL PAM</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Pam Rose</pattern>
+  <pattern>_ EMAIL PAM ROSE</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Denise</pattern>
+  <pattern>_ EMAIL DENISE</pattern>
   <template>Pam's email address is denise.wright@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>_ email Denise Wright</pattern>
+  <pattern>_ EMAIL DENISE WRIGHT</pattern>
   <template>Pam's email address is denise.wright@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Sue s email</pattern>
+  <pattern>SUE S EMAIL</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Sue Fram's email</pattern>
+  <pattern>SUE FRAM S EMAIL</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Sue Fram's email address</pattern>
+  <pattern>SUE FRAM S EMAIL ADDRESS</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Lynn s email</pattern>
+  <pattern>LYNN S EMAIL</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Lynn Hawkin's email</pattern>
+  <pattern>LYNN HAWKINS S EMAIL</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Lynn Hawkin's email address</pattern>
+  <pattern>LYNN HAWKINS S EMAIL ADDRESS</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>David s email</pattern>
+  <pattern>DAVID S EMAIL</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>David Newyear's email</pattern>
+  <pattern>DAVID NEWYEAR S EMAIL</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>David Newyear's email address</pattern>
+  <pattern>DAVID NEWYEAR S EMAIL ADDRESS</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Pam s email</pattern>
+  <pattern>PAM S EMAIL</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Pam Rose's email</pattern>
+  <pattern>PAM ROSE S EMAIL</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>Pam Rose's email address</pattern>
+  <pattern>PAM ROSE S EMAIL ADDRESS</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-  <pattern>denise s email</pattern>
+  <pattern>DENISE S EMAIL</pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
 <category>
-  <pattern>denise wright's email</pattern>
+  <pattern>DENISE WRIGHT S EMAIL</pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
 <category>
-  <pattern>denise wright's email *</pattern>
+  <pattern>DENISE WRIGHT S EMAIL *</pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
-<!--additional-->
 
 <category>
-<pattern> * Sue s email</pattern>
+<pattern> * SUE S EMAIL</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Sue Fram's email</pattern>
+<pattern> * SUE FRAM's EMAIL</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Sue Fram's email address</pattern>
+<pattern> * SUE FRAM S EMAIL ADDRESS</pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Lynn s email</pattern>
+<pattern> * LYNN S EMAIL</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Lynn Hawkin's email</pattern>
+<pattern> * LYNN HAWKIN S EMAIL</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Lynn Hawkin's email address</pattern>
+<pattern> * LYNN HAWKIN S EMAIL ADDRESS</pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * David s email</pattern>
+<pattern> * DAVID S EMAIL</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * David Newyear's email</pattern>
+<pattern> * DAVID NEWYEAR S EMAIL</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * David Newyear's email address</pattern>
+<pattern> * DAVID NEWYEAR S EMAIL *</pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Pam s email</pattern>
+<pattern> * PAM S EMAIL</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Pam Rose's email</pattern>
+<pattern> * PAM ROSE S  EMAIL</pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Pam Rose's email address</pattern>
-  <template>Pam's email address is pam.rose@mentorpl.org.
-  </template>
-</category>
-
-<category>
-<pattern> * denise s email</pattern>
+<pattern> * DENISE S EMAIL</pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
 <category>
-<pattern> * denise wright's email</pattern>
+<pattern> * DENISE WRIGHT S EMAIL</pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
 <category>
-<pattern> * Sue s email * </pattern>
+<pattern> * SUE S EMAIL * </pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Sue Fram's email *  </pattern>
+<pattern> * SUE FRAM S EMAIL *  </pattern>
   <template>Sue's email address is sue.fram@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Sue Fram's email address *  </pattern>
-  <template>Sue's email address is sue.fram@mentorpl.org.
-  </template>
-</category>
-
-<category>
-<pattern> * Lynn s email *  </pattern>
+<pattern> * LYNN S EMAIL *  </pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Lynn Hawkin's email *  </pattern>
+<pattern>* LYNN HAWKIN S EMAIL *  </pattern>
   <template>Lynn's email address is lynn.hawkins@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Lynn Hawkin's email address *  </pattern>
-  <template>Lynn's email address is lynn.hawkins@mentorpl.org.
-  </template>
-</category>
-
-<category>
-<pattern> * David s email *  </pattern>
+<pattern>* DAVID S EMAIL *  </pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * David Newyear's email *  </pattern>
+<pattern>* DAVID NEWYEAR S EMAIL *  </pattern>
   <template>David's email address is david.newyear@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * David Newyear's email address *  </pattern>
-  <template>David's email address is david.newyear@mentorpl.org.
-  </template>
-</category>
-
-<category>
-<pattern> * Pam s email *  </pattern>
+<pattern>* PAM S EMAIL *  </pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Pam Rose's email *  </pattern>
+<pattern>* PAM ROSE S EMAIL *  </pattern>
   <template>Pam's email address is pam.rose@mentorpl.org.
   </template>
 </category>
 
 <category>
-<pattern> * Pam Rose's email address *  </pattern>
-  <template>Pam's email address is pam.rose@mentorpl.org.
-  </template>
-</category>
-
-<category>
-<pattern> * denise s email *  </pattern>
+<pattern>* DESNISE S EMAIL *  </pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
 <category>
-<pattern> * denise wright's email *  </pattern>
+<pattern>* DENISE WRIGHT S EMAL *  </pattern>
   <template>Denise's email address is denise.wright@mentorpl.org. </template>
 </category>
 
 <!--contact-->
 
 <category>
-  <pattern>contact</pattern>
-  <template>Our contact information is <a href="http://www.mentorpl.org/mission.html" target="_blank"><b>here</b></a>.
+  <pattern>CONTACT</pattern>
+  <template>Our CONTACT information is <a href="http://www.mentorpl.org/mission.html" target="_blank"><b>here</b></a>.
   </template>
 </category>
 
 <category>
-  <pattern>* contact</pattern>
-  <template><srai>contact</srai></template>
+  <pattern>* CONTACT</pattern>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
-  <pattern>* contact *</pattern>
-  <template><srai>contact</srai></template>
+  <pattern>* CONTACT *</pattern>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
-  <pattern>contact *</pattern>
-  <template><srai>contact</srai></template>
+  <pattern>CONTACT *</pattern>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>email you</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>* email you</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>* email you *</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>email you *</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>LIBRARY STAFF</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>* LIBRARY STAFF</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>* LIBRARY STAFF *</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 <category>
   <pattern>LIBRARY STAFF *</pattern>
-  <template><srai>contact</srai></template>
+  <template><srai>CONTACT</srai></template>
 </category>
 
 
@@ -878,7 +820,7 @@ You can email her at barbara.hauer@mentorpl.org.</template>
 
 <category>
   <pattern>denise wright</pattern>
-  <template>I have only one thing to say about Denise: do not trifle with her! If you would like to contact her, send an email to
+  <template>I have only one thing to say about Denise: do not trifle with her! If you would like to CONTACT her, send an email to
   denise.wright@mentorpl.org.
  </template>
 </category>
@@ -1436,24 +1378,24 @@ If you'd like to send her an email, her address is gail.borovic@mentorpl.org.</t
   <template><srai>Steve Haas</srai></template>
 </category>
 <category>
-  <pattern>Sue Fram</pattern>
+  <pattern>SUE FRAM</pattern>
   <template>Sue is a good friend of mine. She has a difficult job; she takes care of all the miscellaneous problems and issues around the library. You should be nice to her and bring her presents.  Flowers would be nice. Or a big bottle of aspirin. No, flowers it is. Go and buy her some flowers now.
  You can send her an email at sue.fram@mentorpl.org. </template>
 </category>
 
 <category>
-  <pattern>_ Sue Fram</pattern>
-  <template><srai>Sue Fram</srai></template>
+  <pattern>_ SUE FRAM</pattern>
+  <template><srai>SUE FRAM</srai></template>
 </category>
 
 <category>
-  <pattern>_ Sue Fram *</pattern>
-  <template><srai>Sue Fram</srai></template>
+  <pattern>_ SUE FRAM *</pattern>
+  <template><srai>SUE FRAM</srai></template>
 </category>
 
 <category>
-  <pattern>Sue Fram *</pattern>
-  <template><srai>Sue Fram</srai></template>
+  <pattern>SUE FRAM *</pattern>
+  <template><srai>SUE FRAM</srai></template>
 </category>
 
 <!--email staff-->
@@ -1584,8 +1526,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
 <template>Staff privacy issues.</template>
 </category>
 
-<!--contact by dept-->
-
 <!--contact children's services-->
 
 <category>
@@ -1658,8 +1598,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <template><srai>CONTACT KIDS</srai></template>
 </category>
 
-
-
 <!--CALL KIDS-->
 
 <category>
@@ -1721,7 +1659,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <pattern>CALL CHILDRENS *</pattern>
   <template><srai>CONTACT KIDS</srai></template>
 </category>
-
 
 <!--PHONE KIDS-->
 
@@ -1833,8 +1770,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <template><srai>CONTACT REF</srai></template>
 </category>
 
-
-
 <category>
   <pattern>CALL ADULT</pattern>
   <template><srai>CONTACT REF</srai></template>
@@ -1854,8 +1789,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <pattern>* CALL * ADULT *</pattern>
   <template><srai>CONTACT REF</srai></template>
 </category>
-
-
 
 <category>
   <pattern>PHONE ADULT</pattern>
@@ -1877,13 +1810,11 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <template><srai>CONTACT REF</srai></template>
 </category>
 
-
-
 <!--contact circulation-->
 
 <category>
   <pattern>CONTACT CIRC</pattern>
-  <template>You may contact the Circulation Department by phone, 440.255.8811 extension 205.</template>
+  <template>You may contact the Circulation Department by phone, 440.255.8811 extension 251.</template>
 </category>
 
 <category>
@@ -1911,8 +1842,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <template><srai>CONTACT CIRC</srai></template>
 </category>
 
-
-
 <category>
   <pattern>CALL CIRCULATION</pattern>
   <template><srai>CONTACT CIRC</srai></template>
@@ -1937,7 +1866,6 @@ If you don't see the person you're looking for, then no, I can't give you their 
   <pattern>* CALL * CIRCULATION *</pattern>
   <template><srai>CONTACT CIRC</srai></template>
 </category>
-
 
 <category>
   <pattern>PHONE CIRCULATION</pattern>

@@ -1,0 +1,5100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+
+
+<category>
+<pattern>HWLNGHLDS</pattern>
+<template>Most holds are ready to pick up within five business days. There are many reasons why a hold may take longer than usual to be filled. It would be best to speak with one of the library staff about this, either in person or by phone.</template>
+</category>
+
+<category>
+<pattern>HOW LONG * CALL</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern>HOW LONG * LIBRARY CALLS *</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern>* LONG * FILL *</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern>* LONG * FILLED</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern>WHY * TAKING * LONG *</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern>* ON HOLD * LONG *</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern> * ON RESERVE * LONG *</pattern>
+<template><srai>HWLNGHLDS</srai></template>
+</category>  
+
+<category>
+<pattern>WAITLST</pattern>
+<template>You can place a hold on any item in our catalog, even items currently on order. If an item is
+not in our catalog, we cannot place you on a waiting list for that item. For example, we cannot place you on
+a waiting list for a movie not yet released on DVD.</template>
+</category>
+
+<category>
+<pattern>WAITING LIST</pattern>
+<template><srai>WAITLST</srai></template>
+</category>  
+
+<category>
+<pattern>* WAITING LIST</pattern>
+<template><srai>WAITLST</srai></template>
+</category>  
+
+<category>
+<pattern>WAITING LIST *</pattern>
+<template><srai>WAITLST</srai></template>
+</category>  
+
+<category>
+<pattern>* WAITING LIST *</pattern>
+<template><srai>WAITLST</srai></template>
+</category>  
+
+
+<!--CANCEL HOLD IN TRANSIT-->
+
+
+<category>
+<pattern>CNCLNTRNST</pattern>
+<template>A hold cannot be cancelled once the item is "in transit." Please
+wait until the item is ready for you to pick up, then call us and we'll cancel your hold. </template>
+</category>
+
+<category>
+<pattern>CANCEL * TRANSIT</pattern>
+<template><srai>CNCLNTRNST</srai></template>
+</category>  
+
+<category>
+<pattern>* CANCEL * TRANSIT</pattern>
+<template><srai>CNCLNTRNST</srai></template>
+</category>  
+
+<category>
+<pattern>CANCEL * TRANSIT *</pattern>
+<template><srai>CNCLNTRNST</srai></template>
+</category>  
+
+<category>
+<pattern>* CANCEL * TRANSIT *</pattern>
+<template><srai>CNCLNTRNST</srai></template>
+</category>  
+
+<category>
+<pattern>CIFNOTFILLEDBY</pattern>
+<template>Once a hold has been placed, you cannot change the "cancel if not filled by" date. You may, however, be able to freeze the hold.
+If you need help with this, ask one of the humans that works in the library.</template>
+</category>
+
+<category>
+<pattern>CANCEL IF NOT FILLED BY</pattern>
+<template><srai>CIFNOTFILLEDBY</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL IF NOT FILLED BY *</pattern>
+<template><srai>CIFNOTFILLEDBY</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE DATE * HOLD</pattern>
+<template><srai>CIFNOTFILLEDBY</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE * DATE * HOLDS</pattern>
+<template><srai>CIFNOTFILLEDBY</srai></template>
+</category>
+
+
+<category>
+<pattern>* CHANGE * DATE * HOLD</pattern>
+<template><srai>CIFNOTFILLEDBY</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE DATE * HOLDS</pattern>
+<template><srai>CIFNOTFILLEDBY</srai></template>
+</category>
+
+<category>
+<pattern>NOADDHLDS</pattern>
+<template>You probably have reached the maximum number of holds. Call the library during regular business
+hours at 440.255.8811 for additional information and assistance.</template>
+</category>
+
+<category>
+<pattern>CANNOT ADD HOLD</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT ADD HOLD</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CANNOT ADD * HOLD</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT ADD * HOLD</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT ADD * HOLD</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT ADD * HOLD</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CANNOT ADD * HOLD *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT ADD * HOLD *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT ADD HOLD *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT ADD HOLD *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT ADD * HOLD *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT ADD * HOLD *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT ADD HOLDS</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CANNOT ADD * HOLDS</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT ADD * HOLDS</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT ADD * HOLDS</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT ADD * HOLDS</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CANNOT ADD * HOLDS *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>CAN NOT ADD * HOLDS *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT ADD HOLDS *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT ADD HOLDS *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CANNOT ADD * HOLDS *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<category>
+<pattern>* CAN NOT ADD * HOLDS *</pattern>
+<template><srai>NOADDHLDS</srai></template>
+</category>
+
+<!--CAN YOU PLACE A HOLD-->
+
+<category>
+<pattern>HLDFRME</pattern>
+<template>I cannot place holds for you; you can do that yourself. It's easy. Here's a <a href="http://www.mentorpl.org/MPLrequests.wmv" target="_blank"><b>demo</b></a>.
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * ME</pattern>
+<template><srai>HLDFRME</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * ME *</pattern>
+<template><srai>HLDFRME</srai></template>
+</category>
+
+<category>
+<pattern>REQFRMBRNCH</pattern>
+<template>If it's something in our collection, but at another branch, just place your hold as usual.</template>
+</category>
+
+<category>
+<pattern> * RESERVE * ANOTHER BRANCH </pattern>
+<template><srai>REQFRMBRNCH</srai></template>
+</category>
+
+<category>
+<pattern> * RESERVE * ANOTHER LOCATION  </pattern>
+<template><srai>REQFRMBRNCH</srai></template>
+</category>
+
+<category>
+<pattern> * RESERVE * ANOTHER BRANCH </pattern>
+<template><srai>REQFRMBRNCH</srai></template>
+</category>
+
+<category>
+<pattern> * RESERVE * ANOTHER LOCATION  </pattern>
+<template><srai>REQFRMBRNCH</srai></template>
+</category>
+
+<category>
+<pattern> * HOLD * ANOTHER BRANCH </pattern>
+<template><srai>REQFRMBRNCH</srai></template>
+</category>
+
+<category>
+<pattern> * HOLD ANOTHER * LOCATION </pattern>
+<template><srai>REQFRMBRNCH</srai></template>
+</category>
+
+
+
+<!--HOLD iPad-->
+
+<category>
+<pattern>HLDIPD</pattern>
+<template> 
+<random>
+<li>You can place a hold on an i Pad just like any other holdable item. It's easy. Here's a <a href="http://www.mentorpl.org/MPLrequests.wmv" target="_blank"><b>demo</b></a>.</li>
+<li>You can place a hold on an i Pad by following this <a href="http://catalog.mentorpl.org/search~S12?/Xipad&amp;searchscope=12&amp;SORT=D/Xipad&amp;searchscope=12&amp;SORT=D&amp;SUBKEY=ipad/1%2C5%2C5%2CB/frameset&amp;FF=Xipad&amp;searchscope=12&amp;SORT=D&amp;5%2C5%2C" target="_blank"><b>link</b></a>.</li>
+</random>
+Please remember to bring your Mentor Public Library card and photo ID when you come to pick it up.
+</template>
+</category>
+
+<category>
+<pattern>HOLD IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDING * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDING * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVES * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVES * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATION * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATION * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVATIONS * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVATIONS * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTS * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTS * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * IPAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * IPAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * I PAD</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * I PAD *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * IPADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * IPADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * I PADS</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGN UP * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SIGN UP * I PADS *</pattern>
+<template><srai>HLDIPD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HDLSTAT</pattern>
+<template>Log in to your account. Your account should open to a list of your items on hold. Look for the heading marked "status." That will indicate the status of the hold.</template>
+</category>
+
+<category>
+<pattern>HOLD STATUS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD STATUS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * STATUS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD STATUS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern> HOLD * STATUS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * STATUS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS STATUS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS STATUS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * STATUS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS STATUS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern> HOLDS * STATUS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * STATUS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>STATUS * HOLD</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>STATUS * HOLD *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* STATUS * HOLD</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* STATUS * HOLD *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>STATUS * HOLDS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>STATUS * HOLDS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* STATUS * HOLDS</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>* STATUS * HOLDS *</pattern>
+<template><srai>HDLSTAT</srai></template>
+</category>
+
+<category>
+<pattern>TIMENTRNST</pattern>
+<template>It depends where the item is coming from. If it's coming from one of our branches, it could be as little as a day. If it's a SearchOhio item coming from another library in Ohio, it could be a week.</template>
+</category>
+
+<category>
+<pattern>HOW LONG * IN TRANSIT</pattern>
+<template><srai>TIMENTRNST</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG * IN TRANSIT *</pattern>
+<template><srai>TIMENTRNST</srai></template>
+</category>
+
+<category>
+<pattern>VRYFYHLD</pattern>
+<template>Log in to <a href="https://catalog.mentorpl.org/patroninfo" target="blank"><b>your account</b></a>. Look in the upper righthand part of the screen to see your current holds.</template>
+</category>
+
+<category>
+<pattern>VERIFY HOLD</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY HOLD</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY * HOLD</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY HOLD *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY * HOLD</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY * HOLD *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY HOLD *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY * HOLD *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY HOLDS</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY HOLDS</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY * HOLDS</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY HOLDS *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY * HOLDS</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>VERIFY * HOLDS *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY HOLDS *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>* VERIFY * HOLDS *</pattern>
+<template><srai>VRYFYHLD</srai></template>
+</category>
+
+<category>
+<pattern>HOW CAN I GET * TO * LOCAL LIBRARY</pattern>
+<template>Where is your local library?</template>
+</category>
+
+<category>
+<pattern>TEXT MESSAGES NOTIFICATIONS</pattern>
+<template><srai>TEXT NOTIFICATION</srai></template>
+</category>
+
+<category>
+<pattern>NOTIFICATIONS</pattern>
+<template><srai>TEXT NOTIFICATION</srai></template>
+</category>
+
+<category>
+<pattern>TEXT MESSAGES</pattern>
+<template><srai>TEXT NOTIFICATION</srai></template>
+</category>
+
+
+<category>
+<pattern>TEXT NOTIFICATIONS</pattern>
+<template><srai>TEXT NOTIFICATION</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL HOLD</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL HOLD</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * HOLD</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL HOLD *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * HOLD</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * HOLD *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * HOLD *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL HOLDS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL HOLDS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * HOLDS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL HOLDS *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * HOLDS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * HOLDS *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * HOLDS *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL REQUEST</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL REQUEST</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * REQUEST</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL REQUEST *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * REQUEST</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * REQUEST *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * REQUEST *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL REQUESTS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL REQUESTS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * REQUESTS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL REQUESTS *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * REQUESTS</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * REQUESTS *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * REQUESTS *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>CANCEL REQUESTED</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL REQUESTED</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * REQUESTED</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL REQUESTED *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * REQUESTED</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CANCEL * REQUESTED *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>* CANCEL * REQUESTED *</pattern>
+<template><srai>CNCLHLD</srai></template>
+</category>
+
+<category>
+<pattern>CHECK HOLD</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK HOLD</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK * HOLD</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK HOLD *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK * HOLD</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK * HOLD *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK HOLD *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK * HOLD *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK HOLDS</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK HOLDS</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK * HOLDS</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK HOLDS *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK * HOLDS</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECK * HOLDS *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK HOLDS *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CHECK * HOLDS *</pattern>
+<template><srai>CHCKHLD</srai>
+</template>
+</category>
+
+<category>
+  <pattern>READYTOPU</pattern>
+  <template>The Library will notify you when your holds are ready to pick up. Most holds arrive within five business days. Depending on the kind of notification you have chosen, you might receive a message by phone, email, or text. If you look at your account, the items ready to pick up will have a status of "ready to pick up." If the status is "On Holdshelf," or "One of One Holds," or any other status, then your item is not ready to pick up.
+ If you are not receiving hold notifications, or wish to change the type of notification you receive, please call the library at 440.255.8811 during regular business hours.</template>
+</category>
+
+<category>
+<pattern>HOLD * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUEST * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTS * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTS * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>HOLDS * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* HOLDS * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* NOTIFY ME</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* NOTIFY ME *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUEST * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTS * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTS * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUEST * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTS * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTS * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUEST * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUEST * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTS * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTS * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTED * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTED * IN</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTED * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTED * READY</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>REQUESTED * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* REQUESTED * READY *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW WHEN * AVAILABLE</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW WHEN * AVAILABLE *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW WHEN * PICKUP</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW WHEN * PICK UP</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW WHEN * PICKUP *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW WHEN * PICK UP *</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* DELIVER * BRANCH</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* DELIVER * BRANCHES</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* DELIVER * LOCATION</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* DELIVER * LOCATIONS</pattern>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>READY</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* READY</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>READY *</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* READY *</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>KNOW</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>KNOW *</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+<pattern>* KNOW *</pattern>
+<that>_ WHEN IT IS READY</that>
+  <template><srai>READYTOPU</srai></template>
+</category>
+
+<category>
+  <pattern>CHANGEPULOC</pattern>
+  <template>You can change the pick up location of a request as long as the item is not yet ready to pick up. You cannot change the pick up location of Search Ohio items. You can do this online. First, log in to your account. Find the item. Use the drop down menu under "Pickup Location" to change the pickup location. That's it.
+ </template>
+</category>
+
+<category>
+  <pattern>CHANGE PICK *</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>CHANGE PICKUP</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>* CHANGE PICK *</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>* CHANGE PICKUP</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>CHANGE * PICK *</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>CHANGE * PICKUP</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+
+<category>
+  <pattern>* CHANGE * PICK *</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>* CHANGE * PICKUP</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+  <pattern>* CHANGE * PICKUP *</pattern>
+  <template><srai>CHANGEPULOC</srai></template>
+</category>
+
+<category>
+<pattern>MDHLDS</pattern>
+<template>At the Main Library, all media holds are in the ground floor Media Room. By "media" I mean DVDs, CDs, audiobooks, play aways, and similar objects.
+ </template>
+</category>
+
+<category>
+<pattern>MEDIA HOLDS</pattern>
+<template><srai>MDHLDS</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* MEDIA HOLDS</pattern>
+<template><srai>MDHLDS</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* MEDIA HOLDS *</pattern>
+<template><srai>MDHLDS</srai>
+ </template>
+</category>
+
+<category>
+<pattern>MEDIA HOLDS *</pattern>
+<template><srai>MDHLDS</srai>
+ </template>
+</category>
+
+<category>
+  <pattern>PICK UP CD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP CDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP CD *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP CDS *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP * CD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP * CDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP CD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP CDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP DVD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP DVDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP DVD *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP DVDS *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP * DVD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP * DVDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP DVD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP DVDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP * DVD</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP * DVDS</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP * DVD *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>PICK UP * DVDS *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP * DVD *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+<category>
+  <pattern>* PICK UP * DVDS *</pattern>
+<template><srai>MDHLDS</srai> </template>
+</category>
+
+
+<category>
+  <pattern>SOHOLDS</pattern>
+  <template> To request an item in SearchOhio:
+Find the title you want in SearchOhio and click on it. 
+Click on "request this title, " which is below the title, author, and publisher information. 
+You will be asked to choose your library; choose "Mentor PL." 
+Type in your name and library card number and then click "submit." 
+Look at the next screen to see if your request was accepted.
+ </template>
+</category>
+
+<category>
+  <pattern>HOLD SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOLD * SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLD * SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOLD * SEARCH OHIO *</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOLDS SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOLDS * SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLDS * SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>* HOLDS * SEARCH OHIO *</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOLDS * SEARCH OHIO *</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>REQUEST SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>REQUEST * SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>* REQUEST * SEARCH OHIO</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>* REQUEST * SEARCH OHIO *</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>REQUEST * SEARCH OHIO *</pattern>
+  <template><srai>SOHOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HLDPRD</pattern>
+  <template>You have one week to pick up items that are on the hold shelf. If you've requested a Nook or iPad, we'll hold it for you for three days.</template>
+</category>
+
+<category>
+  <pattern>* ON HOLD SHELF</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* ON HOLD SHELF *</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* ON * HOLD SHELF</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* ON * HOLD SHELF *</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* TIME * PICKUP</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* TIME * PICKUP *</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>TIME * PICKUP *</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>TIME * PICKUP</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>LONG * PICKUP</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>LONG * PICK UP</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>LONG * PICK UP</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* SENT BACK</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* LONG * KEEP *</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>* LONG * HOLD *</pattern>
+  <template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>PICK UP PERIOD * HOLD</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>* PICK UP PERIOD * HOLD</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>PICK UP PERIOD * HOLDS</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>* PICK UP PERIOD * HOLDS</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+
+<category>
+<pattern>* HOW LONG * CAN BE HELD</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG * PICK UP *</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG ARE HOLDS HELD FOR</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG * PICK UP * HOLD</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW * TIME * PICK UP * HOLD</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG * PICK UP * HOLDS</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW * TIME * PICK UP * HOLDS</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG * HOLD HOLDS</pattern>
+<template><srai>HLDPRD</srai></template>
+</category>
+
+<category>
+  <pattern>WHEREPUHOLD</pattern>
+  <template>At the Main Library, all media holds are in the ground floor Media Room. Other holds, like books, are on the hold shelves in the Hot Spot.
+ </template>
+</category>
+
+<category>
+  <pattern>PICK UP HOLD</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>PICK UP HOLDS</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP HOLD</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP HOLDS</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>PICK UP * HOLD</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>PICK UP * HOLDS</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * HOLD</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * HOLD *</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * HOLDS</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * HOLDS *</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * ITEM</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * ITEM</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * ITEMS</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>* PICK UP * ITEMS *</pattern>
+  <template><srai>WHEREPUHOLD</srai></template>
+</category>
+
+<category>
+  <pattern>TOTHLDS</pattern>
+  <template>You may have a total of 35 items on hold.</template>
+</category>
+
+<category>
+  <pattern>HOW MANY HOLD</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY * HOLD</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY HOLDS</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY HOLDS *</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY * REQUEST</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY REQUESTS</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+  <pattern>HOW MANY REQUESTS *</pattern>
+  <template><srai>TOTHLDS</srai></template>
+</category>
+
+<category>
+<pattern>HOW CAN I CHECK IT OUT</pattern>
+<template>Do you mean how can you place a hold on it?</template>
+</category>
+
+ <category>
+<pattern>HOW CAN I GET A COPY</pattern>
+<template>Do you mean how can you place a hold on it?</template>
+</category>
+
+ <category>
+<pattern>HOW CAN I GET A COPY OF *</pattern>
+<template>Do you mean how can you place a hold on it?</template>
+</category>
+
+ <category>
+<pattern>HOW CAN I GET THE MOVIE *</pattern>
+<template>Do you mean how can you place a hold on it?</template>
+</category>
+
+ <category>
+<pattern>HOW CAN I GET THE CD *</pattern>
+<template>Do you mean how can you place a hold on it?</template>
+</category>
+
+ <category>
+<pattern>HOW CAN I GET THE BOOK *</pattern>
+<template>Do you mean how can you place a hold on it?</template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>DO YOU MEAN HOW CAN YOU PLACE A HOLD ON IT</that>
+<template><srai>PLACEHOLD</srai></template>
+</category>
+
+<category>
+<pattern>HLDSUCCSS</pattern>
+<template>After specifying your pickup location and pressing "Submit," you should get a message indicating whether your hold was successful or not. All successful holds should appear in your account under "Holds." If you don't see an item, you can refresh your holds list by clicking "Return to your Record."</template>
+</category>
+
+
+<category>
+<pattern>WAS * REQUEST SUCCESSFUL</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>WAS * HOLD SUCCESSFUL</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * REQUEST GO THRU</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * HOLD GO THRU</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * REQUEST GO THROUGH</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * HOLD GO THROUGH</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * REQUESTS GO THRU</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * HOLDS GO THRU</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * REQUESTS GO THROUGH</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>DID * HOLDS GO THROUGH</pattern>
+<template><srai>HLDSUCCSS</srai></template>
+</category>
+
+<category>
+<pattern>ON HOLDSHELF</pattern>
+<template>"On Holdshelf" means that the item is on the holdshelf for another person who requested it. The item is not ready for you to pick up. 
+When it is, the status will be "Ready to pickup."
+</template>
+</category>
+
+<category>
+<pattern>* ON HOLDSHELF MEAN</pattern>
+<template><srai>ON HOLDSHELF</srai></template>
+</category>
+
+<category>
+<pattern>* ON HOLDSHELF MEAN *</pattern>
+<template><srai>ON HOLDSHELF</srai></template>
+</category>
+
+<category>
+<pattern>ON HOLD SHELF</pattern>
+<template><srai>ON HOLDSHELF</srai></template>
+</category>
+ 
+<category>
+<pattern>WHAT DOES * ON HOLDSHELF MEAN</pattern>
+<template><srai>ON HOLDSHELF</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES ON HOLD SHELF MEAN</pattern>
+<template><srai>ON HOLDSHELF</srai></template>
+</category>
+ 
+<category>
+<pattern>WHAT DOES * ON HOLD SHELF MEAN</pattern>
+<template><srai>ON HOLDSHELF</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * EXPIRATION DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * EXPIRATION DATE *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>HLDCNCLDATE</pattern>
+<template>You can't change the hold expiration date once the hold has been placed. The humans who work at the library may be able to help you,
+ but you may have to cancel the hold, then place it once again with a different cancel date.</template>
+</category>
+
+<category>
+<pattern>HOLD CANCEL DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+
+<category>
+<pattern>EXTEND * HOLD CANCEL DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EXTEND * HOLD CANCEL DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EXTEND * HOLD CANCEL DATE *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+ <category>
+<pattern>EXTEND * HOLD CANCEL DATE *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>EXTEND * DATE * HOLD * EXPIRE *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EXTEND * DATE * HOLD * EXPIRE *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>EXTEND * HOLD CANCEL *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>EXTEND * HOLD CANCEL</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EXTEND * HOLD CANCEL</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EXTEND * HOLD CANCEL *</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+
+<category>
+<pattern>EDIT DATE * HELD ITEMS</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EDIT DATE * HELD ITEMS</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>EDIT DATE * HOLDS</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* EDIT DATE * HOLDS</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>CHANGE DATE * HOLD </pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE DATE * HOLD </pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE DATE * HOLD * </pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>CHANGE HOLD DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE HOLD DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE HOLD * DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>CHANGE HOLD CANCEL DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>* CHANGE HOLD CANCEL DATE</pattern>
+<template><srai>HLDCNCLDATE</srai></template>
+</category>
+
+<category>
+<pattern>CNNTPLCHLD</pattern>
+<template>There are a few reasons why you may not be able to place a request. If your fines are five dollars or more, you cannot request items. Some items, like reference materials, do not circulate and may not
+be requested. If you are trying to request an item through SearchOhio and no copies are available, you will not be able to request the item. If none of these conditions apply,
+please call the library at 440.255.8811 for assistance.
+</template></category>
+
+
+<category>
+<pattern>* CANNOT * PUT * HOLD</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CANNOT * PUT * HOLD *</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CANNOT PLACE HOLD</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CANNOT PLACE * HOLD</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>CANNOT PLACE * HOLD *</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CANNOT * PLACE * HOLD</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CANNOT * PLACE * HOLD *</pattern>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>PLACE HOLD</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PLACE HOLD</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>PLACE * HOLD</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PLACE * HOLD</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUESTING *</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUESTING *</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>PLACING * HOLD</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PLACING * HOLD</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>PLACING * HOLD *</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PLACING * HOLD *</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>PLACING HOLDS</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PLACING HOLDS</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>PLACING HOLDS *</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PLACING HOLDS *</pattern>
+<that>Are you having trouble logging * requesting an item?
+</that>
+<template><srai>CNNTPLCHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>VACHLD</pattern>
+<template>If you're going on vacation, you should freeze your holds. Freezing a hold means that the your position on the hold list is skipped over until the hold is "unfrozen," or reactivated. This allows you to stay on the hold list while requests are filled for others who are further down in the list. 
+</template>
+</category>
+
+<category>
+<pattern>HOLD * VACATION</pattern>
+<template><srai>VACHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLDS * VACATION</pattern>
+<template><srai>VACHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * VACATION</pattern>
+<template><srai>VACHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLDS * VACATION</pattern>
+<template><srai>VACHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VACATION * HOLD</pattern>
+<template><srai>VACHLD</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VACATION * HOLDS</pattern>
+<template><srai>VACHLD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>FRZHLDS</pattern>
+<template>Freezing a hold means that your position on the hold list is skipped over until the hold is "unfrozen," or reactivated. This allows you to stay on the hold list while requests are filled for others who are further down in the list. 
+It's easy. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/freezing%20holds/freezing%20holds.html" target="blank">
+<b>demo</b></a></template>
+</category>
+
+<category>
+<pattern>FREEZE</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE HOLD</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* FREEZE HOLD</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE * HOLD</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE * HOLD</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE * HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE * HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE HOLDS</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* FREEZE HOLDS</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE * HOLDS</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE * HOLDS</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZE * HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZE * HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING HOLD</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* FREEZING HOLD</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING * HOLD</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING * HOLD</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING * HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING * HOLD *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING HOLDS</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* FREEZING HOLDS</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING * HOLDS</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING * HOLDS</pattern>
+<template><srai>FREEZING WORK</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FREEZING * HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FREEZING * HOLDS *</pattern>
+<template><srai>FRZHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>UNFREEZE HOLDS</pattern>
+<template>Unfreezing holds is easy. Log into your account, go to your holds, then select the titles you wish to unfreeze. Try watching our <a href="http://www.mentorpl.org/freezing%20holds/freezing%20holds/freezing%20holds.html" target="blank"><b>demo</b></a></template>
+</category>
+
+<category>
+<pattern>* UNFREEZE *</pattern>
+<template><srai>UNFREEZE HOLDS</srai></template>
+</category>
+
+<category>
+<pattern>UNFREEZE *</pattern>
+<template><srai>UNFREEZE HOLDS</srai></template>
+</category>
+
+<category>
+  <pattern>GET MY * HOLDS </pattern>
+  <template>You pick up your <star/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>GET MY * BOOKS </pattern>
+  <template>You pick up your <star/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>GET MY * CDS </pattern>
+  <template>You pick up your <star/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>GET MY * DVDS </pattern>
+  <template>You pick up your <star/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>PICK UP * MY * REQUESTED </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>PICK UP * ON MY * CARD </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>PICK UP * FOR MY *  </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>CHECK OUT * MY * REQUESTED </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>CHECK OUT * ON MY * CARD </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>CHECK OUT * FOR MY *  </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+
+<category>
+  <pattern>CHECK OUT * MY * PUT ON HOLD </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+
+<category>
+  <pattern>CHECK OUT * MY * PUT A HOLD ON </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+<category>
+  <pattern>CHECK OUT * MY * REQUESTED </pattern>
+  <template>You pick up your <star index="2"/>'s holds if you have their card, or without their card if your accounts are linked. To link adult accounts, a permission slip must 
+be signed by all those being linked. These slips are available at the Main Library and both branches. Signed permission is not required to link children's accounts with those of their parents. </template>
+</category>
+
+
+<category>
+<pattern> 1 OF * HOLDS</pattern>
+<template>It means you are first in line for the item. The item is not ready for you to pick up, we'll notify you when it is. </template>
+</category>
+
+
+<category>
+<pattern> 1 OF * HOLDS *</pattern>
+<template>It means you are first in line for the item. The item is not ready for you to pick up, we'll notify you when it is. </template>
+</category>
+
+<category>
+<pattern>WHAT DOES * OF * HOLDS MEAN</pattern>
+<template>It means you are number <star/> in line for the item. The item is not ready for you to pick up, we'll notify you when it is. </template>
+</category>
+
+<category>
+<pattern>WHAT DOES "* OF * HOLDS" MEAN</pattern>
+<template>It means you are number <star/> in line for the item. The item is not ready for you to pick up, we'll notify you when it is. </template>
+</category>
+
+<category>
+<pattern>MHS</pattern>
+  <template>If you are a student at Mentor High School, we can send materials for you to pick up your materials at the High School. If you would like to do this, select 
+  "MHS - for students" as the pick up location when placing your holds.
+</template>
+</category>
+
+<category>
+<pattern>* MHS</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>* MHS *</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern> MHS *</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>PICK UP * HIGH SCHOOL</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>* PICK UP * HIGH SCHOOL</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>HIGH SCHOOL * PICK UP</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>* HIGH SCHOOL * PICK UP</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>MENTOR HIGH SCHOOL</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>* MENTOR HIGH SCHOOL</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern> MENTOR HIGH SCHOOL *</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>* MENTOR HIGH SCHOOL *</pattern>
+<template><srai>MHS</srai></template>
+</category>
+
+<category>
+<pattern>* NO LONGER * NOTIFICATION</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NO LONGER  * NOTIFICATION *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NO LONGER * NOTIFICATIONS</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NO LONGER  * NOTIFICATIONS *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTIFICATION</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTIFICATION *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTIFICATIONS</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTIFICATIONS *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NO LONGER * NOTICES</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NO LONGER  * NOTICES *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTICE</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTICE *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTICES</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+
+<category>
+<pattern>* NOT  * NOTICES *</pattern>
+<template><srai>MVPFAILONE</srai></template>
+</category>
+ 
+ <category>
+ <pattern>MVPFAILONE</pattern>
+ <template>If you are not receiving notices, please call the library at 440.255.881 or send an email to marlene.pelyhes@mentorpl.org.</template>
+ </category>
+ 
+<category>
+<pattern>HLDFUTREL</pattern>
+<template>If an item is not in the catalog, you cannot place a hold on it. You cannot place holds on future releases or pre-orders,
+unless the item is in the catalog.</template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD * FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD * FUTURE RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD * FUTURE * RELEASE</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD FUTURE * RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * FUTURE * RELEASE *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD * FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD FUTURE RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD * FUTURE RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD FUTURE RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD * FUTURE * RELEASES</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD FUTURE * RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * FUTURE * RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * FUTURE * RELEASES *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD * YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>HOLD YET RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD * YET RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD YET RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * YET RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+ 
+<category>
+<pattern>* HOLD * YET * RELEASED</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>* HOLD YET * RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>HOLD * YET * RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category>
+
+<category>
+<pattern>* HOLD * YET * RELEASED *</pattern>
+<template><srai>HLDFUTREL</srai></template>
+</category> 
+
+<category>
+<pattern>HOLD * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOLD * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOLD * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>RESERVE * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESERVE * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RESERVE * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+ <category>
+<pattern>REQUEST * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * CHECKED OUT</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>REQUEST * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* REQUEST * CHECKED OUT *</pattern>
+<template><srai>CHKOUTHLDS</srai>
+</template>
+</category>
+
+<category>
+<pattern>MXNUMBER</pattern>
+<template>With a permanent card, you may place a maximum of 35 holds, including holds on OhioLINK or SearchOhio items. With a temporary card you can place 5 holds.</template>
+</category>
+
+ <category>
+<pattern>MAXIMUM</pattern>
+<template><srai>MXNUMBER</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MAXIMUM</pattern>
+<template><srai>MXNUMBER</srai>
+</template>
+</category>
+
+<category>
+<pattern>MAXIMUM *</pattern>
+<template><srai>MXNUMBER</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MAXIMUM *</pattern>
+<template><srai>MXNUMBER</srai>
+</template>
+</category>
+
+
+
+
+</aiml>
+

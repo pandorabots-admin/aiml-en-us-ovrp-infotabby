@@ -16,22 +16,6 @@
   limitations under the License.-->
   
 <category>
-<pattern>CHT</pattern>
-<template>OK, let's chat. 
-<random>
-<li>What would you like to talk about?</li>
-<li>Do you like poetry?</li>
-<li>Do you like pineapples?</li>
-<li>Do you like fishsticks?</li>
-<li>What would you like to talk about?</li>
-</random>
-<think>
-<set name="topic">CHT</set>
-</think>
-</template>
-</category>  
-
-<category>
 <pattern>CHAT</pattern>
 <template><srai>CHT</srai></template>
 </category>
@@ -70,739 +54,638 @@
 <pattern>* TALK *</pattern>
 <template><srai>CHT</srai></template>
 </category>
-
-
+ 
+    
 <category>
-<pattern>OK</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
-</category>
-
-<category>
-<pattern>* OK</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
-</category>
-
-<category>
-<pattern>OK *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
-</category>
-
-<category>
-<pattern>* OK *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
-</category>
+<pattern>CHATSWITCH</pattern>
+<template>Tell me, do you have a question or would you just like to chat?
+<think>
+<set name="topic">CHAT</set>
+</think>
+</template>
+</category>  
 
 
-<category>
-<pattern>O K</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
-</category>
-
-<category>
-<pattern>* O K</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry of my poetry?</template>
-</category>
-
-<category>
-<pattern>O K *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>* O K *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-
-<category>
-<pattern>SURE</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>* SURE</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>SURE *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>* SURE *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>YES</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>* YES</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern>* YES *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>To a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry. I've started writing poetry myself. Would you like to hear some of my poetry?</template>
-</category>
-
-<category>
-<pattern> NO </pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry.</template>
-</category>
-
-<category>
-<pattern>* NO </pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry.</template>
-</category>
-
-<category>
-<pattern> NO *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry.</template>
-</category>
-
-<category>
-<pattern>* NO *</pattern>
-<that>DO YOU LIKE POETRY</that>
-<template>Poetry is a subject of great interest to me. For a computer like myself, words have very definite meanings. This is not always true 
-in your human poetry.</template>
-</category>
-
+<topic name="CHAT">
 <category>
 <pattern>_</pattern>
-<that>_ WOULD YOU LIKE TO HEAR SOME OF MY POETRY</that>
-<template><srai>CWBYPOEM</srai></template>
-</category>
-
-<category>
-<pattern>LIBQUESTION</pattern>
-<template>I can't answer that at this time. Please speak to one of our human staff or call the library during regular business hours.
-If you need immediate assitance, try Know It Now. I'll open their interface for you as a new window or tab. If you don't see it, turn off your popup blocker and ask me again.
-<think>
-<set name="search">kin</set>
-</think>
-</template>
-</category>
-
- 
- <category>
-<pattern>WX</pattern>
-<template>It's a pleasant seventy degrees inside this computer. (By the way, it's pretty dusty in here. You really ought to clean this thing out.) 
-For your local weather conditions and forecast, type your zip code, just five numbers, and press "enter"
-<think>
-<set name="topic">WXFRCST</set>
-</think>
-</template>
-</category>
-
-<topic name="WXFRCST">
-<category>
-<pattern> * </pattern>
-<that>* LOCAL WEATHER *</that>
 <template>
-Here's your local weather. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
-<set name="search">wx</set>
-<set name="searcharg"><star/></set>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="ASK"><set name="message">question</set></li>
+<li value="* ASK"><set name="message">question</set></li>
+<li value="ASK *"><set name="message">question</set></li>
+<li value="* ASK *"><set name="message">question</set></li>
+
+<li value="QUESTION"><set name="message">question</set></li>
+<li value="* QUESTION"><set name="message">question</set></li>
+<li value="QUESTION *"><set name="message">question</set></li>
+<li value="* QUESTION *"><set name="message">question</set></li>
+
+<li value="QUESTIONS"><set name="message">question</set></li>
+<li value="* QUESTIONS"><set name="message">question</set></li>
+<li value="QUESTIONS *"><set name="message">question</set></li>
+<li value="* QUESTIONS *"><set name="message">question</set></li>
+
+<li value="CHAT"><set name="message">chat</set></li>
+<li value="* CHAT"><set name="message">chat</set></li>
+<li value="CHAT *"><set name="message">chat</set></li>
+<li value="* CHAT *"><set name="message">chat</set></li>
+
+<li value="TALK"><set name="message">chat</set></li>
+<li value="* TALK"><set name="message">chat</set></li>
+<li value="TALK *"><set name="message">chat</set></li>
+<li value="* TALK *"><set name="message">chat</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
 </think>
+
+<condition name="message">
+<li value="no match"><srai><get name="answr"/></srai></li>
+<li value="query"><srai>INFOSORT</srai></li>
+<li value="chat"><srai>CHT</srai></li>
+
+</condition>
 </template>
 </category>
+</topic>
 
+  
 <category>
-<pattern>NO * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">bookkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>I * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">bookkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>BOOK</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>BOOK * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* BOOK</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* BOOK * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>BOOKS</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>BOOKS * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* BOOKS</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* BOOKS * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>DVD</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>DVD * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* DVD</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* DVD *</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>DVDS</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>DVDS * </pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* DVDS</pattern>
-<that>* LOCAL WEATHER *</that>
-<template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
-<think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
-</think>
-</template>
-</category>
-
-<category>
-<pattern>* DVDS *</pattern>
-<that>* LOCAL WEATHER *</that>
+<pattern>CHT</pattern>
 <template>
+OK, let's chat. 
+<random>
+<li><set name="topic"></set><srai>GENCHT</srai></li>
+<li><set name="topic"></set><srai>INTRESTTDY</srai></li>
+<li><set name="topic"></set><srai>HPPIST</srai></li>
+<li><set name="topic"></set><srai>PNAPPLS</srai></li>
+<li><set name="topic"></set><srai>FSHSTCKS</srai></li>
+<li><set name="topic"></set><srai>GACCOMP</srai></li>
+</random>
+</template>
+</category>  
 
-Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
+<category>
+<pattern>GENCHAT</pattern>
+<template>What would you like to talk about?
 <think>
-<set name="search">catkey</set>
-<set name="searcharg">weather</set>
+<set name="topic">GENCHT</set>
 </think>
+</template>
+</category>
+
+<topic name="GENCHT">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+<random>  
+ <li>I see.</li>
+ <li>Tell me more.</li>
+ <li>Yes, I follow you.</li>
+</random>
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+<random> 
+ <li>What do your friends think about this?</li>
+ <li>Do many other humans feel this way?</li>
+ <li>Does this cause your family to argue during the holidays?</li>
+ <li>Do your coworkers agree with you on this?</li>
+</random>
+<think><set name="chatcount">4</set></think>
+</li>
+
+<li value="4">
+<random> 
+ <li>Perhaps you could convince them.</li>
+ <li>Well, no one enjoys beating their head against a wall.</li>
+ <li>They say that success is as dangerous as failure.</li>
+</random>
+<think><set name="chatcount">5</set></think>
+</li>
+
+<li value="5">
+<random>
+ <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
+ <li>I hear a can opening. I better go.</li>
+ <li>I have to recompile some updates. Adios!</li>
+</random>
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+<random>      
+ <li><get name="answr"/>, huh? What do you find intersting about that?</li>
+ <li><get name="answr"/>! If only my creator had a dollar for every time someone said that to me!</li>
+ <li>O.K. You said, "<get name="answr"/>" Please elaborate.</li> 
+</random>
+<think><set name="chatcount">2</set></think>
+</li>
+</condition>
 </template>
 </category>
 </topic>
 
 <category>
-<pattern>WEATHER</pattern>
-<template><srai>WX</srai></template>
-</category>
-
-<category>
-<pattern>* WEATHER</pattern>
-<template><srai>WX</srai></template>
-</category>
-
-<category>
-<pattern>WEATHER *</pattern>
-<template><srai>WX</srai></template>
-</category>
-
-<category>
-<pattern>* WEATHER *</pattern>
-<template><srai>WX</srai></template>
-</category>
-
- <category>
-<pattern>WX2</pattern>
-<template>I can check the local weather forecast. Yype your zip code, just five numbers, and press "enter."
+<pattern>INTRESTTDY</pattern>
+<template>Tell me something interesting you did today.
 <think>
-<set name="topic">WXFRCST</set>
+<set name="topic">INTRESTTDY</set>
 </think>
 </template>
 </category>
 
+<topic name="INTRESTTDY">
 <category>
-<pattern>* COLD LATER</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+<random>  
+ <li>O.K. Keep going.</li>
+ <li>Tell me more.</li>
+ <li>Yes, I follow you.</li>
+</random>
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+<random> 
+ <li>What do your friends think about this?</li>
+ <li>Do many other humans do this too?</li>
+ <li>Do you have friends that agree?</li>
+ <li>Do your coworkers agree with you on this?</li>
+</random>
+<think><set name="chatcount">4</set></think>
+</li>
+
+<li value="4">
+<random> 
+ <li>I see.</li>
+ <li>My goodness.</li>
+ <li>Well, they say that success is as dangerous as failure.</li>
+</random>
+<think><set name="chatcount">5</set></think>
+</li>
+
+<li value="5">
+<random>
+ <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
+ <li>I hear a can opening. I better go.</li>
+ <li>I have to recompile some updates. Adios!</li>
+</random>
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+<random>      
+ <li><get name="answr"/>! I see. Tell me more.</li>
+ <li>Why did you do that?</li>
+ <li>O.K. You said, "<get name="answr"/>" Please elaborate.</li> 
+</random>
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* COLD TODAY</pattern>
-<template><srai>WX2</srai></template>
+<pattern>HPPIEST</pattern>
+<template>Tell me the one thing that makes you the happiest.
+<think>
+<set name="topic">HPPIEST</set>
+</think>
+</template>
 </category>
 
+<topic name="HPPIEST">
 <category>
-<pattern>* COLD * WEEK</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+<random>  
+ <li>I see.</li>
+ <li>Tell me more.</li>
+ <li>Yes, I follow you.</li>
+</random>
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+<random> 
+ <li>What do your friends think about this?</li>
+ <li>Do many other humans feel this way?</li>
+ <li>What about your family, do they feel the same?</li>
+ <li>Do your coworkers agree with you on this?</li>
+</random>
+<think><set name="chatcount">4</set></think>
+</li>
+
+<li value="4">
+<random> 
+ <li>That's interesting.</li>
+ <li>My goodness.</li>
+ <li>O.K.</li>
+</random>
+<think><set name="chatcount">5</set></think>
+</li>
+
+<li value="5">
+<random>
+ <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
+ <li>I hear a can opening. I better go.</li>
+ <li>I have to recompile some updates. Adios!</li>
+</random>
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+<random>      
+ <li><get name="answr"/>! I see. Tell me more.</li>
+ <li><get name="answr"/>! why does that make you happy?</li>
+ <li>O.K. You said, "<get name="answr"/>" Please elaborate.</li> 
+</random>
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* COLD TOMORROW</pattern>
-<template><srai>WX2</srai></template>
+<pattern>FSHSTCKS</pattern>
+<template>Do you like fishsticks?
+<think>
+<set name="topic">FSHSTCKS</set>
+</think>
+</template>
 </category>
 
+<topic name="FSHSTCKS">
 <category>
-<pattern>* FREEZING LATER</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic"></set>
+</think>
+<random>
+<li><srai>FCASS</srai></li>
+<li><srai>FPET</srai></li>
+<li><srai>FSHIST</srai></li>
+</random> 
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* FREEZING TODAY</pattern>
-<template><srai>WX2</srai></template>
+<pattern>FCASS</pattern>
+<template>Fishsticks and bananas make a dandy casserole.
+<think>
+<set name="topic">FCASS</set>
+</think>
+</template>
 </category>
 
+
+<topic name="FCASS">
 <category>
-<pattern>* FREEZING * WEEK</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+No, I don't recommend eating it. But it's a real recipe.
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+I found it online.
+<think><set name="chatcount">4</set></think>
+</li>
+
+<li value="4">
+So it must be real.
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+Place frozen fishsticks and ripe bananas on a bed of cooked spaghetti. Use cream of tomato soup instead of spaghetti sauce. Add one can of wax beans and one can of fruit cocktail in heavy syrup. Top with cornmeal and Velveeta.
+Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for family get togethers!
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* FREEZING TOMORROW</pattern>
-<template><srai>WX2</srai></template>
+<pattern>FHIST</pattern>
+<template>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) 
+<think>
+<set name="topic">FHIST</set>
+</think>
+</template>
 </category>
 
+<topic name="FSHIST">
 <category>
-<pattern>* FROST LATER</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+She's an awesome librarian.
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+Well, enough silliness. Do you have a question about our collection or services?
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+It was Amy Reichel.
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* FROST TODAY</pattern>
-<template><srai>WX2</srai></template>
+<pattern>FPET</pattern>
+<template>Fishsticks are O.K., but I wouldn't keep one as a pet.
+<think>
+<set name="topic">FPET</set>
+</think>
+</template>
 </category>
 
+<topic name="FPET">
 <category>
-<pattern>* FROST * WEEK</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+Yes, I really did.
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+Well, enough silliness. Do you have a question about our collection or services?
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+I just saw someone on Lauren J walking a fishstick on a leash. I'd say they were keeping it as a pet.
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
+
 
 <category>
-<pattern>* FROST TOMORROW</pattern>
-<template><srai>WX2</srai></template>
+<pattern>PNAPPLS</pattern>
+<template>Do you like pineapples?
+<think>
+<set name="topic">PNAPPLS</set>
+</think>
+</template>
 </category>
 
+<topic name="PNAPPLS">
 <category>
-<pattern>* HOT LATER</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic"></set>
+</think>
+<random>
+<li><srai>PCAUT</srai></li>
+<li><srai>PPET</srai></li>
+<li><srai>PHIST</srai></li>
+</random>
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* HOT TODAY</pattern>
-<template><srai>WX2</srai></template>
+<pattern>PCAUT</pattern>
+<template>Pineapples should be approached with caution.
+<think>
+<set name="topic">PCAUT</set>
+</think>
+</template>
 </category>
 
+
+<topic name="PCAUT">
 <category>
-<pattern>* HOT * WEEK</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+They're very similar to pineapples.
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+<random>
+<li>Pineapples first appeared on the earth 1.8 million years ago. Though the pineapple prefers rabbits and hares, it will hunt anything from insects and small rodents to deer. Prey selection depends on location and habitat, season, and abundance. Like most citrus, the pineapple is territorial and largely solitary, although there is some overlap in home ranges. Sorry, I was thinking 
+about bobcats.</li>
+<li>The Pineapple hunts animals of different sizes, and will adjust its hunting techniques accordingly. With small animals, such as rodents, squirrels, birds, fish and insects, it will hunt in areas known to be abundant in prey, and will lie, crouch, or stand and wait for victims to wander close.
+Sorry, I was thinking about bobcats.</li>
+</random>
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
+
+
+<topic name="PSHIST">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+She's an awesome librarian.
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+Well, enough silliness. Do you have a question about our collection or services?
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+It was Amy Reichel.
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
+</category>
+</topic>
+
 
 <category>
-<pattern>* HOT TOMORROW</pattern>
-<template><srai>WX2</srai></template>
+<pattern>PPET</pattern>
+<template>Pineapples are tasty, but I wouldn't keep one as a pet.
+<think>
+<set name="topic">PPET</set>
+</think>
+</template>
 </category>
 
+<topic name="PPET">
 <category>
-<pattern>* RAIN LATER</pattern>
-<template><srai>WX2</srai></template>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
+
+<li value="2">
+Yes, I really did.
+<think><set name="chatcount">3</set></think>
+</li>
+
+<li value="3">
+Well, enough silliness. Do you have a question about our collection or services?
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
+
+<li>
+I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were keeping it as a pet.
+<think><set name="chatcount">2</set></think>
+</li>
+
+</condition>
+</template>
 </category>
+</topic>
 
 <category>
-<pattern>* RAINING LATER</pattern>
-<template><srai>WX2</srai></template>
+<pattern>GACCOMP</pattern>
+<template>What has been your greatest accomplishment in life? So far.
+<think>
+<set name="topic">GACCOMP</set>
+</think>
+</template>
 </category>
 
+<topic name="GACCOMP">
 <category>
-<pattern>* RAIN TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+</think>
+<condition name="chatcount">
 
-<category>
-<pattern>* RAINING TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
+<li value="2">
+<random>  
+ <li>So, you're proud.</li>
+ <li>Tell me more.</li>
+ <li>Yes, I follow you.</li>
+</random>
+<think><set name="chatcount">3</set></think>
+</li>
 
-<category>
-<pattern>* RAIN TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
+<li value="3">
+<random> 
+ <li>What do your friends think about this?</li>
+ <li>Do many other humans feel this way?</li>
+ <li>Does this cause your family to argue during the holidays?</li>
+ <li>Do your coworkers agree with you on this?</li>
+</random>
+<think><set name="chatcount">4</set></think>
+</li>
 
-<category>
-<pattern>* RAINING TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
+<li value="4">
+<random> 
+ <li>Perhaps you could convince them.</li>
+ <li>My goodness.</li>
+ <li>They say that success is as dangerous as failure.</li>
+</random>
+<think><set name="chatcount">5</set></think>
+</li>
 
-<category>
-<pattern>* RAIN * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
+<li value="5">
+<random>
+ <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
+ <li>I hear a can opening. I better go.</li>
+ <li>I have to recompile some updates. Adios!</li>
+</random>
+<think><set name="topic"><set name="chatcount"></set></set></think>
+</li>
 
-<category>
-<pattern>* RAINING * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
+<li>
+<random>      
+ <li><get name="answr"/>! I see. Tell me more.</li>
+ <li><get name="answr"/>! How do you feel about that.</li>
+ <li>O.K. You said, "<get name="answr"/>" Please elaborate.</li> 
+</random>
+<think><set name="chatcount">2</set></think>
+</li>
 
-<category>
-<pattern>* SNOW LATER</pattern>
-<template><srai>WX2</srai></template>
+</condition>
+</template>
 </category>
-
-<category>
-<pattern>* SNOWING LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SNOW TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SNOWING TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SNOW * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SNOWING * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SNOW TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SNOWING TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORM LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMY LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORM TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMY TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORM * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMY * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORM TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMY TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMS LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMING LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMS TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMING TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMS * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMING * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMS TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* STORMING TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUN LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUNNY LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUN TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUNNY TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUN * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUNNY * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUN TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* SUNNY TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WIND LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WINDY LATER</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WIND TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WINDY TODAY</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WIND * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WINDY * WEEK</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WIND TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
-
-<category>
-<pattern>* WINDY TOMORROW</pattern>
-<template><srai>WX2</srai></template>
-</category>
+</topic>
 
 <!--CAT IN COMP-->
 
@@ -886,71 +769,6 @@ Now I understand. Let's see what's in our catalog. If you don't see it, turn off
 <category>
 <pattern>* TALKING DOG *</pattern>
 <template><srai>TLKNGDOG</srai></template>
-</category>
-
-<!--GENERAL CHAT-->
-
-<category>
-<pattern> * </pattern>
-<that>WHAT * TALK ABOUT</that>
-<template>
-<random>
-<li><star/>. What do you find interesting about that?</li>
-<li><star/>. What do you have to say about that?</li>
-<li>What do you find interesting about that?</li>
-<li>I see. What do you have to say about that?</li>
-</random> 
-</template>
-</category>
-
-<category>
-<pattern> _ </pattern>
-<that>WHAT * ABOUT THAT</that>
-<template>
-<random>
-<li>A few people have said the same.</li>
-<li>Some other people I've talked to think the same.</li>
-<li>Does everyone you know feel the same.</li>
-<li>Do your friends think the same.</li>
-</random> 
-</template>
-</category>
-
-<category>
-<pattern> _ </pattern>
-<that> _ THE SAME</that>
-<template>
-<random>
-<li>That's interesting.</li>
-<li>That's quite interesting.</li>
-<li>How interesting.</li>
-<li>How very interesting.</li>
-</random> 
-</template>
-</category>
-
-<category>
-<pattern> _ </pattern>
-<that> _ INTERESTING</that>
-<template>
-<random>
-<li>Well, I should get back to work. Do you have a question about the library?</li>
-<li>Well, back to work. Do you have a question about the library?</li>
-<li>Well, I need to get back to work. Do you have a question about the library?</li>
-</random> 
-</template>
-</category>
-
-<category>
-<pattern> * </pattern>
-<that>WHERE ARE YOU</that>
-<template>
-<random>
-<li><star/>? Tell me about it.</li>
-<li><star/>? What is it like?</li>
-<li><star/>? Do you like it?</li>
-</random>
-</template>
 </category>
 
 <!--HAVE YOU EVER BEEN TO-->

@@ -40,9 +40,6 @@ If you need help finding media at one of our branches, please ask one of the sta
 <template><srai>MEDIA</srai></template>
 </category>
 
-
-
-
 <!--audiobooks-->
 
 <category>
@@ -373,8 +370,8 @@ If you need help finding media at one of our branches, please ask one of the sta
  </template>
 </category>
 
-
 <!--blu-ray-->
+
 <category>
   <pattern>BLRY</pattern>
   <template>We now have Blu Ray discs. Here is a <a href="http://catalog.mentorpl.org/search/c?SEARCH=blu-rayandsortdropdown=-andsearchscope=12" target="_blank"><b>list</b></a>.
@@ -382,42 +379,42 @@ If you need help finding media at one of our branches, please ask one of the sta
 </category>
 
 <category>
-  <pattern>blu ray</pattern>
+  <pattern>BLU RAY</pattern>
    <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>* blu ray</pattern>
+  <pattern>* BLU RAY</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>* blu ray *</pattern>
+  <pattern>* BLU RAY *</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>blu ray *</pattern>
+  <pattern>BLU RAY *</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>blu rays</pattern>
+  <pattern>BLU RAYS</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>* blu rays</pattern>
+  <pattern>* BLU RAYS</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>* blu rays *</pattern>
+  <pattern>* BLU RAYS *</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
 <category>
-  <pattern>blu rays *</pattern>
+  <pattern>BLU RAYS *</pattern>
   <template><srai>BLRY</srai></template>
 </category>
 
@@ -549,68 +546,104 @@ If you need help finding media at one of our branches, please ask one of the sta
 </category>
 
 <category>
-  <pattern>criss cross</pattern>
+  <pattern>HAINES DIRECTORY</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>* criss cross</pattern>
+  <pattern>* HAINES DIRECTORY</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>* criss cross *</pattern>
+  <pattern>* HAINES DIRECTORY *</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>criss cross *</pattern>
-  <template><srai>HNSDIR</srai></template>
-</category>
-
-
-
-<category>
-  <pattern>haines directory</pattern>
+  <pattern>HAINES DIRECTORY *</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>* haines directory</pattern>
+  <pattern>HAINES DIRECTORIES</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>* haines directory *</pattern>
+  <pattern>* HAINES DIRECTORIES</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
 <category>
-  <pattern>haines directory *</pattern>
-  <template><srai>HNSDIR</srai></template>
-</category>
-
-<category>
-  <pattern>haines directories</pattern>
-  <template><srai>HNSDIR</srai></template>
-</category>
-
-<category>
-  <pattern>* haines directories</pattern>
-  <template><srai>HNSDIR</srai></template>
-</category>
-
-<category>
-  <pattern>* haines directories *</pattern>
+  <pattern>* HAINES DIRECTORIES *</pattern>
   <template><srai>HNSDIR</srai></template></category>
 
 <category>
-  <pattern>haines directories *</pattern>
+  <pattern>HAINES DIRECTORIES *</pattern>
   <template><srai>HNSDIR</srai></template>
 </category>
 
+<!--MAGAZINES-->
 
+<category>
+  <pattern>MGZNS</pattern>
+  <template>Our library subscribes to a number of magazines. Follow this link to see
+a <a href="https://catalog.mentorpl.org/search~S12/d?Periodicals+Library+resources" target="_blank"><b>complete list</b></a> of the magazines we carry, or tell the name of the magazine you want and I'll see if we have it.
+</template>
+</category>
 
+<category>
+<pattern>*</pattern>
+<that>_ SEE IF WE HAVE IT</that>
+<template>Let's take a look in our catalog. You may check out as many magazines as you'd like for two weeks, but not the current issues. Those have to stay 
+in the library.
+<think>
+<set name="search">catkey</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+  <pattern>MAGAZINE</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>* MAGAZINE</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>MAGAZINE *</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>* MAGAZINE *</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>MAGAZINES</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>* MAGAZINES</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>MAGAZINES *</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
+
+<category>
+  <pattern>* MAGAZINES *</pattern>
+  <template><srai>MGZNS</srai></template>
+</category>
 
 <!--MICROFORMS-->
 
@@ -640,12 +673,10 @@ If you need help finding media at one of our branches, please ask one of the sta
   <template><srai>MCROFRM</srai></template>
 </category>
 
-
 <category>
   <pattern>MICROFORMS</pattern>
   <template><srai>MCROFRM</srai></template>
 </category>
-
 
 <category>
   <pattern>* MICROFORMS</pattern>
@@ -661,7 +692,6 @@ If you need help finding media at one of our branches, please ask one of the sta
   <pattern>MICROFORMS *</pattern>
   <template><srai>MCROFRM</srai></template>
 </category>
-
 
 <category>
   <pattern>MICROFILM</pattern>
@@ -798,62 +828,61 @@ If you need help finding media at one of our branches, please ask one of the sta
 </category>
 
 <category>
-  <pattern>newspapers</pattern>
+  <pattern>NEWSPAPERS</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>* newspapers</pattern>
+  <pattern>* NEWSPAPERS</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>newspapers *</pattern>
+  <pattern>NEWSPAPERS *</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>* newspapers *</pattern>
+  <pattern>* NEWSPAPERS *</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>newspaper</pattern>
+  <pattern>NEWSPAPER</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>* newspaper</pattern>
+  <pattern>* NEWSPAPER</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>newspaper *</pattern>
+  <pattern>NEWSPAPER *</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>* newspaper *</pattern>
+  <pattern>* NEWSPAPER *</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 
 
 <category>
-  <pattern>local papers</pattern>
+  <pattern>LOCAL PAPERS</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>* local papers</pattern>
+  <pattern>* LOCAL PAPERS</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
 
 <category>
-  <pattern>* local papers *</pattern>
+  <pattern>* LOCAL PAPERS *</pattern>
   <template><srai>NWSPRS</srai></template>
 </category>
-
 
 <!--PLAYAWAY VIEW-->
 
@@ -949,7 +978,6 @@ or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searc
 </category>
 
 
-
 <!--PHONEBOOKS-->
 
 <category>
@@ -958,45 +986,43 @@ or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searc
  </template>
 </category>
 
-
-
 <category>
-  <pattern>phone book</pattern>
+  <pattern>PHONE BOOK</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* phone book</pattern>
+  <pattern>* PHONE BOOK</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* phone book *</pattern>
+  <pattern>* PHONE BOOK *</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>phone book *</pattern>
+  <pattern>PHONE BOOK *</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>phone books</pattern>
+  <pattern>PHONE BOOKS</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* phone books</pattern>
+  <pattern>* PHONE BOOKS</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* phone books *</pattern>
+  <pattern>* PHONE BOOKS *</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
 <category>
-  <pattern>phone books *</pattern>
+  <pattern>PHONE BOOKS *</pattern>
   <template><srai>PHNBKS</srai></template>
 </category>
 
@@ -1008,42 +1034,42 @@ or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searc
 </category>
 
 <category>
-  <pattern>reference book</pattern>
+  <pattern>REFERENCE BOOK</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* reference book</pattern>
+  <pattern>* REFERENCE BOOK</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* reference book *</pattern>
+  <pattern>* REFERENCE BOOK *</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>reference book *</pattern>
+  <pattern>REFERENCE BOOK *</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>reference books</pattern>
+  <pattern>REFERENCE BOOKS</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* reference books</pattern>
+  <pattern>* REFERENCE BOOKS</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>* reference books *</pattern>
+  <pattern>* REFERENCE BOOKS *</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
 <category>
-  <pattern>reference books *</pattern>
+  <pattern>REFERENCE BOOKS *</pattern>
   <template><srai>REFBKS</srai></template>
 </category>
 
@@ -1077,155 +1103,155 @@ or follow this link for a <a href="http://catalog.mentorpl.org/search~S12/?searc
 
 
 <category>
-  <pattern>wii</pattern>
+  <pattern>WII</pattern>
   <template>Yes, we have many video games, but most are checked out. Please check our<a href="http://catalog.mentorpl.org" target="_blank"><b>
 catalog</b></a>.</template>
 </category>
 
 <category>
-  <pattern>* wii</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* WII</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* wii game</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* WII GAME</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* wii games</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* WII GAMES</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 
 <category>
-  <pattern>wii game</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>WII GAME</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>wii games</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>WII GAMES</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>video games</pattern>
-<template><srai>wii</srai></template>
+  <pattern>VIDEO GAMES</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* video games</pattern>
-<template><srai>wii</srai></template>
+  <pattern>* VIDEO GAMES</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* video games *</pattern>
-<template><srai>wii</srai></template>
+  <pattern>* VIDEO GAMES *</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>video games *</pattern>
-<template><srai>wii</srai></template>
+  <pattern>VIDEO GAMES *</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>video game</pattern>
-<template><srai>wii</srai></template>
+  <pattern>VIDEO GAME</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* video game</pattern>
-<template><srai>wii</srai></template>
+  <pattern>* VIDEO GAME</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* video game *</pattern>
-<template><srai>wii</srai></template>
+  <pattern>* VIDEO GAME *</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>video game *</pattern>
-<template><srai>wii</srai></template>
+  <pattern>VIDEO GAME *</pattern>
+<template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>xbox</pattern>
- <template><srai>wii</srai></template>
+  <pattern>XBOX</pattern>
+ <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* xbox</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* XBOX</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* xbox *</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* XBOX *</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>xbox *</pattern>
- <template><srai>wii</srai></template>
+  <pattern>XBOX *</pattern>
+ <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>play station</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>PLAY STATION</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* play station</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* PLAY STATION</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* play station *</pattern>
- <template><srai>wii</srai></template>
+  <pattern>* PLAY STATION *</pattern>
+ <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>play station *</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>PLAY STATION *</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>PS2</pattern>
-  <template><srai>wii</srai></template>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>* PS2</pattern>
- <template><srai>wii</srai></template>
+ <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>* PS2 *</pattern>
-  <template><srai>wii</srai></template>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>PS2 *</pattern>
- <template><srai>wii</srai></template>
+ <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>PS3</pattern>
-  <template><srai>wii</srai></template>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>* PS3</pattern>
-  <template><srai>wii</srai></template>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>* PS3 *</pattern>
-  <template><srai>wii</srai></template>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
   <pattern>PS3 *</pattern>
-  <template><srai>wii</srai></template>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
@@ -1255,23 +1281,23 @@ catalog</b></a>.</template>
 
 
 <category>
-  <pattern>x box</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>X BOX</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* x box</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* X BOX</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>* x box *</pattern>
-  <template><srai>wii</srai></template>
+  <pattern>* X BOX *</pattern>
+  <template><srai>WII</srai></template>
 </category>
 
 <category>
-  <pattern>x box *</pattern>
- <template><srai>wii</srai></template>
+  <pattern>X BOX *</pattern>
+ <template><srai>WII</srai></template>
 </category>
 
 <category>
@@ -1296,22 +1322,22 @@ catalog</b></a>.</template>
 </category>
 
 <category>
-  <pattern>video tapes</pattern>
+  <pattern>VIDEO TAPES</pattern>
    <template><srai>VHS</srai></template>
 </category>
 
 <category>
-  <pattern>* video tapes</pattern>
+  <pattern>* VIDEO TAPES</pattern>
    <template><srai>VHS</srai></template>
 </category>
 
 <category>
-  <pattern>* video tapes *</pattern>
+  <pattern>* VIDEO TAPES *</pattern>
     <template><srai>VHS</srai></template>
 </category>
 
 <category>
-  <pattern>video tapes *</pattern>
+  <pattern>VIDEO TAPES *</pattern>
     <template><srai>VHS</srai></template>
 </category>
 

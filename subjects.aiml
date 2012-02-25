@@ -16,10 +16,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
-
 <!--DEWEY RANGES-->
-
 
 <category>
 <pattern>* TRAVEL</pattern>
@@ -61,12 +58,10 @@
 <template>Try looking in the 616's.</template>
 </category>
 
-
 <category>
 <pattern>GARDEN MAINTENANCE</pattern>
 <template>Try looking around the 635's.</template>
 </category>
-
 
 <category>
 <pattern>BEST PLACES TO LIVE</pattern>
@@ -77,7 +72,6 @@
 <pattern>COOKBK</pattern>
 <template>Are you trying to find cook books in our catalog or on our shelves?</template>
 </category>
-
 
 <category>
 <pattern>COOKBOOK</pattern>
@@ -142,7 +136,6 @@
 <template>Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.</template>
 </category>
 
-
 <category>
 <pattern>SHELF</pattern>
 <that>* FIND COOK BOOKS * ON OUR SHELVES</that>
@@ -190,6 +183,5 @@
 <that>* FIND COOK BOOKS * ON OUR SHELVES</that>
 <template>Look around 641.5 on the nonfiction shelves.</template>
 </category>
-
 
 </aiml>

@@ -16,7 +16,6 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
 <category>
 <pattern>CHKSHLF</pattern>
 <template>
@@ -27,7 +26,6 @@
 </random>
 </template>
 </category>
-
 
 <category>
 <pattern>CHECK SHELF</pattern>
@@ -48,8 +46,6 @@
 <pattern>CHECK SHELF _</pattern>
 <template><srai>CHKSHLF</srai></template>
 </category>
-
-<!--display-->
 
 <category>
 <pattern>DSPLY</pattern>
@@ -76,13 +72,10 @@
 <template><srai>DISPLAY</srai></template>
 </category>
 
-<!--on holdshelf-->
-
 <category>
 <pattern>ONHLDSHLF</pattern>
 <template>"On Holdshelf" means a patron has placed a hold on the item and it is ready for them to pickup.</template>
 </category>
-
 
 <category>
 <pattern>ON HOLDSHELF</pattern>
@@ -99,8 +92,6 @@
 <template><srai>OONHLDSHLF</srai></template>
 </category>
 
-<!--due-->
-
 <category>
 <pattern>DUE DATE</pattern>
 <template>The due date is the date when the item is due.</template>
@@ -110,8 +101,6 @@
 <pattern>DUE *</pattern>
 <template>"Due <star/>" means that the item is checked out and is due on <star/>.</template>
 </category>
-
-<!--lost and paid-->
 
 <category>
 <pattern>LANDPD</pattern>
@@ -144,7 +133,6 @@ SearchOhio or purchase a replacement.
 </template>
 </category>
 
-<!--place hold-->
 <category>
 <pattern>PLACE HOLD</pattern>
 <template>"Place Hold" means that the item is not immediately available and you should place a hold on the item. (If you're asking how to place a hold, type "How do I place a hold.")
@@ -175,7 +163,6 @@ SearchOhio or purchase a replacement.
 </template>
 </category>
 
-<!--damaged-->
 <category>
 <pattern>DAMAGED</pattern>
 <template>"Damaged" means that the item was damaged. It is no longer in our collection. Ask a librarian if we can get the item from 
@@ -200,8 +187,6 @@ SearchOhio or purchase a replacement.
 <template><srai>DAMAGED</srai>
 </template>
 </category>
-
-<!--billed-->
 
 <category>
 <pattern>BILLED</pattern>
@@ -277,7 +262,6 @@ the library at 440.255.8811.
 <template><srai>SOREQ</srai></template>
 </category>
 
-<!--PROCESSING-->
 
 <category>
 <pattern>PRCSS</pattern>
@@ -304,9 +288,6 @@ the library at 440.255.8811.
 <template><srai>PRCSS</srai></template>
 </category>
 
-<!--IN TRANSIT-->
-
-
 <category>
 <pattern>INTRNST</pattern>
 <template>The item status "in transit" means that the item is being moved from one location to another. If you're checking a hold and see that it's "in transit,"
@@ -332,6 +313,5 @@ this usually means that the item is on it's way to your pick up location.</templ
 <pattern>_ IN TRANSIT *</pattern>
 <template><srai>INTRNST</srai></template>
 </category>
-
 
 </aiml>

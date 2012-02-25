@@ -16,14 +16,11 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
-
 <!--date format="%A %d %m %Y"-->
-
-
 
 <category>
 <pattern>OPN FRIDAY 11 11 2011</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template>All of our locations are closed for Veterans Day. Regular hours will resume on Saturday, November 12.</template>
 </category>
 
 <category>
@@ -33,37 +30,232 @@
 
 <category>
 <pattern>OPN THURSDAY 24 11 2011</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template>All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday, November 25.</template>
 </category>
 
 <category>
 <pattern>OPN FRIDAY 23 12 2011</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template>All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Tuesday, December 27.</template>
 </category>
 
 <category>
 <pattern>OPN SATURDAY 24 12 2011</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template><srai>CLSDTDY</srai> Regular hours will resume at all locations on Tuesday, December 27.</template>
 </category>
 
 <category>
 <pattern>OPN SUNDAY 25 12 2011</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template><srai>CLSDTDY</srai> Regular hours will resume at all locations on Tuesday, December 27.</template>
 </category>
 
 <category>
 <pattern>OPN MONDAY 26 12 2011</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template><srai>CLSDTDY</srai> Regular hours will resume at all locations on Tuesday, December 27.</template>
 </category>
 
 <category>
 <pattern>OPN SUNDAY 01 01 2012</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template>All locations are closed for New Year's Day. Regular hours will resume on Tuesday, January 3.</template>
 </category>
 
 <category>
 <pattern>OPN MONDAY 02 01 2012</pattern>
-<template><srai>CLSDTDY</srai></template>
+<template><srai>CLSDTDY</srai> Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+
+<category>
+<pattern>OPN SUNDAY 08 04 2012</pattern>
+<template>The Library is closed for Easter. Regular hours will resume on Monday, April 9.</template>
+</category>
+
+<category>
+<pattern>OPN MONDAY 28 05 2012</pattern>
+<template>The Library is closed for Memorial Day. Regular hours will resume on Tuesday, May 29.</template>
+</category>
+
+
+<category>
+<pattern>OPN WEDNESDAY 04 07 2012</pattern>
+<template>The Library is closed for Independence Day. Regular hours will resume on Thursday, July 5.</template>
+</category>
+
+<!--ropn-->
+
+<category>
+<pattern>ROPN SUNDAY 01 01 2012</pattern>
+<template>All locations are closed for New Year's Day. Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+<category>
+<pattern>ROPN MONDAY 02 01 2012</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+
+<category>
+<pattern>ROPN SUNDAY 08 04 2012</pattern>
+<template>The Library is closed for Easter. Regular hours will resume on Monday, April 9.</template>
+</category>
+
+<category>
+<pattern>ROPN MONDAY 28 05 2012</pattern>
+<template>The Library is closed for Memorial Day. Regular hours will resume on Tuesday, May 29.</template>
+</category>
+
+
+<category>
+<pattern>ROPN WEDNESDAY 04 07 2012</pattern>
+<template>The Library is closed for Independence Day. Regular hours will resume on Thursday, July 5.</template>
+</category>
+
+<!--topn-->
+
+<category>
+<pattern>TOPN THURSDAY 22 12 2011</pattern>
+<template>All of our locations are closed for Christmas. In this case, for Christmas Eve eve. Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>TOPN FRIDAY 23 12 2011</pattern>
+<template>All of our locations are closed for Christmas. Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>TOPN SATURDAY 24 12 2011</pattern>
+<template>All of our locations are closed for Christmas. Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>TOPN SUNDAY 25 12 2011</pattern>
+<template>All of our locations are closed for Christmas. Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+
+<category>
+<pattern>TOPN MONDAY 26 12 2011</pattern>
+<template>All of our locations are closed for Christmas. Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+
+<category>
+<pattern>TOPN SATURDAY 31 12 2011</pattern>
+<template>All locations are closed for New Year's Day. Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+<category>
+<pattern>TOPN SUNDAY 01 01 2012</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+<category>
+<pattern>TOPN SUNDAY 19 02 2012</pattern>
+<template>The Library is open on President's Day.</template>
+</category>
+
+<category>
+<pattern>TOPN SATURDAY 07 04 2012</pattern>
+<template>The Library is closed for Easter. Regular hours will resume on Monday, April 9.</template>
+</category>
+
+<category>
+<pattern>TOPN SUNDAY 27 05 2012</pattern>
+<template>The Library is closed for Memorial Day. Regular hours will resume on Tuesday, May 29.</template>
+</category>
+
+
+<category>
+<pattern>TOPN TUESDAY 03 07 2012</pattern>
+<template>The Library is closed for Independence Day. Regular hours will resume on Thursday, July 5.</template>
+</category>
+
+<!--TROPN-->
+
+<category>
+<pattern>TROPN SUNDAY 01 01 2012</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+
+<category>
+<pattern>TROPN SATURDAY 07 04 2012</pattern>
+<template>The Library is closed for Easter. Regular hours will resume on Monday, April 9.</template>
+</category>
+
+<category>
+<pattern>TROPN SUNDAY 27 05 2012</pattern>
+<template>The Library is closed for Memorial Day. Regular hours will resume on Tuesday, May 29.</template>
+</category>
+
+
+<category>
+<pattern>TROPN TUESDAY 03 07 2012</pattern>
+<template>The Library is closed for Independence Day. Regular hours will resume on Thursday, July 5.</template>
+</category>
+
+
+<!--YOPN-->
+
+<category>
+<pattern>YOPN SATURDAY 12 11 2011</pattern>
+<template>All of our locations were closed for Veterans Day. Regular hours will resume today, Saturday, November 12.</template>
+</category>
+
+<category>
+<pattern>YOPN THURSDAY 24 11 2011</pattern>
+<template><srai>ECLSDTDY</srai></template>
+</category>
+
+<category>
+<pattern>YOPN FRIDAY 25 11 2011</pattern>
+<template>All of our locations were closed for Thanksgiving Day. Regular hours will resume today, Friday, November 25.</template>
+</category>
+
+<category>
+<pattern>YOPN SATURDAY 24 12 2011</pattern>
+<template>All of our locations are closed for Christmas. Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>YOPN SUNDAY 25 12 2011</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>YOPN MONDAY 26 12 2011</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume at all locations on Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>YOPN TUESDAY 27 12 2011</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume at all locations today, Tuesday, December 27.</template>
+</category>
+
+<category>
+<pattern>yOPN MONDAY 02 01 2012</pattern>
+<template>All locations are closed for New Year's Day. Regular hours will resume on Tuesday, January 3.</template>
+</category>
+
+<category>
+<pattern>YOPN TUESDAY 03 01 2012</pattern>
+<template><srai>CLSDTDY</srai> Regular hours will resume today, Tuesday, January 3.</template>
+</category>
+
+
+<category>
+<pattern>YOPN MONDAY 08 04 2012</pattern>
+<template>The Library was closed for Easter. Regular hours will resume today, Monday, April 9.</template>
+</category>
+
+<category>
+<pattern>YOPN TUESDAY 29 05 2012</pattern>
+<template>The Library wais closed for Memorial Day. Regular hours will resume today, Tuesday, May 29.</template>
+</category>
+
+
+<category>
+<pattern>YOPN THURSDAY 05 07 2012</pattern>
+<template>The Library was closed for Independence Day. Regular hours will resume today, Thursday, July 5.</template>
 </category>
 
 
@@ -156,6 +348,55 @@
 <category>
   <pattern>NEW YEAR S *</pattern>
   <template><srai>NEWYRS</srai></template>
+</category>
+
+<!--PRESIDENT"S DAY-->
+
+<category>
+  <pattern>PRESDAY</pattern>
+  <template>All of our locations are open on President's Day. We're having have some special
+  programs; check our calendar for details.
+  </template>
+</category>
+
+<category>
+  <pattern>PRESIDENTS DAY</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* PRESIDENTS DAY</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* PRESIDENTS DAY *</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>PRESIDENTS DAY *</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>PRESIDENT S DAY</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* PRESIDENT S DAY</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>* PRESIDENT S DAY *</pattern>
+  <template><srai>PRESDAY</srai></template>
+</category>
+
+<category>
+  <pattern>PRESIDENT S DAY *</pattern>
+  <template><srai>PRESDAY</srai></template>
 </category>
 
 
@@ -600,5 +841,52 @@
   <pattern>* OPEN * XMAS *</pattern>
   <template><srai>XMAS</srai></template>
 </category>
+
+<category>
+  <pattern>HPPYNY</pattern>
+  <template>Thank you. And a Happy 2012 to you, too.</template>
+</category>
+
+<category>
+  <pattern>HAPPY NEW YEAR</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+<category>
+  <pattern>* HAPPY NEW YEAR</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+<category>
+  <pattern>HAPPY NEW YEAR *</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+<category>
+  <pattern>* HAPPY NEW YEAR *</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+
+<category>
+  <pattern>HAPPY NEWYEAR</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+<category>
+  <pattern>* HAPPY NEWYEAR</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+<category>
+  <pattern>HAPPY NEWYEAR *</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
+<category>
+  <pattern>* HAPPY NEWYEAR *</pattern>
+  <template><srai>HPPYNY</srai></template>
+</category>
+
 
 </aiml>

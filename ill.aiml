@@ -19,16 +19,14 @@
 
 
 <category>
-<pattern> * reserve * from another library </pattern>
+<pattern>* reserve * from another library </pattern>
 <template>If it's something in our collection, but at another branch, just place your hold as usual. If it's something that isn't in out collection, try looking in <a href="http://ohpir.westervillelibrary.org/" target="_blank"><b>SearchOhio</b></a>
 or in <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a>. 
 Once you've found your item, just place your request as usual. Most OhioLINK and SearchOhio items arrive within five business days.</template>
 </category>
 
-
-
 <category>
-<pattern> * LIVE IN * FROM MENTOR * </pattern>
+<pattern>* LIVE IN * FROM MENTOR * </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -36,9 +34,8 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </template>
 </category>
 
-
 <category>
-<pattern> CAN * REQUEST * NOT LISTED * LIBRARY</pattern>
+<pattern>CAN * REQUEST * NOT LISTED * LIBRARY</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -46,9 +43,8 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </template>
 </category>
 
-
 <category>
-<pattern> RESERVE * NOT IN SYSTEM</pattern>
+<pattern>RESERVE * NOT IN SYSTEM</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -66,7 +62,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> RESERVE * NOT IN * LIBRARY</pattern>
+<pattern>RESERVE * NOT IN * LIBRARY</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -84,7 +80,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> RESERVE * NOT IN * LIBRARY *</pattern>
+<pattern>RESERVE * NOT IN * LIBRARY *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -102,7 +98,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> HOW * REQUEST * NOT LISTED * LIBRARY</pattern>
+<pattern>HOW * REQUEST * NOT LISTED * LIBRARY</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -112,7 +108,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 
 
 <category>
-<pattern> CAN * REQUEST * NOT IN YOUR *</pattern>
+<pattern>CAN * REQUEST * NOT IN YOUR *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -121,7 +117,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> HOW * REQUEST * NOT IN YOUR *</pattern>
+<pattern>HOW * REQUEST * NOT IN YOUR *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -131,7 +127,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 
 
 <category>
-<pattern> CAN * REQUEST * NOT IN THE *</pattern>
+<pattern>CAN * REQUEST * NOT IN THE *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -140,7 +136,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> HOW * REQUEST * NOT IN THE *</pattern>
+<pattern>HOW * REQUEST * NOT IN THE *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -151,7 +147,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 <!--new ill-->
 
 <category>
-<pattern> * BORROW * OTHER LIBRARIES </pattern>
+<pattern>* BORROW * OTHER LIBRARIES </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -160,7 +156,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROW * ANOTHER LIBRARY </pattern>
+<pattern>* BORROW * ANOTHER LIBRARY </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -169,7 +165,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROW * OTHER LIBRARIES *</pattern>
+<pattern>* BORROW * OTHER LIBRARIES *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -178,7 +174,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROW * ANOTHER LIBRARY *</pattern>
+<pattern>* BORROW * ANOTHER LIBRARY *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -187,7 +183,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROWING * OTHER LIBRARIES </pattern>
+<pattern>* BORROWING * OTHER LIBRARIES </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -196,7 +192,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROWING * ANOTHER LIBRARY </pattern>
+<pattern>* BORROWING * ANOTHER LIBRARY </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -205,7 +201,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROWING * OTHER LIBRARIES *</pattern>
+<pattern>* BORROWING * OTHER LIBRARIES *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -214,7 +210,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * BORROWING * ANOTHER LIBRARY *</pattern>
+<pattern>* BORROWING * ANOTHER LIBRARY *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -223,7 +219,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUEST * OTHER LIBRARIES </pattern>
+<pattern>* REQUEST * OTHER LIBRARIES </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -232,7 +228,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUEST * ANOTHER LIBRARY </pattern>
+<pattern>* REQUEST * ANOTHER LIBRARY </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -241,7 +237,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUEST * OTHER LIBRARIES *</pattern>
+<pattern>* REQUEST * OTHER LIBRARIES *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -250,7 +246,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUEST * ANOTHER LIBRARY *</pattern>
+<pattern>* REQUEST * ANOTHER LIBRARY *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -259,7 +255,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUESTS * OTHER LIBRARIES </pattern>
+<pattern>* REQUESTS * OTHER LIBRARIES </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -268,7 +264,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUESTS * ANOTHER LIBRARY </pattern>
+<pattern>* REQUESTS * ANOTHER LIBRARY </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -277,7 +273,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUESTS * OTHER LIBRARIES *</pattern>
+<pattern>* REQUESTS * OTHER LIBRARIES *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -286,7 +282,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * REQUESTS * ANOTHER LIBRARY *</pattern>
+<pattern>* REQUESTS * ANOTHER LIBRARY *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -295,7 +291,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * ORDER * OTHER LIBRARIES </pattern>
+<pattern>* ORDER * OTHER LIBRARIES </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -304,7 +300,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * ORDER * ANOTHER LIBRARY </pattern>
+<pattern>* ORDER * ANOTHER LIBRARY </pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -313,7 +309,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * ORDER * OTHER LIBRARIES *</pattern>
+<pattern>* ORDER * OTHER LIBRARIES *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -322,7 +318,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * ORDER * ANOTHER LIBRARY *</pattern>
+<pattern>* ORDER * ANOTHER LIBRARY *</pattern>
 <template><srai>INLIBLN</srai> 
 <think>
 <set name="search">socat</set>
@@ -455,7 +451,6 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 <template><srai>INLIBLN</srai></template>
 </category>
 
-
 <category>
 <pattern>* OBTAIN * OUTSIDE * COLLECTION</pattern>
 <template><srai>INLIBLN</srai></template>
@@ -466,7 +461,6 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 <template><srai>INLIBLN</srai></template>
 </category>
  
-
 <category>
 <pattern>* LIBRARY OBTAIN * DO NOT HAVE * COLLECTION</pattern>
 <template><srai>INLIBLN</srai></template>
@@ -475,7 +469,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 <!--SEARCH OTHER LIBS-->
 
 <category>
-<pattern> SEARCH * LIBRARIES</pattern>
+<pattern>SEARCH * LIBRARIES</pattern>
 <template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
@@ -495,7 +489,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * SEARCH * LIBRARIES</pattern>
+<pattern>* SEARCH * LIBRARIES</pattern>
 <template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
@@ -515,7 +509,7 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </category>
 
 <category>
-<pattern> * SEARCH * LIBRARIES *</pattern>
+<pattern>* SEARCH * LIBRARIES *</pattern>
 <template><srai>INLIBLN</srai><br/>
 <srai>NOGOSO</srai>
 <think>
@@ -534,7 +528,6 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </template>
 </category>
 
-
 <category>
 <pattern>* SEARCH * LIBRARY'S *</pattern>
 <template><srai>INLIBLN</srai><br/>
@@ -545,53 +538,52 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </template>
 </category>
 
-
 <!--clevnet-->
 
 <category>
-  <pattern>clevnet</pattern>
+  <pattern>CLEVNET</pattern>
   <template> We are not part of CLEVNET, we are part of SearchOhio.
   We cannot request CLEVNET items for you. Kirtland and Willoughby are the closest Clevnet Libraries, they can request CLEVNET items for you.
   </template>
 </category>
 
 <category>
-  <pattern>* clevnet</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>* CLEVNET</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
 
 <category>
-  <pattern>* clevnet *</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>* CLEVNET *</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
 
 <category>
-  <pattern>clevnet *</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>CLEVNET *</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
 
 <category>
-  <pattern>clevenet</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>CLEVENET</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
 
 <category>
-  <pattern>* clevenet</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>* CLEVENET</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
 
 <category>
-  <pattern>* clevenet *</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>* CLEVENET *</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
 
 <category>
-  <pattern>clevenet *</pattern>
-  <template><srai>clevnet</srai></template>
+  <pattern>CLEVENET *</pattern>
+  <template><srai>CLEVNET</srai></template>
 </category>
-
 
 <!--OHIOLINK one word-->
+
 <category>
   <pattern>OHLNK</pattern>
     <template>You can use your Mentor Library Card to borrow items from college libraries in Ohio by using <a href="http://olc1.ohiolink.edu/search~S0/" target="_blank"><b>OhioLINK</b></a>. It's easy. Here's their catalog. If you don't see it, turn off your pop up blocker and ask me again. 
@@ -600,7 +592,6 @@ Once you've found your item, just place your request as usual. Most OhioLINK and
 </think>
 </template>
 </category>
-
 
 <category>
   <pattern>OHIO LINK</pattern>
@@ -723,7 +714,7 @@ Most items ordered through OhioLINK arrive within five business days.
 </category>
 
 <category>
-<pattern>HOW LONG * ILL * </pattern>
+<pattern>HOW LONG * ILL *</pattern>
 <template>
 <srai>HWLNGOL</srai>
 </template>
@@ -755,42 +746,42 @@ Most items ordered through OhioLINK arrive within five business days.
 </category>
 
 <category>
-  <pattern>OHIOLINK catalog</pattern>
+  <pattern>OHIOLINK CATALOG</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* OHIOLINK catalog</pattern>
+  <pattern>* OHIOLINK CATALOG</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* OHIOLINK catalog *</pattern>
+  <pattern>* OHIOLINK CATALOG *</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>OHIOLINK catalog *</pattern>
+  <pattern>OHIOLINK CATALOG *</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>OHIO LINK catalog</pattern>
+  <pattern>OHIO LINK CATALOG</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* OHIO LINK catalog</pattern>
+  <pattern>* OHIO LINK CATALOG</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* OHIO LINK catalog *</pattern>
+  <pattern>* OHIO LINK CATALOG *</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
 <category>
-  <pattern>OHIO LINK catalog *</pattern>
+  <pattern>OHIO LINK CATALOG *</pattern>
   <template><srai>OLCAT</srai></template>
 </category>
 
@@ -808,37 +799,37 @@ Most items ordered through OhioLINK arrive within five business days.
 </category>
 
 <category>
-  <pattern>what * OHIOLINK</pattern>
+  <pattern>WHAT * OHIOLINK</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
 <category>
-  <pattern>* what * OHIOLINK *</pattern>
+  <pattern>* WHAT * OHIOLINK *</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
 <category>
-  <pattern>what * OHIOLINK *</pattern>
+  <pattern>WHAT * OHIOLINK *</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
 <category>
-  <pattern>what * OHIO LINK</pattern>
+  <pattern>WHAT * OHIO LINK</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
 <category>
-  <pattern>* what * OHIO LINK</pattern>
+  <pattern>* WHAT * OHIO LINK</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
 <category>
-  <pattern>* what * OHIO LINK *</pattern>
+  <pattern>* WHAT * OHIO LINK *</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
 <category>
-  <pattern>what * OHIO LINK *</pattern>
+  <pattern>WHAT * OHIO LINK *</pattern>
   <template><srai>OHIOLINK</srai></template>
 </category>
 
@@ -852,7 +843,6 @@ Most items ordered through OhioLINK arrive within five business days.
 </think>
 </template>
 </category>
-
 
 <category>
   <pattern>SEARCH OHIO</pattern>
@@ -982,7 +972,6 @@ Most items ordered through OhioLINK or SearchOhio are ready to pick up within fi
 <template><srai>ILLETA</srai></template>
 </category>
 
-
 <category>
 <pattern>HOW LONG * TAKE FOR * SEARCHOHIO</pattern>
 <template><srai>ILLETA</srai></template>
@@ -1002,7 +991,6 @@ Most items ordered through OhioLINK or SearchOhio are ready to pick up within fi
 <pattern>HOW LONG *  WAIT* SEARCH OHIO</pattern>
 <template><srai>ILLETA</srai></template>
 </category>
-
 
 <!--if you don't have a-->
 
@@ -1038,8 +1026,6 @@ Most items ordered through OhioLINK or SearchOhio are ready to pick up within fi
   <template><srai>MPLNOGO</srai></template>
 </category>
 
-
-
 <!--so catalog-->
 
 <category>
@@ -1050,89 +1036,67 @@ Most items ordered through OhioLINK or SearchOhio are ready to pick up within fi
 </template>
 </category>
 
-
-
 <category>
-  <pattern>SearchOhio catalog</pattern>
+  <pattern>SEARCHOHIO CATALOG</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* SearchOhio catalog</pattern>
+  <pattern>* SEARCHOHIO CATALOG</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* SearchOhio catalog *</pattern>
+  <pattern>* SEARCHOHIO CATALOG *</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>SearchOhio catalog *</pattern>
+  <pattern>SEARCHOHIO CATALOG *</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>search ohio catalog</pattern>
+  <pattern>SEARCH OHIO CATALOG</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* search ohio catalog</pattern>
+  <pattern>* SEARCH OHIO CATALOG</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* search ohio catalog *</pattern>
+  <pattern>* SEARCH OHIO CATALOG *</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <category>
-  <pattern>search ohio catalog *</pattern>
+  <pattern>SEARCH OHIO CATALOG *</pattern>
   <template><srai>SOCAT</srai></template>
 </category>
 
 <!--what is so-->
 
 <category>
-  <pattern>SearchOhio</pattern>
+  <pattern>SEARCHOHIO</pattern>
   <template>SearchOhio gives you easy access to millions items from sixteen other library systems: Akron-Summit County Public Library, Cuyahoga County Public Library, Greene County Public Library, Kent Free Library, Louisville Public Library, Massillon Public Library, Mentor Public Library, Portage County District Library, Public Library of Youngstown and Mahoning County, Reed Memorial Library, Rodman Public Library, Stark County District Library, Toledo-Lucas County Public Library, Wadsworth Public Library, Warren-Trumbull County Public Library, and Westerville Public Library. Unlike traditional interlibrary loans, you place your requests online and the requests will be transmitted automatically to the other library. You can get books, DVD's, CD's, and more through SearchOhio.
   </template>
 </category>
 
 <category>
-  <pattern>* what is SearchOhio</pattern>
-  <template><srai>SearchOhio</srai></template>
+  <pattern>* SEARCHOHIO</pattern>
+  <template><srai>SEARCHOHIO</srai></template>
 </category>
 
 <category>
-  <pattern>* what is SearchOhio *</pattern>
-  <template><srai>SearchOhio</srai></template>
+  <pattern>SEARCHOHIO *</pattern>
+  <template><srai>SEARCHOHIO</srai></template>
 </category>
 
 <category>
-  <pattern>what is SearchOhio *</pattern>
-  <template><srai>SearchOhio</srai></template>
-</category>
-
-<category>
-  <pattern>what is Search Ohio</pattern>
-  <template><srai>SearchOhio</srai></template>
-</category>
-
-<category>
-  <pattern>* what is Search Ohio</pattern>
-  <template><srai>SearchOhio</srai></template>
-</category>
-
-<category>
-  <pattern>* what is Search Ohio *</pattern>
-  <template><srai>SearchOhio</srai></template>
-</category>
-
-<category>
-  <pattern>what is Search Ohio *</pattern>
-  <template><srai>SearchOhio</srai></template>
+  <pattern>* SEARCHOHIO *</pattern>
+  <template><srai>SEARCHOHIO</srai></template>
 </category>
 
 <!--SO WIKI-->
@@ -1192,42 +1156,42 @@ Most items ordered through OhioLINK or SearchOhio are ready to pick up within fi
 </category>
 
 <category>
-  <pattern>worldcat</pattern>
+  <pattern>WORLDCAT</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* worldcat</pattern>
+  <pattern>* WORLDCAT</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* worldcat *</pattern>
+  <pattern>* WORLDCAT *</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>worldcat *</pattern>
+  <pattern>WORLDCAT *</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>world cat</pattern>
+  <pattern>WORLD CAT</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* world cat</pattern>
+  <pattern>* WORLD CAT</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>* world cat *</pattern>
+  <pattern>* WORLD CAT *</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 
 <category>
-  <pattern>world cat *</pattern>
+  <pattern>WORLD CAT *</pattern>
   <template><srai>WRLDCAT</srai></template>
 </category>
 

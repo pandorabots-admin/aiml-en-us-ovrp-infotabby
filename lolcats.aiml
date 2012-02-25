@@ -22,6 +22,7 @@
 <template>One of my favorite websites. I'll open it for you. Make sure you pop up blocker is off, or you won't see it.
 <think>
 <set name="search">lolcats</set>
+</think>
 </template>
 </category>
 
@@ -59,6 +60,5 @@
 <pattern>LOL CATS *</pattern>
 <template><srai>LOLCATS</srai></template>
 </category>
-
 
 </aiml>
