@@ -40,6 +40,9 @@
 <set name="message">cont</set>
 <condition name="answr">
 
+
+<li value="YES"><set name="message">yes</set></li>
+
 <li value="NO"><set name="message">concl</set></li>
 <li value="* NO"><set name="message">concl</set></li>
 <li value="NO *"><set name="message">concl</set></li>
@@ -66,6 +69,8 @@
 </think>
 
 <condition name="message">
+<li value="yes">O.K. How can I help you.</li>
+
 <li value="cont"><srai><get name="answr"/></srai></li>
 <li value="thanks">
 <random>

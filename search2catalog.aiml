@@ -15,37 +15,58 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
   
+<category>
+<pattern>Q1</pattern>  
+<template>
+First question. You entered <b><get name="answr"/></b>. Is this something you want to borrow from the library? 
+<think>
+<set name="topic">3QGAMEQ1</set>
+</think>
+</template>
+</category> 
+
+
+<topic name="3QGAMEQ1">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="YES"><set name="message">yes</set></li>
+<li value="* YES"><set name="message">yes</set></li>
+<li value="YES *"><set name="message">yes</set></li>
+<li value="* YES *"><set name="message">yes</set></li>
+
+<li value="NO"><set name="message">no</set></li>
+<li value="* NO"><set name="message">no</set></li>
+<li value="NO *"><set name="message">no</set></li>
+<li value="* NO *"><set name="message">no</set></li>
+
+<li value="STOP"><set name="message">stop</set></li>
+<li value="* STOP"><set name="message">stop</set></li>
+<li value="STOP *"><set name="message">stop</set></li>
+<li value="* STOP *"><set name="message">stop</set></li>
+
+</condition>
+</think>
+
+<condition name="message">
+<li value="no match"><think><set name="topic"></set></think>I'm not sure what you're asking.</li>
+
+<li value="yes"><set name="topic"></set><srai>DIRCATSRCH</srai></li>
+<li value="no"><set name="topic"></set><srai>Q2</srai></li>
+
+<li value="stop"><think><set name="topic"></set></think>O.K. I'll stop.</li>
+
+</condition>
+</template>
+</category>
+</topic>  
   
-<category>
-<pattern>YES</pattern>
-<that>_ SOMETHING YOU WANT TO BORROW FROM THE LIBRARY</that>
-<template><srai>DIRCATSRCH</srai></template>
-</category>
-
-<category>
-<pattern>* YES</pattern>
-<that>_ SOMETHING YOU WANT TO BORROW FROM THE LIBRARY</that>
-<template><srai>DIRCATSRCH</srai></template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>_ SOMETHING YOU WANT TO BORROW FROM THE LIBRARY</that>
-<template><srai>DIRCATSRCH</srai></template>
-</category>
-
-<category>
-<pattern>* YES *</pattern>
-<that>_ SOMETHING YOU WANT TO BORROW FROM THE LIBRARY</that>
-<template><srai>DIRCATSRCH</srai></template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>_ SOMETHING YOU WANT TO BORROW FROM THE LIBRARY</that>
-<template><srai>INFSRCH</srai></template>
-</category>
-  
+ 
 <!--LIBRARY CATALOGS-->
 
 <category>

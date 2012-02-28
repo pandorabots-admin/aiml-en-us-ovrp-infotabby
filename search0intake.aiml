@@ -2114,6 +2114,58 @@ How can I assist you?
 <li value="* WOLFRAM ALPHA"><set name="message">wolfram alpha</set></li>
 <li value="WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
 <li value="* WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
+
+<li value="GOOGLE BOOKS"><set name="message">google books</set></li>
+<li value="* GOOGLE BOOKS"><set name="message">google books</set></li>
+<li value="GOOGLE BOOKS *"><set name="message">google books</set></li>
+<li value="* GOOGLE BOOKS *"><set name="message">google books</set></li>
+
+<li value="BOOKS * GOOGLE"><set name="message">google books</set></li>
+<li value="* BOOKS * GOOGLE"><set name="message">google books</set></li>
+<li value="BOOKS * GOOGLE *"><set name="message">google books</set></li>
+<li value="* BOOKS * GOOGLE *"><set name="message">google books</set></li>
+
+<li value="OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY *"><set name="message">openlib</set></li>
+
+<li value="OPEN LIBRARY EBOOK"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOK *"><set name="message">openlib</set></li>
+
+<li value="OPEN LIBRARY EBOOKS"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOKS *"><set name="message">openlib</set></li>
+
+<li value="EBOOK OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* EBOOK OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK * OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK * OPEN LIBRARY *"><set name="message">openlib</set></li>
+
+<li value="EBOOKS OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* EBOOKS OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS * OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS * OPEN LIBRARY *"><set name="message">openlib</set></li>
+  
   
 </condition>
 <think><set name="topic"></set></think>
@@ -2227,6 +2279,12 @@ assistance, follow this link to <a href="http://www.knowitnow.org/" target="_bla
 <set name="search">walpha</set>
 </think>
 </li>
+
+<li value="google books"><srai>GGLBKSRCH</srai></li>
+
+<li value="openlib"><srai>OPENLIB</srai></li>
+
+<li value="openlib ebooks"><srai>OPENLIB EBKS</srai></li>
 
 </condition>
 </template>
@@ -4282,6 +4340,57 @@ assistance, follow this link to <a href="http://www.knowitnow.org/" target="_bla
 <li value="* WOLFRAM ALPHA"><set name="message">wolfram alpha</set></li>
 <li value="WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
 <li value="* WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
+
+<li value="GOOGLE BOOKS"><set name="message">google books</set></li>
+<li value="* GOOGLE BOOKS"><set name="message">google books</set></li>
+<li value="GOOGLE BOOKS *"><set name="message">google books</set></li>
+<li value="* GOOGLE BOOKS *"><set name="message">google books</set></li>
+
+<li value="BOOKS * GOOGLE"><set name="message">google books</set></li>
+<li value="* BOOKS * GOOGLE"><set name="message">google books</set></li>
+<li value="BOOKS * GOOGLE *"><set name="message">google books</set></li>
+<li value="* BOOKS * GOOGLE *"><set name="message">google books</set></li>
+
+<li value="OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY *"><set name="message">openlib</set></li>
+
+<li value="OPEN LIBRARY EBOOK"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOK *"><set name="message">openlib</set></li>
+
+<li value="OPEN LIBRARY EBOOKS"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOKS *"><set name="message">openlib</set></li>
+
+<li value="EBOOK OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* EBOOK OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK * OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK * OPEN LIBRARY *"><set name="message">openlib</set></li>
+
+<li value="EBOOKS OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* EBOOKS OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS * OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS * OPEN LIBRARY *"><set name="message">openlib</set></li>
   
 </condition>
 <think><set name="topic"></set></think>
@@ -4394,6 +4503,12 @@ assistance, follow this link to <a href="http://www.knowitnow.org/" target="_bla
 <set name="search">walpha</set>
 </think>
 </li>
+
+<li value="google books"><srai>GGLBKSRCH</srai></li>
+
+<li value="openlib"><srai>OPENLIB</srai></li>
+
+<li value="openlib ebooks"><srai>OPENLIB EBKS</srai></li>
 
 </condition>
 </template>

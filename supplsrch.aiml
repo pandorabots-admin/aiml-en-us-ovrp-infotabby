@@ -1550,5 +1550,73 @@ Now I understand. Let's see what's in our catalog. If you don't see it, turn off
 <template><srai>WX2</srai></template>
 </category>
 
+<!--GOOGLE BOOKS & OPEN LIBRARY-->
+
+<category>
+<pattern>GGLBKSRCH</pattern>
+<template>I'll be delighted to search Google Books for you. Please enter an author and/or title, or your topic.
+<think>
+<set name="topic">GBSRCH</set>
+</think>
+</template>
+</category>
+
+<topic name="GBSRCH">
+<category>
+<pattern>*</pattern>
+<template>Excellent! Let's see what we find in Google Books.
+<think>
+<set name="search">googlebooks</set>
+<set name="searcharg"><star/></set>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+</topic>  
+
+<category>
+<pattern>OPENLIB</pattern>
+<template>I'll be happy to search the Open Library for you. Please enter an author and/or title, or your topic.
+<think>
+<set name="topic">OPNLIBBKS</set>
+</think>
+</template>
+</category>
+
+<topic name="OPNLIBBKS">
+<category>
+<pattern>*</pattern>
+<template>Let's see what we find in the Open Library.
+<think>
+<set name="search">opnlib</set>
+<set name="searcharg"><star/></set>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+</topic>  
+
+
+<category>
+<pattern>OPENLIB EBKS</pattern>
+<template>I'll be happy to search for eBooks in the Open Library for you. Please enter an author and/or title, or your topic.
+<think>
+<set name="topic">OPNLIBEBKS</set>
+</think>
+</template>
+</category>
+
+<topic name="OPNLIBEBKS">
+<category>
+<pattern>*</pattern>
+<template>Let's see what eBooks we find in the Open Library.
+<think>
+<set name="search">opnlibe</set>
+<set name="searcharg"><star/></set>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+</topic>  
 
 </aiml>

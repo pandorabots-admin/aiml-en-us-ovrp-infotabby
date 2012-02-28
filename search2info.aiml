@@ -17,53 +17,56 @@
 
   
 <category>
-<pattern>INFSRCH</pattern>
+<pattern>Q2</pattern>
 <template>
 O.K. Second question. Is this something you'd like to know <em>about</em> our library? I mean, is it something about our library programs, services, or policies?
+<think>
+<set name="topic">3QGAMEQ2</set>
+</think>
 </template>
-</category>
+</category> 
 
 
+<topic name="3QGAMEQ2">
 <category>
-<pattern>YES</pattern>
-<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
+<pattern>_</pattern>
 <template>
-<srai>MPLSSRCH</srai>
-</template>
-</category>
+<think>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
 
-<category>
-<pattern>* YES</pattern>
-<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
-<template>
-<srai>MPLSSRCH</srai>
-</template>
-</category>
+<li value="YES"><set name="message">yes</set></li>
+<li value="* YES"><set name="message">yes</set></li>
+<li value="YES *"><set name="message">yes</set></li>
+<li value="* YES *"><set name="message">yes</set></li>
 
-<category>
-<pattern>YES *</pattern>
-<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
-<template>
-<srai>MPLSSRCH</srai>
-</template>
-</category>
+<li value="NO"><set name="message">no</set></li>
+<li value="* NO"><set name="message">no</set></li>
+<li value="NO *"><set name="message">no</set></li>
+<li value="* NO *"><set name="message">no</set></li>
 
-<category>
-<pattern>* YES *</pattern>
-<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
-<template>
-<srai>MPLSSRCH</srai>
-</template>
-</category>
+<li value="STOP"><set name="message">stop</set></li>
+<li value="* STOP"><set name="message">stop</set></li>
+<li value="STOP *"><set name="message">stop</set></li>
+<li value="* STOP *"><set name="message">stop</set></li>
 
-<category>
-<pattern>*</pattern>
-<that>_ LIBRARY PROGRAMS SERVICES OR POLICIES</that>
-<template>
-<srai>DBSRCH</srai>
+</condition>
+</think>
+
+<condition name="message">
+<li value="no match"><think><set name="topic"></set></think>I'm not sure what you're asking.</li>
+
+<li value="yes"><set name="topic"></set><srai>MPLSSRCH</srai></li>
+<li value="no"><set name="topic"></set><srai>Q3</srai></li>
+
+<li value="stop"><think><set name="topic"></set></think>O.K. I'll stop.</li>
+
+</condition>
 </template>
 </category>
-  
+</topic> 
+
 
 <category>
 <pattern>MPLSSRCH</pattern>
@@ -77,55 +80,54 @@ O.K. Second question. Is this something you'd like to know <em>about</em> our li
 </category>
 
 <category>
-<pattern>DBSRCH</pattern>
+<pattern>Q3</pattern>
 <template>
-We're almost done. This one is a <em>little</em> more difficult. Just type "yes" or "no." Is your question best answered by numbers? 
+We're almost done. This one is a <em>little</em> more difficult. Just tell me "yes" or "no." Is your question best answered by numbers? 
+<think>
+<set name="topic">3QGAMEQ3</set>
+</think>
 </template>
-</category>
+</category> 
 
-
-
+<topic name="3QGAMEQ3">
 <category>
-<pattern>YES</pattern>
-<that>_ BEST ANSWERED BY NUMBERS</that>
+<pattern>_</pattern>
 <template>
-<srai>WASRCH</srai>
+<think>
+<set name="answr"><star/></set>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="YES"><set name="message">yes</set></li>
+<li value="* YES"><set name="message">yes</set></li>
+<li value="YES *"><set name="message">yes</set></li>
+<li value="* YES *"><set name="message">yes</set></li>
+
+<li value="NO"><set name="message">no</set></li>
+<li value="* NO"><set name="message">no</set></li>
+<li value="NO *"><set name="message">no</set></li>
+<li value="* NO *"><set name="message">no</set></li>
+
+<li value="STOP"><set name="message">stop</set></li>
+<li value="* STOP"><set name="message">stop</set></li>
+<li value="STOP *"><set name="message">stop</set></li>
+<li value="* STOP *"><set name="message">stop</set></li>
+
+</condition>
+</think>
+
+<condition name="message">
+<li value="no match"><set name="topic"></set><srai>GOOGSDIRECT</srai></li>
+
+<li value="yes"><set name="topic"></set><srai>WASRCH</srai></li>
+<li value="no"><set name="topic"></set><srai>OWLSRCH</srai></li>
+
+<li value="stop"><think><set name="topic"></set></think>O.K. I'll stop.</li>
+
+</condition>
 </template>
 </category>
-
-<category>
-<pattern>* YES</pattern>
-<that>_ BEST ANSWERED BY NUMBERS</that>
-<template>
-<srai>WASRCH</srai>
-</template>
-</category>
-
-<category>
-<pattern>YES *</pattern>
-<that>_ BEST ANSWERED BY NUMBERS</that>
-<template>
-<srai>WASRCH</srai>
-</template>
-</category>
-
-<category>
-<pattern>* YES *</pattern>
-<that>_ BEST ANSWERED BY NUMBERS</that>
-<template>
-<srai>WASRCH</srai>
-</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>_ BEST ANSWERED BY NUMBERS</that>
-<template>
-<srai>OWLSRCH</srai>
-</template>
-</category>
-
-
+</topic> 
 
 <category>
 <pattern>WASRCH</pattern>
@@ -148,6 +150,22 @@ We're almost done. This one is a <em>little</em> more difficult. Just type "yes"
 </think>
 </template>
 </category>
+
+<category>
+<pattern>GOOGSDIRECT</pattern>
+<template>Well, this is a tough one. Let's see what we can find in Google Scholar. I hope you remembered to turn off your pop up blocker or you won't see the results.
+<br/><br/>
+<srai>0CONCL</srai>
+<think>
+<set name="search">googlescholar</set>
+</think>
+</template>
+</category>
+
+
+
+
+
 
 <!--INFOSTART-->
 

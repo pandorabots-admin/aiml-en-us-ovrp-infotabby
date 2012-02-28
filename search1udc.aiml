@@ -159,6 +159,21 @@
 <set name="message">no match</set>
 <condition name="answr">
 
+<li value="HOURS"><set name="message">hours</set></li>
+<li value="* HOURS"><set name="message">hours</set></li>
+<li value="HOURS *"><set name="message">hours</set></li>
+<li value="* HOURS *"><set name="message">hours</set></li>
+
+<li value="OPEN"><set name="message">hours</set></li>
+<li value="* OPEN"><set name="message">hours</set></li>
+<li value="OPEN *"><set name="message">hours</set></li>
+<li value="* OPEN *"><set name="message">hours</set></li>
+
+<li value="CLOSED"><set name="message">hours</set></li>
+<li value="* CLOSED"><set name="message">hours</set></li>
+<li value="CLOSED *"><set name="message">hours</set></li>
+<li value="* CLOSED *"><set name="message">hours</set></li>
+
 <li value="AUDIOBOOK"><set name="message">mplcat</set></li>
 <li value="* AUDIOBOOK"><set name="message">mplcat</set></li>
 <li value="AUDIOBOOK *"><set name="message">mplcat</set></li>
@@ -1605,12 +1620,64 @@
 <li value="WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
 <li value="* WOLFRAM ALPHA *"><set name="message">wolfram alpha</set></li>
   
+<li value="GOOGLE BOOKS"><set name="message">google books</set></li>
+<li value="* GOOGLE BOOKS"><set name="message">google books</set></li>
+<li value="GOOGLE BOOKS *"><set name="message">google books</set></li>
+<li value="* GOOGLE BOOKS *"><set name="message">google books</set></li>
+
+<li value="BOOKS * GOOGLE"><set name="message">google books</set></li>
+<li value="* BOOKS * GOOGLE"><set name="message">google books</set></li>
+<li value="BOOKS * GOOGLE *"><set name="message">google books</set></li>
+<li value="* BOOKS * GOOGLE *"><set name="message">google books</set></li>
+
+<li value="OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY *"><set name="message">openlib</set></li>
+
+<li value="OPEN LIBRARY EBOOK"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOK"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOK *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOK *"><set name="message">openlib</set></li>
+
+<li value="OPEN LIBRARY EBOOKS"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOKS"><set name="message">openlib</set></li>
+<li value="OPEN LIBRARY * EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY EBOOKS *"><set name="message">openlib</set></li>
+<li value="* OPEN LIBRARY * EBOOKS *"><set name="message">openlib</set></li>
+
+<li value="EBOOK OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* EBOOK OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOK * OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOK * OPEN LIBRARY *"><set name="message">openlib</set></li>
+
+<li value="EBOOKS OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="* EBOOKS OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS * OPEN LIBRARY"><set name="message">openlib</set></li>
+<li value="EBOOKS * OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS OPEN LIBRARY *"><set name="message">openlib</set></li>
+<li value="* EBOOKS * OPEN LIBRARY *"><set name="message">openlib</set></li>  
+  
 </condition>
 <think><set name="topic"></set></think>
 </think>
 
 <condition name="message">
 <li value="no match"><srai>THREEQUESTIONGAME</srai></li>
+<li value="hours"><srai>TIMECHECK</srai></li>
 
 <li value="ausearch"><srai>DIRCATSEARCH</srai></li>
 
@@ -1704,11 +1771,36 @@ assistance, follow this link to <a href="http://www.knowitnow.org/" target="_bla
 </think>
 </li>
 
+
+<li value="google books"><srai>GGLBKSRCH</srai></li>
+
+<li value="openlib"><srai>OPENLIB</srai></li>
+
+<li value="openlib ebooks"><srai>OPENLIB EBKS</srai></li>
+
+
 </condition>
 </template>
 </category>
 </topic>
 
+
+<category>
+<pattern>THREEQUESTIONGAME</pattern>
+<template>
+<think>
+<set name="searcharg"><get name="answr"/></set>
+</think>
+<random>
+<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
+</li>
+<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+</li>
+<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
+</li>
+</random>
+</template>
+</category>
 
 <category>
 <pattern>1FUN</pattern>
@@ -1723,31 +1815,10 @@ assistance, follow this link to <a href="http://www.knowitnow.org/" target="_bla
 <li>This will be easy, I promise.</li>
 <li>This is easier than catching mice in a barrel!</li>
 </random>
-</template>
-</category>
-
-
-<category>
-<pattern>THREEQUESTIONGAME</pattern>
-<template>
-<think>
-<set name="topic"></set>
-<set name="searcharg"><get name="answr"/></set>
-</think>
-<random>
-<li>I need to ask you three questions in order to find this. <srai>1FUN</srai> 
-</li>
-<li>O.K. Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-</li>
-<li>Now I'm going to ask you three questions in order to find this. <srai>1FUN</srai> 
-</li>
-</random>
 <br/><br/>
-First question. You entered <b><get name="answr"/></b>. Is this something you want to borrow from the library? 
+We'll proceed, unless you tell me to stop.
+<srai>Q1</srai>
 </template>
 </category>
-
-
-
 
 </aiml>  
