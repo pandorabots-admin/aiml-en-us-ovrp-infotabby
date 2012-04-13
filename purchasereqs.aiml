@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -194,7 +194,6 @@ a month. Please check the status of this request then.
 </template>
 </category>
 </topic>
-
 
 <category>
 <pattern>REQUEST * BUY</pattern>
@@ -605,13 +604,6 @@ a month. Please check the status of this request then.
   <pattern>* RECOMMEND * PURCHASE *</pattern>
 <template><srai>PRCHREQ</srai></template>
 </category>
-
-<category>
-<pattern>WHO ORDERS * </pattern>
-<template>Members of the library staff order materials under the supervision of Barbara Hauer, our Collection Manager.</template>
-</category>
-
-<!--from newitems.aiml-->
 
 <category>
 <pattern>YES</pattern>

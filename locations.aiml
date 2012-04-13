@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
 <category>
 <pattern>BRNCHS</pattern>
-<template>I'm often asked about our branches. What would you like to know about our Branchs? 
+<template>I'm often asked about our branches. What would you like to know about our Branches? 
 <think>
 <set name="topic">BRANCHES</set>
 </think>
@@ -351,23 +351,16 @@
 <li value="no match"><set name="topic"></set><srai>NOMATCH</srai></li>
 
 <li value="locations"><srai>LIBLOC</srai></li>
-
 <li value="hdls location"><srai>HDLSLOC</srai></li>
-
 <li value="main location"><srai>MAINLOC</srai></li>
-
 <li value="mol location"><srai>LAKELOC</srai></li>
-
-<li value="mol mgr">David Newyear is the Manager of the Lake Branch Library.</li>
-
+<li value="mol mgr"><srai>MOLMGR</srai></li>
 <li value="libphone"><srai>LIBPHONE</srai></li>
-
-<li value="mol phone">The phone number for the Lake Branch is 440.257.2512.</li>
+<li value="mol phone"><srai>MOLPHONE</srai></li>
 
 <li value="returns">You may return any of our items to any of our locations.</li>
 
 <li value="branchhrs"><srai>BRNCHHRS</srai></li>
-
 <li value="read house"><srai>READHSE</srai></li>
 
 </condition>
@@ -433,13 +426,6 @@
 
 <!--BRANCH HOURS-->
 
-<category>
-<pattern>BRNCHHRS</pattern>
-<template>
-Both Branches are open from 1:00 pm to 9:00 pm on Mondays and Wednesdays, and from 9:00 am to 5:00 pm on Tuesdays, Thursdays, Fridays, and Saturdays.
-Both Branches are closed on Sundays.
-</template>
-</category>
 
 <!--LIB ADDRESSES-->
 
@@ -465,300 +451,276 @@ Both Branches are closed on Sundays.
 
 <category>
 <pattern>MENTORDIR</pattern>
-  <template>You can find maps of Mentor Ohio <a href="http://cityofmentor.com/interactive-map/" target="_blank"><b>on this page</b></a>
- </template>
+<template>You can find maps of Mentor Ohio <a href="http://cityofmentor.com/interactive-map/" target="_blank"><b>on this page</b></a>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MENTOR</pattern>
-  <template><srai>MENTORDIR</srai></template>
+<template><srai>MENTORDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS CITY OF MENTOR</pattern>
-  <template><srai>MENTORDIR</srai></template>
+<template><srai>MENTORDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MENTOR OHIO</pattern>
-  <template><srai>MENTORDIR</srai></template>
+<template><srai>MENTORDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTION TO MPL</pattern>
-  <template><srai>MENTORDIR</srai></template>
+<template><srai>MENTORDIR</srai></template>
 </category>
 
 <!--THE LIBRARY MAIN-->
 
 <category>
-<pattern>MAINDIR</pattern>
-  <template>You can find maps and driving directions <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>on this page</b></a>
- </template>
-</category>
-
-<category>
 <pattern>DIRECTIONS MPL</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MAIN</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR MAIN LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE MAIN LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MAIN LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MAIN</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MENTOR LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS  MENTOR PUBLIC LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE MENTOR PUBLIC LIBRARY</pattern>
-  <template><srai>MAINDIR</srai></template>
+<template><srai>MAINDIR</srai></template>
 </category>
 
 <!--HEADLANDS-->
 
 <category>
-<pattern>HEADLANDSDIR</pattern>
-  <template>You can find maps and driving directions <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>on this page</b></a>
- </template>
+<pattern>DIRECTIONS HEADLANDS</pattern>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS HEADLANDS</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
-</category>
-
-<category>
-<pattern>DIRECTIONS HEADLANDS</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR HEADLANDS LIBRARY</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR HEADLANDS BRANCH LIBRARY</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR HEADLANDS BRANCH </pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE HEADLANDS LIBRARY</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS HEADLANDS LIBRARY</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE HEADLANDS BRANCH</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE HEADLANDS BRANCH LIBRARY</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS  MENTOR LIBRARY HEADLANDS</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MENTOR PUBLIC LIBRARY HEADLANDS BRANCH</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR HEADLANDS LIBRARY</pattern>
-  <template><srai>HEADLANDSDIR</srai>
- </template>
+<template><srai>HEADLANDSDIR</srai>
+</template>
 </category>
 
 <!--MOL BRANCH-->
 
 <category>
-<pattern>LAKEDIR</pattern>
-  <template>You can find maps and driving directions <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>on this page</b></a>
- </template>
-</category>
-
-<category>
 <pattern>DIRECTIONS LAKE</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS  MOL</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MENTOR ON THE LAKE</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS LAKE BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MOL BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS MENTOR ON THE LAKE BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE LAKE BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE MOL BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE MENTOR ON THE LAKE BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE LAKE BRANCH LIBRARY</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS  THE MOL BRANCH LIBRARY</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE MENTOR ON THE LAKE BRANCH LIBRARY</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR LAKE BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR MOL BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR MENTOR ON THE LAKE BRANCH</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR LAKE BRANCH LIBRARY</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR MOL BRANCH LIBRARY</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR MENTOR ON THE LAKE BRANCH LIBRARY</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS YOUR BRANCHES</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
 <pattern>DIRECTIONS THE BRANCHES</pattern>
-  <template><srai>LAKEDIR</srai>
- </template>
-</category>
-
-<category>
-  <pattern>HDLSLOC</pattern>
-  <template>Headlands Branch is located at 4669 Corduroy Road, 
-Mentor Headlands. Their phone number is 440.257.2000. You can find information about their hours and a map to their location <a href="http://www.mentorpl.org/hours"><b>here</b></a>.</template>
+<template><srai>LAKEDIR</srai>
+</template>
 </category>
 
 <category>
@@ -846,12 +808,6 @@ Mentor Headlands. Their phone number is 440.257.2000. You can find information a
 </category>
 
 <!--MOL-->
-
-<category>
-  <pattern>LAKELOC</pattern>
-  <template>Lake Branch is located at 5642 Andrews Road, 
-Mentor-on-the-Lake. Their phone number is 440.257.2512. You can information about their hours and a map to their location <a href="http://www.mentorpl.org/hours"><b>here</b></a>.</template>
-</category>
 
 <category>
 <pattern>WHERE * LAKE</pattern>
@@ -1000,12 +956,6 @@ Mentor-on-the-Lake. Their phone number is 440.257.2512. You can information abou
 <!--MAINLOC-->
 
 <category>
-  <pattern>MAINLOC</pattern>
-  <template>The Main Library is at 8215 Mentor Ave., Mentor, Ohio. Their phone number is 440.255.8811. You can find maps to the Main Library and both branches <a href="http://www.mentorpl.org/hours"><b>
-here</b></a>.</template>
-</category>
-
-<category>
 <pattern>MAIN BRANCH</pattern>
 <template><srai>MAINLOC</srai>
 </template>
@@ -1102,15 +1052,6 @@ here</b></a>.</template>
 </category>
 
 <category>
-  <pattern>LIBLOC</pattern>
-  <template>The Main Library is at 8215 Mentor Ave., Mentor, Ohio. Their phone number is 440.255.8811. Our Lake Branch is located at 5642 Andrews Road, Mentor-on-the-Lake, 
-Ohio 44060. Their phone number is 440.257.2512. Our Headlands Branch is located at 4669 Corduroy Road,
-Mentor Headlands, Ohio 44060. Their phone number is 440.257.2000. 
-Follow this link for <a href="http://www.mentorpl.org/hours"><b>
-hours, directions, maps, and phone numbers</b></a> for all of our locations.</template>
-</category>
-
-<category>
 <pattern>WHERE * LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
@@ -1173,206 +1114,205 @@ hours, directions, maps, and phone numbers</b></a> for all of our locations.</te
 <!--LIBRARY located-->
 
 <category>
-  <pattern>LIBRARY LOCATED</pattern>
+<pattern>LIBRARY LOCATED</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY LOCATED</pattern>
+<pattern>* LIBRARY LOCATED</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY * LOCATED</pattern>
+<pattern>LIBRARY * LOCATED</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY LOCATED *</pattern>
+<pattern>LIBRARY LOCATED *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY * LOCATED</pattern>
+<pattern>* LIBRARY * LOCATED</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY * LOCATED *</pattern>
+<pattern>LIBRARY * LOCATED *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY * LOCATED *</pattern>
+<pattern>* LIBRARY * LOCATED *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY LOCATION</pattern>
+<pattern>LIBRARY LOCATION</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY LOCATION</pattern>
+<pattern>* LIBRARY LOCATION</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY * LOCATION</pattern>
+<pattern>LIBRARY * LOCATION</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY LOCATION *</pattern>
+<pattern>LIBRARY LOCATION *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY * LOCATION</pattern>
+<pattern>* LIBRARY * LOCATION</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY * LOCATION *</pattern>
+<pattern>LIBRARY * LOCATION *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY * LOCATION *</pattern>
+<pattern>* LIBRARY * LOCATION *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY LOCATIONS</pattern>
+<pattern>LIBRARY LOCATIONS</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY LOCATIONS</pattern>
+<pattern>* LIBRARY LOCATIONS</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY * LOCATIONS</pattern>
+<pattern>LIBRARY * LOCATIONS</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBLOCATIONS *</pattern>
+<pattern>LIBLOCATIONS *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY * LOCATIONS</pattern>
+<pattern>* LIBRARY * LOCATIONS</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LIBRARY * LOCATIONS *</pattern>
+<pattern>LIBRARY * LOCATIONS *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LIBRARY * LOCATIONS *</pattern>
+<pattern>* LIBRARY * LOCATIONS *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATION LIBRARY</pattern>
+<pattern>LOCATION LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LOCATION LIBRARY</pattern>
+<pattern>* LOCATION LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATION * LIBRARY</pattern>
+<pattern>LOCATION * LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATION LIBRARY *</pattern>
+<pattern>LOCATION LIBRARY *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LOCATION * LIBRARY</pattern>
+<pattern>* LOCATION * LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATION * LIBRARY *</pattern>
+<pattern>LOCATION * LIBRARY *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LOCATION * LIBRARY *</pattern>
-<template><srai>LIBLOC</srai>
-</template>
-</category>
-
-
-<category>
-  <pattern>LOCATIONS LIBRARY</pattern>
+<pattern>* LOCATION * LIBRARY *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LOCATIONS LIBRARY</pattern>
+<pattern>LOCATIONS LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATIONS * LIBRARY</pattern>
+<pattern>* LOCATIONS LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATIONS LIBRARY *</pattern>
+<pattern>LOCATIONS * LIBRARY</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>* LOCATIONS * LIBRARY</pattern>
+<pattern>LOCATIONS LIBRARY *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
 
 <category>
-  <pattern>LOCATIONS * LIBRARY *</pattern>
+<pattern>* LOCATIONS * LIBRARY</pattern>
+<template><srai>LIBLOC</srai>
+</template>
+</category>
+
+<category>
+<pattern>LOCATIONS * LIBRARY *</pattern>
 <template><srai>LIBLOC</srai>
 </template>
 </category>
@@ -1384,12 +1324,6 @@ hours, directions, maps, and phone numbers</b></a> for all of our locations.</te
 </category>
 
 <!--READ HOUSE-->
-
-<category>
-<pattern>READHSE</pattern>
-<template>The Read House in at 8245 Mentor Ave. Please park in the Main Library parking lot if you are going to an event at the Read House. You can find more information about this historic property <a href="http://www.mentorpl.org/readhouse.html" target="_blank"><b>here</b></a>.
-</template>
-</category>
 
 <category>
 <pattern>READ HOUSE</pattern>
@@ -1449,12 +1383,6 @@ hours, directions, maps, and phone numbers</b></a> for all of our locations.</te
 <category>
 <pattern>READHOUSE *</pattern>
 <template><srai>READHSE</srai></template>
-</category>
-
-<category>
-<pattern>RHGHOST</pattern>
-<template>I'm not sure if the Read House is haunted. Some people think it is, but we don't have any evidence of paranormal activity.
-</template>
 </category>
 
 <category>
@@ -1560,216 +1488,46 @@ hours, directions, maps, and phone numbers</b></a> for all of our locations.</te
 <!--phone number-->
 
 <category>
-  <pattern>LIBPHONE</pattern>
-  <template>The Main Library's phone number is 440.255.8811. Lake Branch is 440.257.2512. Headlands Branch is 440.257.2000.
-  If you're looking for your card number, it's on the back under the barcode. I'm not allowed to look up your number for you.
- </template>
+<pattern>PHONE NUMBER</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 <category>
-  <pattern>PHONE NUMBER</pattern>
-  <template><srai>LIBPHONE</srai></template>
-</category>
-
-<category>
-  <pattern>* PHONE NUMBER</pattern>
-  <template><srai>LIBPHONE</srai></template>
+<pattern>* PHONE NUMBER</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 
 <category>
-  <pattern>TELEPHONE NUMBER</pattern>
-    <template><srai>LIBPHONE</srai></template>
+<pattern>TELEPHONE NUMBER</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 <category>
-  <pattern>* TELEPHONE NUMBER</pattern>
-  <template><srai>LIBPHONE</srai></template>
+<pattern>* TELEPHONE NUMBER</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 <category>
-  <pattern>* TELEPHONE NUMBER *</pattern>
-  <template><srai>LIBPHONE</srai></template>
+<pattern>* TELEPHONE NUMBER *</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 <category>
-  <pattern>TELEPHONE NUMBER *</pattern>
-    <template><srai>LIBPHONE</srai></template>
+<pattern>TELEPHONE NUMBER *</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
-
 
 <!--call you-->
 
 <category>
-  <pattern>CALL YOU</pattern>
-   <template><srai>LIBPHONE</srai></template>
+<pattern>CALL YOU</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 <category>
-  <pattern>* CALL YOU</pattern>
-   <template><srai>LIBPHONE</srai></template>
-</category>
-
-<!--branch numbers-->
-
-<category>
-  <pattern>* NUMBER FOR YOUR *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern>* NUMBER FOR THE *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern>PHONE NUMBER FOR *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern>PHONE NUMBER TO *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern>PHONE NUMBER *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern>NUMBER FOR *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern> NUMBER TO *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern>NUMBER FOR YOUR *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-  <pattern> NUMBER TO YOUR *</pattern>
-   <template><srai>LOC PHONE <star/></srai></template>
-</category>
-
-<category>
-<pattern>LOC PHONE MAIN</pattern>
-<template>The phone number for the Main Library is 440.255.8811.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MAIN LIBRARY</pattern>
-<template>The phone number for the Main Library is 440.255.8811.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE MAIN LIBRARY</pattern>
-<template>The phone number for the Main Library is 440.255.8811.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE HEADLANDS</pattern>
-<template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE HEADLANDS LIBRARY</pattern>
-<template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE HEADLANDS BRANCH</pattern>
-<template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE HEADLANDS BRANCH</pattern>
-<template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE HEADLANDS BRANCH LIBRARY</pattern>
-<template>The phone number for the Headlands Branch Library is 440.257.2000.</template>
-</category>
-
-<category>
-<pattern>LOC PHONE LAKE</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE LAKE LIBRARY</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE LAKE BRANCH</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE LAKE BRANCH</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE LAKE BRANCH LIBRARY</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MOL</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MOL LIBRARY</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MOL BRANCH</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE MOL BRANCH</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE MOL BRANCH LIBRARY</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MENTOR ON THE LAKE</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MENTOR ON THE LAKE LIBRARY</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE MENTOR ON THE LAKE BRANCH</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE MENTOR ON THE LAKE BRANCH</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
-</category>
-
-<category>
-<pattern>LOC PHONE THE MENTOR ON THE LAKE BRANCH LIBRARY</pattern>
-<template>The phone number for the Lake Branch Library is 440.257.2512</template>
+<pattern>* CALL YOU</pattern>
+<template><srai>LIBPHONE</srai></template>
 </category>
 
 <category>

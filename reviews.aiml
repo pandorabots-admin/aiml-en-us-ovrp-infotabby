@@ -27,7 +27,7 @@ I can search for book reviews. Enter the title of the book or the author and I'l
 </category>
 
 <category>
-<pattern> * </pattern>
+<pattern>*</pattern>
 <that>ENTER THE TITLE * REVIEWS IN BOOK PAGE</that>
 <template>Let's check Book Page. If you don't see the results, please turn off your pop-up blocker. 
 <think>

@@ -19,13 +19,6 @@
 <!--NEW ITEMS-->
 
 <category>
-<pattern>NWITMS</pattern>
-<template>Follow this link for lists of our <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>new items</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
-
-<category>
 <pattern>NEW * </pattern>
 <template><srai>NWITMS</srai></template>
 </category>
@@ -75,7 +68,6 @@ Would you like to make a purchase request?</template>
 <template><srai>NWITMS</srai></template>
 </category>
 
-
 <category>
 <pattern>NEW ARRIVALS</pattern>
 <template><srai>NWITMS</srai></template>
@@ -116,7 +108,6 @@ Would you like to make a purchase request?</template>
 <template><srai>NWITMS</srai></template>
 </category>
 
-
 <category>
 <pattern>NEWEST ARRIVAL</pattern>
 <template><srai>NWITMS</srai></template>
@@ -156,7 +147,6 @@ Would you like to make a purchase request?</template>
 <pattern>* NEWEST * ARRIVAL *</pattern>
 <template><srai>NWITMS</srai></template>
 </category>
-
 
 <category>
 <pattern>NEWEST ARRIVALS</pattern>
@@ -238,7 +228,6 @@ Would you like to make a purchase request?</template>
 <template><srai>NWITMS</srai></template>
 </category>
 
-
 <category>
 <pattern>LATEST ARRIVALS</pattern>
 <template><srai>NWITMS</srai></template>
@@ -302,13 +291,6 @@ Would you like to make a purchase request?</template>
 <!--NEW AUDIOBOOKS-->
 
 <category>
-<pattern>NWADBKS</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib28%2C1%2C0%2C84/mode=2" target="_blank"><b>new audiobooks</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
-
-<category>
 <pattern>NEW AUDIO</pattern>
 <template><srai>NWADBKS</srai></template>
 </category>
@@ -349,13 +331,6 @@ Would you like to make a purchase request?</template>
 </category>
 
 <!--NEW BOOKS-->
-
-<category>
-<pattern>NWBKS</pattern>
-<template>Follow this link for lists of our <a href="http://catalog.mentorpl.org/ftlist" target="_blank"><b>new fiction and nonfiction books</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
 
 <category>
 <pattern>NEW BOOK</pattern>
@@ -440,14 +415,6 @@ Would you like to make a purchase request?</template>
 <!--NEW CDS-->
 
 <category>
-<pattern>NWCDS</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib29%2C1%2C0%2C113/mode=2" target="_blank"><b>new CDs</b></a> or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib28%2C1%2C0%2C84/mode=2" target="_blank"><b>new books on CD</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
-
-
-<category>
 <pattern>NEW CD</pattern>
 <template><srai>NWCDS</srai></template>
 </category>
@@ -528,14 +495,6 @@ Would you like to make a purchase request?</template>
 </category>
 
 <!--NEW DVDS-->
-
-<category>
-<pattern>NWDVDS</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib27%2C1%2C0%2C70/mode=2" target="_blank"><b>new feature films</b></a>, or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib30%2C1%2C0%2C28/mode=2" target="_blank"><b>new TV shows</b></a>,
-or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib13%2C1%2C0%2C56/mode=2" target="_blank"><b>new nonfiction DVDs</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
 
 <category>
 <pattern>NEW DVD</pattern>
@@ -698,14 +657,6 @@ Would you like to make a purchase request?</template>
 </category>
 
 <!--NEW CHILDREN'S-->
-
-<category>
-<pattern>NWKIDS</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib09%2C1%2C0%2C303/mode=2" target="_blank"><b>new children's books</b></a>, or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib12%2C1%2C0%2C85/mode=2" target="_blank"><b>new children's audiovisual materials</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
-
 
 <category>
 <pattern>NEW CHILDREN</pattern>
@@ -950,14 +901,6 @@ Would you like to make a purchase request?</template>
 <!--NEW TEEN'S-->
 
 <category>
-<pattern>NWYA</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib08%2C1%2C0%2C64/mode=2" target="_blank"><b>new teen books</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
-
-
-<category>
 <pattern>NEW TEEN</pattern>
 <template><srai>NWYA</srai></template>
 </category>
@@ -1200,14 +1143,6 @@ Would you like to make a purchase request?</template>
 <!--NEW BOOKS-->
 
 <category>
-<pattern>NWBKS</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib26%2C1%2C0%2C486/mode=2" target="_blank"><b>new fiction books</b></a>, or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib25%2C1%2C0%2C437/mode=2" target="_blank"><b>new nonfiction books</b></a>,
-or <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib24%2C1%2C0%2C56/mode=2" target="_blank"><b>new large print books</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
-
-<category>
 <pattern>NEW BOOK</pattern>
 <template><srai>NWBKS</srai></template>
 </category>
@@ -1288,13 +1223,6 @@ Would you like to make a purchase request?</template>
 </category>
 
 <!--NEW LARGE TYPE-->
-
-<category>
-<pattern>NWLTBKS</pattern>
-<template>Follow this link for a list of our <a href="http://catalog.mentorpl.org/search~S12?/ftlist^bib24%2C1%2C0%2C56/mode=2" target="_blank"><b>new large print books</b></a>. You may place a request for any regularly circulating items on 
-these lists. You cannot place a hold or reservation on an item if it is not in our catalog. You can, however, make a purchase request and we'll consider adding it to our collection. 
-Would you like to make a purchase request?</template>
-</category>
 
 <category>
 <pattern>NEW LARGE PRINT</pattern>

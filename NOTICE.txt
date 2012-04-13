@@ -1,77 +1,64 @@
 Notices for files contained:
 
-aboutinfotabby.html
-account_conditions.aiml
-account_direct.aiml
-bestsellers.aiml
-cards_conditions.aiml
-cards_direct.aiml
-catalog.aiml
+about_the_bot.html
+account.aiml
+account_suppl.aiml
+attribute_sort.aiml
+cards.aiml
 cathaiku.aiml
 chat.aiml
-childrens_conditions.aiml
-childrens_direct.aiml
-circ_conditions.aiml
-circ_direct.aiml
+childrens.aiml
+circulation.aiml
 complaints.aiml
-compuse_conditions.aiml
-compuse_direct.aiml
+computer_use.aiml
+contact.aiml
 controversy.aiml
 cowboypoetrygenerator.aiml
 damagedreplacement.aiml
-databases_conditions.aiml
-databases_direct.aiml
+databases.aiml
 deweycatbot.aiml
 edevices.aiml
-fines_conditions.aiml
-fines_direct.aiml
-freegal.aiml
+fines.aiml
 friends.aiml
-holds_conditions.aiml
-holds_direct.aiml
-holidaylist.aiml
+googlebooks.aiml
+holds.aiml
+holidays.aiml
 hours.aiml
 ill.aiml
 imagesearch.aiml
-infotabbypersonality.aiml
 ipads.aiml
 itemstatus.aiml
-itemtypes.aiml
-kidsawards.aiml
+library_floorplan.aiml
+library_info.aiml
 localinfo.aiml
+locations.aiml
 lolcats.aiml
+lost_found.aiml
+material_type_attributes.aiml
 mathproblems.aiml
 mediaholdings.aiml
 misc.aiml
 miscfun.aiml
-mplfloorplan.aiml
-mplsrvs_conditions.aiml
-mplsrvcs_direct.aiml
 newitems.aiml
-newsletters_combined.aiml
+newsletters.aiml
 ohweblib.aiml
-overdrive_conditions.aiml
-overdrive_direct.aiml
+overdrive.aiml
 ovrp.aiml
-pineapples.aiml
 popups.aiml
-programs_conditions.aiml
-programs_direct.aiml
+programs.aiml
 prophecies.aiml
 purchasereqs.aiml
 readersadvisory.aiml
-referencequestions.aiml
 religion.aiml
-returns_conditions.aiml
+returns.aiml
 reviews.aiml
 salutations.aiml
-search0pre.aiml
+search0intake.aiml
 search1udc.aiml
 search2catalog.aiml
 search2info.aiml
 search3additlq.aiml
 search4concl.aiml
-series.aiml
 staff.aiml
 subjects.aiml
 supplsrch.aiml
@@ -81,7 +68,7 @@ wolframalpha.aiml
 ------------------------------------------------------------
 
 
-   Copyright (c) 2011, David W. Newyear
+   Copyright (c) 2011-2012, David W. Newyear
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -522,7 +509,9 @@ shutup.aiml
 Notices for file(s):
 
 atomic-categories0.aiml
+client.aiml
 client_profile.aiml
+date.aiml
 reduction0.safe.aiml
 reduction1.safe.aiml
 reduction2.safe.aiml

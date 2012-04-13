@@ -18,15 +18,15 @@
 <category>
 <pattern>Q1</pattern>  
 <template>
-First question. You entered <b><get name="answr"/></b>. Is this something you want to borrow from the library? 
+You entered <b><get name="answr"/></b>. Is this something you want to borrow from the library? Like a book or movie or CD?
 <think>
-<set name="topic">3QGAMEQ1</set>
+<set name="topic">CATSWITCH</set>
 </think>
 </template>
 </category> 
 
 
-<topic name="3QGAMEQ1">
+<topic name="CATSWITCH">
 <category>
 <pattern>_</pattern>
 <template>
@@ -35,15 +35,35 @@ First question. You entered <b><get name="answr"/></b>. Is this something you wa
 <set name="message">no match</set>
 <condition name="answr">
 
-<li value="YES"><set name="message">yes</set></li>
-<li value="* YES"><set name="message">yes</set></li>
-<li value="YES *"><set name="message">yes</set></li>
-<li value="* YES *"><set name="message">yes</set></li>
+<li value="ANSWER"><set name="message">no</set></li>
+<li value="* ANSWER"><set name="message">no</set></li>
+<li value="ANSWER *"><set name="message">no</set></li>
+<li value="* ANSWER *"><set name="message">no</set></li>
+
+<li value="ANSWERS"><set name="message">no</set></li>
+<li value="* ANSWERS"><set name="message">no</set></li>
+<li value="ANSWERS *"><set name="message">no</set></li>
+<li value="* ANSWERS *"><set name="message">no</set></li>
+
+<li value="INFO"><set name="message">no</set></li>
+<li value="* INFO"><set name="message">no</set></li>
+<li value="INFO *"><set name="message">no</set></li>
+<li value="* INFO *"><set name="message">no</set></li>
+
+<li value="INFORMATION"><set name="message">no</set></li>
+<li value="* INFORMATION"><set name="message">no</set></li>
+<li value="INFORMATION *"><set name="message">no</set></li>
+<li value="* INFORMATION *"><set name="message">no</set></li>
 
 <li value="NO"><set name="message">no</set></li>
 <li value="* NO"><set name="message">no</set></li>
 <li value="NO *"><set name="message">no</set></li>
 <li value="* NO *"><set name="message">no</set></li>
+
+<li value="NOT"><set name="message">no</set></li>
+<li value="* NOT"><set name="message">no</set></li>
+<li value="NOT *"><set name="message">no</set></li>
+<li value="* NOT *"><set name="message">no</set></li>
 
 <li value="STOP"><set name="message">stop</set></li>
 <li value="* STOP"><set name="message">stop</set></li>
@@ -51,28 +71,58 @@ First question. You entered <b><get name="answr"/></b>. Is this something you wa
 <li value="* STOP *"><set name="message">stop</set></li>
 
 </condition>
+<think><set name="topic"></set></think>
 </think>
 
 <condition name="message">
-<li value="no match"><think><set name="topic"></set></think>I'm not sure what you're asking.</li>
+<li value="no match"><srai>DIRCATSRCH</srai></li>
 
-<li value="yes"><set name="topic"></set><srai>DIRCATSRCH</srai></li>
-<li value="no"><set name="topic"></set><srai>Q2</srai></li>
+<li value="no"><think><set name="topic">FFSRCH</set></think><srai>FFSRCH</srai></li>
 
-<li value="stop"><think><set name="topic"></set></think>O.K. I'll stop.</li>
+<li value="stop">O.K. I'll stop.</li>
 
 </condition>
 </template>
 </category>
 </topic>  
-  
- 
+   
 <!--LIBRARY CATALOGS-->
 
 <category>
 <pattern>CATSRCH</pattern>
 <template>Please enter a name, such as the name of an author or performer, or a title, or a topic and I'll search our catalog.</template>
 </category>
+
+<category>
+<pattern>CATSRCH ABKS</pattern>
+<template>Please enter the name of an author, or a title, or a topic and I'll search our catalog.</template>
+</category>
+
+<category>
+<pattern>CATSRCH AU</pattern>
+<template>Please enter the name of the author and I'll search our catalog.</template>
+</category>
+
+<category>
+<pattern>CATSRCH BKS</pattern>
+<template>Please enter the name of an author, or a title, or a topic and I'll search our catalog.</template>
+</category>
+
+<category>
+<pattern>CATSRCH CDS</pattern>
+<template>Please enter the name of the performer or musical group, or the CD title and I'll search our catalog.</template>
+</category>
+
+<category>
+<pattern>CATSRCH DVDS</pattern>
+<template>Please enter an actor's name, or the DVD title, or a topic and I'll search our catalog.</template>
+</category>
+
+<category>
+<pattern>CATSRCH MAGS</pattern>
+<template>Please enter the name of the magazine and I'll search our catalog.</template>
+</category>
+
 
 <category>
 <pattern>*</pattern>
@@ -100,6 +150,754 @@ Let's try OhioLINK. You can request an OhioLINK item the same way you'd request 
 </think></template>
 </category>
   
+  
+<!--PRE DIRECT SEARCH-->
+
+ 
+<category>
+<pattern>PREDIRCATSRCH</pattern>
+<template> 
+<srai><get name="answr"/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>BOOK ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOK BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOK ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THE BOOK *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS BY THE AUTHOR *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>BOOKS ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOK ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* THE BOOK *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* BOOKS ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS BY THE AUTHOR *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BOOKS ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>CD ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>CD BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>CD ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THE CD *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>CDS ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>CDS BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>CDS ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CD ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CD BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CD ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* THE CD *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* CDS ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CDS BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CDS ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVD ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVD BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVD ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THE DVD *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVDS ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVDS BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>DVDS ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DVD ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DVD BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DVD ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* THE DVD *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* DVDS ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DVDS BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DVDS ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIE ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIE BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIE ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THE MOVIE *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIES ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIES BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIES ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIE ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIE BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIE ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* THE MOVIE *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* MOVIES ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIES BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIES ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIRCATSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>ARTICLE ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>ARTICLE BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>ARTICLE ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THE ARTICLE *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>ARTICLES ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>ARTICLES BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>ARTICLES ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ARTICLE ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ARTICLE BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ARTICLE ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* THE ARTICLE *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* ARTICLES ABOUT *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ARTICLES BY *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ARTICLES ON *</pattern>
+<template>
+<think>
+<set name="searcharg"><star index="2"/></set>
+</think>
+<srai>DIROWLSRCH</srai>
+</template>
+</category>
+  
 <category>
 <pattern>DIRCATSRCH</pattern>
 <template>
@@ -112,7 +910,7 @@ If we don't have the item you want, type the words "KEEP LOOKING" and I'll see i
 </think>
 </template>
 </category>
-  
+
 <category>
 <pattern>*</pattern>
 <that>* GET IT FROM ANOTHER LIBRARY</that>
@@ -135,6 +933,31 @@ a human librarian anytime.
 
 
 <!--OWL SEARCH-->
+
+<category>
+<pattern>DIROWLSRCH</pattern>
+<template>
+Great. Let's look in the Ohio Web Library. I hope you remembered to turn off your pop up blocker or you won't see the results.
+If they don't have the article you want, type the words "KEEP LOOKING" and I'll see what we can find in Google Scholar. 
+<br/><br/>
+<srai>0CONCL</srai>
+<think>
+<set name="search">ohweblib</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>KEEP LOOKING</pattern>
+<that>_ FIND IN GOOGLE SCHOLAR</that>
+<template>
+O.K. Here are the results from Google Scholar.
+<br/><br/>
+<srai>0CONCL</srai>
+<think>
+<set name="search">googlescholar</set>
+</think></template>
+</category>
 
 <category>
 <pattern>OWLIBSRCH</pattern>

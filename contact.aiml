@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011-2012 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+<category>
+<pattern>CONTACT</pattern>
+<template><srai>CNTCT1</srai></template>
+</category>  
+
+<category>
+<pattern>EMAIL</pattern>
+<template><srai>EMAIL1</srai></template>
+</category>  
+
+<category>
+<pattern>PHONE NUMBER</pattern>
+<template><srai>PHONE1</srai></template>
+</category>  
+
+<category>
+<pattern>CNTCT1</pattern>
+<template>
+<think>
+<set name="topic">CNTCT1</set>
+</think>
+I'm often asked about this. Which department or person do you wish to contact?
+</template>
+</category>
+
+<topic name="CNTCT1">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CNTCT2</set>
+</think>
+<srai>CNTCT2</srai></template>
+</category>
+</topic>
+  
+<category>
+<pattern>CONTACT *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CNTCT2</set>
+</think>
+<srai>CNTCT2</srai></template>
+</category>  
+  
+<category>
+<pattern>* CONTACT</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CNTCT2</set>
+</think>
+<srai>CNTCT2</srai></template>
+</category>   
+
+<category>
+<pattern>* CONTACT *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">CNTCT2</set>
+</think>
+<srai>CNTCT2</srai></template>
+</category> 
+ 
+  
+<topic name="CNTCT2">
+<category>
+<pattern>CNTCT2</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="MAIN"><set name="message">main phone</set></li>
+<li value="* MAIN"><set name="message">main phone</set></li>
+<li value="MAIN *"><set name="message">main phone</set></li>
+<li value="* MAIN *"><set name="message">main phone</set></li>  
+
+<li value="HEADLANDS"><set name="message">headlands phone</set></li>
+<li value="* HEADLANDS"><set name="message">headlands phone</set></li>
+<li value="HEADLANDS *"><set name="message">headlands phone</set></li>
+<li value="* HEADLANDS *"><set name="message">headlands phone</set></li> 
+
+<li value="LAKE"><set name="message">lake phone</set></li>
+<li value="* LAKE"><set name="message">lake phone</set></li>
+<li value="LAKE *"><set name="message">lake phone</set></li>
+<li value="* LAKE *"><set name="message">lake phone</set></li> 
+
+<li value="MOL"><set name="message">lake phone</set></li>
+<li value="* MOL"><set name="message">lake phone</set></li>
+<li value="MOL *"><set name="message">lake phone</set></li>
+<li value="* MOL *"><set name="message">lake phone</set></li> 
+
+<li value="HAWKINS"><set name="message">hawkins</set></li>
+<li value="* HAWKINS"><set name="message">hawkins</set></li>
+<li value="HAWKINS *"><set name="message">hawkins</set></li>
+<li value="* HAWKINS *"><set name="message">hawkins</set></li> 
+
+<li value="DIRECTOR"><set name="message">hawkins</set></li>
+<li value="* DIRECTOR"><set name="message">hawkins</set></li>
+<li value="DIRECTOR *"><set name="message">hawkins</set></li>
+<li value="* DIRECTOR *"><set name="message">hawkins</set></li> 
+
+<li value="HEAD"><set name="message">hawkins</set></li>
+<li value="* HEAD"><set name="message">hawkins</set></li>
+<li value="HEAD *"><set name="message">hawkins</set></li>
+<li value="* HEAD *"><set name="message">hawkins</set></li> 
+
+<li value="CHILDRENS"><set name="message">main childrens</set></li>
+<li value="* CHILDRENS"><set name="message">main childrens</set></li>
+<li value="CHILDRENS *"><set name="message">main childrens</set></li>
+<li value="* CHILDRENS *"><set name="message">main childrens</set></li>
+
+<li value="CHILDREN S"><set name="message">main childrens</set></li>
+<li value="* CHILDREN S"><set name="message">main childrens</set></li>
+<li value="CHILDREN S *"><set name="message">main childrens</set></li>
+<li value="* CHILDREN S *"><set name="message">main childrens</set></li>
+
+<li value="CIRC"><set name="message">main circ</set></li>
+<li value="* CIRC"><set name="message">main circ</set></li>
+<li value="CIRC *"><set name="message">main circ</set></li>
+<li value="* CIRC *"><set name="message">main circ</set></li>
+
+<li value="CIRCULATION"><set name="message">main circ</set></li>
+<li value="* CIRCULATION"><set name="message">main circ</set></li>
+<li value="CIRCULATION *"><set name="message">main circ</set></li>
+<li value="* CIRCULATION *"><set name="message">main circ</set></li>
+
+<li value="FINANCE"><set name="message">finance</set></li>
+<li value="* FINANCE"><set name="message">finance</set></li>
+<li value="FINANCE *"><set name="message">finance</set></li>
+<li value="* FINANCE *"><set name="message">finance</set></li>
+
+<li value="FISCAL"><set name="message">finance</set></li>
+<li value="* FISCAL"><set name="message">finance</set></li>
+<li value="FISCAL *"><set name="message">finance</set></li>
+<li value="* FISCAL *"><set name="message">finance</set></li>
+
+<li value="FRIENDS"><set name="message">mpl friends</set></li>
+<li value="* FRIENDS"><set name="message">mpl friends</set></li>
+<li value="FRIENDS *"><set name="message">mpl friends</set></li>
+<li value="* FRIENDS *"><set name="message">mpl friends</set></li>
+
+<li value="HR"><set name="message">hr</set></li>
+<li value="* HR"><set name="message">hr</set></li>
+<li value="HR *"><set name="message">hr</set></li>
+<li value="* HR *"><set name="message">hr</set></li>
+
+<li value="HUMAN RESOURCES"><set name="message">hr</set></li>
+<li value="* HUMAN RESOURCES"><set name="message">hr</set></li>
+<li value="HUMAN RESOURCES *"><set name="message">hr</set></li>
+<li value="* HUMAN RESOURCES *"><set name="message">hr</set></li>
+
+<li value="REFERENCE"><set name="message">main ref</set></li>
+<li value="* REFERENCE"><set name="message">main ref</set></li>
+<li value="REFERENCE *"><set name="message">main ref</set></li>
+<li value="* REFERENCE *"><set name="message">main ref</set></li> 
+
+<li value="CREATOR"><set name="message">newyear</set></li>
+<li value="* CREATOR"><set name="message">newyear</set></li>
+<li value="CREATOR *"><set name="message">newyear</set></li>
+<li value="* CREATOR *"><set name="message">newyear</set></li> 
+
+<li value="MASTER"><set name="message">newyear</set></li>
+<li value="* MASTER"><set name="message">newyear</set></li>
+<li value="MASTER *"><set name="message">newyear</set></li>
+<li value="* MASTER *"><set name="message">newyear</set></li> 
+
+<li value="NEWYEAR"><set name="message">newyear</set></li>
+<li value="* NEWYEAR"><set name="message">newyear</set></li>
+<li value="NEWYEAR *"><set name="message">newyear</set></li>
+<li value="* NEWYEAR *"><set name="message">newyear</set></li>
+
+<li value="LIBRARIAN"><set name="message">reflibs</set></li>
+<li value="* LIBRARIAN"><set name="message">reflibs</set></li>
+<li value="LIBRARIAN *"><set name="message">reflibs</set></li>
+<li value="* LIBRARIAN *"><set name="message">reflibs</set></li>
+       
+  
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+<li value="no match">Are you looking for a phone number? Please call the library at 440.255.8811 during regular business hours for assistance.</li>
+<li value="main phone"><srai>MAIN PHON</srai></li>  
+<li value="headlands phone"><srai>HDLS PHO</srai></li>  
+<li value="lake phone"><srai>MOL PHON</srai></li>  
+
+<li value="hawkins"><srai>LH CONTACT</srai></li>
+
+<li value="main childrens"><srai>MCH CONTACT</srai></li>
+
+<li value="main circ"><srai>MCIRC CONTACT</srai></li>
+
+<li value="finance"><srai>FO CONTACT</srai></li>
+
+<li value="friends"><srai>FRNDS CONTACT</srai></li>
+
+<li value="hr"><srai>HR CONTACT</srai></li>
+
+<li vaue="main ref"><srai>REF CONTACT</srai></li>
+
+<li value="newyear"><srai>DN CONTACT</srai></li>
+
+<li value="reflibs"><srai>REFLIB CONTACT</srai></li>
+  
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+
+<category>
+<pattern>EMAIL</pattern>
+<template><srai>EMAIL1</srai></template>
+</category>  
+
+<category>
+<pattern>EMAIL1</pattern>
+<template>
+<think>
+<set name="topic">EMAIL1</set>
+</think>
+I'm often asked about this. Which department or person do you wish to contact?
+</template>
+</category>
+
+<topic name="EMAIL1">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">EMAIL2</set>
+</think>
+<srai>EMAIL2</srai></template>
+</category>
+</topic>
+
+
+<category>
+<pattern>EMAIL *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">EMAIL2</set>
+</think>
+<srai>EMAIL2</srai></template>
+</category>  
+  
+<category>
+<pattern>* EMAIL</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">EMAIL2</set>
+</think>
+<srai>EMAIL2</srai></template>
+</category> 
+
+<category>
+<pattern>* EMAIL *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">EMAIL2</set>
+</think>
+<srai>EMAIL2</srai></template>
+</category> 
+ 
+  
+<topic name="EMAIL2">
+<category>
+<pattern>EMAIL2</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="AMANDA"><set name="message">amanda d</set></li>
+<li value="* AMANDA"><set name="message">amanda d</set></li>
+<li value="AMANDA *"><set name="message">amanda d</set></li>
+<li value="* AMANDA *"><set name="message">amanda d</set></li>   
+
+<li value="DENSMORE"><set name="message">amanda d</set></li>
+<li value="* DENSMORE"><set name="message">amanda d</set></li>
+<li value="DENSMORE *"><set name="message">amanda d</set></li>
+<li value="* DENSMORE *"><set name="message">amanda d</set></li>   
+
+<li value="AMY"><set name="message">amy w</set></li>
+<li value="* AMY"><set name="message">amy w</set></li>
+<li value="AMY *"><set name="message">amy w</set></li>
+<li value="* AMY *"><set name="message">amy w</set></li>   
+
+<li value="KIM"><set name="message">kim s</set></li>
+<li value="* KIM"><set name="message">kim s</set></li>
+<li value="KIM *"><set name="message">kim s</set></li>
+<li value="* KIM *"><set name="message">kim s</set></li>   
+
+<li value="SIDORICK"><set name="message">kim s</set></li>
+<li value="* SIDORICK"><set name="message">kim s</set></li>
+<li value="SIDORICK *"><set name="message">kim s</set></li>
+<li value="* SIDORICK *"><set name="message">kim s</set></li>   
+
+<li value="MARLENE"><set name="message">marlene p</set></li>
+<li value="* MARLENE"><set name="message">marlene p</set></li>
+<li value="MARLENE *"><set name="message">marlene p</set></li>
+<li value="* MARLENE *"><set name="message">marlene p</set></li>   
+
+<li value="PELYHES"><set name="message">marlene p</set></li>
+<li value="* PELYHES"><set name="message">marlene p</set></li>
+<li value="PELYHES *"><set name="message">marlene p</set></li>
+<li value="* PELYHES *"><set name="message">marlene p</set></li>   
+
+<li value="BARB"><set name="message">barb h</set></li>
+<li value="* BARB"><set name="message">barb h</set></li>
+<li value="BARB *"><set name="message">barb h</set></li>
+<li value="* BARB *"><set name="message">barb h</set></li>   
+
+<li value="HAUER"><set name="message">barb h</set></li>
+<li value="* HAUER"><set name="message">barb h</set></li>
+<li value="HAUER *"><set name="message">barb h</set></li>
+<li value="* HAUER *"><set name="message">barb h</set></li>   
+
+<li value="LYNN"><set name="message">lynn h</set></li>
+<li value="* LYNN"><set name="message">lynn h</set></li>
+<li value="LYNN *"><set name="message">lynn h</set></li>
+<li value="* LYNN *"><set name="message">lynn h</set></li>   
+
+<li value="HAWKINS"><set name="message">lynn h</set></li>
+<li value="* HAWKINS"><set name="message">lynn h</set></li>
+<li value="HAWKINS *"><set name="message">lynn h</set></li>
+<li value="* HAWKINS *"><set name="message">lynn h</set></li>  
+
+<li value="COLLEEN"><set name="message">colleen s</set></li>
+<li value="* COLLEEN"><set name="message">colleen s</set></li>
+<li value="COLLEEN *"><set name="message">colleen s</set></li>
+<li value="* COLLEEN *"><set name="message">colleen s</set></li>   
+
+<li value="SNYDER"><set name="message">colleen s</set></li>
+<li value="* SNYDER"><set name="message">colleen s</set></li>
+<li value="SNYDER *"><set name="message">colleen s</set></li>
+<li value="* SNYDER *"><set name="message">colleen s</set></li>
+
+<li value="GAIL"><set name="message">gail b</set></li>
+<li value="* GAIL"><set name="message">gail b</set></li>
+<li value="GAIL *"><set name="message">gail b</set></li>
+<li value="* GAIL *"><set name="message">gail b</set></li>   
+
+<li value="BOROVIC"><set name="message">gail b</set></li>
+<li value="* BOROVIC"><set name="message">gail b</set></li>
+<li value="BOROVIC *"><set name="message">gail b</set></li>
+<li value="* BOROVIC *"><set name="message">gail b</set></li>
+
+<li value="PAM"><set name="message">pam r</set></li>
+<li value="* PAM"><set name="message">pam r</set></li>
+<li value="PAM *"><set name="message">pam r</set></li>
+<li value="* PAM *"><set name="message">pam r</set></li>   
+
+<li value="ROSE"><set name="message">pam r</set></li>
+<li value="* ROSE"><set name="message">pam r</set></li>
+<li value="ROSE *"><set name="message">pam r</set></li>
+<li value="* ROSE *"><set name="message">pam r</set></li>
+
+<li value="DENISE"><set name="message">denise w</set></li>
+<li value="* DENISE"><set name="message">denise w</set></li>
+<li value="DENISE *"><set name="message">denise w</set></li>
+<li value="* DENISE *"><set name="message">denise w</set></li>   
+
+<li value="WRIGHT"><set name="message">denise w</set></li>
+<li value="* WRIGHT"><set name="message">denise w</set></li>
+<li value="WRIGHT *"><set name="message">denise w</set></li>
+<li value="* WRIGHT *"><set name="message">denise w</set></li>
+
+<li value="DAVID"><set name="message">david n</set></li>
+<li value="* DAVID"><set name="message">david n</set></li>
+<li value="DAVID *"><set name="message">david n</set></li>
+<li value="* DAVID *"><set name="message">david n</set></li>   
+
+<li value="NEWYEAR"><set name="message">david n</set></li>
+<li value="* NEWYEAR"><set name="message">david n</set></li>
+<li value="NEWYEAR *"><set name="message">david n</set></li>
+<li value="* NEWYEAR *"><set name="message">david n</set></li>
+
+<li value="DARLENE"><set name="message">darlene w</set></li>
+<li value="* DARLENE"><set name="message">darlene w</set></li>
+<li value="DARLENE *"><set name="message">darlene w</set></li>
+<li value="* DARLENE *"><set name="message">darlene w</set></li>   
+
+<li value="WORKMAN"><set name="message">darlene w</set></li>
+<li value="* WORKMAN"><set name="message">darlene w</set></li>
+<li value="WORKMAN *"><set name="message">darlene w</set></li>
+<li value="* WORKMAN *"><set name="message">darlene w</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+
+<li value="amanda d">Amanda's email address is amanda.densmore@mentorpl.org. </li>
+<li value="amy w">Amy's email address is amy.winter@mentorpl.org. </li>
+<li value="kim s">Kim's email address is kim.sidorick@mentorpl.org. </li>
+<li value="marlene p">Marlene's email address is marlene.pelyhes@mentorpl.org. </li>
+<li value="barb h">Barb's email address is barbara.hauer@mentorpl.org. </li>
+<li value="lynn h">Lynn's email address is lynn.hawkins@mentorpl.org. </li>
+<li value="colleen s">Colleen's email address is colleen.snyder@mentorpl.org. </li>
+<li value="gail b">Gail's email address is gail.borovic@mentorpl.org. </li>
+<li value="pam r">Pam's email address is pam.rose@mentorpl.org. </li>
+<li value="denise w">Denise's email address is denise.wright@mentorpl.org. </li>
+<li value="david n">David's email address is david.newyear@gmail.com. </li>
+<li value="darlene w">Darlene's email address is darlene.workman@mentorpl.org. </li>
+  
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+
+<category>
+<pattern>PHONE</pattern>
+<template><srai>PHONE1</srai></template>
+</category>  
+
+<category>
+<pattern>PHONE1</pattern>
+<template>
+<think>
+<set name="topic">PHONE1</set>
+</think>
+I'm often asked about this. Which department or person do you wish to contact?
+</template>
+</category>
+
+<topic name="PHONE1">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category>
+</topic>
+
+
+
+<category>
+<pattern>EXTENSION *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category>  
+  
+<category>
+<pattern>* EXTENSION</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category>  
+
+<category>
+<pattern>* EXTENSION *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category> 
+
+
+
+<category>
+<pattern>PHONE *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category>  
+  
+<category>
+<pattern>* PHONE</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category>  
+
+<category>
+<pattern>* PHONE *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">PHONE2</set>
+</think>
+<srai>PHONE2</srai></template>
+</category> 
+
+ 
+  
+<topic name="PHONE2">
+<category>
+<pattern>PHONE2</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="AMANDA"><set name="message">amanda d</set></li>
+<li value="* AMANDA"><set name="message">amanda d</set></li>
+<li value="AMANDA *"><set name="message">amanda d</set></li>
+<li value="* AMANDA *"><set name="message">amanda d</set></li>   
+
+<li value="DENSMORE"><set name="message">amanda d</set></li>
+<li value="* DENSMORE"><set name="message">amanda d</set></li>
+<li value="DENSMORE *"><set name="message">amanda d</set></li>
+<li value="* DENSMORE *"><set name="message">amanda d</set></li>   
+
+<li value="AMY"><set name="message">amy w</set></li>
+<li value="* AMY"><set name="message">amy w</set></li>
+<li value="AMY *"><set name="message">amy w</set></li>
+<li value="* AMY *"><set name="message">amy w</set></li>   
+
+<li value="KIM"><set name="message">kim s</set></li>
+<li value="* KIM"><set name="message">kim s</set></li>
+<li value="KIM *"><set name="message">kim s</set></li>
+<li value="* KIM *"><set name="message">kim s</set></li>   
+
+<li value="SIDORICK"><set name="message">kim s</set></li>
+<li value="* SIDORICK"><set name="message">kim s</set></li>
+<li value="SIDORICK *"><set name="message">kim s</set></li>
+<li value="* SIDORICK *"><set name="message">kim s</set></li>   
+
+<li value="MARLENE"><set name="message">marlene p</set></li>
+<li value="* MARLENE"><set name="message">marlene p</set></li>
+<li value="MARLENE *"><set name="message">marlene p</set></li>
+<li value="* MARLENE *"><set name="message">marlene p</set></li>   
+
+<li value="PELYHES"><set name="message">marlene p</set></li>
+<li value="* PELYHES"><set name="message">marlene p</set></li>
+<li value="PELYHES *"><set name="message">marlene p</set></li>
+<li value="* PELYHES *"><set name="message">marlene p</set></li>   
+
+<li value="BARB"><set name="message">barb h</set></li>
+<li value="* BARB"><set name="message">barb h</set></li>
+<li value="BARB *"><set name="message">barb h</set></li>
+<li value="* BARB *"><set name="message">barb h</set></li>   
+
+<li value="HAUER"><set name="message">barb h</set></li>
+<li value="* HAUER"><set name="message">barb h</set></li>
+<li value="HAUER *"><set name="message">barb h</set></li>
+<li value="* HAUER *"><set name="message">barb h</set></li>   
+
+<li value="LYNN"><set name="message">lynn h</set></li>
+<li value="* LYNN"><set name="message">lynn h</set></li>
+<li value="LYNN *"><set name="message">lynn h</set></li>
+<li value="* LYNN *"><set name="message">lynn h</set></li>   
+
+<li value="HAWKINS"><set name="message">lynn h</set></li>
+<li value="* HAWKINS"><set name="message">lynn h</set></li>
+<li value="HAWKINS *"><set name="message">lynn h</set></li>
+<li value="* HAWKINS *"><set name="message">lynn h</set></li>  
+
+<li value="COLLEEN"><set name="message">colleen s</set></li>
+<li value="* COLLEEN"><set name="message">colleen s</set></li>
+<li value="COLLEEN *"><set name="message">colleen s</set></li>
+<li value="* COLLEEN *"><set name="message">colleen s</set></li>   
+
+<li value="SNYDER"><set name="message">colleen s</set></li>
+<li value="* SNYDER"><set name="message">colleen s</set></li>
+<li value="SNYDER *"><set name="message">colleen s</set></li>
+<li value="* SNYDER *"><set name="message">colleen s</set></li>
+
+<li value="GAIL"><set name="message">gail b</set></li>
+<li value="* GAIL"><set name="message">gail b</set></li>
+<li value="GAIL *"><set name="message">gail b</set></li>
+<li value="* GAIL *"><set name="message">gail b</set></li>   
+
+<li value="BOROVIC"><set name="message">gail b</set></li>
+<li value="* BOROVIC"><set name="message">gail b</set></li>
+<li value="BOROVIC *"><set name="message">gail b</set></li>
+<li value="* BOROVIC *"><set name="message">gail b</set></li>
+
+<li value="PAM"><set name="message">pam r</set></li>
+<li value="* PAM"><set name="message">pam r</set></li>
+<li value="PAM *"><set name="message">pam r</set></li>
+<li value="* PAM *"><set name="message">pam r</set></li>   
+
+<li value="ROSE"><set name="message">pam r</set></li>
+<li value="* ROSE"><set name="message">pam r</set></li>
+<li value="ROSE *"><set name="message">pam r</set></li>
+<li value="* ROSE *"><set name="message">pam r</set></li>
+
+<li value="DENISE"><set name="message">denise w</set></li>
+<li value="* DENISE"><set name="message">denise w</set></li>
+<li value="DENISE *"><set name="message">denise w</set></li>
+<li value="* DENISE *"><set name="message">denise w</set></li>   
+
+<li value="WRIGHT"><set name="message">denise w</set></li>
+<li value="* WRIGHT"><set name="message">denise w</set></li>
+<li value="WRIGHT *"><set name="message">denise w</set></li>
+<li value="* WRIGHT *"><set name="message">denise w</set></li>
+
+<li value="DAVID"><set name="message">david n</set></li>
+<li value="* DAVID"><set name="message">david n</set></li>
+<li value="DAVID *"><set name="message">david n</set></li>
+<li value="* DAVID *"><set name="message">david n</set></li>   
+
+<li value="NEWYEAR"><set name="message">david n</set></li>
+<li value="* NEWYEAR"><set name="message">david n</set></li>
+<li value="NEWYEAR *"><set name="message">david n</set></li>
+<li value="* NEWYEAR *"><set name="message">david n</set></li>
+
+<li value="DARLENE"><set name="message">darlene w</set></li>
+<li value="* DARLENE"><set name="message">darlene w</set></li>
+<li value="DARLENE *"><set name="message">darlene w</set></li>
+<li value="* DARLENE *"><set name="message">darlene w</set></li>   
+
+<li value="WORKMAN"><set name="message">darlene w</set></li>
+<li value="* WORKMAN"><set name="message">darlene w</set></li>
+<li value="WORKMAN *"><set name="message">darlene w</set></li>
+<li value="* WORKMAN *"><set name="message">darlene w</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+
+<li value="amanda d">Amanda's phone number is 440.255.8811 extension 214. </li>
+<li value="amy w">Amy's phone number is 440.255.8811 extension 247. </li>
+<li value="kim s">Kim's phone number is 440.255.8811 extension 221. </li>
+<li value="marlene p">Marlene's phone number is 440.255.8811 extension 228. </li>
+<li value="barb h">Barb's phone number is 440.255.8811 extension 210. </li>
+<li value="lynn h">Lynn's phone number is 440.255.8811 extension 232. </li>
+<li value="colleen s">Colleen's phone number is 440.255.8811 extension 237. </li>
+<li value="gail b">Gail's phone number is 440.255.8811 extension 231. </li>
+<li value="pam r">Pam's phone number is 440.257.2512. </li>
+<li value="denise w">Denise's phone number is 440.255.8811 extension 202. </li>
+<li value="david n">David's phone number is unlisted. Email him at david.newyear@gmail.com. </li>
+<li value="darlene w">Darlene's phone number is 440.257.2000. </li>
+  
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+  
+</aiml>  

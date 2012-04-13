@@ -583,7 +583,7 @@ Here, I'll find your local radio stations. You can listen to them online. Please
 </category>
 
 <category>
-<pattern> * </pattern>
+<pattern>*</pattern>
 <that>PLEASE ENTER YOUR ZIP CODE</that>
 <template>Let's check iHeartRadio. If you don't
 see the results, turn off your pop up blocker and ask me again.
@@ -862,6 +862,50 @@ see the results, turn off your pop up blocker and ask me again.
 </template>
 </category>
 
+<category>
+<pattern>RECIPE FOR *</pattern>
+<template>Let's check the Food Network. If you don't
+see the results, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">recipes</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* RECIPE FOR *</pattern>
+<template>Let's check the Food Network. If you don't
+see the results, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">recipes</set>
+<set name="searcharg"><star index="2"/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>RECIPES FOR *</pattern>
+<template>Let's check the Food Network. If you don't
+see the results, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">recipes</set>
+<set name="searcharg"><star/></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>* RECIPES FOR *</pattern>
+<template>Let's check the Food Network. If you don't
+see the results, turn off your pop up blocker and ask me again.
+<think>
+<set name="search">recipes</set>
+<set name="searcharg"><star index="2"/></set>
+</think>
+</template>
+</category>
+
 <!--MAPS-->
 
 <category>
@@ -1035,7 +1079,7 @@ Here's your local weather. If you don't see it, turn off your pop up blocker and
 </category>
 
 <category>
-<pattern>BOOK * </pattern>
+<pattern>BOOK *</pattern>
 <that>* LOCAL WEATHER *</that>
 <template>Now I understand. Let's see what's in our catalog. If you don't see it, turn off your pop up blocker and ask me again.
 <think>
@@ -1549,74 +1593,5 @@ Now I understand. Let's see what's in our catalog. If you don't see it, turn off
 <pattern>* WINDY TOMORROW</pattern>
 <template><srai>WX2</srai></template>
 </category>
-
-<!--GOOGLE BOOKS & OPEN LIBRARY-->
-
-<category>
-<pattern>GGLBKSRCH</pattern>
-<template>I'll be delighted to search Google Books for you. Please enter an author and/or title, or your topic.
-<think>
-<set name="topic">GBSRCH</set>
-</think>
-</template>
-</category>
-
-<topic name="GBSRCH">
-<category>
-<pattern>*</pattern>
-<template>Excellent! Let's see what we find in Google Books.
-<think>
-<set name="search">googlebooks</set>
-<set name="searcharg"><star/></set>
-<set name="topic"></set>
-</think>
-</template>
-</category>
-</topic>  
-
-<category>
-<pattern>OPENLIB</pattern>
-<template>I'll be happy to search the Open Library for you. Please enter an author and/or title, or your topic.
-<think>
-<set name="topic">OPNLIBBKS</set>
-</think>
-</template>
-</category>
-
-<topic name="OPNLIBBKS">
-<category>
-<pattern>*</pattern>
-<template>Let's see what we find in the Open Library.
-<think>
-<set name="search">opnlib</set>
-<set name="searcharg"><star/></set>
-<set name="topic"></set>
-</think>
-</template>
-</category>
-</topic>  
-
-
-<category>
-<pattern>OPENLIB EBKS</pattern>
-<template>I'll be happy to search for eBooks in the Open Library for you. Please enter an author and/or title, or your topic.
-<think>
-<set name="topic">OPNLIBEBKS</set>
-</think>
-</template>
-</category>
-
-<topic name="OPNLIBEBKS">
-<category>
-<pattern>*</pattern>
-<template>Let's see what eBooks we find in the Open Library.
-<think>
-<set name="search">opnlibe</set>
-<set name="searcharg"><star/></set>
-<set name="topic"></set>
-</think>
-</template>
-</category>
-</topic>  
 
 </aiml>

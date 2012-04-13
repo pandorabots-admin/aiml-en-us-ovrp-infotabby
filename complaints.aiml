@@ -19,43 +19,8 @@
 <!--COMMENT-->
 
 <category>
-<pattern>COMMENT</pattern>
+<pattern>COMMENTFORM</pattern>
 <template>You can use <a href="" target="_blank"><b>this form</b></a> or you can tell me your comment or complaint.</template>
-</category>
-
-<category>
-<pattern>* COMMENT</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMMENT *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>* COMMENT *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMMENTS</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>* COMMENTS</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMMENTS *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>* COMMENTS *</pattern>
-<template><srai>COMMENT</srai></template>
 </category>
 
 <category>
@@ -72,86 +37,6 @@ Please enter your contact information, an email address or phone number so we ca
 <template>Thank you. You entered: <b>"<star/>"</b>. Someone from the Library will
 be in touch with you.
 </template>
-</category>
-
-<category>
-<pattern>COMPLAINT</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAIN *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAIN</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAIN *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAINT</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAINT</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAINT *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAINT *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAINTS</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAINTS</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAINTS *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAINTS *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAINING</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAINING</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>COMPLAINING *</pattern>
-<template><srai>COMMENT</srai></template>
-</category>
-
-<category>
-<pattern>_ COMPLAINING *</pattern>
-<template><srai>COMMENT</srai></template>
 </category>
 
 <!--SUGGESTIONS-->

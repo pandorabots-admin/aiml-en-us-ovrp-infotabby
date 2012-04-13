@@ -58,7 +58,12 @@
     
 <category>
 <pattern>CHATSWITCH</pattern>
-<template>Tell me, do you have a question or would you just like to chat?
+<template>
+<random>
+<li>How can this humble catbot help you?</li>
+<li>What's your question?</li>
+<li>Do you have a question or are you just lonely?</li>
+</random>
 <think>
 <set name="topic">CHAT</set>
 </think>
@@ -100,14 +105,20 @@
 <li value="TALK *"><set name="message">chat</set></li>
 <li value="* TALK *"><set name="message">chat</set></li>
 
+<li value="STOP"><set name="message">stop</set></li>
+<li value="* STOP"><set name="message">stop</set></li>
+<li value="STOP *"><set name="message">stop</set></li>
+<li value="* STOP *"><set name="message">stop</set></li>
+
 </condition>
 <think><set name="topic"></set></think>
 </think>
 
 <condition name="message">
 <li value="no match"><srai><get name="answr"/></srai></li>
-<li value="query"><srai>INFOSORT</srai></li>
-<li value="chat"><srai>CHT</srai></li>
+<li value="chat"><think><set name="topic"></set></think> OK, let's chat. <srai>CHT</srai></li>
+<li value="question"><srai>ANSWRQ</srai></li>
+<li value="stop"><set name="topic"></set> O.K. I'll stop.</li>
 
 </condition>
 </template>
@@ -118,7 +129,6 @@
 <category>
 <pattern>CHT</pattern>
 <template>
-OK, let's chat. 
 <random>
 <li><set name="topic"></set><srai>GENCHT</srai></li>
 <li><set name="topic"></set><srai>INTRESTTDY</srai></li>
@@ -149,34 +159,25 @@ OK, let's chat.
 <condition name="chatcount">
 
 <li value="2">
-<random>  
- <li>I see.</li>
- <li>Tell me more.</li>
- <li>Yes, I follow you.</li>
-</random>
-<think><set name="chatcount">3</set></think>
-</li>
-
-<li value="3">
 <random> 
  <li>What do your friends think about this?</li>
  <li>Do many other humans feel this way?</li>
  <li>Does this cause your family to argue during the holidays?</li>
  <li>Do your coworkers agree with you on this?</li>
 </random>
-<think><set name="chatcount">4</set></think>
+<think><set name="chatcount">3</set></think>
 </li>
 
-<li value="4">
+<li value="3">
 <random> 
  <li>Perhaps you could convince them.</li>
  <li>Well, no one enjoys beating their head against a wall.</li>
  <li>They say that success is as dangerous as failure.</li>
 </random>
-<think><set name="chatcount">5</set></think>
+<think><set name="chatcount">4</set></think>
 </li>
 
-<li value="5">
+<li value="4">
 <random>
  <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
  <li>I hear a can opening. I better go.</li>
@@ -227,24 +228,14 @@ OK, let's chat.
 
 <li value="3">
 <random> 
- <li>What do your friends think about this?</li>
- <li>Do many other humans do this too?</li>
- <li>Do you have friends that agree?</li>
- <li>Do your coworkers agree with you on this?</li>
+ <li>I see.</li>
+ <li>My goodness.</li>
+ <li>Well, they say that success is as dangerous as failure.</li>
 </random>
 <think><set name="chatcount">4</set></think>
 </li>
 
 <li value="4">
-<random> 
- <li>I see.</li>
- <li>My goodness.</li>
- <li>Well, they say that success is as dangerous as failure.</li>
-</random>
-<think><set name="chatcount">5</set></think>
-</li>
-
-<li value="5">
 <random>
  <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
  <li>I hear a can opening. I better go.</li>
@@ -305,15 +296,6 @@ OK, let's chat.
 </li>
 
 <li value="4">
-<random> 
- <li>That's interesting.</li>
- <li>My goodness.</li>
- <li>O.K.</li>
-</random>
-<think><set name="chatcount">5</set></think>
-</li>
-
-<li value="5">
 <random>
  <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
  <li>I hear a can opening. I better go.</li>
@@ -645,26 +627,8 @@ I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were
 <think><set name="chatcount">3</set></think>
 </li>
 
+
 <li value="3">
-<random> 
- <li>What do your friends think about this?</li>
- <li>Do many other humans feel this way?</li>
- <li>Does this cause your family to argue during the holidays?</li>
- <li>Do your coworkers agree with you on this?</li>
-</random>
-<think><set name="chatcount">4</set></think>
-</li>
-
-<li value="4">
-<random> 
- <li>Perhaps you could convince them.</li>
- <li>My goodness.</li>
- <li>They say that success is as dangerous as failure.</li>
-</random>
-<think><set name="chatcount">5</set></think>
-</li>
-
-<li value="5">
 <random>
  <li>It was a pleasure to talk with you, however I have to get back to work now.</li>
  <li>I hear a can opening. I better go.</li>

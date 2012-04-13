@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--Copyright 2011-2012 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+ 
+<category>
+<pattern>CIRCULATE</pattern>
+<template><srai>CRC</srai></template>
+</category>
+
+<category>
+<pattern>* CIRCULATE</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCULATE *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCULATE *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCULATING</pattern>
+<template><srai>CRC</srai></template>
+</category>
+
+<category>
+<pattern>* CIRCULATING</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCULATING *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCULATING *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCULATION</pattern>
+<template><srai>CRC</srai></template>
+</category>
+
+<category>
+<pattern>* CIRCULATION</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCULATION *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCULATION *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<!--
+<category>
+<pattern>HOW LONG</pattern>
+<template><srai>CRC</srai></template>
+</category>
+
+<category>
+<pattern>* HOW LONG</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOW LONG *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+-->
+
+
+<category>
+<pattern>HOW MANY</pattern>
+<template><srai>CRC2</srai></template>
+</category>
+
+<!--
+<category>
+<pattern>* HOW MANY</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MANY *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+
+<category>
+<pattern>* HOW MANY *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai>
+</template>
+</category>
+-->
+
+<category>
+<pattern>CRC</pattern>
+<template>It sounds like you're asking about how long you can check out an item. I can tell you the loan periods for all of our items. Which items would you like to hear about?
+<think>
+<set name="topic">CRCQ0</set>
+</think>
+</template>
+</category>
+
+<topic name="CRCQ0">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai></template>
+</category>
+</topic>
+
+<category>
+<pattern>CRC2</pattern>
+<template>It sounds like you're asking about how many items you can check out. Which items would you like to hear about?
+<think>
+<set name="topic">CRCQ00</set>
+</think>
+</template>
+</category>
+
+<topic name="CRCQ00">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">CRCQ2</set>
+</think>
+<srai>CRCQ2</srai></template>
+</category>
+</topic>
+
+<topic name="CRCQ2">
+<category>
+<pattern>CRCQ2</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="STOP"><set name="message">stop</set></li>
+
+<li value="OVERRIDE"><set name="message">override renewals</set></li>
+<li value="* OVERRIDE"><set name="message">override renewals</set></li>
+<li value="OVERRIDE *"><set name="message">override renewals</set></li>
+<li value="* OVERRIDE *"><set name="message">override renewals</set></li>
+
+<li value="OVERRIDING"><set name="message">override renewals</set></li>
+<li value="* OVERRIDING"><set name="message">override renewals</set></li>
+<li value="OVERRIDING *"><set name="message">override renewals</set></li>
+<li value="* OVERRIDING *"><set name="message">override renewals</set></li>
+
+<li value="OVER RIDE"><set name="message">override renewals</set></li>
+<li value="* OVER RIDE"><set name="message">override renewals</set></li>
+<li value="OVER RIDE *"><set name="message">override renewals</set></li>
+<li value="* OVER RIDE *"><set name="message">override renewals</set></li>
+
+<li value="OVER RIDING"><set name="message">override renewals</set></li>
+<li value="* OVER RIDING"><set name="message">override renewals</set></li>
+<li value="OVER RIDING *"><set name="message">override renewals</set></li>
+<li value="* OVER RIDING *"><set name="message">override renewals</set></li>
+
+<li value="PERIOD"><set name="message">loan periods</set></li>
+<li value="* PERIOD"><set name="message">loan periods</set></li>
+<li value="PERIOD *"><set name="message">loan periods</set></li>
+<li value="* PERIOD *"><set name="message">loan periods</set></li>
+
+<li value="PERIODS"><set name="message">loan periods</set></li>
+<li value="* PERIODS"><set name="message">loan periods</set></li>
+<li value="PERIODS *"><set name="message">loan periods</set></li>
+<li value="* PERIODS *"><set name="message">loan periods</set></li>
+
+<li value="CHECK DATE"><set name="message">check due date</set></li>
+<li value="* CHECK DATE"><set name="message">check due date</set></li>
+<li value="CHECK * DATE"><set name="message">check due date</set></li>
+<li value="CHECK DATE *"><set name="message">check due date</set></li>
+<li value="* CHECK * DATE"><set name="message">check due date</set></li>
+<li value="CHECK * DATE *"><set name="message">check due date</set></li>
+<li value="* CHECK DATE *"><set name="message">check due date</set></li>
+<li value="* CHECK * DATE *"><set name="message">check due date</set></li>
+
+<li value="CHECK DATES"><set name="message">check due date</set></li>
+<li value="* CHECK DATES"><set name="message">check due date</set></li>
+<li value="CHECK * DATES"><set name="message">check due date</set></li>
+<li value="CHECK DATES *"><set name="message">check due date</set></li>
+<li value="* CHECK * DATES"><set name="message">check due date</set></li>
+<li value="CHECK * DATES *"><set name="message">check due date</set></li>
+<li value="* CHECK DATES *"><set name="message">check due date</set></li>
+<li value="* CHECK * DATES *"><set name="message">check due date</set></li>
+
+<li value="CHECK DUE"><set name="message">check due date</set></li>
+<li value="* CHECK DUE"><set name="message">check due date</set></li>
+<li value="CHECK * DUE"><set name="message">check due date</set></li>
+<li value="CHECK DUE *"><set name="message">check due date</set></li>
+<li value="* CHECK * DUE"><set name="message">check due date</set></li>
+<li value="CHECK * DUE *"><set name="message">check due date</set></li>
+<li value="* CHECK DUE *"><set name="message">check due date</set></li>
+<li value="* CHECK * DUE *"><set name="message">check due date</set></li>
+
+<li value="GRACE"><set name="message">grace periods</set></li>
+<li value="* GRACE"><set name="message">grace periods</set></li>
+<li value="GRACE *"><set name="message">grace periods</set></li>
+<li value="* GRACE *"><set name="message">grace periods</set></li>
+
+<li value="CALL"><set name="message">circulation dept</set></li>
+<li value="* CALL"><set name="message">circulation dept</set></li>
+<li value="CALL *"><set name="message">circulation dept</set></li>
+<li value="* CALL *"><set name="message">circulation dept</set></li>
+
+<li value="DESK"><set name="message">circulation dept</set></li>
+<li value="* DESK"><set name="message">circulation dept</set></li>
+<li value="DESK *"><set name="message">circulation dept</set></li>
+<li value="* DESK *"><set name="message">circulation dept</set></li>
+
+<li value="DEPT"><set name="message">circulation dept</set></li>
+<li value="* DEPT"><set name="message">circulation dept</set></li>
+<li value="DEPT *"><set name="message">circulation dept</set></li>
+<li value="* DEPT *"><set name="message">circulation dept</set></li>
+
+<li value="DEPARTMENT"><set name="message">circulation dept</set></li>
+<li value="* DEPARTMENT"><set name="message">circulation dept</set></li>
+<li value="DEPARTMENT *"><set name="message">circulation dept</set></li>
+<li value="* DEPARTMENT *"><set name="message">circulation dept</set></li>
+
+<li value="PHONE"><set name="message">circulation dept</set></li>
+<li value="* PHONE"><set name="message">circulation dept</set></li>
+<li value="PHONE *"><set name="message">circulation dept</set></li>
+<li value="* PHONE *"><set name="message">circulation dept</set></li>
+
+<li value="NUMBER"><set name="message">circulation dept</set></li>
+<li value="* NUMBER"><set name="message">circulation dept</set></li>
+<li value="NUMBER *"><set name="message">circulation dept</set></li>
+<li value="* NUMBER *"><set name="message">circulation dept</set></li>
+
+<li value="HOW MANY"><set name="message">how many items</set></li>
+<li value="* HOW MANY"><set name="message">how many items</set></li>
+<li value="HOW MANY *"><set name="message">how many items</set></li>
+<li value="* HOW MANY *"><set name="message">how many items</set></li>
+
+<li value="POLICY"><set name="message">circ policy</set></li>
+<li value="* POLICY"><set name="message">circ policy</set></li>
+<li value="POLICY *"><set name="message">circ policy</set></li>
+<li value="* POLICY *"><set name="message">circ policy</set></li>
+
+<li value="POLICIES"><set name="message">circ policy</set></li>
+<li value="* POLICIES"><set name="message">circ policy</set></li>
+<li value="POLICIES *"><set name="message">circ policy</set></li>
+<li value="* POLICIES *"><set name="message">circ policy</set></li>
+
+<li value="TEACHER"><set name="message">teacher cards</set></li>
+<li value="* TEACHER"><set name="message">teacher cards</set></li>
+<li value="TEACHER *"><set name="message">teacher cards</set></li>
+<li value="* TEACHER *"><set name="message">teacher cards</set></li>
+
+<li value="TEACHERS"><set name="message">teacher cards</set></li>
+<li value="* TEACHERS"><set name="message">teacher cards</set></li>
+<li value="TEACHERS *"><set name="message">teacher cards</set></li>
+<li value="* TEACHERS *"><set name="message">teacher cards</set></li>
+
+<li value="TEACHER S"><set name="message">teacher cards</set></li>
+<li value="* TEACHER S"><set name="message">teacher cards</set></li>
+<li value="TEACHER S *"><set name="message">teacher cards</set></li>
+<li value="* TEACHER S *"><set name="message">teacher cards</set></li>
+
+<li value="EXTEND"><set name="message">vacation extensions</set></li>
+<li value="* EXTEND"><set name="message">vacation extensions</set></li>
+<li value="EXTEND *"><set name="message">vacation extensions</set></li>
+<li value="* EXTEND *"><set name="message">vacation extensions</set></li>
+
+<li value="EXTENDED"><set name="message">vacation extensions</set></li>
+<li value="* EXTENDED"><set name="message">vacation extensions</set></li>
+<li value="EXTENDED *"><set name="message">vacation extensions</set></li>
+<li value="* EXTENDED *"><set name="message">vacation extensions</set></li>
+
+<li value="EXTENDING"><set name="message">vacation extensions</set></li>
+<li value="* EXTENDING"><set name="message">vacation extensions</set></li>
+<li value="EXTENDING *"><set name="message">vacation extensions</set></li>
+<li value="* EXTENDING *"><set name="message">vacation extensions</set></li>
+
+<li value="EXTENTION"><set name="message">vacation extensions</set></li>
+<li value="* EXTENTION"><set name="message">vacation extensions</set></li>
+<li value="EXTENTION *"><set name="message">vacation extensions</set></li>
+<li value="* EXTENTION *"><set name="message">vacation extensions</set></li>
+
+<li value="EXTENTIONS"><set name="message">vacation extensions</set></li>
+<li value="* EXTENTIONS"><set name="message">vacation extensions</set></li>
+<li value="EXTENTIONS *"><set name="message">vacation extensions</set></li>
+<li value="* EXTENTIONS *"><set name="message">vacation extensions</set></li>
+
+<li value="TRIP"><set name="message">vacation extensions</set></li>
+<li value="* TRIP"><set name="message">vacation extensions</set></li>
+<li value="TRIP *"><set name="message">vacation extensions</set></li>
+<li value="* TRIP *"><set name="message">vacation extensions</set></li>
+
+<li value="VACATION"><set name="message">vacation extensions</set></li>
+<li value="* VACATION"><set name="message">vacation extensions</set></li>
+<li value="VACATION *"><set name="message">vacation extensions</set></li>
+<li value="* VACATION *"><set name="message">vacation extensions</set></li>
+
+<li value="VACATIONING"><set name="message">vacation extensions</set></li>
+<li value="* VACATIONING"><set name="message">vacation extensions</set></li>
+<li value="VACATIONING *"><set name="message">vacation extensions</set></li>
+<li value="* VACATIONING *"><set name="message">vacation extensions</set></li>
+
+<li value="VACATIONS"><set name="message">vacation extensions</set></li>
+<li value="* VACATIONS"><set name="message">vacation extensions</set></li>
+<li value="VACATIONS *"><set name="message">vacation extensions</set></li>
+<li value="* VACATIONS *"><set name="message">vacation extensions</set></li>
+
+<li value="WHERE * CHECK OUT"><set name="message">where check out</set></li>
+<li value="* WHERE * CHECK OUT"><set name="message">where check out</set></li>
+<li value="WHERE * CHECK OUT *"><set name="message">where check out</set></li>
+<li value="* WHERE * CHECK OUT *"><set name="message">where check out</set></li>
+
+<li value="MAGAZINE"><set name="message">check out mags</set></li>
+<li value="* MAGAZINE"><set name="message">check out mags</set></li>
+<li value="MAGAZINE *"><set name="message">check out mags</set></li>
+<li value="* MAGAZINE *"><set name="message">check out mags</set></li>
+
+<li value="MAGAZINES"><set name="message">check out mags</set></li>
+<li value="* MAGAZINES"><set name="message">check out mags</set></li>
+<li value="MAGAZINES *"><set name="message">check out mags</set></li>
+<li value="* MAGAZINES *"><set name="message">check out mags</set></li>
+
+<li value="DO NOT * CARD"><set name="message">no card</set></li>
+<li value="* DO NOT * CARD"><set name="message">no card</set></li>
+<li value="DO NOT * CARD *"><set name="message">no card</set></li>
+<li value="* DO NOT * CARD *"><set name="message">no card</set></li>
+
+<li value="FORGET * CARD"><set name="message">no card</set></li>
+<li value="* FORGET * CARD"><set name="message">no card</set></li>
+<li value="FORGET * CARD *"><set name="message">no card</set></li>
+<li value="* FORGET * CARD *"><set name="message">no card</set></li>
+
+<li value="FORGOT * CARD"><set name="message">no card</set></li>
+<li value="* FORGOT * CARD"><set name="message">no card</set></li>
+<li value="FORGOT * CARD *"><set name="message">no card</set></li>
+<li value="* FORGOT * CARD *"><set name="message">no card</set></li>
+
+<li value="WITHOUT CARD"><set name="message">no card</set></li>
+<li value="* WITHOUT CARD"><set name="message">no card</set></li>
+<li value="WITHOUT * CARD"><set name="message">no card</set></li>
+<li value="WITHOUT CARD *"><set name="message">no card</set></li>
+<li value="* WITHOUT * CARD"><set name="message">no card</set></li>
+<li value="WITHOUT * CARD *"><set name="message">no card</set></li>
+<li value="* WITHOUT CARD *"><set name="message">no card</set></li>
+<li value="* WITHOUT * CARD *"><set name="message">no card</set></li>
+
+<li value="WITH OUT CARD"><set name="message">no card</set></li>
+<li value="* WITH OUT CARD"><set name="message">no card</set></li>
+<li value="WITH OUT * CARD"><set name="message">no card</set></li>
+<li value="WITH OUT CARD *"><set name="message">no card</set></li>
+<li value="* WITH OUT * CARD"><set name="message">no card</set></li>
+<li value="WITH OUT * CARD *"><set name="message">no card</set></li>
+<li value="* WITH OUT CARD *"><set name="message">no card</set></li>
+<li value="* WITH OUT * CARD *"><set name="message">no card</set></li>
+
+<li value="DO NOT * NUMBER"><set name="message">no card</set></li>
+<li value="* DO NOT * NUMBER"><set name="message">no card</set></li>
+<li value="DO NOT * NUMBER *"><set name="message">no card</set></li>
+<li value="* DO NOT * NUMBER *"><set name="message">no card</set></li>
+
+<li value="FORGET * NUMBER"><set name="message">no card</set></li>
+<li value="* FORGET * NUMBER"><set name="message">no card</set></li>
+<li value="FORGET * NUMBER *"><set name="message">no card</set></li>
+<li value="* FORGET * NUMBER *"><set name="message">no card</set></li>
+
+<li value="FORGOT * NUMBER"><set name="message">no card</set></li>
+<li value="* FORGOT * NUMBER"><set name="message">no card</set></li>
+<li value="FORGOT * NUMBER *"><set name="message">no card</set></li>
+<li value="* FORGOT * NUMBER *"><set name="message">no card</set></li>
+
+<li value="WITHOUT NUMBER"><set name="message">no card</set></li>
+<li value="* WITHOUT NUMBER"><set name="message">no card</set></li>
+<li value="WITHOUT * NUMBER"><set name="message">no card</set></li>
+<li value="WITHOUT NUMBER *"><set name="message">no card</set></li>
+<li value="* WITHOUT * NUMBER"><set name="message">no card</set></li>
+<li value="WITHOUT * NUMBER *"><set name="message">no card</set></li>
+<li value="* WITHOUT NUMBER *"><set name="message">no card</set></li>
+<li value="* WITHOUT * NUMBER *"><set name="message">no card</set></li>
+
+<li value="WITH OUT NUMBER"><set name="message">no card</set></li>
+<li value="* WITH OUT NUMBER"><set name="message">no card</set></li>
+<li value="WITH OUT * NUMBER"><set name="message">no card</set></li>
+<li value="WITH OUT NUMBER *"><set name="message">no card</set></li>
+<li value="* WITH OUT * NUMBER"><set name="message">no card</set></li>
+<li value="WITH OUT * NUMBER *"><set name="message">no card</set></li>
+<li value="* WITH OUT NUMBER *"><set name="message">no card</set></li>
+<li value="* WITH OUT * NUMBER *"><set name="message">no card</set></li>
+
+<li value="LOOK UP"><set name="message">look up number</set></li>
+<li value="* LOOK UP"><set name="message">look up number</set></li>
+<li value="LOOK * UP"><set name="message">look up number</set></li>
+<li value="LOOK UP *"><set name="message">look up number</set></li>
+<li value="* LOOK * UP"><set name="message">look up number</set></li>
+<li value="LOOK * UP *"><set name="message">look up number</set></li>
+<li value="* LOOK UP *"><set name="message">look up number</set></li>
+<li value="* LOOK * UP *"><set name="message">look up number</set></li>
+
+<li value="DISPLAY"><set name="message">display</set></li>
+<li value="* DISPLAY"><set name="message">display</set></li>
+<li value="DISPLAY *"><set name="message">display</set></li>
+<li value="* DISPLAY *"><set name="message">display</set></li>
+
+<li value="DISPLAYED"><set name="message">display</set></li>
+<li value="* DISPLAYED"><set name="message">display</set></li>
+<li value="DISPLAYED *"><set name="message">display</set></li>
+<li value="* DISPLAYED *"><set name="message">display</set></li>
+
+<li value="DISPLAYS"><set name="message">display</set></li>
+<li value="* DISPLAYS"><set name="message">display</set></li>
+<li value="DISPLAYS *"><set name="message">display</set></li>
+<li value="* DISPLAYS *"><set name="message">display</set></li>
+
+<li value="PAPER"><set name="message">newspapers</set></li>
+<li value="* PAPER"><set name="message">newspapers</set></li>
+<li value="PAPER *"><set name="message">newspapers</set></li>
+<li value="* PAPER *"><set name="message">newspapers</set></li>
+
+<li value="PAPERS"><set name="message">newspapers</set></li>
+<li value="* PAPERS"><set name="message">newspapers</set></li>
+<li value="PAPERS *"><set name="message">newspapers</set></li>
+<li value="* PAPERS *"><set name="message">newspapers</set></li>
+
+<li value="NEWSPAPER"><set name="message">newspapers</set></li>
+<li value="* NEWSPAPER"><set name="message">newspapers</set></li>
+<li value="NEWSPAPER *"><set name="message">newspapers</set></li>
+<li value="* NEWSPAPER *"><set name="message">newspapers</set></li>
+
+<li value="NEWSPAPERS"><set name="message">newspapers</set></li>
+<li value="* NEWSPAPERS"><set name="message">newspapers</set></li>
+<li value="NEWSPAPERS *"><set name="message">newspapers</set></li>
+<li value="* NEWSPAPERS *"><set name="message">newspapers</set></li>
+
+<li value="CART"><set name="message">off cart</set></li>
+<li value="* CART"><set name="message">off cart</set></li>
+<li value="CART *"><set name="message">off cart</set></li>
+<li value="* CART *"><set name="message">off cart</set></li>
+
+<li value="CARTS"><set name="message">off cart</set></li>
+<li value="* CARTS"><set name="message">off cart</set></li>
+<li value="CARTS *"><set name="message">off cart</set></li>
+<li value="* CARTS *"><set name="message">off cart</set></li>
+
+<li value="STAY ONLINE"><set name="message">session length</set></li>
+<li value="* STAY ONLINE"><set name="message">session length</set></li>
+<li value="STAY ONLINE *"><set name="message">session length</set></li>
+<li value="* STAY ONLINE *"><set name="message">session length</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+
+<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+
+<li value="no match">I'm not sure what you're asking. Please call the library at 440.255.8811 during regular business hours for assistance.</li>
+
+<li value="override renewals"><srai>MAXR</srai></li>
+
+<li value="loan periods"><srai>LOANPERIODS</srai></li>
+
+<li value="check due date"><srai>CHCKDUEDATE</srai></li>
+
+<li value="grace periods"><srai>GPERIODS</srai></li>
+
+<li value="circulation dept"><srai>CIRCDEPT</srai></li>
+
+<li value="how many items"><srai>COQUANT</srai></li>
+
+<li value="circ policy"><srai>CIRCPOLICY</srai></li>
+
+<li value="teacher cards"><srai>TCARDS</srai></li>
+
+<li value="vacation extensions"><srai>VACEXT</srai></li>
+  
+<li value="where check out"><srai>COLOC</srai></li>
+
+<li value="check out mags"><srai>COMAGS</srai></li>
+
+<li value="no card"><srai>COWOCRD</srai></li>
+
+<li value="look up number"><srai>LKUPCRD</srai></li>
+
+<li value="display"><srai>DISPITEMS</srai></li>
+
+<li value="newspapers"><srai>COPAPERS</srai></li>
+
+<li value="off cart"><srai>OFFCRT</srai></li>
+ 
+<li value="laptops"><srai>COLPTP</srai></li>
+
+<li value="session length"><srai>SESSIONL</srai></li>
+
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+
+
+<category>
+<pattern>RENEW</pattern>
+<template><srai>RNW</srai></template>
+</category>
+
+<category>
+<pattern>RENEWAL</pattern>
+<template><srai>RNW</srai></template>
+</category>
+
+<category>
+<pattern>RENEWALS</pattern>
+<template><srai>RNW</srai></template>
+</category>
+
+<category>
+<pattern>RENEWING</pattern>
+<template><srai>RNW</srai></template>
+</category>
+
+<category>
+<pattern>RNW</pattern>
+<template>
+<think>
+<set name="topic">RNWQ</set>
+</think>
+I'm often asked about accounts. What is your question about library accounts?
+</template>
+</category>
+
+<topic name="RNWQ">
+<category>
+<pattern>_</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+</topic>
+
+<category>
+<pattern>RENEW *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEW</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEW *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>RENEWAL *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEWAL</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEWAL *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>RENEWALS *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEWALS</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEWALS *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>RENEWING *</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEWING</pattern>
+<template>
+<think>
+<set name="answr"><star/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+<category>
+<pattern>* RENEWING *</pattern>
+<template>
+<think>
+<set name="answr"><star index="1"/><star index="2"/></set>
+<set name="topic">RNWQ2</set>
+</think>
+<srai>RNWQ2</srai></template>
+</category>
+
+
+<topic name="RNWQ2">
+<category>
+<pattern>RNWQ2</pattern>
+<template>
+<think>
+<get name="answr"/>
+<set name="message">no match</set>
+<condition name="answr">
+
+<li value="ONLINE"><set name="message">online</set></li>
+<li value="* ONLINE"><set name="message">online</set></li>
+<li value="ONLINE *"><set name="message">online</set></li>
+<li value="* ONLINE *"><set name="message">online</set></li>
+
+<li value="HELP"><set name="message">how to</set></li>
+<li value="* HELP"><set name="message">how to</set></li>
+<li value="HELP *"><set name="message">how to</set></li>
+<li value="* HELP *"><set name="message">how to</set></li>
+
+<li value="HOW"><set name="message">how to</set></li>
+<li value="* HOW"><set name="message">how to</set></li>
+<li value="HOW *"><set name="message">how to</set></li>
+<li value="* HOW *"><set name="message">how to</set></li>
+
+<li value="HOW TO"><set name="message">how to</set></li>
+<li value="* HOW TO"><set name="message">how to</set></li>
+<li value="HOW TO *"><set name="message">how to</set></li>
+<li value="* HOW TO *"><set name="message">how to</set></li>
+
+<li value="INSTRUCTIONS"><set name="message">how to</set></li>
+<li value="* INSTRUCTIONS"><set name="message">how to</set></li>
+<li value="INSTRUCTIONS *"><set name="message">how to</set></li>
+<li value="* INSTRUCTIONS *"><set name="message">how to</set></li>
+
+<li value="SHOW ME"><set name="message">how to</set></li>
+<li value="* SHOW ME"><set name="message">how to</set></li>
+<li value="SHOW ME *"><set name="message">how to</set></li>
+<li value="* SHOW ME *"><set name="message">how to</set></li>
+
+<li value="LATE"><set name="message">renew overdue</set></li>
+<li value="* LATE"><set name="message">renew overdue</set></li>
+<li value="LATE *"><set name="message">renew overdue</set></li>
+<li value="* LATE *"><set name="message">renew overdue</set></li>
+
+<li value="OVERDUE"><set name="message">renew overdue</set></li>
+<li value="* OVERDUE"><set name="message">renew overdue</set></li>
+<li value="OVERDUE *"><set name="message">renew overdue</set></li>
+<li value="* OVERDUE *"><set name="message">renew overdue</set></li>
+
+<li value="OVERDUES"><set name="message">renew overdue</set></li>
+<li value="* OVERDUES"><set name="message">renew overdue</set></li>
+<li value="OVERDUES *"><set name="message">renew overdue</set></li>
+<li value="* OVERDUES *"><set name="message">renew overdue</set></li>
+
+<li value="OVER DUE"><set name="message">renew overdue</set></li>
+<li value="* OVER DUE"><set name="message">renew overdue</set></li>
+<li value="OVER DUE *"><set name="message">renew overdue</set></li>
+<li value="* OVER DUE *"><set name="message">renew overdue</set></li>
+
+<li value="OVER DUES"><set name="message">renew overdue</set></li>
+<li value="* OVER DUES"><set name="message">renew overdue</set></li>
+<li value="OVER DUES *"><set name="message">renew overdue</set></li>
+<li value="* OVER DUES *"><set name="message">renew overdue</set></li>
+
+<li value="HOW MANY"><set name="message">renewal limits</set></li>
+<li value="* HOW MANY"><set name="message">renewal limits</set></li>
+<li value="HOW MANY *"><set name="message">renewal limits</set></li>
+<li value="HOW MANY *"><set name="message">renewal limits</set></li>
+<li value="* HOW MANY *"><set name="message">renewal limits</set></li>
+<li value="HOW MANY * *"><set name="message">renewal limits</set></li>
+<li value="* HOW MANY *"><set name="message">renewal limits</set></li>
+
+<li value="MAXIMUM NUMBER"><set name="message">renewal limits</set></li>
+<li value="* MAXIMUM NUMBER"><set name="message">renewal limits</set></li>
+<li value="MAXIMUM * NUMBER"><set name="message">renewal limits</set></li>
+<li value="MAXIMUM NUMBER *"><set name="message">renewal limits</set></li>
+<li value="* MAXIMUM * NUMBER"><set name="message">renewal limits</set></li>
+<li value="MAXIMUM * NUMBER *"><set name="message">renewal limits</set></li>
+<li value="* MAXIMUM NUMBER *"><set name="message">renewal limits</set></li>
+<li value="* MAXIMUM * NUMBER *"><set name="message">renewal limits</set></li>
+
+<li value="MAXIMUM"><set name="message">renewal limits</set></li>
+<li value="* MAXIMUM"><set name="message">renewal limits</set></li>
+<li value="MAXIMUM *"><set name="message">renewal limits</set></li>
+<li value="* MAXIMUM *"><set name="message">renewal limits</set></li>
+
+<li value="NUMBER"><set name="message">renewal limits</set></li>
+<li value="* NUMBER"><set name="message">renewal limits</set></li>
+<li value="NUMBER *"><set name="message">renewal limits</set></li>
+<li value="* NUMBER *"><set name="message">renewal limits</set></li>
+
+<li value="LIMIT"><set name="message">renewal limits</set></li>
+<li value="* LIMIT"><set name="message">renewal limits</set></li>
+<li value="LIMIT *"><set name="message">renewal limits</set></li>
+<li value="* LIMIT *"><set name="message">renewal limits</set></li>
+
+<li value="LIMITS"><set name="message">renewal limits</set></li>
+<li value="* LIMITS"><set name="message">renewal limits</set></li>
+<li value="LIMITS *"><set name="message">renewal limits</set></li>
+<li value="* LIMITS *"><set name="message">renewal limits</set></li>
+
+<li value="TIMES"><set name="message">renewal limits</set></li>
+<li value="* TIMES"><set name="message">renewal limits</set></li>
+<li value="TIMES *"><set name="message">renewal limits</set></li>
+<li value="* TIMES *"><set name="message">renewal limits</set></li>
+
+<li value="WHEN"><set name="message">when renew</set></li>
+<li value="* WHEN"><set name="message">when renew</set></li>
+<li value="WHEN *"><set name="message">when renew</set></li>
+<li value="* WHEN *"><set name="message">when renew</set></li>
+
+<li value="CANNOT"><set name="message">renew fail</set></li>
+<li value="* CANNOT"><set name="message">renew fail</set></li>
+<li value="CANNOT *"><set name="message">renew fail</set></li>
+<li value="* CANNOT *"><set name="message">renew fail</set></li>
+
+<li value="NOT"><set name="message">renew fail</set></li>
+<li value="* NOT"><set name="message">renew fail</set></li>
+<li value="NOT *"><set name="message">renew fail</set></li>
+<li value="* NOT *"><set name="message">renew fail</set></li>
+
+<li value="TROUBLE"><set name="message">renew fail</set></li>
+<li value="* TROUBLE"><set name="message">renew fail</set></li>
+<li value="TROUBLE *"><set name="message">renew fail</set></li>
+<li value="* TROUBLE *"><set name="message">renew fail</set></li>
+
+<li value="LAPTOP"><set name="message">laptops</set></li>
+<li value="* LAPTOP"><set name="message">laptops</set></li>
+<li value="LAPTOP *"><set name="message">laptops</set></li>
+<li value="* LAPTOP *"><set name="message">laptops</set></li>
+
+<li value="LAPTOPS"><set name="message">laptops</set></li>
+<li value="* LAPTOPS"><set name="message">laptops</set></li>
+<li value="LAPTOPS *"><set name="message">laptops</set></li>
+<li value="* LAPTOPS *"><set name="message">laptops</set></li>
+
+<li value="LAP TOP"><set name="message">laptops</set></li>
+<li value="* LAP TOP"><set name="message">laptops</set></li>
+<li value="LAP TOP *"><set name="message">laptops</set></li>
+<li value="* LAP TOP *"><set name="message">laptops</set></li>
+
+<li value="LAP TOPS"><set name="message">laptops</set></li>
+<li value="* LAP TOPS"><set name="message">laptops</set></li>
+<li value="LAP TOPS *"><set name="message">laptops</set></li>
+<li value="* LAP TOPS *"><set name="message">laptops</set></li>
+
+<li value="TEACHER"><set name="message">teacher renew</set></li>
+<li value="* TEACHER"><set name="message">teacher renew</set></li>
+<li value="TEACHER *"><set name="message">teacher renew</set></li>
+<li value="* TEACHER *"><set name="message">teacher renew</set></li>
+
+<li value="TEACHERS"><set name="message">teacher renew</set></li>
+<li value="* TEACHERS"><set name="message">teacher renew</set></li>
+<li value="TEACHERS *"><set name="message">teacher renew</set></li>
+<li value="* TEACHERS *"><set name="message">teacher renew</set></li>
+
+<li value="TEACHER S"><set name="message">teacher renew</set></li>
+<li value="* TEACHER S"><set name="message">teacher renew</set></li>
+<li value="TEACHER S *"><set name="message">teacher renew</set></li>
+<li value="* TEACHER S *"><set name="message">teacher renew</set></li>
+
+</condition>
+<think><set name="topic"></set></think>
+</think>
+
+<condition name="message">
+<li value="no match">I'm not sure what you're asking. Please call the library at 440.255.8811 during regular business hours for assistance.</li>
+
+<li value="online">Follow this link to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>renew items online</b></a>. Please have your card ready.
+Here's a <a href="http://www.mentorpl.org/demos/renewingitems.wmv" target="_blank"><b>demo</b></a> that shows you how to renew items online</li>
+
+<li value="how to">Log in to your account then follow these directions. I'll open a new window or tab with the place where you log in: 
+<br/><br/>
+1. Enter your Name and Barcode. Your barcode is on the back of your library card. Please enter the entire number with no spaces. <br/>
+2. Choose "Items Out" <br/>
+3. Select checkbox next to the item you want to renew. <br/>
+4. Click the "Renew" button <br/>
+5. Check the Due Date column for the new due date.<br/><br/>
+All of our items may be renewed up to four times as long as no one else has a hold on them. Search Ohio items may be renewed up to three times as long as no one else
+has a hold on them.
+<think>
+<set name="search">patroninfo</set>
+</think></li>
+
+<li value="online renewal">Follow this link to <a href="https://catalog.mentorpl.org/patroninfo" target="_blank"><b>renew items online</b></a>. Please have your card ready.
+Here's a <a href="http://www.mentorpl.org/demos/renewingitems.wmv" target="_blank"><b>demo</b></a> that shows you how to renew items online. </li>
+
+<li value="how to renew">You can renew items online, or by calling the library. Please have your library card ready.
+You can renew an item any time after you check it out. Items may not be renewed if they have a hold. Different items may be renewed a different number of times. Please refer to this  
+<a href="http://www.mentorpl.org/aboutus.html" target="_blank"><b>chart</b></a>. The renewal date is calculated from the date you renew the item. Please check the due dates for your items after renewing them.
+<br/><br/>
+All of our items may be renewed up to four times as long as no one else has a hold on them. Search Ohio items may be renewed up to three times as long as no one else
+has a hold on them. eBooks cannot be renewed. If you are unable to renew an item, the most common reasons are: another person has a hold on the item, your fines are $5.00 or more, the item is overdue
+ot you have reached the maximun number of renewals. 
+</li>
+
+<li value="renew overdue"><random>
+    <li>Items that are overdue cannot be renewed online.</li>
+  <li>You cannot renew overdue items online.</li>
+    </random></li>
+	
+<li value="renewal limits">All of our items may be renewed up to four times as long as no one else has a hold on them. Search Ohio items may be renewed up to three times as long as no one else
+has a hold on them.</li>
+
+<li value="when renew">You can renew an item any time after you check it out. The renewal date is calculated from the date you renew the item. Please check your the due dates for your items after renewing them.
+</li>
+
+<li value="renew fail">If you are unable to renew an item, the most common reasons are: another person has a hold on the item, your fines are $5.00 or more, the item is overdue,
+or you have reached the maximun number of renewals. Please call the library at 440.255.8811 during regular business hours for assistance.</li>
+
+<li value="laptops">If you are an adult with a Mentor Public Library card in good standing, you can check out a laptop to use in the Main Library
+or at the Lake Branch Library. Ask at the Main Library Computer Help Desk or at the Lake Branch Library service counter. Your use of the laptops may be extended if no one else 
+is waiting.</li>
+
+<li value="teacher renew">Due to the generous loan period of eight weeks, renewals are not permitted on a Teacher Card.</li>
+
+</condition>
+</template>
+</category>
+</topic>
+
+</aiml>

@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -305,8 +305,7 @@ I'm opening a link to The Ohio Web Library which contains a variety of magazine 
 </template>
 </category>
 
- 
- <!--OBITS-->
+<!--OBITS-->
  
 <category>
 <pattern>OBITUARY</pattern>
@@ -318,19 +317,15 @@ I'm opening a link to The Ohio Web Library which contains a variety of magazine 
 <template>Please enter the name.</template>
 </category>
 
-
 <category>
 <pattern>OBIT</pattern>
 <template>Please enter the name.</template>
 </category>
 
-
 <category>
 <pattern>OBITS</pattern>
 <template>Please enter the name.</template>
 </category>
-
-
 
 <category>
 <pattern>*</pattern>
@@ -344,8 +339,7 @@ I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If 
 </template>
 </category>
   
-
- <category>
+<category>
 <pattern>OBITUARY FOR *</pattern> 
 <template>
 I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
@@ -356,7 +350,7 @@ I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If 
 </template>
 </category>
 
- <category>
+<category>
 <pattern>* OBITUARY</pattern> 
 <template>
 I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
@@ -367,7 +361,7 @@ I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If 
 </template>
 </category>
 
- <category>
+<category>
 <pattern>I AM LOOKING FOR THE OBITUARY FOR *</pattern> 
 <template>
 I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
@@ -378,7 +372,7 @@ I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If 
 </template>
 </category>
 
- <category>
+<category>
 <pattern>FIND THE OBITUARY FOR *</pattern> 
 <template>
 I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
@@ -388,22 +382,6 @@ I'm sending this inquiry to The Ohio Web Library which includes obituaries.  If 
 </think>
 </template>
 </category>
-
-
-<!--who was is-->
-
- <category>
-<pattern>WHO WAS *</pattern> 
-<template>
-I'm sending this inquiry to The Ohio Web Library.  If you don't see the results, please turn off your pop-up blocker.  You may also want to check with a librarian during our regular hours of business.
-<think>
-<set name="searcharg"><star/></set>
-<set name="search">ohweblib</set>
-</think>
-</template>
-</category>
-
-
 
 <!--
 <category>
@@ -438,7 +416,6 @@ I'm sending this inquiry to The Ohio Web Library.  If you don't see the results,
 </think>
 </template>
 </category>
-
 
 <category>
 <pattern>CAN YOU TELL ME ABOUT *</pattern> 

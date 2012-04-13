@@ -2559,14 +2559,6 @@
 
 
 <category>
-<pattern>CAN YOU TELL THE FUTURE</pattern>
-<template>
-<srai>can you predict the future</srai>
-</template>
-</category>
-
-
-<category>
 <pattern>CAN YOU PLAY ANY MUSIC</pattern>
 <template>
 <srai>can you play music</srai>

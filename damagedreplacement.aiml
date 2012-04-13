@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -18,763 +18,720 @@
 
 
 
-<!--damaged dvd cases-->
+<!--DAMAGED DVD CASES-->
 
 <category>
-  <pattern>DAMDVDCASE</pattern>
-  <template>There is a $5.00 charge for locking DVD cases that are returned damaged.
- </template>
-</category>
-
-
-<category>
-  <pattern>DAMAGED * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * DVD CASE *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DAMAGED * DVD CASE *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * DVD CASE *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 
 
 <category>
-  <pattern>DAMAGED * CASE * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * CASE * DVD</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * CASE * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * CASE * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DAMAGED * CASE * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * CASE * DVD *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * DVD CASE *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * DVD CASE *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * DVD CASE *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * DVD CASE *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * DVD CASE *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * DVD CASE *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * CASE * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * CASE * DVD</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * CASE * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * CASE * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * CASE * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * CASE * DVD *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * CASE * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * CASE * DVD</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * CASE * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * CASE * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * CASE * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * CASE * DVD *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DAMAGED * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * DVD CASES</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * DVD CASES *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DAMAGED * DVD CASES *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * DVD CASES *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DAMAGED * CASES * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * CASES * DVD</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * CASES * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* DAMAGED * CASES * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DAMAGED * CASES * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DAMAGED * CASES * DVD *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * DVD CASES</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * DVD CASES *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * DVD CASES *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * DVD CASES *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * DVD CASES</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * DVD CASES *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * DVD CASES *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * DVD CASES *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * CASES * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * CASES * DVD</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * CASES * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKE * CASES * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKE * CASES * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKE * CASES * DVD *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * CASES * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * CASES * DVD</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * CASES * DVD</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
 <pattern>* BROKEN * CASES * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>BROKEN * CASES * DVD *</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>BROKEN * CASES * DVD *</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DESTROY * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DESTROY * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>* DESTROY * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>* DESTROY * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>* DESTROY * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>* DESTROY * DVD CASES</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>DESTROYED * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>DESTROYED * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>* DESTROYED * DVD CASE</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>* DESTROYED * DVD CASE</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
 <category>
-  <pattern>* DESTROYED * DVD CASES</pattern>
-  <template><srai>DAMDVDCASE</srai></template>
+<pattern>* DESTROYED * DVD CASES</pattern>
+<template><srai>DAMDVDCASE</srai></template>
 </category>
 
-<!--item lost-->
+<!--LOST ITEMS-->
 
 <category>
-<pattern>*  BOOK * LOST</pattern>
-  <template><srai>LSTITM</srai></template>
-</category>
-
-<category>
-<pattern>*  BOOKS * LOST</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* BOOK * LOST</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-<pattern>*  CD * LOST</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* BOOKS * LOST</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-<pattern>*  CDS * LOST</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* CD * LOST</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-<pattern>*  DVD * LOST</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* CDS * LOST</pattern>
+<template><srai>LSTITM</srai></template>
+</category>
+
+<category>
+<pattern>* DVD * LOST</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* DVDS * LOST</pattern>
-  <template><srai>LSTITM</srai></template>
-</category>
-
-
-
-<!--LOST item-->
-
-
-<category>
-  <pattern>LSTITM</pattern>
-  <template> If you lose or damage an item, please call us or stop in and let us know. The charge for lost items is the cost of the item, an additional $5.00 replacement and $5.00 billing fee.  </template>
-</category>
-
-
-
-<category>
-  <pattern>LOST ITEM</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST ITEM</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST ITEM</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST ITEM *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST ITEM</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST ITEM *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST ITEM *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST BOOK</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST ITEM *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST * BOOK</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST BOOK</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST BOOK</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST * BOOK</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST * BOOK</pattern>
-  <template><srai>LSTITM</srai></template>
-</category>
-
-
-<category>
-  <pattern>* LOST BOOK *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST BOOK</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST * BOOK *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST * BOOK</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST BOOK *</pattern>
-  <template><srai>LSTITM</srai></template>
-</category>
-
-
-<category>
-  <pattern>LOST BOOKS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST BOOK *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST * BOOKS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST * BOOK *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST BOOKS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST BOOK *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST * BOOKS</pattern>
-  <template><srai>LSTITM</srai></template>
-</category>
-
-
-<category>
-  <pattern>* LOST BOOKS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST BOOKS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>* LOST * BOOKS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST * BOOKS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST BOOKS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>* LOST BOOKS</pattern>
+<template><srai>LSTITM</srai></template>
+</category>
+
+<category>
+<pattern>* LOST * BOOKS</pattern>
+<template><srai>LSTITM</srai></template>
+</category>
+
+<category>
+<pattern>* LOST BOOKS *</pattern>
+<template><srai>LSTITM</srai></template>
+</category>
+
+<category>
+<pattern>* LOST * BOOKS *</pattern>
+<template><srai>LSTITM</srai></template>
+</category>
+
+<category>
+<pattern>LOST BOOKS *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <!--DVD-->
+
 <category>
-  <pattern>LOST DVD</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST DVD</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST * DVD</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST * DVD</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST DVD</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * DVD</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
-
 
 <category>
 <pattern>* LOST DVD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * DVD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST DVD *</pattern>
-  <template><srai>LSTITM</srai></template>
-</category>
-
-
-
-<!--DVDS-->
-
-<category>
-  <pattern>LOST DVDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST DVD *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST * DVDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST DVDS</pattern>
+<template><srai>LSTITM</srai></template>
+</category>
+
+<category>
+<pattern>LOST * DVDS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST DVDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * DVDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
-
 
 <category>
 <pattern>* LOST DVDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * DVDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST DVDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST DVDS *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
-
 
 <!--CD-->
 
 <category>
-  <pattern>LOST CD</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST CD</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST * CD</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST * CD</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST CD</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * CD</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
-
 
 <category>
 <pattern>* LOST CD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * CD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST CD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST CD *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <!--CDS-->
 
 <category>
-  <pattern>LOST CDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST CDS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST * CDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST * CDS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST CDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * CDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
-
 
 <category>
 <pattern>* LOST CDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOST * CDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOST CDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOST CDS *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
-<!--lose am item-->
+<!--LODE SOMETHING-->
 
 <category>
-  <pattern>LOSE * BOOK</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * BOOK</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * BOOK</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * BOOK *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * BOOK *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * BOOK *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * BOOKS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * BOOKS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * BOOKS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * BOOKS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * BOOKS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * BOOKS *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * DVD</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * DVD</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * DVD</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * DVD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * DVD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * DVD *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * DVDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * DVDS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * DVDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * DVDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * DVDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * DVDS *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * CD</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * CD</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * CD</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * CD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * CD *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * CD *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * CDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * CDS</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * CDS</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
 <pattern>* LOSE * CDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<template><srai>LSTITM</srai></template>
 </category>
 
 <category>
-  <pattern>LOSE * CDS *</pattern>
-  <template><srai>LSTITM</srai></template>
+<pattern>LOSE * CDS *</pattern>
+<template><srai>LSTITM</srai></template>
 </category>
 
-<!--replacments-->
-
-<category>
-  <pattern>RPLCE</pattern>
-  <template>We are once again accepting replacement items for items that have been damaged or lost. 
-  The only criteria for the replacement is that it must be the same format for the original item. 
-  For example, if you are replacing a CD it must be with that CD, a book with a book, etc. 
- </template>
-</category>
-
-<category>
-<pattern>* REPLACE A</pattern>
-  <template><srai>RPLCE</srai></template>
-</category>
+<!--REPLACEMENTS-->
 
 <category>
 <pattern>* REPLACE *</pattern>
-  <template><srai>RPLCE</srai></template>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
-  <pattern>REPLACE *</pattern>
-  <template><srai>RPLCE</srai></template>
+<pattern>REPLACE *</pattern>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
-  <pattern>BUY * REPLACEMENT</pattern>
-  <template><srai>RPLCE</srai></template>
+<pattern>BUY * REPLACEMENT</pattern>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* BUY * REPLACEMENT</pattern>
-  <template><srai>RPLCE</srai></template>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* BUY * REPLACEMENT *</pattern>
-  <template><srai>RPLCE</srai></template>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
-  <pattern>BUY * REPLACEMENT *</pattern>
-  <template><srai>RPLCE</srai></template>
+<pattern>BUY * REPLACEMENT *</pattern>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
-  <pattern>BUY * REPLACE</pattern>
-  <template><srai>RPLCE</srai></template>
+<pattern>BUY * REPLACE</pattern>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* BUY * REPLACE</pattern>
-  <template><srai>RPLCE</srai></template>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
 <pattern>* BUY * REPLACE *</pattern>
-  <template><srai>RPLCE</srai></template>
+<template><srai>RPLCE</srai></template>
 </category>
 
 <category>
-  <pattern>BUY * REPLACE *</pattern>
-  <template><srai>RPLCE</srai></template>
+<pattern>BUY * REPLACE *</pattern>
+<template><srai>RPLCE</srai></template>
 </category>
 
 </aiml>

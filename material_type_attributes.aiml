@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Copyright 2011-2012 David W. Newyear-->
+
+ <!-- Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.-->
+  
+
+
+<!--MATERIAL TYPE ATTRIBUTES-->
+
+<topic name="ADBK ATTRIBUTES">  
+<category>
+<pattern>ADBKS</pattern>
+<template>
+<think>
+<set name="itype">Audiobooks</set>
+<set name="co limit">20</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.10 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">ADBK ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="BOOK ATTRIBUTES">
+<category>
+<pattern>BKS</pattern>
+<template>
+<think>
+<set name="itype">Books</set>
+<set name="co limit">any many as you wish. No limit.</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.10 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">BOOK ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="CD ATTRIBUTES">
+<category>
+<pattern>CDS</pattern>
+<template>
+<think>
+<set name="itype">CDs</set>
+<set name="co limit">20</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.10 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">CD ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="DVD ATTRIBUTES">
+<category>
+<pattern>DVDS</pattern>
+<template>
+<think>
+<set name="itype">DVDs</set>
+<set name="co limit">15 DVDs or 10 DVD sets</set>
+<set name="lper">one week for fiction DVDs, two weeks for nonfiction DVDs and DVD sets</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">DVD ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="FICDVD ATTRIBUTES">
+<category>
+<pattern>FICDVDS</pattern>
+<template>
+<think>
+<set name="itype">Fiction DVDs</set>
+<set name="co limit">15</set>
+<set name="lper">one week</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">FICDVD ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="NONFICDVD ATTRIBUTES">
+<category>
+<pattern>NONFICDVDS</pattern>
+<template>
+<think>
+<set name="itype">Nonfiction DVDs</set>
+<set name="co limit">15</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit"></set>
+<set name="material type attr">NONFICDVD ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="DVDSET ATTRIBUTES">
+<category>
+<pattern>DVDSETS</pattern>
+<template>
+<think>
+<set name="itype">DVD sets</set>
+<set name="co limit">10</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit"></set>
+<set name="material type attr">DVDSET ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="ODEBKS ATTRIBUTES">
+<category>
+<pattern>ODEBKS</pattern>
+<template>
+<think>
+<set name="itype">eBooks</set>
+<set name="co limit">5</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.00 per day. There are no fines on eBooks</set>
+<set name="rlimit">no renewal</set>
+<set name="material type attr">ODEBKS ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="MAG ATTRIBUTES">
+<category>
+<pattern>MAGS</pattern>
+<template>
+<think>
+<set name="itype">Magazines</set>
+<set name="co limit">unco limited</set>
+<set name="lper">two weeks</set>
+<set name="fine">$0.10 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">MAG ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic> 
+
+<topic name="VGM ATTRIBUTES">
+<category>
+<pattern>VGMS</pattern>
+<template>
+<think>
+<set name="itype">video games</set>
+<set name="co limit">one</set>
+<set name="lper">one week</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">VGM ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic> 
+
+<topic name="EDEV ATTRIBUTES">
+<category>
+<pattern>EDEVS</pattern>
+<template>
+<think>
+<set name="itype">eReaders</set>
+<set name="co limit">one per card</set>
+<set name="edve lper">two weeks</set>
+<set name="fine">$5.00 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">EDEV ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic> 
+
+<topic name="IPAD ATTRIBUTES">
+<category>
+<pattern>IPDS</pattern>
+<template>
+<think>
+<set name="itype">iPads</set>
+<set name="co limit">one per card</set>
+<set name="lper">three days</set>
+<set name="fine">$5.00 per day</set>
+<set name="rlimit">no renewal</set>
+<set name="material type attr">IPAD ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic> 
+
+<topic name="OL ATTRIBUTES">
+<category>
+<pattern>OL</pattern>
+<template>
+<think>
+<set name="itype">OhioLINK items</set>
+<set name="co limit">five</set>
+<set name="lper">three weeks</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">four</set>
+<set name="material type attr">OL ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic> 
+
+<topic name="OLM ATTRIBUTES">
+<category>
+<pattern>OLM</pattern>
+<template>
+<think>
+<set name="itype">OhioLINK media</set>
+<set name="co limit">five</set>
+<set name="lper">one week</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">no renewal</set>
+<set name="material type attr">OLM ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="SO ATTRIBUTES">
+<category>
+<pattern>SO</pattern>
+<template>
+<think>
+<set name="itype">SearchOhio items</set>
+<set name="co limit">25</set>
+<set name="lper">three weeks</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">three</set>
+<set name="material type attr">SO ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<topic name="SODVD ATTRIBUTES">
+<category>
+<pattern>SODVDS</pattern>
+<template>
+<think>
+<set name="itype">SearchOhio DVDs</set>
+<set name="co limit">25</set>
+<set name="lper">one week</set>
+<set name="fine">$0.50 per day</set>
+<set name="rlimit">three</set>
+<set name="material type attr">SODVD ATTRIBUTES</set>
+</think>
+<srai>MTSORT</srai>
+</template>
+</category>
+</topic>
+
+<!--END MATERIAL TYPE ATTRIBUTES-->
+
+<category>
+<pattern>MTSORT</pattern>
+<template>
+<think>
+<get name="attr1"/>
+<condition name="attr1">
+
+<li value="QUANT"><set name="message">co limit</set></li>
+<li value="LPER"><set name="message">lper</set></li>
+<li value="FINE"><set name="message">fine</set></li>
+<li value="RLIMIT"><set name="message">rlimit</set></li>  
+
+</condition>
+<think>
+<set name="topic"></set>
+</think>
+</think>
+
+<condition name="message">
+
+<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>  
+
+<li value="co limit"><srai>ITEMQUANT</srai></li>  
+<li value="lper"><srai>ITEMLPER</srai></li>  
+<li value="fine"><srai>ITEMFINE</srai></li>  
+<li value="rlimit"><srai>ITEMRLIMIT</srai></li>
+
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>ITEMQUANT0</pattern>
+<template>
+<think>
+<set name="topic"><get name="material type attr"/></set>
+</think>
+<srai>ITEMQUANT</srai>
+</template>
+</category>
+
+<category>
+<pattern>ITEMQUANT</pattern>
+<template>
+You may check out <get name="co limit"/> <get name="itype"/>. 
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>ITEMLPER0</pattern>
+<template>
+<think>
+<set name="topic"><get name="material type attr"/></set>
+</think>
+<srai>ITEMLPER</srai>
+</template>
+</category>
+
+<category>
+<pattern>ITEMLPER0</pattern>
+<template>
+<get name="itype"/> circulate for <get name="lper"/>. 
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+
+
+<category>
+<pattern>ITEMFINE0</pattern>
+<template>
+<think>
+<set name="topic"><get name="material type attr"/></set>
+</think>
+<srai>ITEMFINE</srai>
+</template>
+</category>
+
+<category>
+<pattern>ITEMFINE</pattern>
+<template>
+Overdue <get name="itype"/> accrue fines at a rate of <get name="fine"/>. 
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>ITEMRLIMIT0</pattern>
+<template>
+<think>
+<set name="topic"><get name="material type attr"/></set>
+</think>
+<srai>ITEMRLIMIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>ITEMRLIMIT</pattern>
+<template>
+<get name="itype"/> may be renewed <get name="rlimit"/> times. <get name="itype"/> may not be renewed
+if another patron has placed a hold on them.
+<think>
+<set name="topic"></set>
+</think>
+</template>
+</category>
+
+
+<!--
+
+<topic name="LPTPS">
+<category>
+<pattern>ATTR LPTPS</pattern>
+<template>
+<think>
+<set name="co limit"></set>
+<set name="lper"></set>
+<set name="fine"></set>
+<set name="rlimit"></set>
+</think>
+</template>
+</category>
+</topic> 
+-->
+
+</aiml>  

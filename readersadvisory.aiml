@@ -131,7 +131,6 @@ in a new window or tab. If you don't see the results, turn off your pop up block
 </template>
 </category>
 
-
 <category>
 <pattern>3RDRSAD</pattern>
 <template>I'm still learning how to do readers advisory, so I can only give you partial help. I'll look in Google for books like <star index="3"/>. This should open 

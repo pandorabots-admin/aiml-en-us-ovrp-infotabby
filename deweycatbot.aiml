@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -17,11 +17,6 @@
 
 
 <category>
-<pattern>DEWEY</pattern>
-<template>Dewey is a good friend of mine. She is the Akron-Summit County Public Library's cat bot. You can visit her <a href="http://www.akronlibrary.org/dewey.html" target="_blank"><b>here</b></a>. She'll be very glad to talk with you.</template>
-</category>
-
-<category>
 <pattern>* DEWEY</pattern>
 <template><srai>DEWEY</srai></template>
 </category>
@@ -30,7 +25,6 @@
 <pattern>* DEWEY * CAT</pattern>
 <template><srai>DEWEY</srai></template>
 </category>
-
 
 <category>
 <pattern>* DEWEY * CATBOT</pattern>
@@ -56,7 +50,6 @@
 <pattern>* AKRON S * CATBOT *</pattern>
 <template><srai>DEWEY</srai></template>
 </category>
-
 
 <category>
 <pattern>ASCPL * CATBOT</pattern>

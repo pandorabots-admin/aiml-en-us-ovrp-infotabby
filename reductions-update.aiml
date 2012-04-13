@@ -8,6 +8,27 @@
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!--  --> 
+
+<category>
+<pattern>OK</pattern>
+<template>
+<random>
+<li>OK</li>
+<li>Great</li>
+<li>Fine</li>
+<li>Alright</li>
+<li>Indeed</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>O K</pattern>
+<template>
+<srai>OK</srai>
+</template>
+</category>
+
 <category>
 <pattern>SORRY  *</pattern>
 <template>
@@ -210,14 +231,6 @@
 
 <category>
 <pattern>HOWEVER  *</pattern>
-<template>
-<srai>  <star /></srai>
-</template>
-</category>
-
-
-<category>
-<pattern>ALL  *</pattern>
 <template>
 <srai>  <star /></srai>
 </template>

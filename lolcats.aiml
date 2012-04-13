@@ -27,7 +27,7 @@
 </category>
 
 <category>
-<pattern>LOL CATS</pattern>
+<pattern>LOLCATS</pattern>
 <template><srai>LOLCATS</srai></template>
 </category>
  
@@ -37,7 +37,7 @@
 </category>
 
 <category>
-<pattern>* LOL CATS</pattern>
+<pattern>* LOLCATS</pattern>
 <template><srai>LOLCATS</srai></template>
 </category>
 
@@ -47,7 +47,7 @@
 </category>
 
 <category>
-<pattern>* LOL CATS *</pattern>
+<pattern>* LOLCATS *</pattern>
 <template><srai>LOLCATS</srai></template>
 </category>
 
@@ -57,7 +57,7 @@
 </category>
 
 <category>
-<pattern>LOL CATS *</pattern>
+<pattern>LOLCATS *</pattern>
 <template><srai>LOLCATS</srai></template>
 </category>
 

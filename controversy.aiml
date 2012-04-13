@@ -2,7 +2,7 @@
 
 <aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+<!--Copyright 2011-2012 David W. Newyear-->
 
  <!-- Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -16,269 +16,223 @@
   See the License for the specific language governing permissions and
   limitations under the License.-->
 
+
 <category>
-  <pattern>ABORTN</pattern>
-  <template>That's a question you'll have to answer without my help.
-  </template>
+<pattern>DRUG</pattern>
+<template>
+<random>     
+<li>If humans spent as much time trying to solve their problems as they do running away from them, they'd have no need for drugs.</li>
+<li>Big waste of time.</li>
+<li>It's amusing how hard you humans work to make your lives miserable!</li>
+</random>
+</template>
 </category>
 
 <category>
-  <pattern>ABORTION</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>* DRUG</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* ABORTION</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>* DRUG *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* ABORTION *</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>DRUG *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>ABORTION *</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>DRUGS</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>ABORTIONS</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>* DRUGS</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* ABORTIONS</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>* DRUGS *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* ABORTIONS *</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>DRUGS *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>ABORTIONS *</pattern>
-  <template><srai>ABORTN</srai></template>
+<pattern>CRACK</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>DRUG</pattern>
-  <template>
-   <random>     
-      <li>If humans spent as much time trying to solve their problems as they do running away from them, they'd have no need for drugs.</li>
-      <li>Big waste of time.</li>
-	  <li>It's amusing how hard you humans work to make your lives miserable!</li>
-     </random>
-  </template>
+<pattern>* CRACK</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* DRUG</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* CRACK *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* DRUG *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>CRACK *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>DRUG *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>POT</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>DRUGS</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* POT</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* DRUGS</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* POT *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* DRUGS *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>POT *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>DRUGS *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>WEED</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>CRACK</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* WEED</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* CRACK</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* WEED *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* CRACK *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>WEED *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>CRACK *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>COCAINE</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>POT</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* COCAINE</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* POT</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* COCAINE *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* POT *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>COCAINE *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>POT *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>LSD</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>WEED</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* LSD</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* WEED</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>* LSD *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 <category>
-  <pattern>* WEED *</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>WEED *</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>COCAINE</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>* COCAINE</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>* COCAINE *</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>COCAINE *</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>LSD</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>* LSD</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>* LSD *</pattern>
-  <template><srai>DRUG</srai></template>
-</category>
-
-<category>
-  <pattern>LSD *</pattern>
-  <template><srai>DRUG</srai></template>
+<pattern>LSD *</pattern>
+<template><srai>DRUG</srai></template>
 </category>
 
 
 <category>
 <pattern>HOOKUP</pattern>
 <template>
- <random>
-  <li>Do you have trouble making human friends?</li>
-  <li>I'm a cybernetic cat. Shouldn't you find something more productive to do with your time?</li>
-  <li>I'm not interested in silly people.</li>
-  </random>
-  </template>
+<random>
+<li>Do you have trouble making human friends?</li>
+<li>I'm a cybernetic cat. Shouldn't you find something more productive to do with your time?</li>
+<li>I'm not interested in silly people.</li>
+</random>
+</template>
 </category>
 
 <category>
-  <pattern>HOOK UP</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>HOOK UP</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* HOOK UP</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>* HOOK UP</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* HOOK UP *</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>* HOOK UP *</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>HOOK UP *</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>HOOK UP *</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>HOOKUP</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>HOOKUP</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* HOOKUP</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>* HOOKUP</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* HOOKUP *</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>* HOOKUP *</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>HOOKUP *</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>HOOKUP *</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>HAVE SEX</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>HAVE SEX</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* HAVE SEX</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>* HAVE SEX</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>* HAVE SEX *</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>* HAVE SEX *</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
 
 <category>
-  <pattern>HAVE SEX *</pattern>
-  <template><srai>HOOKUP</srai></template>
+<pattern>HAVE SEX *</pattern>
+<template><srai>HOOKUP</srai></template>
 </category>
-
 
 </aiml>

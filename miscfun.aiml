@@ -107,72 +107,99 @@ If you're a human on Pluto, there are 90,472. If you're a dog on Pluto, you prob
 <template>117, 118, 119</template>
 </category>
 
-<!--DAVID AT MOL-->
-
+<!--DAVID RESIGN-->
 
 <category>
-<pattern>_ CREATOR * LAKE</pattern>
+<pattern>_ CREATOR LEAVE</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ CREATOR * LAKE *</pattern>
+<pattern>_ CREATOR LEAVE *</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ CREATOR * MOL</pattern>
+<pattern>_ CREATOR QUIT</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ CREATOR * MOL *</pattern>
+<pattern>_ CREATOR QUIT *</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ DAVID * LAKE</pattern>
+<pattern>_ CREATOR RESIGN</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ DAVID * LAKE *</pattern>
+<pattern>_ CREATOR RESIGN *</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ DAVID * MOL</pattern>
+<pattern>_ DAVID LEAVE</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>_ DAVID * MOL *</pattern>
+<pattern>_ DAVID LEAVE *</pattern>
 <template>
-<srai>DNATMOL</srai>
+<srai>DNQUIT</srai>
 </template>
 </category>
 
 <category>
-<pattern>DNATMOL</pattern>
+<pattern>_ DAVID QUIT</pattern>
+<template>
+<srai>DNQUIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID QUIT *</pattern>
+<template>
+<srai>DNQUIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID RESIGN</pattern>
+<template>
+<srai>DNQUIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DAVID RESIGN *</pattern>
+<template>
+<srai>DNQUIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>DNQUIT</pattern>
 <template>
 <think>
 <set name="topic">DTEST</set>
 </think>
-That's a secret. I bet you can't guess why he went to the Lake Branch. If you can, I'll give you a prize.
+That's a secret. I bet you can't guess why he resigned. If you can, I'll give you a prize.
 </template>
 </category>
 
@@ -184,33 +211,19 @@ That's a secret. I bet you can't guess why he went to the Lake Branch. If you ca
 <set name="answr"><star/></set>
 <set name="message">wrong answer</set>
 <condition name="answr">
-<li value="EBOOKS"><set name="message">official right answer</set></li>
-<li value="* EBOOKS"><set name="message">official right answer</set></li>
-<li value="EBOOKS *"><set name="message">official right answer</set></li>
-<li value="* EBOOKS *"><set name="message">official right answer</set></li>
-<li value="E BOOKS"><set name="message">official right answer</set></li>
-<li value="* E BOOKS"><set name="message">official right answer</set></li>
-<li value="E BOOKS *"><set name="message">official right answer</set></li>
-<li value="* E BOOKS *"><set name="message">official right answer</set></li>
-<li value="EREADERS"><set name="message">official right answer</set></li>
-<li value="* EREADERS"><set name="message">official right answer</set></li>
-<li value="EREADERS *"><set name="message">official right answer</set></li>
-<li value="* EREADERS *"><set name="message">official right answer</set></li>
-<li value="E READERS"><set name="message">official right answer</set></li>
-<li value="* E READERS"><set name="message">official right answer</set></li>
-<li value="E READERS *"><set name="message">official right answer</set></li>
-<li value="* E READERS *"><set name="message">official right answer</set></li>
-<li value="* TECHNOLOGY * BRANCH"><set name="message">official right answer</set></li>
-<li value="* TECHNOLOGY * BRANCH *"><set name="message">official right answer</set></li>
-<li value="COMPUTER CLASS"><set name="message">official right answer</set></li>
-<li value="* COMPUTER CLASS"><set name="message">official right answer</set></li>
-<li value="COMPUTER CLASS *"><set name="message">official right answer</set></li>
-<li value="* COMPUTER CLASS *"><set name="message">official right answer</set></li>
-<li value="COMPUTER CLASSES"><set name="message">official right answer</set></li>
-<li value="* COMPUTER CLASSES"><set name="message">official right answer</set></li>
-<li value="COMPUTER CLASSES *"><set name="message">official right answer</set></li>
-<li value="* COMPUTER CLASSES *"><set name="message">official right answer</set></li>
-<li value="* COMPUTER CLASSES * BRANCH"><set name="message">official right answer</set></li>
+<li value="WORK ON YOU"><set name="message">official right answer</set></li>
+<li value="* WORK ON YOU"><set name="message">official right answer</set></li>
+<li value="WORK ON YOU *"><set name="message">official right answer</set></li>
+<li value="* WORK ON YOU *"><set name="message">official right answer</set></li>
+<li value="WORKING ON YOU"><set name="message">official right answer</set></li>
+<li value="* WORKING ON YOU"><set name="message">official right answer</set></li>
+<li value="WORKING ON YOU *"><set name="message">official right answer</set></li>
+<li value="* WORKING ON YOU *"><set name="message">official right answer</set></li>
+<li value="BOT"><set name="message">official right answer</set></li>
+<li value="* BOT"><set name="message">official right answer</set></li>
+<li value="BOT *"><set name="message">official right answer</set></li>
+<li value="* BOT *"><set name="message">official right answer</set></li>
+
 <li value="GAS"><set name="message">real right answer</set></li>
 <li value="* GAS"><set name="message">real right answer</set></li>
 <li value="GAS *"><set name="message">real right answer</set></li>
@@ -253,13 +266,12 @@ That's a secret. I bet you can't guess why he went to the Lake Branch. If you ca
 <pattern>OFFLANSWRDN</pattern>
 <template>
 <random>
-<li>You are correct. David has been charged to bring more technology to the Lake Branch.</li>
+<li>You are correct. David resigned to have more time to work on me.</li>
 <li>You are correct. It's <get name="answr"/>.</li>
-<li>Right! David will be bringing lots of fun stuff to Lake. Laptops, Nooks, Kindles, iPads, and classes on how to use them all.</li>
+<li>Right! David left in order to develop me and other bots like me.</li>
 </random>
 </template>
 </category>
-
 
 <category>
 <pattern>RLANSWRDN</pattern>
@@ -272,14 +284,12 @@ That's a secret. I bet you can't guess why he went to the Lake Branch. If you ca
 </template>
 </category>
 
-
 <category>
 <pattern>GIVUPDN</pattern>
 <template>
 You can give up if you want to, but I'm not allowed to tell you. It's a secret. 
 </template>
 </category>
-
 
 <category>
 <pattern>*</pattern>
@@ -480,7 +490,6 @@ Yes my Lord.
 </category>
 </topic>
 
-
 <topic name="GOOGLE">
 <category>
 <pattern>GOOG</pattern>
@@ -504,7 +513,6 @@ Yes my Lord.
 </template>
 </category>
 </topic>
-
 
 <topic name="WXKURO">
  <category>
@@ -539,7 +547,6 @@ see it, turn off your pop up blocker and ask me again
 </category>
 </topic>
 
-
 <topic name="TEATIMEKURO">
 <category>
 <pattern>TEATIME</pattern>
@@ -551,8 +558,5 @@ see it, turn off your pop up blocker and ask me again
 </template>
 </category>
 </topic>
-
-
-
 
 </aiml>  
